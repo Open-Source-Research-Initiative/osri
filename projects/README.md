@@ -1,0 +1,9 @@
+# Research projects
+
+Each coherent research project gets one repository. It can span several areas and produce several publications.
+
+Start with an [idea](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas). A maintainer can help narrow the question and identify a human lead. Use [project-template](https://github.com/Open-Source-Research-Initiative/project-template) when ready.
+
+Ask an administrator to assign a stable ID, such as OSRI-0001, and add the project to [projects.csv](projects.csv). The directory links to each project's own record. The project README holds its current question, methods, and research state.
+
+The directory is initially empty. Infrastructure repositories and example topics are not research-project records. This is not an inventory of every collaborator's prior work.
