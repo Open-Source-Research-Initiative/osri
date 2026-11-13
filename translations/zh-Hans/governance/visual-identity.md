@@ -1,10 +1,8 @@
 # 视觉识别
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/governance/visual-identity.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/30e7f170c95442a08da107934cdd5be64b1098ec/governance/visual-identity.md)
 
-> 英文版已更新：OSRI 已选定 Prism 视觉方案。本译稿需要同步，仍待人工审核。
-
-仓库、研究领域、仿真实验室与元研究使用统一的 OSRI 视觉识别。已选择 Prism 视觉方案；请查看英文版获取最新使用指南。
+仓库、研究领域、仿真实验室与元研究使用 Prism 视觉识别。[视觉素材包（英文）](../../../identity/prism/README.md)包含可编辑标志、页头、社交分享图与视觉样式表。
 
 ## 名称与图形
 
@@ -13,6 +11,15 @@
 - 头像、页头、图标与发表成果卡片应沿用同一套标志和布局规则。
 - 保留可编辑源文件。矢量图使用 SVG，位图使用 PNG，打印版本使用 PDF。
 - 记录创作者、版本、所需字体与使用条款。
+
+## Prism 的使用
+
+- 保持各色块与中央空心菱形的原有布局。用于从右向左书写的文字时，不要镜像翻转标志。
+- 标志周围的留白至少与中央菱形等宽。布局允许时，将标志放在阅读起始侧。
+- 小头像单独使用图形标志。浅色块对比度不足时，使用[海军蓝底头像](../../../identity/prism/previews/avatar-512.png)或[单色标志](../../../identity/prism/sources/logo-monochrome.svg)。
+- 浅色背景用纸色 `#FAF9F3`，主要文字用海军蓝 `#102D48`，辅助文字用墨色 `#29485D`。[样式表（英文）](../../../identity/prism/previews/03-style-sheet.png)记录了完整配色。
+- 拉丁文字的标题与正文使用 Inter，短标签使用 IBM Plex Mono。为其他文字系统选择合适的配套字体。字体文件与许可说明位于素材包中。
+- 色块颜色用于装饰。不得只用颜色表达状态。每次使用时都应检查对比度。
 
 ## 可读性
 

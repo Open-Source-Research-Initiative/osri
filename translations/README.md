@@ -2,7 +2,7 @@
 
 English is the reference version. Simplified Chinese entry pages are drafts awaiting fluent human review.
 
-The profile, hub, project-template README, and visual identity guide need updates to reflect Prism. Their previous source versions remain recorded in the [page records](status.csv).
+The [page records](status.csv) identify each translation's English source version and review status.
 
 | Language | Status | Start here |
 | --- | --- | --- |
