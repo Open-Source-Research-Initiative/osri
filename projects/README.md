@@ -6,7 +6,9 @@ Start with an [idea](https://github.com/Open-Source-Research-Initiative/.github/
 
 Ask an administrator to assign a stable ID, such as OSRI-0001, and add the project to [projects.csv](projects.csv). The directory links to each project's own record. The project README holds its current question, methods, and research state.
 
-The directory is initially empty. Infrastructure repositories and example topics are not research-project records. This is not an inventory of every collaborator's prior work.
+The directory records accepted projects. Infrastructure repositories and example topics are not research-project records. This is not an inventory of every collaborator's prior work.
+
+[OSRI-0001: Medical XR](https://github.com/Open-Source-Research-Initiative/medical-xr-capability-evidence) brings an existing capability evidence map under Cole / @ajhcs. Scientific screening is paused; source adjudication, audits and human verification remain incomplete. Directory acceptance records project administration, not scientific validation or external peer review. Its own repository holds the locked question, methods, original-history provenance and current state. See its [bounded human source-check task](https://github.com/Open-Source-Research-Initiative/medical-xr-capability-evidence/issues/1).
 
 If no project task is available, [offer help in Q&A](../docs/find-help.md#find-collaborators-or-offer-help) or [try a first source comparison](../START_HERE.md#a-first-task-without-code). Use the [browser setup guide](../docs/browser-setup.md) to start a project, or [find collaborators](../docs/find-help.md). Ask a maintainer to confirm the human lead and next task.
 
