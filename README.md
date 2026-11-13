@@ -1,5 +1,7 @@
 # Open Source Research Initiative
 
+English | [简体中文（待审核）](translations/zh-Hans/README.md) | [Translation help](translations/README.md)
+
 OSRI brings people across fields together to conduct human-driven Agentic-Powered-Research. People choose the questions, check the evidence, and decide what is ready to share.
 
 ## Start here

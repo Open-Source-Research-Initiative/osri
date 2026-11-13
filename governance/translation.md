@@ -4,10 +4,9 @@ Contributors may use their preferred language. English is the initial reference 
 
 ## Languages
 
-- **Initial candidates:** Spanish, Simplified Chinese, Hindi, Arabic, French, and Brazilian Portuguese.
-- **Other candidates:** Bengali, Urdu, Indonesian, Russian, German, and Japanese.
+Start with **Simplified Chinese (`zh-Hans`)**. [French and Spanish maintainers are wanted](https://github.com/Open-Source-Research-Initiative/.github/discussions/3). Other languages are welcome.
 
-Other languages are welcome. Adjust the order for contributor needs and available reviewers.
+Find available pages and review status in the [translation directory](../translations/README.md).
 
 Start with READMEs, the getting-started guide, contribution rules, resource requests, and the project template. Then translate other guides and project summaries as needed.
 
