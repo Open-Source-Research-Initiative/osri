@@ -29,6 +29,7 @@ The [Simulation Lab guide](simulation-lab/README.md) supports computational expe
 - [Find resources](resources/README.md): public data, literature APIs, research software, and administrator access requests.
 - [Use tools consistently](tooling/workflows.md): inputs, outputs, and checks for common tasks. The [tool catalog](tooling/README.md) is optional.
 - [Read the rules](governance/contribution-standards.md), [find a project](projects/README.md), or [record a publication](publications/README.md).
+- Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).
 
 For confidential resource requests, contact [Cole](mailto:cole.lyons@pennmedicine.upenn.edu). The [request guide](governance/resource-requests.md) explains access and delivery.
 
