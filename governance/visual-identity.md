@@ -1,6 +1,6 @@
 # Visual identity
 
-Use one OSRI identity across repositories, research areas, the Simulation Lab, and meta-research. Final logos, colors, and fonts are still being selected.
+Use the Prism identity across repositories, research areas, the Simulation Lab, and meta-research. Find editable logos, headers, social images, and the visual style sheet in the [identity kit](../identity/prism/README.md).
 
 ## Name and graphics
 
@@ -9,6 +9,15 @@ Use one OSRI identity across repositories, research areas, the Simulation Lab, a
 - Derive avatars, headers, icons, and publication cards from the same logo and layout rules.
 - Keep editable sources. Use SVG for vector graphics, PNG for raster images, and PDF for print copies.
 - Record creators, versions, font dependencies, and reuse terms.
+
+## Prism application
+
+- Keep the facets and the central open diamond in their supplied arrangement. Do not mirror the mark for right-to-left text.
+- Leave clear space at least as wide as the central diamond around the mark. Place the mark at the reading edge where the layout permits.
+- Use the symbol alone for small avatars. Use the [navy-ground avatar](../identity/prism/previews/avatar-512.png) or the [monochrome symbol](../identity/prism/sources/logo-monochrome.svg) where the light-colored facets would lack contrast.
+- Use paper `#FAF9F3` for a light surface, navy `#102D48` for primary text, and ink `#29485D` for supporting text. The [style sheet](../identity/prism/previews/03-style-sheet.png) records the full palette.
+- Use Inter for Latin headings and body text and IBM Plex Mono for short labels. Choose a suitable supporting font for each script. Font files and notices are in the identity kit.
+- Keep facet colors decorative. Do not use color alone to communicate status. Check contrast in each actual use.
 
 ## Readability
 

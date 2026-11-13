@@ -2,6 +2,8 @@
 
 English is the reference version. Simplified Chinese entry pages are drafts awaiting fluent human review.
 
+The profile, hub, project-template README, and visual identity guide need updates to reflect Prism. Their previous source versions remain recorded in the [page records](status.csv).
+
 | Language | Status | Start here |
 | --- | --- | --- |
 | 简体中文 — Simplified Chinese | Draft; reviewer needed | [Chinese guides](zh-Hans/README.md) |
