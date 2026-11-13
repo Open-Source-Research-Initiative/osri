@@ -1,6 +1,6 @@
 # 用浏览器参与研究
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/main/docs/browser-setup.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/docs/browser-setup.md)
 
 阅读公开指南不需要账户。发帖或编辑文件前，请登录 GitHub。无须终端、智能体或安装软件。
 

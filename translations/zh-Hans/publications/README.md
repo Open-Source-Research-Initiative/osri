@@ -1,6 +1,6 @@
 # 研究发表成果
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/publications/README.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/publications/README.md)
 
 OSRI 支持期刊论文、完整会议论文、预印本，以及实质性的研究博客或技术文章。准确说明每项成果的同行评审状态。
 

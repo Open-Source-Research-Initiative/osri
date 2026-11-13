@@ -1,6 +1,6 @@
 # 公开并登记研究成果
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/main/publications/publish.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/publications/publish.md)
 
 草稿准备好接受人工评审时，使用本指南。将项目证据、局限和贡献署名与草稿一并保留。
 

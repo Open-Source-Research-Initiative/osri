@@ -1,6 +1,6 @@
 # 参与 OSRI
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/30e7f170c95442a08da107934cdd5be64b1098ec/CONTRIBUTING.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/CONTRIBUTING.md)
 
 从[研究入门指南](START_HERE.md)开始。在[问答区（Q&A）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=q-a)提问或申请公开资源，在[想法区（Ideas）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas)提出研究主题。
 

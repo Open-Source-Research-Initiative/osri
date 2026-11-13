@@ -1,6 +1,6 @@
 # 从问题到可以公开的研究成果
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/START_HERE.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/START_HERE.md)
 
 从你关心的问题开始，随着工作推进使用以下步骤。无须先读完整个资料中心。
 

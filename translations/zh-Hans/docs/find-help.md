@@ -2,7 +2,7 @@
 
 使用 [OSRI 问答区（Q&A）](https://github.com/orgs/Open-Source-Research-Initiative/discussions/new?category=q-a)。发帖前请登录。你可以使用自己偏好的语言。
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/main/docs/find-help.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/docs/find-help.md)
 
 ## 寻找协作者或提供帮助
 
