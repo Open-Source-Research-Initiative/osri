@@ -1,6 +1,6 @@
 # Research workflow profiles
 
-Use the closest profile for your task. Use these profiles with the [tooling guide](README.md) and [contribution standards](../governance/contribution-standards.md). Choose the closest profile and retain only the records the task needs. Skills, vendors, and manual methods are interchangeable implementations when they meet the agreed requirements. No agent subscription is required.
+Use the closest profile for your task. Use these profiles with the [tooling guide](README.md) and [contribution standards](../governance/contribution-standards.md). Keep only the records the task needs. Skills, vendors, and manual methods are interchangeable implementations when they meet the agreed requirements. No agent subscription is required.
 
 A small source lead can be a link and one sentence explaining its relevance, marked **unchecked**. It needs no full task form. For substantive work, the short [research task record](../templates/research-task.md) can help. Record planned checks before they run. Record actual checks afterward, including failures, omissions, and pending human review.
 

@@ -52,7 +52,7 @@ Two further candidates cover other needs. [Computable Systems Engineering](https
 
 ## Starter catalog and assessment limits
 
-The [11-entry catalog](research-tools.csv) records roles, official sources, license or service terms, access costs, dependencies, open outputs, and assessment status. Start with tools the task needs. Possible tools include bibliographic records and source checks, reproducible scripts for computation, and editable writing. A reference manager can help. Skills and commercial connectors are optional.
+[Browse the tool catalog](https://open-source-research-initiative.github.io/tools/) or [download CSV](research-tools.csv). Its 11 entries record roles, official sources, license or service terms, access costs, dependencies, open outputs, and assessment status. Start with tools the task needs. Possible tools include bibliographic records and source checks, reproducible scripts for computation, and editable writing. A reference manager can help. Skills and commercial connectors are optional.
 
 Selected installed instructions and upstream documentation were inspected. Some workflows use host-specific paths, launchers, services, or native dependencies. Review the selected workflow before using it on another system. The catalog records source versions and assessment limits.
 

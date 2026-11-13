@@ -23,7 +23,7 @@ Output type and peer-review status are recorded separately in the [publication r
 
 ## Contributor board
 
-No accepted contributions have been logged yet. Earlier GitHub activity is not automatically backfilled.
+No accepted contributions have been logged yet. Earlier GitHub activity is not automatically added.
 
 A shared task counts once overall and once for each credited person. Ties share a place. Task counts do not determine authorship or research quality.
 

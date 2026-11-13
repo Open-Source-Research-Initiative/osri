@@ -1,6 +1,6 @@
 # 翻译
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/governance/translation.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/governance/translation.md)
 
 参与者可以使用自己偏好的语言。共享指南初期以英文为参考版本。
 
@@ -17,7 +17,7 @@
 1. 使用 UTF-8 Markdown，放在 `translations/<language-tag>/<source-path>`，例如 `translations/es/START_HERE.md`。
 2. 记录原文路径、原文提交、语言标签、译者、审核者与审核日期。
 3. 保留科学含义、不确定性、数值、单位、标识符、代码与文件路径。
-4. 使用自然的技术语言。STE 指导英文写作，其他语言遵循各自的表达习惯。
+4. 使用自然的技术语言。简化技术英语（Simplified Technical English，STE）指导英文写作，其他语言遵循各自的表达习惯。
 5. 翻译图注、链接说明与图片替代文本。检查字体、换行和从右向左书写的文字。
 6. 用各语言自己的名称展示语言选项。使用文字链接，不用国旗。
 

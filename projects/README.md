@@ -8,6 +8,8 @@ Ask an administrator to assign a stable ID, such as OSRI-0001, and add the proje
 
 The directory is initially empty. Infrastructure repositories and example topics are not research-project records. This is not an inventory of every collaborator's prior work.
 
+If no project task is available, [offer help in Q&A](../docs/find-help.md#find-collaborators-or-offer-help) or [try a first source comparison](../START_HERE.md#a-first-task-without-code). Use the [browser setup guide](../docs/browser-setup.md) to start a project, or [find collaborators](../docs/find-help.md). Ask a maintainer to confirm the human lead and next task.
+
 ## Bring an existing project
 
 Bring the work when it reaches a suitable pause. Share its question, current state, human lead, existing repository, and next task with a maintainer.

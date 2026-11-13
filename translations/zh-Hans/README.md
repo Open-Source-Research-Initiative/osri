@@ -2,7 +2,7 @@
 
 # Open Source Research Initiative
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/30e7f170c95442a08da107934cdd5be64b1098ec/README.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/README.md)
 
 [English](../../README.md) | [翻译协作（英文）](../README.md)
 
@@ -38,7 +38,7 @@ OSRI 汇集不同领域的参与者，开展由人主导的 Agentic-Powered-Rese
 ## 按需查阅
 
 - [选择主题（英文）](../../topics/README.md)：十二个候选方向及已核实的示例论文。
-- [寻找资源（英文）](../../resources/README.md)：公开数据、文献 API、研究软件，以及向管理员申请资源的方式。
+- [寻找资源（英文）](../../resources/README.md)：公开数据、用于文献检索的应用程序编程接口（API）、研究软件，以及向管理员申请资源的方式。
 - [一致地使用工具（英文）](../../tooling/workflows.md)：常见任务的输入、输出与检查要求。[工具目录（英文）](../../tooling/README.md)供按需参考。
 - 阅读[贡献规范](governance/contribution-standards.md)、[查找项目（英文）](../../projects/README.md)，或[登记发表成果](publications/README.md)。
 - 遵循[写作](governance/writing-style.md)、[翻译](governance/translation.md)与[视觉识别](governance/visual-identity.md)指南。

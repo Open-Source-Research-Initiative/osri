@@ -15,7 +15,7 @@ Start with READMEs, the getting-started guide, contribution rules, resource requ
 1. Use UTF-8 Markdown in `translations/<language-tag>/<source-path>`, such as `translations/es/START_HERE.md`.
 2. Record the source path, source commit, language tag, translator, reviewer, and review date.
 3. Preserve scientific meaning, uncertainty, values, units, identifiers, code, and file paths.
-4. Use natural technical language. STE guides English writing; other languages have their own conventions.
+4. Use natural technical language. Simplified Technical English (STE) guides English writing; other languages have their own conventions.
 5. Translate captions, link descriptions, and alt text. Check fonts, line wrapping, and right-to-left text.
 6. Show language names in their own languages. Use text links rather than flags.
 

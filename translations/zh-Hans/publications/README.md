@@ -1,8 +1,10 @@
 # 研究发表成果
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/publications/README.md)
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/0d1653b5d4e4bc049e2b111e2c5f0760462270f5/publications/README.md)
 
 OSRI 支持期刊论文、完整会议论文、预印本，以及实质性的研究博客或技术文章。准确说明每项成果的同行评审状态。
+
+按照[公开并登记研究成果](publish.md)完成提交、修改、保存和登记。
 
 将已公开的成果加入 [publications.csv（英文记录）](../../../publications/publications.csv)。使用项目 ID、研究工作 ID 和单独的发表成果 ID。关联研究仓库与证据。
 

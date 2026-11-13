@@ -23,7 +23,7 @@ GITHUB = "https://github.com/Open-Source-Research-Initiative"
 FORUM = "https://github.com/orgs/Open-Source-Research-Initiative/discussions"
 ALIASES = {"START_HERE.md": "/start/", "CONTRIBUTING.md": "/contribute/", "community/ACTIVITY.md": "/activity/", "README.md": "/guides/osri/"}
 NAV = [("Start here", "/start/"), ("Research", "/research/"), ("Contribute", "/contribute/"), ("Resources", "/resources/"), ("Activity", "/activity/"), ("Guides", "/guides/"), ("Discussions ↗", FORUM)]
-AREAS = [("healthcare", "Healthcare", "Nonclinical public health and health systems research."), ("engineering", "Engineering", "Systems Engineering, Engineering Management, Operations Research, and Decision Science."), ("informatics", "Informatics", "Bioinformatics, information systems, and Computational Natural Sciences."), ("economics", "Economics", "Resources, incentives, public economics, research, and innovation."), ("social-behavioral-sciences", "Social and Behavioral Sciences", "Judgment, collaboration, organizations, and behavior."), ("public-policy", "Public Policy", "Policy analysis, evaluation, institutions, and governance.")]
+AREAS = [("healthcare", "Healthcare", "Nonclinical public health and health systems research."), ("engineering", "Engineering", "Systems Engineering, Engineering Management, Operations Research, and Decision Science. Initial work excludes physical laboratory experiments."), ("informatics", "Informatics", "Bioinformatics, information systems, and Computational Natural Sciences. Initial work excludes physical laboratory experiments."), ("economics", "Economics", "Resources, incentives, public economics, research, and innovation."), ("social-behavioral-sciences", "Social and Behavioral Sciences", "Judgment, collaboration, organizations, and behavior."), ("public-policy", "Public Policy", "Policy analysis, evaluation, institutions, and governance.")]
 
 
 def read_csv(path):
@@ -84,6 +84,8 @@ class Website:
     def rewrite(self, url, source="README.md", image=False):
         parsed = urlsplit(url)
         if parsed.scheme or parsed.netloc:
+            if parsed.netloc == urlsplit(ORIGIN).netloc and parsed.scheme in {"http", "https"}:
+                return (parsed.path or "/") + ("?" + parsed.query if parsed.query else "") + ("#" + parsed.fragment if parsed.fragment else "")
             prefix = f"{GITHUB}/osri/blob/main/"
             if url.startswith(prefix):
                 return self.rewrite("/" + url[len(prefix):], source, image)
@@ -143,9 +145,9 @@ class Website:
         source_note = link("View source on GitHub" if not chinese else "在 GitHub 查看原文", self.source_url(source)) if source else link("Source hub", f"{GITHUB}/osri")
         aside = ""
         if document:
-            items = [("Research guide", "/start/"), ("Ways to contribute", "/contribute/"), ("Research areas", "/research/"), ("Topics to explore", "/topics/"), ("Resources", "/resources/"), ("Tools and skills", "/tools/"), ("Writing and standards", "/guides/"), ("Community activity", "/activity/")]
+            items = [("Research guide", "/start/"), ("Ways to contribute", "/contribute/"), ("Browser setup", self.docs["docs/browser-setup.md"]), ("Collaborators and review", self.docs["docs/find-help.md"]), ("Research areas", "/research/"), ("Topics to explore", "/topics/"), ("Resources", "/resources/"), ("Tools and skills", "/tools/"), ("Publish and record", self.docs["publications/publish.md"]), ("Writing and standards", "/guides/"), ("Community activity", "/activity/")]
             if chinese:
-                items = [("中文首页", "/zh-hans/"), ("研究入门", "/zh-hans/start/"), ("参与方式", "/zh-hans/contribute/"), ("贡献规范", self.docs["translations/zh-Hans/governance/contribution-standards.md"]), ("资源申请", self.docs["translations/zh-Hans/governance/resource-requests.md"]), ("写作", self.docs["translations/zh-Hans/governance/writing-style.md"]), ("翻译", self.docs["translations/zh-Hans/governance/translation.md"]), ("视觉识别", self.docs["translations/zh-Hans/governance/visual-identity.md"])]
+                items = [("中文首页", "/zh-hans/"), ("研究入门", "/zh-hans/start/"), ("参与方式", "/zh-hans/contribute/"), ("浏览器入门", self.docs["translations/zh-Hans/docs/browser-setup.md"]), ("协作与评审", self.docs["translations/zh-Hans/docs/find-help.md"]), ("发表与登记", self.docs["translations/zh-Hans/publications/publish.md"]), ("贡献规范", self.docs["translations/zh-Hans/governance/contribution-standards.md"]), ("资源申请", self.docs["translations/zh-Hans/governance/resource-requests.md"]), ("写作", self.docs["translations/zh-Hans/governance/writing-style.md"]), ("翻译", self.docs["translations/zh-Hans/governance/translation.md"]), ("视觉识别", self.docs["translations/zh-Hans/governance/visual-identity.md"])]
             aside = '<aside class="guide-sidebar"><nav aria-label="Guide navigation">' + "".join(link(label, url) for label, url in items) + "</nav></aside>"
             content = f'<div class="document-layout">{aside}<article class="document">{content}<p class="source-note">{source_note}</p></article></div>'
         name = escape(title + " · OSRI" if title != "Open Source Research Initiative" else title)
@@ -195,19 +197,19 @@ class Website:
         if projects:
             body += '<div class="record-list">' + "".join(f'<article><p class="eyebrow">{escape(row["project_id"])}</p><h3>{link(row["title"], row["repository_url"])}</h3><p>{escape(row["areas"])}</p><p>Human lead: {escape(row["human_lead"])}</p></article>' for row in projects) + "</div>"
         else:
-            body += '<p>Projects will appear here when they join the register. Existing work can join when its lead is ready.</p>'
+            body += '<p>No registered project tasks are available to select yet. Existing work can join when its lead is ready.</p><div class="text-actions">' + link("Offer help in Q&A", FORUM + "/new?category=q-a") + link("Try a first source comparison", "/start/#a-first-task-without-code") + '</div>'
         body += '</section><div class="programs"><section class="program simulation"><h2>OSRI Simulation Lab</h2><p class="status">Proposed</p><p>Computational experiments across research areas, with documented assumptions, checks, and limits.</p>' + link("Read the lab guide", self.docs["simulation-lab/README.md"]) + '</section><section class="program practice"><h2>Research practice and meta-research</h2><p>Administrators study and improve research methods, evidence quality, reproducibility, and collaboration.</p>' + link("Read the shared responsibilities", self.docs["meta-research/README.md"]) + "</section></div>"
         self.write("/research/", self.layout("Research", body, active="/research/"))
 
     def render_resources(self):
         rows = read_csv("resources/resources.csv")
         areas = sorted({value.strip() for row in rows for value in row["areas"].split(";")})
-        body = self.heading("Resources", "Find the material you need", "Public data, literature APIs, research software, and access routes. Read each resource's terms and review notes before use.")
+        body = self.heading("Resources", "Find the material you need", "Public data, literature services, research software, and access routes. Read each resource's terms and review notes before use.")
         body += '<div class="text-actions">' + link("Request a resource", self.docs["governance/resource-requests.md"]) + link("Tools and research skills", "/tools/") + link("Download the catalog (CSV)", "/data/resources-resources.csv") + "</div>"
         body += '<section data-filter>' + self.filters("Search resources, formats, or uses", areas) + '<div class="record-list">'
         for row in rows:
             searchable = " ".join(row.values())
-            body += f'<article data-filter-item data-search="{escape(searchable, quote=True)}" data-area="{escape(row["areas"], quote=True)}"><p class="eyebrow">{escape(row["id"])} · {escape(row["areas"])}</p><h2>{link(row["name"], row["official_url"])}</h2><p>{escape(row["purpose"])}</p><div class="text-actions">{link("API or documentation", row["api_or_docs_url"])}{link("Terms", row["license_or_terms_url"])}</div><details><summary>Access, formats, and review notes</summary><dl>'
+            body += f'<article data-filter-item data-search="{escape(searchable, quote=True)}" data-area="{escape(row["areas"], quote=True)}"><p class="eyebrow">{escape(row["id"])} · {escape(row["areas"])}</p><h2>{link(row["name"], row["official_url"])}</h2><p>{escape(row["purpose"])}</p><div class="text-actions">{link("Documentation", row["api_or_docs_url"])}{link("Terms", row["license_or_terms_url"])}</div><details><summary>Access, formats, and review notes</summary><dl>'
             for label, key in [("Access", "access_model"), ("Account or key", "account_or_key"), ("Terms", "license_or_terms"), ("Exchange formats", "exchange_formats"), ("Catalog assessment", "assessment_status"), ("Checked", "checked_date"), ("Notes", "notes")]:
                 body += f'<dt>{label}</dt><dd>{escape(row[key])}</dd>'
             body += "</dl></details></article>"
@@ -217,10 +219,10 @@ class Website:
     def render_topics(self):
         rows = read_csv("topics/example-topics.csv")
         body = self.heading("Research topics", "A place to start thinking", "These candidate questions need further scoping, evidence checks, and novelty assessment. Refine one with collaborators before treating it as a research gap.")
-        body += '<div class="text-actions">' + link("How to choose a topic", self.docs["topics/README.md"]) + link("Propose a question ↗", FORUM + "/new?category=ideas") + "</div>"
+        body += '<div class="text-actions">' + link("How to choose a topic", self.docs["topics/README.md"]) + link("Download CSV", "/data/topics-example-topics.csv") + link("Propose a question ↗", FORUM + "/new?category=ideas") + "</div>"
         body += '<section data-filter>' + self.filters("Search topics or methods", sorted({row["area"] for row in rows})) + '<div class="record-list">'
         for row in rows:
-            body += f'<article data-filter-item data-search="{escape(" ".join(row.values()), quote=True)}" data-area="{escape(row["area"], quote=True)}"><p class="eyebrow">{escape(row["topic_id"])} · {escape(row["area"])}</p><h2>{escape(row["question"])}</h2><p>{escape(row["initial_approach"])}</p><details><summary>Feasibility, contribution, and example paper</summary><dl>'
+            body += f'<article id="{escape(row["topic_id"].lower(), quote=True)}" data-filter-item data-search="{escape(" ".join(row.values()), quote=True)}" data-area="{escape(row["area"], quote=True)}"><p class="eyebrow">{escape(row["topic_id"])} · {escape(row["area"])}</p><h2>{escape(row["question"])}</h2><p>{escape(row["initial_approach"])}</p><details><summary>Feasibility, contribution, and example paper</summary><dl>'
             for label, key in [("Access and feasibility", "access_and_feasibility"), ("Skills and compute", "skills_and_compute"), ("Contribution to test", "contribution_to_test"), ("Evidence limits", "evidence_qualification")]:
                 body += f'<dt>{label}</dt><dd>{escape(row[key])}</dd>'
             body += '</dl><p>' + link(row["official_source"], row["source_url"]) + '</p><p>Example paper: ' + link(row["example_paper_title"], row["example_paper_url"]) + f' ({escape(row["example_paper_year"])}).</p><p class="small">{escape(row["reference_verification"])}</p></details></article>'
@@ -228,7 +230,8 @@ class Website:
         self.write("/topics/", self.layout("Research topics", body, active="/research/"))
 
     def render_tools(self):
-        body = self.heading("Tools and skills", "Choose tools for the task", "Use your own agents, selected skills, or manual methods. Record versions and actual checks. This catalog is optional.") + '<div class="record-list">'
+        body = self.heading("Tools and skills", "Choose tools for the task", "Use your own agents, selected skills, or manual methods. Record versions and actual checks. This catalog is optional.")
+        body += '<div class="text-actions">' + link("Tool selection and assessment", self.docs["tooling/README.md"]) + link("Download CSV", "/data/tooling-research-tools.csv") + '</div><div class="record-list">'
         for row in read_csv("tooling/research-tools.csv"):
             urls = [value.strip() for value in row["official_sources"].split(";")]
             body += f'<article><p class="eyebrow">{escape(row["tool_id"])} · {escape(row["kind"])}</p><h2>{link(row["name"], urls[0])}</h2><p>{escape(row["role"])}</p><details><summary>Cost, compatibility, and assessment</summary><dl>'
@@ -240,7 +243,7 @@ class Website:
 
     def render_publications(self):
         body = self.heading("Publications", "Share and build on the work", "Journal articles, full conference papers, preprints, and substantive research blogs or technical essays. Output type and peer-review status are recorded separately.")
-        body += '<div class="text-actions">' + link("Counting and submission rules", self.docs["publications/README.md"]) + link("Recorded totals", "/activity/#publication-outputs") + link("Share an output ↗", FORUM + "/categories/show-and-tell") + "</div>"
+        body += '<div class="text-actions">' + link("Publish and record your research", self.docs["publications/publish.md"]) + link("Counting rules", self.docs["publications/README.md"]) + link("Recorded totals", "/activity/#publication-outputs") + link("Share an output ↗", FORUM + "/categories/show-and-tell") + "</div>"
         rows = [row for row in read_csv("publications/publications.csv") if row["status"] == "published"]
         if rows:
             body += '<div class="record-list">' + "".join(f'<article><p class="eyebrow">{escape(row["publication_type"])} · {escape(row["peer_review_status"])}</p><h2>{link(row["title"], row["url"])}</h2><p>{escape(row["authors"])}</p><p>{escape(row["first_published_date"])} · Work {escape(row["work_id"])}</p></article>' for row in rows) + "</div>"
@@ -250,14 +253,17 @@ class Website:
 
     def render_guides(self):
         body = self.heading("Guides", "Read, contribute, and keep the evidence", "Start with a small task. Use the detailed guides when your work needs them.")
-        body += '<section data-filter>' + self.filters("Search guides") + '<div class="guide-list">'
-        for path, url in self.docs.items():
-            if path.startswith("translations/") or path in {"README.md", "community/ACTIVITY.md"}:
-                continue
-            text = (HUB / path).read_text()
-            title = title_of(text, Path(path).stem)
-            body += f'<article data-filter-item data-search="{escape(title + " " + path + " " + text[:700], quote=True)}"><h2>{link(title, url)}</h2><p class="small">{escape(path.split("/")[0].replace(".md", "").replace("_", " "))}</p></article>'
-        body += '</div><p class="filter-empty" hidden>No guides match. Try another term.</p></section>'
+        first = ["START_HERE.md", "CONTRIBUTING.md", "docs/browser-setup.md", "docs/find-help.md", "topics/README.md", "resources/README.md", "tooling/workflows.md", "publications/publish.md", "publications/README.md"]
+        remaining = [path for path in self.docs if path not in first and not path.startswith("translations/") and path not in {"README.md", "community/ACTIVITY.md"}]
+        body += '<section data-filter>' + self.filters("Search guides")
+        for label, paths in [("Follow the research path", first), ("Reference guides", remaining)]:
+            body += f'<h2 class="guide-group-title">{label}</h2><div class="guide-list">'
+            for path in paths:
+                text = (HUB / path).read_text()
+                title = title_of(text, Path(path).stem)
+                body += f'<article data-filter-item data-search="{escape(title + " " + path + " " + text[:700], quote=True)}"><h3>{link(title, self.docs[path])}</h3><p class="small">{escape(path.split("/")[0].replace(".md", "").replace("_", " "))}</p></article>'
+            body += '</div>'
+        body += '<p class="filter-empty" hidden>No guides match. Try another term.</p></section>'
         self.write("/guides/", self.layout("Guides", body, active="/guides/"))
 
     def assets(self):
