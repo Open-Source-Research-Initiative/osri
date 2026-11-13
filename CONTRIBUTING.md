@@ -7,3 +7,5 @@ You can contribute a question, source, explanation, review, writing, data work, 
 Follow [OSRI-0.1.0](governance/contribution-standards.md). State the task, evidence, checks that occurred, and review still needed. Record material agent assistance. A person remains responsible for accepting changes and authorizing publication.
 
 Use issues for agreed tasks and pull requests for changes. Keep links to the discussion and relevant research project. For confidential matters, contact [Cole](mailto:cole.lyons@pennmedicine.upenn.edu).
+
+Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).
