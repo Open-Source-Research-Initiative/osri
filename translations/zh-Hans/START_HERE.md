@@ -4,11 +4,13 @@
 
 从你关心的问题开始，随着工作推进使用以下步骤。无须先读完整个资料中心。
 
+[尝试无须编程的资料比较](#无须编程的第一个任务)。[浏览器指南](docs/browser-setup.md)说明了如何提交结果或创建项目。
+
 ## 1. 找到有用的问题
 
 从专业工作、日常经历、阅读或跨领域交流中寻找问题。写明你想了解什么，以及谁可以使用答案。
 
-在[问答区（Q&A）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=q-a)提问，或在[想法区（Ideas）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas)分享想法。问题尚不成熟也可以提出。[主题指南（英文）](../../topics/README.md)与[示例主题（英文）](../../topics/example-topics.csv)可供参考。
+在[问答区（Q&A）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=q-a)提问，或在[想法区（Ideas）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas)分享想法。问题尚不成熟也可以提出。你可以使用自己偏好的语言。发帖前请登录 GitHub；阅读公开指南不需要账户。[主题指南（英文）](../../topics/README.md)与[可检索的示例主题（英文）](https://open-source-research-initiative.github.io/topics/)可供参考。你也可以[下载逗号分隔值（CSV）格式的主题表格](../../topics/example-topics.csv)。
 
 ## 2. 查阅最相关的已有工作
 
@@ -28,6 +30,8 @@
 
 在项目 README 中说明研究问题，并为第一个任务新建一个 issue。请管理员把项目加入[项目目录（英文）](../../projects/README.md)。一个项目可以跨越多个领域，并产生多项发表成果。
 
+按照[浏览器设置步骤](docs/browser-setup.md#创建项目)操作，或请维护者协助。[寻找协作者](docs/find-help.md)时，说明问题、第一个任务和所需帮助。将角色记在 `contributions.md` 中，并随着工作推进讨论作者署名。
+
 ## 5. 选择方法与少量工具
 
 阅读最相关的方法，选择适用的[工作流程（英文）](../../tooling/workflows.md)。比较资料可能只需笔记和电子表格；计算研究可能需要一个 R 或 Python 环境。
@@ -44,7 +48,7 @@
 
 ## 7. 寻求评审
 
-提交范围较小的拉取请求，或在论坛求助。不熟悉 Git 时，可以请维护者协助。
+提交范围较小的拉取请求，或[在 Q&A 申请评审](docs/find-help.md#申请评审)。关联草稿或结果、证据、检查和所需的专业知识。请维护者确认评审者和下一步。尚未完成的评审保持待评审状态。[浏览器指南](docs/browser-setup.md#提出文件修改)说明了拉取请求与维护者协助的方式。
 
 请人检查证据、解释、局限与署名。根据研究主张，寻求所需的领域与方法专家。说明还缺少哪些评审。智能体评审属于辅助工作，不能据此声称已完成独立人工评审。
 
@@ -58,12 +62,16 @@
 
 由项目的人类负责人授权公开经过评审的成果。准确说明同行评审状态，并在[成果分享区（Show and tell）](https://github.com/Open-Source-Research-Initiative/.github/discussions/categories/show-and-tell)发布。
 
+按照[公开并登记研究成果](publications/publish.md)选择渠道、准备文件、提交、处理修改并保存公开版本。提交前确认作者署名与贡献记录。
+
 将公开链接与成果类型加入[发表成果登记表](publications/README.md)。关联同一研究工作的不同成果，并按适用条款保留证据与可复用材料。
 
 ## 无须编程的第一个任务
 
-从示例目录的 H02 主题开始：服务仿真如何表示预约失约与服务可及性。先找三篇密切相关的论文。
+从[示例主题 H02（英文）](https://open-source-research-initiative.github.io/topics/#h02)开始：服务仿真如何表示预约失约与服务可及性。先找三篇密切相关的论文。
 
 用小表格记录每篇论文的问题、假设、可及性指标与支持段落。无法获得的材料标为未核查，并寻求帮助。比较各篇论文支持什么，以及仍有哪些不确定性。
+
+通过[浏览器贡献方式](docs/browser-setup.md#提交第一项贡献)分享表格，并请维护者把它加入研究记录。无须终端、智能体或安装软件。
 
 这是一项学习任务，还不是完整综述，也不能证明存在研究空白。如果形成了有用的问题，再与协作者确定检索和研究方法。提出新发现之前，先建立证据基础。

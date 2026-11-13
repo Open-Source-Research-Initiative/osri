@@ -10,7 +10,7 @@ The [activity board](ACTIVITY.md) shows accepted contributions and recorded rese
 - A shared task counts once in the organization total and once for each credited person.
 - The board ranks people by accepted-task count; ties share a place. Work types remain visible. This count does not determine research quality or authorship.
 
-Publication outputs and distinct research works are counted separately using the [publication rules](../publications/README.md). The board covers recorded work only. Earlier activity is not automatically backfilled.
+Publication outputs and distinct research works are counted separately using the [publication rules](../publications/README.md). The board covers recorded work only. Earlier activity is not automatically added.
 
 ## Add a contribution
 

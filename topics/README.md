@@ -25,7 +25,7 @@ Use these questions to compare a small set of ideas. Write the evidence and rema
 | People and resources | Identify the domain and methods help needed, a human lead, and a small first task. Estimate storage, memory, runtime, software, and any paid access from a bounded pilot before proposing a larger study. Available compute does not establish scientific validity. |
 | Contribution and output | State what a reader would learn beyond the closest work, even if the result is negative. Identify a useful first artifact and a plausible audience. Keep publication form provisional until the evidence and venue scope are clear. |
 
-Start searches with synonyms for the question's main concepts, then follow references backward and citations forward from the closest papers. Use databases that cover the field; PubMed alone cannot map engineering, economics, or policy research. Search counts, citation counts, an author's publication record, and an agent's answer do not establish novelty. Read the nearest work before describing an idea as a gap.
+Start searches with synonyms for the question's main concepts. From the closest papers, check their references and papers that cite them. Use databases that cover the field; PubMed alone cannot map engineering, economics, or policy research. Search counts, citation counts, an author's publication record, and an agent's answer do not establish novelty. Read the nearest work before describing an idea as a gap.
 
 Public data also require careful interpretation. For example, the [BRFSS documentation](https://www.cdc.gov/brfss/annual_data/annual_2024.html) describes weighting, coverage, comparability, and changes to its public file. The [Consumer Expenditure Survey](https://www.bls.gov/cex/pumd.htm) distinguishes public microdata from published tables and provides a guide for reproducing those tables. Those details can change whether a question is answerable.
 
@@ -73,7 +73,7 @@ What would make us narrow, change, or stop this approach:
 
 ## Example questions to explore
 
-The [example-topic catalog](example-topics.csv) contains twelve **IDEAS**, two per area. Each row includes a question, initial approach, official source, skills and compute needs, and possible outputs. It also includes a verified example paper or methods paper. The examples demonstrate approaches; they do not establish that the candidate questions are new. All ideas remain pending scope, literature, data, reuse, and methods checks.
+[Browse the example topics](https://open-source-research-initiative.github.io/topics/) or [download the comma-separated values (CSV) table](example-topics.csv). The catalog contains twelve **IDEAS**, two per area. Each row includes a question, initial approach, official source, skills and compute needs, and possible outputs. It also includes a verified example paper or methods paper. The examples demonstrate approaches; they do not establish that the candidate questions are new. All ideas remain pending scope, literature, data, reuse, and methods checks.
 
 | IDs | Area | Candidate focus |
 | --- | --- | --- |

@@ -34,7 +34,7 @@ The [Simulation Lab guide](simulation-lab/README.md) supports computational expe
 ## Use references when needed
 
 - [Choose a topic](topics/README.md): twelve candidate ideas and verified example papers.
-- [Find resources](resources/README.md): public data, literature APIs, research software, and administrator access requests.
+- [Find resources](resources/README.md): public data, application programming interfaces (APIs) for finding literature, research software, and administrator access requests.
 - [Use tools consistently](tooling/workflows.md): inputs, outputs, and checks for common tasks. The [tool catalog](tooling/README.md) is optional.
 - [Read the rules](governance/contribution-standards.md), [find a project](projects/README.md), or [record a publication](publications/README.md).
 - Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).

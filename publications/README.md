@@ -2,6 +2,8 @@
 
 OSRI supports journal articles, full conference papers, preprints, and substantive research blogs or technical essays. State each output's peer-review status accurately.
 
+Follow [Publish and record your research](publish.md) for submission, revision, preservation, and registration steps.
+
 Add public outputs to [publications.csv](publications.csv). Use a project ID, a research-work ID, and a separate publication ID. Link the output to its research repository and evidence.
 
 If you need help, send a maintainer the public link, output type, project, and peer-review status. They can assign IDs and complete the record. You can start in [Show and tell](https://github.com/Open-Source-Research-Initiative/.github/discussions/categories/show-and-tell).

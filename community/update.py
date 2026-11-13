@@ -131,7 +131,7 @@ def build(root=ROOT):
         "## Contributor board", "",
     ]
     if not people:
-        lines.append("No accepted contributions have been logged yet. Earlier GitHub activity is not automatically backfilled.")
+        lines.append("No accepted contributions have been logged yet. Earlier GitHub activity is not automatically added.")
     else:
         lines += ["| Place | Contributor | Accepted tasks | Work types | Latest acceptance |", "| ---: | --- | ---: | --- | --- |"]
         previous, place = None, 0

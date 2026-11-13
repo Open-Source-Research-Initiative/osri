@@ -4,6 +4,8 @@
 
 OSRI 支持期刊论文、完整会议论文、预印本，以及实质性的研究博客或技术文章。准确说明每项成果的同行评审状态。
 
+按照[公开并登记研究成果](publish.md)完成提交、修改、保存和登记。
+
 将已公开的成果加入 [publications.csv（英文记录）](../../../publications/publications.csv)。使用项目 ID、研究工作 ID 和单独的发表成果 ID。关联研究仓库与证据。
 
 需要帮助时，向维护者提供公开链接、成果类型、项目与同行评审状态。维护者可以分配 ID 并补全记录。你可以从[成果分享区（Show and tell）](https://github.com/Open-Source-Research-Initiative/.github/discussions/categories/show-and-tell)开始。
