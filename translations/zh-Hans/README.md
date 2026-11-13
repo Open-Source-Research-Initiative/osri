@@ -2,6 +2,8 @@
 
 > **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/README.md)
 
+> 英文页面的视觉识别与研究流程说明已更新；本译稿需要同步，仍待人工审核。
+
 [English](../../README.md) | [翻译协作（英文）](../README.md)
 
 OSRI 汇集不同领域的参与者，开展由人主导的 Agentic-Powered-Research。人来选择问题、核查证据，并决定哪些成果可以公开。

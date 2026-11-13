@@ -1,3 +1,5 @@
+![OSRI: Start with a question. Open guides, topics, and shared methods.](identity/prism/previews/header-hub.png)
+
 # Open Source Research Initiative
 
 English | [简体中文（待审核）](translations/zh-Hans/README.md) | [Translation help](translations/README.md)
@@ -11,6 +13,10 @@ OSRI brings people across fields together to conduct human-driven Agentic-Powere
 3. When a project is ready, use the [project template](https://github.com/Open-Source-Research-Initiative/project-template). Each research project gets its own repository.
 
 A browser is enough to begin. You can contribute sources, explanations, reviews, writing, data work, code, or models. Your own agent is welcome. No paid agent, plugin bundle, or coding experience is required to start.
+
+## Follow the research
+
+Research can move from a question through evidence, analysis, human review, writing, and publication. The stages can repeat or overlap. People direct the work and authorize publication. Explore the [research journey](identity/prism/research-journey.md).
 
 ## Research areas
 
@@ -32,6 +38,7 @@ The [Simulation Lab guide](simulation-lab/README.md) supports computational expe
 - [Use tools consistently](tooling/workflows.md): inputs, outputs, and checks for common tasks. The [tool catalog](tooling/README.md) is optional.
 - [Read the rules](governance/contribution-standards.md), [find a project](projects/README.md), or [record a publication](publications/README.md).
 - Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).
+- Explore the [Prism landing-page source](site/README.md).
 
 For confidential resource requests, contact [Cole](mailto:cole.lyons@pennmedicine.upenn.edu). The [request guide](governance/resource-requests.md) explains access and delivery.
 

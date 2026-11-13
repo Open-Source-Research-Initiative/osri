@@ -2,7 +2,9 @@
 
 > **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/governance/visual-identity.md)
 
-仓库、研究领域、仿真实验室与元研究使用统一的 OSRI 视觉识别。最终的标志、颜色与字体仍在选择中。
+> 英文版已更新：OSRI 已选定 Prism 视觉方案。本译稿需要同步，仍待人工审核。
+
+仓库、研究领域、仿真实验室与元研究使用统一的 OSRI 视觉识别。已选择 Prism 视觉方案；请查看英文版获取最新使用指南。
 
 ## 名称与图形
 
