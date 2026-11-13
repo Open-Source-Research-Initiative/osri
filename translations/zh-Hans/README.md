@@ -1,8 +1,8 @@
+![OSRI：从问题开始。开放指南、主题与共同方法。](../../identity/prism/previews/header-hub.png)
+
 # Open Source Research Initiative
 
-> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/a7b0e61f1a33fece8873bc9574d747da0a7615b6/README.md)
-
-> 英文页面的视觉识别与研究流程说明已更新；本译稿需要同步，仍待人工审核。
+> **待审核译稿（draft）** · 译者：Codex · 人工审核：待定 · [英文参考原文](https://github.com/Open-Source-Research-Initiative/osri/blob/30e7f170c95442a08da107934cdd5be64b1098ec/README.md)
 
 [English](../../README.md) | [翻译协作（英文）](../README.md)
 
@@ -14,9 +14,13 @@ OSRI 汇集不同领域的参与者，开展由人主导的 Agentic-Powered-Rese
 2. 在[问答区（Q&A）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=q-a)提问，或在[想法区（Ideas）](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas)提出研究主题。
 3. 项目准备就绪后，使用[项目模板（中文待审核译稿）](https://github.com/Open-Source-Research-Initiative/project-template/blob/main/translations/zh-Hans/README.md)。每个研究项目使用独立的仓库。
 
-有浏览器就可以开始。你可以提供资料、解释、评审、写作、数据处理、代码或模型。欢迎使用自己的智能体。入门不要求付费智能体、插件套装或编程经验。
+有浏览器就可以开始。[选择一项贡献](CONTRIBUTING.md)：资料、解释、评审、写作、数据处理、代码或模型。欢迎使用自己的智能体。入门不要求付费智能体、插件套装或编程经验。
 
-[参与指南](CONTRIBUTING.md) · [社区行为准则](CODE_OF_CONDUCT.md)
+[社区行为准则](CODE_OF_CONDUCT.md)
+
+## 了解研究过程
+
+研究可以从问题出发，经过证据、分析、人工评审、写作与发表。各阶段可以重复或重叠。由人指导工作并授权发表。查看[研究流程（英文）](../../identity/prism/research-journey.md)。
 
 ## 研究领域
 
@@ -38,6 +42,8 @@ OSRI 汇集不同领域的参与者，开展由人主导的 Agentic-Powered-Rese
 - [一致地使用工具（英文）](../../tooling/workflows.md)：常见任务的输入、输出与检查要求。[工具目录（英文）](../../tooling/README.md)供按需参考。
 - 阅读[贡献规范](governance/contribution-standards.md)、[查找项目（英文）](../../projects/README.md)，或[登记发表成果](publications/README.md)。
 - 遵循[写作](governance/writing-style.md)、[翻译](governance/translation.md)与[视觉识别](governance/visual-identity.md)指南。
+- 查看[贡献与研究成果记录（英文）](../../community/ACTIVITY.md)。
+- 查看 [Prism 介绍页源文件（英文）](../../site/README.md)。
 
 涉及保密信息的资源请求，请联系 [Cole](mailto:cole.lyons@pennmedicine.upenn.edu)。[申请指南](governance/resource-requests.md)说明了访问与交付方式。
 
