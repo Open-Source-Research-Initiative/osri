@@ -12,7 +12,7 @@ OSRI brings people across fields together to conduct human-driven Agentic-Powere
 2. Bring a question to [Q&A](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=q-a) or propose a topic in [Ideas](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas).
 3. When a project is ready, use the [project template](https://github.com/Open-Source-Research-Initiative/project-template). Each research project gets its own repository.
 
-A browser is enough to begin. You can contribute sources, explanations, reviews, writing, data work, code, or models. Your own agent is welcome. No paid agent, plugin bundle, or coding experience is required to start.
+A browser is enough to begin. [Choose a contribution](CONTRIBUTING.md): sources, explanations, reviews, writing, data work, code, or models. Your own agent is welcome. No paid agent, plugin bundle, or coding experience is required to start.
 
 ## Follow the research
 
@@ -38,6 +38,7 @@ The [Simulation Lab guide](simulation-lab/README.md) supports computational expe
 - [Use tools consistently](tooling/workflows.md): inputs, outputs, and checks for common tasks. The [tool catalog](tooling/README.md) is optional.
 - [Read the rules](governance/contribution-standards.md), [find a project](projects/README.md), or [record a publication](publications/README.md).
 - Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).
+- See [contributor activity and recorded research outputs](community/ACTIVITY.md).
 - Explore the [Prism landing-page source](site/README.md).
 
 For confidential resource requests, contact [Cole](mailto:cole.lyons@pennmedicine.upenn.edu). The [request guide](governance/resource-requests.md) explains access and delivery.
