@@ -164,15 +164,15 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Comparison with the paper:** Independent paper-table extraction agrees with author data; does not reproduce or validate a new solver run. Original optimization remains blocked by a verified expired solver license.
 
-**Execution result:** Recovered exact author runtime/source; Gurobi9.1.2 throws License expired2022-01-13 even for a minimal prerequisite. Analyzed saved outputs separately:3969rows/441configurations, all9published ranges agree within rounding.
+**Execution result:** Completed archived-data analysis:3969rows/441configurations, all9Table1ranges agree within rounding. Separate fresh open-solver follow-up confirmed GLPK5.0/Pyomo6.0.1 interface compatibility, then attempted the exact original model constructor; it failed a12GiB address-space budget with an8.05GiB Unicode allocation before native inputs or any study solve.
 
 **Execution evidence:** [Author-code attempt](../reproductions/calliope.md); [Run record](../reproductions/records/calliope.json)
 
-**Blockers:** Original Gurobi9.1.2 solver runtime fails: License expired2022-01-13.; New optimization not performed; a qualified open-solver port or working original license and substantial compute are needed.
+**Blockers:** Exact author input constructor failed under a scoped12GiB process address-space limit:8.05GiB Unicode array allocation shape6491x8760,dtype<U38; peakRSS8993384KiB. This is a bounded resource outcome, not proof the host or an open solver inherently cannot solve the LP.; No compiled input arrays/LP exist in the two author archives, and native input construction did not complete; a fresh same-model backend/optimization was not reached.; Earlier originalGurobi9.1.2 prerequisite failed with an expired license. Existing GLPK5.0 is compatible with authorPyomo6.0.1; license expiry is not a general open-solver blocker.
 
-**Next action:** Secure an authorized compatible solver or qualify an open-solver port, then solve one archived baseline with objective/feasibility/capacity comparisons before ensemble runs. Saved-output guide is usable now.
+**Next action:** Qualify unchanged input construction in a provisioned environment or verify a memory representation improvement, persist native arrays, then run the same LP using the declared open-solver protocol and compare objective/residuals/capacities. Keep archived-data analysis separate.
 
-**Gaps:** Original Gurobi9.1.2 solver runtime fails: License expired2022-01-13.; New optimization not performed; a qualified open-solver port or working original license and substantial compute are needed.
+**Gaps:** Exact author input constructor failed under a scoped12GiB process address-space limit:8.05GiB Unicode array allocation shape6491x8760,dtype<U38; peakRSS8993384KiB. This is a bounded resource outcome, not proof the host or an open solver inherently cannot solve the LP.; No compiled input arrays/LP exist in the two author archives, and native input construction did not complete; a fresh same-model backend/optimization was not reached.; Earlier originalGurobi9.1.2 prerequisite failed with an expired license. Existing GLPK5.0 is compatible with authorPyomo6.0.1; license expiry is not a general open-solver blocker.
 
 ### Sources for calliope
 
@@ -475,7 +475,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Tellurium** — Can a standards-based archive regenerate the paper's Drosophila cell-cycle simulations?
 
-**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Selected paper target compared. **Source confidence:** high.
 
 ### Paper for tellurium
 

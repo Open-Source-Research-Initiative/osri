@@ -276,7 +276,7 @@ Finite-element PDE models in Python and C++.
 
 **Literature:** [Adaptive Finite Element Methods Based on Flux Equilibration Using FEniCSx (2026)](bibliography.md#replication-dolfinx)
 
-**Walkthrough:** [FEniCSx / DOLFINx](reproductions/dolfinx.md) — Selected published target compared; human review pending
+**Walkthrough:** [FEniCSx / DOLFINx](reproductions/dolfinx.md) — Selected paper target compared; human review pending
 
 **Research construction route:** [Adaptive Finite Element Methods Based on Flux Equilibration Using FEniCSx](research/robotics-fem-cfd.md#dolfinx) — reproduced target. See the source and comparison assessment.
 
@@ -730,7 +730,7 @@ Trajectory-based discrete-event simulation in R.
 
 **Literature:** [simmer: Discrete-Event Simulation for R (2019)](bibliography.md#simmer)
 
-**Walkthrough:** [The published M/M/1 queue and its replication interval](reproductions/simmer.md) — Selected published target compared; human review pending
+**Walkthrough:** [The published M/M/1 queue and its replication interval](reproductions/simmer.md) — Selected paper target compared; human review pending
 
 **Research construction route:** [simmer: Discrete-Event Simulation for R](research/agents-operations.md#simmer) — reproduced target. See the source and comparison assessment.
 
@@ -926,7 +926,7 @@ Reproducible systems-biology models and simulation experiments.
 
 **Literature:** [Tellurium notebooks—An environment for reproducible dynamical modeling in systems biology (2018)](bibliography.md#tellurium)
 
-**Walkthrough:** [Tellurium Calzone archive: selected Figure4B Wee1c comparison](reproductions/tellurium.md) — Selected published target compared; human review pending
+**Walkthrough:** [Tellurium Calzone archive: selected Figure4B Wee1c comparison](reproductions/tellurium.md) — Selected paper target compared; human review pending
 
 **Research construction route:** [Tellurium notebooks—An environment for reproducible dynamical modeling in systems biology](research/energy-natural-sciences.md#tellurium) — reproduced target. See the source and comparison assessment.
 
@@ -960,7 +960,7 @@ Packet-level network simulation.
 
 **Literature:** [Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel (2024)](bibliography.md#replication-ns-3-dev-git)
 
-**Walkthrough:** [Unison: Table 2 and thread determinism](reproductions/ns-3-dev-git.md) — Selected published target compared; human review pending
+**Walkthrough:** [Unison: Table 2 and thread determinism](reproductions/ns-3-dev-git.md) — Selected paper target compared; human review pending
 
 **Research construction route:** [Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel](research/agents-operations.md#ns-3-dev-git) — reproduced target. See the source and comparison assessment.
 

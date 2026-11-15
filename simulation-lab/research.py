@@ -23,7 +23,7 @@ STATES = {
     'attempted_blocked': 'Attempted; blocked',
     'executed_example': 'Example executed',
     'analysed_saved_output': 'Saved author outputs analysed; simulator not run',
-    'reproduced_target': 'Published target compared',
+    'reproduced_target': 'Selected paper target compared',
 }
 GROUPS = {
     'scenes-robotics': 'Scenes and robotics',

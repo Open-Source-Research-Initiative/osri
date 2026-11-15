@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent
 DIRECTORY = ROOT / 'reproductions'
 EXPECTED_TOOLS = frozenset(('blender', 'gz-sim', 'bullet3', 'carla', 'precice', 'dolfinx', 'dealii', 'ngspice', 'dualsphysics', 'engine', 'hark', 'tax-calculator', 'simmer', 'pandapower', 'calliope', 'sumo', 'tellurium', 'brian2', 'ns-3-dev-git', 'simgrid', 'dynare'))
 STATUS = {
-    'target_compared': 'Published target compared',
+    'target_compared': 'Selected paper target compared',
     'author_code_executed': 'Author code executed',
     'adapted_run': 'Adapted run executed',
     'analysed_saved_output': 'Saved outputs analysed; simulation not rerun',

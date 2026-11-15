@@ -1,0 +1,30 @@
+{
+  "declared_at": "2026-11-15T21:29:15.652830+00:00",
+  "scope": "New GLPK adaptation attempt for exact archived98-region2018/2h scenario. Separate from successful saved-output Table1 analysis.",
+  "source_model_archive": "10.5281/zenodo.5774988",
+  "source_result_archive": "10.5281/zenodo.6546817",
+  "scenario": "industry_fuel_shared,transport,heat,config_overrides,res_2h,gas_storage,link_cap_dynamic,freeze-hydro-capacities,add-biofuel",
+  "reference_cost_rows": 2457,
+  "reference_objective_billion_2015eur": 849.8662003464812,
+  "reference_capacity_tw": {
+    "battery": 0.03867687138908709,
+    "open_field_pv": 2.6608586895612407,
+    "roof_mounted_pv": 0.0003750053912866422,
+    "wind_offshore": 0.0003087885922298488
+  },
+  "unit_basis": "Input energy-capacity units100000MW=0.1TW and monetary unit10000EUR/MWh times100000MWh=1billionEUR; compare native monetary objective directly with sum of archived per-location/technology total_system_cost. Confirm source units before accepting.",
+  "comparison_rule": {
+    "solver_termination": "optimal required for objective acceptance; feasible/time-limit point may be reported only as incomplete.",
+    "objective_relative_tolerance": 0.001,
+    "objective_tolerance_basis": "Analyst-selected0.1percent comparison threshold, looser than archived solver BarConvTol/OptimalityTol1e-4; not an article-prescribed empirical accuracy claim.",
+    "maximum_normalized_primal_violation": 0.001,
+    "residual_definition": "max violations over active Pyomo constraints, normalized by max(1,abs(body),abs(finite bounds)).",
+    "capacity_comparison": "Report per-technology aggregate TW differences; no exact equality required because near-optimal solutions may be degenerate. Capacity disagreement prevents any stronger reproduction claim."
+  },
+  "resource_limits": {
+    "max_preprocessing_and_build_seconds": 1200,
+    "max_solver_seconds": 600,
+    "process_memory_gib": 12
+  },
+  "changes": "Only solver/interface options changed to GLPK5.0 LP with tmlim600; retain modelinputs/geography/time/scenario/custom author constraints."
+}

@@ -299,7 +299,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **simmer** — Does the paper’s M/M/1 simulation agree with its queueing-theory baseline?
 
-**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Selected paper target compared. **Source confidence:** high.
 
 ### Paper for simmer
 
@@ -416,7 +416,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **ns-3** — Can Unison preserve packet/flow outcomes while speeding up ns-3 execution?
 
-**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** medium.
+**Route:** Paper result candidate. **Execution:** Selected paper target compared. **Source confidence:** medium.
 
 ### Paper for ns-3-dev-git
 

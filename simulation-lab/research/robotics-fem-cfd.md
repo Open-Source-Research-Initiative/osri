@@ -368,7 +368,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **FEniCSx / DOLFINx** — Can flux equilibration drive adaptive FEM to the published convergence and efficiency values?
 
-**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Selected paper target compared. **Source confidence:** high.
 
 ### Paper for dolfinx
 

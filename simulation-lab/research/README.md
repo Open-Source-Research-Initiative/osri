@@ -16,7 +16,7 @@ Researched 2026-11-15 at Cole / @ajhcs's request by six domain agents, with inte
 | Attempted; blocked | 3 |
 | Example executed | 19 |
 | Saved author outputs analysed; simulator not run | 1 |
-| Published target compared | 4 |
+| Selected paper target compared | 4 |
 
 | Relationship to the paper | Tools |
 | --- | ---: |
@@ -59,7 +59,7 @@ The per-tool next action identifies the remaining work. Restricted papers may be
 | [OpenFOAM (Foundation)](robotics-fem-cfd.md#openfoam-dev) | Paper model adaptation | Not run |
 | [SU2](robotics-fem-cfd.md#su2) | Paper model adaptation | Not run |
 | [preCICE](robotics-fem-cfd.md#precice) | Paper result candidate | Attempted; blocked |
-| [FEniCSx / DOLFINx](robotics-fem-cfd.md#dolfinx) | Paper result candidate | Published target compared |
+| [FEniCSx / DOLFINx](robotics-fem-cfd.md#dolfinx) | Paper result candidate | Selected paper target compared |
 | [deal.II](robotics-fem-cfd.md#dealii) | Paper result candidate | Attempted; blocked |
 | [MFEM](robotics-fem-cfd.md#mfem) | Software paper example | Example executed |
 | [MOOSE](robotics-fem-cfd.md#moose) | Paper model adaptation | Not run |
@@ -86,7 +86,7 @@ The per-tool next action identifies the remaining work. Restricted papers may be
 | [NetLogo](agents-operations.md#netlogo) | Software paper example | Not run |
 | [GAMA](agents-operations.md#gama) | Software paper example | Not run |
 | [Ciw](agents-operations.md#ciw) | Paper model adaptation | Example executed |
-| [simmer](agents-operations.md#simmer) | Paper result candidate | Published target compared |
+| [simmer](agents-operations.md#simmer) | Paper result candidate | Selected paper target compared |
 | [PyPSA](energy-natural-sciences.md#pypsa) | Paper model adaptation | Not run |
 | [pandapower](energy-natural-sciences.md#pandapower) | Paper result candidate | Example executed |
 | [Calliope](energy-natural-sciences.md#calliope) | Paper result candidate | Saved author outputs analysed; simulator not run |
@@ -97,9 +97,9 @@ The per-tool next action identifies the remaining work. Restricted papers may be
 | [WRF](energy-natural-sciences.md#wrf) | Paper model adaptation | Not run |
 | [OpenDrift](energy-natural-sciences.md#opendrift) | Paper model adaptation | Not run |
 | [COPASI](energy-natural-sciences.md#copasi) | Paper model adaptation | Not run |
-| [Tellurium](energy-natural-sciences.md#tellurium) | Paper result candidate | Published target compared |
+| [Tellurium](energy-natural-sciences.md#tellurium) | Paper result candidate | Selected paper target compared |
 | [Brian 2](energy-natural-sciences.md#brian2) | Paper result candidate | Example executed |
-| [ns-3](agents-operations.md#ns-3-dev-git) | Paper result candidate | Published target compared |
+| [ns-3](agents-operations.md#ns-3-dev-git) | Paper result candidate | Selected paper target compared |
 | [SimGrid](agents-operations.md#simgrid) | Paper result candidate | Example executed |
 | [SimPy](agents-operations.md#simpy) | Paper model adaptation | Example executed |
 | [Dynare](finance-economics.md#dynare) | Paper result candidate | Example executed |

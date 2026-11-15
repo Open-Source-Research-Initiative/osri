@@ -107,7 +107,7 @@
       "status": "analysed_saved_output",
       "comparison_performed": true,
       "comparison_passed": true,
-      "scope": "Archived-result analysis only; no new optimization. Full hourly model README estimates~2days; faithful smaller optimization target was not established.",
+      "scope": "Exact author archived-result analysis passes nine Table 1 ranges. A separate prospective GLPK adaptation reached the original 98-region 2018/two-hour-scenario constructor but failed its scoped 12 GiB address-space budget before native inputs, backend creation or a study solve. No fresh optimization result.",
       "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
     },
     {
@@ -293,7 +293,7 @@
     }
   },
   "final_public_delta_review": {
-    "manifest_sha256": "c43585ee826b1610b38931cbb77717767e414be285f13d5c34ca819b256b818e",
+    "manifest_sha256": "cd73e629650b9116c75e7b52f623a70922e6e9fe0fd9f1011c9f3b7b2cb54cc8",
     "records": 21,
     "status_counts": {
       "author_code_executed": 6,
@@ -302,9 +302,9 @@
       "target_compared": 5,
       "analysed_saved_output": 1
     },
-    "published_output_entries_verified": 603,
-    "published_unique_files": 603,
-    "local_guide_links_verified": 682,
+    "published_output_entries_verified": 607,
+    "published_unique_files": 607,
+    "local_guide_links_verified": 686,
     "passing_published_targets": [
       "dolfinx",
       "simmer",
@@ -314,15 +314,17 @@
     "mixed_published_targets": [
       "pandapower"
     ],
-    "corrected_tellurium_helper_syntax_and_reference_bytes": true
+    "corrected_tellurium_helper_syntax_and_reference_bytes": true,
+    "final_delta_scope": "Calliope fresh-model prerequisite and input-construction attempt only; previous 20 scientific assessments retained. All published file hashes and guide links rechecked read-only. No new experiments."
   },
-  "final_public_manifest_sha256": "c43585ee826b1610b38931cbb77717767e414be285f13d5c34ca819b256b818e",
+  "final_public_manifest_sha256": "cd73e629650b9116c75e7b52f623a70922e6e9fe0fd9f1011c9f3b7b2cb54cc8",
   "source_terms_review": {
     "kubric": "CC BY-SA4.0 on geometry-derived renders and native scenes; attribution retained separately from MIT harness/Apache2 source/GPL runtime.",
     "gz_drl": "New trained weights and normalizer identified as OSRI-generated output from MIT source; Gazebo/EnvPool dependency notices separate.",
     "autockt": "Only original harness and generated numerical outputs are published; no author code, saved author arrays or policy checkpoint is distributed. Source fetched by pinned reference.",
     "tellurium": "Unlicensed source model archive fetched separately; published figure attribution and original OSRI wrappers retain separate terms.",
-    "restricted_full_texts": "User-provided restricted PDFs remain outside public campaign."
+    "restricted_full_texts": "User-provided restricted PDFs remain outside public campaign.",
+    "calliope": "Archived paper-metrics CSV retains author-data CC BY 4.0 attribution. New resource-check and archive-analysis wrappers are MIT; original model/source/solver terms remain separate. Public additions are wrapper, protocol and sanitized output receipts; no commercial license key or private library PDF is included."
   },
   "final_primary_sources": [
     "https://www.jstatsoft.org/article/view/v090i02",
@@ -332,15 +334,57 @@
     "https://cs.nju.edu.cn/tianchen/lunwen/2024/eurosys24-final201.pdf"
   ],
   "parent_checks": {
-    "native_output_file_hash_entries_checked": 597,
-    "scope": "Byte integrity; shared outputs are present in more than one tool receipt.",
+    "native_output_file_hash_entries_checked": 599,
+    "scope": "Byte integrity; shared outputs appear in more than one tool receipt.",
     "site_regression_tests": 14,
     "record_rule_tests": 11,
-    "python_bundle_files_syntax_checked": 43,
+    "python_bundle_files_syntax_checked": 44,
     "shell_bundle_files_syntax_checked": 13,
     "site_pages_checked": 118,
-    "local_links_checked": 5688,
+    "local_links_checked": 5692,
     "search_records_checked": 227,
+    "browser_check": {
+      "date": "2026-11-15",
+      "browser": "156.0.8078.4",
+      "tools": 60,
+      "examples": 28,
+      "financeCount": 4,
+      "search": "case-insensitive, domain intersection, empty state, reset passed",
+      "globalSearch": "60 tool records indexed; OpenUSD resource result opens the tool anchor",
+      "keyboard": "details opens with Enter; mobile navigation opens and closes with Escape",
+      "viewports": [
+        {
+          "width": 1440,
+          "content": 1440
+        },
+        {
+          "width": 1024,
+          "content": 1024
+        },
+        {
+          "width": 768,
+          "content": 768
+        },
+        {
+          "width": 390,
+          "content": 390
+        },
+        {
+          "width": 320,
+          "content": 320
+        }
+      ],
+      "downloads": {
+        "tools": 60,
+        "papers": 48,
+        "examples": 28
+      },
+      "noJavaScript": "60 tools and 28 examples available",
+      "researchRoutes": "60 indexed routes; six guide pages and all tool anchors checked; 60-row CSV; desktop/mobile table fits",
+      "candidateCampaign": "21 guides accessible; responsive index; 100-row native CSV download; source-commit images loaded; mobile example fits",
+      "pageErrors": []
+    },
+    "desktop_and_mobile_screenshots_inspected": true,
     "restricted_source_and_credential_marker_scan": "passed"
   }
 }

@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent
 STATUS = {
     "executed_adaptation": "Executed adaptation",
     "executed_author_code": "Author code executed; see paper comparison",
-    "published_target_compared": "Selected published target compared; human review pending",
+    "published_target_compared": "Selected paper target compared; human review pending",
     "analysed_saved_output": "Archived outputs analysed; simulation not rerun",
     "upstream_instructions_checked": "Upstream instructions checked; not run",
     "access_pending": "Artifact access pending",
