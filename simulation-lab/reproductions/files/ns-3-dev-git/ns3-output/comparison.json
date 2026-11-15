@@ -1,0 +1,250 @@
+{
+  "source_commit": "7b3274167615c55ae8d69f7edee4e2dc2d81f706",
+  "paper_identifier": "10.1145/3627703.3629574",
+  "paper_locator": "Section6.2, Table2; exact thread/result determinism paragraph after Figure11.",
+  "paper_url": "https://cs.nju.edu.cn/tianchen/lunwen/2024/eurosys24-final201.pdf",
+  "table_targets_declared_before_run": true,
+  "table_comparison": [
+    {
+      "configuration": "default_2",
+      "metric": "fct_ms",
+      "reference": 650.89,
+      "observed": 650.895,
+      "absolute_difference": 0.005,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "default_2",
+      "metric": "rtt_ms",
+      "reference": 15.14,
+      "observed": 15.13888,
+      "absolute_difference": 0.00112,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "default_2",
+      "metric": "throughput_mbps",
+      "reference": 6.81,
+      "observed": 6.81012,
+      "absolute_difference": 0.00012,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "unison_2",
+      "metric": "fct_ms",
+      "reference": 632.52,
+      "observed": 632.525,
+      "absolute_difference": 0.005,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "unison_2",
+      "metric": "rtt_ms",
+      "reference": 15.03,
+      "observed": 15.0337,
+      "absolute_difference": 0.0037,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "unison_2",
+      "metric": "throughput_mbps",
+      "reference": 6.99,
+      "observed": 6.98695,
+      "absolute_difference": 0.00305,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "default_4",
+      "metric": "fct_ms",
+      "reference": 480.84,
+      "observed": 480.842,
+      "absolute_difference": 0.002,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "default_4",
+      "metric": "rtt_ms",
+      "reference": 10.49,
+      "observed": 10.49304,
+      "absolute_difference": 0.00304,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "default_4",
+      "metric": "throughput_mbps",
+      "reference": 6.5,
+      "observed": 6.50213,
+      "absolute_difference": 0.00213,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "unison_4",
+      "metric": "fct_ms",
+      "reference": 472.45,
+      "observed": 472.454,
+      "absolute_difference": 0.004,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "unison_4",
+      "metric": "rtt_ms",
+      "reference": 11.39,
+      "observed": 11.38678,
+      "absolute_difference": 0.00322,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "configuration": "unison_4",
+      "metric": "throughput_mbps",
+      "reference": 6.41,
+      "observed": 6.40928,
+      "absolute_difference": 0.00072,
+      "tolerance": 0.005,
+      "passed": true
+    }
+  ],
+  "table_checks_passed": true,
+  "determinism": [
+    {
+      "run": "unison-cluster2-thread1",
+      "values": {
+        "fct_us": "632525",
+        "e2ed_us": "7516.85",
+        "throughput_gbps": "0.00698695",
+        "events": 7447618,
+        "tx_packets": 678387,
+        "rx_packets": 676639,
+        "flow_count": 364,
+        "finished_flow_count": 278
+      },
+      "matches_first_run": true
+    },
+    {
+      "run": "unison-cluster2-thread2",
+      "values": {
+        "fct_us": "632525",
+        "e2ed_us": "7516.85",
+        "throughput_gbps": "0.00698695",
+        "events": 7447618,
+        "tx_packets": 678387,
+        "rx_packets": 676639,
+        "flow_count": 364,
+        "finished_flow_count": 278
+      },
+      "matches_first_run": true
+    },
+    {
+      "run": "unison-cluster2-thread2-repeat",
+      "values": {
+        "fct_us": "632525",
+        "e2ed_us": "7516.85",
+        "throughput_gbps": "0.00698695",
+        "events": 7447618,
+        "tx_packets": 678387,
+        "rx_packets": 676639,
+        "flow_count": 364,
+        "finished_flow_count": 278
+      },
+      "matches_first_run": true
+    },
+    {
+      "run": "unison-cluster2-thread4",
+      "values": {
+        "fct_us": "632525",
+        "e2ed_us": "7516.85",
+        "throughput_gbps": "0.00698695",
+        "events": 7447618,
+        "tx_packets": 678387,
+        "rx_packets": 676639,
+        "flow_count": 364,
+        "finished_flow_count": 278
+      },
+      "matches_first_run": true
+    }
+  ],
+  "determinism_passed": true,
+  "measurements": [
+    {
+      "simulator": "default",
+      "cluster": 2,
+      "fct_ms": 650.895,
+      "rtt_ms": 15.13888,
+      "throughput_mbps": 6.81012,
+      "fct_us": "650895",
+      "e2ed_us": "7569.44",
+      "throughput_gbps": "0.00681012",
+      "events": 7457350,
+      "tx_packets": 679582,
+      "rx_packets": 677668,
+      "flow_count": 366,
+      "finished_flow_count": 271,
+      "wall_simulation_seconds": 10.7441
+    },
+    {
+      "simulator": "unison",
+      "cluster": 2,
+      "fct_ms": 632.525,
+      "rtt_ms": 15.0337,
+      "throughput_mbps": 6.98695,
+      "fct_us": "632525",
+      "e2ed_us": "7516.85",
+      "throughput_gbps": "0.00698695",
+      "events": 7447618,
+      "tx_packets": 678387,
+      "rx_packets": 676639,
+      "flow_count": 364,
+      "finished_flow_count": 278,
+      "wall_simulation_seconds": 6.30548
+    },
+    {
+      "simulator": "default",
+      "cluster": 4,
+      "fct_ms": 480.842,
+      "rtt_ms": 10.49304,
+      "throughput_mbps": 6.50213,
+      "fct_us": "480842",
+      "e2ed_us": "5246.52",
+      "throughput_gbps": "0.00650213",
+      "events": 14104877,
+      "tx_packets": 1206974,
+      "rx_packets": 1204503,
+      "flow_count": 886,
+      "finished_flow_count": 705,
+      "wall_simulation_seconds": 20.8073
+    },
+    {
+      "simulator": "unison",
+      "cluster": 4,
+      "fct_ms": 472.454,
+      "rtt_ms": 11.38678,
+      "throughput_mbps": 6.40928,
+      "fct_us": "472454",
+      "e2ed_us": "5693.39",
+      "throughput_gbps": "0.00640928",
+      "events": 14067880,
+      "tx_packets": 1198176,
+      "rx_packets": 1195031,
+      "flow_count": 883,
+      "finished_flow_count": 709,
+      "wall_simulation_seconds": 8.01989
+    }
+  ],
+  "transforms": "Exactly authors process.py2: FCT=fct_us/1000; RTT=e2ed_us*2/1000; throughput=Gbps*1000.",
+  "claim_scope": "All12 table entries agree to the predeclared half-last-digit threshold. This does not independently establish validity of packet models, table uncertainty, other paper experiments or hardware speedups.",
+  "failed_attempts": [
+    "Initial GCC13 compile required -include cstdint; source unchanged.",
+    "0.05s diagnostic had no completed observed flow and NaN averages; preserved and excluded from comparison.",
+    "First sequential configure omitted Ninja PATH; corrected in isolated environment."
+  ]
+}

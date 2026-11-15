@@ -181,7 +181,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Open Source Risk Engine** — How does central clearing change systemic exposure and counterparty credit risk?
 
-**Route:** Paper result candidate. **Execution:** Saved author outputs analysed; simulator not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Attempted; blocked. **Source confidence:** high.
 
 ### Paper for engine
 
@@ -218,17 +218,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Dashboard exposure/CVA plots and parsed risk tables; fresh ORE exposure CSVs require missing orchestration.
 
-**Comparison with the paper:** The paper states exactly 50% CCP exposure in Section 8.4/Figure 15. Exploratory reanalysis of the author-linked saved CSV instead yields 50.339%–50.927% across its two systems and six clearing cases. Resolve archived-output correspondence, definitions and numerical asymmetry before setting a numerical tolerance or claiming reproduction. Replotting/reanalysis does not regenerate ORE simulation.
+**Comparison with the paper:** No new ORE numerical outputs. Prior saved-output shares 50.339%–50.927% still differ from exact paper 50% statement and remain unadjudicated.
 
-**Execution result:** Exploratory saved-output reanalysis only: paper-linked CSV yields CCP exposure shares 0.5033912935–0.5092717832 in its two financial systems and six clearing cases, versus the paper statement 0.5. Maximum absolute difference 0.0092717832. No tolerance prespecified and no ORE simulation rerun; target reproduction remains unresolved.
+**Execution result:** Fresh simulation cannot run from retrieved author artifact: no portfolio generator or ORE orchestration in full source/history. Prior saved-output analysis is retained separately and not counted as a fresh run.
 
-**Execution evidence:** [Run receipt](verification/engine.json); [Numeric output](verification/engine-ccp-exposure-shares.csv)
+**Execution evidence:** [Author-code attempt](../reproductions/engine.md); [Run record](../reproductions/records/engine.json)
 
-**Blockers:** No simulation-generator/orchestration code in retrieved repository tree.; No license in author dashboard repository.; Windows-specific legacy environment.; Saved-output diagnostic does not equal paper exact 0.5 statement; reason unadjudicated.
+**Blockers:** Author portfolio generator, ORE orchestration/configurations and original seed specification missing.; Paper-linked saved-output version correspondence/discrepancy unresolved.; Dashboard repository has no license found.
 
-**Next action:** Resolve saved-output discrepancy and version correspondence with the paper, then obtain generator/input specifications for a fresh ORE run. Author data can support a clearly labeled reanalysis exercise meanwhile.
+**Next action:** Retrieve author generator/configuration artifact and versioned ORE v1.8.4.0 inputs; then declare a numerical target and tolerance before running.
 
-**Gaps:** A dashboard-only reproduction cannot establish fresh ORE numerical reproduction.; Saved output differs from exact paper exposure-share statement; no reproduction claim.
+**Gaps:** Author portfolio generator, ORE orchestration/configurations and original seed specification missing.; Paper-linked saved-output version correspondence/discrepancy unresolved.; Dashboard repository has no license found.
 
 ### Sources for engine
 
@@ -240,7 +240,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **HARK / Econ-ARK** — Can the author-associated code regenerate Carroll’s buffer-stock saving figures and tables?
 
-**Route:** Paper result candidate. **Execution:** Attempted; blocked. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for hark
 
@@ -278,17 +278,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Paper/Figures/Figure1a.png, Figure1b.png, Figure5a.png, Figure5b.png, Figure5c.png, Figure6.png, Figure7.png; Paper/Tables/table1.tex and table2.tex.
 
-**Comparison with the paper:** Begin with Table I steady-state values and Figure VII median wealth/income lifecycle curves. Extract printed target cells and agree tolerances before run; verify calibration matches original paper, including known shock-dispersion prose/code discrepancy. A matching modern baseline alone is insufficient.
+**Comparison with the paper:** Actual script execution restored; baseline target net wealth rounds to 0.31 rather than printed 0.32. Author implementation methods differ from original paper. No paper reproduction claim.
 
-**Execution result:** Unmodified author script at commit 0a278360b77eeac1df1e91374c168b3091365fbf attempted with Python 3.12.16/HARK 0.17.2. Exited 1 at line 147: ImportError, HARK.utilities.plotFuncs removed/renamed. This tests modern compatibility only, not the historical author environment. No figures or tables generated.
+**Execution result:** Seven figure PNGs and two LaTeX tables generated from exact source. Strict original-paper baseline target comparison failed; SciPy non-progress warning retained.
 
-**Execution evidence:** [Run receipt](verification/hark.json)
+**Execution evidence:** [Author-code attempt](../reproductions/hark.md); [Run record](../reproductions/records/hark.json)
 
-**Blockers:** Confirmed compatibility failure in modern HARK 0.17.2: historical plotFuncs import fails. Historical HARK environment still unresolved.; Previously noted discrepancy: paper shock prose versus code log SD=0.1.; Printed numerical targets/tolerances still to transcribe for the selected table/curve.
+**Blockers:** Strict printed table comparison fails.; Author discretization/simulation and calibration conventions differ from original paper.; SciPy non-progress warning elsewhere in full script; convergence of all quantities not established.
 
-**Next action:** Try the exact author script in a bounded environment, record failures, then recover historical HARK or implement an explicitly documented compatibility port before table/curve comparison.
+**Next action:** Audit numerical settings/shock distribution and deterministic target residual; resolve mismatch before declaring paper result reproduced.
 
-**Gaps:** Existing OSRI baseline port is an executed adaptation, not this full reproduction.
+**Gaps:** Strict printed table comparison fails.; Author discretization/simulation and calibration conventions differ from original paper.; SciPy non-progress warning elsewhere in full script; convergence of all quantities not established.
 
 ### Sources for hark
 
@@ -420,7 +420,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Tax-Calculator** — Can the paper’s micro tax-rate estimates and macro tax-function comparisons be regenerated?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for tax-calculator
 
@@ -428,7 +428,7 @@ Jason DeBacker; Richard W. Evans; Kerk L. Phillips (2019). [Integrating Microsim
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1177/1091142118816744). Metadata verification: confirmed. Full-text access: Publisher/Crossref metadata and author replication README inspected; full-text draft available from authors/conference.
 
-**Target in the paper:** Tax function alternatives and baseline/reform general-equilibrium results; exact published table/figure numbers and cells still require final-paper inspection. Author repository provides TFI_tables_figures.py.
+**Target in the paper:** May 2018 author manuscript DEP_TaxFuncs.pdf, Tables 7 and 8, preferred specification steady-state GDP change +0.07%; final 2019 journal numerical tables not independently matched.
 
 ### Code and inputs for tax-calculator
 
@@ -460,17 +460,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Baseline/reform fitted tax functions, SS/TPI outputs, publication tables and figures from the plotting script.
 
-**Comparison with the paper:** Reproduce a named published tax-function/macro result from the stored fitted functions, then compare new outputs to the archived outputs with predefined tolerances. Fresh micro-estimation needs original lawful PUF access; CPS substitution is an adaptation. Inspect final-paper tables before selecting numeric acceptance targets.
+**Comparison with the paper:** Numerical +0.069545535% matches May-2018 draft +0.07% at declared tolerance; six baseline outputs match archived author SS. Scope is fresh macro solve using supplied fitted inputs. Negative G in both cases is retained as failed economic feasibility, so neither this match nor small Euler residuals establish a valid policy prediction.
 
-**Execution result:** Source inspection only; no new execution for this route.
+**Execution result:** Fresh baseline and counterfactual macro steady states solved; author-manuscript SS GDP rounding target matches. Economic-feasibility diagnostic fails because both closures require negative government spending. Tax-Calculator imported but its microsimulation/PUF estimation NOT executed.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/tax-calculator.md); [Run record](../reproductions/records/tax-calculator.json)
 
-**Blockers:** Restricted original PUF for fresh micro-estimation.; Historical dependencies loosely specified.; Full runs lengthy; no new execution attempted.
+**Blockers:** Original restricted IRS PUF not available for fresh Tax-Calculator micro-estimation.; Government spending is negative in both solved macro steady states.; Final 2019 journal table identity not checked; selected comparison is the May 2018 author manuscript.; Full tax-function fitting and transition paths not rerun.
 
-**Next action:** Start by regenerating a selected figure/table from stored results, then rerun a single macro case using stored fits; request PUF access only if reproducing the microsimulation estimation is required.
+**Next action:** Resolve fiscal closure feasibility and verify final journal table/version; use lawful PUF access only if fresh microsimulation estimation is required.
 
-**Gaps:** Archive refers to a draft/current-law 2018 setup; check agreement with the final 2019 publication.; Replotting stored output and rerunning macro with stored fits are partial reproductions, not fresh microdata replication.
+**Gaps:** Original restricted IRS PUF not available for fresh Tax-Calculator micro-estimation.; Government spending is negative in both solved macro steady states.; Final 2019 journal table identity not checked; selected comparison is the May 2018 author manuscript.; Full tax-function fitting and transition paths not rerun.
 
 ### Sources for tax-calculator
 
@@ -540,7 +540,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Dynare** — Can a published Bayesian DSGE model’s shock responses and posterior estimates be regenerated?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for dynare
 
@@ -579,17 +579,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Dynare model/results files, evaluation at supplied posterior mode and shock decomposition for y under default settings. Full posterior/MCMC diagnostics require explicitly changing mh_replic and estimation options; default nograph/nodiagnostic suppress these outputs.
 
-**Comparison with the paper:** Begin with posterior-mode/linear-model output versus the original archive, then match selected paper posterior table or impulse response. Repeated MCMC runs require convergence diagnostics and statistical rather than bytewise comparison. No numeric tolerance has yet been extracted.
+**Comparison with the paper:** Exploratory decomposition sum residual is 7.1e-15; Laplace density -1844.0985587 under provided mode/settings. Original published numerical target/sample/mode not matched, and runtime/model warnings remain.
 
-**Execution result:** Source inspection only; no new execution for this route.
+**Execution result:** Fresh maintained model evaluation and finite 40×9×230 shock decomposition completed. No original-paper quantitative comparison or posterior estimation claimed.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/dynare.md); [Run record](../reproductions/records/dynare.json)
 
-**Blockers:** Isolated Dynare/Octave environment absent.; Original archive contents not downloaded/compared with third-party implementation.; Paper target/tolerance and MCMC diagnostics must be fixed before run.
+**Blockers:** Old mode file cannot be verified against current model.; gaminv prior-bound calculation did not converge for some values.; Negative array dimensions converted to zero in shock-decomposition setup.; 33 preprocessor warnings from unassigned steady-state block variables.; Official original replication archive requires account to download.; Maintained model uses supplied old mode and 230 observations; correspondence to selected paper target unverified.
 
-**Next action:** Download the official archive, compare .mod/data files to this maintained replication, then execute a small mode/IRF case before full estimation.
+**Next action:** Match original archive/sample/mode and resolve prior-bound/mode compatibility warnings, then define a named paper comparison before full posterior estimation.
 
-**Gaps:** Third-party corrected model must not silently replace the archived original.
+**Gaps:** Old mode file cannot be verified against current model.; gaminv prior-bound calculation did not converge for some values.; Negative array dimensions converted to zero in shock-decomposition setup.; 33 preprocessor warnings from unassigned steady-state block variables.; Official original replication archive requires account to download.; Maintained model uses supplied old mode and 230 observations; correspondence to selected paper target unverified.
 
 ### Sources for dynare
 

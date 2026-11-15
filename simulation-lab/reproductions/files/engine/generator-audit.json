@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-15T20:42:05.601616+00:00",
+  "source_commit": "677f5e7b639d4b8de18767a0f2b8db4844ceaf1a",
+  "history_commits": [
+    "677f5e7 initial commit clearing cva sim",
+    "ba1ef24 Initial commit"
+  ],
+  "branches": [
+    "master"
+  ],
+  "tree_files": [
+    ".gitignore",
+    "README.md",
+    "dashboards/central_clearing/simulation_cva/bilateral_npv.csv",
+    "dashboards/central_clearing/simulation_cva/central_clearing_sim_cva.ipynb",
+    "dashboards/central_clearing/simulation_cva/df_risk_cp.csv",
+    "dashboards/central_clearing/simulation_cva/df_risk_systemic.csv",
+    "dashboards/central_clearing/simulation_cva/environment.yml",
+    "dashboards/central_clearing/simulation_cva/risk_graphs_nx.json",
+    "dashboards/central_clearing/simulation_cva/trade_relation_graphs_nx.json"
+  ],
+  "generator_found": false,
+  "evidence": "Full source clone, all branches and full two-commit history inspected. Repository contains only dashboard notebook and saved CSV/JSON outputs. It does not contain the portfolio generator or ORE orchestration required for the paper fresh simulation.",
+  "previous_saved_output_check": "../simulation-paper-examples-2026-11-15/runs/finance-economics/ore-output-check/run.json",
+  "next_action": "Obtain original author portfolio-generator and orchestration code plus exact ORE v1.8.4.0 inputs/seed specification; do not substitute a bundled ORE tutorial for the paper experiment."
+}

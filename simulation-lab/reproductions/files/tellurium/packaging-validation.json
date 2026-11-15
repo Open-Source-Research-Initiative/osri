@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-15T21:16:11.208661+00:00",
+  "scope": "Portable digitization helper packaging correction only; no model, target, calibration, tolerance or original reference-data change.",
+  "failure": "Standalone helper derived from original working one-off script had an uncommented sentence at line7 causing IndentationError. Broken helper preserved in packaging-failure/digitize_reference.py.broken.",
+  "fix": "Added comment marker to that sentence only.",
+  "original_broken_wrapper_sha256": "426a645d8a1d64f197061cca611481618d9c977cff99b21f7a129a3144573aaa",
+  "corrected_wrapper_sha256": "108fc946fe1c416ba1abebc3ba09ddf318a97afdcbc754f06884bf873a7f9ffa",
+  "original_reference_generator": "../digitize_references.py, which produced the original10point CSV and protocol before archive execution. Portable helper derived later from the same Calzone block.",
+  "command": [
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/energy-natural-sciences/brian-env/bin/python",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/packaging-validation/digitize_reference.py"
+  ],
+  "exit_code": 0,
+  "fresh_directory": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/packaging-validation",
+  "input_figure_sha256": "9b0529a383c50d9541de954616a63143fd7cc9235f206f27026824a5a9c55ddd",
+  "reference_points": 10,
+  "regenerated_csv_sha256": "cbb569662dabf2ebc3d8135dad729d5a87b00437464d2048fd90b0756b8d1cf7",
+  "original_csv_sha256": "cbb569662dabf2ebc3d8135dad729d5a87b00437464d2048fd90b0756b8d1cf7",
+  "csv_bytes_identical": true,
+  "protocol_bytes_identical": true,
+  "human_scientific_review": "pending"
+}

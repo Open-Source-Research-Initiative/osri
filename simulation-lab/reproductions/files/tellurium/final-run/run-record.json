@@ -1,0 +1,36 @@
+{
+  "driver_sha256": "9834adf732f1492ebdc267e76533f5c7dabba4d6d36832be15d8769bcc4d636b",
+  "status": "author_code_executed",
+  "archive_sha256": "448856895ce67031ca9a0b2c6ed903d871a912aeeecc9f7dabb623d85e5d5c1f",
+  "source_commit": "eff025846c5b12ee4350f043623332158e05f262",
+  "python": "3.11.18 (main, Oct 26 2026, 11:35:17) [GCC 15.3.0]",
+  "packages": {
+    "tellurium": "2.2.13.1",
+    "libroadrunner": "2.10.0",
+    "python-libsedml": "2.0.34",
+    "python-libsbml": "5.21.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "six": "1.17.0"
+  },
+  "elapsed_seconds": 0.6827993392944336,
+  "result_structure": {
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-run/extracted/./experiment/Calzone2007-simulation-figure-1B.xml": {
+      "code": {
+        "type": "str",
+        "shape": []
+      },
+      "platform": {
+        "type": "str",
+        "shape": []
+      },
+      "dataGenerators": {
+        "type": "dict",
+        "shape": []
+      }
+    }
+  },
+  "comparison_pending": true,
+  "human_scientific_review": "pending"
+}

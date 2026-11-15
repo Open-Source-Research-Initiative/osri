@@ -1,0 +1,28 @@
+{
+  "status": "adapted_run",
+  "training_seed": 100,
+  "evaluation_seed": 10001,
+  "count": 20,
+  "author_success_count": 15,
+  "strict_success_count": 1,
+  "success_fraction": 0.75,
+  "success_wilson95": [
+    0.5312991223812622,
+    0.8881382985923318
+  ],
+  "paper_fraction": 0.963,
+  "paper_fraction_inside_interval": false,
+  "mean_action_steps_successes": 24.333333333333332,
+  "seconds": 17.349268198013306,
+  "checkpoint": "training-seed100/checkpoint_140/checkpoint-140",
+  "heldout_sha256": "ff920b93ae43f2bf84fac89c4d8eed03d8f0c8bcb8f99e58dd4a8c5c57091817",
+  "training_specs_sha256": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+  "heldout_training_vectors_disjoint": true,
+  "paper_result_reproduced": false,
+  "limitations": [
+    "Newly trained public64x64 policy differs from article stated3x50 network.",
+    "ngspice41 and Python3.6 rather than original release27/Python3.5.",
+    "Original evaluation seeds and original policy unavailable.",
+    "Bounded training may not meet source convergence criterion."
+  ]
+}

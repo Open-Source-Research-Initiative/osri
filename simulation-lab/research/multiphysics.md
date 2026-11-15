@@ -300,7 +300,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **ngspice** — Can the public AutoCkt ngspice operational-amplifier task recover held-out circuit specifications?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for ngspice
 
@@ -308,7 +308,7 @@ Keertana Settaluri; Ameer Haj-Ali; Qijing Huang; Kourosh Hakhamaneshi; Borivoje 
 
 **Publication type:** proceedings-article. [Primary metadata](https://api.crossref.org/works/10.23919/date48585.2020.9116200). Metadata verification: confirmed. Full-text access: IEEE/author repository and conference/arXiv primary records inspected; live DOI metadata verified.
 
-**Target in the paper:** Settaluri et al. DATE 2020 AutoCkt, schematic generalization success and design-speed results; public two-stage op-amp task only.
+**Target in the paper:** SectionIII-B, Figures6-8 and TableII
 
 ### Code and inputs for ngspice
 
@@ -339,17 +339,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Training checkpoints and opamp_obs_reached_test/opamp_obs_nreached_test pickle files.
 
-**Comparison with the paper:** Measure held-out specification success and runtime against the public ngspice experiment. Article abstract reports at least 96.3% across tested schematic tasks; README explicitly reports seed/test-set variability of 80%-96% and an example 938/1000, so do not require a single exact success fraction without matching seeds/data.
+**Comparison with the paper:** Descriptive comparison of a new bounded public-source policy with articleTableII; inputs/methods are not matched, so this is not target_compared or paper reproduction. Confidence intervals quantify target-sampling uncertainty conditional on this policy and do not establish equivalence. Training-seed variation has not been characterized.
 
-**Execution result:** Source and setup inspected; no new execution yet.
+**Execution result:** 41/60 final held-out targets reached under author reward; 2 strictly satisfied all constraints. Training 140iterations/168000steps, criterion met=False.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/ngspice.md); [Run record](../reproductions/records/ngspice.json)
 
-**Blockers:** Legacy dependencies; exact paper seeds/spec sets and training hyperparameters need extraction.; Author-code redistribution license absent.; Proprietary Spectre/BAG technology results cannot be reproduced using only public ngspice artifact.
+**Blockers:** Original policy, exact training/evaluation seeds and a source revision matching all article hyperparameters are unavailable.; Paper/code architecture, training-set size and reward details differ.; Declared bounded training ended before source convergence criterion.
 
-**Next action:** Qualify a container/environment without changing host baseline; run public circuit validation and retain all seeds and test specs.
+**Next action:** Recover original author checkpoint and exact configuration, or explicitly agree a new independently seeded matched-method experiment with longer training budget. Do not present saved author arrays or this adaptation as a fresh reproduction of963/1000.
 
-**Gaps:** No public-code license detected; linking/inspection only.; README writes checkpoints under home by default; configure Ray output to /workspace before execution.
+**Gaps:** Original policy, exact training/evaluation seeds and a source revision matching all article hyperparameters are unavailable.; Paper/code architecture, training-set size and reward details differ.; Declared bounded training ended before source convergence criterion.
 
 ### Sources for ngspice
 
@@ -481,7 +481,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **DualSPHysics** — Can a 2D dam-break front match published experimental tip-position data?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for dualsphysics
 
@@ -489,7 +489,7 @@ A.J.C. Crespo; J.M. Domínguez; B.D. Rogers; M. Gómez-Gesteira; S. Longshaw; R.
 
 **Publication type:** journal-article. [Primary metadata](https://api.crossref.org/works/10.1016/j.cpc.2014.10.004). Metadata verification: confirmed. Full-text access: Crespo software-paper metadata verified; Koshizuka/Oka benchmark metadata also verified; official wiki explains exact validation case.
 
-**Target in the paper:** Crespo et al. (2015) software validation route, with direct experimental benchmark: Koshizuka and Oka (1996), Moving-Particle Semi-Implicit Method for Fragmentation of Incompressible Fluid, DOI10.13182/NSE96-A24205. Exact paper figure locator still to audit.
+**Target in the paper:** 1996 experimental dam-tip data as attributed and bundled in the official DualSPHysics 01_DamBreak fixture; exact original article figure, scaling and observable alignment remain unverified. Software route also associated with Crespo et al. (2015), DOI 10.1016/j.cpc.2014.10.004.
 
 ### Code and inputs for dualsphysics
 
@@ -515,17 +515,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Particle output, postprocessed dam-front position versus time, comparison plot against bundled experiment.
 
-**Comparison with the paper:** Compare normalized tip position at all bundled experimental times using interpolation, report RMSE/max error and particle-resolution convergence; choose numerical tolerance after reading benchmark uncertainty, not merely visually matching snapshots.
+**Comparison with the paper:** Numerical discrepancy against an upstream paper-associated validation fixture. No source uncertainty/acceptance threshold supplied. Fixture scaling/observable definition was not independently verified against the original1996 article; no paper-result reproduction is claimed.
 
-**Execution result:** Source and setup inspected; no new execution yet.
+**Execution result:** Unchanged current author model completed the original 2-second horizon with a retained timeout/restart; initial unrestarted data cover all 14 comparison points.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/dualsphysics.md); [Run record](../reproductions/records/dualsphysics.json)
 
-**Blockers:** Complete matching binaries and dependencies not provisioned.; Published figure locator and experimental uncertainty/tolerance still pending.
+**Blockers:** Original 1996 figure, coordinate scaling and front-observable alignment need the original full-text audit.; No experimental uncertainty or acceptance tolerance supplied; reported error is not a scientific pass.
 
-**Next action:** Read original benchmark methods/figure, qualify complete release, run CPU script and compare exported time series to bundled experimental coordinates.
+**Next action:** Obtain and inspect the original 1996 article; confirm fixture scaling and front definition, then establish spatial/time-step convergence and an independently justified comparison rule.
 
-**Gaps:** Current code differs from 2015 release.; Experimental data-file presence is not itself reproduction.
+**Gaps:** Original 1996 figure, coordinate scaling and front-observable alignment need the original full-text audit.; No experimental uncertainty or acceptance tolerance supplied; reported error is not a scientific pass.
 
 ### Sources for dualsphysics
 

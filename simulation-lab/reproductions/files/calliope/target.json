@@ -1,0 +1,59 @@
+{
+  "declared_at": "2026-11-15T20:50:27.672582+00:00",
+  "scope": "Analysis of author archived outputs only; not new optimization or reproduction of solver results.",
+  "paper_target": "Joule2022 Table1 metric ranges and Figure3 description of 441 near-optimal configurations within10% of optimum.",
+  "reference_table": [
+    [
+      "Metric name",
+      "Metric description",
+      "Metric range"
+    ],
+    [
+      "Storage discharge capacity",
+      "total capacity of all storage technologies to discharge energy in any given hour, including low-temperature heat, hydrogen, and electricity",
+      "0.03\u201311 TW"
+    ],
+    [
+      "Curtailment",
+      "percentage of maximum available renewable electricity production from wind and solar photovoltaic technologies that is curtailed",
+      "0%\u20136%"
+    ],
+    [
+      "Biofuel utilization",
+      "percentage of available residual biofuels that are consumed",
+      "0%\u2013100%"
+    ],
+    [
+      "Average national import",
+      "average annual import of electricity across all countries within the study area",
+      "4\u201369 TWh"
+    ],
+    [
+      "Electricity production Gini coefficient",
+      "degree of inequality of spatial distribution of electricity across all model regions, measured by the Gini coefficient of regional electricity production",
+      "0.54\u20130.74"
+    ],
+    [
+      "Fuel autarky Gini coefficient",
+      "degree of inequality of spatial distribution of industry synthetic fuel production relative to industry fuel demand across all model regions, measured by the Gini coefficient of regional overproduction",
+      "0.64\u20130.99"
+    ],
+    [
+      "EV as flexibility",
+      "Pearson correlation between timeseries of electric vehicle charging and that of primary electricity supply",
+      "0.52\u20130.92"
+    ],
+    [
+      "Heat electrification",
+      "percentage of heat demand met by electricity-consuming, heat-producing technologies",
+      "4%\u2013100%"
+    ],
+    [
+      "Transport electrification",
+      "percentage of road passenger and freight transport demand met by electric vehicles",
+      "53%\u2013100%"
+    ]
+  ],
+  "comparison_rule": "Extract slack-10/data/paper_metrics.csv from verified DOI archive6546817. Count unique configurations and compute metric min/max; compare extrema to published rounded Table1 ranges. Report literal differences with half-last-digit rounding intervals (not physical accuracy). No solving or reference replot is counted as a simulation.",
+  "solver_blocker": "Original Gurobi9.1.2 tiny license probe raises GurobiError: License expired2022-01-13. Exact Calliope commit recovered and installed; full study optimization not attempted past failed prerequisite."
+}

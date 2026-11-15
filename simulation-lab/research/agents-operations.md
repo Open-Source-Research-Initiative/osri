@@ -299,7 +299,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **simmer** — Does the paper’s M/M/1 simulation agree with its queueing-theory baseline?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** high.
 
 ### Paper for simmer
 
@@ -307,7 +307,7 @@ Iñaki Ucar; Bart Smeets; Arturo Azcorra (2019). [simmer: Discrete-Event Simulat
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.18637/jss.v090.i02). Metadata verification: confirmed. Full-text access: Open publisher metadata and complete R replication script inspected.
 
-**Target in the paper:** Sections 4.1-4.2: M/M/1 example, lambda=2, mu=4, seed 1234; Section 4.2 uses 100 replications.
+**Target in the paper:** Sections4.1–4.2, pp19–20, Figure3 and printed t-test; Section5.2 deterministic arrival example
 
 ### Code and inputs for simmer
 
@@ -335,17 +335,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Resource/system occupancy plots, per-replication mean time in system, t.test confidence interval.
 
-**Comparison with the paper:** Compare time-in-system estimate with analytic 1/(mu-lambda)=0.5 and occupancy with rho/(1-rho)=1 (derivations from stated rates); preserve publication code’s exact stopping and seed behavior. Set a stochastic comparison rule before rerun; no numeric tolerance is claimed from paper without inspecting full PDF/plots.
+**Comparison with the paper:** Reproduces selected publisher-code printed numerical output within prespecified rounding tolerance. Additional validation uses independent seeds. Literal source interval is not accepted as independent100-replication uncertainty because forked streams are duplicated. Modern R runtime difference and pending human review remain explicit.
 
-**Execution result:** Source inspected; no execution or paper-result reproduction claimed.
+**Execution result:** All three printed Section4.2 numbers matched at7-decimal rounding; two independently seeded theory intervals contain analytic values; all1000 deterministic arrival records exactly match. Literal forked run has duplicated streams (50 unique replication means), retained as a source limitation.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/simmer.md); [Run record](../reproductions/records/simmer.json)
 
-**Blockers:** R unavailable in PATH; no execution attempted.; Historic R/simmer versions and exact published numeric interval still need extraction from paper PDF.
+**Blockers:** None recorded.
 
-**Next action:** Use the publisher supplement to make the first direct paper-method reproduction; avoid unnecessary cross-language benchmarks.
+**Next action:** Integrate this bounded target comparison as a Lab example, retain duplicated-stream warning, and obtain human scientific review; optional exact historicalR reconstruction is separate.
 
-**Gaps:** R unavailable in PATH; no execution attempted.; Historic R/simmer versions and exact published numeric interval still need extraction from paper PDF.
+**Gaps:** None recorded.
 
 ### Sources for simmer
 
@@ -416,7 +416,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **ns-3** — Can Unison preserve packet/flow outcomes while speeding up ns-3 execution?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** medium.
+**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** medium.
 
 ### Paper for ns-3-dev-git
 
@@ -424,7 +424,7 @@ Songyuan Bai; Hao Zheng; Chen Tian; Xiaoliang Wang; Chang Liu; Xin Jin; Fu Xiao;
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1145/3627703.3629574). Metadata verification: confirmed. Full-text access: Crossref metadata and authors’ evaluated-code README/driver inspected.
 
-**Target in the paper:** EuroSys 2024 paper; exp.py accuracy experiment is explicitly marked Figure 2; deterministic experiment marked Figure 11. Exact figure interpretation/target requires article read.
+**Target in the paper:** Section6.2, Table2; exact thread/result determinism paragraph after Figure11.
 
 ### Code and inputs for ns-3-dev-git
 
@@ -453,17 +453,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** results/*.sh, *.txt and *.csv with automated command provenance and metrics; figure-specific processed CSV.
 
-**Comparison with the paper:** Compare flow/packet statistics between sequential and Unison modes before timing; exact numerical Figure 2 target/tolerance still needs full paper inspection. Full speedup figures depend on matching physical core count/hardware, not only model outcomes.
+**Comparison with the paper:** All12 table entries agree to the predeclared half-last-digit threshold. This does not independently establish validity of packet models, table uncertainty, other paper experiments or hardware speedups.
 
-**Execution result:** Source inspected; no execution or paper-result reproduction claimed.
+**Execution result:** Seven full author-model simulations completed. All twelve Table 2 printed-value checks passed at predeclared 0.005 tolerance. Four two-cluster Unison runs (one/two/four threads plus repeated two-thread run) had identical 7,447,618 events and model metrics. One short diagnostic with no observed completed flows is preserved separately.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/ns-3-dev-git.md); [Run record](../reproductions/records/ns-3-dev-git.json)
 
-**Blockers:** CMake/OpenMPI unavailable in PATH and host initialization is outside authorized routine development.; Paper Figure 2 data/precision criterion not yet read.
+**Blockers:** Human scientific review is pending.; Native log values use six significant digits; two FCT comparisons touch the predeclared half-last-decimal threshold.; Tested one/two/four threads, not all one-to-sixteen threads or the distinct Figure 11 topology. No hardware speedup claim.
 
-**Next action:** Download evaluated Zenodo artifact and inspect article Figure 2; construct a sandboxed local-only accuracy run.
+**Next action:** Human methods review of source, inputs and numerical comparison; then extend to the remaining named paper targets.
 
-**Gaps:** CMake/OpenMPI unavailable in PATH and host initialization is outside authorized routine development.; Paper Figure 2 data/precision criterion not yet read.
+**Gaps:** Human scientific review is pending.; Native log values use six significant digits; two FCT comparisons touch the predeclared half-last-decimal threshold.; Tested one/two/four threads, not all one-to-sixteen threads or the distinct Figure 11 topology. No hardware speedup claim.
 
 ### Sources for ns-3-dev-git
 
@@ -475,7 +475,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **SimGrid** — Can the paper’s simulator-version time and memory comparison be rebuilt?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** medium.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** medium.
 
 ### Paper for simgrid
 
@@ -483,7 +483,7 @@ Henri Casanova; Arnaud Giersch; Arnaud Legrand; Martin Quinson; Frédéric Suter
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1016/j.parco.2025.103125). Metadata verification: confirmed. Full-text access: Open author manuscript (19 pages) and upstream benchmark repository inspected.
 
-**Target in the paper:** Section 7 (Impact on scalability), Figures 13-14, reference 66; 1,000 four-core simulated hosts; Figure 13 varies 4,000-60,000 workunits, 10 repeats.
+**Target in the paper:** Introduction paragraph before Section 2; Section 7, Figures 13-14; reference 66.
 
 ### Code and inputs for simgrid
 
@@ -511,17 +511,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Experiment timing and maximum RSS data; two PDF figures for worker/task-count sweeps.
 
-**Comparison with the paper:** Compare simulation-time and peak-RSS curves with Figures 13-14 and check simulated makespans agree. Paper reports >=4.1x RSS reduction and >=1.45x time reduction in Figure 13, but these hardware/compiler-dependent ratios are reference observations, not portable pass thresholds.
+**Comparison with the paper:** Four makespan consistency checks passed. Local RSS reduction at the tested endpoints is 5.1994x/5.3566x, exceeding the article reported 4.1 minimum. The lower-endpoint wall-time ratio is 1.2995x, below its reported 1.45 minimum. Different host/compiler and partial curves prevent a historical performance-reproduction claim.
 
-**Execution result:** Source inspected; no execution or paper-result reproduction claimed.
+**Execution result:** 48 native runs: forty performance runs (two Figure 13 endpoints, ten seeds and two versions), six small makespan-validation runs and two paper-size makespan-validation runs. All exited zero; all four makespan checks matched to 0.000001 simulated seconds.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/simgrid.md); [Run record](../reproductions/records/simgrid.json)
 
-**Blockers:** Inspected repository snapshot names v3 releases but exact paper v3/v4 pair must be reconciled.; Benchmark code license unspecified.
+**Blockers:** Human scientific review is pending.; Exact dedicated historical CPU/compiler not matched; shared-host load affects wall time.; Intermediate Figure 13 points and Figure 14 core-count sweep remain unexecuted.; Paper introduction calls 3.10 v3 and describes developments through 3.36 culminating in v4. Reference 66 Dockerfiles pin 3.10/3.36, but the exact development commit behind every printed v4 curve observation is unestablished.
 
-**Next action:** Recover the precise v3/v4 branch/commits, then run reduced fixture before complete Figure 13 sweep.
+**Next action:** Human methods review of source, inputs and numerical comparison; then extend to the remaining named paper targets.
 
-**Gaps:** Inspected repository snapshot names v3 releases but exact paper v3/v4 pair must be reconciled.; Benchmark code license unspecified.
+**Gaps:** Human scientific review is pending.; Exact dedicated historical CPU/compiler not matched; shared-host load affects wall time.; Intermediate Figure 13 points and Figure 14 core-count sweep remain unexecuted.; Paper introduction calls 3.10 v3 and describes developments through 3.36 culminating in v4. Reference 66 Dockerfiles pin 3.10/3.36, but the exact development commit behind every printed v4 curve observation is unestablished.
 
 ### Sources for simgrid
 

@@ -1,0 +1,277 @@
+{
+  "tool_id": "dualsphysics",
+  "title": "DualSPHysics",
+  "question": "Can a 2D dam-break front match published experimental tip-position data?",
+  "paper": {
+    "title": "Moving-Particle Semi-Implicit Method for Fragmentation of Incompressible Fluid",
+    "identifier": "10.13182/NSE96-A24205",
+    "url": "https://doi.org/10.13182/NSE96-A24205",
+    "locator": "1996 experimental dam-tip data as attributed and bundled in the official DualSPHysics 01_DamBreak fixture; exact original article figure, scaling and observable alignment remain unverified. Software route also associated with Crespo et al. (2015), DOI 10.1016/j.cpc.2014.10.004.",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/DualSPHysics/DualSPHysics",
+    "ref": "pinned master snapshot",
+    "commit": "ef3721a861fda961f0e2f9ec4cd317b19de99086",
+    "paths": [
+      "examples/main/01_DamBreak/CaseDambreakVal2D_Def.xml",
+      "examples/main/01_DamBreak/xCaseDambreakVal2D_linux64_CPU.sh",
+      "examples/main/01_DamBreak/EXP_X-DamTipPosition_Koshizula&Oka1996.txt"
+    ],
+    "license": "Solver LGPL-2.1-or-later. GenCase has separate binary-only terms permitting unchanged binary redistribution with notices but restricting source redistribution/modification; no helper binaries included in the public bundle. Separate fixture license not located."
+  },
+  "inputs": {
+    "description": "Unchanged author CaseDambreakVal2D_Def.xml: dp 0.01 m, 1x2 m water column, 4x3 m tank, 2D; native horizontal front gauge at z=0.03 m and author-attributed experimental text. Original article coordinate scaling not independently verified.",
+    "access": "Public repository inputs; separate component and model terms still apply.",
+    "hashes": {
+      "examples/main/01_DamBreak/CaseDambreakVal2D_Def.xml": "47c1b6f7a00dce67d405d47902e82c3e18abaa6da54632ec6c4f3c8857c48f2f",
+      "examples/main/01_DamBreak/EXP_X-DamTipPosition_Koshizula&Oka1996.txt": "9d0fc12e5813dc5fadc679b3dfeff8b60b1d87e03fcbc404a2905350a3f3185f"
+    }
+  },
+  "environment": {
+    "versions": {
+      "compiler": "GCC13.3.0",
+      "solver": "DualSPHysics5.4 CPU",
+      "gencase": "5.4.354.01",
+      "OMP_NUM_THREADS": "2",
+      "compile_changes": [
+        "Force include cstdint for GCC13 SIZE_MAX declaration",
+        "COMPILE_CHRONO=NO; COMPILE_WAVEGEN=NO; COMPILE_MOORDYNPLUS=NO; optional components unused by case"
+      ],
+      "numerical_source_changed": false,
+      "input_xml_changed": false
+    },
+    "changes_from_author": [
+      "Current 5.4 solver replaces the historical software version; original 1996 method is MPS, current solver SPH.",
+      "Build-only forced cstdint include; optional unused components disabled.",
+      "Initial 300 s bound retained; native restart completes original 2 s horizon. Post-impact continuation has the documented single-precision restart difference."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "make",
+        "-f",
+        "Makefile_cpu",
+        "-j2",
+        "CC=g++ -include cstdint",
+        "COMPILE_CHRONO=NO",
+        "COMPILE_WAVEGEN=NO",
+        "COMPILE_MOORDYNPLUS=NO"
+      ],
+      "cwd": "source/src/source",
+      "log": "build-attempt2.log",
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "source/bin/linux/GenCase_linux64",
+        "source/examples/main/01_DamBreak/CaseDambreakVal2D_Def",
+        "output-full/CaseDambreakVal2D",
+        "-save:all"
+      ],
+      "cwd": ".",
+      "log": "gencase.log",
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "timeout",
+        "300",
+        "source/bin/linux/DualSPHysics5.4CPU_linux64",
+        "-ompthreads:2",
+        "output-full/CaseDambreakVal2D",
+        "output-full"
+      ],
+      "cwd": ".",
+      "log": "solver-full.log",
+      "exit_code": 124
+    },
+    {
+      "argv": [
+        "timeout",
+        "300",
+        "source/bin/linux/DualSPHysics5.4CPU_linux64",
+        "-ompthreads:2",
+        "-partbegin:144",
+        "output-full/data",
+        "output-full/CaseDambreakVal2D",
+        "output-resumed"
+      ],
+      "cwd": ".",
+      "log": "solver-resumed.log",
+      "exit_code": 0
+    }
+  ],
+  "target": {
+    "paper": "Koshizuka and Oka1996 benchmark through official DualSPHysics validation file; DOI10.13182/NSE96-A24205",
+    "observable": "Dam-front position sampled at z=0.03m before wall impact, compared at bundled experimental times",
+    "reference": "Official EXP_X-DamTipPosition_Koshizula&Oka1996.txt; only points whose measured x is <=3.9m, before right-wall impact; no undocumented nondimensionalization assumed",
+    "tolerance": null,
+    "tolerance_basis": "The supplied digitization has no measurement uncertainty or paper-author acceptance threshold. Report pointwise errors, MAE/RMSE/max without inventing pass/fail scientific tolerance. Confirm scaling/observable alignment before interpreting paper agreement.",
+    "scope": "Execute complete current author validation input unchanged in physics; report version/compiler differences. Coupled output comparison is an upstream benchmark assessment, not replication of1996 MPS algorithm or2015 solver timing results.",
+    "declared_before_run": true
+  },
+  "execution": {
+    "status": "adapted_run",
+    "result": "Unchanged current author model completed the original 2-second horizon with a retained timeout/restart; initial unrestarted data cover all 14 comparison points.",
+    "exit_code": 0,
+    "elapsed_seconds": null,
+    "continuation_native_runtime_seconds": 124.799004,
+    "initial_timeout_exit_code": 124
+  },
+  "comparison": {
+    "performed": true,
+    "passed": null,
+    "observable": "Horizontal SWL-gauge front at z=0.03m, interpolated to fixture times",
+    "reference": "Koshizuka and Oka1996 values as bundled by the DualSPHysics authors",
+    "points": 14,
+    "predeclared_selection": "Only reference x<=3.9, before4m right-wall contact",
+    "measurements": {
+      "mae_m": 0.2472552502452107,
+      "rmse_m": 0.26367564386044096,
+      "max_abs_m": 0.33469765983142663
+    },
+    "input_hashes": {
+      "GaugesSWL_Swl_z003.csv": "90393c1ab929c260845857cef05d059a37a4bf4cb64b29a4424505473b772516",
+      "EXP_X-DamTipPosition_Koshizula&Oka1996.txt": "9d0fc12e5813dc5fadc679b3dfeff8b60b1d87e03fcbc404a2905350a3f3185f"
+    },
+    "tolerance": null,
+    "interpretation": "Numerical discrepancy against an upstream paper-associated validation fixture. No source uncertainty/acceptance threshold supplied. Fixture scaling/observable definition was not independently verified against the original1996 article; no paper-result reproduction is claimed."
+  },
+  "outputs": [
+    {
+      "path": "files/dualsphysics/comparison/front-comparison.csv",
+      "sha256": "f620c514ef308a957fe557f7a7a5dd442fe62dbf8ea5d7f7eec57ce1aaf0cdaa",
+      "bytes": 864,
+      "role": "All 14 pointwise differences against the upstream paper-associated fixture",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/comparison/front-comparison.csv",
+      "published": true
+    },
+    {
+      "path": "files/dualsphysics/comparison/comparison.json",
+      "sha256": "263ad4689dd1d28cc804560025e5af0c3dc1723f573a5154edae7a0c508acb68",
+      "bytes": 1003,
+      "role": "Literal numerical comparison and scientific limitations",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/comparison/comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/dualsphysics/comparison/dambreak-comparison.svg",
+      "sha256": "06682f8069ae9f9392020f3bf6e84e9cefb75835b86242369ae9df9f300bf31b",
+      "bytes": 48479,
+      "role": "Editable comparison/error plot",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/comparison/dambreak-comparison.svg",
+      "published": true
+    },
+    {
+      "path": "files/dualsphysics/comparison/dambreak-comparison.png",
+      "sha256": "6ccb74ae7c8e22aa8457026d8a6d24e682df5c778efd495335eec508c4e8402a",
+      "bytes": 91657,
+      "role": "Comparison preview",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/comparison/dambreak-comparison.png",
+      "published": true
+    },
+    {
+      "path": "files/dualsphysics/output-full/GaugesSWL_Swl_z003.csv",
+      "sha256": "90393c1ab929c260845857cef05d059a37a4bf4cb64b29a4424505473b772516",
+      "bytes": 14227,
+      "role": "Native unrestarted simulated front-gauge output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/output-full/GaugesSWL_Swl_z003.csv",
+      "published": true
+    },
+    {
+      "path": "files/dualsphysics/run-record.json",
+      "sha256": "8ee157b4281b01cd74752c094aa54f0461e4e9b89d0ae422e38f20bd61e5849f",
+      "bytes": 5222,
+      "role": "Compact execution, attribution and provenance record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/run-record.json",
+      "published": true
+    },
+    {
+      "path": "files/dualsphysics/bootstrap-dambreak.py",
+      "sha256": "a99bd71801cb7682b0e1f3d753109e39be9a891ad4312465754217212374e598",
+      "bytes": 1383,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/bootstrap-dambreak.py"
+    },
+    {
+      "path": "files/dualsphysics/run-dambreak.py",
+      "sha256": "b5dfb1924a74cd2662ad59ab60e055305032e38e8822b8d3417f818a0acf4963",
+      "bytes": 1892,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/run-dambreak.py"
+    },
+    {
+      "path": "files/dualsphysics/compare-dambreak.py",
+      "sha256": "3124ed438c4022c88f37d6b737b8a28b5743ea3946b8ff568fecc7aeff381ccc",
+      "bytes": 3231,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/compare-dambreak.py"
+    },
+    {
+      "path": "files/dualsphysics/plot-requirements.txt",
+      "sha256": "1c96d73c87f13739c6047dba694b12ab44449b338ddfd9882b91381890cf072e",
+      "bytes": 32,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/plot-requirements.txt"
+    },
+    {
+      "path": "files/dualsphysics/GUIDE.md",
+      "sha256": "000efe69092cb882f29441b996ab0fc7cc13aa31e0d2387e1741957bb044f9d5",
+      "bytes": 5313,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/GUIDE.md"
+    }
+  ],
+  "evidence_files": [
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/GUIDE.md",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/build.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/build-attempt2.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/gencase.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/solver-full.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/solver-resumed.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/restart-plan.json",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/native-output-manifest.json",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/output-resumed/Run.out",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/bootstrap-dambreak.py",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/run-dambreak.py",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics/compare-dambreak.py"
+  ],
+  "blockers": [
+    "Original 1996 figure, coordinate scaling and front-observable alignment need the original full-text audit.",
+    "No experimental uncertainty or acceptance tolerance supplied; reported error is not a scientific pass."
+  ],
+  "next_action": "Obtain and inspect the original 1996 article; confirm fixture scaling and front definition, then establish spatial/time-step convergence and an independently justified comparison rule.",
+  "relationship_to_paper": "Current author SPH validation case compared against the authors’ experimental fixture attributed to Koshizuka and Oka (1996). This executes the current case, not the original MPS algorithm or historical software-paper results.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/numerics/dualsphysics",
+    "guide": "GUIDE.md",
+    "files": [
+      "bootstrap-dambreak.py",
+      "run-dambreak.py",
+      "compare-dambreak.py",
+      "plot-requirements.txt",
+      "GUIDE.md"
+    ]
+  },
+  "research_group": "numerics",
+  "guide_source": "templates/dualsphysics.md.in"
+}

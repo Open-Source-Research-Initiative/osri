@@ -1,0 +1,21 @@
+{
+  "declared_at": "2026-11-15T20:39:52.187110+00:00",
+  "paper_target": "arXiv1709.06743v3 / IEEE2018, Section VII-B exact switching-state counts and Section VII-D Figure7 constraints/9 selected states",
+  "counts": {
+    "all_states": 276,
+    "infeasible_topology": 96,
+    "short_circuit_invalid": 100,
+    "valid_states": 80
+  },
+  "comparison": "Recompute all switching states and then actual full 97-point day with author notebook functions and bundled network/profiles; compare numeric outputs with results/results_switches.json and results/results_timeseries.json. Counts/pair IDs/taps exact; fault current atol=1e-5 kA, voltage atol=1e-6 pu, loading atol=0.001 percentage points, losses atol=0.001 kWh, rtol=0. Tolerances are analyst-selected numerical reproducibility criteria, not article-prescribed acceptance limits.",
+  "constraints": {
+    "voltage_pu": [
+      0.97,
+      1.03
+    ],
+    "maximum_loading_percent": 50,
+    "minimum_fault_current_ka": 1.1,
+    "selected_switch_states": 9
+  },
+  "scope": "Case study only, not empirical validation nor tool-wide verification."
+}

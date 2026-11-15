@@ -1,0 +1,124 @@
+{
+  "tool_id": "engine",
+  "title": "ORE central-clearing study: fresh simulation blocked by missing author generator",
+  "question": "How does central clearing change systemic exposure and counterparty credit risk?",
+  "paper": {
+    "title": "Computing the impact of central clearing on systemic risk",
+    "identifier": "10.3389/frai.2024.1138611",
+    "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1138611/full",
+    "locator": "Sections 7.3–7.6 ORE risk calculations and notebook visualization; Section 8.4 Figure 15: 50% of exposure concentrated in CCPs; Figure 14 relative CVA impacts. Footnotes 13, 16–17 link code and ORE v1.8.4.0 inputs.",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/niknow/systemic-risk",
+    "ref": "master",
+    "commit": "677f5e7b639d4b8de18767a0f2b8db4844ceaf1a",
+    "paths": [
+      "dashboards/central_clearing/simulation_cva/central_clearing_sim_cva.ipynb",
+      "dashboards/central_clearing/simulation_cva/environment.yml",
+      "dashboards/central_clearing/simulation_cva/df_risk_systemic.csv",
+      "dashboards/central_clearing/simulation_cva/df_risk_cp.csv",
+      "dashboards/central_clearing/simulation_cva/risk_graphs_nx.json"
+    ],
+    "license": "No repository license found; inspect permission before redistributing author assets. ORE itself BSD-3-Clause."
+  },
+  "inputs": {
+    "description": "Paper-linked repository contains dashboard notebook and saved CSV/JSON output only. Entire two-commit history and all branches inspected.",
+    "access": "Source publicly readable; dashboard reuse license unspecified. Missing portfolio-generation and ORE orchestration source not recovered.",
+    "hashes": {
+      "notebook": "66e8083445739cdba6e132f82446fe9a15c290069d3675047e7e5d194b0d0d8b"
+    }
+  },
+  "environment": {
+    "versions": {
+      "source_commits_inspected": [
+        "677f5e7 initial commit clearing cva sim",
+        "ba1ef24 Initial commit"
+      ]
+    },
+    "changes_from_author": []
+  },
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "clone",
+        "https://github.com/niknow/systemic-risk.git",
+        "source"
+      ],
+      "cwd": "planning/simulation-reproduction-2026-11-15/runs/finance/engine"
+    },
+    {
+      "argv": [
+        "git",
+        "-C",
+        "source",
+        "log",
+        "--all",
+        "--oneline"
+      ],
+      "cwd": "planning/simulation-reproduction-2026-11-15/runs/finance/engine"
+    }
+  ],
+  "target": {
+    "observable": "Fresh paper ORE simulation for central-clearing exposure, Figure 15",
+    "reference": 0.5,
+    "tolerance": null,
+    "tolerance_basis": "No tolerance set because fresh author code/inputs unavailable; prior saved-output analysis remains exploratory.",
+    "declared_before_run": false,
+    "scope": "Source/history audit only in this campaign; no fresh ORE run."
+  },
+  "execution": {
+    "status": "attempted_blocked",
+    "result": "Fresh simulation cannot run from retrieved author artifact: no portfolio generator or ORE orchestration in full source/history. Prior saved-output analysis is retained separately and not counted as a fresh run.",
+    "exit_code": null,
+    "elapsed_seconds": null
+  },
+  "comparison": {
+    "performed": false,
+    "passed": null,
+    "measurements": {},
+    "interpretation": "No new ORE numerical outputs. Prior saved-output shares 50.339%–50.927% still differ from exact paper 50% statement and remain unadjudicated."
+  },
+  "outputs": [
+    {
+      "path": "files/engine/generator-audit.json",
+      "sha256": "9c20febfac05c6ca046eda731df6243a69c1584a959553f8f32b525f02d327e5",
+      "bytes": 1437,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/engine/generator-audit.json",
+      "published": true
+    },
+    {
+      "path": "files/engine/guide.md",
+      "sha256": "3020e70011ae0e51c13c72ff3f7023c747b1eb230f91b0071bd50ef59c1aeddc",
+      "bytes": 546,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/engine/guide.md"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/finance/engine/generator-audit.json"
+  ],
+  "blockers": [
+    "Author portfolio generator, ORE orchestration/configurations and original seed specification missing.",
+    "Paper-linked saved-output version correspondence/discrepancy unresolved.",
+    "Dashboard repository has no license found."
+  ],
+  "next_action": "Retrieve author generator/configuration artifact and versioned ORE v1.8.4.0 inputs; then declare a numerical target and tolerance before running.",
+  "relationship_to_paper": "Paper-linked dashboard/source audit verifies missing fresh-simulation components; not a new paper simulation.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/finance/engine",
+    "guide": "guide.md",
+    "files": [
+      "guide.md",
+      "generator-audit.json"
+    ]
+  },
+  "research_group": "finance",
+  "guide_source": "templates/engine.md.in"
+}

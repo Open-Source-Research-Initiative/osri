@@ -129,7 +129,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **CARLA** — How well does a driving agent generalize across urban routes and weather?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** medium.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** medium.
 
 ### Paper for carla
 
@@ -164,17 +164,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Per-episode benchmark records; completion/success and infraction metrics as documented in Docs/benchmark_metrics.md.
 
-**Comparison with the paper:** Recompute success rates and distance-between-infractions by published task/town/weather. Obtain paper-agent weights/training details before comparing a paper agent; trivial-agent execution cannot reproduce those results.
+**Comparison with the paper:** Author benchmark reached3/3 goals, with no recorded collisions. This partial ForwardAgent result cannot be compared as a reproduction of originalMP/IL/RL success rates. Native summary+per-frame metrics retained.
 
-**Execution result:** Source and instructions inspected; no local execution or paper-result claim.
+**Execution result:** Official CARLA0.8.4 CPU/headless server and author CoRL2017 benchmark executed3 original straight-route pose pairs with ForwardAgent; all3 reached their goals.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/carla.md); [Run record](../reproductions/records/carla.json)
 
-**Blockers:** Legacy runtime compatibility; exact paper-agent checkpoints are not established; original target table values and evaluation randomness still need checking.
+**Blockers:** Original MP/IL/RL weights and exact2017simulator revision not matched; camera images unavailable with-nullrhi; only3pose subset executed.
 
-**Next action:** Verify availability of the historic server/agents and extract the exact paper evaluation table before scheduling a full benchmark.
+**Next action:** Obtain original paper checkpoint and matching historic simulator; run graphics-enabled complete100/50 episode conditions, then compare Table1/2.
 
-**Gaps:** Original CARLA revision/checkpoints and target tables must be matched before reproduction.
+**Gaps:** Original MP/IL/RL weights and exact2017simulator revision not matched; camera images unavailable with-nullrhi; only3pose subset executed.
 
 ### Sources for carla
 
@@ -306,7 +306,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **preCICE** — Can a coupled fluid/structure solve recover the published FSI3 oscillation and force observables?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** medium.
+**Route:** Paper result candidate. **Execution:** Attempted; blocked. **Source confidence:** medium.
 
 ### Paper for precice
 
@@ -314,7 +314,7 @@ Stefan Turek; Jaroslav Hron (2006). [Proposal for Numerical Benchmarking of Flui
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1007/3-540-34596-5_15). Metadata verification: confirmed. Full-text access: Springer primary metadata verified; original numerical reference table not yet inspected. Author-hosted benchmark HTML parameter/result tables and downloadable FSI3 reference series were subsequently inspected.
 
-**Target in the paper:** Published FSI3 channel/cylinder/elastic-flap benchmark; compare tip displacement, frequency, drag and lift. Current preCICE tutorial additionally cites the 2010 extension.
+**Target in the paper:** Original 2006 FSI3 benchmark; maintained tutorial also cites the 2010 extension DOI 10.1007/978-3-642-14206-2_8. Historical reference/constitutive alignment unresolved; no original result comparison.
 
 ### Code and inputs for precice
 
@@ -344,17 +344,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Participant logs; OpenFOAM fields; solid VTK; preCICE tip watchpoint displacement history.
 
-**Comparison with the paper:** Compare settled-window displacement histories to authors ref_fsi3.point: time column1, x/y tip displacement columns11/12; combined drag columns5+7 and lift6+8. The retrieved file is the author site's dt=0.00025 series. Match benchmark-definition/version and force normalization, demonstrate mesh/time-step/coupling convergence, and set a scientifically justified tolerance before claiming agreement. The original2006 printed table and tutorial2010 citation still require reconciliation.
+**Comparison with the paper:** No published periodic observable compared. A short transient cannot recover FSI3 mean, amplitude or frequency; exit 0 did not establish coupling convergence.
 
-**Execution result:** Source and instructions inspected; no local execution or paper-result claim.
+**Execution result:** Actual coupling executed. The CG adaptation completed 0.003 s with both participants exiting 0, but the first two of three windows were unconverged. A tighter fluid solver retry also failed its first two windows and hit the 240 s bound. The Direct solver failed due to missing UMFPACK. No qualified coupled solution or paper-result comparison.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/precice.md); [Run record](../reproductions/records/precice.json)
 
-**Blockers:** Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.; No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated.
+**Blockers:** Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.; CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.; Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.; Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched.
 
-**Next action:** Select exact reference publication/case; resolve solver/adapter versions; digitize or obtain reference data; then run three refinement levels and compare observables.
+**Next action:** Qualify the Direct solver or CG alternative and converged coupling; resolve original 2006 versus 2010 reference/material law; then predeclare the analysis window/tolerance and run the full horizon with mesh/time-step convergence.
 
-**Gaps:** Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.; No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated.; Author manuscript located at https://riemann.mathematik.uni-dortmund.de/papers/TurekHron2006.pdf; browser fetch timed out, so no target-table values were transcribed.
+**Gaps:** Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.; CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.; Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.; Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched.
 
 ### Sources for precice
 
@@ -368,7 +368,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **FEniCSx / DOLFINx** — Can flux equilibration drive adaptive FEM to the published convergence and efficiency values?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** high.
 
 ### Paper for dolfinx
 
@@ -376,7 +376,7 @@ Maximilian Brodbeck; Fleurianne Bertrand; Tim Ricken (2026). [Adaptive Finite El
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://link.springer.com/chapter/10.1007/978-3-032-17396-6_1). Metadata verification: confirmed. Full-text access: Published open chapter metadata inspected; full-text model/results inspected in the linked 2024 arXiv:2410.09764v1 preprint. Published/preprint target equivalence still requires checking.
 
-**Target in the paper:** Preprint Section 4.1 and Figure 2(a): Poisson interface benchmark convergence and estimator efficiency; Section 4.2 and Figure 3: Cook membrane.
+**Target in the paper:** Section4.1, Figure2(a), contrast5, k=1, m=2
 
 ### Code and inputs for dolfinx
 
@@ -408,17 +408,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** CSV convergence/error/efficiency tables and XDMF/HDF5 fields; full execute_all.sh also runs timing and elasticity cases and deletes prior CSV outputs.
 
-**Comparison with the paper:** Match preprint Figure 2(a), e.g. contrast 5, primal k=1/flux m=2 gives printed e.o.c=0.50 and efficiency=1.06 after final refinement. Values are rounded reference targets; comparison tolerance must be set from source data/precision before testing. Confirm 2026 chapter matches preprint.
+**Comparison with the paper:** One author-code preprint parameter combination; comparison uses rounded printed reference values, with human scientific review pending.
 
-**Execution result:** Source and instructions inspected; no local execution or paper-result claim.
+**Execution result:** Exact author adaptive_solver(1,2,20,0.5,5) completed all20 levels; native CSV/XDMF/HDF5 outputs retained. Both printed targets matched within predeclared reporting-precision tolerance.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/dolfinx.md); [Run record](../reproductions/records/dolfinx.json)
 
-**Blockers:** Historic environment not run; exact Docker image digest not recorded; LICENSE/README discrepancy; published/preprint target equivalence pending.
+**Blockers:** None recorded.
 
-**Next action:** Use the archived image to avoid unpinned apt upgrades; verify the published chapter target against preprint; execute only the selected interface case with logs and source hashes.
+**Next action:** Human scientific review of one matched case; expand to other paper parameter combinations separately.
 
-**Gaps:** Historic environment not run; exact Docker image digest not recorded; LICENSE/README discrepancy; published/preprint target equivalence pending.
+**Gaps:** None recorded.
 
 ### Sources for dolfinx
 
@@ -431,7 +431,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **deal.II** — Can a coupled fluid/structure solve recover the published FSI3 oscillation and force observables?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** medium.
+**Route:** Paper result candidate. **Execution:** Attempted; blocked. **Source confidence:** medium.
 
 ### Paper for dealii
 
@@ -439,7 +439,7 @@ Stefan Turek; Jaroslav Hron (2006). [Proposal for Numerical Benchmarking of Flui
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1007/3-540-34596-5_15). Metadata verification: confirmed. Full-text access: Springer primary metadata verified; original numerical reference table not yet inspected. Author-hosted benchmark HTML parameter/result tables and downloadable FSI3 reference series were subsequently inspected.
 
-**Target in the paper:** Published FSI3 channel/cylinder/elastic-flap benchmark; compare tip displacement, frequency, drag and lift. Current preCICE tutorial additionally cites the 2010 extension.
+**Target in the paper:** Original 2006 FSI3 benchmark; maintained tutorial also cites the 2010 extension DOI 10.1007/978-3-642-14206-2_8. Historical reference/constitutive alignment unresolved; no original result comparison.
 
 ### Code and inputs for dealii
 
@@ -469,17 +469,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Participant logs; OpenFOAM fields; solid VTK; preCICE tip watchpoint displacement history.
 
-**Comparison with the paper:** Compare settled-window displacement histories to authors ref_fsi3.point: time column1, x/y tip displacement columns11/12; combined drag columns5+7 and lift6+8. The retrieved file is the author site's dt=0.00025 series. Match benchmark-definition/version and force normalization, demonstrate mesh/time-step/coupling convergence, and set a scientifically justified tolerance before claiming agreement. The original2006 printed table and tutorial2010 citation still require reconciliation.
+**Comparison with the paper:** No published periodic observable compared. A short transient cannot recover FSI3 mean, amplitude or frequency; exit 0 did not establish coupling convergence.
 
-**Execution result:** Source and instructions inspected; no local execution or paper-result claim.
+**Execution result:** Actual coupling executed. The CG adaptation completed 0.003 s with both participants exiting 0, but the first two of three windows were unconverged. A tighter fluid solver retry also failed its first two windows and hit the 240 s bound. The Direct solver failed due to missing UMFPACK. No qualified coupled solution or paper-result comparison.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/dealii.md); [Run record](../reproductions/records/dealii.json)
 
-**Blockers:** Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.; No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated.
+**Blockers:** Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.; CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.; Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.; Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched.
 
-**Next action:** Select exact reference publication/case; resolve solver/adapter versions; digitize or obtain reference data; then run three refinement levels and compare observables.
+**Next action:** Qualify the Direct solver or CG alternative and converged coupling; resolve original 2006 versus 2010 reference/material law; then predeclare the analysis window/tolerance and run the full horizon with mesh/time-step convergence.
 
-**Gaps:** Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.; No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated.; Author manuscript located at https://riemann.mathematik.uni-dortmund.de/papers/TurekHron2006.pdf; browser fetch timed out, so no target-table values were transcribed.
+**Gaps:** Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.; CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.; Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.; Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched.
 
 ### Sources for dealii
 

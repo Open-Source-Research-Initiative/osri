@@ -1,0 +1,43 @@
+{
+  "driver_sha256": "a772556c6c0ace23ebeba9d2872bab2a1a6ee5f2b31c4abc061147abaa2db9c0",
+  "status": "author_code_executed",
+  "source_commit": "73045cd61322e923e96883dc97c0848154f79f8c",
+  "paper": "10.7554/eLife.47314",
+  "paper_target": "Figure3b/c",
+  "python": "3.6.11 | packaged by conda-forge | (default, Aug  5 2020, 20:09:42) \n[GCC 7.5.0]",
+  "packages": {
+    "brian2": "2.2.2.1",
+    "numpy": "1.16.4"
+  },
+  "source_notebook_sha256": "4663016b097268326696aba6d1c8e5d9d2b68a169164c2c988eeb7a9c0a6570a",
+  "model_cells_sha256": "241c2dd16188ef3d0b32670e6fe4091fef7716e7103af8edc6080a481b5d1efb",
+  "model_cells_modified": false,
+  "presentation_omitted": "Only final Plotly cell; all 8 model cells unchanged.",
+  "tau_object_seconds": 0.5,
+  "dt_seconds": 0.0001,
+  "samples": 100000,
+  "retinal_spikes": 2406,
+  "motor_spikes": [
+    56,
+    51
+  ],
+  "eye_object_rmse": 0.1635113656275548,
+  "elapsed_seconds": 6.821852922439575,
+  "checks": {
+    "samples_100000": true,
+    "finite_positions": true,
+    "strictly_increasing_time": true
+  },
+  "paper_discrepancy": "Paper Figure3c and author notebook both use tau_object500ms; earlier50ms manual transcription corrected. Figure3b uses qualitative tick labels; numeric scale recovered from author Plotly code.",
+  "human_scientific_review": "pending",
+  "outputs": {
+    "trajectories.npz": {
+      "sha256": "eb70afa8e1a6373a38df28b399037396980743f7101ceb04d54a8f75bad3c54d",
+      "bytes": 2392844
+    },
+    "positions.csv": {
+      "sha256": "eb94f9dd506325abf0b6f13b9c83652e9c34bd8ea6c86a7b42007139c38e6fa6",
+      "bytes": 10154733
+    }
+  }
+}

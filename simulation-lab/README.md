@@ -3,6 +3,7 @@
 Find a simulation tool, learn from a published model, and keep enough information for someone else to repeat the work.
 
 - [Browse the tool catalog](catalog.md): 60 tools across robotics, engineering, finance, economics, operations, energy, natural sciences, and computing.
+- [Inspect the 21 candidate attempts](reproductions/README.md): author-code runs, native outputs, comparisons, adaptations, and verified blockers.
 - [Plan an example for any of the 60 tools](research/README.md): paper artifacts, construction steps, comparison targets, and unresolved access needs.
 - [Choose a literature example](examples/README.md): paper locations, source code, setup routes, outputs to inspect, and execution status.
 - [Run the CPU examples](examples/cpu-walkthroughs.md): battery discharge, option pricing, household saving, and OpenUSD result exchange.

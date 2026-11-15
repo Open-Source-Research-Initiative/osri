@@ -28,11 +28,20 @@ A paper result candidate identifies what to reproduce; a software-paper example 
 
 Run `python3 simulation-lab/research.py --write` before regenerating the main catalog. This validates one route per catalog tool and generates the six domain guides and downloadable route inventory. New substantive research belongs in a study repository; this inventory is shared learning and reproduction planning.
 
+## Author-code attempts and numerical comparisons
+
+The [candidate campaign](reproductions/README.md) has one record for each of the 21 selected tools. Keep original failures, publication/document versions, matched input settings, native outputs and hashes, and any changes to code or environment. An author-code run, a maintained third-party replication, an adaptation, an archive analysis, and a passing selected paper comparison have different evidence requirements.
+
+Declare the observable and comparison rule before producing the numerical result. Revised extraction or post-hoc comparison remains exploratory even if a deterministic rerun follows it. Paper targets need source locations and justified precision or uncertainty; a current fixture or archived-output match must retain that narrower scope. Check solver convergence and feasibility separately from process exit status. Record human scientific review as pending until actually performed.
+
+Edit `reproductions/campaign.json` and its original guide templates, then regenerate with `python3 simulation-lab/reproduce.py --write`. Share only explicitly reusable outputs and preserve per-file asset, model and runtime terms. New successful examples use `executed_author_code` or, for a passing selected target with its evidence, `published_target_compared`. Saved-output analyses use `analysed_saved_output`. These statuses never assert whole-paper reproduction or human acceptance.
+
 ## Regenerate and check
 
 From the hub root, using Python 3.10 or newer:
 
 ```sh
+python3 simulation-lab/reproduce.py --write
 python3 simulation-lab/research.py --write
 python3 simulation-lab/catalog.py --write
 python3 simulation-lab/catalog.py

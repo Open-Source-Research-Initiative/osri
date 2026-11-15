@@ -1,0 +1,178 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "https://simgrid.org/simgrid.dtd">
+<platform version="4.1">
+<zone id="world" routing="Full">
+
+  <host id="MasterHost" speed="1Mf,0.5Mf,0.2Mf" core="1">
+
+    <prop id="wattage_per_state" value="100.0:120.0:200.0, 93.0:115.0:170.0, 90.0:110.0:150.0" />
+    <prop id="wattage_off" value="10" />
+  </host>
+  <host id="WorkerHost-0" speed="170.10Mf,85.05Mf,34.02Mf" core="4">
+    <prop id="wattage_per_state" value="100.0:93.33333333333333:200.0, 93.0:90.0:170.0, 90.0:90.0:150.0" />
+    <prop id="wattage_off" value="10" />
+  </host>
+  <host id="WorkerHost-1" speed="180.97Mf,90.48Mf,36.19Mf" core="4">
+    <prop id="wattage_per_state" value="100.0:93.33333333333333:200.0, 93.0:90.0:170.0, 90.0:90.0:150.0" />
+    <prop id="wattage_off" value="10" />
+  </host>
+  <host id="WorkerHost-2" speed="108.88Mf,54.44Mf,21.78Mf" core="4">
+    <prop id="wattage_per_state" value="100.0:93.33333333333333:200.0, 93.0:90.0:170.0, 90.0:90.0:150.0" />
+    <prop id="wattage_off" value="10" />
+  </host>
+  <host id="WorkerHost-3" speed="112.15Mf,56.07Mf,22.43Mf" core="4">
+    <prop id="wattage_per_state" value="100.0:93.33333333333333:200.0, 93.0:90.0:170.0, 90.0:90.0:150.0" />
+    <prop id="wattage_off" value="10" />
+  </host>
+
+  <link id="Link-0" bandwidth="134.83MBps" latency="100us" />
+  <link id="Link-1" bandwidth="142.20MBps" latency="100us" />
+  <link id="Link-2" bandwidth="169.98MBps" latency="100us" />
+  <link id="Link-3" bandwidth="106.64MBps" latency="100us" />
+  <link id="Link-4" bandwidth="158.75MBps" latency="100us" />
+  <link id="Link-5" bandwidth="164.30MBps" latency="100us" />
+  <link id="Link-6" bandwidth="199.06MBps" latency="100us" />
+  <link id="Link-7" bandwidth="129.57MBps" latency="100us" />
+  <link id="Link-8" bandwidth="127.13MBps" latency="100us" />
+  <link id="Link-9" bandwidth="106.97MBps" latency="100us" />
+  <link id="Link-10" bandwidth="194.96MBps" latency="100us" />
+  <link id="Link-11" bandwidth="138.22MBps" latency="100us" />
+  <link id="Link-12" bandwidth="132.27MBps" latency="100us" />
+  <link id="Link-13" bandwidth="198.84MBps" latency="100us" />
+  <link id="Link-14" bandwidth="184.25MBps" latency="100us" />
+  <link id="Link-15" bandwidth="127.53MBps" latency="100us" />
+  <link id="Link-16" bandwidth="159.66MBps" latency="100us" />
+  <link id="Link-17" bandwidth="155.64MBps" latency="100us" />
+  <link id="Link-18" bandwidth="184.79MBps" latency="100us" />
+  <link id="Link-19" bandwidth="118.46MBps" latency="100us" />
+  <link id="Link-20" bandwidth="139.75MBps" latency="100us" />
+  <link id="Link-21" bandwidth="188.98MBps" latency="100us" />
+  <link id="Link-22" bandwidth="185.05MBps" latency="100us" />
+  <link id="Link-23" bandwidth="131.77MBps" latency="100us" />
+  <link id="Link-24" bandwidth="110.30MBps" latency="100us" />
+  <link id="Link-25" bandwidth="104.49MBps" latency="100us" />
+  <link id="Link-26" bandwidth="164.50MBps" latency="100us" />
+  <link id="Link-27" bandwidth="180.39MBps" latency="100us" />
+  <link id="Link-28" bandwidth="185.46MBps" latency="100us" />
+  <link id="Link-29" bandwidth="173.38MBps" latency="100us" />
+  <link id="Link-30" bandwidth="192.54MBps" latency="100us" />
+  <link id="Link-31" bandwidth="120.29MBps" latency="100us" />
+  <link id="Link-32" bandwidth="115.57MBps" latency="100us" />
+  <link id="Link-33" bandwidth="162.52MBps" latency="100us" />
+  <link id="Link-34" bandwidth="126.93MBps" latency="100us" />
+  <link id="Link-35" bandwidth="174.32MBps" latency="100us" />
+  <link id="Link-36" bandwidth="126.82MBps" latency="100us" />
+  <link id="Link-37" bandwidth="125.99MBps" latency="100us" />
+  <link id="Link-38" bandwidth="103.89MBps" latency="100us" />
+  <link id="Link-39" bandwidth="153.95MBps" latency="100us" />
+  <link id="Link-40" bandwidth="132.95MBps" latency="100us" />
+  <link id="Link-41" bandwidth="198.86MBps" latency="100us" />
+  <link id="Link-42" bandwidth="192.17MBps" latency="100us" />
+  <link id="Link-43" bandwidth="165.22MBps" latency="100us" />
+  <link id="Link-44" bandwidth="197.70MBps" latency="100us" />
+  <link id="Link-45" bandwidth="176.42MBps" latency="100us" />
+  <link id="Link-46" bandwidth="192.76MBps" latency="100us" />
+  <link id="Link-47" bandwidth="157.36MBps" latency="100us" />
+  <link id="Link-48" bandwidth="132.06MBps" latency="100us" />
+  <link id="Link-49" bandwidth="177.55MBps" latency="100us" />
+  <link id="Link-50" bandwidth="175.82MBps" latency="100us" />
+  <link id="Link-51" bandwidth="171.81MBps" latency="100us" />
+  <link id="Link-52" bandwidth="166.52MBps" latency="100us" />
+  <link id="Link-53" bandwidth="160.87MBps" latency="100us" />
+  <link id="Link-54" bandwidth="103.58MBps" latency="100us" />
+  <link id="Link-55" bandwidth="176.82MBps" latency="100us" />
+  <link id="Link-56" bandwidth="165.36MBps" latency="100us" />
+  <link id="Link-57" bandwidth="168.08MBps" latency="100us" />
+  <link id="Link-58" bandwidth="157.21MBps" latency="100us" />
+  <link id="Link-59" bandwidth="150.82MBps" latency="100us" />
+  <link id="Link-60" bandwidth="141.46MBps" latency="100us" />
+  <link id="Link-61" bandwidth="149.76MBps" latency="100us" />
+  <link id="Link-62" bandwidth="171.10MBps" latency="100us" />
+  <link id="Link-63" bandwidth="157.04MBps" latency="100us" />
+  <link id="Link-64" bandwidth="112.28MBps" latency="100us" />
+  <link id="Link-65" bandwidth="198.03MBps" latency="100us" />
+  <link id="Link-66" bandwidth="131.36MBps" latency="100us" />
+  <link id="Link-67" bandwidth="139.10MBps" latency="100us" />
+  <link id="Link-68" bandwidth="124.02MBps" latency="100us" />
+  <link id="Link-69" bandwidth="135.26MBps" latency="100us" />
+  <link id="Link-70" bandwidth="193.05MBps" latency="100us" />
+  <link id="Link-71" bandwidth="156.97MBps" latency="100us" />
+  <link id="Link-72" bandwidth="134.11MBps" latency="100us" />
+  <link id="Link-73" bandwidth="185.22MBps" latency="100us" />
+  <link id="Link-74" bandwidth="122.19MBps" latency="100us" />
+  <link id="Link-75" bandwidth="131.81MBps" latency="100us" />
+  <link id="Link-76" bandwidth="161.65MBps" latency="100us" />
+  <link id="Link-77" bandwidth="114.95MBps" latency="100us" />
+  <link id="Link-78" bandwidth="189.17MBps" latency="100us" />
+  <link id="Link-79" bandwidth="193.71MBps" latency="100us" />
+  <link id="Link-80" bandwidth="192.50MBps" latency="100us" />
+  <link id="Link-81" bandwidth="164.99MBps" latency="100us" />
+  <link id="Link-82" bandwidth="165.52MBps" latency="100us" />
+  <link id="Link-83" bandwidth="159.02MBps" latency="100us" />
+  <link id="Link-84" bandwidth="125.86MBps" latency="100us" />
+  <link id="Link-85" bandwidth="169.11MBps" latency="100us" />
+  <link id="Link-86" bandwidth="135.84MBps" latency="100us" />
+  <link id="Link-87" bandwidth="191.22MBps" latency="100us" />
+  <link id="Link-88" bandwidth="137.19MBps" latency="100us" />
+  <link id="Link-89" bandwidth="193.05MBps" latency="100us" />
+  <link id="Link-90" bandwidth="142.03MBps" latency="100us" />
+  <link id="Link-91" bandwidth="178.65MBps" latency="100us" />
+  <link id="Link-92" bandwidth="142.81MBps" latency="100us" />
+  <link id="Link-93" bandwidth="113.14MBps" latency="100us" />
+  <link id="Link-94" bandwidth="135.69MBps" latency="100us" />
+  <link id="Link-95" bandwidth="155.09MBps" latency="100us" />
+  <link id="Link-96" bandwidth="111.17MBps" latency="100us" />
+  <link id="Link-97" bandwidth="167.05MBps" latency="100us" />
+  <link id="Link-98" bandwidth="194.18MBps" latency="100us" />
+  <link id="Link-99" bandwidth="135.19MBps" latency="100us" />
+
+  <route src="MasterHost" dst="WorkerHost-0">
+    <link_ctn id="Link-15"/>
+    <link_ctn id="Link-99"/>
+    <link_ctn id="Link-88"/>
+    <link_ctn id="Link-77"/>
+    <link_ctn id="Link-9"/>
+    <link_ctn id="Link-82"/>
+    <link_ctn id="Link-46"/>
+    <link_ctn id="Link-11"/>
+    <link_ctn id="Link-83"/>
+    <link_ctn id="Link-62"/>
+  </route>
+  <route src="MasterHost" dst="WorkerHost-1">
+    <link_ctn id="Link-97"/>
+    <link_ctn id="Link-85"/>
+    <link_ctn id="Link-23"/>
+    <link_ctn id="Link-34"/>
+    <link_ctn id="Link-89"/>
+    <link_ctn id="Link-92"/>
+    <link_ctn id="Link-10"/>
+    <link_ctn id="Link-54"/>
+    <link_ctn id="Link-5"/>
+    <link_ctn id="Link-6"/>
+  </route>
+  <route src="MasterHost" dst="WorkerHost-2">
+    <link_ctn id="Link-88"/>
+    <link_ctn id="Link-74"/>
+    <link_ctn id="Link-72"/>
+    <link_ctn id="Link-41"/>
+    <link_ctn id="Link-81"/>
+    <link_ctn id="Link-32"/>
+    <link_ctn id="Link-60"/>
+    <link_ctn id="Link-31"/>
+    <link_ctn id="Link-50"/>
+    <link_ctn id="Link-75"/>
+  </route>
+  <route src="MasterHost" dst="WorkerHost-3">
+    <link_ctn id="Link-30"/>
+    <link_ctn id="Link-90"/>
+    <link_ctn id="Link-5"/>
+    <link_ctn id="Link-91"/>
+    <link_ctn id="Link-68"/>
+    <link_ctn id="Link-87"/>
+    <link_ctn id="Link-37"/>
+    <link_ctn id="Link-79"/>
+    <link_ctn id="Link-22"/>
+    <link_ctn id="Link-72"/>
+  </route>
+</zone>
+</platform>

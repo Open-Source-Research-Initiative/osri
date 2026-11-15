@@ -1,0 +1,346 @@
+{
+  "reviewer": "Codex review_routes agent",
+  "status": "passed_no_remaining_blocking_findings",
+  "human_scientific_review": "pending",
+  "records_reviewed": 21,
+  "confirmed_observations": [
+    {
+      "tool_id": "simmer",
+      "finding": "Publisher paper p20 and R supplement confirm printed mean0.4974943 and interval[.4868269,.5081617]; 5e-8 is justified rounding tolerance. Literal forked run duplication is disclosed; separate independently seeded checks use same model/horizon and explicit finite-horizon limitations."
+    },
+    {
+      "tool_id": "hark",
+      "finding": "Strict TableI target .32±.005 fails at .3137699549295425; SciPy fsolve progress warning exists. Do not call paper target reproduced."
+    },
+    {
+      "tool_id": "pandapower",
+      "finding": "Independent CSV count gives276total,96infeasible topology,100evaluated fault-current failures,80valid. Both run and author archive contain11unordered unique switchpairs, versus article9. Source cell10 divides total active losses in kW by4 to obtain quarter-hour kWh; archivedlosses/run=4 to floatingpointprecision. Transformer archive/run=.1 remains unresolved."
+    },
+    {
+      "tool_id": "dolfinx",
+      "finding": "Recomputed nativeCSV eoc from last two error/DOF rows=.5021171063611624; estimator/error=1.0627164504071498. Both meet±.005 around live preprintFigure2(a) κ1=5,k1,m2 targets.50/1.06."
+    },
+    {
+      "tool_id": "ns-3-dev-git",
+      "finding": "Independent native log parsing confirms four configurations and12metrics pass closed±.005 rule, with twoFCTvalues exactly at boundary. Preserve native printed-precision limitation, and do not overstate identical decimal rounding."
+    },
+    {
+      "tool_id": "tellurium",
+      "finding": "Inspected sourceFigure4B and SEDML mapping: plot_0_0_1 is task1/model1Wee1c, t0..250. Digitizationprotocolmtime precedes both model runs; selected10point comparison is prospective and bounded, subject to manual figure calibration/humanreview."
+    },
+    {
+      "tool_id": "simgrid",
+      "finding": "Corrected native /usr/bin/time wall-time means and ratios verified:4000tasks.269/.207s,ratio1.2995169082;60000tasks1.366/.862s,ratio1.5846867749. All40performance records aggregate consistently. Endpoints do not constitute full Figure13/historicalhardware reproduction."
+    },
+    {
+      "tool_id": "gz-sim",
+      "finding": "Independently loaded initial and501760-step policy.pth from all5same-seed runs. All13tensor names,dtypes,shapes,values exactlyequal. Four completed evalCSVs eachmean16.5321697544,11/20success; fifth pending at review. Paper18.43notmatched."
+    },
+    {
+      "tool_id": "tax-calculator",
+      "finding": "Fresh macro solve rather than TaxCalculator micro-estimation.0.0695455351% matches draft.07% but governmentspendingnegative, invalid economicfeasibility; use route terminology and preserve missing originalPUF."
+    },
+    {
+      "tool_id": "dynare",
+      "finding": "Modern maintained third-party implementation with unmatched oldmode/data correspondence; no Table1posteriorMCMC. Label maintainedreplication/adaptation clearly."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "brian-tau-transcription",
+      "tool_id": "brian2",
+      "finding": "Claimed paper tau_object50ms versus notebook500ms discrepancy appears false: inspected source Figure3c raster visibly reads500ms.",
+      "required_correction": "Re-read high-resolution source and remove false discrepancy from current claims; preserve failed interpretation history.",
+      "status": "corrected_in_final_domain_records"
+    },
+    {
+      "id": "brian-prospective-scope",
+      "tool_id": "brian2",
+      "finding": "First numerical trajectory precedes numeric digitization tolerance; revised ROI follows failed first comparison. Same-seed deterministic rerun cannot retrospectively prespecify overall analysis.",
+      "required_correction": "Label raster comparison exploratory and scope declared-before-run accurately. Prefer author_code_executed unless strongest status permits exploratory target comparison.",
+      "status": "corrected_in_final_domain_records"
+    },
+    {
+      "id": "simgrid-timing-observable",
+      "tool_id": "simgrid",
+      "finding": "Author script parses native /usr/bin/time elapsed, but campaign initially reports Python subprocess-wrapper elapsed as the performance observable.",
+      "required_correction": "Use native elapsed for author-metric comparison; keep wrapper timing separately labeled. Native40run means4000tasks=.269/.207s;60000tasks=1.366/.862s.",
+      "status": "corrected_in_final_domain_records"
+    }
+  ],
+  "blocking_findings": [],
+  "per_tool_scientific_assessment": [
+    {
+      "tool_id": "brian2",
+      "status": "author_code_executed",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "Post-hoc exploratory comparison after prior modern output and first historical run; v2 corrects legend contamination. Historical deterministic repeat does not make overall analysis prospective.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "tellurium",
+      "status": "target_compared",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "Selected10-point Wee1c trace only; full archive ran but other5panels not numerically accepted.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "ngspice",
+      "status": "adapted_run",
+      "comparison_performed": true,
+      "comparison_passed": false,
+      "scope": "Descriptive comparison of a new bounded public-source policy with articleTableII; inputs/methods are not matched, so this is not target_compared or paper reproduction. Confidence intervals quantify target-sampling uncertainty conditional on this policy and do not establish equivalence. Training-seed variation has not been characterized.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "pandapower",
+      "status": "target_compared",
+      "comparison_performed": true,
+      "comparison_passed": false,
+      "scope": "Bounded switching target passes. Full-day author artifact comparison is partial: article9/notebook11 discrepancy and undocumented transformer reference convention remain visible.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "calliope",
+      "status": "analysed_saved_output",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "Archived-result analysis only; no new optimization. Full hourly model README estimates~2days; faithful smaller optimization target was not established.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "sumo",
+      "status": "adapted_run",
+      "comparison_performed": false,
+      "comparison_passed": null,
+      "scope": "Bounded duration adaptation, no full-day or empirical traffic-validation claim.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "hark",
+      "status": "author_code_executed",
+      "comparison_performed": true,
+      "comparison_passed": false,
+      "scope": "Exact author-associated HARK replication at pinned commit in its declared historical software versions; its discretization/interpolation and discount/shock conventions still differ from original paper.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "tax-calculator",
+      "status": "author_code_executed",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "Macro steady-state stage only; Tax-Calculator PUF microsimulation and transition paths are not rerun.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "engine",
+      "status": "attempted_blocked",
+      "comparison_performed": false,
+      "comparison_passed": null,
+      "scope": "Source/history audit only in this campaign; no fresh ORE run.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "dynare",
+      "status": "author_code_executed",
+      "comparison_performed": false,
+      "comparison_passed": null,
+      "scope": "A bounded maintained-code execution using bundled data/mode and modern Dynare/Octave, explicitly not full posterior estimation or paper replication.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "ns-3-dev-git",
+      "status": "target_compared",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "Attempt exact author accuracy settings and compare with Table2; differences retained as failed match. Hardware speedup not tested; reduced diagnostic separate from paper input.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "simgrid",
+      "status": "author_code_executed",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "Makespan consistency and descriptive endpoint performance/RSS comparison. Complete historical curves and hardware are not matched.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "precice",
+      "status": "attempted_blocked",
+      "comparison_performed": false,
+      "comparison_passed": null,
+      "scope": "Try compatible preCICE2.5/deal.II9.3 stack with installed OpenCFD2412. A short run may qualify participant coupling while a full hours-scale benchmark remains pending.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "dolfinx",
+      "status": "target_compared",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "One author-code preprint result; human scientific review pending.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "dealii",
+      "status": "attempted_blocked",
+      "comparison_performed": false,
+      "comparison_passed": null,
+      "scope": "Try compatible preCICE2.5/deal.II9.3 stack with installed OpenCFD2412. A short run may qualify participant coupling while a full hours-scale benchmark remains pending.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "dualsphysics",
+      "status": "adapted_run",
+      "comparison_performed": true,
+      "comparison_passed": null,
+      "scope": "Execute complete current author validation input unchanged in physics; report version/compiler differences. Coupled output comparison is an upstream benchmark assessment, not replication of1996 MPS algorithm or2015 solver timing results.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "simmer",
+      "status": "target_compared",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "Selected printed output and analytic/deterministic methods; not blanket validation of the software or all paper experiments.",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "blender",
+      "status": "author_code_executed",
+      "comparison_performed": true,
+      "comparison_passed": true,
+      "scope": "One seeded dataset-generator scene; no Table 3 model-training performance claim",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "gz-sim",
+      "status": "author_code_executed",
+      "comparison_performed": true,
+      "comparison_passed": false,
+      "scope": "Attempt author research artifact and preflight; full 500000-step configuration if native runner is feasible",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "bullet3",
+      "status": "adapted_run",
+      "comparison_performed": true,
+      "comparison_passed": false,
+      "scope": "CPU replay of bundled frozen PPO policy; no physical sim-to-real claim",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    },
+    {
+      "tool_id": "carla",
+      "status": "adapted_run",
+      "comparison_performed": true,
+      "comparison_passed": false,
+      "scope": "Attempt legacy author benchmark/server; compare actual paper agent only if available",
+      "scientific_review": "agent_source_and_claim_review_complete_human_review_pending"
+    }
+  ],
+  "final_native_checks": {
+    "ngspice": {
+      "author_successes": 41,
+      "total_targets": 60,
+      "strict_successes": 2,
+      "Wilson95": [
+        0.5576623297382323,
+        0.7869413244763347
+      ],
+      "qualification": "One bounded nonconverged policy; target-sampling uncertainty only, no training-seed variance characterization."
+    },
+    "precice_dealii": {
+      "CG_window_convergence": [
+        false,
+        false,
+        true
+      ],
+      "tight_window_convergence": [
+        false,
+        false
+      ],
+      "qualification": "Directly read native Fluid and Solid iteration logs; exit0 did not establish qualified coupling."
+    },
+    "dualsphysics": {
+      "points": 14,
+      "MAE": 0.24725525024521064,
+      "RMSE": 0.26367564386044096,
+      "max_abs": 0.33469765983142663,
+      "qualification": "Native14row CSV recomputed; originalfixture scale/observable alignment unverified; no acceptance threshold."
+    },
+    "gz_sim": {
+      "runs": 5,
+      "checkpoints_per_run_loaded": 2,
+      "tensors_per_checkpoint": 13,
+      "initial_and_final_names_dtype_shapes_values_exactly_equal": true,
+      "final_steps": 501760,
+      "qualification": "Independent direct torch tensor comparison, distinct from ZIPbyte equality. Fourchecked evalCSVmeans16.5321697544; domain finalrecord supplies fifth."
+    },
+    "simgrid": {
+      "native_mean_wall_seconds": {
+        "4000": {
+          "3.10": 0.269,
+          "3.36": 0.207
+        },
+        "60000": {
+          "3.10": 1.366,
+          "3.36": 0.862
+        }
+      },
+      "source_timing_observable_corrected": true,
+      "qualification": "Author native/usr/bin/time observable; wrappertiming separate; historicalhardware/fullcurve not reproduced."
+    }
+  },
+  "final_public_delta_review": {
+    "manifest_sha256": "c43585ee826b1610b38931cbb77717767e414be285f13d5c34ca819b256b818e",
+    "records": 21,
+    "status_counts": {
+      "author_code_executed": 6,
+      "adapted_run": 6,
+      "attempted_blocked": 3,
+      "target_compared": 5,
+      "analysed_saved_output": 1
+    },
+    "published_output_entries_verified": 603,
+    "published_unique_files": 603,
+    "local_guide_links_verified": 682,
+    "passing_published_targets": [
+      "dolfinx",
+      "simmer",
+      "tellurium",
+      "ns-3-dev-git"
+    ],
+    "mixed_published_targets": [
+      "pandapower"
+    ],
+    "corrected_tellurium_helper_syntax_and_reference_bytes": true
+  },
+  "final_public_manifest_sha256": "c43585ee826b1610b38931cbb77717767e414be285f13d5c34ca819b256b818e",
+  "source_terms_review": {
+    "kubric": "CC BY-SA4.0 on geometry-derived renders and native scenes; attribution retained separately from MIT harness/Apache2 source/GPL runtime.",
+    "gz_drl": "New trained weights and normalizer identified as OSRI-generated output from MIT source; Gazebo/EnvPool dependency notices separate.",
+    "autockt": "Only original harness and generated numerical outputs are published; no author code, saved author arrays or policy checkpoint is distributed. Source fetched by pinned reference.",
+    "tellurium": "Unlicensed source model archive fetched separately; published figure attribution and original OSRI wrappers retain separate terms.",
+    "restricted_full_texts": "User-provided restricted PDFs remain outside public campaign."
+  },
+  "final_primary_sources": [
+    "https://www.jstatsoft.org/article/view/v090i02",
+    "https://arxiv.org/html/2410.09764v1",
+    "https://arxiv.org/html/1709.06743v2",
+    "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006220",
+    "https://cs.nju.edu.cn/tianchen/lunwen/2024/eurosys24-final201.pdf"
+  ],
+  "parent_checks": {
+    "native_output_file_hash_entries_checked": 597,
+    "scope": "Byte integrity; shared outputs are present in more than one tool receipt.",
+    "site_regression_tests": 14,
+    "record_rule_tests": 11,
+    "python_bundle_files_syntax_checked": 43,
+    "shell_bundle_files_syntax_checked": 13,
+    "site_pages_checked": 118,
+    "local_links_checked": 5688,
+    "search_records_checked": 227,
+    "restricted_source_and_credential_marker_scan": "passed"
+  }
+}

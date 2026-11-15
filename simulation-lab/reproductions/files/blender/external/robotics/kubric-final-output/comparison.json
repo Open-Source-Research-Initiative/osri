@@ -1,0 +1,55 @@
+{
+  "status": "author_code_executed",
+  "paper": "https://arxiv.org/html/2203.03570v1",
+  "locator": "Section4.1/Figure5 MOVi-A dataset design; not Table3 learning scores",
+  "paper_design": {
+    "clip_frames": 24,
+    "resolution": [
+      256,
+      256
+    ],
+    "max_moving_objects": 10
+  },
+  "measured": {
+    "background": "clevr",
+    "frame_rate": 12,
+    "gravity": [
+      0.0,
+      0.0,
+      -10.0
+    ],
+    "num_frames": 24,
+    "num_instances": 7,
+    "resolution": [
+      256,
+      256
+    ],
+    "seed": 42,
+    "step_rate": 240
+  },
+  "checks": {
+    "frames_equal24": true,
+    "all_images_256_square": true,
+    "instances_in3_to10": true,
+    "metadata_frames_equal24": true,
+    "frame_rate12": true,
+    "segmentation_frames24": true,
+    "segmentation_labels_in0_to_num_instances": true,
+    "finite_positive_depth": true,
+    "objects_move": true
+  },
+  "all_design_checks_passed": true,
+  "repeatability": {
+    "prior_run_finished_numeric_outputs_then_failed_optional_hypertune_import": true,
+    "instance_metadata_exactly_equal": true,
+    "rgba_sha256_equal_frames": 24,
+    "rgba_frames_compared": 24
+  },
+  "limitations": [
+    "A newly generated scene, not a pixel-exact reconstruction of a figure5illustration.",
+    "Public currentKuBasic assets; exact original2022asset bytes are not established.",
+    "ModernPyBullet/TensorFlow dependency versions differ from original rendering image package set.",
+    "No SAVi/SIMONe training or foregroundARI reproduction.",
+    "Human scientific review pending."
+  ]
+}

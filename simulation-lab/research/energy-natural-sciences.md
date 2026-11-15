@@ -66,7 +66,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **pandapower** — How do switching states and transformer taps affect losses and operating constraints in the published 10 kV ring network?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for pandapower
 
@@ -74,7 +74,7 @@ Leon Thurner; Alexander Scheidler; Florian Schäfer; Jan-Hendrik Menke; Julian D
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1109/TPWRS.2018.2829021). Metadata verification: confirmed. Full-text access: Open author preprint; Crossref title/authors/year verified.
 
-**Target in the paper:** Paper case study: 10 kV ring network; feasible switching states and one-day optimized time series. Author repository explicitly identifies the three notebooks as the paper case study.
+**Target in the paper:** Section VII-B switching analysis; VII-D / Figure7 operational results
 
 ### Code and inputs for pandapower
 
@@ -103,17 +103,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Executed notebooks, feasible switch-state table, one-day losses/line-loading/transformer-loading/voltage time series, and differences against results/.
 
-**Comparison with the paper:** Compare exact admissible switch-state IDs and time-series arrays against the bundled author results and corresponding paper case-study plots; record units, tap positions and control objectives. Inspect result files and set tolerances before numerical comparison.
+**Comparison with the paper:** Successful exact bounded switching-target comparison; the aggregate declared comparison is NOT marked passed because complete historical Figure7 claims are not all matched. Initial raw loss difference is a documented power/energy unit mismatch, not solver failure. Article says9 selected states; original notebook says11 and current run matches11.
 
-**Execution result:** Sources and construction route inspected; no scientific result reproduced here.
+**Execution result:** Published switching counts match exactly; full-day97-point author calculation completed. Eleven selected states match author notebook/JSON but differ from article text9. Operational constraints hold. Source-defined kW→kWh conversion reconciles loss energy; transformer convention unresolved.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/pandapower.md); [Run record](../reproductions/records/pandapower.json)
 
-**Blockers:** Legacy environment must be reconstructed; current pandapower API differs materially.; Paper figure numbering and exact numeric tolerances still need extraction.
+**Blockers:** Full-day paper text9states versus author notebook11states.; Saved transformer-loading reference is0.1 of new derated percentage; data df=0.1 and source calculation explain a plausible convention, but reference generation convention is undocumented.
 
-**Next action:** Create a paper-specific environment lock, inspect results/, then run the three notebooks in original order.
+**Next action:** Use the bounded switching guide now; resolve the two full-day source conventions before claiming complete Figure7 reproduction.
 
-**Gaps:** Legacy environment must be reconstructed; current pandapower API differs materially.; Paper figure numbering and exact numeric tolerances still need extraction.
+**Gaps:** Full-day paper text9states versus author notebook11states.; Saved transformer-loading reference is0.1 of new derated percentage; data df=0.1 and source calculation explain a plausible convention, but reference generation convention is undocumented.
 
 ### Sources for pandapower
 
@@ -125,7 +125,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Calliope** — Can the study's baseline carbon-neutral European energy system and near-optimal alternatives be regenerated?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Saved author outputs analysed; simulator not run. **Source confidence:** high.
 
 ### Paper for calliope
 
@@ -133,7 +133,7 @@ Bryn Pickering; Francesco Lombardi; Stefan Pfenninger (2022). [Diversity of opti
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1016/j.joule.2022.05.009). Metadata verification: confirmed. Full-text access: Open full text and author archives; metadata verified.
 
-**Target in the paper:** Resource availability and experimental procedures; baseline least-cost model and SPORES alternatives. Rebuild baseline first, then reproduce selected capacity/cost results using the archived result ensemble.
+**Target in the paper:** Table1 metric ranges; Figure3 describes441 configurations; Resource availability identifies model/result archives.
 
 ### Code and inputs for calliope
 
@@ -162,17 +162,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Baseline model/result NetCDF, exact scenario YAML, solver log, SPORES result NetCDF ensemble and figures.
 
-**Comparison with the paper:** Compare baseline objective and carrier/technology capacities against archived result files before drawing any paper figure. Reproduce one selected paper plot with identical spatial and temporal aggregation; tolerance pending archived numeric-value audit. Subsequent versions corrected technology costs/efficiencies and transport, so current main is a different experiment.
+**Comparison with the paper:** Independent paper-table extraction agrees with author data; does not reproduce or validate a new solver run. Original optimization remains blocked by a verified expired solver license.
 
-**Execution result:** Sources and construction route inspected; no scientific result reproduced here.
+**Execution result:** Recovered exact author runtime/source; Gurobi9.1.2 throws License expired2022-01-13 even for a minimal prerequisite. Analyzed saved outputs separately:3969rows/441configurations, all9published ranges agree within rounding.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/calliope.md); [Run record](../reproductions/records/calliope.json)
 
-**Blockers:** Historical customized Calliope/solver environment not instantiated.; Archive numerical values, solver terms and exact figure target tolerance pending inspection.; Current main changes data and model assumptions; cannot silently substitute it for the article tag.
+**Blockers:** Original Gurobi9.1.2 solver runtime fails: License expired2022-01-13.; New optimization not performed; a qualified open-solver port or working original license and substantial compute are needed.
 
-**Next action:** Download the prebuilt model and one result, verify checksums and scenario IDs, then agree a baseline objective/capacity comparison before optimization.
+**Next action:** Secure an authorized compatible solver or qualify an open-solver port, then solve one archived baseline with objective/feasibility/capacity comparisons before ensemble runs. Saved-output guide is usable now.
 
-**Gaps:** Historical customized Calliope/solver environment not instantiated.; Archive numerical values, solver terms and exact figure target tolerance pending inspection.; Current main changes data and model assumptions; cannot silently substitute it for the article tag.
+**Gaps:** Original Gurobi9.1.2 solver runtime fails: License expired2022-01-13.; New optimization not performed; a qualified open-solver port or working original license and substantial compute are needed.
 
 ### Sources for calliope
 
@@ -185,7 +185,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **SUMO** — Can the published Luxembourg traffic-demand validation be repeated with the original scenario and simulator?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for sumo
 
@@ -193,7 +193,7 @@ Lara Codeca; Raphael Frank; Sebastien Faye; Thomas Engel (2017). [Luxembourg SUM
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1109/MITS.2017.2666585). Metadata verification: confirmed. Full-text access: Metadata and author README inspected; full validation tables not yet read.
 
-**Target in the paper:** Traffic-demand evaluation for 24-hour Luxembourg mobility; four author configurations: shortest-path/rerouting versus dynamic user equilibrium, static versus actuated signals.
+**Target in the paper:** Author scenario and traffic-demand evaluation; full article target unavailable (institutional LuST2.pdf requires copy request).
 
 ### Code and inputs for sumo
 
@@ -221,17 +221,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Configured SUMO output files, simulation log, completed vehicle/trip counts, travel-time profiles and detector-flow comparison tables.
 
-**Comparison with the paper:** Reproduce the article's time-of-day traffic-count and travel-time comparisons using its matching configuration and original validation data. Full text must establish exact target values and error metric/tolerance; do not infer validation from successful execution.
+**Comparison with the paper:** New numerical outputs from actual historical simulator and complete city inputs; duration bounded. Completed-trip mean is censored, and three seeds do not validate traffic demand. No 2017 paper-target comparison could be made.
 
-**Execution result:** Sources and construction route inspected; no scientific result reproduced here.
+**Execution result:** Three author-model runs completed. Each inserted878vehicles; completed trips757/761/756, still running121/117/122. Conditional completed-trip means486.023778/487.896189/487.310847seconds.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/sumo.md); [Run record](../reproductions/records/sumo.json)
 
-**Blockers:** SUMO 0.26 environment not installed.; Full validation targets and observational data provenance are pending.
+**Blockers:** 2017 paper LuST2.pdf and original observation/validation series unavailable; institutional record requires copy request.; Full-day empirical comparison not attempted without its target/data.
 
-**Next action:** Retrieve the article validation tables and establish a working legacy SUMO binary, then run one configuration and compare the designated detector series.
+**Next action:** Obtain Codeca etal2017 DOI10.1109/MITS.2017.2666585 full text and validation data, declare a statistic/uncertainty rule, then extend run duration and repeat enough seeds.
 
-**Gaps:** SUMO 0.26 environment not installed.; Full validation targets and observational data provenance are pending.
+**Gaps:** 2017 paper LuST2.pdf and original observation/validation series unavailable; institutional record requires copy request.; Full-day empirical comparison not attempted without its target/data.
 
 ### Sources for sumo
 
@@ -475,7 +475,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Tellurium** — Can a standards-based archive regenerate the paper's Drosophila cell-cycle simulations?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Published target compared. **Source confidence:** high.
 
 ### Paper for tellurium
 
@@ -483,7 +483,7 @@ J. Kyle Medley; Kiri Choi; Matthias König; Lucian Smith; Stanley Gu; Joseph Hel
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.1371/journal.pcbi.1006220). Metadata verification: confirmed. Full-text access: Open full text and actual COMBINE archive inspected.
 
-**Target in the paper:** Second case study and Figures 4–6; reference 54 explicitly links calzone-fig1-fig3.omex. The archive contains Calzone2007-simulation-figure-1B.xml and BIOMD0000000144.xml.
+**Target in the paper:** Figure4B Wee1c selected10points; exact archive from reference54
 
 ### Code and inputs for tellurium
 
@@ -510,17 +510,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Executed SED-ML trajectories/plots and extracted model/experiment files, plus full environment, archive SHA256 and numeric result exports.
 
-**Comparison with the paper:** Compare Wee1/MPF/String/cyclin trajectories and the encoded parameter variant against the paper's Figure 4 and original Calzone figure. Archive encodes the exact experiment but supplies no inspected numeric gold-standard CSV; extract or recover reference trajectories and establish tolerance before claiming reproduction.
+**Comparison with the paper:** Selected10-point Wee1c trace only; full archive ran but other5panels not numerically accepted.
 
-**Execution result:** Sources and construction route inspected; no scientific result reproduced here.
+**Execution result:** Exact author COMBINE archive executed unchanged, both1001-point timegrids and all21 data-generators finite. Selected Figure4B Wee1c comparison RMSE0.0026733313,maxabs0.0062600522; within prospective.03/.06 bounds. Current Tellurium runtime differs from2018 runtime.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/tellurium.md); [Run record](../reproductions/records/tellurium.json)
 
-**Blockers:** Numeric reference trajectories/tolerances have not been recovered.; Paper-era runtime differs from current binary packages.; Archive/API compatibility not yet executed.
+**Blockers:** Human review of raster calibration/tolerances is pending.; Original archive/model redistribution license not found in inspected archive/repository; input is fetched from author rather than relicensed/repackaged.
 
-**Next action:** Run the pinned archive and export numeric trajectories, then compare them with archived figure data or agreed digitization of the exact figure.
+**Next action:** Review the10-point digitization and tolerance, then extend independent numerical reference comparisons to the other paper panels or obtain original numeric figure data.
 
-**Gaps:** Numeric reference trajectories/tolerances have not been recovered.; Paper-era runtime differs from current binary packages.; Archive/API compatibility not yet executed.
+**Gaps:** Human review of raster calibration/tolerances is pending.; Original archive/model redistribution license not found in inspected archive/repository; input is fetched from author rather than relicensed/repackaged.
 
 ### Sources for tellurium
 
@@ -540,7 +540,7 @@ Marcel Stimberg; Romain Brette; Dan FM Goodman (2019). [Brian 2, an intuitive an
 
 **Publication type:** See primary metadata record; not classified here.. [Primary metadata](https://api.crossref.org/works/10.7554/eLife.47314). Metadata verification: confirmed. Full-text access: Open full text, figure descriptions and author notebook inspected.
 
-**Target in the paper:** Case study 2, Figure 3: retinal/motor spikes and eye/object position during 10 seconds. Alternative author notebooks cover Figures 1–7; Figure 8 benchmarks are separate supplementary code.
+**Target in the paper:** Figure3b eye/object position trace; model code in Figure3c
 
 ### Code and inputs for brian2
 
@@ -569,17 +569,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** 10-second eye/object/target position arrays, retinal/motor spike trains and Figure 3-style plots; save model-cell hashes, seed, dt and runtime versions.
 
-**Comparison with the paper:** Compare the Figure 3 eye/object time series and spike timings with author reference trajectories using the same seed and historical versions. Modern-version execution alone demonstrates runnable author code; it is not a validated reproduction of the exact published trace. Numeric reference data and tolerance need recovery/digitization.
+**Comparison with the paper:** Post-hoc exploratory comparison after prior modern output and first historical run; v2 corrects legend contamination. Historical deterministic repeat does not make overall analysis prospective.
 
-**Execution result:** Unmodified author model cells executed on Python 3.12.16 / Brian2 2.9.0 / NumPy 1.26.4, NumPy backend. Seed 79620, dt 0.1 ms, 10 s, 100000 samples; 2406 retinal spikes and motor counts 56/51. Six bounded consistency checks passed. All arrays retained in NPZ/CSV with SHA256, plus a new Matplotlib plot. Original Plotly presentation cell omitted. Published numeric reference was not recovered; this is author-code compatibility execution, not a verified Figure 3 reproduction.
+**Execution result:** Unchanged eight author model cells ran on paper-version Brian2.2.2.1/Python3.6. Repeated historical arrays identical. Exploratory Figure3b comparison: eye RMSE0.0342156/max0.100732,object RMSE0.0195218/max0.0527203; within exploratory bounds. Code and actual published figure both use500ms; initial50ms transcription corrected.
 
-**Execution evidence:** [Run receipt](verification/brian2.json)
+**Execution evidence:** [Author-code attempt](../reproductions/brian2.md); [Run record](../reproductions/records/brian2.json)
 
-**Blockers:** Historical Python 3.6 environment not instantiated.; Exact published numeric trajectories/tolerance not available in the inspected notebook.
+**Blockers:** Prospective paper-reference acceptance analysis not established; current raster analysis is explicitly exploratory.; Human scientific review of digitization, calibration and scope pending.
 
-**Next action:** Run the historical environment or recover the paper/reference numeric traces; compare them with the retained modern execution under explicit error criteria. Current author model executes successfully.
+**Next action:** Review the reference extraction independently, then predeclare any stronger new experiment before new stochastic/model outputs; do not rename this exploratory comparison a full-paper reproduction.
 
-**Gaps:** Historical Python 3.6 environment not instantiated.; Exact published numeric trajectories/tolerance not available in the inspected notebook.
+**Gaps:** Prospective paper-reference acceptance analysis not established; current raster analysis is explicitly exploratory.; Human scientific review of digitization, calibration and scope pending.
 
 ### Sources for brian2
 

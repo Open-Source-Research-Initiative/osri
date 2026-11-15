@@ -1,0 +1,19 @@
+{
+  "target": "Figure4B Wee1c at10 preselected times",
+  "reference_points": 10,
+  "rmse": 0.0026733313070862225,
+  "max_abs": 0.00626005219744763,
+  "bounds": {
+    "rmse": 0.03,
+    "max_abs": 0.06
+  },
+  "passed": true,
+  "declared_before_run": true,
+  "scope": "Selected10-point Figure4B Wee1c raster trace, not all6panels, original BIOCHAM result or biological validation.",
+  "checks": {
+    "all_21_data_generators_finite": true,
+    "time1_1001_samples_0_to250": true,
+    "time2_1001_samples_0_to180": true
+  },
+  "human_scientific_review": "pending"
+}

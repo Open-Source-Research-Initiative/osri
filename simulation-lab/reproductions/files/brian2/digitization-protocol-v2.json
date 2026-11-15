@@ -1,0 +1,28 @@
+{
+  "source": "https://cdn.elifesciences.org/articles/47314/elife-47314-fig3-v2.jpg",
+  "source_sha256": "bcfaf97cd936df8a21824e2e58ba9e9fa902d69a43eecd252f7aba0b7b40af3d",
+  "target": "Figure3b position traces",
+  "calibration": {
+    "x_time0": 1076,
+    "x_time10": 1635,
+    "y_zero": 457.5,
+    "y_plus1": 413,
+    "y_minus1": 502,
+    "scale_basis": "Paper tick labels left/right correspond to -1/+1 in author Plotly cell."
+  },
+  "samples": 158,
+  "selection": "Every third x pixel in1080..1632, ROIy425..496; median of per-column green and black masks, only columns containing both. Axis/legend excluded. Revision2 clips black-mask y>=438 to exclude the object legend text; original revision1 comparison and failure retained.",
+  "exploratory_bounds": {
+    "rmse_at_most": 0.08,
+    "max_abs_at_most": 0.15
+  },
+  "basis": "Lines are about5-6pixels thick;44.5pixels/unit gives a roughly0.06-0.08unit half-width/calibration allowance. Max tolerance allows local steepness/time-pixel uncertainty. This is figure-resolution comparison, not a tolerance published by authors.",
+  "prospective_run": "historical-run-3",
+  "declared_before_run": false,
+  "limitations": [
+    "Manual calibration should receive human review.",
+    "Raster digitization cannot establish bitwise or all-spike reproduction.",
+    "Figure3c and notebook both use500ms; this comparison tests Figure3b trace only."
+  ],
+  "chronology": "Overall exploratory: prior modern output and historical-run1 existed before numerical bounds, and ROIrevision2 followed failed legend-contaminated extraction. A deterministic rerun does not reset predeclaration."
+}

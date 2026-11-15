@@ -1,0 +1,285 @@
+{
+  "tool_id": "hark",
+  "title": "Carroll author-associated HARK replication: executed with failed strict table comparison",
+  "question": "Can the author-associated code regenerate Carroll’s buffer-stock saving figures and tables?",
+  "paper": {
+    "title": "Buffer-Stock Saving and the Life Cycle/Permanent Income Hypothesis",
+    "identifier": "10.1162/003355397555109",
+    "url": "https://doi.org/10.1162/003355397555109",
+    "locator": "Figures I, V, VI and VII and Tables I–II correspond to named Figure1a/1b, Figure5a/b/c, Figure6/7 and table1/2 output code. Original baseline pp. 5–8 already annotated by the lab.",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/econ-ark/BufferStock-LifeCycle",
+    "ref": "master",
+    "commit": "0a278360b77eeac1df1e91374c168b3091365fbf",
+    "paths": [
+      "reproduce.sh",
+      "Code/Python/BufferStock-LifeCycle.py",
+      "binder/environment.yml",
+      "Paper/Figures",
+      "Paper/Tables"
+    ],
+    "license": "Inspect repository license and HARK Apache-2.0 separately; restricted article excluded."
+  },
+  "inputs": {
+    "description": "Author calibration, income profiles and shock distributions from pinned public script; original paper restricted PDF inspected locally only for numerical target.",
+    "access": "Public source; restricted PDF not redistributed.",
+    "hashes": {
+      "source_script": "8d1618a2b7ed13af37795ce030c1c1d21a7900ea333d13a596b39ccd20b7a980"
+    }
+  },
+  "environment": {
+    "versions": {
+      "python": "3.7.12",
+      "econ-ark": "0.10.4",
+      "matplotlib": "3.5.3",
+      "pandas": "1.3.5",
+      "scipy": "1.7.3",
+      "tabulate": "0.9.0"
+    },
+    "changes_from_author": [
+      "Restored versions named in author environment.yml. Modern operating-system/compiler transitive package builds are preserved in explicit environment.",
+      "Original script unmodified; wrapper captures its Python namespace and exports CSV/JSON."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "./env/bin/python",
+        "capture_author_run.py"
+      ],
+      "cwd": "planning/simulation-reproduction-2026-11-15/runs/finance/hark"
+    }
+  ],
+  "target": {
+    "declared_at": "2026-11-15T20:40:13.646465+00:00",
+    "declared_before_run": true,
+    "paper": "10.1162/003355397555109",
+    "locator": "Printed p.18, Table I, baseline row g=.02 (dagger)",
+    "observable": "Target net wealth/income ratio, baseline",
+    "reference": 0.32,
+    "tolerance": 0.005,
+    "tolerance_basis": "Half of the 0.01 reporting unit in the paper table, absolute. This is a strict rounding comparison, not a calibrated scientific validation tolerance.",
+    "secondary_targets": {
+      "average_net_wealth": 0.35,
+      "average_MPC_out_of_wealth": 0.33
+    },
+    "scope": "Exact author-associated HARK replication at pinned commit in its declared historical software versions; its discretization/interpolation and discount/shock conventions still differ from original paper."
+  },
+  "execution": {
+    "status": "author_code_executed",
+    "result": "Seven figure PNGs and two LaTeX tables generated from exact source. Strict original-paper baseline target comparison failed; SciPy non-progress warning retained.",
+    "exit_code": 0,
+    "elapsed_seconds": 5.026118780020624
+  },
+  "comparison": {
+    "performed": true,
+    "passed": false,
+    "measurements": {
+      "paper_target_net_wealth": 0.32,
+      "author_run_target_net_wealth": 0.3137699549295425,
+      "absolute_error": 0.0062300450704574906,
+      "absolute_tolerance": 0.005,
+      "baseline_average_net_wealth": 0.34177016137486194,
+      "baseline_MPC": 0.31582048960476783
+    },
+    "interpretation": "Actual script execution restored; baseline target net wealth rounds to 0.31 rather than printed 0.32. Author implementation methods differ from original paper. No paper reproduction claim."
+  },
+  "outputs": [
+    {
+      "path": "files/hark/results.json",
+      "sha256": "44f2814e001abf104a24685ae4f78552fddb466d0659dea3fd1ddc71fafb4848",
+      "bytes": 1203,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/results.json",
+      "published": true
+    },
+    {
+      "path": "files/hark/table1.csv",
+      "sha256": "92861ece1da1598b24936d4cdb44c38d4c2615eec15d5f66f3933537eee367a8",
+      "bytes": 1215,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/table1.csv",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Tables/table1.tex",
+      "sha256": "918351196006dc15f756c5f481339f4031dbf0a07056daa2a48ebe476bce0931",
+      "bytes": 724,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Tables/table1.tex",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Tables/table2.tex",
+      "sha256": "0663eb4fcb869e9b2854190c8def6780aebc618b60dad13212e99e9217b7b6b6",
+      "bytes": 1841,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Tables/table2.tex",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Figures/Figure1a.png",
+      "sha256": "19aaaf63c1207199604b077328ceafba86e276ade000859bf173cedb22260f5c",
+      "bytes": 45264,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Figures/Figure1a.png",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Figures/Figure1b.png",
+      "sha256": "e07f4cd80786269be765ab178d40e776b9ac861592072b3241f62ff542087b5f",
+      "bytes": 64435,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Figures/Figure1b.png",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Figures/Figure5a.png",
+      "sha256": "49f8a0135945910b0d4a91bdb8fee55bcef7b054edf134761eecabe562319303",
+      "bytes": 24977,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Figures/Figure5a.png",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Figures/Figure5b.png",
+      "sha256": "d6637a7f098e57296c8cc1dd10453bf1347a2c084c14850606f9127ebe72302c",
+      "bytes": 27415,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Figures/Figure5b.png",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Figures/Figure5c.png",
+      "sha256": "ed638f7a4d31fbe9af915e10f9e06832ad432a88e075a99a68210448b7e1d4f4",
+      "bytes": 28972,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Figures/Figure5c.png",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Figures/Figure6.png",
+      "sha256": "e761f178486e7149f2cfefb8ab0e1f4edc308c8f48464de5c3d2d1c8e1119e21",
+      "bytes": 35887,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Figures/Figure6.png",
+      "published": true
+    },
+    {
+      "path": "files/hark/output/Figures/Figure7.png",
+      "sha256": "da556528b23027a5853e83768c30177c0f4d5014c8eced94bf640347cd663de2",
+      "bytes": 40048,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/output/Figures/Figure7.png",
+      "published": true
+    },
+    {
+      "path": "files/hark/guide.md",
+      "sha256": "1a5e71c750dc83bbb917b4bcf473209aa29445191cdf2705a23dbb24820a71a1",
+      "bytes": 2710,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/guide.md"
+    },
+    {
+      "path": "files/hark/capture_author_run.py",
+      "sha256": "0385139aa16688256872613cecaa85af67636d84d43a5687b10d12877080c549",
+      "bytes": 1331,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/capture_author_run.py"
+    },
+    {
+      "path": "files/hark/get-source.sh",
+      "sha256": "afe24e9a73a91e4aebc904e53751c4adc92dee5c0824cf9a285a2aeb8133ee8d",
+      "bytes": 162,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/get-source.sh"
+    },
+    {
+      "path": "files/hark/environment.yml",
+      "sha256": "d0d61ffb934933b99e9b0be58306cf9097cfb0dbebab3434a5d9208607649b62",
+      "bytes": 160,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/environment.yml"
+    },
+    {
+      "path": "files/hark/environment-explicit.txt",
+      "sha256": "4821eaa8303940ed8f1606c4ceb7b3339ab31c324d97aa6f7c3eccfbf8580ef2",
+      "bytes": 14473,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/environment-explicit.txt"
+    },
+    {
+      "path": "files/hark/requirements-tested.txt",
+      "sha256": "d2295786ff63a92001894d0c9dc40cb677d5eae1004b0a50e700d7e8caf06338",
+      "bytes": 729,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/requirements-tested.txt"
+    },
+    {
+      "path": "files/hark/target.json",
+      "sha256": "dbbcef7af3b727eae0b43821b493b7391fd37c7d1aa33033e9fb1b4a8c34b526",
+      "bytes": 785,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/hark/target.json"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/finance/hark/target.json",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/hark/capture-stdout.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/hark/capture-stderr.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/hark/results.json",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/hark/environment-create.json"
+  ],
+  "blockers": [
+    "Strict printed table comparison fails.",
+    "Author discretization/simulation and calibration conventions differ from original paper.",
+    "SciPy non-progress warning elsewhere in full script; convergence of all quantities not established."
+  ],
+  "next_action": "Audit numerical settings/shock distribution and deterministic target residual; resolve mismatch before declaring paper result reproduced.",
+  "relationship_to_paper": "Unmodified author-associated replication executed in its declared legacy environment, with explicit failed original Table I rounding comparison.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/finance/hark",
+    "guide": "guide.md",
+    "files": [
+      "guide.md",
+      "capture_author_run.py",
+      "get-source.sh",
+      "environment.yml",
+      "environment-explicit.txt",
+      "requirements-tested.txt",
+      "target.json",
+      "results.json",
+      "table1.csv"
+    ]
+  },
+  "research_group": "finance",
+  "guide_source": "templates/hark.md.in"
+}

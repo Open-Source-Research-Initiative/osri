@@ -1,0 +1,33 @@
+{
+  "paper": "https://arxiv.org/html/2609.13243v1",
+  "locator": "SectionV-B, Figure6 and TableII same-seed row",
+  "status": "author_code_executed",
+  "requested_timesteps_per_run": 500000,
+  "actual_timesteps_per_run": 501760,
+  "training_runs": 5,
+  "checkpoint_positions": 12,
+  "evaluation_episodes_per_checkpoint": 20,
+  "total_evaluation_episodes": 1200,
+  "paper_reference": {
+    "final_return_mean": 18.43,
+    "final_return_std": 0.0,
+    "identical_parameter_checkpoints_fraction": 1.0
+  },
+  "actual": {
+    "final_return_mean": 16.532169754395728,
+    "across_run_final_return_std": 0.0,
+    "within_run_episode_return_std": 14.981441036491205,
+    "mean_checkpoint_return_std": 0.0,
+    "identical_parameter_checkpoints_fraction": 1.0,
+    "final_success_rate": 0.55
+  },
+  "differences": {
+    "final_return_actual_minus_paper": -1.897830245604272
+  },
+  "checks": {
+    "author_preflight_all_hashes_match": true,
+    "independent_all5_runs_all12_checkpoint_parameter_hashes_match": true,
+    "across_run_return_std_zero": true
+  },
+  "interpretation": "Same-seed determinism is supported by full author-code execution and independent parameter hashing. The published numerical final return is not reproduced; no tolerance is invented. Historical package/compiler lock is not established, and this portablebuild uses Gazebo10.6/GCC15 plus a mechanical constructor-disambiguation patch. Different-seed row was not run. Human scientific review pending."
+}

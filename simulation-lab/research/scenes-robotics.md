@@ -64,7 +64,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Blender** — Can we regenerate MOVi-A synthetic videos and their ground-truth annotations?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for blender
 
@@ -100,17 +100,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** RGB frames, instance segmentation, depth, optical flow, scene metadata and saved scene as configured by worker.
 
-**Comparison with the paper:** Check Figure 5 dataset design: 24-frame clips and up to ten moving objects; inspect source-specific frame/resolution settings. Dataset-generation agreement does not reproduce Table 3 FG-ARI.
+**Comparison with the paper:** PublishedMOVi-A dataset-design properties match; all9numerical/design checks passed. Originalfigurepixels, originalassetbytes andTable3learning scores are outside this comparison.
 
-**Execution result:** No execution claim; commands were inspected upstream or explicitly marked proposed.
+**Execution result:** Paper-date author worker ran to completion onCPU:24frames,256×256,7objects and all rendered annotations/native states. Nine design checks passed; second scene has identical instance metadata and24/24RGBAhashes.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/blender.md); [Run record](../reproductions/records/blender.json)
 
-**Blockers:** Container digest not pinned; exact published scene seeds and historic code revision need matching.
+**Blockers:** Exact2022assetbytes and full originaldependencylock not established; SAVi/SIMONeTable3training benchmark not attempted.
 
-**Next action:** Resolve original image/revision and run one seeded MOVi-A scene before any full dataset.
+**Next action:** Human review of the dataset-generation guide; match archivedassets and modeltraining protocol before reproducingTable3.
 
-**Gaps:** Container digest not pinned; exact published scene seeds and historic code revision need matching.
+**Gaps:** Exact2022assetbytes and full originaldependencylock not established; SAVi/SIMONeTable3training benchmark not attempted.
 
 ### Sources for blender
 
@@ -299,7 +299,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Gazebo** — Do isolated same-seed PPO runs produce identical checkpoints and evaluation curves?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for gz-sim
 
@@ -335,17 +335,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** results/determinism_check.json; per-run checkpoint/evaluation data; analysis CSV, plots, LaTeX table and machine/config manifest.
 
-**Comparison with the paper:** Table II target: same-seed final return 18.43±0.00 and 100% identical checkpoints. First require exact checkpoint-hash/trajectory agreement across process-isolated same-seed runs. Numerical return matching across software/hardware changes needs an agreed tolerance; do not assume one.
+**Comparison with the paper:** Same-seed determinism is supported by full author-code execution and independent parameter hashing. The published numerical final return is not reproduced; no tolerance is invented. Historical package/compiler lock is not established, and this portablebuild uses Gazebo10.6/GCC15 plus a mechanical constructor-disambiguation patch. Different-seed row was not run. Human scientific review pending.
 
-**Execution result:** No execution claim; commands were inspected upstream or explicitly marked proposed.
+**Execution result:** Completed all5full same-seed500000-requested-step training runs and1200evaluation episodes. Author preflight and independent12-checkpoint parameter identity checks pass; finalreturn16.53217 differs from paper18.43.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/gz-sim.md); [Run record](../reproductions/records/gz-sim.json)
 
-**Blockers:** Native Gazebo stack not installed here; exact dependency lock and target tolerance unverified.
+**Blockers:** Paper final-return18.43not reproduced (actual16.53217); original package/compiler lock and exactpaperartifactversionnot established.; Different-seedTableIIrownot run.
 
-**Next action:** Build on an approved isolated native runner, use author preflight determinism check, then complete same-seed group before expanding.
+**Next action:** Review native task/config/environment differences with paper authors; reproduce the original score only after exact software/config provenance is resolved.
 
-**Gaps:** Native Gazebo stack not installed here; exact dependency lock and target tolerance unverified.
+**Gaps:** Paper final-return18.43not reproduced (actual16.53217); original package/compiler lock and exactpaperartifactversionnot established.; Different-seedTableIIrownot run.
 
 ### Sources for gz-sim
 
@@ -414,7 +414,7 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Bullet / PyBullet** — Can the released Minitaur trotting and galloping controllers be replayed?
 
-**Route:** Paper result candidate. **Execution:** Not run. **Source confidence:** high.
+**Route:** Paper result candidate. **Execution:** Example executed. **Source confidence:** high.
 
 ### Paper for bullet3
 
@@ -450,17 +450,17 @@ The sequence below contains upstream commands and proposed setup instructions, a
 
 **Expected outputs:** Policy rollouts, robot states/actions and gait trajectories; archive raw logs and exact checkpoint hashes.
 
-**Comparison with the paper:** Confirm paper gait/config provenance then compare displacement/speed and footfall trajectory to its experiment. Physical sim-to-real transfer requires the actual robot and is outside this CPU replay. Numeric targets and tolerances remain unverified until full experimental text is inspected.
+**Comparison with the paper:** Released policies execute, but published simulation speeds are not reproduced by matched methods/checkpoints. Trot mean0.9215m/s versus paper approximately0.50; gallop mean1.3084 with SD0.5209 and only2/5 complete. No physical sim-to-real claim.
 
-**Execution result:** No execution claim; commands were inspected upstream or explicitly marked proposed.
+**Execution result:** Replayed author frozen PPO policies for five seeds per gait; all numerical traces retained.
 
-**Execution evidence:** None recorded.
+**Execution evidence:** [Author-code attempt](../reproductions/bullet3.md); [Run record](../reproductions/records/bullet3.json)
 
-**Blockers:** Legacy TensorFlow/Gym compatibility not resolved; precise paper result and tolerance not extracted.
+**Blockers:** Published TableII policy widths/checkpoint selection not matched; native physics revision not2018; no physical robot evaluation.
 
-**Next action:** Inspect pinned example imports/checkpoint config, reconstruct historical environment and replay one frozen policy.
+**Next action:** Recover paper-specific checkpoint/environment; agree the speed estimator and tolerance, then compare with repeated episodes.
 
-**Gaps:** Legacy TensorFlow/Gym compatibility not resolved; precise paper result and tolerance not extracted.
+**Gaps:** Published TableII policy widths/checkpoint selection not matched; native physics revision not2018; no physical robot evaluation.
 
 ### Sources for bullet3
 

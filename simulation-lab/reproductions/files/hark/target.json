@@ -1,0 +1,15 @@
+{
+  "declared_at": "2026-11-15T20:40:13.646465+00:00",
+  "declared_before_run": true,
+  "paper": "10.1162/003355397555109",
+  "locator": "Printed p.18, Table I, baseline row g=.02 (dagger)",
+  "observable": "Target net wealth/income ratio, baseline",
+  "reference": 0.32,
+  "tolerance": 0.005,
+  "tolerance_basis": "Half of the 0.01 reporting unit in the paper table, absolute. This is a strict rounding comparison, not a calibrated scientific validation tolerance.",
+  "secondary_targets": {
+    "average_net_wealth": 0.35,
+    "average_MPC_out_of_wealth": 0.33
+  },
+  "scope": "Exact author-associated HARK replication at pinned commit in its declared historical software versions; its discretization/interpolation and discount/shock conventions still differ from original paper."
+}

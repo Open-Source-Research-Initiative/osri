@@ -1,0 +1,269 @@
+{
+  "tool_id": "dynare",
+  "title": "Smets–Wouters maintained model: fresh mode evaluation and shock decomposition",
+  "question": "Can a published Bayesian DSGE model’s shock responses and posterior estimates be regenerated?",
+  "paper": {
+    "title": "Shocks and Frictions in US Business Cycles: A Bayesian DSGE Approach",
+    "identifier": "10.1257/aer.97.3.586",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586",
+    "locator": "Paper’s Bayesian estimation, shock decomposition and impulse responses; specific printed table cells/figure tolerances still require full-text comparison. Official replication archive DOI 10.3886/E116269V1.",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/JohannesPfeifer/DSGE_mod",
+    "ref": "master",
+    "commit": "26c21f79e4c6a6b19b18e6330edc5b23489907a4",
+    "paths": [
+      "Smets_Wouters_2007/Smets_Wouters_2007.mod",
+      "Smets_Wouters_2007/Smets_Wouters_2007_45.mod",
+      "Smets_Wouters_2007/usmodel_data.mat",
+      "Smets_Wouters_2007/usmodel_mode.mat"
+    ],
+    "license": "GPL-3.0-or-later for this Dynare implementation per header; original data/archive terms separate."
+  },
+  "inputs": {
+    "description": "Bundled usmodel_data.mat and usmodel_mode.mat from maintained author-derived model; first_obs=1, 230 observations, mh_replic=0. Official original archive requires login; correspondence not independently verified.",
+    "access": "Maintained public code/data available. Official archive download redirects to login.",
+    "hashes": {
+      "Smets_Wouters_2007.mod": "cd2790c33f253d6b8e6205423935642bf9b103a9217bfa261eb75b55be5de9c8",
+      "usmodel_data.mat": "35e09d915973e89442e50584f790f4859393219818c03ec8f2eead2b8a3c2050",
+      "usmodel_mode.mat": "f50700848153173b213f69cfa6f77ecca3debd08567c4396029c91a720cd3ae1"
+    }
+  },
+  "environment": {
+    "versions": {
+      "octave": "9.4.0",
+      "dynare": "6.4",
+      "statistics": "1.7.7",
+      "SLICOT": "5eeb845d84f5a60f6069754b7819dad468951933"
+    },
+    "changes_from_author": [
+      "Modern portable runtime built unprivileged under task path.",
+      "Conda Octave prefix metadata required OCTAVE_HOME and compile-variable relocation.",
+      "Local HDF5 pkg-config descriptor supplied; SLICOT built from pinned source.",
+      "Maintained model unchanged; no original archive comparison or MCMC."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "sh",
+        "run_model.sh"
+      ],
+      "cwd": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare"
+    },
+    {
+      "argv": [
+        "python",
+        "extract_outputs.py"
+      ],
+      "cwd": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare"
+    }
+  ],
+  "target": {
+    "declared_at": "2026-11-15T20:49:10.545831+00:00",
+    "declared_before_run": true,
+    "paper": "10.1257/aer.97.3.586",
+    "locator": "Seven-observable DSGE model and shock decomposition; Table 1 posterior estimates are NOT estimated by this bounded run.",
+    "observable": "Execute maintained author-derived model at supplied mode with mh_replic=0; retain log likelihood, determinacy checks and shock decomposition.",
+    "reference": null,
+    "tolerance": null,
+    "tolerance_basis": "No claimed paper numerical comparison: original AEA archive download currently redirects to login; final paper numeric target and exact sample/mode correspondence have not been verified.",
+    "scope": "A bounded maintained-code execution using bundled data/mode and modern Dynare/Octave, explicitly not full posterior estimation or paper replication."
+  },
+  "execution": {
+    "status": "adapted_run",
+    "result": "Fresh maintained model evaluation and finite 40×9×230 shock decomposition completed. No original-paper quantitative comparison or posterior estimation claimed.",
+    "exit_code": 0,
+    "elapsed_seconds": 19.0
+  },
+  "comparison": {
+    "performed": false,
+    "passed": null,
+    "measurements": {
+      "status": "author_code_executed",
+      "exit_code": 0,
+      "dynare_version": "6.4",
+      "octave_version": "9.4.0",
+      "statistics_version": "1.7.7",
+      "mh_replic": 0.0,
+      "mode_compute": 0.0,
+      "first_obs": 1.0,
+      "observations": 230,
+      "shock_decomposition_shape": [
+        40,
+        9,
+        230
+      ],
+      "shock_decomposition_all_finite": true,
+      "max_abs_output_decomposition_sum_residual": 7.105427357601002e-15,
+      "laplace_log_data_density": -1844.0985587223256,
+      "scope": "Maintained author-derived model at supplied old mode; no optimization or MCMC. Original author archive requires login, so original sample/mode and printed paper targets not matched.",
+      "warnings": [
+        "Old mode file cannot be verified against current model.",
+        "gaminv prior-bound calculation did not converge for some values.",
+        "Negative array dimensions converted to zero in shock-decomposition setup.",
+        "33 preprocessor warnings from unassigned steady-state block variables."
+      ],
+      "interpretation": "Fresh model execution and finite native decomposition achieved, with exploratory summation diagnostic. No published-target comparison, posterior estimation, scientific acceptance or original-paper reproduction claimed."
+    },
+    "interpretation": "Exploratory decomposition sum residual is 7.1e-15; Laplace density -1844.0985587 under provided mode/settings. Original published numerical target/sample/mode not matched, and runtime/model warnings remain."
+  },
+  "outputs": [
+    {
+      "path": "files/dynare/model-outputs.mat",
+      "sha256": "2bbd8c3e5c9e8da079a449dcdbe415db9e9b48bd4ff4cb1f6e846ac7a549b77a",
+      "bytes": 789650,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/model-outputs.mat",
+      "published": true
+    },
+    {
+      "path": "files/dynare/output-decomposition-y.csv",
+      "sha256": "da4d1371d96a51852dabe2563449d0003102fb69b729ab5fbad5329c88f7cdb8",
+      "bytes": 40776,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/output-decomposition-y.csv",
+      "published": true
+    },
+    {
+      "path": "files/dynare/results.json",
+      "sha256": "537a9630cae132a95e70c7698040a9db5bb6a34644aa80d4122bdbc2ff0d7334",
+      "bytes": 1208,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/results.json",
+      "published": true
+    },
+    {
+      "path": "files/dynare/guide.md",
+      "sha256": "7502c2e05548d07d04a0abaf585dfdf94e9bf96ace77a27255c9c23afaeaaea8",
+      "bytes": 3240,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/guide.md"
+    },
+    {
+      "path": "files/dynare/get-source.sh",
+      "sha256": "992e380bb355800265930e29e79256fdb26adadf677feb2a0a18b12cf7433fa3",
+      "bytes": 568,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/get-source.sh"
+    },
+    {
+      "path": "files/dynare/build_runtime.sh",
+      "sha256": "f98f9b4d8e9bc7f1ae5c26282876173fc0a5249576e5313c8fe97578713b4536",
+      "bytes": 1497,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/build_runtime.sh"
+    },
+    {
+      "path": "files/dynare/run_model.sh",
+      "sha256": "4d3cce7011fa42c1b4eac6b58e7fda7f4aaaf2b4da773ab0ff02d5785a26cfa7",
+      "bytes": 638,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/run_model.sh"
+    },
+    {
+      "path": "files/dynare/extract_outputs.py",
+      "sha256": "accc5b9a2be3fd9c4dff9cbac3b4310e7fb961a94c984afc911f1cf856c17f8c",
+      "bytes": 2028,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/extract_outputs.py"
+    },
+    {
+      "path": "files/dynare/environment-explicit.txt",
+      "sha256": "4d027256062e48aebf9eded39d7f46e533aa36dfce2a023833bb391eef56c473",
+      "bytes": 17655,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/environment-explicit.txt"
+    },
+    {
+      "path": "files/dynare/requirements-postprocess.txt",
+      "sha256": "983665a6331eda07ab1f4b23ef92d66f4b024c27b360ee0e7420511ef3b28c64",
+      "bytes": 27,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/requirements-postprocess.txt"
+    },
+    {
+      "path": "files/dynare/source-hashes.json",
+      "sha256": "acd657e9e518df6d9137d6539236c0fbb85197bf8b209efd7668949801b99fce",
+      "bytes": 191,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/source-hashes.json"
+    },
+    {
+      "path": "files/dynare/target.json",
+      "sha256": "d533b1caea20cdfedc07afc3f50b03d35324589e938dea46c7361a219452012d",
+      "bytes": 835,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/target.json"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/target.json",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/results.json",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-run-1.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-run-2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-run-3.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-run-wrapper.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-configure.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-configure-2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-configure-3.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-build.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/dynare-build-2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/octave-statistics-install.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/octave-statistics-install-2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/dynare/octave-statistics-install-3.log"
+  ],
+  "blockers": [
+    "Old mode file cannot be verified against current model.",
+    "gaminv prior-bound calculation did not converge for some values.",
+    "Negative array dimensions converted to zero in shock-decomposition setup.",
+    "33 preprocessor warnings from unassigned steady-state block variables.",
+    "Official original replication archive requires account to download.",
+    "Maintained model uses supplied old mode and 230 observations; correspondence to selected paper target unverified."
+  ],
+  "next_action": "Match original archive/sample/mode and resolve prior-bound/mode compatibility warnings, then define a named paper comparison before full posterior estimation.",
+  "relationship_to_paper": "Maintained author-derived implementation of the published DSGE model ran with bundled data/mode and modern runtime; distinct from original archive reproduction.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/finance/dynare",
+    "guide": "guide.md",
+    "files": [
+      "guide.md",
+      "get-source.sh",
+      "build_runtime.sh",
+      "run_model.sh",
+      "extract_outputs.py",
+      "environment-explicit.txt",
+      "requirements-postprocess.txt",
+      "source-hashes.json",
+      "target.json",
+      "results.json",
+      "output-decomposition-y.csv"
+    ]
+  },
+  "research_group": "finance",
+  "integration_assessment": "Maintained third-party replication with a modern runtime; original paper authors archive unavailable.",
+  "guide_source": "templates/dynare.md.in"
+}

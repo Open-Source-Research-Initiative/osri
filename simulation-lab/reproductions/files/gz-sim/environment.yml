@@ -1,0 +1,13 @@
+name: osri-gzdrl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - gz-sim=10.6.0
+  - cmake
+  - pkg-config
+  - eigen
+  - glog
+  - cxx-compiler
+  - pybind11
+  - pip

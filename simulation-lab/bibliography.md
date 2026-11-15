@@ -1,6 +1,6 @@
 # Simulation bibliography
 
-DOI metadata was checked against Crossref on 2026-11-15. Reading status is separate: only the passages identified below were inspected for the example mappings. This curated bibliography is not a systematic literature review.
+DOI metadata was checked against primary Crossref or DataCite records on 2026-11-15. Preprints and paper versions remain identified separately. Reading status is separate: only the passages identified below were inspected for the example mappings. This curated bibliography is not a systematic literature review.
 
 Download [CSV](papers.csv) or [BibTeX](references.bib). See the [example index](examples/README.md) for runnable code and upstream routes.
 
@@ -363,3 +363,123 @@ Publication type: edited-book. [Metadata record](https://api.crossref.org/works/
 Reading status: Metadata verified; full text not audited for this catalog.
 
 Verification: Crossref title and DOI checked 2026-11-15.
+
+## replication-blender
+
+Greff, Klaus; Belletti, Francois; Beyer, Lucas; Doersch, Carl; Du, Yilun; Duckworth, Daniel; Fleet, David J.; Gnanapragasam, Dan; Golemo, Florian; Herrmann, Charles; Kipf, Thomas; Kundu, Abhijit; Lagun, Dmitry; Laradji, Issam; Hsueh-Ti; Liu; Meyer, Henning; Miao, Yishu; Nowrouzezahrai, Derek; Oztireli, Cengiz; Pot, Etienne; Radwan, Noha; Rebain, Daniel; Sabour, Sara; Sajjadi, Mehdi S. M.; Sela, Matan; Sitzmann, Vincent; Stone, Austin; Sun, Deqing; Vora, Suhani; Wang, Ziyu; Wu, Tianhao; Yi, Kwang Moo; Zhong, Fangcheng; Tagliasacchi, Andrea (2022). **Kubric: A scalable dataset generator**. *arXiv (archival preprint; conference status identified in the example)*. [10.48550/arxiv.2203.03570](https://doi.org/10.48550/arxiv.2203.03570).
+
+Publication type: posted-content. [Metadata record](https://api.datacite.org/dois/10.48550/arXiv.2203.03570).
+
+Reading status: Candidate campaign: Section 4.1 and Figure 5, MOVi-A scene-generation properties; Table 3 learning results require a separate training reproduction.. See reproductions/blender.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: DataCite arXiv title, creators, publication year and DOI checked 2026-11-15. Version and published conference relationship remain explicit in the guide..
+
+## replication-gz-sim
+
+Haridevan, Amal Dev; Kang, Junjie; Shan, Jinjun (2026). **GzDRL: Reproducible and Scalable Deep Reinforcement Learning with Gazebo**. *arXiv (archival preprint; conference status identified in the example)*. [10.48550/arxiv.2609.13243](https://doi.org/10.48550/arxiv.2609.13243).
+
+Publication type: posted-content. [Metadata record](https://api.datacite.org/dois/10.48550/arXiv.2609.13243).
+
+Reading status: Candidate campaign: Section V-B, Figure 6, Table II: process-isolated same-seed and different-seed PPO reproducibility.. See reproductions/gz-sim.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: DataCite arXiv title, creators, publication year and DOI checked 2026-11-15. Version and published conference relationship remain explicit in the guide..
+
+## replication-bullet3
+
+Tan, Jie; Zhang, Tingnan; Coumans, Erwin; Iscen, Atil; Bai, Yunfei; Hafner, Danijar; Bohez, Steven; Vanhoucke, Vincent (2018). **Sim-to-Real: Learning Agile Locomotion For Quadruped Robots**. *arXiv (archival preprint; conference status identified in the example)*. [10.48550/arxiv.1804.10332](https://doi.org/10.48550/arxiv.1804.10332).
+
+Publication type: posted-content. [Metadata record](https://api.datacite.org/dois/10.48550/arXiv.1804.10332).
+
+Reading status: Candidate campaign: Paper trotting and galloping policies; authors README explicitly identifies the two exact environments used.. See reproductions/bullet3.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: DataCite arXiv title, creators, publication year and DOI checked 2026-11-15. Version and published conference relationship remain explicit in the guide..
+
+## replication-carla
+
+Dosovitskiy, Alexey; Ros, German; Codevilla, Felipe; Lopez, Antonio; Koltun, Vladlen (2017). **CARLA: An Open Urban Driving Simulator**. *arXiv (archival preprint; conference status identified in the example)*. [10.48550/arxiv.1711.03938](https://doi.org/10.48550/arxiv.1711.03938).
+
+Publication type: posted-content. [Metadata record](https://api.datacite.org/dois/10.48550/arXiv.1711.03938).
+
+Reading status: Candidate campaign: CoRL2017 driving benchmark: route success and infractions across tasks, weather, Town01 and Town02.. See reproductions/carla.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: DataCite arXiv title, creators, publication year and DOI checked 2026-11-15. Version and published conference relationship remain explicit in the guide..
+
+## replication-dolfinx
+
+Maximilian Brodbeck; Fleurianne Bertrand; Tim Ricken (2026). **Adaptive Finite Element Methods Based on Flux Equilibration Using FEniCSx**. *Simula SpringerBriefs on Computing; The FEniCS Project*. [10.1007/978-3-032-17396-6_1](https://doi.org/10.1007/978-3-032-17396-6_1).
+
+Publication type: book-chapter. [Metadata record](https://api.crossref.org/works/10.1007%2F978-3-032-17396-6_1).
+
+Reading status: Candidate campaign: Section4.1, Figure2(a), contrast5, k=1, m=2. See reproductions/dolfinx.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..
+
+## replication-ngspice
+
+Keertana Settaluri; Ameer Haj-Ali; Qijing Huang; Kourosh Hakhamaneshi; Borivoje Nikolic (2020). **AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs**. *2020 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE)*. [10.23919/date48585.2020.9116200](https://doi.org/10.23919/date48585.2020.9116200).
+
+Publication type: proceedings-article. [Metadata record](https://api.crossref.org/works/10.23919%2Fdate48585.2020.9116200).
+
+Reading status: Candidate campaign: SectionIII-B, Figures6-8 and TableII. See reproductions/ngspice.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..
+
+## replication-engine
+
+Nikolai Nowaczyk; Sharyn O'Halloran (2024). **Computing the impact of central clearing on systemic risk**. *Frontiers in Artificial Intelligence*. [10.3389/frai.2024.1138611](https://doi.org/10.3389/frai.2024.1138611).
+
+Publication type: journal-article. [Metadata record](https://api.crossref.org/works/10.3389%2Ffrai.2024.1138611).
+
+Reading status: Candidate campaign: Sections 7.3–7.6 ORE risk calculations and notebook visualization; Section 8.4 Figure 15: 50% of exposure concentrated in CCPs; Figure 14 relative CVA impacts. Footnotes 13, 16–17 link code and ORE v1.8.4.0 inputs.. See reproductions/engine.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..
+
+## replication-tax-calculator
+
+Jason DeBacker; Richard W. Evans; Kerk L. Phillips (2019). **Integrating Microsimulation Models of Tax Policy into a DGE Macroeconomic Model**. *Public Finance Review*. [10.1177/1091142118816744](https://doi.org/10.1177/1091142118816744).
+
+Publication type: journal-article. [Metadata record](https://api.crossref.org/works/10.1177%2F1091142118816744).
+
+Reading status: Candidate campaign: May 2018 author manuscript DEP_TaxFuncs.pdf, Tables 7 and 8, preferred specification steady-state GDP change +0.07%; final 2019 journal numerical tables not independently matched.. See reproductions/tax-calculator.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..
+
+## replication-calliope
+
+Bryn Pickering; Francesco Lombardi; Stefan Pfenninger (2022). **Diversity of options to eliminate fossil fuels and reach carbon neutrality across the entire European energy system**. *Joule*. [10.1016/j.joule.2022.05.009](https://doi.org/10.1016/j.joule.2022.05.009).
+
+Publication type: journal-article. [Metadata record](https://api.crossref.org/works/10.1016%2Fj.joule.2022.05.009).
+
+Reading status: Candidate campaign: Table1 metric ranges; Figure3 describes441 configurations; Resource availability identifies model/result archives.. See reproductions/calliope.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..
+
+## replication-ns-3-dev-git
+
+Songyuan Bai; Hao Zheng; Chen Tian; Xiaoliang Wang; Chang Liu; Xin Jin; Fu Xiao; Qiao Xiang; Wanchun Dou; Guihai Chen (2024). **Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel**. *Proceedings of the Nineteenth European Conference on Computer Systems*. [10.1145/3627703.3629574](https://doi.org/10.1145/3627703.3629574).
+
+Publication type: proceedings-article. [Metadata record](https://api.crossref.org/works/10.1145%2F3627703.3629574).
+
+Reading status: Candidate campaign: Section6.2, Table2; exact thread/result determinism paragraph after Figure11.. See reproductions/ns-3-dev-git.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..
+
+## replication-simgrid
+
+Henri Casanova; Arnaud Giersch; Arnaud Legrand; Martin Quinson; Frédéric Suter (2025). **Lowering entry barriers to developing custom simulators of distributed applications and platforms with SimGrid**. *Parallel Computing*. [10.1016/j.parco.2025.103125](https://doi.org/10.1016/j.parco.2025.103125).
+
+Publication type: journal-article. [Metadata record](https://api.crossref.org/works/10.1016%2Fj.parco.2025.103125).
+
+Reading status: Candidate campaign: Introduction paragraph before Section 2; Section 7, Figures 13-14; reference 66.. See reproductions/simgrid.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..
+
+## replication-dynare
+
+Frank Smets; Rafael Wouters (2007). **Shocks and Frictions in US Business Cycles: A Bayesian DSGE Approach**. *American Economic Review*. [10.1257/aer.97.3.586](https://doi.org/10.1257/aer.97.3.586).
+
+Publication type: journal-article. [Metadata record](https://api.crossref.org/works/10.1257%2Faer.97.3.586).
+
+Reading status: Candidate campaign: Paper’s Bayesian estimation, shock decomposition and impulse responses; specific printed table cells/figure tolerances still require full-text comparison. Official replication archive DOI 10.3886/E116269V1.. See reproductions/dynare.md for the exact document version, code relationship, actual comparisons and limits; a related preprint/manuscript is not automatically the final published article..
+
+Verification: Crossref title, authors, year and DOI metadata checked 2026-11-15..

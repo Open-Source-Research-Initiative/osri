@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "comparisons": {
+    "initial_observation_sha256": true,
+    "transition_sequence_sha256": true,
+    "initial_policy_sha256": true,
+    "post_update_policy_sha256": true,
+    "post_update_obs_rms_sha256": true
+  },
+  "replicas": [
+    {
+      "num_envs": 8,
+      "transition_steps": 16,
+      "ppo_update_timesteps": 2048,
+      "initial_observation_sha256": "53d0757bb62108145108e69f881bb70490356474a93b1dc28523f302cb680e57",
+      "transition_sequence_sha256": "d4b2f2cc5ea8009b820c41ec8fc8ce4240f123ea2fe81c8e1d598b451509539c",
+      "initial_policy_sha256": "297433cfbeb8da501c9587f67dd8a92377f0b73978e4019cc6bdbac4e1d9a5b9",
+      "post_update_policy_sha256": "fac04a997773a3fbc57c29730a3e9cd8372a025793b99ac138291e4416f48a31",
+      "post_update_obs_rms_sha256": "669f72c34bd71b4537d3d0017c6d4c62b59f13fa2f1e56cbd11f2d5399d59007",
+      "initial_policy_std": 0.1353352814912796
+    },
+    {
+      "num_envs": 8,
+      "transition_steps": 16,
+      "ppo_update_timesteps": 2048,
+      "initial_observation_sha256": "53d0757bb62108145108e69f881bb70490356474a93b1dc28523f302cb680e57",
+      "transition_sequence_sha256": "d4b2f2cc5ea8009b820c41ec8fc8ce4240f123ea2fe81c8e1d598b451509539c",
+      "initial_policy_sha256": "297433cfbeb8da501c9587f67dd8a92377f0b73978e4019cc6bdbac4e1d9a5b9",
+      "post_update_policy_sha256": "fac04a997773a3fbc57c29730a3e9cd8372a025793b99ac138291e4416f48a31",
+      "post_update_obs_rms_sha256": "669f72c34bd71b4537d3d0017c6d4c62b59f13fa2f1e56cbd11f2d5399d59007",
+      "initial_policy_std": 0.1353352814912796
+    }
+  ]
+}

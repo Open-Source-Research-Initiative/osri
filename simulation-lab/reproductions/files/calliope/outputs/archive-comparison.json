@@ -1,0 +1,155 @@
+{
+  "execution_status": "analysed_saved_output",
+  "not_new_optimization": true,
+  "paper_doi": "10.1016/j.joule.2022.05.009",
+  "archive_doi": "10.5281/zenodo.6546817",
+  "archive_sha256": "05f585a9bd42b9875af8f0222a9285990aab5fdab23cd55256695dac42a5a133",
+  "source_csv": "slack-10/data/paper_metrics.csv",
+  "source_csv_sha256": "2e01de18469c7b89fd6620d0e6423ca9fce29a99a37a8b48b0bf02ac962f1467",
+  "rows": 3969,
+  "configuration_id_columns": [
+    "spore"
+  ],
+  "configurations": 441,
+  "paper_configurations": 441,
+  "configuration_count_matches": true,
+  "measurements": {
+    "storage_discharge_capacity": {
+      "observed_range": [
+        0.0295568834742695,
+        10.866084839855777
+      ],
+      "paper_rounded_range": [
+        0.03,
+        11
+      ],
+      "rounding_tolerance": [
+        0.005,
+        0.5
+      ],
+      "within_rounding": true
+    },
+    "curtailment": {
+      "observed_range": [
+        0.1181335673529551,
+        6.356581410437055
+      ],
+      "paper_rounded_range": [
+        0,
+        6
+      ],
+      "rounding_tolerance": [
+        0.5,
+        0.5
+      ],
+      "within_rounding": true
+    },
+    "biofuel_utilisation": {
+      "observed_range": [
+        0.0,
+        99.9995922654263
+      ],
+      "paper_rounded_range": [
+        0,
+        100
+      ],
+      "rounding_tolerance": [
+        0.5,
+        0.5
+      ],
+      "within_rounding": true
+    },
+    "average_national_import": {
+      "observed_range": [
+        3.767194301482713,
+        69.46407067436424
+      ],
+      "paper_rounded_range": [
+        4,
+        69
+      ],
+      "rounding_tolerance": [
+        0.5,
+        0.5
+      ],
+      "within_rounding": true
+    },
+    "electricity_production_gini": {
+      "observed_range": [
+        0.5369595971949748,
+        0.7398559842812967
+      ],
+      "paper_rounded_range": [
+        0.54,
+        0.74
+      ],
+      "rounding_tolerance": [
+        0.005,
+        0.005
+      ],
+      "within_rounding": true
+    },
+    "fuel_autarky_gini": {
+      "observed_range": [
+        0.6431154543147005,
+        0.9859280897060496
+      ],
+      "paper_rounded_range": [
+        0.64,
+        0.99
+      ],
+      "rounding_tolerance": [
+        0.005,
+        0.005
+      ],
+      "within_rounding": true
+    },
+    "ev_flexibility": {
+      "observed_range": [
+        0.5202152919685685,
+        0.9246026317517496
+      ],
+      "paper_rounded_range": [
+        0.52,
+        0.92
+      ],
+      "rounding_tolerance": [
+        0.005,
+        0.005
+      ],
+      "within_rounding": true
+    },
+    "heat_electrification": {
+      "observed_range": [
+        3.981500188473535,
+        99.949547443602
+      ],
+      "paper_rounded_range": [
+        4,
+        100
+      ],
+      "rounding_tolerance": [
+        0.5,
+        0.5
+      ],
+      "within_rounding": true
+    },
+    "transport_electrification": {
+      "observed_range": [
+        52.64832433794121,
+        100.00000000000004
+      ],
+      "paper_rounded_range": [
+        53,
+        100
+      ],
+      "rounding_tolerance": [
+        0.5,
+        0.5
+      ],
+      "within_rounding": true
+    }
+  },
+  "all_ranges_match_rounding": true,
+  "interpretation": "Independent extraction/comparison of published archived data to Table1/Figure3. Does not constitute running Calliope or reproducing its optimizer. Original Gurobi9.1.2 prerequisite fails with expired-license error; no new objective/capacity result is asserted."
+}

@@ -80,6 +80,8 @@ class Website:
         candidates = []
         for path in sorted(HUB.rglob("*.md")):
             rel = path.relative_to(HUB).as_posix()
+            if rel.startswith("simulation-lab/reproductions/files/"):
+                continue
             if rel.startswith((".git/", ".github/", "site/", "identity/")) and rel != "identity/prism/research-journey.md":
                 continue
             candidates.append(rel)
@@ -277,11 +279,11 @@ class Website:
         papers = {row["id"]: row for row in read_csv("simulation-lab/papers.csv")}
         examples = {row["example_id"]: row for row in read_csv("simulation-lab/examples.csv")}
         research_routes = {row["tool_id"]: row for row in json.loads((HUB / "simulation-lab/research/routes.json").read_text())["records"]}
-        executed = sum(row["status"] == "executed_adaptation" for row in examples.values())
+        executed = sum(row["status"] in {"executed_adaptation", "executed_author_code", "published_target_compared"} for row in examples.values())
         status = runpy.run_path(str(HUB / "simulation-lab/catalog.py"), run_name="osri_lab")["STATUS"]
         body = self.heading("Simulation Lab", "Learn from a model. Run an experiment.", f"Explore {len(tools)} tools and {len(examples)} examples linked to published research, from robot learning and battery physics to markets, household saving, and public policy.")
-        body += '<div class="text-actions">' + link("Browse tools", "#tool-catalog") + link("Run the CPU examples", self.docs["simulation-lab/examples/cpu-walkthroughs.md"]) + link("Read the lab guide", self.docs["simulation-lab/README.md"]) + link("Research routes for all 60 tools", self.docs["simulation-lab/research/README.md"]) + '</div>'
-        body += f'<section class="record-section" id="literature-examples"><h2>Start with a published example</h2><p>{executed} teaching examples have been run locally. Other routes point to inspected upstream instructions or an artifact still to retrieve. Each guide explains its relationship to the paper.</p><div class="guide-list">'
+        body += '<div class="text-actions">' + link("Browse tools", "#tool-catalog") + link("Run the CPU examples", self.docs["simulation-lab/examples/cpu-walkthroughs.md"]) + link("Read the lab guide", self.docs["simulation-lab/README.md"]) + link("Research routes for all 60 tools", self.docs["simulation-lab/research/README.md"]) + link("Candidate reproduction results", self.docs["simulation-lab/reproductions/README.md"]) + '</div>'
+        body += f'<section class="record-section" id="literature-examples"><h2>Start with a published example</h2><p>{executed} examples have recorded executions. Each comparison states the selected paper target, measured output, and remaining limits. Other routes point to inspected upstream instructions. Each guide explains its relationship to the paper.</p><div class="guide-list">'
         for row in examples.values():
             guide = self.rewrite(row["guide"], "simulation-lab/README.md")
             body += f'<article><h3>{link(row["title"], guide)}</h3><p class="small">{escape(row["relationship"])}</p><p class="small">{escape(status[row["status"]])}</p></article>'
@@ -352,6 +354,7 @@ class Website:
         shutil.copy2(HUB / "identity/prism/previews/social-org.png", self.output / "assets/images/social-org.png")
         data_paths = ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv", "simulation-lab/tools.csv", "simulation-lab/papers.csv", "simulation-lab/examples.csv", "simulation-lab/research/routes.csv"]
         data_paths += [path.relative_to(HUB).as_posix() for path in sorted((HUB / "simulation-lab/research/verification").glob("*.csv"))]
+        data_paths += [path.relative_to(HUB).as_posix() for path in sorted((HUB / "simulation-lab/reproductions").rglob("*.csv"))]
         for path in data_paths:
             destination = self.output / "data" / path.replace("/", "-")
             destination.parent.mkdir(exist_ok=True)

@@ -1,0 +1,494 @@
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/minitaur_raibert_controller_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/minitaur_raibert_controller_example.py
+index 39108d0..40e6b47 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/minitaur_raibert_controller_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/minitaur_raibert_controller_example.py
+@@ -6,7 +6,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.envs import minitaur_raibert_controller
+ from pybullet_envs.minitaur.envs import minitaur_gym_env
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/proto2csv.py b/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/proto2csv.py
+index 08c2552..2e04313 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/proto2csv.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/actuatornet/proto2csv.py
+@@ -5,7 +5,7 @@ from __future__ import print_function
+ #python proto2csv.py --proto_file=/tmp/logs/minitaur_log_2019-01-27-12-59-31 --csv_file=/tmp/logs/out.csv
+ #each line in csv contains: angle, velocity, action, torque
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ import argparse
+ import numpy
+ from pybullet_envs.minitaur.envs import minitaur_logging
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/algorithm.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/algorithm.py
+index aef0c1c..032eac7 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/algorithm.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/algorithm.py
+@@ -23,7 +23,7 @@ from __future__ import print_function
+ 
+ import collections
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from . import memory
+ from . import normalize
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/memory.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/memory.py
+index 54bd2a6..37a7c7f 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/memory.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/memory.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ class EpisodeMemory(object):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/normalize.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/normalize.py
+index 1b86cd0..4de38fd 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/normalize.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/normalize.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ class StreamingNormalize(object):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/utility.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/utility.py
+index 9fc18e0..9f63604 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/utility.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/ppo/utility.py
+@@ -21,7 +21,7 @@ import collections
+ import math
+ import re
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from tensorflow.python.client import device_lib
+ 
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/networks.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/networks.py
+index 064346b..d2c22bd 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/networks.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/networks.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ _MEAN_WEIGHTS_INITIALIZER = tf.contrib.layers.variance_scaling_initializer(factor=0.1)
+ _LOGSTD_INITIALIZER = tf.random_normal_initializer(-1, 1e-10)
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train.py
+index 5b0f729..99495b3 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train.py
+@@ -27,7 +27,7 @@ import functools
+ import os
+ 
+ import gym
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from pybullet_envs.minitaur.agents import tools
+ from pybullet_envs.minitaur.agents.scripts import configs
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train_ppo_test.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train_ppo_test.py
+index 1d3cc3e..930143c 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train_ppo_test.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/train_ppo_test.py
+@@ -20,7 +20,7 @@ from __future__ import print_function
+ import functools
+ import itertools
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from google3.robotics.reinforcement_learning.agents import ppo
+ from google3.robotics.reinforcement_learning.agents import tools
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/utility.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/utility.py
+index e30e38b..22bc501 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/utility.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/utility.py
+@@ -22,7 +22,7 @@ import os
+ import re
+ 
+ import ruamel.yaml as yaml
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from pybullet_envs.minitaur.agents import tools
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/visualize.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/visualize.py
+index a05fc7a..cc68c0d 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/visualize.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/scripts/visualize.py
+@@ -27,7 +27,7 @@ import functools
+ import os
+ 
+ import gym
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from pybullet_envs.minitaur.agents import tools
+ from pybullet_envs.minitaur.agents.scripts import utility
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/attr_dict_test.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/attr_dict_test.py
+index 14b0150..7ab1f41 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/attr_dict_test.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/attr_dict_test.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from pybullet_envs.minitaur.agents.tools import attr_dict
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights.py
+index 610ded4..279df82 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights.py
+@@ -20,7 +20,7 @@ from __future__ import print_function
+ import re
+ 
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ def count_weights(scope=None, exclude=None, graph=None):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights_test.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights_test.py
+index d5a1a44..a42c60f 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights_test.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/count_weights_test.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from agents.tools import count_weights
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_batch_env.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_batch_env.py
+index f3f7e22..6cd0a2f 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_batch_env.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_batch_env.py
+@@ -18,7 +18,7 @@ from __future__ import division
+ from __future__ import print_function
+ import pdb
+ import gym
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ class InGraphBatchEnv(object):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_env.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_env.py
+index 7f78a9e..6a71f45 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_env.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/in_graph_env.py
+@@ -18,7 +18,7 @@ from __future__ import division
+ from __future__ import print_function
+ 
+ import gym
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ class InGraphEnv(object):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop.py
+index 05a9a8c..78a3cfd 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop.py
+@@ -20,7 +20,7 @@ from __future__ import print_function
+ import collections
+ import os
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from pybullet_envs.minitaur.agents.tools import streaming_mean
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop_test.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop_test.py
+index 112cda8..3245d26 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop_test.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/loop_test.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from google3.robotics.reinforcement_learning.agents import tools
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/mock_algorithm.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/mock_algorithm.py
+index 60b88ad..e321afa 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/mock_algorithm.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/mock_algorithm.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ class MockAlgorithm(object):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate.py
+index 1225460..e794f6a 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from pybullet_envs.minitaur.agents.tools import streaming_mean
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate_test.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate_test.py
+index c53c0ba..42b45bc 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate_test.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/simulate_test.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from google3.robotics.reinforcement_learning.agents import tools
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/streaming_mean.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/streaming_mean.py
+index 8a27b48..5992eaa 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/streaming_mean.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/streaming_mean.py
+@@ -17,7 +17,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ class StreamingMean(object):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers.py
+index 829c48a..2e33f39 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers.py
+@@ -26,7 +26,7 @@ import traceback
+ import gym
+ import gym.spaces
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ 
+ class AutoReset(object):
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers_test.py b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers_test.py
+index 76cf316..fac8dd0 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers_test.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/agents/tools/wrappers_test.py
+@@ -19,7 +19,7 @@ from __future__ import print_function
+ 
+ import functools
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from agents import tools
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_alternating_legs_env_randomizer.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_alternating_legs_env_randomizer.py
+index c72c877..9f868ba 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_alternating_legs_env_randomizer.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_alternating_legs_env_randomizer.py
+@@ -11,7 +11,7 @@ parentdir = os.path.dirname(os.path.dirname(parentdir))
+ os.sys.path.insert(0, parentdir)
+ 
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.envs import env_randomizer_base
+ 
+ # Absolute range.
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_env_randomizer_from_config.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_env_randomizer_from_config.py
+index 8254d0c..a550f35 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_env_randomizer_from_config.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_env_randomizer_from_config.py
+@@ -14,7 +14,7 @@ parentdir = os.path.dirname(os.path.dirname(parentdir))
+ os.sys.path.insert(0, parentdir)
+ 
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.envs import env_randomizer_base
+ from pybullet_envs.minitaur.envs.env_randomizers import minitaur_env_randomizer_config
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_alternating_legs_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_alternating_legs_env_example.py
+index da308e2..226edf3 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_alternating_legs_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_alternating_legs_env_example.py
+@@ -10,7 +10,7 @@ os.sys.path.insert(0, parentdir)
+ 
+ import os
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.envs import minitaur_alternating_legs_env
+ from pybullet_envs.minitaur.envs import minitaur_gym_env
+ from pybullet_envs.minitaur.envs.env_randomizers import minitaur_alternating_legs_env_randomizer as randomizer_lib
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_ball_gym_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_ball_gym_env_example.py
+index b0d7d48..404dc26 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_ball_gym_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_ball_gym_env_example.py
+@@ -4,7 +4,7 @@
+ 
+ import math
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ import minitaur_ball_gym_env
+ 
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_four_leg_stand_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_four_leg_stand_env_example.py
+index d4d92fd..183213f 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_four_leg_stand_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_four_leg_stand_env_example.py
+@@ -2,7 +2,7 @@
+ 
+ """
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.envs import minitaur_four_leg_stand_env
+ 
+ FLAGS = tf.flags.FLAGS
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_gym_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_gym_env_example.py
+index 9511b72..8441879 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_gym_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_gym_env_example.py
+@@ -13,7 +13,7 @@ os.sys.path.insert(0, parentdir)
+ 
+ import argparse
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.envs import minitaur_gym_env
+ import time
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_raibert_controller_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_raibert_controller_example.py
+index 301f035..8adeee3 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_raibert_controller_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_raibert_controller_example.py
+@@ -10,7 +10,7 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
+ parentdir = os.path.dirname(os.path.dirname(os.path.dirname(currentdir)))
+ os.sys.path.insert(0, parentdir)
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.envs import minitaur_raibert_controller
+ from pybullet_envs.minitaur.envs import minitaur_gym_env
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_randomize_terrain_gym_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_randomize_terrain_gym_env_example.py
+index ad32913..3ecf6dc 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_randomize_terrain_gym_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_randomize_terrain_gym_env_example.py
+@@ -5,7 +5,7 @@
+ import math
+ 
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ #from google3.pyglib import app
+ #from google3.pyglib import flags
+ from pybullet_envs.minitaur.envs import minitaur_randomize_terrain_gym_env
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_reactive_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_reactive_env_example.py
+index d4f70a2..e0d4000 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_reactive_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_reactive_env_example.py
+@@ -13,7 +13,7 @@ parentdir = os.path.dirname(os.path.dirname(os.path.dirname(currentdir)))
+ print("parentdir=", parentdir)
+ os.sys.path.insert(0, parentdir)
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.agents.scripts import utility
+ import pybullet_data
+ from pybullet_envs.minitaur.envs import simple_ppo_agent
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_stand_gym_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_stand_gym_env_example.py
+index 16bae5f..aa07bd0 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_stand_gym_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_stand_gym_env_example.py
+@@ -5,7 +5,7 @@
+ import math
+ 
+ import numpy as np
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ 
+ from pybullet_envs.minitaur.envs import minitaur_stand_gym_env
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_trotting_env_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_trotting_env_example.py
+index 604a902..e38f864 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_trotting_env_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_trotting_env_example.py
+@@ -6,7 +6,7 @@ from __future__ import print_function
+ 
+ import os
+ import time
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.minitaur.agents.scripts import utility
+ import pybullet_data
+ from pybullet_envs.minitaur.envs import simple_ppo_agent
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent.py
+index aa329fb..85e35ad 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent.py
+@@ -4,7 +4,7 @@ from __future__ import absolute_import
+ from __future__ import division
+ from __future__ import print_function
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.agents.ppo import normalize
+ from pybullet_envs.agents import utility
+ 
+diff --git a/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent_example.py b/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent_example.py
+index fbca0cc..08808f9 100644
+--- a/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent_example.py
++++ b/examples/pybullet/gym/pybullet_envs/minitaur/envs/simple_ppo_agent_example.py
+@@ -23,7 +23,7 @@ from __future__ import print_function
+ import os
+ import time
+ 
+-import tf.compat.v1 as tf
++import tensorflow as tf
+ from pybullet_envs.agents import utility
+ from pybullet_envs.minitaur.agents import simple_ppo_agent
+ 
+diff --git a/examples/pybullet/gym/pybullet_utils/util.py b/examples/pybullet/gym/pybullet_utils/util.py
+index a2c3905..5a014c8 100644
+--- a/examples/pybullet/gym/pybullet_utils/util.py
++++ b/examples/pybullet/gym/pybullet_utils/util.py
+@@ -4,7 +4,7 @@ import numpy as np
+ 
+ def set_global_seeds(seed):
+   try:
+-    import tf.compat.v1 as tf
++    import tensorflow as tf
+   except ImportError:
+     pass
+   else:

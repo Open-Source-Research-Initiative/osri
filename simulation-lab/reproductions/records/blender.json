@@ -1,0 +1,1808 @@
+{
+  "tool_id": "blender",
+  "title": "Generate a published MOVi-A dataset scene with Kubric and Blender",
+  "question": "Can we regenerate MOVi-A synthetic videos and their ground-truth annotations?",
+  "paper": {
+    "title": "Kubric: A scalable dataset generator",
+    "identifier": "arXiv:2203.03570v1",
+    "url": "https://arxiv.org/abs/2203.03570",
+    "locator": "Section 4.1 and Figure 5, MOVi-A scene-generation properties; Table 3 learning results require a separate training reproduction.",
+    "publication_type": "conference_paper"
+  },
+  "source": {
+    "url": "https://github.com/google-research/kubric",
+    "ref": "Paper submission date commit (2022-03-07)",
+    "commit": "9a868cc735de955709c4c75d9655fff1e90c72e4",
+    "paths": [
+      "examples/movi/movi_ab_worker.py",
+      "docs/datasets/movi/README.md",
+      "kubric/renderer/blender.py"
+    ],
+    "license": "Kubric Apache-2.0 source; BlenderGPLruntime; KuBasicgeometry and generated scene/image derivatives CC BY-SA4.0."
+  },
+  "inputs": {
+    "description": "Paper-date authorMOVi-A defaults; CLEVRobjects/background/camera; seed42; currentpublicKuBasicmanifest; original2022assetbytes notestablished.",
+    "access": "Public authors code and public dataset bucket; retain asset manifest and terms.",
+    "hashes": {
+      "KuBasic-manifest.json": "241795237663766227d112633afedc26f74e8c725c25377bd0c9dd4d6bdaaf8a"
+    }
+  },
+  "environment": {
+    "versions": {
+      "python": "3.9",
+      "bpy": "Authors compiledBlender2.93 image (OCI digest d75dc24ad0d664ba71d0c57c6707d23f582d7f65cc1ee616cfa74ffbfa91f507)",
+      "tensorflow-cpu": "2.15.1",
+      "tensorflow-datasets": "4.5.1",
+      "protobuf": "3.20.3",
+      "numpy": "1.23.5",
+      "pybullet": "3.2.7",
+      "cloudml-hypertune": "0.1.0"
+    },
+    "changes_from_author": [
+      "Use authors digest-pinned bpy module extracted unprivileged from image layers because Docker daemon unavailable.",
+      "Use paper-date code rather than currentmain, whose Blender4.3 shader changes conflict with historical2.93.",
+      "Modern TensorFlow for fileI/O; historicalTFDS/NumPy pins reconstructed."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "fetch-runtime.py"
+      ],
+      "cwd": "portable example root"
+    },
+    {
+      "argv": [
+        "python",
+        "run.py"
+      ],
+      "cwd": "portable example root"
+    },
+    {
+      "argv": [
+        "python",
+        "compare.py"
+      ],
+      "cwd": "portable example root"
+    }
+  ],
+  "target": {
+    "observable": "MOVi-A clip frame count, image dimensions and moving-object count",
+    "reference": "Kubric Figure 5 and author MOVi-A README: 24-frame 256x256 clips, 3-10 objects",
+    "tolerance": "Exact frame count/dimensions; generated object count within author parameter support; no per-pixel target or learning metric",
+    "tolerance_basis": "Declared discrete schema/design invariants, not a claim of identical sampled images",
+    "declared_before_run": true,
+    "scope": "One seeded dataset-generator scene; no Table 3 model-training performance claim"
+  },
+  "execution": {
+    "status": "author_code_executed",
+    "result": "Paper-date author worker ran to completion onCPU:24frames,256×256,7objects and all rendered annotations/native states. Nine design checks passed; second scene has identical instance metadata and24/24RGBAhashes.",
+    "exit_code": 0,
+    "elapsed_seconds": null
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "status": "author_code_executed",
+      "paper": "https://arxiv.org/html/2203.03570v1",
+      "locator": "Section4.1/Figure5 MOVi-A dataset design; not Table3 learning scores",
+      "paper_design": {
+        "clip_frames": 24,
+        "resolution": [
+          256,
+          256
+        ],
+        "max_moving_objects": 10
+      },
+      "measured": {
+        "background": "clevr",
+        "frame_rate": 12,
+        "gravity": [
+          0.0,
+          0.0,
+          -10.0
+        ],
+        "num_frames": 24,
+        "num_instances": 7,
+        "resolution": [
+          256,
+          256
+        ],
+        "seed": 42,
+        "step_rate": 240
+      },
+      "checks": {
+        "frames_equal24": true,
+        "all_images_256_square": true,
+        "instances_in3_to10": true,
+        "metadata_frames_equal24": true,
+        "frame_rate12": true,
+        "segmentation_frames24": true,
+        "segmentation_labels_in0_to_num_instances": true,
+        "finite_positive_depth": true,
+        "objects_move": true
+      },
+      "all_design_checks_passed": true,
+      "repeatability": {
+        "prior_run_finished_numeric_outputs_then_failed_optional_hypertune_import": true,
+        "instance_metadata_exactly_equal": true,
+        "rgba_sha256_equal_frames": 24,
+        "rgba_frames_compared": 24
+      },
+      "limitations": [
+        "A newly generated scene, not a pixel-exact reconstruction of a figure5illustration.",
+        "Public currentKuBasic assets; exact original2022asset bytes are not established.",
+        "ModernPyBullet/TensorFlow dependency versions differ from original rendering image package set.",
+        "No SAVi/SIMONe training or foregroundARI reproduction.",
+        "Human scientific review pending."
+      ]
+    },
+    "interpretation": "PublishedMOVi-A dataset-design properties match; all9numerical/design checks passed. Originalfigurepixels, originalassetbytes andTable3learning scores are outside this comparison."
+  },
+  "outputs": [
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00000.png",
+      "sha256": "c4afba188bc1d0a41c7f2eed7ab7ea2f52b770c23479c31620e1bdb6a0c96cee",
+      "bytes": 32272,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00000.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00001.png",
+      "sha256": "ea89e3e70fda4ee9a0d1350876302aaff619c9a8f0768079986bf430573fd122",
+      "bytes": 31657,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00001.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00002.png",
+      "sha256": "1fd480a10f829a22eba7c7f8b5889d17524a3cd298270e06d32b74496af0abab",
+      "bytes": 30062,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00002.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00003.png",
+      "sha256": "00991ae9f1bf3cfd454994af4cb2d3efe373bc7e3483cd07e91ab5f53b540740",
+      "bytes": 29619,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00003.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00004.png",
+      "sha256": "50797d71e004b2bde00add8d20be64a36001a976057d2c20b2a8feccab829eca",
+      "bytes": 29905,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00004.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00005.png",
+      "sha256": "2cff5e15217557136d1b11037abc430dcab13dcab3813b25b2fc7ec89ffa0677",
+      "bytes": 30333,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00005.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00006.png",
+      "sha256": "1e755336c48f2cdf64c2a1640e9ac354cbfe3f705d8e77f04c9ce4019dd7b2d3",
+      "bytes": 30759,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00006.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00007.png",
+      "sha256": "fa18c74a131394e22ff166e219420b2d28005af4cd5146f0820721c62d2c8818",
+      "bytes": 28664,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00007.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00008.png",
+      "sha256": "9310a2a75f56cab2633f2a524a99424b7b78d23b98c215349961aaa5b5ef0502",
+      "bytes": 26238,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00008.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00009.png",
+      "sha256": "cb7314a077de177b4bcaf513793ae5bf02aa7e4588b63b647acde631df59d7d4",
+      "bytes": 29556,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00009.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00010.png",
+      "sha256": "36fccf9686f1f30a3fdd7b466b9847631ef73fab2f631acfdf0d99c390b8a3fa",
+      "bytes": 30151,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00010.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00011.png",
+      "sha256": "b98863b277a4a0288d6c0ca66eb551b6849b0a24d0af358a101da7fe3aa73edd",
+      "bytes": 30915,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00011.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00012.png",
+      "sha256": "a0c65b17cf1a1595abdca3431c9d6717389745a2433174e6cfa315f64af1e911",
+      "bytes": 31072,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00012.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00013.png",
+      "sha256": "34656de1c0bdc93b3398d793b6046a75345a0243c907e08a3514da08fb926d70",
+      "bytes": 31556,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00013.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00014.png",
+      "sha256": "58cc3f3bfc0602ba078bf9a6738f4130c8ab83565e92955770733d69a3463721",
+      "bytes": 32445,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00014.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00015.png",
+      "sha256": "5816bb7ef3e4dc6923ab1bc5950a58c7f2edbebf15a348b8f5ad724f7287f9e9",
+      "bytes": 33224,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00015.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00016.png",
+      "sha256": "cf013d246518a5496ce919b59987432d0607e3cdb72b26477cc9a28bd96d2871",
+      "bytes": 34342,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00016.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00017.png",
+      "sha256": "d5f71ced6d40a7ac40b1ce330426014e617831c0ce8da84a7996665abb3998b3",
+      "bytes": 36426,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00017.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00018.png",
+      "sha256": "e89099b2518d4411ee271d9ed93c62929647530b105c6c91a2df9e55a62899cf",
+      "bytes": 34155,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00018.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00019.png",
+      "sha256": "debdf2bb3077c1da631caf89448226871a0812e3b17cf88542919fd87193a12e",
+      "bytes": 29016,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00019.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00020.png",
+      "sha256": "fd92849365ee877eb442d03346d8929f35070c18b52b8188713833c5e0c5520b",
+      "bytes": 22581,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00020.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00021.png",
+      "sha256": "19e01f7094300f6047515ab379370f3082b1feb6ef24cf79d784c071d5d18022",
+      "bytes": 20143,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00021.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00022.png",
+      "sha256": "d278ff3ec3eae9f0b3b97e2edcc31bf02b03e30743366ffef401627950a8df84",
+      "bytes": 19867,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00022.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00023.png",
+      "sha256": "57a0e018d3b72f80318fecc04e32f90a70968284129e6e3f634013e2023e5b66",
+      "bytes": 19728,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/backward_flow_00023.png",
+      "published": false
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/comparison.json",
+      "sha256": "ca011fa74296fc929bf10c98a70dbbb88012dfbc879112492ec7a5ea34e8d29a",
+      "bytes": 1551,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/data_ranges.json",
+      "sha256": "546b4f048004cd7985c988b26d00fe6cbdbc6f4f81be0eddca7f1a353c11997a",
+      "bytes": 201,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/data_ranges.json",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00000.tiff",
+      "sha256": "919e16bbf11bb3d929e0446e50f7dda72fd594c406a1e4067ce15467f8468c19",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00000.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00001.tiff",
+      "sha256": "7e9462c9239a9f521fd3934cd4886ba49ce66a537741e35e6567c4b009530133",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00001.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00002.tiff",
+      "sha256": "c686b1a6bc026e4b83b918b8dd1328df54b2e043597dc54beb930523b7227697",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00002.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00003.tiff",
+      "sha256": "77315eeedc86305a8cdb96854d24ea51602c65b7a2f8bc35096bec4e7ffae4e7",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00003.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00004.tiff",
+      "sha256": "8426e03515bab85f7ee96fcddc2f6861190616231913584bad6947e4ccbd6851",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00004.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00005.tiff",
+      "sha256": "a3b26d3c09de07b3ebbe995c28f094ec77a2080cc144b272a3e7c935f321bc31",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00005.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00006.tiff",
+      "sha256": "58b0d94a472323fffd983dcb9fbe4813672d8cbec3b4eb48c24fe725b439a054",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00006.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00007.tiff",
+      "sha256": "3c2a3ac9c46938a2e8a27b897697b8883b03ce66c7ab19fb5aad7b4af8dffa9f",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00007.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00008.tiff",
+      "sha256": "6a68fe25675de2006f8801b33ced8289b2415a69747e33d1df98d2141777fb48",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00008.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00009.tiff",
+      "sha256": "87732371f408d3aaef911f87e22e61981a547f03f1cd208d526dcafa7cf3ac72",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00009.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00010.tiff",
+      "sha256": "3bacb0b726393525f967a8a7bee594e617fa7a581ba0194fd08e672d53f8dc0d",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00010.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00011.tiff",
+      "sha256": "9fbe7afa4e89ef66284f3e9e8d427609284b3c05ae5e63215dd646fdc84f063d",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00011.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00012.tiff",
+      "sha256": "f3750af5c85d7c97c8d0ea3120705aa29280ff88422c61df05cdd46e935c6055",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00012.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00013.tiff",
+      "sha256": "287e103cff9e1ee44c187f8a7a504239402d75229e388853dd297a0d9b34d548",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00013.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00014.tiff",
+      "sha256": "ac4d4d7e6057123f88e88bdb7b40f1fcf332d5af2ef98e70b0321ff07ddf94e3",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00014.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00015.tiff",
+      "sha256": "3e397d9d5ab3d4146f5c2cab9eed5cbd4d9a3c8296fec3e69cbcddaf942942a0",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00015.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00016.tiff",
+      "sha256": "78fb914aa0f347c251fdde54a015daabfca610c9d857d3644e5faa0e27e731dd",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00016.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00017.tiff",
+      "sha256": "8a6a59167bca125ee9c99afec1b100a3c65def24c4311229eee3bc1cb974a3c9",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00017.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00018.tiff",
+      "sha256": "52a021964bba28986352e3baf8a4d6cf5843d398fd4898f2d95403a5a7a41be5",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00018.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00019.tiff",
+      "sha256": "6c7d63f11cfb94a7615751b6ae71b508d89af97e7cfb616929c729eff3db9397",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00019.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00020.tiff",
+      "sha256": "90ddd6a5a1d2cee2058a73139770dc7987c8a23bc4aea53992297f8b9eb1fd2c",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00020.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00021.tiff",
+      "sha256": "fb6f0efa692ce6485efb916b74f4955b16d0f002e2b87b1b7a63d3caad2a43d6",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00021.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00022.tiff",
+      "sha256": "1998a3ff1cbc6fb6e45944a57276b815d85632d58f91e0684cf397c24f66efd1",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00022.tiff",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00023.tiff",
+      "sha256": "2ead1ed84a98ee055eb0ad60a22ed565711defde9e716b3b89cddbbe9df0f6f3",
+      "bytes": 262512,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/depth_00023.tiff",
+      "published": false
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/events.json",
+      "sha256": "548340bb04968c52190713e6330781acbcaaea0867ade3f12100f56eb1493cca",
+      "bytes": 892246,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/events.json",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00000.png",
+      "sha256": "0a97050c017a2b4d7bc3dbacde586df2170ea83ffff594c3fa75c9ff413b03d0",
+      "bytes": 32897,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00000.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00001.png",
+      "sha256": "1af99c75bd5fcb0aac2f4a6135742c9c9c0f691c6485a07b81e550e6605572b5",
+      "bytes": 31239,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00001.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00002.png",
+      "sha256": "0a783bd289807be44b8f4f9cb90eaf86321e464f84374168a716a8bc096312bf",
+      "bytes": 29377,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00002.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00003.png",
+      "sha256": "4324e78ea0ee4d8fd3aac3e62c813bf04121dfacfea814aeff4e0a41f5513dfa",
+      "bytes": 29513,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00003.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00004.png",
+      "sha256": "f9cf42d576e6f1919c0455f622eb352f0a03aee9f6b58ed000ea16d139a0b41a",
+      "bytes": 29893,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00004.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00005.png",
+      "sha256": "7f0d00247627e4868c9bcbeee7082c85d72384fc7797e1ad8b0ef13f561992b2",
+      "bytes": 30520,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00005.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00006.png",
+      "sha256": "11b106589f6173ea69b705b8cea0cde9afed63460e7af085ae3982ae1cce64df",
+      "bytes": 31544,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00006.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00007.png",
+      "sha256": "d9e4c0240d70f5b31b9d04a321f0cd869c79359be843266220505e2907fb8f40",
+      "bytes": 28117,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00007.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00008.png",
+      "sha256": "3b5c0883f86a902fe1d0821a82351087b2c766c05b0ef61b78a0aad14c20132d",
+      "bytes": 27678,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00008.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00009.png",
+      "sha256": "7e3ad9c160b6e30cc8217478808d44b9d0fdf0246c4b89eaca09d521b4535383",
+      "bytes": 29494,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00009.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00010.png",
+      "sha256": "4d9e3a56094585824d3de599a5abc7a5f1f8e5ab405ea6357ae4f47b4677d3ae",
+      "bytes": 29794,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00010.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00011.png",
+      "sha256": "7dc9f60283302afc9e587fab4cbee267279f991043d760ac99060d83ff2d1022",
+      "bytes": 30654,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00011.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00012.png",
+      "sha256": "55b4f70545bf84a589e9f6a04800bc1452c1bb424ebf20207b5741033b830f81",
+      "bytes": 30815,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00012.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00013.png",
+      "sha256": "0d50c56f614318fa09f1cebb9ce0d99d04734e16431f5953592759ae8605ab8c",
+      "bytes": 31302,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00013.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00014.png",
+      "sha256": "7f7486b3f59e3eff884ad2662a99b23581e1fdefe3978fac7abcf47810776f18",
+      "bytes": 32198,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00014.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00015.png",
+      "sha256": "7f56331c2a04bc867d0465068fa70996b9610dd981dc36a9ed76f0ef79e3ec08",
+      "bytes": 32635,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00015.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00016.png",
+      "sha256": "02d996947145e72a2e550fcf848b1977754d7005ef7c17efa3ce1be80bc41eb4",
+      "bytes": 34132,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00016.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00017.png",
+      "sha256": "e42ef8b46049210f3420b0ccfeb1243c01a3a1f5d398db6ac475f2de4862f78c",
+      "bytes": 36106,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00017.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00018.png",
+      "sha256": "c61a9bc2f3814c4bef1f3d946321b82b739f035e0cf7d8331cfe0f733e639346",
+      "bytes": 34047,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00018.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00019.png",
+      "sha256": "00551b0e7c677101af59ba32ced0e481812fd8a3dbf5785ee481ca96937c0a41",
+      "bytes": 28782,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00019.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00020.png",
+      "sha256": "76b8c32467360e43b4580e296695fca32c2a3ee97ffbe56040dc1fbf32fd3ecb",
+      "bytes": 22455,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00020.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00021.png",
+      "sha256": "6321a0837ac3cf138475aa151b4f62b111e3545bb60d4ab1a6a6c35823f3ac64",
+      "bytes": 20014,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00021.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00022.png",
+      "sha256": "1707ee7c5a3930ac44d382c08531c3f5d04c0acb20f6ecbd782df7f1f1e475be",
+      "bytes": 19752,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00022.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00023.png",
+      "sha256": "299c1e5df8f2c0c1e3cde71192013a559eabb3a6a1526319deee00d568cac36f",
+      "bytes": 19661,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/forward_flow_00023.png",
+      "published": false
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/metadata.json",
+      "sha256": "d1d4c588efc6b97b5d755272ecde33fc172fb1e9cc1369f6ea507dc4cad1c398",
+      "bytes": 420688,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/metadata.json",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00000.png",
+      "sha256": "2313ee2ef68c5b6502b785a6562a140468ebacbf55c3f8449249d31cbea866c1",
+      "bytes": 49460,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00000.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00001.png",
+      "sha256": "e4a49c3f4b8c8a223646de9969057c3a6d8468d0ac5a896e5cd8efce6021e4d8",
+      "bytes": 47094,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00001.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00002.png",
+      "sha256": "cd561310f75f2e84a4b4439863180f6199ada308ee2ef1b36c35525786ce0c74",
+      "bytes": 44740,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00002.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00003.png",
+      "sha256": "111944c279e2a705bfef7f23982c7626872b7278e2c496feca5b1d4433a2bcb7",
+      "bytes": 44091,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00003.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00004.png",
+      "sha256": "0187b557a52632180403e6b902e507f481e4dcf96750fd4f3e0e6bdec7bea665",
+      "bytes": 44087,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00004.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00005.png",
+      "sha256": "b9f25631da8edb74fc75387a5fee5254e78d85aa8fd1ebe13964d65e1e431fae",
+      "bytes": 43747,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00005.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00006.png",
+      "sha256": "1f40fc8ae303cc4396d5667f947615cab486f59fa3362c544ed7d946f1bc65d8",
+      "bytes": 42942,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00006.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00007.png",
+      "sha256": "89814bf7bb3e86b5bf8859a8178e090a7f5df0dcb80cd633f59c91ac856ef1fa",
+      "bytes": 38521,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00007.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00008.png",
+      "sha256": "62fe72398e339bf0062e7bf013d2dfbf029e893cc32cf57747803de7a3bc0259",
+      "bytes": 35807,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00008.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00009.png",
+      "sha256": "7a7760e31c09f56a1aa6ccd352b641e27d888888a055fc2f6301deb7b6ff18c2",
+      "bytes": 38147,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00009.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00010.png",
+      "sha256": "2de197669eb822f5da6c71355542e0e66cf096f63308b9c36b1730030a0d510e",
+      "bytes": 38980,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00010.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00011.png",
+      "sha256": "b41394c82299bc4c3c36ff830b9fa4f3a3a20c02b00506192c7248dd42cf479b",
+      "bytes": 40214,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00011.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00012.png",
+      "sha256": "7a9147c396ef4f1528f3e2f7529decb6940d93a764e8e4e372059f665acb3143",
+      "bytes": 40932,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00012.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00013.png",
+      "sha256": "049db657df8c801761a8299dc1fe225ea08cd58de8c869ae1f06ce9913e322ee",
+      "bytes": 41760,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00013.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00014.png",
+      "sha256": "38ff15bb924b76a8614ece2955a25ed498ad337af7062dd721d6e6f13d55846c",
+      "bytes": 42954,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00014.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00015.png",
+      "sha256": "14e2c4f22ea1715a063b4815df519e6ddaeedf54fb96e8fcbdc28bab7aa4249e",
+      "bytes": 43985,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00015.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00016.png",
+      "sha256": "9c647a86ba4815530802ffda40cdef17abc1036e6366f921e9c22543eadf1b6b",
+      "bytes": 46010,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00016.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00017.png",
+      "sha256": "50f1fd64c4f72eec0b48cc89e2166b91afaaca8c11ff0b8bd99659d5a0d659d5",
+      "bytes": 48518,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00017.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00018.png",
+      "sha256": "ce556f4fce36823fa7cb81884cfdc3ea69529fbf4f6fd7531d25ec3f5e2ea36c",
+      "bytes": 45438,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00018.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00019.png",
+      "sha256": "286ba02f15c83693824cc6799de04a188d5444f1e1dd3708450e2173550fe6c7",
+      "bytes": 38505,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00019.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00020.png",
+      "sha256": "d097b48ccee7ebdba897a0392575a3ac096fcf967671a533c8e1d84e5e843d51",
+      "bytes": 30255,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00020.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00021.png",
+      "sha256": "194876b526ef56a9aa0db25f2135875a34e9ba69b670711cea2e0d6ca28e2df9",
+      "bytes": 27081,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00021.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00022.png",
+      "sha256": "b64d13e546270b42ac8ca912c5ce30258867e43a623f190461dc86562bb541a0",
+      "bytes": 26666,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00022.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00023.png",
+      "sha256": "801207b338107b38fee0c5837afd119f18f4e37416a90f729f18d6022695f5ef",
+      "bytes": 26443,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/normal_00023.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00000.png",
+      "sha256": "75cad1cd28c1aeeac502270b12ede0f41f5f18a3dd7d0d1fa6446b0b3d745ffc",
+      "bytes": 278303,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00000.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00001.png",
+      "sha256": "8921f7f179538fa55bdbbee758239eb99c647c62cafcf32e1ea65b161acd0e65",
+      "bytes": 277498,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00001.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00002.png",
+      "sha256": "2c51a4587ae1b6421d9d27570a331a117cc013233627132ba8ead753e76ada2e",
+      "bytes": 276891,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00002.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00003.png",
+      "sha256": "813614524bd78c1e939a59b6f1d3e757fb867b4f04ff21cf906e59509f2102c4",
+      "bytes": 276846,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00003.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00004.png",
+      "sha256": "80b31a578dfcb533f588f856ef5261c660e41f64f7bbf0e6ee0a330a30c23100",
+      "bytes": 277073,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00004.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00005.png",
+      "sha256": "d08d706e628e086a692b7b21573d704b6c253578429e8ada94072939cf462c97",
+      "bytes": 277253,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00005.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00006.png",
+      "sha256": "e53d00db302dae5a73e892b7abaeb915d54854b43c519807c3b91547a4cbe145",
+      "bytes": 277439,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00006.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00007.png",
+      "sha256": "3a7f2315ff06a44f93b4d413ba5ea4db2e5e837ba78821726afb76a65c849873",
+      "bytes": 275940,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00007.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00008.png",
+      "sha256": "896b2ca10d333fdabe51eb78ca00de4bea827e53740612a04e49f3c2eeca996f",
+      "bytes": 275325,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00008.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00009.png",
+      "sha256": "7e234d66a3cb49adc3622a251d8783c926b6ce02fc078e01c4cf6b85a0c3ab2d",
+      "bytes": 276883,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00009.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00010.png",
+      "sha256": "6c8b094df2b9fbc73faaaa07d1d3c8eb00a767be3a3d10c1069cf522e90b1c37",
+      "bytes": 277380,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00010.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00011.png",
+      "sha256": "d249192359076ba131f431711907739c383530fd1301d9983d53f763e7253548",
+      "bytes": 277994,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00011.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00012.png",
+      "sha256": "4ef031a9aafbf7b164b3d160d976398afbeb0d97c2c7ee7e1814ecd557cc9e54",
+      "bytes": 278415,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00012.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00013.png",
+      "sha256": "19c9d252d726d6ebafd489a98037dbf36e6248900ed771e78586a51e89a514e3",
+      "bytes": 279083,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00013.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00014.png",
+      "sha256": "38090282dbcca885997270a31b33bd1ae27ed50a5331414bd45bf501830b9b36",
+      "bytes": 280170,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00014.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00015.png",
+      "sha256": "112244c6abf54bb31ab6e69a7cd21095b92ede6f2af8ace349c20c49d7976c94",
+      "bytes": 280984,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00015.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00016.png",
+      "sha256": "bd0686dc21de10e24d02cc80504a3134ca53d3f3aae385301f84bd478a6ee251",
+      "bytes": 282225,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00016.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00017.png",
+      "sha256": "3e2fa4720d45fbf8977d6ba1948083319fad8523b8168841246dc18b6bab1ed0",
+      "bytes": 283589,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00017.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00018.png",
+      "sha256": "400ffd8b2c1608b28a27e748b8352d40ef3417264ff656d1b181dfc8172c8cb8",
+      "bytes": 282031,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00018.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00019.png",
+      "sha256": "d59b0afa35cd98296189646193bc9bcb299e9f97f02db09072721f86bc3893f1",
+      "bytes": 278792,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00019.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00020.png",
+      "sha256": "35c4961b47a45f2a1dc2fdd04e9ed67200a7f4cb8773526ea64801584157372f",
+      "bytes": 274920,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00020.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00021.png",
+      "sha256": "5667d1b4728865f094038e6e6a105283c56e5a6b120dbc604b04edbe35a4e1b3",
+      "bytes": 273305,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00021.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00022.png",
+      "sha256": "84a6f739b03210bf5f8638b85762f6049c1ee3bb8559586167ea14b0ac70e832",
+      "bytes": 273177,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00022.png",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00023.png",
+      "sha256": "9eddefc72e467def06a115f60d252605cab11588b2590b21037f7cbdc082665c",
+      "bytes": 273122,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/object_coordinates_00023.png",
+      "published": false
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/preview.png",
+      "sha256": "e812a628dd5fd6a042ec2e03206fb968a09abff5a4009ee960e304d188e01700",
+      "bytes": 227744,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/preview.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00000.png",
+      "sha256": "7cfa37c93f92094ede10d4161669f88768d71f89ca2c6ed2b3d41fb3a96dee74",
+      "bytes": 55314,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00000.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00001.png",
+      "sha256": "0079e14767d0d4931631ee5ccf300c3fb3b1ff136e510110e9312c555517fb0d",
+      "bytes": 54412,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00001.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00002.png",
+      "sha256": "f41246985b5defe5047df89d48c272d8eb37444b14165fc17af994bebf68fc91",
+      "bytes": 53933,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00002.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00003.png",
+      "sha256": "984851554388248b8ff306124f409e99d14141f08a6f84bb083a1a971abac9f5",
+      "bytes": 54177,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00003.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00004.png",
+      "sha256": "7d7ae34df2250f73d07fbb9a991e526b389bf0f6555755b3bcb8180fa67c2fb6",
+      "bytes": 54518,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00004.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00005.png",
+      "sha256": "92c7e62c51cbe8a2635f55d63a94ff94b60329bf0d59fa9c83a65ffcb5bf2205",
+      "bytes": 55815,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00005.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00006.png",
+      "sha256": "2b20b4b047151859e4a7dc7fbe31c331490dbc933124dbdaf1c5ae5d8b43a53c",
+      "bytes": 55727,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00006.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00007.png",
+      "sha256": "79339448ff17dcb2a7faa3bd1265db4d8cc60a34793a381d99c449aa5dee32a2",
+      "bytes": 55636,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00007.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00008.png",
+      "sha256": "68e4d10ea2a6649fad6a49482e0f8e9b4a0af867e798e85bb3b38b78fe613406",
+      "bytes": 54266,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00008.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00009.png",
+      "sha256": "33d8fa69aecddc2ab90ffd5a922e35634bebb961996c1c1a326d814bc4047d6d",
+      "bytes": 55834,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00009.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00010.png",
+      "sha256": "a7103c2c35a1146b3aabb2e18864a43ee99e07fa700940c14bb5bb6bf1d72840",
+      "bytes": 56879,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00010.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00011.png",
+      "sha256": "9352bbb792a756902fd2f2e360dd0fb303b6e5947eb71d2819dc47922fb7afbb",
+      "bytes": 57599,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00011.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00012.png",
+      "sha256": "a6ef680f5beebbb92f61b8f5c029f1d12123594578d2837218deadaefb2f75c3",
+      "bytes": 57383,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00012.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00013.png",
+      "sha256": "8766edd457bb6ee1af130bea235aba8bb74ab1f39fde3d3ec909a71dca75d6af",
+      "bytes": 57897,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00013.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00014.png",
+      "sha256": "5c2005b456f04b38cd45cd0520480c028bc06f8c7432dae9add9bfed814e63f7",
+      "bytes": 58663,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00014.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00015.png",
+      "sha256": "9a67ecaa570a0a92af816a388f9d19f97464d63d50c4db8ad4e28a3f6a8c9f12",
+      "bytes": 59559,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00015.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00016.png",
+      "sha256": "4848131bd63584b16dd682cf704ff587a1cad9cbec633b148c77a322afc9d0c3",
+      "bytes": 60332,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00016.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00017.png",
+      "sha256": "a6d2d02f4113db1a4eb4520b56303f85c360aabceb1a0aedb40b86528f699586",
+      "bytes": 59950,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00017.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00018.png",
+      "sha256": "9f30c932757f42e549ef5a2e4ab1cb5471c1385b48a126e3b662bb05bf3a8ab5",
+      "bytes": 58289,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00018.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00019.png",
+      "sha256": "731b9ef2f32a07e632753a779c7f595aa0ff863a63aca0b14b52304c763b2fc7",
+      "bytes": 55694,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00019.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00020.png",
+      "sha256": "015ee68542b7e4054b7b9341be2932d4b01fd938fb96b565f8351d7bb061c521",
+      "bytes": 53121,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00020.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00021.png",
+      "sha256": "c0271f600bdae980928e52d3bd49d003e27535845ab1f89e8d85257e31d864d3",
+      "bytes": 51573,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00021.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00022.png",
+      "sha256": "82129524fade43539e98b9ca8c434a33aed69493e2cecd8617d1a6c0c8e0a089",
+      "bytes": 51218,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00022.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/rgba_00023.png",
+      "sha256": "41530183f20f3847e5970fdf61968d73cc14f3afeacdaefe8418afb0cc7f69b2",
+      "bytes": 51339,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/rgba_00023.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/scene.blend",
+      "sha256": "0ccd149e67e4b7f4dc94f1d3ef376457f8d0f9b17af8008fe1c79775b822cb24",
+      "bytes": 8483892,
+      "role": "native model/state",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/scene.blend",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/scene.bullet",
+      "sha256": "a341925143bc3d65cf917290e1b02028daa580537ea35d0ca639328f3c1d5bf3",
+      "bytes": 54580,
+      "role": "native model/state",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/scene.bullet",
+      "published": false
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00000.png",
+      "sha256": "7d6640d4e13ca505cb3a479a1a85481978d4aa26d571f2f60f90b2d12d92d4fa",
+      "bytes": 876,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00000.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00001.png",
+      "sha256": "a73c11c4eb106c181321c005abf3779179181c973825bdfbba730af01f10117c",
+      "bytes": 877,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00001.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00002.png",
+      "sha256": "c5fdac34cbff120a529a0e86c1406054982335273cb3e4c724da53b5eda6ced5",
+      "bytes": 882,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00002.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00003.png",
+      "sha256": "4bf8603767786750b0145233e40239ba06c535216324588ccb7d9aadcbb2921a",
+      "bytes": 852,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00003.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00004.png",
+      "sha256": "6f1846b01b7b2304e8adbdf6a8624934a5f0380eff08e3fc9bc2bb00251100cc",
+      "bytes": 853,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00004.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00005.png",
+      "sha256": "8a7f4b399ba73fd45680e392d7dd3a5d20d8bbecd9cd938d47f3942a941686ed",
+      "bytes": 843,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00005.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00006.png",
+      "sha256": "e2cf471d731188d0324452f25e3798ffee2622b1dbec52dfbf66f58861efcd4d",
+      "bytes": 826,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00006.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00007.png",
+      "sha256": "32b9e3b58549313b2ab8b3c90dea330d360d1d0789ab720a2dbe42f61f3082fb",
+      "bytes": 786,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00007.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00008.png",
+      "sha256": "2ae39903c1eca5d3e27d33846dee8b00ef7ff5c19de59aa08bc857ddaac22070",
+      "bytes": 692,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00008.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00009.png",
+      "sha256": "aa7022f276b61303ad800fffd4c81c42affb994f4d62a886fdbd4d86fb511d72",
+      "bytes": 782,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00009.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00010.png",
+      "sha256": "3e09030625442dcb338e233bb1c8f6062a814a92132aa1893de36e945afa82f3",
+      "bytes": 850,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00010.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00011.png",
+      "sha256": "8f4b80ee58bbd28567113ba36de63b3d2925001f956495b8a4a79340026b1a49",
+      "bytes": 854,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00011.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00012.png",
+      "sha256": "8696ca6c0612f82ea78a448b94242306163ba44d7925e0701be725b39d1ceefb",
+      "bytes": 881,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00012.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00013.png",
+      "sha256": "55d38171e19ea12c81314250b3bb65fa42e461864bd0dd960e153159f5b61999",
+      "bytes": 940,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00013.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00014.png",
+      "sha256": "fde0d5b8b3a3ef2d68d0a758ea71de64adeecce42645064d9d2d202aacbd970e",
+      "bytes": 932,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00014.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00015.png",
+      "sha256": "e645797b0349ac45cb8acb6720b045d0751f5e34344d954f3d77e4fe989d1c01",
+      "bytes": 922,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00015.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00016.png",
+      "sha256": "c7f4cebec6ec64a6d4272f18e64b2f40bab572c18dbc80a1fab91aa046c02800",
+      "bytes": 883,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00016.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00017.png",
+      "sha256": "ae0baeba6c2a4f0afed4e0370e93c7f885bbb993ceffc950260fe6e3953ef1e3",
+      "bytes": 940,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00017.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00018.png",
+      "sha256": "7910bd07d2566df8aad0ce7465a3b4de36ff06579dd233328488fbc8cc803e30",
+      "bytes": 901,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00018.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00019.png",
+      "sha256": "086b8cce112145607c82b1c5efaf3afadc4686fbc7ffb0d91531e64a869e3832",
+      "bytes": 846,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00019.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00020.png",
+      "sha256": "27c6334dd7ad4b3ccc4d7623e2e3febc310300d67a91e5957ac05c54765638be",
+      "bytes": 809,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00020.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00021.png",
+      "sha256": "60ed489c60af1fa3388ee92977577e7a7efe65354574888487829602f7272e1f",
+      "bytes": 761,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00021.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00022.png",
+      "sha256": "523e9dd44cae84bad6023a07b3f8c9db1869cc513ecc9636a9facba7a3f64d71",
+      "bytes": 727,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00022.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/external/robotics/kubric-final-output/segmentation_00023.png",
+      "sha256": "b3f5ddc0b6969fd6571f258873d7ca315a4ac1f03694f0a137df2d90b85ce4c3",
+      "bytes": 704,
+      "role": "generated render/annotation or comparison",
+      "public_reuse": "CC BY-SA4.0; preserve Kubric KuBasic attribution in ATTRIBUTION.md",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-final-output/segmentation_00023.png",
+      "published": true
+    },
+    {
+      "path": "files/blender/fetch-runtime.py",
+      "sha256": "58267f64c246b4bb95b7016fb30fe31b3f125e90c300aa6266cd141345e00636",
+      "bytes": 2525,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/kubric/fetch-runtime.py"
+    },
+    {
+      "path": "files/blender/run.py",
+      "sha256": "380541c7f78d0deb3d7692c3790284577312da5abca567070d63de79cd87f3ef",
+      "bytes": 813,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/kubric/run.py"
+    },
+    {
+      "path": "files/blender/compare.py",
+      "sha256": "819e544cac6739300a23b615f2489046ebbf498eeb2b32b44578a2fb9a672de1",
+      "bytes": 2605,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/kubric/compare.py"
+    },
+    {
+      "path": "files/blender/requirements.txt",
+      "sha256": "02d7582de6b232ef985974e1c0bb357f43e1f2041d5f5afeddb0f34f5e12fdd4",
+      "bytes": 351,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/kubric/requirements.txt"
+    },
+    {
+      "path": "files/blender/requirements-tested.txt",
+      "sha256": "dd121b1b4fb34781a4206cbaa5b9619e3b9278adf48ebcb5ab3842d648b9bc9c",
+      "bytes": 1707,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/kubric/requirements-tested.txt"
+    },
+    {
+      "path": "files/blender/ATTRIBUTION.md",
+      "sha256": "f41e53fce76ed333e5a95e9e7f3d6d77dfad030ba8e13d40d0ab3bfee460748f",
+      "bytes": 1111,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/kubric/ATTRIBUTION.md"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/targets-before-run.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-paper-date-commit.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-blender-image-manifest.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-author-attempt1.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-author-attempt4.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-author-attempt11.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-numpy-compatibility-install.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-author-attempt12.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-author-attempt12.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-author-attempt13.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/kubric-comparison.log"
+  ],
+  "blockers": [
+    "Exact2022assetbytes and full originaldependencylock not established; SAVi/SIMONeTable3training benchmark not attempted."
+  ],
+  "next_action": "Human review of the dataset-generation guide; match archivedassets and modeltraining protocol before reproducingTable3.",
+  "relationship_to_paper": "UnmodifiedMOVi-Aworker from paper-submission-dateKubriccommit; generatedscene and publisheddesign-property comparison. Currentpublicassetbytes and reconstructedruntime differ from fullhistoricalimage.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/kubric",
+    "guide": "guide.md",
+    "files": [
+      "fetch-runtime.py",
+      "run.py",
+      "compare.py",
+      "requirements.txt",
+      "requirements-tested.txt",
+      "ATTRIBUTION.md"
+    ]
+  },
+  "research_group": "robotics",
+  "guide_source": "templates/blender.md.in"
+}

@@ -135,7 +135,7 @@ def outputs(data, tools):
     lines = ['# Research routes for all 60 Simulation Lab tools', '',
              'Choose a tool, inspect the linked paper and code, and identify the result to compare before launching a run. These routes extend the [existing teaching examples](../examples/README.md).', '',
              f"Researched {data['checked_date']} at Cole / @ajhcs's request by six domain agents, with integration and source review by Codex. Human scientific review is pending. Each record distinguishes paper-associated code, a model adaptation, a software-paper demonstration, and a related tutorial. A route covering a tool does not mean its paper has been reproduced.", '',
-             '## Current evidence', '', '[Technical review and checks](verification/review.json). The reviewers were agents; human scientific review remains pending.', '',
+             '## Current evidence', '', '[Author-code attempts for the 21 selected candidates](../reproductions/README.md) report actual runs, comparisons, adaptations, archive analyses, and blockers.', '', '[Initial planning review](verification/review.json) · [Author-code campaign review](../reproductions/review.json). The reviewers were agents; human scientific review remains pending.', '',
              '| Execution status | Tools |', '| --- | ---: |']
     lines += [f'| {label} | {states[key]} |' for key, label in STATES.items()]
     lines += ['', '| Relationship to the paper | Tools |', '| --- | ---: |']

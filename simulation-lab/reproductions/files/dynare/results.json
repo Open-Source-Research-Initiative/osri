@@ -1,0 +1,27 @@
+{
+  "status": "author_code_executed",
+  "exit_code": 0,
+  "dynare_version": "6.4",
+  "octave_version": "9.4.0",
+  "statistics_version": "1.7.7",
+  "mh_replic": 0.0,
+  "mode_compute": 0.0,
+  "first_obs": 1.0,
+  "observations": 230,
+  "shock_decomposition_shape": [
+    40,
+    9,
+    230
+  ],
+  "shock_decomposition_all_finite": true,
+  "max_abs_output_decomposition_sum_residual": 7.105427357601002e-15,
+  "laplace_log_data_density": -1844.0985587223256,
+  "scope": "Maintained author-derived model at supplied old mode; no optimization or MCMC. Original author archive requires login, so original sample/mode and printed paper targets not matched.",
+  "warnings": [
+    "Old mode file cannot be verified against current model.",
+    "gaminv prior-bound calculation did not converge for some values.",
+    "Negative array dimensions converted to zero in shock-decomposition setup.",
+    "33 preprocessor warnings from unassigned steady-state block variables."
+  ],
+  "interpretation": "Fresh model execution and finite native decomposition achieved, with exploratory summation diagnostic. No published-target comparison, posterior estimation, scientific acceptance or original-paper reproduction claimed."
+}

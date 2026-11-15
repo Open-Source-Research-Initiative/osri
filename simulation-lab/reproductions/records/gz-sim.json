@@ -1,0 +1,1050 @@
+{
+  "tool_id": "gz-sim",
+  "title": "Gazebo",
+  "question": "Do isolated same-seed PPO runs produce identical checkpoints and evaluation curves?",
+  "paper": {
+    "title": "GzDRL: Reproducible and Scalable Deep Reinforcement Learning with Gazebo",
+    "identifier": "arXiv:2609.13243v1",
+    "url": "https://arxiv.org/abs/2609.13243",
+    "locator": "Section V-B, Figure 6, Table II: process-isolated same-seed and different-seed PPO reproducibility.",
+    "publication_type": "preprint"
+  },
+  "source": {
+    "url": "https://github.com/amaldevh/gz-drl",
+    "ref": "HEAD at inspection",
+    "commit": "3e5c5f9a62c1160b3b2889e6d34d794a5361e178",
+    "paths": [
+      "experiments_paper/reproducability_validation/README.md",
+      "experiments_paper/reproducability_validation/config.json",
+      "experiments_paper/reproducability_validation/run_experiment.py",
+      "experiments_paper/reproducability_validation/verify_determinism.py"
+    ],
+    "license": "MIT; Gazebo/dependency notices separate"
+  },
+  "inputs": {
+    "description": "Author config: 5 same-seed runs with seed 42; different seeds {1,5,25,42,125}; eight environments; 500000 timesteps; checkpoints every 50000; 20 deterministic evaluation episodes.",
+    "access": "Public code and bundled config; no private data indicated.",
+    "hashes": {}
+  },
+  "environment": {
+    "versions": {
+      "python": "3.12",
+      "Gazebo": "10.6.0",
+      "gzdrl": "1.0.0",
+      "torch": "2.7.1+cpu",
+      "stable-baselines3": "2.7.0"
+    },
+    "changes_from_author": [
+      "Conda-forge portable native runtime, GCC15 rather than required11; disabled force-GCC11 CMake option.",
+      "Disambiguated22 scalar Spec<float> constructor bounds using explicit std::tuple<float,float> in bundled EnvPool headers. Patch preserved; no dynamics/task settings modified."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "run_experiment.py",
+        "--results-dir",
+        "gazebo-results",
+        "--groups",
+        "same_seed"
+      ],
+      "cwd": "sources/gz-drl/experiments_paper/reproducability_validation"
+    }
+  ],
+  "target": {
+    "observable": "Same-seed process-isolated PPO checkpoint hash identity and final return",
+    "reference": "GzDRL Section V-B/Table II: 100% identical checkpoints and final return 18.43±0.00 with full author configuration",
+    "tolerance": "Exact checkpoint hash equality; return tolerance unassigned until paper/code versions matched",
+    "tolerance_basis": "Author same-seed determinism claim; do not silently equate a short pipeline test with full training",
+    "declared_before_run": true,
+    "scope": "Attempt author research artifact and preflight; full 500000-step configuration if native runner is feasible"
+  },
+  "execution": {
+    "status": "author_code_executed",
+    "result": "Completed all5full same-seed500000-requested-step training runs and1200evaluation episodes. Author preflight and independent12-checkpoint parameter identity checks pass; finalreturn16.53217 differs from paper18.43.",
+    "exit_code": 0,
+    "elapsed_seconds": 878.6662051677704
+  },
+  "comparison": {
+    "performed": true,
+    "passed": false,
+    "measurements": {
+      "paper": "https://arxiv.org/html/2609.13243v1",
+      "locator": "SectionV-B, Figure6 and TableII same-seed row",
+      "status": "author_code_executed",
+      "requested_timesteps_per_run": 500000,
+      "actual_timesteps_per_run": 501760,
+      "training_runs": 5,
+      "checkpoint_positions": 12,
+      "evaluation_episodes_per_checkpoint": 20,
+      "total_evaluation_episodes": 1200,
+      "paper_reference": {
+        "final_return_mean": 18.43,
+        "final_return_std": 0.0,
+        "identical_parameter_checkpoints_fraction": 1.0
+      },
+      "actual": {
+        "final_return_mean": 16.532169754395728,
+        "across_run_final_return_std": 0.0,
+        "within_run_episode_return_std": 14.981441036491205,
+        "mean_checkpoint_return_std": 0.0,
+        "identical_parameter_checkpoints_fraction": 1.0,
+        "final_success_rate": 0.55
+      },
+      "differences": {
+        "final_return_actual_minus_paper": -1.897830245604272
+      },
+      "checks": {
+        "author_preflight_all_hashes_match": true,
+        "independent_all5_runs_all12_checkpoint_parameter_hashes_match": true,
+        "across_run_return_std_zero": true
+      },
+      "interpretation": "Same-seed determinism is supported by full author-code execution and independent parameter hashing. The published numerical final return is not reproduced; no tolerance is invented. Historical package/compiler lock is not established, and this portablebuild uses Gazebo10.6/GCC15 plus a mechanical constructor-disambiguation patch. Different-seed row was not run. Human scientific review pending."
+    },
+    "interpretation": "Same-seed determinism is supported by full author-code execution and independent parameter hashing. The published numerical final return is not reproduced; no tolerance is invented. Historical package/compiler lock is not established, and this portablebuild uses Gazebo10.6/GCC15 plus a mechanical constructor-disambiguation patch. Different-seed row was not run. Human scientific review pending."
+  },
+  "outputs": [
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/checkpoint_variability.csv",
+      "sha256": "ba0e040ac21e6418c87e6b72b4b8280c024f9fe12b7ba6a1d008638dcfb42f16",
+      "bytes": 1277,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/checkpoint_variability.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/table_training_reproducibility.tex",
+      "sha256": "1c0db9df9abd6f236cd911d22ae839e502112f62b4380e371439917f6e7574ca",
+      "bytes": 577,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/table_training_reproducibility.tex",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/fig_training_variability.png",
+      "sha256": "852bd8338a22c2f6c84325b1f596a4cf0ba838a974175e76ad626bf6abb2b21f",
+      "bytes": 46633,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_variability.png",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/training_reproducibility_summary.csv",
+      "sha256": "86df616ebc4abc98aa63811eef83d939990fc0e5b8ed58299e1eb3897fbe571e",
+      "bytes": 287,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/training_reproducibility_summary.csv",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_variability.pdf",
+      "sha256": "cc3ada88ce7ecf576172b3437f3121a174b69401f8d75d79acc83b42499ff669",
+      "bytes": 10964,
+      "role": "native analysis/evaluation data",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_variability.pdf",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_reproducibility.pdf",
+      "sha256": "2bbeb263bfb47edbd0ae7afebd04c835cbde596cc18358e3bdd12e34020e7745",
+      "bytes": 11952,
+      "role": "native analysis/evaluation data",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_reproducibility.pdf",
+      "published": false
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/final_run_statistics.csv",
+      "sha256": "ab81ef466e05032cd541172ad0ebbd4186a224e00eaefa6809125de809f9e437",
+      "bytes": 892,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/final_run_statistics.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/fig_training_reproducibility.png",
+      "sha256": "36400c858f0d1faea8b074ad304bd03cce26714df213c068735891905d1135c8",
+      "bytes": 74451,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_reproducibility.png",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/fig_training_reproducibility.svg",
+      "sha256": "a3634406f30990c6b3c34a66a5b9854cc58c19d3571fb7d608a157d616b413c7",
+      "bytes": 36560,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_reproducibility.svg",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/analysis_manifest.json",
+      "sha256": "a3dcc2a901f0633eb5ad20030df5f5825f22d1c832859c8af2f680984aefadb6",
+      "bytes": 256,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/analysis_manifest.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/checkpoint_run_statistics.csv",
+      "sha256": "c1f6589f95297e4a5a49c415837c2bc2bad563e2253d7b96e6f29110c59e21ae",
+      "bytes": 8922,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/checkpoint_run_statistics.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/analysis/fig_training_variability.svg",
+      "sha256": "be79e41b63a9b6c3c5e8b09df722f78e0c7ca161de7baf9831b492a1577cf8ef",
+      "bytes": 30164,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/analysis/fig_training_variability.svg",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/determinism_check.json",
+      "sha256": "c3e2de1bee9dc836c5f15e9e80b994e0de17df0510875f29f2e7fb3eb21d7e74",
+      "bytes": 1580,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/determinism_check.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/effective_config.json",
+      "sha256": "e9b3f97facfa37a604cc45d6ba957ba3d3240e4a7a0b30b471ec81be29fa1621",
+      "bytes": 911,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/effective_config.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-independent-policy-comparison.json",
+      "sha256": "01170cf1c0e2eb40a3f6ccfe55f1b011ee6c0ea706b7723c0bd746660cf1562a",
+      "bytes": 9826,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-independent-policy-comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-comparison.json",
+      "sha256": "81165960047f187b363ac1c3b9b0ec0c7ebabfdb0e64893a0754676ccf12c827",
+      "bytes": 1470,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/checkpoint_evaluations.csv",
+      "sha256": "8163b4da48b20b67a5f3203941fd5a132430dd423b935d36ffb14a34c51ccd03",
+      "bytes": 124484,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/checkpoint_evaluations.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/monitor.csv",
+      "sha256": "ddf8294b4af847806e2d39de45c0b6ed6abc5cafef5e1aae2012ed7ea38876b3",
+      "bytes": 13821,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/monitor.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/metadata.json",
+      "sha256": "85b3505a8dd95356706be1b61d536c5ccbfcad2ea0161533c0f81f732a2e8b6e",
+      "bytes": 714,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/metadata.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "sha256": "a9cd51a1915e655969ef8d609a26365a31708d433b6470ed88f5b5aaf39e0ff9",
+      "bytes": 10552,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "sha256": "a30a19b1144bd0f67a47df7eecb4a62bdde37e400c26f06f66b9811343d21a95",
+      "bytes": 10541,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "sha256": "90e8d77553e9ffd9be8e1c6a4404394b8cad64dfe0763ea49069072c82ee2d53",
+      "bytes": 10488,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "sha256": "1b1223839c03217870e2d8b85b239221972aa16fdd887f34249019537627c599",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "sha256": "402c0982e5e91e183d6480f81f237f6900358fd533ee4c57b8fb6144c96a769a",
+      "bytes": 10540,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "sha256": "c00f626a957c712a62d3bfd1bd18c91904f486fc79ac8811b276e71557351eda",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "sha256": "4f66c57849721ce182bcd2a50455765f78b6ab5419f91ae9a2018f9514d8af05",
+      "bytes": 10254,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "sha256": "dfe9cbdb25a4cd93bbe89ea14972957cb7650a29e122c9c1552bb1e71057aa21",
+      "bytes": 10536,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "sha256": "7eaf8dd181e3f299b87a1f3a42b3923d3d3b4a2cf7732611c0aaceb0ccd2cca4",
+      "bytes": 10543,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "sha256": "3e8864858fafc68bcbe03b1b9b33a0e7430e5e2e96a4998edb26a2a87444d8e4",
+      "bytes": 10542,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "sha256": "749df24bc550863a86711fd8b280e87973f54fb7863fad6b32f8ec2b12760665",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "sha256": "fb6a21cf28ee8acd8fd360bae78f4979c982867ac9a32202ee8357ec187f3112",
+      "bytes": 10538,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/checkpoint_evaluations.csv",
+      "sha256": "ff3e0dbb60be5fe23f6ef53d5e7ade7d0e28fc7200c9b6ed8f4475e31a2ee13c",
+      "bytes": 124484,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/checkpoint_evaluations.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/monitor.csv",
+      "sha256": "b3b778adb4e6a3672b3377e59f9f0e28e05cf0716be9fc9726c72cce9bc88949",
+      "bytes": 13828,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/monitor.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/metadata.json",
+      "sha256": "d872612cc0b264813c92cae75f89de4b08e1f4e2952132751368c447356baa61",
+      "bytes": 714,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/metadata.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "sha256": "15fd54370856537608c4ddb9be62893b3213ca3a11df6a03df3cd2f9f3ea1ff6",
+      "bytes": 10552,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "sha256": "fb57d716e6f2670fe42a5b32d478db2e6c190374b733b6b02525625059b64ca0",
+      "bytes": 10541,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "sha256": "119a1986396149faa7d8ffc7678fc515cb309bfa21faccc7572a83dd258d7df8",
+      "bytes": 10488,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "sha256": "7aff5425a6ab9189990597933c77b25e08aa63ad87395d41abdf32872d1de96a",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "sha256": "4535f44d77076f23490b0ee1dd52df9732276249569e9c772b02add07228a15b",
+      "bytes": 10540,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "sha256": "434ae3df35784e87401f054a9f671f605d5e5c6fd47a4c72e0c288c2f1c60792",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "sha256": "0fdb8004a0855a719bbf54af9e228235d11871b2e799d5e4440b4d8eeb46f22a",
+      "bytes": 10254,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "sha256": "b919d5fd6f28c432604613f3c80063f3581b8dada25b68de5c8b437bb91704b5",
+      "bytes": 10536,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "sha256": "93b2b8b0fbefc610851b9906f97e832a92d0cc8dc0bd15c03ca3f0e222d16f6b",
+      "bytes": 10543,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "sha256": "700570c6802236ba440e99a468c592ba087684825936069222df78db06de0816",
+      "bytes": 10542,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "sha256": "667e6dfbbcbb433518e4c81adc564bf1b299cb5794cfc71f38ead44b18c2a23b",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "sha256": "90eccaeac9e916fa58db521733f8714e5cccb0331841a9dad447cd92bf5bd0b9",
+      "bytes": 10538,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_02_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/checkpoint_evaluations.csv",
+      "sha256": "bb8bf2bbd6e8c9922e291aaaaf263f2485bfd5c12f010e13a3f678bcc3ab692b",
+      "bytes": 124484,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/checkpoint_evaluations.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/monitor.csv",
+      "sha256": "bed1b117a6c0992b24d3a3a4e1f02dd8fe686512960ae06752efe10f0d8eb854",
+      "bytes": 13832,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/monitor.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/metadata.json",
+      "sha256": "82e51a098a480e8571cc89dd533d2377709ad45347a1bd1ceb7c3c6db9a66f7b",
+      "bytes": 714,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/metadata.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "sha256": "ffef0f5bf088e10c8eb3eb94218459ac22dd0d093eafbabc0d0de7978fef123e",
+      "bytes": 10552,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "sha256": "40c37c9cdd6a061ebff744bdec32af306c01ea4256d23a60dcb41c471379afbf",
+      "bytes": 10541,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "sha256": "e523bfb2ac1ab5458daaf825e18da0650f3b060db0244e7b44f6934425c80b54",
+      "bytes": 10488,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "sha256": "b0e067775d3e231d6e960243e773ea846f0f056f602c52ecc9196fd93e7cf8ee",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "sha256": "d6d4b01bf8cb5c1ef322832bd3fdbf9443738ece6601ac47fb2ae10dc29840ec",
+      "bytes": 10540,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "sha256": "0465156b7e549a456b657ab71ad7920e8fb9645fc968fa310d82429afaa968b6",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "sha256": "bb06eb889a818d1e7d63d8b54297a6af99b5c8b0e40329710a3eea44807801ec",
+      "bytes": 10254,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "sha256": "2008677fd60de1086b6caefb22306cca7bb5fc129c6153376f1a74c18c981f88",
+      "bytes": 10536,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "sha256": "deca03adfd118ea4c5c815e99a27d170101d125083c088b06292ae093e6e821d",
+      "bytes": 10543,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "sha256": "01c69a4952c45cbc83569b242bb9f6754f340a078596a96c12de61dbae4812a5",
+      "bytes": 10542,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "sha256": "79518ab137001bd4deab5008e8ea5e2d3d51033c3eb54dcbfd1873676346416d",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "sha256": "ffb54c1cfa8b3fad7bfbcd74cb4b7fc9854959d5025b495a876478482855c104",
+      "bytes": 10538,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_03_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/checkpoint_evaluations.csv",
+      "sha256": "a6c00b7515e09f99fc2b7097cdeac2a35bc3f102da31bf7feca3d6edaad84d50",
+      "bytes": 124484,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/checkpoint_evaluations.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/monitor.csv",
+      "sha256": "15783c9b04a45f722ef5d6d7fd23221583439aed0a130772f1f44aacb6f73c83",
+      "bytes": 13848,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/monitor.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/metadata.json",
+      "sha256": "e85680004038d9f1f8196476d4a9c36705d23788a393d4853be4d4dbb8a0c12b",
+      "bytes": 715,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/metadata.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "sha256": "68739d54120955f7f25398c1eabd08d5f5594a46955b6db372c224e4a1af0eb5",
+      "bytes": 10552,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "sha256": "80ea1f855a0c0cd2b43b5f05895c50f842d7775168cc0b2860f401f1ef89e535",
+      "bytes": 10541,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "sha256": "d3376c2d4af619431e66598352ff51f0acdb45781c4c371ce3a4cd5c0de4e930",
+      "bytes": 10488,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "sha256": "6c84c88ac5a7988d4adeea3197400decb1d126bc292447f97a7323a470cdbb1f",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "sha256": "6999b2ca8e4ddd33e948a9337ca78e2801011141979d4b2df2d40a9a302aff8b",
+      "bytes": 10540,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "sha256": "c9e66b35ec4e5474ff49a6aa25bc274284dc9352f902172461b74bae46279f4d",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "sha256": "1cb57f50a287975be65693f1d809b3c853bb486409de3ab6f495db90faca35e1",
+      "bytes": 10254,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "sha256": "7d76c660f75626e8d4d06211cd3ca210bfaa9878c420f29d48dfa3f58d8c59bb",
+      "bytes": 10536,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "sha256": "1144080d286c06c94699acc470b34fcf8ea41b7eda2583f7f5b326ac892c5e95",
+      "bytes": 10543,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "sha256": "5f0e6942385e79d40d738e55d6b11fd14055df9bee7041a48010e80b0d63f1d0",
+      "bytes": 10542,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "sha256": "7060b94afc0df09d81e3aca7adffdcc48f2c53035c88e5e58384eb37602e23c8",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "sha256": "a20ddb8aa31e346fc1f8350eb1e1ded8933ce8143cb2b00c447a889145b25c12",
+      "bytes": 10538,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_04_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/checkpoint_evaluations.csv",
+      "sha256": "808d88de0fcbc20b816462905321663c265c9fed25cd9133cb86c03e59224ece",
+      "bytes": 124484,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/checkpoint_evaluations.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/monitor.csv",
+      "sha256": "6f1080b76bd73f0a5c1b73683195dacaad935b96b1d4428940718d1581f9088b",
+      "bytes": 13831,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/monitor.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/metadata.json",
+      "sha256": "3031e3d4da0ce1e25201dbbc5a3368e3d7841ceea9a7fe305e912e02bb605084",
+      "bytes": 714,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/metadata.json",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "sha256": "e7000eabaa842327d13c77f4c3409cc9db3ea57d4b592a99320762bd2109098d",
+      "bytes": 10552,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_250000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "sha256": "9c3199ff33c05629d4427a4375995b1120b4934703becff8ced6a6beb4982eb1",
+      "bytes": 10541,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_100000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "sha256": "56f7e9159070e76654669cee3a7b2540d8e0f81a99a3b7f24c51b82c62322e15",
+      "bytes": 10488,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_50000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "sha256": "492a086120974b40b59139b828cc69895ba4dcad1e40b6118abf317ea82bceb9",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_500000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "sha256": "6989168cd258ed81b84914b9ec1a0077b9424e34886c31cfaac720d365fbe88e",
+      "bytes": 10540,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_501760_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "sha256": "61ab17cf99ef449a83f55e06824f13b2a893b9b79f60e82e8d4c1e73269165cf",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_450000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "sha256": "1f1315b1867f0615f01557503e8a1a2b51f2e3f71680437f4973b4fbaaefb51f",
+      "bytes": 10254,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_0_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "sha256": "13cde3d7b13eb7f42abbc5d0eb35f9f98d57f7d2167d1a53afba9625c49b2c13",
+      "bytes": 10536,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_350000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "sha256": "c7646947e313785b0ea7e8e2ab28b78fe6fde5a7f1de77838dd5568f87824faa",
+      "bytes": 10543,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_200000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "sha256": "8138e1cdf2d7bbea938eccfc1277ec20eccb30e5c47e1ae1eb2a3e60a4b84172",
+      "bytes": 10542,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_300000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "sha256": "fc3619fa45b62fd1e744a41bd5e237726320200f6aa83c717a3c3dd942f9b71a",
+      "bytes": 10537,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_400000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "sha256": "8b527e4be14025b63941f62c71f111b695b8ab4661897efbb321be46fb560acf",
+      "bytes": 10538,
+      "role": "native analysis/evaluation data",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_05_seed_42/fixed_evaluation/checkpoint_150000_episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/checkpoints/model_501760_steps.zip",
+      "sha256": "2cc43a490d547c1ee9064fd0c45676e8414a029c377ee474ba5cb191ee28be80",
+      "bytes": 1774891,
+      "role": "trainedpolicy/normalizer",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/checkpoints/model_501760_steps.zip",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/external/robotics/gazebo-results/same_seed/run_01_seed_42/checkpoints/model_vecnormalize_501760_steps.pkl",
+      "sha256": "4afdbdc22c586feeda7ef618d586295358b636ad63dda06f30c9e9b8327394f7",
+      "bytes": 3141,
+      "role": "trainedpolicy/normalizer",
+      "public_reuse": "OSRI-generated outputs from MIT author code; retain source attribution and separate dependency notices",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/same_seed/run_01_seed_42/checkpoints/model_vecnormalize_501760_steps.pkl",
+      "published": true
+    },
+    {
+      "path": "files/gz-sim/run.sh",
+      "sha256": "6f2667a19f9229e2a5a56243d09ce779f90d789372368aae676041f71b3f3172",
+      "bytes": 230,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/run.sh"
+    },
+    {
+      "path": "files/gz-sim/environment.yml",
+      "sha256": "5f548103949d7676d805d60e1160152b01e509320463cc8b8c9f4a2bdd2c665f",
+      "bytes": 173,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/environment.yml"
+    },
+    {
+      "path": "files/gz-sim/requirements.txt",
+      "sha256": "2753066c23f9169dad89e57032578b634ddeb32ebf398181411efceae0d56a1a",
+      "bytes": 146,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/requirements.txt"
+    },
+    {
+      "path": "files/gz-sim/compatibility.patch",
+      "sha256": "d4537e5d9f285e9f5e403b4b0f418a2f4fd7d0fab3b090bd7c2b28b562fe74ec",
+      "bytes": 8628,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/compatibility.patch"
+    },
+    {
+      "path": "files/gz-sim/fetch-source.sh",
+      "sha256": "78d179e4805fcc1675ed01025049522b7a12d757763ed8ea5c64f8efa2e23a88",
+      "bytes": 582,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/fetch-source.sh"
+    },
+    {
+      "path": "files/gz-sim/config.json",
+      "sha256": "e9b3f97facfa37a604cc45d6ba957ba3d3240e4a7a0b30b471ec81be29fa1621",
+      "bytes": 911,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/config.json"
+    },
+    {
+      "path": "files/gz-sim/requirements-tested.txt",
+      "sha256": "a84d6902629e3abe24d4d1404a5d8c06371f0c1b580d3c19845213a6350ca9c6",
+      "bytes": 1288,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/requirements-tested.txt"
+    },
+    {
+      "path": "files/gz-sim/environment-explicit.txt",
+      "sha256": "565d6c22d7793ce0811b72543870df42737285e1d21bc2e2ed749923b1d2ee7d",
+      "bytes": 28237,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo/environment-explicit.txt"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-install-attempt2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-install-attempt3.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-compatibility.patch",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-paper-attempt1.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-results/determinism_check.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-independent-policy-comparison.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/gazebo-comparison.json"
+  ],
+  "blockers": [
+    "Paper final-return18.43not reproduced (actual16.53217); original package/compiler lock and exactpaperartifactversionnot established.",
+    "Different-seedTableIIrownot run."
+  ],
+  "next_action": "Review native task/config/environment differences with paper authors; reproduce the original score only after exact software/config provenance is resolved.",
+  "relationship_to_paper": "Exact author paper artifact, explicitly labeled research artifact; paper links same repository.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/gazebo",
+    "guide": "guide.md",
+    "files": [
+      "run.sh",
+      "environment.yml",
+      "requirements.txt",
+      "compatibility.patch",
+      "fetch-source.sh",
+      "config.json",
+      "requirements-tested.txt",
+      "environment-explicit.txt"
+    ]
+  },
+  "research_group": "robotics",
+  "guide_source": "templates/gz-sim.md.in"
+}

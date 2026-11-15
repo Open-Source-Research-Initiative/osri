@@ -1,0 +1,209 @@
+{
+  "tool_id": "dolfinx",
+  "title": "FEniCSx / DOLFINx",
+  "question": "Can flux equilibration drive adaptive FEM to the published convergence and efficiency values?",
+  "paper": {
+    "title": "Adaptive finite element methods based on flux and stress equilibration using FEniCSx",
+    "identifier": "arXiv:2410.09764v1",
+    "url": "https://arxiv.org/html/2410.09764v1",
+    "locator": "Section4.1, Figure2(a), contrast5, k=1, m=2",
+    "publication_type": "preprint (related published2026 chapter has shortened title; comparison explicitly uses preprint)"
+  },
+  "source": {
+    "url": "https://github.com/brodbeck-m/AFEM-by-Equilibration",
+    "ref": "main",
+    "commit": "3d9741498712c13ce901f5fbd6255a82a3cec1ac",
+    "paths": [
+      "README.md",
+      "docker/Dockerfile",
+      "docker/launch_container.sh",
+      "execute_all.sh",
+      "case_poisson_riviere/solve_riviere.py",
+      "case_poisson_lshape/solve_lshape.py"
+    ],
+    "license": "LICENSE file says GPL-3.0; README says LGPL-3.0-or-later. Treat as an unresolved license discrepancy before copying code."
+  },
+  "inputs": {
+    "description": "Figure 2(a) interface (Riviere) case: coefficient contrast 5, Doerfler theta=0.5, primal order k=1, flux order m=2 and 20 refinement levels. Exact author function adaptive_solver(1,2,20,0.5,5).",
+    "access": "Author code and DaRUS archive are open; no restricted observations.",
+    "hashes": {
+      "author_case_source_sha256": "825d7f333e250e1347bf4695eff20f9ed2a643f06cd87c24f58585fa3effa5ce"
+    }
+  },
+  "environment": {
+    "versions": {
+      "python": "3.10.14",
+      "dolfinx": "0.6.0",
+      "petsc": "3.19.6",
+      "petsc4py": "3.19.6",
+      "numpy": "1.26.4",
+      "mpi4py": "3.1.6",
+      "pybind11": "2.10.4",
+      "setuptools": "80.9.0",
+      "dolfinx_eqlb_git_tag": "v1.2.0",
+      "dolfinx_eqlb_commit": "16f5ea6e16aa15d856381e32a3be5fc2f913215a",
+      "dolfinx_eqlb_internal_package_version": "1.1.0"
+    },
+    "changes_from_author": [
+      "Isolated Linux conda environment replaces Docker0.6.0-r1; dependency versions in conda lock plus pip compatibility override.",
+      "Missing wrapper/Eigen include paths supplied during binding build; setuptools<81 restored pkg_resources for old UFL.",
+      "One parameter combination selected via author function; numerical source unchanged."
+    ]
+  },
+  "commands": [
+    "python3 bootstrap-afem.py --work afem-work",
+    "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 OMPI_MCA_btl=self,tcp afem-work/env/bin/python run-afem.py --source afem-work/source --output afem-work/results"
+  ],
+  "target": {
+    "paper": "https://arxiv.org/html/2410.09764v1",
+    "locator": "Section4.1, Figure2(a), contrast5, k=1, m=2",
+    "observable": "Final observed energy-error convergence order and estimator efficiency after20 refinement levels",
+    "reference": {
+      "rateuh1": 0.5,
+      "ieff": 1.06
+    },
+    "tolerance": {
+      "absolute": 0.005
+    },
+    "tolerance_basis": "Predeclared half last printed unit in Figure2(a), tests agreement at reported two-decimal precision.",
+    "scope": "One author-code preprint result; human scientific review pending.",
+    "declared_before_run": true
+  },
+  "execution": {
+    "status": "target_compared",
+    "result": "Exact author adaptive_solver(1,2,20,0.5,5) completed all20 levels; native CSV/XDMF/HDF5 outputs retained. Both printed targets matched within predeclared reporting-precision tolerance.",
+    "exit_code": 0,
+    "elapsed_seconds": 8.1202746569179
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "rows": 20,
+      "elements": 367164.0,
+      "ndofs": 183899.0,
+      "energy_error": 0.009483476035049803,
+      "rateuh1": 0.5021171063611626,
+      "estimator": 0.010078245989489396,
+      "ieff": 1.0627164504071498
+    },
+    "checks": {
+      "rateuh1": true,
+      "ieff": true
+    },
+    "interpretation": "One author-code preprint parameter combination; comparison uses rounded printed reference values, with human scientific review pending."
+  },
+  "outputs": [
+    {
+      "path": "files/dolfinx/output-attempt3/Riviere-5_P1_RT2.csv",
+      "sha256": "b4a012eccd1052d5f97778457bb461a2e1c82558d2e034ed736fcc0b4a188f66",
+      "bytes": 3556,
+      "role": "Raw20-level numerical convergence/error/efficiency table",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/output-attempt3/Riviere-5_P1_RT2.csv",
+      "published": true
+    },
+    {
+      "path": "files/dolfinx/output-attempt3/afem-comparison.svg",
+      "sha256": "406e531d398cc73f073982f39918627bdb17a2c39d3e628df6aa93e63739525f",
+      "bytes": 68199,
+      "role": "Editable vector comparison plot",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/output-attempt3/afem-comparison.svg",
+      "published": true
+    },
+    {
+      "path": "files/dolfinx/output-attempt3/afem-comparison.png",
+      "sha256": "1fce7cc55ecb41c001a4abaf91f3b35b2aeca34e44a333ebc440e44dfc49b91e",
+      "bytes": 80644,
+      "role": "Comparison preview",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/output-attempt3/afem-comparison.png",
+      "published": true
+    },
+    {
+      "path": "files/dolfinx/output-attempt3/run-record.json",
+      "sha256": "9b17b6051347fc35208086faf69f53c8b8e99c94533b5af730b75c3eff5d7a59",
+      "bytes": 8074,
+      "role": "Full inputs/comparison/native-output hashes",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/output-attempt3/run-record.json",
+      "published": true
+    },
+    {
+      "path": "files/dolfinx/bootstrap-afem.py",
+      "sha256": "f2dc9f02aacbe2e7659eade4c3f0543386560213c3885e3599fc1452b7b840e0",
+      "bytes": 2038,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/bootstrap-afem.py"
+    },
+    {
+      "path": "files/dolfinx/run-afem.py",
+      "sha256": "f291b00750abe4ebd9dd6415adda8696cd86c8d6bea1e8ab2b95edfd653209a1",
+      "bytes": 2577,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/run-afem.py"
+    },
+    {
+      "path": "files/dolfinx/conda-linux64.lock",
+      "sha256": "72df874c6186df6f50ccea6b67de0e5a5f226cf8e917ff661e62ce23a4a0bbca",
+      "bytes": 27658,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/conda-linux64.lock"
+    },
+    {
+      "path": "files/dolfinx/requirements-frozen.txt",
+      "sha256": "b0a2bb88038b35618e0183a619a136ebf4947cb0fc7ab38c196a7ef15a1faa6d",
+      "bytes": 759,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/requirements-frozen.txt"
+    },
+    {
+      "path": "files/dolfinx/GUIDE.md",
+      "sha256": "dd6c88570179b50d5913e578adb2c227ba0065a4933f8a0e5c9159c814e19894",
+      "bytes": 3793,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem/GUIDE.md"
+    }
+  ],
+  "evidence_files": [
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/run-attempt3.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/cpp-configure.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/cpp-build.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/python-build.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/python-build-attempt2.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/python-build-attempt3.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/python-build-attempt4.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/run-attempt1.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/run-attempt2.log",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/conda-linux64.lock",
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/numerics/afem/requirements-frozen.txt"
+  ],
+  "blockers": [],
+  "next_action": "Human scientific review of one matched case; expand to other paper parameter combinations separately.",
+  "relationship_to_paper": "Unmodified author model and adaptive estimator implementation; one named preprint figure result compared numerically using the same parameters.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/numerics/afem",
+    "guide": "GUIDE.md",
+    "files": [
+      "bootstrap-afem.py",
+      "run-afem.py",
+      "conda-linux64.lock",
+      "requirements-frozen.txt",
+      "GUIDE.md"
+    ]
+  },
+  "research_group": "numerics",
+  "guide_source": "templates/dolfinx.md.in"
+}

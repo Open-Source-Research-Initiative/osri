@@ -13,6 +13,9 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parent
 STATUS = {
     "executed_adaptation": "Executed adaptation",
+    "executed_author_code": "Author code executed; see paper comparison",
+    "published_target_compared": "Selected published target compared; human review pending",
+    "analysed_saved_output": "Archived outputs analysed; simulation not rerun",
     "upstream_instructions_checked": "Upstream instructions checked; not run",
     "access_pending": "Artifact access pending",
 }
@@ -97,7 +100,7 @@ def catalog(tools, papers, examples, research_routes):
 
 def bibliography(papers):
     lines = ["# Simulation bibliography", "",
-             "DOI metadata was checked against Crossref on 2026-11-15. Reading status is separate: only the passages identified below were inspected for the example mappings. This curated bibliography is not a systematic literature review.", "",
+             "DOI metadata was checked against primary Crossref or DataCite records on 2026-11-15. Preprints and paper versions remain identified separately. Reading status is separate: only the passages identified below were inspected for the example mappings. This curated bibliography is not a systematic literature review.", "",
              "Download [CSV](papers.csv) or [BibTeX](references.bib). See the [example index](examples/README.md) for runnable code and upstream routes.", ""]
     for key, row in papers.items():
         lines += [f"## {key}", "", f"{row['authors']} ({row['year']}). **{row['title']}**. *{row['venue']}*. [{row['doi']}]({row['url']}).", "",
@@ -110,12 +113,12 @@ def bibtex(papers):
     def tex(value):
         return value.replace("&", "\\&").replace("%", "\\%").replace("_", "\\_")
     entries = []
-    kinds = {"proceedings-article": "inproceedings", "book-chapter": "incollection", "book": "book"}
+    kinds = {"proceedings-article": "inproceedings", "book-chapter": "incollection", "book": "book", "posted-content": "misc"}
     for key, row in papers.items():
         kind = kinds.get(row["publication_type"], "article")
         fields = {"title": row["title"], "author": " and ".join(row["authors"].split("; ")), "year": row["year"], "doi": row["doi"], "url": row["url"]}
         if kind != "book":
-            fields["journal" if kind == "article" else "booktitle"] = row["venue"]
+            fields["journal" if kind == "article" else "howpublished" if kind == "misc" else "booktitle"] = row["venue"]
         entries.append("@" + kind + "{" + key + ",\n" + ",\n".join("  " + name + " = {" + tex(value) + "}" for name, value in fields.items()) + "\n}\n")
     return "\n".join(entries)
 
@@ -134,6 +137,13 @@ def main():
         if not path.is_file() or path.read_text(encoding="utf-8") != content:
             raise SystemExit(f"Generated research route differs: {name}; run research.py --write")
     routes = {row["tool_id"]: row for row in data["records"]}
+    campaign = runpy.run_path(str(ROOT / "reproduce.py"), run_name="osri_reproduce")
+    attempts = json.loads((ROOT / "reproductions/campaign.json").read_text())
+    campaign["validate"](attempts, tools)
+    for name, content in campaign["outputs"](attempts).items():
+        path = ROOT / "reproductions" / name
+        if not path.is_file() or path.read_text(encoding="utf-8") != content:
+            raise SystemExit(f"Generated reproduction guide differs: {name}; run reproduce.py --write")
     outputs = {"catalog.md": catalog(tools, papers, examples, routes), "bibliography.md": bibliography(papers), "references.bib": bibtex(papers)}
     for name, content in outputs.items():
         path = ROOT / name

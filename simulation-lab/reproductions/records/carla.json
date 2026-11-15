@@ -1,0 +1,248 @@
+{
+  "tool_id": "carla",
+  "title": "CARLA",
+  "question": "How well does a driving agent generalize across urban routes and weather?",
+  "paper": {
+    "title": "CARLA: An Open Urban Driving Simulator",
+    "identifier": "PMLR 78:1-16; arXiv:1711.03938",
+    "url": "https://proceedings.mlr.press/v78/dosovitskiy17a.html",
+    "locator": "CoRL2017 driving benchmark: route success and infractions across tasks, weather, Town01 and Town02.",
+    "publication_type": ""
+  },
+  "source": {
+    "url": "https://github.com/carla-simulator/driving-benchmarks",
+    "ref": "master",
+    "commit": "1614d19581d43eac9966e4001611cc8341bf5319",
+    "paths": [
+      "Docs/benchmark_start.md",
+      "Docs/benchmark_metrics.md",
+      "benchmarks_084.py",
+      "version084/driving_benchmarks/corl2017/corl_2017.py",
+      "version084/benchmark_tools/benchmark_runner.py",
+      "version084/benchmark_tools/agent.py"
+    ],
+    "license": "MIT benchmark code; Unreal runtime and assets have separate terms"
+  },
+  "inputs": {
+    "description": "Official release-linked CARLA0.8.4 Linux package; Town01 pose pairs36→40,39→35,110→114; WeatherId1; noNPCs; seed42.",
+    "access": "Benchmark definitions public; locate historic simulator assets and trained agent weights separately.",
+    "hashes": {
+      "CARLA_0.8.4.tar.gz": "bbf42db494d74a938c395eecc61d3c3604395ffb65719b50d1ce4b24c3352c58"
+    }
+  },
+  "environment": {
+    "versions": {
+      "CARLA": "0.8.4 official Linux binary",
+      "Python": "3.7.12",
+      "NumPy": "1.18.5",
+      "protobuf": "3.20.3"
+    },
+    "changes_from_author": [
+      "-nullrhi disables rendering; removed camera sensors.",
+      "Only first3Town01 straight routes, WeatherId1; authorForwardAgent replaces original paperMP/IL/RL agents.",
+      "Python3.7 PEP479 compatibility: explicit generator StopIteration changed toreturn.",
+      "Legacy NumPy print threshold changed fromNaN to1000000; printing only."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "launch_carla.py",
+        "--attempt",
+        "5",
+        "--client",
+        "carla_benchmark_subset.py"
+      ],
+      "cwd": "portable example root"
+    }
+  ],
+  "target": {
+    "observable": "CoRL2017 driving success and infractions by task/town/weather",
+    "reference": "Dosovitskiy et al. 2017 original benchmark tables; exact agent weights and simulator version must match",
+    "tolerance": "No numerical tolerance assigned before original checkpoint and runtime established",
+    "tolerance_basis": "A bundled trivial agent is not a paper-agent reproduction",
+    "declared_before_run": true,
+    "scope": "Attempt legacy author benchmark/server; compare actual paper agent only if available"
+  },
+  "execution": {
+    "status": "adapted_run",
+    "result": "Official CARLA0.8.4 CPU/headless server and author CoRL2017 benchmark executed3 original straight-route pose pairs with ForwardAgent; all3 reached their goals.",
+    "exit_code": 0,
+    "elapsed_seconds": 3.836879253387451
+  },
+  "comparison": {
+    "performed": true,
+    "passed": false,
+    "measurements": {
+      "episodes": 3,
+      "successes": 3,
+      "initial_distance_m": [
+        71.31999969482439,
+        71.31999588012711,
+        62.65004495673784
+      ],
+      "remaining_distance_m": [
+        0.22307846052688912,
+        0.22306071078876977,
+        0.9136700068983132
+      ],
+      "completion_time_s": [
+        8.3,
+        8.3,
+        7.8
+      ],
+      "collisions_other": [
+        0,
+        0,
+        0
+      ],
+      "paper_Table1_training_straight_percent": {
+        "MP": 98,
+        "IL": 95,
+        "RL": 89
+      }
+    },
+    "interpretation": "Author benchmark reached3/3 goals, with no recorded collisions. This partial ForwardAgent result cannot be compared as a reproduction of originalMP/IL/RL success rates. Native summary+per-frame metrics retained."
+  },
+  "outputs": [
+    {
+      "path": "files/carla/external/robotics/_benchmarks_results/headless-corl2017-subset-1/summary.csv",
+      "sha256": "27c4df0f8a2310141215400cecc334a742f8621479d241d338cafe0cf4176a27",
+      "bytes": 432,
+      "role": "native benchmark result",
+      "public_reuse": "Generated numeric results from author benchmark; include MIT attribution",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/_benchmarks_results/headless-corl2017-subset-1/summary.csv",
+      "published": true
+    },
+    {
+      "path": "files/carla/external/robotics/_benchmarks_results/headless-corl2017-subset-1/measurements.csv",
+      "sha256": "92115a2b3b64a80388a730cd85ea3c8bc4dcce498d3ed9dd5429e3da828083e7",
+      "bytes": 24003,
+      "role": "native benchmark result",
+      "public_reuse": "Generated numeric results from author benchmark; include MIT attribution",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/_benchmarks_results/headless-corl2017-subset-1/measurements.csv",
+      "published": true
+    },
+    {
+      "path": "files/carla/external/robotics/carla-output/summary.json",
+      "sha256": "1674600ee0f3fd715925351880f62150a9736e84bec83155bdf41cae17354f90",
+      "bytes": 397,
+      "role": "summary",
+      "public_reuse": "Generated numeric results from author benchmark; include MIT attribution",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-output/summary.json",
+      "published": true
+    },
+    {
+      "path": "files/carla/external/robotics/carla-output/benchmark-summary.json",
+      "sha256": "c45e478e8c4db62592c763bc574ecbd166e98e68ba89c9a4c1dc5eb2991cd2af",
+      "bytes": 2201,
+      "role": "summary",
+      "public_reuse": "Generated numeric results from author benchmark; include MIT attribution",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-output/benchmark-summary.json",
+      "published": true
+    },
+    {
+      "path": "files/carla/external/robotics/carla-output/trajectory.csv",
+      "sha256": "c730f805ee5c5f2a45037bb4344b1aa441f92e386bc237dfd56ebda66fdbc1d7",
+      "bytes": 10391,
+      "role": "native benchmark result",
+      "public_reuse": "Generated numeric results from author benchmark; include MIT attribution",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-output/trajectory.csv",
+      "published": true
+    },
+    {
+      "path": "files/carla/carla_headless_client.py",
+      "sha256": "5a64cc44d33cc7f6a7a7547482f0d23268e28381898a704dc527200e8f608764",
+      "bytes": 2039,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla/carla_headless_client.py"
+    },
+    {
+      "path": "files/carla/carla_benchmark_subset.py",
+      "sha256": "f9b952569f0e11bbd41cd3f120c611ef009fac9f9db17f346bcc75f6ff786e03",
+      "bytes": 1482,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla/carla_benchmark_subset.py"
+    },
+    {
+      "path": "files/carla/launch_carla.py",
+      "sha256": "6fbeabb2c0c8ec87f2144200f4901bafa7e3e2aaf1052f9219ac8405aca2d2ee",
+      "bytes": 1125,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla/launch_carla.py"
+    },
+    {
+      "path": "files/carla/requirements.txt",
+      "sha256": "fa6d4a790b3905b59bda59f31f9f3a1754ea9aea00287e7c6073646dc8250219",
+      "bytes": 103,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla/requirements.txt"
+    },
+    {
+      "path": "files/carla/patch-legacy.py",
+      "sha256": "14009f03e4790fbc69b47cb47f460a5242361865cc67835765d8923c9ebbc1f0",
+      "bytes": 408,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla/patch-legacy.py"
+    },
+    {
+      "path": "files/carla/fetch-source.sh",
+      "sha256": "9d1226abd83b3a5cc62a72591122ab6b9e043ae420ab2adb9449ece102938fd8",
+      "bytes": 569,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla/fetch-source.sh"
+    },
+    {
+      "path": "files/carla/provenance.json",
+      "sha256": "b9c0a0582662c45799cc1f4e7bc1088f43267d265517543b162dae2275cd771a",
+      "bytes": 296,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla/provenance.json"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-release084.md",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-download.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-server-attempt5.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-client-attempt5.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-client-attempt1.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-client-attempt4.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/carla-client-compatibility.patch"
+  ],
+  "blockers": [
+    "Original MP/IL/RL weights and exact2017simulator revision not matched; camera images unavailable with-nullrhi; only3pose subset executed."
+  ],
+  "next_action": "Obtain original paper checkpoint and matching historic simulator; run graphics-enabled complete100/50 episode conditions, then compare Table1/2.",
+  "relationship_to_paper": "Official CARLA team CoRL2017 experiment suite for CARLA 0.8.4. This is a later benchmark implementation, not automatically the exact original simulator revision.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/carla",
+    "guide": "guide.md",
+    "files": [
+      "carla_headless_client.py",
+      "carla_benchmark_subset.py",
+      "launch_carla.py",
+      "requirements.txt",
+      "patch-legacy.py",
+      "fetch-source.sh",
+      "provenance.json"
+    ]
+  },
+  "research_group": "robotics",
+  "guide_source": "templates/carla.md.in"
+}

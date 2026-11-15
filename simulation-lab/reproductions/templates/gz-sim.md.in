@@ -1,0 +1,15 @@
+# Repeat the author GzDRL same-seed PPO experiment
+
+[Haridevan, Kang and Shan](https://arxiv.org/abs/2609.13243) present GzDRL in a 2026 preprint. Section V-B, Figure 6 and Table II compare process-isolated PPO runs with identical and different seeds. This example executes their released same-seed research artifact on CPU and compares its actual checkpoint parameters and evaluation returns with the paper.
+
+Create an isolated conda environment from environment.yml. The checked Linux build is recorded in environment-explicit.txt; Python packages are recorded in requirements-tested.txt. Run `sh fetch-source.sh` inside the activated environment, then `sh run.sh`. Source is pinned to `3e5c5f9a62c1160b3b2889e6d34d794a5361e178`. The author code is MIT, with separate Gazebo and bundled EnvPool dependency notices. Keep its LICENSE/THIRD_PARTY_NOTICES files.
+
+This portable build uses conda-forge Gazebo 10.6.0 and GCC 15 instead of the authors GCC 11 system installation. A mechanical compatibility patch disambiguates 22 scalar-bound constructor calls with explicit `std::tuple<float,float>`; dynamics and task logic were not edited. The source needed that patch to compile with this toolchain. CPU PyTorch 2.7.1 and Stable Baselines3 2.7.0 were used. The historical paper dependency lock is not established.
+
+The unmodified author configuration trains five independent processes with seed 42, eight environments, domain randomization disabled, 500,000 requested timesteps and checkpoints every 50,000 steps. PPO's rollout batching produces 501,760 actual timesteps. Every checkpoint is evaluated over 20 fixed-seed episodes in a fresh process with saved observation normalization restored and frozen. The different-seed row of Table II is outside this run.
+
+The author preflight check passed all five hashes: initial observations, a fixed transition sequence, initial policy, one-PPO-update policy and normalization state. An independent state-dictionary check also found identical parameters across all five runs at all 12 saved checkpoint positions. Zip archive timestamps are excluded from that parameter comparison.
+
+The paper reports same-seed return 18.43 ± 0.00 and 100% identical checkpoints. Across all five completed runs, final return was 16.53216975 ± 0.00 across runs. Each checkpoint received 20 fixed-seed evaluation episodes, totaling 1,200 evaluations. Within-run final episode-return SD was 14.98144; final episode-length success rate was 0.55. The trained parameters and evaluation curves were identical across processes. The checkpoint determinism claim is supported by this run; the paper's numerical return is not reproduced. There is no invented acceptance tolerance for its rounded return, and software/compiler differences remain material.
+
+Keep raw episode CSVs, the preflight record, independent policy comparison, effective configuration and author analysis outputs. Human scientific review remains pending. A full training/evaluation run here supplies concrete evidence for a useful Lab example while preserving the disagreement with the paper.

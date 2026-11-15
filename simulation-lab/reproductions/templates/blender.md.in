@@ -1,0 +1,13 @@
+# Generate one MOVi-A research-dataset scene
+
+[Greff et al. (CVPR 2022)](https://arxiv.org/abs/2203.03570) introduce Kubric and MOVi-A. Section 4.1 and Figure 5 describe 24-frame clips with up to 10 moving objects. We ran their paper-date worker on CPU to generate a new seeded scene with seven moving objects, editable Blender/Bullet states, rendered frames and annotations.
+
+Use an isolated Python 3.9 environment. Install requirements.txt, run `python fetch-runtime.py`, then `python run.py` and `python compare.py`. The retrieval script pins author source9a868cc735de955709c4c75d9655fff1e90c72e4 and verifies the OCI digest/layers for the authors compiled Blender 2.93 module. No Docker daemon or privileged container is needed. Approximately 135 MB of compressed runtime layers are retrieved; Python dependencies and source code need additional space. The renderer is CPU-bound and the portable harness limits it to two available CPUs.
+
+The source worker retains its CLEVR-style objects, background, camera, 12 fps, 256 × 256 resolution, 64 render samples per pixel, and 240 Hz physics. Seed 42 selects seven objects. Run output includes 24 RGBA frames, 24 instance-mask frames, depth, forward/backward flow, normals, object coordinates, camera/object metadata, collision events and native scene.blend/scene.bullet states.
+
+The checked run passed frame-count, resolution, instance-count, label-range, finite-depth and object-motion checks. A second complete numerical/rendered scene was also generated while resolving an optional hypertune-reporting dependency; its earlier nonzero exit is retained. The comparison record states whether repeated object metadata and frame hashes match.
+
+This reconstructs an author dataset-generation example and checks published design properties. It does not reconstruct the exact sampled Figure 5 scene or reproduce Table 3 SAVi/SIMONe foreground ARI. Exact 2022 asset bytes are not established, and modern PyBullet/TensorFlow packages differ from the original full Docker environment. Human scientific review is pending.
+
+Keep ATTRIBUTION.md with imagery and native scenes: KuBasic geometry and derived imagery/native scenes are CC BY-SA 4.0. Kubric code is Apache-2.0; Blender has separate GPL terms. These terms are separate from the hub text license.

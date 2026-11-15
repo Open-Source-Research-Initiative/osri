@@ -1,0 +1,40 @@
+{
+  "elapsed_seconds": 5.026118780020624,
+  "source_sha256": "8d1618a2b7ed13af37795ce030c1c1d21a7900ea333d13a596b39ccd20b7a980",
+  "table1": [
+    [
+      0.020957019786562947,
+      0.01480709777217526,
+      0.01497843319500558,
+      0.006265171469159281,
+      0.31582048960476783,
+      0.34177016137486194,
+      0.3137699549295425
+    ],
+    [
+      0.040290405386418815,
+      0.0342251836292764,
+      0.03450808060744315,
+      0.009890837837174704,
+      0.41493799136649295,
+      0.26594531056148685,
+      0.24672772493486406
+    ],
+    [
+      0.0208206182978945,
+      0.01480709777217526,
+      0.01514303478711665,
+      0.004310126689897276,
+      0.4773655041478974,
+      0.23080606829853056,
+      0.21461358779609863
+    ]
+  ],
+  "baseline_target_net_wealth": 0.3137699549295425,
+  "paper_reference": 0.32,
+  "absolute_error": 0.0062300450704574906,
+  "tolerance": 0.005,
+  "passed": false,
+  "target_declared_before_run": true,
+  "interpretation": "Author-associated HARK replication ran with declared legacy package versions; baseline target-net-wealth strict rounding comparison with original Table I failed. Author methods differ; do not call historical result reproduced."
+}

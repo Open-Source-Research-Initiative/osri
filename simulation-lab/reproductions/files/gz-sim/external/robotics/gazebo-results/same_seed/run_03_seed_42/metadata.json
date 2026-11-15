@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "group": "same_seed",
+  "replicate": 3,
+  "rl_seed": 42,
+  "environment_seed": 2026,
+  "gz_partition_offset": 12200,
+  "started_unix_s": 1794775949.617873,
+  "runtime": {
+    "hostname": "builderbob",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "logical_cpu_count": 24,
+    "python": "3.12.16",
+    "numpy": "2.5.4",
+    "torch": "2.7.1+cpu",
+    "stable_baselines3": "2.7.0",
+    "cuda_available": false,
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "configuration_sha256": "64e72aeea415422c4f465aca2744171c1217b7e6f2e13671c189c0848e9be552"
+  },
+  "finished_unix_s": 1794776032.5998213,
+  "actual_timesteps": 501760
+}

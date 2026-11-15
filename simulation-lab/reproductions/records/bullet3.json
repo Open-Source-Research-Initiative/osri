@@ -1,0 +1,281 @@
+{
+  "tool_id": "bullet3",
+  "title": "Bullet / PyBullet",
+  "question": "Can the released Minitaur trotting and galloping controllers be replayed?",
+  "paper": {
+    "title": "Sim-to-Real: Learning Agile Locomotion For Quadruped Robots",
+    "identifier": "arXiv:1804.10332v2",
+    "url": "https://arxiv.org/abs/1804.10332",
+    "locator": "Paper trotting and galloping policies; authors README explicitly identifies the two exact environments used.",
+    "publication_type": "conference_paper"
+  },
+  "source": {
+    "url": "https://github.com/bulletphysics/bullet3",
+    "ref": "master at inspection",
+    "commit": "d3afe76132fc76b0f9b2359cbaef47a3766e7fbb",
+    "paths": [
+      "examples/pybullet/gym/pybullet_envs/minitaur/envs/README.md",
+      "examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_reactive_env.py",
+      "examples/pybullet/gym/pybullet_envs/minitaur/envs/minitaur_trotting_env.py",
+      "examples/pybullet/gym/pybullet_data/policies/ppo/minitaur_trotting_env/config.yaml"
+    ],
+    "license": "Bullet core Zlib; imported Google/TensorFlow-agent source Apache-2.0 and separate model/dependency notices. Preserve upstream file headers."
+  },
+  "inputs": {
+    "description": "Bundled Minitaur URDF, PPO checkpoint/config and paper motor/latency/randomization configuration.",
+    "access": "Public source, bundled checkpoints and model; review individual asset notices.",
+    "hashes": {}
+  },
+  "environment": {
+    "versions": {
+      "python": "3.7.12",
+      "tensorflow": "1.15.5",
+      "pybullet": "3.2.5",
+      "gym": "0.17.3",
+      "numpy": "1.18.5",
+      "ruamel.yaml": "0.16.13"
+    },
+    "changes_from_author": [
+      "Replaced non-existent upstream tf.compat.v1 imports with tensorflow, matching restored TensorFlow1 runtime.",
+      "Headless render=False; bounded replay to1000 control steps; fixed seeds0..4.",
+      "Current PyBullet3.2.5 differs from2018engine; released network widths differ from paper TableII."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "bullet-env/bin/python",
+        "run_minitaur.py"
+      ],
+      "cwd": "portable example root"
+    }
+  ],
+  "target": {
+    "observable": "Replay released Minitaur trotting/galloping policy and log distance/speed, fall rate and state/action trajectory",
+    "reference": "Tan et al. Section VI-A: simulation trotting speed approximately0.50m/s; galloping1.34m/s. Table II network widths are (125,89) trot, (185,95) gallop; released trot checkpoint config instead has(133,100).",
+    "tolerance": "No paper-speed acceptance tolerance assigned: released checkpoint hyperparameters differ from paper Table II. Report actual rollout speed and descriptive differences; do not call it a reproduced target.",
+    "tolerance_basis": "Must extract matching simulation rather than physical-robot targets before accepting reproduction",
+    "declared_before_run": true,
+    "scope": "CPU replay of bundled frozen PPO policy; no physical sim-to-real claim"
+  },
+  "execution": {
+    "status": "adapted_run",
+    "result": "Replayed author frozen PPO policies for five seeds per gait; all numerical traces retained.",
+    "exit_code": 0,
+    "elapsed_seconds": 15.547593116760254
+  },
+  "comparison": {
+    "performed": true,
+    "passed": false,
+    "measurements": {
+      "trotting": {
+        "mean_speed_m_s": 0.9215242227005624,
+        "sd_speed_m_s": 0.035527131769560995,
+        "completed_1000_steps": 5,
+        "n": 5,
+        "published_simulation_speed_m_s": 0.5,
+        "paper_checkpoint_matched": false
+      },
+      "reactive": {
+        "mean_speed_m_s": 1.3084202726695946,
+        "sd_speed_m_s": 0.5209177437462155,
+        "completed_1000_steps": 2,
+        "n": 5,
+        "published_simulation_speed_m_s": 1.34,
+        "paper_checkpoint_matched": false
+      }
+    },
+    "interpretation": "Released policies execute, but published simulation speeds are not reproduced by matched methods/checkpoints. Trot mean0.9215m/s versus paper approximately0.50; gallop mean1.3084 with SD0.5209 and only2/5 complete. No physical sim-to-real claim."
+  },
+  "outputs": [
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/reactive-seed0.csv",
+      "sha256": "3037042f1c0d99211b13eb4638c0d0e68b8cfccac85bc9922ca7be6926098b3b",
+      "bytes": 476905,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/reactive-seed0.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/reactive-seed1.csv",
+      "sha256": "928a9ca7f01889bf802d89c3e165bc7b030098c2c8e5c03e4b94cdd8c3d04efa",
+      "bytes": 123551,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/reactive-seed1.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/reactive-seed2.csv",
+      "sha256": "03d26cb4d38b0643a89a700aee53ad57a879867b112ecb0815f2062a54b74c92",
+      "bytes": 126819,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/reactive-seed2.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/reactive-seed3.csv",
+      "sha256": "b41e350a1e6717023e9d2cdb9474ffebfc8299963b3249dea8e4c4cc03892859",
+      "bytes": 480957,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/reactive-seed3.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/reactive-seed4.csv",
+      "sha256": "775ccbc8dbab078ea170f81e9dae1af3f5e408b6870d929b9e96a4e7eae7724b",
+      "bytes": 124039,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/reactive-seed4.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/summary.json",
+      "sha256": "db104b2971b39865f2bba8ce35f1a2f08ed8fa2d938a383495a8adf46ec8a8fa",
+      "bytes": 5173,
+      "role": "aggregate run summary",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/summary.json",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/trotting-seed0.csv",
+      "sha256": "7c617a83658c6a632fa162210adb322541465049aeb061bb61398d99c6e3ac9e",
+      "bytes": 329252,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/trotting-seed0.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/trotting-seed1.csv",
+      "sha256": "52df8b26108f55b67af4d2437045dfef6eb4a8accd9f605e0a3deac7cd3cdb04",
+      "bytes": 329183,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/trotting-seed1.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/trotting-seed2.csv",
+      "sha256": "2e2354e626863c9f07e53d670ac1d24ddd7110c0491bc7c87902a1d2438768d6",
+      "bytes": 329310,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/trotting-seed2.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/trotting-seed3.csv",
+      "sha256": "0e4bc0aa697ef2a9d19bb106b17acca646144fad11df0f7fc2e563a91322ebc4",
+      "bytes": 329222,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/trotting-seed3.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/trotting-seed4.csv",
+      "sha256": "e2a36218587950065f469ceee91336c94b2c3a7772a0f621ca9b2e697484205d",
+      "bytes": 329171,
+      "role": "raw trajectory",
+      "public_reuse": "OSRI-generated numeric outputs; cite upstream policy and paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/trotting-seed4.csv",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/trajectories.png",
+      "sha256": "3f577e3be53fbb16ede3a3274979ba1e96d987933e3376387e703d8a7874722d",
+      "bytes": 90043,
+      "role": "plot of actual simulated trajectories",
+      "public_reuse": "OSRI generated plot; cite original policy/paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/trajectories.png",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/external/robotics/bullet-output/trajectories.svg",
+      "sha256": "c12ebae2fa809ef1e3a75948b67d484c58f0b8d22833901285ad082a9747bead",
+      "bytes": 58620,
+      "role": "plot of actual simulated trajectories",
+      "public_reuse": "OSRI generated plot; cite original policy/paper",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-output/trajectories.svg",
+      "published": true
+    },
+    {
+      "path": "files/bullet3/run_minitaur.py",
+      "sha256": "437d87d6dd58584a5ee1e29534e5d6fdc92f315af8cc7d44a1ea10ab001ce87e",
+      "bytes": 3287,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/bullet/run_minitaur.py"
+    },
+    {
+      "path": "files/bullet3/compatibility.patch",
+      "sha256": "438ead55e3e7c2a87e577778ac7860c6b765b1b3e0e50a41016dcfb77939d0d1",
+      "bytes": 23064,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/bullet/compatibility.patch"
+    },
+    {
+      "path": "files/bullet3/requirements.txt",
+      "sha256": "b2802c6cb28e011a29b39f6994a1c4f267944186d18d95c6a25bf6843824c422",
+      "bytes": 151,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/bullet/requirements.txt"
+    },
+    {
+      "path": "files/bullet3/requirements-tested.txt",
+      "sha256": "6d82e88bef0e60167923b5843cbcbb5b4f3c765c45bd18336d766148f8d159b5",
+      "bytes": 657,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/bullet/requirements-tested.txt"
+    },
+    {
+      "path": "files/bullet3/fetch-source.sh",
+      "sha256": "6343dddb7a00ecec6f6f51c2ac4b5e394406abd3f71217020aa61e5a300c24fc",
+      "bytes": 429,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/bullet/fetch-source.sh"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-author-attempt1.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-replay-attempt2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-compatibility.patch",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/bullet-import-patch.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/targets-before-run.json",
+    "planning/simulation-reproduction-2026-11-15/runs/robotics/run_minitaur.py"
+  ],
+  "blockers": [
+    "Published TableII policy widths/checkpoint selection not matched; native physics revision not2018; no physical robot evaluation."
+  ],
+  "next_action": "Recover paper-specific checkpoint/environment; agree the speed estimator and tolerance, then compare with repeated episodes.",
+  "relationship_to_paper": "Author repository explicitly identifies the two environments used in the paper and releases PPO checkpoints. Released checkpoint widths differ from TableII, so this is an adapted author-policy replay.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/robotics/public-bundles/bullet",
+    "guide": "guide.md",
+    "files": [
+      "run_minitaur.py",
+      "compatibility.patch",
+      "requirements.txt",
+      "requirements-tested.txt",
+      "fetch-source.sh"
+    ]
+  },
+  "research_group": "robotics",
+  "guide_source": "templates/bullet3.md.in"
+}

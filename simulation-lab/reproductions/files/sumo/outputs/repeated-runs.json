@@ -1,0 +1,67 @@
+{
+  "status": "adapted_run",
+  "source_commit": "5edb7ecb9ad196c39172b6eb95d19ed789f4b1a6",
+  "sumo_version": "0.26.0",
+  "duration_seconds": 3600,
+  "model_changes": "No network/demand reduction; end-time bounded and seeds explicit. XML schema validation disabled for legacy HTTPS compatibility.",
+  "runs": [
+    {
+      "seed": 42,
+      "summary_last_step": {
+        "time": "3599.00",
+        "loaded": "923",
+        "inserted": "878",
+        "running": "121",
+        "waiting": "0",
+        "ended": "757",
+        "meanWaitingTime": "0.03",
+        "meanTravelTime": "486.02",
+        "duration": "0"
+      },
+      "completed_trip_rows": 757,
+      "completed_trip_mean_duration_seconds": 486.0237780713342,
+      "completed_trip_duration_sd_seconds": 283.8915266519149,
+      "interpretation": "Mean is conditional on trips completed by3600s; not full demand travel-time mean."
+    },
+    {
+      "seed": 43,
+      "summary_last_step": {
+        "time": "3599.00",
+        "loaded": "923",
+        "inserted": "878",
+        "running": "117",
+        "waiting": "0",
+        "ended": "761",
+        "meanWaitingTime": "0.03",
+        "meanTravelTime": "487.90",
+        "duration": "0"
+      },
+      "completed_trip_rows": 761,
+      "completed_trip_mean_duration_seconds": 487.89618922470436,
+      "completed_trip_duration_sd_seconds": 283.79592556454685,
+      "interpretation": "Mean is conditional on trips completed by3600s; not full demand travel-time mean."
+    },
+    {
+      "seed": 44,
+      "summary_last_step": {
+        "time": "3599.00",
+        "loaded": "923",
+        "inserted": "878",
+        "running": "122",
+        "waiting": "0",
+        "ended": "756",
+        "meanWaitingTime": "0.02",
+        "meanTravelTime": "487.31",
+        "duration": "0"
+      },
+      "completed_trip_rows": 756,
+      "completed_trip_mean_duration_seconds": 487.3108465608466,
+      "completed_trip_duration_sd_seconds": 283.11005500765015,
+      "interpretation": "Mean is conditional on trips completed by3600s; not full demand travel-time mean."
+    }
+  ],
+  "trip_mean_across_seed_means": 487.07693795229505,
+  "sd_across_seed_means": 0.9578704555847346,
+  "paper_validation_performed": false,
+  "missing": "2017 full article target and original real-world observation files."
+}

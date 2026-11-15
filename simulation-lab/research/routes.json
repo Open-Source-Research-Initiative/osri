@@ -122,19 +122,22 @@
           "Upstream MOVi-A command: docker run --rm --interactive --user $(id -u):$(id -g) --volume \"$(pwd):/kubric\" kubricdockerhub/kubruntu /usr/bin/python3 challenges/movi/movi_ab_worker.py --objects_set=clevr --background=clevr --camera=clevr"
         ],
         "expected_outputs": "RGB frames, instance segmentation, depth, optical flow, scene metadata and saved scene as configured by worker.",
-        "comparison": "Check Figure 5 dataset design: 24-frame clips and up to ten moving objects; inspect source-specific frame/resolution settings. Dataset-generation agreement does not reproduce Table 3 FG-ARI.",
+        "comparison": "PublishedMOVi-A dataset-design properties match; all9numerical/design checks passed. Originalfigurepixels, originalassetbytes andTable3learning scores are outside this comparison.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "CPU rendering possible for one scene; full dataset rendering is expensive.",
         "data_access": "Public authors code and public dataset bucket; retain asset manifest and terms.",
         "blockers": [
-          "Container digest not pinned; exact published scene seeds and historic code revision need matching."
+          "Exact2022assetbytes and full originaldependencylock not established; SAVi/SIMONeTable3training benchmark not attempted."
         ],
-        "next_action": "Resolve original image/revision and run one seeded MOVi-A scene before any full dataset."
+        "next_action": "Human review of the dataset-generation guide; match archivedassets and modeltraining protocol before reproducingTable3."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "No execution claim; commands were inspected upstream or explicitly marked proposed."
+        "status": "executed_example",
+        "result": "Paper-date author worker ran to completion onCPU:24frames,256×256,7objects and all rendered annotations/native states. Nine design checks passed; second scene has identical instance metadata and24/24RGBAhashes.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/blender.md)",
+          "[Run record](../reproductions/records/blender.json)"
+        ]
       },
       "evidence": [
         {
@@ -155,9 +158,14 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Container digest not pinned; exact published scene seeds and historic code revision need matching."
+        "Exact2022assetbytes and full originaldependencylock not established; SAVi/SIMONeTable3training benchmark not attempted."
       ],
-      "group": "scenes-robotics"
+      "group": "scenes-robotics",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "No execution claim; commands were inspected upstream or explicitly marked proposed."
+      }
     },
     {
       "tool_id": "isaacsim",
@@ -444,19 +452,23 @@
           "python run_experiment.py"
         ],
         "expected_outputs": "results/determinism_check.json; per-run checkpoint/evaluation data; analysis CSV, plots, LaTeX table and machine/config manifest.",
-        "comparison": "Table II target: same-seed final return 18.43±0.00 and 100% identical checkpoints. First require exact checkpoint-hash/trajectory agreement across process-isolated same-seed runs. Numerical return matching across software/hardware changes needs an agreed tolerance; do not assume one.",
+        "comparison": "Same-seed determinism is supported by full author-code execution and independent parameter hashing. The published numerical final return is not reproduced; no tolerance is invented. Historical package/compiler lock is not established, and this portablebuild uses Gazebo10.6/GCC15 plus a mechanical constructor-disambiguation patch. Different-seed row was not run. Human scientific review pending.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "CPU physics and PPO; 10 full training runs. Paper hardware must be recorded for throughput claims.",
         "data_access": "Public code and bundled config; no private data indicated.",
         "blockers": [
-          "Native Gazebo stack not installed here; exact dependency lock and target tolerance unverified."
+          "Paper final-return18.43not reproduced (actual16.53217); original package/compiler lock and exactpaperartifactversionnot established.",
+          "Different-seedTableIIrownot run."
         ],
-        "next_action": "Build on an approved isolated native runner, use author preflight determinism check, then complete same-seed group before expanding."
+        "next_action": "Review native task/config/environment differences with paper authors; reproduce the original score only after exact software/config provenance is resolved."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "No execution claim; commands were inspected upstream or explicitly marked proposed."
+        "status": "executed_example",
+        "result": "Completed all5full same-seed500000-requested-step training runs and1200evaluation episodes. Author preflight and independent12-checkpoint parameter identity checks pass; finalreturn16.53217 differs from paper18.43.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/gz-sim.md)",
+          "[Run record](../reproductions/records/gz-sim.json)"
+        ]
       },
       "evidence": [
         {
@@ -477,9 +489,15 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Native Gazebo stack not installed here; exact dependency lock and target tolerance unverified."
+        "Paper final-return18.43not reproduced (actual16.53217); original package/compiler lock and exactpaperartifactversionnot established.",
+        "Different-seedTableIIrownot run."
       ],
-      "group": "scenes-robotics"
+      "group": "scenes-robotics",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "No execution claim; commands were inspected upstream or explicitly marked proposed."
+      }
     },
     {
       "tool_id": "webots",
@@ -594,19 +612,22 @@
           "Upstream: python minitaur_trotting_env_example.py"
         ],
         "expected_outputs": "Policy rollouts, robot states/actions and gait trajectories; archive raw logs and exact checkpoint hashes.",
-        "comparison": "Confirm paper gait/config provenance then compare displacement/speed and footfall trajectory to its experiment. Physical sim-to-real transfer requires the actual robot and is outside this CPU replay. Numeric targets and tolerances remain unverified until full experimental text is inspected.",
+        "comparison": "Released policies execute, but published simulation speeds are not reproduced by matched methods/checkpoints. Trot mean0.9215m/s versus paper approximately0.50; gallop mean1.3084 with SD0.5209 and only2/5 complete. No physical sim-to-real claim.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "CPU policy replay possible with legacy-compatible dependencies; training and physical testing are separate.",
         "data_access": "Public source, bundled checkpoints and model; review individual asset notices.",
         "blockers": [
-          "Legacy TensorFlow/Gym compatibility not resolved; precise paper result and tolerance not extracted."
+          "Published TableII policy widths/checkpoint selection not matched; native physics revision not2018; no physical robot evaluation."
         ],
-        "next_action": "Inspect pinned example imports/checkpoint config, reconstruct historical environment and replay one frozen policy."
+        "next_action": "Recover paper-specific checkpoint/environment; agree the speed estimator and tolerance, then compare with repeated episodes."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "No execution claim; commands were inspected upstream or explicitly marked proposed."
+        "status": "executed_example",
+        "result": "Replayed author frozen PPO policies for five seeds per gait; all numerical traces retained.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/bullet3.md)",
+          "[Run record](../reproductions/records/bullet3.json)"
+        ]
       },
       "evidence": [
         {
@@ -622,9 +643,14 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Legacy TensorFlow/Gym compatibility not resolved; precise paper result and tolerance not extracted."
+        "Published TableII policy widths/checkpoint selection not matched; native physics revision not2018; no physical robot evaluation."
       ],
-      "group": "scenes-robotics"
+      "group": "scenes-robotics",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "No execution claim; commands were inspected upstream or explicitly marked proposed."
+      }
     },
     {
       "tool_id": "chrono",
@@ -981,19 +1007,22 @@
           "./benchmarks_084.py --corl-2017"
         ],
         "expected_outputs": "Per-episode benchmark records; completion/success and infraction metrics as documented in Docs/benchmark_metrics.md.",
-        "comparison": "Recompute success rates and distance-between-infractions by published task/town/weather. Obtain paper-agent weights/training details before comparing a paper agent; trivial-agent execution cannot reproduce those results.",
+        "comparison": "Author benchmark reached3/3 goals, with no recorded collisions. This partial ForwardAgent result cannot be compared as a reproduction of originalMP/IL/RL success rates. Native summary+per-frame metrics retained.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Compatible graphics machine; full suite many episodes.",
         "data_access": "Benchmark definitions public; locate historic simulator assets and trained agent weights separately.",
         "blockers": [
-          "Legacy runtime compatibility; exact paper-agent checkpoints are not established; original target table values and evaluation randomness still need checking."
+          "Original MP/IL/RL weights and exact2017simulator revision not matched; camera images unavailable with-nullrhi; only3pose subset executed."
         ],
-        "next_action": "Verify availability of the historic server/agents and extract the exact paper evaluation table before scheduling a full benchmark."
+        "next_action": "Obtain original paper checkpoint and matching historic simulator; run graphics-enabled complete100/50 episode conditions, then compare Table1/2."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source and instructions inspected; no local execution or paper-result claim."
+        "status": "executed_example",
+        "result": "Official CARLA0.8.4 CPU/headless server and author CoRL2017 benchmark executed3 original straight-route pose pairs with ForwardAgent; all3 reached their goals.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/carla.md)",
+          "[Run record](../reproductions/records/carla.json)"
+        ]
       },
       "evidence": [
         {
@@ -1014,9 +1043,14 @@
       ],
       "confidence": "medium",
       "gaps": [
-        "Original CARLA revision/checkpoints and target tables must be matched before reproduction."
+        "Original MP/IL/RL weights and exact2017simulator revision not matched; camera images unavailable with-nullrhi; only3pose subset executed."
       ],
-      "group": "robotics-fem-cfd"
+      "group": "robotics-fem-cfd",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source and instructions inspected; no local execution or paper-result claim."
+      }
     },
     {
       "tool_id": "openfoam-dev",
@@ -1200,7 +1234,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1007/3-540-34596-5_15",
         "metadata_verified": true,
         "access": "Springer primary metadata verified; original numerical reference table not yet inspected. Author-hosted benchmark HTML parameter/result tables and downloadable FSI3 reference series were subsequently inspected.",
-        "locator": "Published FSI3 channel/cylinder/elastic-flap benchmark; compare tip displacement, frequency, drag and lift. Current preCICE tutorial additionally cites the 2010 extension."
+        "locator": "Original 2006 FSI3 benchmark; maintained tutorial also cites the 2010 extension DOI 10.1007/978-3-642-14206-2_8. Historical reference/constitutive alignment unresolved; no original result comparison."
       },
       "artifact": {
         "url": "https://github.com/precice/tutorials",
@@ -1227,20 +1261,25 @@
           "./plot-displacement.sh solid-dealii"
         ],
         "expected_outputs": "Participant logs; OpenFOAM fields; solid VTK; preCICE tip watchpoint displacement history.",
-        "comparison": "Compare settled-window displacement histories to authors ref_fsi3.point: time column1, x/y tip displacement columns11/12; combined drag columns5+7 and lift6+8. The retrieved file is the author site's dt=0.00025 series. Match benchmark-definition/version and force normalization, demonstrate mesh/time-step/coupling convergence, and set a scientifically justified tolerance before claiming agreement. The original2006 printed table and tutorial2010 citation still require reconciliation.",
+        "comparison": "No published periodic observable compared. A short transient cannot recover FSI3 mean, amplitude or frequency; exit 0 did not establish coupling convergence.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Advanced multi-core CPU coupled run, upstream estimates hours; default parallel fluid decomposition uses 25 ranks.",
         "data_access": "Case/meshes public. Author FSI3 reference series retrieved (1,113,417bytes; SHA256c428bc3ff48c1698cd10aacf0941cba6aabdfcb9d61c8b7e42c343f381434e63); this is upstream data, not a local simulation.",
         "blockers": [
-          "Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.",
-          "No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated."
+          "Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.",
+          "CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.",
+          "Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.",
+          "Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched."
         ],
-        "next_action": "Select exact reference publication/case; resolve solver/adapter versions; digitize or obtain reference data; then run three refinement levels and compare observables."
+        "next_action": "Qualify the Direct solver or CG alternative and converged coupling; resolve original 2006 versus 2010 reference/material law; then predeclare the analysis window/tolerance and run the full horizon with mesh/time-step convergence."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source and instructions inspected; no local execution or paper-result claim."
+        "status": "attempted_blocked",
+        "result": "Actual coupling executed. The CG adaptation completed 0.003 s with both participants exiting 0, but the first two of three windows were unconverged. A tighter fluid solver retry also failed its first two windows and hit the 240 s bound. The Direct solver failed due to missing UMFPACK. No qualified coupled solution or paper-result comparison.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/precice.md)",
+          "[Run record](../reproductions/records/precice.json)"
+        ]
       },
       "evidence": [
         {
@@ -1271,11 +1310,17 @@
       ],
       "confidence": "medium",
       "gaps": [
-        "Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.",
-        "No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated.",
-        "Author manuscript located at https://riemann.mathematik.uni-dortmund.de/papers/TurekHron2006.pdf; browser fetch timed out, so no target-table values were transcribed."
+        "Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.",
+        "CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.",
+        "Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.",
+        "Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched."
       ],
-      "group": "robotics-fem-cfd"
+      "group": "robotics-fem-cfd",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source and instructions inspected; no local execution or paper-result claim."
+      }
     },
     {
       "tool_id": "dolfinx",
@@ -1290,7 +1335,7 @@
         "metadata_url": "https://link.springer.com/chapter/10.1007/978-3-032-17396-6_1",
         "metadata_verified": true,
         "access": "Published open chapter metadata inspected; full-text model/results inspected in the linked 2024 arXiv:2410.09764v1 preprint. Published/preprint target equivalence still requires checking.",
-        "locator": "Preprint Section 4.1 and Figure 2(a): Poisson interface benchmark convergence and estimator efficiency; Section 4.2 and Figure 3: Cook membrane."
+        "locator": "Section4.1, Figure2(a), contrast5, k=1, m=2"
       },
       "artifact": {
         "url": "https://github.com/brodbeck-m/AFEM-by-Equilibration",
@@ -1321,19 +1366,41 @@
           "cd case_poisson_riviere && python3 solve_riviere.py"
         ],
         "expected_outputs": "CSV convergence/error/efficiency tables and XDMF/HDF5 fields; full execute_all.sh also runs timing and elasticity cases and deletes prior CSV outputs.",
-        "comparison": "Match preprint Figure 2(a), e.g. contrast 5, primal k=1/flux m=2 gives printed e.o.c=0.50 and efficiency=1.06 after final refinement. Values are rounded reference targets; comparison tolerance must be set from source data/precision before testing. Confirm 2026 chapter matches preprint.",
+        "comparison": "One author-code preprint parameter combination; comparison uses rounded printed reference values, with human scientific review pending.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Small 2D CPU start, increasingly heavy adaptive refinements; archived ready image about 1.4GB dataset download.",
         "data_access": "Author code and DaRUS archive are open; no restricted observations.",
-        "blockers": [
-          "Historic environment not run; exact Docker image digest not recorded; LICENSE/README discrepancy; published/preprint target equivalence pending."
-        ],
-        "next_action": "Use the archived image to avoid unpinned apt upgrades; verify the published chapter target against preprint; execute only the selected interface case with logs and source hashes."
+        "blockers": [],
+        "next_action": "Human scientific review of one matched case; expand to other paper parameter combinations separately."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source and instructions inspected; no local execution or paper-result claim."
+        "status": "reproduced_target",
+        "result": "Exact author adaptive_solver(1,2,20,0.5,5) completed all20 levels; native CSV/XDMF/HDF5 outputs retained. Both printed targets matched within predeclared reporting-precision tolerance.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/dolfinx.md)",
+          "[Run record](../reproductions/records/dolfinx.json)"
+        ],
+        "target_comparison": {
+          "scope": "One author-code preprint result; human scientific review pending.",
+          "reference": {
+            "rateuh1": 0.5,
+            "ieff": 1.06
+          },
+          "tolerance": {
+            "absolute": 0.005
+          },
+          "measurements": {
+            "rows": 20,
+            "elements": 367164.0,
+            "ndofs": 183899.0,
+            "energy_error": 0.009483476035049803,
+            "rateuh1": 0.5021171063611626,
+            "estimator": 0.010078245989489396,
+            "ieff": 1.0627164504071498
+          },
+          "passed": true,
+          "human_scientific_review": "pending"
+        }
       },
       "evidence": [
         {
@@ -1358,10 +1425,13 @@
         }
       ],
       "confidence": "high",
-      "gaps": [
-        "Historic environment not run; exact Docker image digest not recorded; LICENSE/README discrepancy; published/preprint target equivalence pending."
-      ],
-      "group": "robotics-fem-cfd"
+      "gaps": [],
+      "group": "robotics-fem-cfd",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source and instructions inspected; no local execution or paper-result claim."
+      }
     },
     {
       "tool_id": "dealii",
@@ -1376,7 +1446,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1007/3-540-34596-5_15",
         "metadata_verified": true,
         "access": "Springer primary metadata verified; original numerical reference table not yet inspected. Author-hosted benchmark HTML parameter/result tables and downloadable FSI3 reference series were subsequently inspected.",
-        "locator": "Published FSI3 channel/cylinder/elastic-flap benchmark; compare tip displacement, frequency, drag and lift. Current preCICE tutorial additionally cites the 2010 extension."
+        "locator": "Original 2006 FSI3 benchmark; maintained tutorial also cites the 2010 extension DOI 10.1007/978-3-642-14206-2_8. Historical reference/constitutive alignment unresolved; no original result comparison."
       },
       "artifact": {
         "url": "https://github.com/precice/tutorials",
@@ -1403,20 +1473,25 @@
           "./plot-displacement.sh solid-dealii"
         ],
         "expected_outputs": "Participant logs; OpenFOAM fields; solid VTK; preCICE tip watchpoint displacement history.",
-        "comparison": "Compare settled-window displacement histories to authors ref_fsi3.point: time column1, x/y tip displacement columns11/12; combined drag columns5+7 and lift6+8. The retrieved file is the author site's dt=0.00025 series. Match benchmark-definition/version and force normalization, demonstrate mesh/time-step/coupling convergence, and set a scientifically justified tolerance before claiming agreement. The original2006 printed table and tutorial2010 citation still require reconciliation.",
+        "comparison": "No published periodic observable compared. A short transient cannot recover FSI3 mean, amplitude or frequency; exit 0 did not establish coupling convergence.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Advanced multi-core CPU coupled run, upstream estimates hours; default parallel fluid decomposition uses 25 ranks.",
         "data_access": "Case/meshes public. Author FSI3 reference series retrieved (1,113,417bytes; SHA256c428bc3ff48c1698cd10aacf0941cba6aabdfcb9d61c8b7e42c343f381434e63); this is upstream data, not a local simulation.",
         "blockers": [
-          "Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.",
-          "No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated."
+          "Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.",
+          "CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.",
+          "Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.",
+          "Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched."
         ],
-        "next_action": "Select exact reference publication/case; resolve solver/adapter versions; digitize or obtain reference data; then run three refinement levels and compare observables."
+        "next_action": "Qualify the Direct solver or CG alternative and converged coupling; resolve original 2006 versus 2010 reference/material law; then predeclare the analysis window/tolerance and run the full horizon with mesh/time-step convergence."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source and instructions inspected; no local execution or paper-result claim."
+        "status": "attempted_blocked",
+        "result": "Actual coupling executed. The CG adaptation completed 0.003 s with both participants exiting 0, but the first two of three windows were unconverged. A tighter fluid solver retry also failed its first two windows and hit the 240 s bound. The Direct solver failed due to missing UMFPACK. No qualified coupled solution or paper-result comparison.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/dealii.md)",
+          "[Run record](../reproductions/records/dealii.json)"
+        ]
       },
       "evidence": [
         {
@@ -1447,11 +1522,17 @@
       ],
       "confidence": "medium",
       "gaps": [
-        "Original reference target table and the tutorial's 2010 reference must be reconciled; target values and tolerances are not yet imported.",
-        "No coupled solver execution has occurred; mesh/time-step/coupling convergence must be demonstrated.",
-        "Author manuscript located at https://riemann.mathematik.uni-dortmund.de/papers/TurekHron2006.pdf; browser fetch timed out, so no target-table values were transcribed."
+        "Installed deal.II 9.3.2 build has no UMFPACK; author Direct solver unavailable.",
+        "CG adaptation failed implicit coupling convergence in the first two windows; tighter fluid tolerances did not resolve it.",
+        "Current neo-Hookean solid, publication and reference-series constitutive alignment unresolved.",
+        "Full periodic benchmark and refinement study require a qualified setup and an hours-scale run; not launched."
       ],
-      "group": "robotics-fem-cfd"
+      "group": "robotics-fem-cfd",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source and instructions inspected; no local execution or paper-result claim."
+      }
     },
     {
       "tool_id": "mfem",
@@ -2024,7 +2105,7 @@
         "metadata_verified": true,
         "publication_type": "proceedings-article",
         "access": "IEEE/author repository and conference/arXiv primary records inspected; live DOI metadata verified.",
-        "locator": "Settaluri et al. DATE 2020 AutoCkt, schematic generalization success and design-speed results; public two-stage op-amp task only."
+        "locator": "SectionIII-B, Figures6-8 and TableII"
       },
       "artifact": {
         "url": "https://github.com/ksettaluri6/AutoCkt",
@@ -2053,21 +2134,24 @@
           "[upstream validation with explicit user-set counts] run autockt/rollout.py /path/to/ray/checkpoint --run PPO --env opamp-v0 --num_val_specs NUM --traj_len LENGTH --no-render"
         ],
         "expected_outputs": "Training checkpoints and opamp_obs_reached_test/opamp_obs_nreached_test pickle files.",
-        "comparison": "Measure held-out specification success and runtime against the public ngspice experiment. Article abstract reports at least 96.3% across tested schematic tasks; README explicitly reports seed/test-set variability of 80%-96% and an example 938/1000, so do not require a single exact success fraction without matching seeds/data.",
+        "comparison": "Descriptive comparison of a new bounded public-source policy with articleTableII; inputs/methods are not matched, so this is not target_compared or paper reproduction. Confidence intervals quantify target-sampling uncertainty conditional on this policy and do not establish equivalence. Training-seed variation has not been characterized.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "CPU; README reports 8 cores, warns fewer than 2; training is not a quick smoke test.",
         "data_access": "Public repository inputs; separate component and model terms still apply.",
         "blockers": [
-          "Legacy dependencies; exact paper seeds/spec sets and training hyperparameters need extraction.",
-          "Author-code redistribution license absent.",
-          "Proprietary Spectre/BAG technology results cannot be reproduced using only public ngspice artifact."
+          "Original policy, exact training/evaluation seeds and a source revision matching all article hyperparameters are unavailable.",
+          "Paper/code architecture, training-set size and reward details differ.",
+          "Declared bounded training ended before source convergence criterion."
         ],
-        "next_action": "Qualify a container/environment without changing host baseline; run public circuit validation and retain all seeds and test specs."
+        "next_action": "Recover original author checkpoint and exact configuration, or explicitly agree a new independently seeded matched-method experiment with longer training budget. Do not present saved author arrays or this adaptation as a fresh reproduction of963/1000."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source and setup inspected; no new execution yet."
+        "status": "executed_example",
+        "result": "41/60 final held-out targets reached under author reward; 2 strictly satisfied all constraints. Training 140iterations/168000steps, criterion met=False.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/ngspice.md)",
+          "[Run record](../reproductions/records/ngspice.json)"
+        ]
       },
       "evidence": [
         {
@@ -2103,10 +2187,16 @@
       ],
       "confidence": "high",
       "gaps": [
-        "No public-code license detected; linking/inspection only.",
-        "README writes checkpoints under home by default; configure Ray output to /workspace before execution."
+        "Original policy, exact training/evaluation seeds and a source revision matching all article hyperparameters are unavailable.",
+        "Paper/code architecture, training-set size and reward details differ.",
+        "Declared bounded training ended before source convergence criterion."
       ],
-      "group": "multiphysics"
+      "group": "multiphysics",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source and setup inspected; no new execution yet."
+      }
     },
     {
       "tool_id": "cantera",
@@ -2283,7 +2373,7 @@
         "metadata_verified": true,
         "publication_type": "journal-article",
         "access": "Crespo software-paper metadata verified; Koshizuka/Oka benchmark metadata also verified; official wiki explains exact validation case.",
-        "locator": "Crespo et al. (2015) software validation route, with direct experimental benchmark: Koshizuka and Oka (1996), Moving-Particle Semi-Implicit Method for Fragmentation of Incompressible Fluid, DOI10.13182/NSE96-A24205. Exact paper figure locator still to audit."
+        "locator": "1996 experimental dam-tip data as attributed and bundled in the official DualSPHysics 01_DamBreak fixture; exact original article figure, scaling and observable alignment remain unverified. Software route also associated with Crespo et al. (2015), DOI 10.1016/j.cpc.2014.10.004."
       },
       "artifact": {
         "url": "https://github.com/DualSPHysics/DualSPHysics",
@@ -2305,20 +2395,23 @@
           "[upstream CPU route] cd examples/main/01_DamBreak && bash xCaseDambreakVal2D_linux64_CPU.sh"
         ],
         "expected_outputs": "Particle output, postprocessed dam-front position versus time, comparison plot against bundled experiment.",
-        "comparison": "Compare normalized tip position at all bundled experimental times using interpolation, report RMSE/max error and particle-resolution convergence; choose numerical tolerance after reading benchmark uncertainty, not merely visually matching snapshots.",
+        "comparison": "Numerical discrepancy against an upstream paper-associated validation fixture. No source uncertainty/acceptance threshold supplied. Fixture scaling/observable definition was not independently verified against the original1996 article; no paper-result reproduction is claimed.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "CPU supported; cost depends on particle resolution.",
         "data_access": "Public repository inputs; separate component and model terms still apply.",
         "blockers": [
-          "Complete matching binaries and dependencies not provisioned.",
-          "Published figure locator and experimental uncertainty/tolerance still pending."
+          "Original 1996 figure, coordinate scaling and front-observable alignment need the original full-text audit.",
+          "No experimental uncertainty or acceptance tolerance supplied; reported error is not a scientific pass."
         ],
-        "next_action": "Read original benchmark methods/figure, qualify complete release, run CPU script and compare exported time series to bundled experimental coordinates."
+        "next_action": "Obtain and inspect the original 1996 article; confirm fixture scaling and front definition, then establish spatial/time-step convergence and an independently justified comparison rule."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source and setup inspected; no new execution yet."
+        "status": "executed_example",
+        "result": "Unchanged current author model completed the original 2-second horizon with a retained timeout/restart; initial unrestarted data cover all 14 comparison points.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/dualsphysics.md)",
+          "[Run record](../reproductions/records/dualsphysics.json)"
+        ]
       },
       "evidence": [
         {
@@ -2354,10 +2447,15 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Current code differs from 2015 release.",
-        "Experimental data-file presence is not itself reproduction."
+        "Original 1996 figure, coordinate scaling and front-observable alignment need the original full-text audit.",
+        "No experimental uncertainty or acceptance tolerance supplied; reported error is not a scientific pass."
       ],
-      "group": "multiphysics"
+      "group": "multiphysics",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source and setup inspected; no new execution yet."
+      }
     },
     {
       "tool_id": "quantlib",
@@ -2636,25 +2734,24 @@
         "expected_outputs": [
           "Dashboard exposure/CVA plots and parsed risk tables; fresh ORE exposure CSVs require missing orchestration."
         ],
-        "comparison": "The paper states exactly 50% CCP exposure in Section 8.4/Figure 15. Exploratory reanalysis of the author-linked saved CSV instead yields 50.339%–50.927% across its two systems and six clearing cases. Resolve archived-output correspondence, definitions and numerical asymmetry before setting a numerical tolerance or claiming reproduction. Replotting/reanalysis does not regenerate ORE simulation.",
+        "comparison": "No new ORE numerical outputs. Prior saved-output shares 50.339%–50.927% still differ from exact paper 50% statement and remain unadjudicated.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Replot small enough for CPU; full ORE portfolio/network batch must be profiled after generator recovery.",
         "data_access": "Public dashboard includes synthetic-output tables; reuse license unspecified. Bundled ORE market inputs referenced in paper.",
         "blockers": [
-          "No simulation-generator/orchestration code in retrieved repository tree.",
-          "No license in author dashboard repository.",
-          "Windows-specific legacy environment.",
-          "Saved-output diagnostic does not equal paper exact 0.5 statement; reason unadjudicated."
+          "Author portfolio generator, ORE orchestration/configurations and original seed specification missing.",
+          "Paper-linked saved-output version correspondence/discrepancy unresolved.",
+          "Dashboard repository has no license found."
         ],
-        "next_action": "Resolve saved-output discrepancy and version correspondence with the paper, then obtain generator/input specifications for a fresh ORE run. Author data can support a clearly labeled reanalysis exercise meanwhile."
+        "next_action": "Retrieve author generator/configuration artifact and versioned ORE v1.8.4.0 inputs; then declare a numerical target and tolerance before running."
       },
       "execution": {
-        "status": "analysed_saved_output",
+        "status": "attempted_blocked",
+        "result": "Fresh simulation cannot run from retrieved author artifact: no portfolio generator or ORE orchestration in full source/history. Prior saved-output analysis is retained separately and not counted as a fresh run.",
         "evidence": [
-          "[Run receipt](verification/engine.json)",
-          "[Numeric output](verification/engine-ccp-exposure-shares.csv)"
-        ],
-        "result": "Exploratory saved-output reanalysis only: paper-linked CSV yields CCP exposure shares 0.5033912935–0.5092717832 in its two financial systems and six clearing cases, versus the paper statement 0.5. Maximum absolute difference 0.0092717832. No tolerance prespecified and no ORE simulation rerun; target reproduction remains unresolved."
+          "[Author-code attempt](../reproductions/engine.md)",
+          "[Run record](../reproductions/records/engine.json)"
+        ]
       },
       "evidence": [
         {
@@ -2675,10 +2772,19 @@
       ],
       "confidence": "high",
       "gaps": [
-        "A dashboard-only reproduction cannot establish fresh ORE numerical reproduction.",
-        "Saved output differs from exact paper exposure-share statement; no reproduction claim."
+        "Author portfolio generator, ORE orchestration/configurations and original seed specification missing.",
+        "Paper-linked saved-output version correspondence/discrepancy unresolved.",
+        "Dashboard repository has no license found."
       ],
-      "group": "finance-economics"
+      "group": "finance-economics",
+      "prior_campaign_execution": {
+        "status": "analysed_saved_output",
+        "evidence": [
+          "[Run receipt](verification/engine.json)",
+          "[Numeric output](verification/engine-ccp-exposure-shares.csv)"
+        ],
+        "result": "Exploratory saved-output reanalysis only: paper-linked CSV yields CCP exposure shares 0.5033912935–0.5092717832 in its two financial systems and six clearing cases, versus the paper statement 0.5. Maximum absolute difference 0.0092717832. No tolerance prespecified and no ORE simulation rerun; target reproduction remains unresolved."
+      }
     },
     {
       "tool_id": "hark",
@@ -2725,23 +2831,24 @@
         "expected_outputs": [
           "Paper/Figures/Figure1a.png, Figure1b.png, Figure5a.png, Figure5b.png, Figure5c.png, Figure6.png, Figure7.png; Paper/Tables/table1.tex and table2.tex."
         ],
-        "comparison": "Begin with Table I steady-state values and Figure VII median wealth/income lifecycle curves. Extract printed target cells and agree tolerances before run; verify calibration matches original paper, including known shock-dispersion prose/code discrepancy. A matching modern baseline alone is insufficient.",
+        "comparison": "Actual script execution restored; baseline target net wealth rounds to 0.31 rather than printed 0.32. Author implementation methods differ from original paper. No paper reproduction claim.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "CPU; policy-function solutions and household lifecycle simulation, followed by plotting.",
         "data_access": "Code/input profiles publicly available; original PDF remains restricted and is not redistributed.",
         "blockers": [
-          "Confirmed compatibility failure in modern HARK 0.17.2: historical plotFuncs import fails. Historical HARK environment still unresolved.",
-          "Previously noted discrepancy: paper shock prose versus code log SD=0.1.",
-          "Printed numerical targets/tolerances still to transcribe for the selected table/curve."
+          "Strict printed table comparison fails.",
+          "Author discretization/simulation and calibration conventions differ from original paper.",
+          "SciPy non-progress warning elsewhere in full script; convergence of all quantities not established."
         ],
-        "next_action": "Try the exact author script in a bounded environment, record failures, then recover historical HARK or implement an explicitly documented compatibility port before table/curve comparison."
+        "next_action": "Audit numerical settings/shock distribution and deterministic target residual; resolve mismatch before declaring paper result reproduced."
       },
       "execution": {
-        "status": "attempted_blocked",
+        "status": "executed_example",
+        "result": "Seven figure PNGs and two LaTeX tables generated from exact source. Strict original-paper baseline target comparison failed; SciPy non-progress warning retained.",
         "evidence": [
-          "[Run receipt](verification/hark.json)"
-        ],
-        "result": "Unmodified author script at commit 0a278360b77eeac1df1e91374c168b3091365fbf attempted with Python 3.12.16/HARK 0.17.2. Exited 1 at line 147: ImportError, HARK.utilities.plotFuncs removed/renamed. This tests modern compatibility only, not the historical author environment. No figures or tables generated."
+          "[Author-code attempt](../reproductions/hark.md)",
+          "[Run record](../reproductions/records/hark.json)"
+        ]
       },
       "evidence": [
         {
@@ -2762,9 +2869,18 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Existing OSRI baseline port is an executed adaptation, not this full reproduction."
+        "Strict printed table comparison fails.",
+        "Author discretization/simulation and calibration conventions differ from original paper.",
+        "SciPy non-progress warning elsewhere in full script; convergence of all quantities not established."
       ],
-      "group": "finance-economics"
+      "group": "finance-economics",
+      "prior_campaign_execution": {
+        "status": "attempted_blocked",
+        "evidence": [
+          "[Run receipt](verification/hark.json)"
+        ],
+        "result": "Unmodified author script at commit 0a278360b77eeac1df1e91374c168b3091365fbf attempted with Python 3.12.16/HARK 0.17.2. Exited 1 at line 147: ImportError, HARK.utilities.plotFuncs removed/renamed. This tests modern compatibility only, not the historical author environment. No figures or tables generated."
+      }
     },
     {
       "tool_id": "quantecon",
@@ -2951,7 +3067,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1177/1091142118816744",
         "metadata_verified": true,
         "access": "Publisher/Crossref metadata and author replication README inspected; full-text draft available from authors/conference.",
-        "locator": "Tax function alternatives and baseline/reform general-equilibrium results; exact published table/figure numbers and cells still require final-paper inspection. Author repository provides TFI_tables_figures.py."
+        "locator": "May 2018 author manuscript DEP_TaxFuncs.pdf, Tables 7 and 8, preferred specification steady-state GDP change +0.07%; final 2019 journal numerical tables not independently matched."
       },
       "artifact": {
         "url": "https://github.com/rickecon/TaxFuncIntegr",
@@ -2984,21 +3100,25 @@
         "expected_outputs": [
           "Baseline/reform fitted tax functions, SS/TPI outputs, publication tables and figures from the plotting script."
         ],
-        "comparison": "Reproduce a named published tax-function/macro result from the stored fitted functions, then compare new outputs to the archived outputs with predefined tolerances. Fresh micro-estimation needs original lawful PUF access; CPS substitution is an adaptation. Inspect final-paper tables before selecting numeric acceptance targets.",
+        "comparison": "Numerical +0.069545535% matches May-2018 draft +0.07% at declared tolerance; six baseline outputs match archived author SS. Scope is fresh macro solve using supplied fitted inputs. Negative G in both cases is retained as failed economic feasibility, so neither this match nor small Euler residuals establish a valid policy prediction.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "README estimates about 10 hours with 10+ processors or 100+ hours serial for full 12-case analysis.",
         "data_access": "IRS PUF not published; existing estimated functions are available. Never upload PUF/restricted tax records.",
         "blockers": [
-          "Restricted original PUF for fresh micro-estimation.",
-          "Historical dependencies loosely specified.",
-          "Full runs lengthy; no new execution attempted."
+          "Original restricted IRS PUF not available for fresh Tax-Calculator micro-estimation.",
+          "Government spending is negative in both solved macro steady states.",
+          "Final 2019 journal table identity not checked; selected comparison is the May 2018 author manuscript.",
+          "Full tax-function fitting and transition paths not rerun."
         ],
-        "next_action": "Start by regenerating a selected figure/table from stored results, then rerun a single macro case using stored fits; request PUF access only if reproducing the microsimulation estimation is required."
+        "next_action": "Resolve fiscal closure feasibility and verify final journal table/version; use lawful PUF access only if fresh microsimulation estimation is required."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source inspection only; no new execution for this route."
+        "status": "executed_example",
+        "result": "Fresh baseline and counterfactual macro steady states solved; author-manuscript SS GDP rounding target matches. Economic-feasibility diagnostic fails because both closures require negative government spending. Tax-Calculator imported but its microsimulation/PUF estimation NOT executed.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/tax-calculator.md)",
+          "[Run record](../reproductions/records/tax-calculator.json)"
+        ]
       },
       "evidence": [
         {
@@ -3019,10 +3139,17 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Archive refers to a draft/current-law 2018 setup; check agreement with the final 2019 publication.",
-        "Replotting stored output and rerunning macro with stored fits are partial reproductions, not fresh microdata replication."
+        "Original restricted IRS PUF not available for fresh Tax-Calculator micro-estimation.",
+        "Government spending is negative in both solved macro steady states.",
+        "Final 2019 journal table identity not checked; selected comparison is the May 2018 author manuscript.",
+        "Full tax-function fitting and transition paths not rerun."
       ],
-      "group": "finance-economics"
+      "group": "finance-economics",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source inspection only; no new execution for this route."
+      }
     },
     {
       "tool_id": "openfisca-core",
@@ -3543,7 +3670,7 @@
         "metadata_url": "https://api.crossref.org/works/10.18637/jss.v090.i02",
         "metadata_verified": true,
         "access": "Open publisher metadata and complete R replication script inspected.",
-        "locator": "Sections 4.1-4.2: M/M/1 example, lambda=2, mu=4, seed 1234; Section 4.2 uses 100 replications."
+        "locator": "Sections4.1–4.2, pp19–20, Figure3 and printed t-test; Section5.2 deterministic arrival example"
       },
       "artifact": {
         "url": "https://www.jstatsoft.org/article/download/v090i02/3818",
@@ -3567,20 +3694,218 @@
         "expected_outputs": [
           "Resource/system occupancy plots, per-replication mean time in system, t.test confidence interval."
         ],
-        "comparison": "Compare time-in-system estimate with analytic 1/(mu-lambda)=0.5 and occupancy with rho/(1-rho)=1 (derivations from stated rates); preserve publication code’s exact stopping and seed behavior. Set a stochastic comparison rule before rerun; no numeric tolerance is claimed from paper without inspecting full PDF/plots.",
+        "comparison": "Reproduces selected publisher-code printed numerical output within prespecified rounding tolerance. Additional validation uses independent seeds. Literal source interval is not accepted as independent100-replication uncertainty because forked streams are duplicated. Modern R runtime difference and pending human review remain explicit.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Single CPU; R runtime required.",
         "data_access": "Synthetic M/M/1 inputs; publisher supplement publicly downloadable.",
-        "blockers": [
-          "R unavailable in PATH; no execution attempted.",
-          "Historic R/simmer versions and exact published numeric interval still need extraction from paper PDF."
-        ],
-        "next_action": "Use the publisher supplement to make the first direct paper-method reproduction; avoid unnecessary cross-language benchmarks."
+        "blockers": [],
+        "next_action": "Integrate this bounded target comparison as a Lab example, retain duplicated-stream warning, and obtain human scientific review; optional exact historicalR reconstruction is separate."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source inspected; no execution or paper-result reproduction claimed."
+        "status": "reproduced_target",
+        "result": "All three printed Section4.2 numbers matched at7-decimal rounding; two independently seeded theory intervals contain analytic values; all1000 deterministic arrival records exactly match. Literal forked run has duplicated streams (50 unique replication means), retained as a source limitation.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/simmer.md)",
+          "[Run record](../reproductions/records/simmer.json)"
+        ],
+        "target_comparison": {
+          "scope": "Selected printed output and analytic/deterministic methods; not blanket validation of the software or all paper experiments.",
+          "reference": {
+            "paper_mean": 0.4974943,
+            "paper_ci95": [
+              0.4868269,
+              0.5081617
+            ],
+            "analytic_time": 0.5,
+            "analytic_population": 1,
+            "deterministic_complete_arrivals": 1000
+          },
+          "tolerance": {
+            "printed_results_absolute": 5e-08,
+            "analytic_validation": "Each analytic target inside corresponding97.5%Student-t interval from100 distinct-seed replications",
+            "deterministic_absolute": 0
+          },
+          "measurements": {
+            "status": "completed",
+            "paper": "10.18637/jss.v090.i02",
+            "runtime": "R version 4.5.3 (2026-03-11)",
+            "packages": {
+              "simmer": "4.3.0",
+              "Rcpp": "1.1.2",
+              "BH": "1.69.0.1",
+              "magrittr": "2.0.5",
+              "jsonlite": "2.0.0"
+            },
+            "author": {
+              "mean": 0.4974943125894268,
+              "ci95": [
+                0.4868269346038281,
+                0.5081616905750255
+              ],
+              "unique_replication_means": 50,
+              "replications": 100,
+              "time_weighted_occupancy_single_run": 0.927123373672206,
+              "mc_cores": 2,
+              "mc_set_seed": false
+            },
+            "literal_paper_comparison": {
+              "reference": [
+                0.4974943,
+                0.4868269,
+                0.5081617
+              ],
+              "observed": [
+                0.4974943125894268,
+                0.4868269346038281,
+                0.5081616905750255
+              ],
+              "absolute_error": [
+                1.2589426778841784e-08,
+                3.460382808073703e-08,
+                9.424974578564616e-09
+              ],
+              "tolerance": 5e-08,
+              "passed": true
+            },
+            "independent_validation": {
+              "system_time": {
+                "mean": 0.4980618498685042,
+                "standard_error": 0.00433792856825208,
+                "ci97p5": [
+                  0.48818870937393966,
+                  0.5079349903630688
+                ],
+                "reference": 0.5,
+                "contains_reference": true
+              },
+              "system_occupancy": {
+                "mean": 0.997695344652664,
+                "standard_error": 0.010123005742408884,
+                "ci97p5": [
+                  0.9746553484080143,
+                  1.0207353408973137
+                ],
+                "reference": 1,
+                "contains_reference": true
+              },
+              "replications": 100,
+              "seeds": [
+                10001,
+                10002,
+                10003,
+                10004,
+                10005,
+                10006,
+                10007,
+                10008,
+                10009,
+                10010,
+                10011,
+                10012,
+                10013,
+                10014,
+                10015,
+                10016,
+                10017,
+                10018,
+                10019,
+                10020,
+                10021,
+                10022,
+                10023,
+                10024,
+                10025,
+                10026,
+                10027,
+                10028,
+                10029,
+                10030,
+                10031,
+                10032,
+                10033,
+                10034,
+                10035,
+                10036,
+                10037,
+                10038,
+                10039,
+                10040,
+                10041,
+                10042,
+                10043,
+                10044,
+                10045,
+                10046,
+                10047,
+                10048,
+                10049,
+                10050,
+                10051,
+                10052,
+                10053,
+                10054,
+                10055,
+                10056,
+                10057,
+                10058,
+                10059,
+                10060,
+                10061,
+                10062,
+                10063,
+                10064,
+                10065,
+                10066,
+                10067,
+                10068,
+                10069,
+                10070,
+                10071,
+                10072,
+                10073,
+                10074,
+                10075,
+                10076,
+                10077,
+                10078,
+                10079,
+                10080,
+                10081,
+                10082,
+                10083,
+                10084,
+                10085,
+                10086,
+                10087,
+                10088,
+                10089,
+                10090,
+                10091,
+                10092,
+                10093,
+                10094,
+                10095,
+                10096,
+                10097,
+                10098,
+                10099,
+                10100
+              ],
+              "same_model_rates_horizon": true,
+              "explicit_seed_change": true
+            },
+            "deterministic": {
+              "rows": 1000,
+              "all_starts_exact": true,
+              "all_ends_exact": true,
+              "activity_time_exact": true,
+              "all_finished": true
+            },
+            "elapsed_seconds": 1.26
+          },
+          "passed": true,
+          "human_scientific_review": "pending"
+        }
       },
       "evidence": [
         {
@@ -3595,11 +3920,13 @@
         }
       ],
       "confidence": "high",
-      "gaps": [
-        "R unavailable in PATH; no execution attempted.",
-        "Historic R/simmer versions and exact published numeric interval still need extraction from paper PDF."
-      ],
-      "group": "agents-operations"
+      "gaps": [],
+      "group": "agents-operations",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source inspected; no execution or paper-result reproduction claimed."
+      }
     },
     {
       "tool_id": "pypsa",
@@ -3690,7 +4017,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1109/TPWRS.2018.2829021",
         "metadata_verified": true,
         "access": "Open author preprint; Crossref title/authors/year verified.",
-        "locator": "Paper case study: 10 kV ring network; feasible switching states and one-day optimized time series. Author repository explicitly identifies the three notebooks as the paper case study."
+        "locator": "Section VII-B switching analysis; VII-D / Figure7 operational results"
       },
       "artifact": {
         "url": "https://github.com/e2nIEE/pandapower-paper",
@@ -3718,20 +4045,23 @@
           "Upstream: jupyter notebook; execute grid.ipynb, switch_evaluation.ipynb, then timeseries_simulation.ipynb"
         ],
         "expected_outputs": "Executed notebooks, feasible switch-state table, one-day losses/line-loading/transformer-loading/voltage time series, and differences against results/.",
-        "comparison": "Compare exact admissible switch-state IDs and time-series arrays against the bundled author results and corresponding paper case-study plots; record units, tap positions and control objectives. Inspect result files and set tolerances before numerical comparison.",
+        "comparison": "Successful exact bounded switching-target comparison; the aggregate declared comparison is NOT marked passed because complete historical Figure7 claims are not all matched. Initial raw loss difference is a documented power/energy unit mismatch, not solver failure. Article says9 selected states; original notebook says11 and current run matches11.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Small CPU network; switching/time-series batch can take longer than one power-flow solve.",
         "data_access": "Data and reference results are present in the public author repository; data licensing and numeric reference files still need audit.",
         "blockers": [
-          "Legacy environment must be reconstructed; current pandapower API differs materially.",
-          "Paper figure numbering and exact numeric tolerances still need extraction."
+          "Full-day paper text9states versus author notebook11states.",
+          "Saved transformer-loading reference is0.1 of new derated percentage; data df=0.1 and source calculation explain a plausible convention, but reference generation convention is undocumented."
         ],
-        "next_action": "Create a paper-specific environment lock, inspect results/, then run the three notebooks in original order."
+        "next_action": "Use the bounded switching guide now; resolve the two full-day source conventions before claiming complete Figure7 reproduction."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Sources and construction route inspected; no scientific result reproduced here."
+        "status": "executed_example",
+        "result": "Published switching counts match exactly; full-day97-point author calculation completed. Eleven selected states match author notebook/JSON but differ from article text9. Operational constraints hold. Source-defined kW→kWh conversion reconciles loss energy; transformer convention unresolved.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/pandapower.md)",
+          "[Run record](../reproductions/records/pandapower.json)"
+        ]
       },
       "evidence": [
         {
@@ -3752,10 +4082,15 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Legacy environment must be reconstructed; current pandapower API differs materially.",
-        "Paper figure numbering and exact numeric tolerances still need extraction."
+        "Full-day paper text9states versus author notebook11states.",
+        "Saved transformer-loading reference is0.1 of new derated percentage; data df=0.1 and source calculation explain a plausible convention, but reference generation convention is undocumented."
       ],
-      "group": "energy-natural-sciences"
+      "group": "energy-natural-sciences",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Sources and construction route inspected; no scientific result reproduced here."
+      }
     },
     {
       "tool_id": "calliope",
@@ -3770,7 +4105,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1016/j.joule.2022.05.009",
         "metadata_verified": true,
         "access": "Open full text and author archives; metadata verified.",
-        "locator": "Resource availability and experimental procedures; baseline least-cost model and SPORES alternatives. Rebuild baseline first, then reproduce selected capacity/cost results using the archived result ensemble."
+        "locator": "Table1 metric ranges; Figure3 describes441 configurations; Resource availability identifies model/result archives."
       },
       "artifact": {
         "url": "https://github.com/calliope-project/sector-coupled-euro-calliope",
@@ -3798,21 +4133,23 @@
           "Current README route: snakemake --use-conda --cores 1 (build model); inspect historical optimization entry point before running it"
         ],
         "expected_outputs": "Baseline model/result NetCDF, exact scenario YAML, solver log, SPORES result NetCDF ensemble and figures.",
-        "comparison": "Compare baseline objective and carrier/technology capacities against archived result files before drawing any paper figure. Reproduce one selected paper plot with identical spatial and temporal aggregation; tolerance pending archived numeric-value audit. Subsequent versions corrected technology costs/efficiencies and transport, so current main is a different experiment.",
+        "comparison": "Independent paper-table extraction agrees with author data; does not reproduce or validate a new solver run. Original optimization remains blocked by a verified expired solver license.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Large CPU optimization; full ensemble used an HPC cluster. Begin with archive-only analysis and one baseline solve.",
         "data_access": "Paper explicitly deposits model (5774988) and all results (6546817) on Zenodo. Full downloads were not performed.",
         "blockers": [
-          "Historical customized Calliope/solver environment not instantiated.",
-          "Archive numerical values, solver terms and exact figure target tolerance pending inspection.",
-          "Current main changes data and model assumptions; cannot silently substitute it for the article tag."
+          "Original Gurobi9.1.2 solver runtime fails: License expired2022-01-13.",
+          "New optimization not performed; a qualified open-solver port or working original license and substantial compute are needed."
         ],
-        "next_action": "Download the prebuilt model and one result, verify checksums and scenario IDs, then agree a baseline objective/capacity comparison before optimization."
+        "next_action": "Secure an authorized compatible solver or qualify an open-solver port, then solve one archived baseline with objective/feasibility/capacity comparisons before ensemble runs. Saved-output guide is usable now."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Sources and construction route inspected; no scientific result reproduced here."
+        "status": "analysed_saved_output",
+        "result": "Recovered exact author runtime/source; Gurobi9.1.2 throws License expired2022-01-13 even for a minimal prerequisite. Analyzed saved outputs separately:3969rows/441configurations, all9published ranges agree within rounding.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/calliope.md)",
+          "[Run record](../reproductions/records/calliope.json)"
+        ]
       },
       "evidence": [
         {
@@ -3838,11 +4175,15 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Historical customized Calliope/solver environment not instantiated.",
-        "Archive numerical values, solver terms and exact figure target tolerance pending inspection.",
-        "Current main changes data and model assumptions; cannot silently substitute it for the article tag."
+        "Original Gurobi9.1.2 solver runtime fails: License expired2022-01-13.",
+        "New optimization not performed; a qualified open-solver port or working original license and substantial compute are needed."
       ],
-      "group": "energy-natural-sciences"
+      "group": "energy-natural-sciences",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Sources and construction route inspected; no scientific result reproduced here."
+      }
     },
     {
       "tool_id": "sumo",
@@ -3857,7 +4198,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1109/MITS.2017.2666585",
         "metadata_verified": true,
         "access": "Metadata and author README inspected; full validation tables not yet read.",
-        "locator": "Traffic-demand evaluation for 24-hour Luxembourg mobility; four author configurations: shortest-path/rerouting versus dynamic user equilibrium, static versus actuated signals."
+        "locator": "Author scenario and traffic-demand evaluation; full article target unavailable (institutional LuST2.pdf requires copy request)."
       },
       "artifact": {
         "url": "https://github.com/lcodeca/LuSTScenario",
@@ -3883,20 +4224,23 @@
           "Upstream alternatives: sumo -c dua.actuated.sumocfg; sumo -c due.static.sumocfg; sumo -c due.actuated.sumocfg"
         ],
         "expected_outputs": "Configured SUMO output files, simulation log, completed vehicle/trip counts, travel-time profiles and detector-flow comparison tables.",
-        "comparison": "Reproduce the article's time-of-day traffic-count and travel-time comparisons using its matching configuration and original validation data. Full text must establish exact target values and error metric/tolerance; do not infer validation from successful execution.",
+        "comparison": "New numerical outputs from actual historical simulator and complete city inputs; duration bounded. Completed-trip mean is censored, and three seeds do not validate traffic demand. No 2017 paper-target comparison could be made.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "24-hour city simulation on CPU; historical binary/build support required.",
         "data_access": "Scenario source public; original observation/validation data availability must be checked in the article.",
         "blockers": [
-          "SUMO 0.26 environment not installed.",
-          "Full validation targets and observational data provenance are pending."
+          "2017 paper LuST2.pdf and original observation/validation series unavailable; institutional record requires copy request.",
+          "Full-day empirical comparison not attempted without its target/data."
         ],
-        "next_action": "Retrieve the article validation tables and establish a working legacy SUMO binary, then run one configuration and compare the designated detector series."
+        "next_action": "Obtain Codeca etal2017 DOI10.1109/MITS.2017.2666585 full text and validation data, declare a statistic/uncertainty rule, then extend run duration and repeat enough seeds."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Sources and construction route inspected; no scientific result reproduced here."
+        "status": "executed_example",
+        "result": "Three author-model runs completed. Each inserted878vehicles; completed trips757/761/756, still running121/117/122. Conditional completed-trip means486.023778/487.896189/487.310847seconds.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/sumo.md)",
+          "[Run record](../reproductions/records/sumo.json)"
+        ]
       },
       "evidence": [
         {
@@ -3912,10 +4256,15 @@
       ],
       "confidence": "high",
       "gaps": [
-        "SUMO 0.26 environment not installed.",
-        "Full validation targets and observational data provenance are pending."
+        "2017 paper LuST2.pdf and original observation/validation series unavailable; institutional record requires copy request.",
+        "Full-day empirical comparison not attempted without its target/data."
       ],
-      "group": "energy-natural-sciences"
+      "group": "energy-natural-sciences",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Sources and construction route inspected; no scientific result reproduced here."
+      }
     },
     {
       "tool_id": "matsim-libs",
@@ -4434,7 +4783,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1371/journal.pcbi.1006220",
         "metadata_verified": true,
         "access": "Open full text and actual COMBINE archive inspected.",
-        "locator": "Second case study and Figures 4–6; reference 54 explicitly links calzone-fig1-fig3.omex. The archive contains Calzone2007-simulation-figure-1B.xml and BIOMD0000000144.xml."
+        "locator": "Figure4B Wee1c selected10points; exact archive from reference54"
       },
       "artifact": {
         "url": "https://github.com/0u812/tellurium-combine-archive-test-cases",
@@ -4457,21 +4806,52 @@
           "Tellurium execution API route to check against the chosen version: python -c \"import tellurium as te; te.executeCombineArchive('real-models/calzone-fig1-fig3.omex', workingDir='run-calzone')\""
         ],
         "expected_outputs": "Executed SED-ML trajectories/plots and extracted model/experiment files, plus full environment, archive SHA256 and numeric result exports.",
-        "comparison": "Compare Wee1/MPF/String/cyclin trajectories and the encoded parameter variant against the paper's Figure 4 and original Calzone figure. Archive encodes the exact experiment but supplies no inspected numeric gold-standard CSV; extract or recover reference trajectories and establish tolerance before claiming reproduction.",
+        "comparison": "Selected10-point Wee1c trace only; full archive ran but other5panels not numerically accepted.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Small biochemical ODE model on CPU; binary package compatibility may limit setup.",
         "data_access": "SBML and SED-ML bundled inside a public COMBINE archive; no clinical or human data needed.",
         "blockers": [
-          "Numeric reference trajectories/tolerances have not been recovered.",
-          "Paper-era runtime differs from current binary packages.",
-          "Archive/API compatibility not yet executed."
+          "Human review of raster calibration/tolerances is pending.",
+          "Original archive/model redistribution license not found in inspected archive/repository; input is fetched from author rather than relicensed/repackaged."
         ],
-        "next_action": "Run the pinned archive and export numeric trajectories, then compare them with archived figure data or agreed digitization of the exact figure."
+        "next_action": "Review the10-point digitization and tolerance, then extend independent numerical reference comparisons to the other paper panels or obtain original numeric figure data."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Sources and construction route inspected; no scientific result reproduced here."
+        "status": "reproduced_target",
+        "result": "Exact author COMBINE archive executed unchanged, both1001-point timegrids and all21 data-generators finite. Selected Figure4B Wee1c comparison RMSE0.0026733313,maxabs0.0062600522; within prospective.03/.06 bounds. Current Tellurium runtime differs from2018 runtime.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/tellurium.md)",
+          "[Run record](../reproductions/records/tellurium.json)"
+        ],
+        "target_comparison": {
+          "scope": "Selected10-point Wee1c trace only; full archive ran but other5panels not numerically accepted.",
+          "reference": "Digitized original publisher PNG at times25,50,75,100,125,145,180,200,220,240; reference image hash/calibration retained",
+          "tolerance": {
+            "rmse": 0.03,
+            "max_abs": 0.06
+          },
+          "measurements": {
+            "target": "Figure4B Wee1c at10 preselected times",
+            "reference_points": 10,
+            "rmse": 0.0026733313070862225,
+            "max_abs": 0.00626005219744763,
+            "bounds": {
+              "rmse": 0.03,
+              "max_abs": 0.06
+            },
+            "passed": true,
+            "declared_before_run": true,
+            "scope": "Selected10-point Figure4B Wee1c raster trace, not all6panels, original BIOCHAM result or biological validation.",
+            "checks": {
+              "all_21_data_generators_finite": true,
+              "time1_1001_samples_0_to250": true,
+              "time2_1001_samples_0_to180": true
+            },
+            "human_scientific_review": "pending"
+          },
+          "passed": true,
+          "human_scientific_review": "pending"
+        }
       },
       "evidence": [
         {
@@ -4492,11 +4872,15 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Numeric reference trajectories/tolerances have not been recovered.",
-        "Paper-era runtime differs from current binary packages.",
-        "Archive/API compatibility not yet executed."
+        "Human review of raster calibration/tolerances is pending.",
+        "Original archive/model redistribution license not found in inspected archive/repository; input is fetched from author rather than relicensed/repackaged."
       ],
-      "group": "energy-natural-sciences"
+      "group": "energy-natural-sciences",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Sources and construction route inspected; no scientific result reproduced here."
+      }
     },
     {
       "tool_id": "brian2",
@@ -4511,7 +4895,7 @@
         "metadata_url": "https://api.crossref.org/works/10.7554/eLife.47314",
         "metadata_verified": true,
         "access": "Open full text, figure descriptions and author notebook inspected.",
-        "locator": "Case study 2, Figure 3: retinal/motor spikes and eye/object position during 10 seconds. Alternative author notebooks cover Figures 1–7; Figure 8 benchmarks are separate supplementary code."
+        "locator": "Figure3b eye/object position trace; model code in Figure3c"
       },
       "artifact": {
         "url": "https://github.com/brian-team/brian2_paper_examples",
@@ -4536,22 +4920,23 @@
           "Upstream interactive route: open example_2_eye_movements.ipynb and execute cells in order; headless numeric execution can omit only the final Plotly presentation cell while preserving all model cells"
         ],
         "expected_outputs": "10-second eye/object/target position arrays, retinal/motor spike trains and Figure 3-style plots; save model-cell hashes, seed, dt and runtime versions.",
-        "comparison": "Compare the Figure 3 eye/object time series and spike timings with author reference trajectories using the same seed and historical versions. Modern-version execution alone demonstrates runnable author code; it is not a validated reproduction of the exact published trace. Numeric reference data and tolerance need recovery/digitization.",
+        "comparison": "Post-hoc exploratory comparison after prior modern output and first historical run; v2 corrects legend contamination. Historical deterministic repeat does not make overall analysis prospective.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Small CPU model; optional compiler backend, no GPU required.",
         "data_access": "All inputs in the public author notebook; Figure 8 performance data separately supplied by eLife and should not be confused with Figure 3 outputs.",
         "blockers": [
-          "Historical Python 3.6 environment not instantiated.",
-          "Exact published numeric trajectories/tolerance not available in the inspected notebook."
+          "Prospective paper-reference acceptance analysis not established; current raster analysis is explicitly exploratory.",
+          "Human scientific review of digitization, calibration and scope pending."
         ],
-        "next_action": "Run the historical environment or recover the paper/reference numeric traces; compare them with the retained modern execution under explicit error criteria. Current author model executes successfully."
+        "next_action": "Review the reference extraction independently, then predeclare any stronger new experiment before new stochastic/model outputs; do not rename this exploratory comparison a full-paper reproduction."
       },
       "execution": {
         "status": "executed_example",
+        "result": "Unchanged eight author model cells ran on paper-version Brian2.2.2.1/Python3.6. Repeated historical arrays identical. Exploratory Figure3b comparison: eye RMSE0.0342156/max0.100732,object RMSE0.0195218/max0.0527203; within exploratory bounds. Code and actual published figure both use500ms; initial50ms transcription corrected.",
         "evidence": [
-          "[Run receipt](verification/brian2.json)"
-        ],
-        "result": "Unmodified author model cells executed on Python 3.12.16 / Brian2 2.9.0 / NumPy 1.26.4, NumPy backend. Seed 79620, dt 0.1 ms, 10 s, 100000 samples; 2406 retinal spikes and motor counts 56/51. Six bounded consistency checks passed. All arrays retained in NPZ/CSV with SHA256, plus a new Matplotlib plot. Original Plotly presentation cell omitted. Published numeric reference was not recovered; this is author-code compatibility execution, not a verified Figure 3 reproduction."
+          "[Author-code attempt](../reproductions/brian2.md)",
+          "[Run record](../reproductions/records/brian2.json)"
+        ]
       },
       "evidence": [
         {
@@ -4577,10 +4962,17 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Historical Python 3.6 environment not instantiated.",
-        "Exact published numeric trajectories/tolerance not available in the inspected notebook."
+        "Prospective paper-reference acceptance analysis not established; current raster analysis is explicitly exploratory.",
+        "Human scientific review of digitization, calibration and scope pending."
       ],
-      "group": "energy-natural-sciences"
+      "group": "energy-natural-sciences",
+      "prior_campaign_execution": {
+        "status": "executed_example",
+        "evidence": [
+          "[Run receipt](verification/brian2.json)"
+        ],
+        "result": "Unmodified author model cells executed on Python 3.12.16 / Brian2 2.9.0 / NumPy 1.26.4, NumPy backend. Seed 79620, dt 0.1 ms, 10 s, 100000 samples; 2406 retinal spikes and motor counts 56/51. Six bounded consistency checks passed. All arrays retained in NPZ/CSV with SHA256, plus a new Matplotlib plot. Original Plotly presentation cell omitted. Published numeric reference was not recovered; this is author-code compatibility execution, not a verified Figure 3 reproduction."
+      }
     },
     {
       "tool_id": "ns-3-dev-git",
@@ -4606,7 +4998,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1145/3627703.3629574",
         "metadata_verified": true,
         "access": "Crossref metadata and authors’ evaluated-code README/driver inspected.",
-        "locator": "EuroSys 2024 paper; exp.py accuracy experiment is explicitly marked Figure 2; deterministic experiment marked Figure 11. Exact figure interpretation/target requires article read."
+        "locator": "Section6.2, Table2; exact thread/result determinism paragraph after Figure11."
       },
       "artifact": {
         "url": "https://github.com/NASA-NJU/UNISON-for-ns-3",
@@ -4633,20 +5025,226 @@
         "expected_outputs": [
           "results/*.sh, *.txt and *.csv with automated command provenance and metrics; figure-specific processed CSV."
         ],
-        "comparison": "Compare flow/packet statistics between sequential and Unison modes before timing; exact numerical Figure 2 target/tolerance still needs full paper inspection. Full speedup figures depend on matching physical core count/hardware, not only model outcomes.",
+        "comparison": "All12 table entries agree to the predeclared half-last-digit threshold. This does not independently establish validity of packet models, table uncertainty, other paper experiments or hardware speedups.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Upstream accuracy example approximately 30 minutes; small experiments need 8 cores/16 GB; full suite requires up to 144 cores/512 GB.",
         "data_access": "Synthetic network traffic; included flow-size CDF files.",
         "blockers": [
-          "CMake/OpenMPI unavailable in PATH and host initialization is outside authorized routine development.",
-          "Paper Figure 2 data/precision criterion not yet read."
+          "Human scientific review is pending.",
+          "Native log values use six significant digits; two FCT comparisons touch the predeclared half-last-decimal threshold.",
+          "Tested one/two/four threads, not all one-to-sixteen threads or the distinct Figure 11 topology. No hardware speedup claim."
         ],
-        "next_action": "Download evaluated Zenodo artifact and inspect article Figure 2; construct a sandboxed local-only accuracy run."
+        "next_action": "Human methods review of source, inputs and numerical comparison; then extend to the remaining named paper targets."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source inspected; no execution or paper-result reproduction claimed."
+        "status": "reproduced_target",
+        "result": "Seven full author-model simulations completed. All twelve Table 2 printed-value checks passed at predeclared 0.005 tolerance. Four two-cluster Unison runs (one/two/four threads plus repeated two-thread run) had identical 7,447,618 events and model metrics. One short diagnostic with no observed completed flows is preserved separately.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/ns-3-dev-git.md)",
+          "[Run record](../reproductions/records/ns-3-dev-git.json)"
+        ],
+        "target_comparison": {
+          "scope": "Attempt exact author accuracy settings and compare with Table2; differences retained as failed match. Hardware speedup not tested; reduced diagnostic separate from paper input.",
+          "reference": {
+            "paper_table_2": {
+              "default_2": [
+                650.89,
+                15.14,
+                6.81
+              ],
+              "unison_2": [
+                632.52,
+                15.03,
+                6.99
+              ],
+              "default_4": [
+                480.84,
+                10.49,
+                6.5
+              ],
+              "unison_4": [
+                472.45,
+                11.39,
+                6.41
+              ]
+            },
+            "interpretation": "Published values are averages. Event tie-breaking legitimately differs between Unison and default. Test repeated Unison thread counts for exact determinism; do not demand equal packets versus default as a paper claim."
+          },
+          "tolerance": "Table2 printed precision: absolute difference <=0.005 in the printed unit for each two-decimal table entry (rounding agreement only, not a scientific equivalence margin). Unison determinism: exact equality of printed event counts and model metrics across repeated runs/threads.",
+          "measurements": {
+            "table_checks": [
+              {
+                "configuration": "default_2",
+                "metric": "fct_ms",
+                "reference": 650.89,
+                "observed": 650.895,
+                "absolute_difference": 0.005,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "default_2",
+                "metric": "rtt_ms",
+                "reference": 15.14,
+                "observed": 15.13888,
+                "absolute_difference": 0.00112,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "default_2",
+                "metric": "throughput_mbps",
+                "reference": 6.81,
+                "observed": 6.81012,
+                "absolute_difference": 0.00012,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "unison_2",
+                "metric": "fct_ms",
+                "reference": 632.52,
+                "observed": 632.525,
+                "absolute_difference": 0.005,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "unison_2",
+                "metric": "rtt_ms",
+                "reference": 15.03,
+                "observed": 15.0337,
+                "absolute_difference": 0.0037,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "unison_2",
+                "metric": "throughput_mbps",
+                "reference": 6.99,
+                "observed": 6.98695,
+                "absolute_difference": 0.00305,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "default_4",
+                "metric": "fct_ms",
+                "reference": 480.84,
+                "observed": 480.842,
+                "absolute_difference": 0.002,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "default_4",
+                "metric": "rtt_ms",
+                "reference": 10.49,
+                "observed": 10.49304,
+                "absolute_difference": 0.00304,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "default_4",
+                "metric": "throughput_mbps",
+                "reference": 6.5,
+                "observed": 6.50213,
+                "absolute_difference": 0.00213,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "unison_4",
+                "metric": "fct_ms",
+                "reference": 472.45,
+                "observed": 472.454,
+                "absolute_difference": 0.004,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "unison_4",
+                "metric": "rtt_ms",
+                "reference": 11.39,
+                "observed": 11.38678,
+                "absolute_difference": 0.00322,
+                "tolerance": 0.005,
+                "passed": true
+              },
+              {
+                "configuration": "unison_4",
+                "metric": "throughput_mbps",
+                "reference": 6.41,
+                "observed": 6.40928,
+                "absolute_difference": 0.00072,
+                "tolerance": 0.005,
+                "passed": true
+              }
+            ],
+            "determinism": [
+              {
+                "run": "unison-cluster2-thread1",
+                "values": {
+                  "fct_us": "632525",
+                  "e2ed_us": "7516.85",
+                  "throughput_gbps": "0.00698695",
+                  "events": 7447618,
+                  "tx_packets": 678387,
+                  "rx_packets": 676639,
+                  "flow_count": 364,
+                  "finished_flow_count": 278
+                },
+                "matches_first_run": true
+              },
+              {
+                "run": "unison-cluster2-thread2",
+                "values": {
+                  "fct_us": "632525",
+                  "e2ed_us": "7516.85",
+                  "throughput_gbps": "0.00698695",
+                  "events": 7447618,
+                  "tx_packets": 678387,
+                  "rx_packets": 676639,
+                  "flow_count": 364,
+                  "finished_flow_count": 278
+                },
+                "matches_first_run": true
+              },
+              {
+                "run": "unison-cluster2-thread2-repeat",
+                "values": {
+                  "fct_us": "632525",
+                  "e2ed_us": "7516.85",
+                  "throughput_gbps": "0.00698695",
+                  "events": 7447618,
+                  "tx_packets": 678387,
+                  "rx_packets": 676639,
+                  "flow_count": 364,
+                  "finished_flow_count": 278
+                },
+                "matches_first_run": true
+              },
+              {
+                "run": "unison-cluster2-thread4",
+                "values": {
+                  "fct_us": "632525",
+                  "e2ed_us": "7516.85",
+                  "throughput_gbps": "0.00698695",
+                  "events": 7447618,
+                  "tx_packets": 678387,
+                  "rx_packets": 676639,
+                  "flow_count": 364,
+                  "finished_flow_count": 278
+                },
+                "matches_first_run": true
+              }
+            ],
+            "transforms": "Exactly authors process.py2: FCT=fct_us/1000; RTT=e2ed_us*2/1000; throughput=Gbps*1000."
+          },
+          "passed": true,
+          "human_scientific_review": "pending"
+        }
       },
       "evidence": [
         {
@@ -4667,10 +5265,16 @@
       ],
       "confidence": "medium",
       "gaps": [
-        "CMake/OpenMPI unavailable in PATH and host initialization is outside authorized routine development.",
-        "Paper Figure 2 data/precision criterion not yet read."
+        "Human scientific review is pending.",
+        "Native log values use six significant digits; two FCT comparisons touch the predeclared half-last-decimal threshold.",
+        "Tested one/two/four threads, not all one-to-sixteen threads or the distinct Figure 11 topology. No hardware speedup claim."
       ],
-      "group": "agents-operations"
+      "group": "agents-operations",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source inspected; no execution or paper-result reproduction claimed."
+      }
     },
     {
       "tool_id": "simgrid",
@@ -4691,7 +5295,7 @@
         "metadata_url": "https://api.crossref.org/works/10.1016/j.parco.2025.103125",
         "metadata_verified": true,
         "access": "Open author manuscript (19 pages) and upstream benchmark repository inspected.",
-        "locator": "Section 7 (Impact on scalability), Figures 13-14, reference 66; 1,000 four-core simulated hosts; Figure 13 varies 4,000-60,000 workunits, 10 repeats."
+        "locator": "Introduction paragraph before Section 2; Section 7, Figures 13-14; reference 66."
       },
       "artifact": {
         "url": "https://github.com/simgrid/coordinator_worker_flashback",
@@ -4718,20 +5322,25 @@
         "expected_outputs": [
           "Experiment timing and maximum RSS data; two PDF figures for worker/task-count sweeps."
         ],
-        "comparison": "Compare simulation-time and peak-RSS curves with Figures 13-14 and check simulated makespans agree. Paper reports >=4.1x RSS reduction and >=1.45x time reduction in Figure 13, but these hardware/compiler-dependent ratios are reference observations, not portable pass thresholds.",
+        "comparison": "Four makespan consistency checks passed. Local RSS reduction at the tested endpoints is 5.1994x/5.3566x, exceeding the article reported 4.1 minimum. The lower-endpoint wall-time ratio is 1.2995x, below its reported 1.45 minimum. Different host/compiler and partial curves prevent a historical performance-reproduction claim.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "Benchmark runs on one physical core; many simulated actors; container builds may dominate setup time.",
         "data_access": "Synthetic compute/network platform; random platform generation must be pinned.",
         "blockers": [
-          "Inspected repository snapshot names v3 releases but exact paper v3/v4 pair must be reconciled.",
-          "Benchmark code license unspecified."
+          "Human scientific review is pending.",
+          "Exact dedicated historical CPU/compiler not matched; shared-host load affects wall time.",
+          "Intermediate Figure 13 points and Figure 14 core-count sweep remain unexecuted.",
+          "Paper introduction calls 3.10 v3 and describes developments through 3.36 culminating in v4. Reference 66 Dockerfiles pin 3.10/3.36, but the exact development commit behind every printed v4 curve observation is unestablished."
         ],
-        "next_action": "Recover the precise v3/v4 branch/commits, then run reduced fixture before complete Figure 13 sweep."
+        "next_action": "Human methods review of source, inputs and numerical comparison; then extend to the remaining named paper targets."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source inspected; no execution or paper-result reproduction claimed."
+        "status": "executed_example",
+        "result": "48 native runs: forty performance runs (two Figure 13 endpoints, ten seeds and two versions), six small makespan-validation runs and two paper-size makespan-validation runs. All exited zero; all four makespan checks matched to 0.000001 simulated seconds.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/simgrid.md)",
+          "[Run record](../reproductions/records/simgrid.json)"
+        ]
       },
       "evidence": [
         {
@@ -4757,10 +5366,17 @@
       ],
       "confidence": "medium",
       "gaps": [
-        "Inspected repository snapshot names v3 releases but exact paper v3/v4 pair must be reconciled.",
-        "Benchmark code license unspecified."
+        "Human scientific review is pending.",
+        "Exact dedicated historical CPU/compiler not matched; shared-host load affects wall time.",
+        "Intermediate Figure 13 points and Figure 14 core-count sweep remain unexecuted.",
+        "Paper introduction calls 3.10 v3 and describes developments through 3.36 culminating in v4. Reference 66 Dockerfiles pin 3.10/3.36, but the exact development commit behind every printed v4 curve observation is unestablished."
       ],
-      "group": "agents-operations"
+      "group": "agents-operations",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source inspected; no execution or paper-result reproduction claimed."
+      }
     },
     {
       "tool_id": "simpy",
@@ -4898,21 +5514,27 @@
         "expected_outputs": [
           "Dynare model/results files, evaluation at supplied posterior mode and shock decomposition for y under default settings. Full posterior/MCMC diagnostics require explicitly changing mh_replic and estimation options; default nograph/nodiagnostic suppress these outputs."
         ],
-        "comparison": "Begin with posterior-mode/linear-model output versus the original archive, then match selected paper posterior table or impulse response. Repeated MCMC runs require convergence diagnostics and statistical rather than bytewise comparison. No numeric tolerance has yet been extracted.",
+        "comparison": "Exploratory decomposition sum residual is 7.1e-15; Laplace density -1844.0985587 under provided mode/settings. Original published numerical target/sample/mode not matched, and runtime/model warnings remain.",
         "reproduction_tier": "paper_result_candidate",
         "compute": "CPU; deterministic mode/IRF check smaller than full Bayesian MCMC estimation.",
         "data_access": "Original AEA-linked replication package available through OpenICPSR; bundled data exist in third-party repository. Check archive download/access terms.",
         "blockers": [
-          "Isolated Dynare/Octave environment absent.",
-          "Original archive contents not downloaded/compared with third-party implementation.",
-          "Paper target/tolerance and MCMC diagnostics must be fixed before run."
+          "Old mode file cannot be verified against current model.",
+          "gaminv prior-bound calculation did not converge for some values.",
+          "Negative array dimensions converted to zero in shock-decomposition setup.",
+          "33 preprocessor warnings from unassigned steady-state block variables.",
+          "Official original replication archive requires account to download.",
+          "Maintained model uses supplied old mode and 230 observations; correspondence to selected paper target unverified."
         ],
-        "next_action": "Download the official archive, compare .mod/data files to this maintained replication, then execute a small mode/IRF case before full estimation."
+        "next_action": "Match original archive/sample/mode and resolve prior-bound/mode compatibility warnings, then define a named paper comparison before full posterior estimation."
       },
       "execution": {
-        "status": "not_run",
-        "evidence": [],
-        "result": "Source inspection only; no new execution for this route."
+        "status": "executed_example",
+        "result": "Fresh maintained model evaluation and finite 40×9×230 shock decomposition completed. No original-paper quantitative comparison or posterior estimation claimed.",
+        "evidence": [
+          "[Author-code attempt](../reproductions/dynare.md)",
+          "[Run record](../reproductions/records/dynare.json)"
+        ]
       },
       "evidence": [
         {
@@ -4938,9 +5560,19 @@
       ],
       "confidence": "high",
       "gaps": [
-        "Third-party corrected model must not silently replace the archived original."
+        "Old mode file cannot be verified against current model.",
+        "gaminv prior-bound calculation did not converge for some values.",
+        "Negative array dimensions converted to zero in shock-decomposition setup.",
+        "33 preprocessor warnings from unassigned steady-state block variables.",
+        "Official original replication archive requires account to download.",
+        "Maintained model uses supplied old mode and 230 observations; correspondence to selected paper target unverified."
       ],
-      "group": "finance-economics"
+      "group": "finance-economics",
+      "prior_campaign_execution": {
+        "status": "not_run",
+        "evidence": [],
+        "result": "Source inspection only; no new execution for this route."
+      }
     }
   ]
 }

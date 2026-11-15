@@ -1,0 +1,21 @@
+{
+  "scope": "Exploratory Figure3b raster comparison only",
+  "points": 158,
+  "metrics": {
+    "eye": {
+      "rmse": 0.03421559961322256,
+      "max_abs": 0.10073218876826281,
+      "within_exploratory_bounds": true
+    },
+    "object": {
+      "rmse": 0.019521799867352498,
+      "max_abs": 0.052720282787485306,
+      "within_exploratory_bounds": true
+    }
+  },
+  "passed": true,
+  "declared_before_first_run": false,
+  "protocol_note": "Tolerances and image ROI were refined after prior modern output and a first historical run existed; the initial failed legend-contaminated extraction is retained. A later deterministic repeat is not a new prospective study.",
+  "paper_source_correction": "Published figure and author notebook both use tau_object500ms; initial50ms transcription was corrected.",
+  "human_scientific_review": "pending"
+}

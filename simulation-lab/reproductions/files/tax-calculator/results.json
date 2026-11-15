@@ -1,0 +1,48 @@
+{
+  "elapsed_seconds": 8.358073301962577,
+  "exit_code": 0,
+  "status": "author_code_executed",
+  "comparison": {
+    "Yss": {
+      "reference": 0.6424733699362516,
+      "actual": 0.6424733699362518,
+      "absolute_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    "Kss": {
+      "reference": 2.026742674577305,
+      "actual": 2.026742674577308,
+      "absolute_error": 2.6645352591003757e-15,
+      "passed": true
+    },
+    "Lss": {
+      "reference": 0.3460933518030097,
+      "actual": 0.34609335180300965,
+      "absolute_error": 5.551115123125783e-17,
+      "passed": true
+    },
+    "rss": {
+      "reference": 0.05877340925402806,
+      "actual": 0.058773409254027936,
+      "absolute_error": 1.249000902703301e-16,
+      "passed": true
+    },
+    "wss": {
+      "reference": 1.2066330898383069,
+      "actual": 1.206633089838308,
+      "absolute_error": 1.1102230246251565e-15,
+      "passed": true
+    },
+    "Css": {
+      "reference": 0.4938322434169942,
+      "actual": 0.4938322434169946,
+      "absolute_error": 3.885780586188048e-16,
+      "passed": true
+    }
+  },
+  "all_compared_outputs_match": true,
+  "resource_constraint_error": 5.277722703311838e-14,
+  "max_abs_euler_savings": 1.6653345369377348e-13,
+  "max_abs_euler_labor_leisure": 3.994582442601313e-13,
+  "scope": "Fresh author SS solver from archived calibrated inputs, compared to author archive output. Does not rerun Tax-Calculator micro-estimation or paper transition paths; paper table identity not yet established."
+}

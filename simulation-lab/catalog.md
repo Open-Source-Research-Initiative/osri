@@ -32,11 +32,11 @@ Create and inspect geometry; render simulation outputs.
 
 **Terms:** GNU GPL; component notices apply. Scene authoring and rendering do not establish physical validity.
 
-**Literature:** [BlenderProc2: A Procedural Pipeline for Photorealistic Rendering (2023)](bibliography.md#blenderproc)
+**Literature:** [BlenderProc2: A Procedural Pipeline for Photorealistic Rendering (2023)](bibliography.md#blenderproc); [Kubric: A scalable dataset generator (2022)](bibliography.md#replication-blender)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Generate a published MOVi-A dataset scene with Kubric and Blender](reproductions/blender.md) — Author code executed; see paper comparison
 
-**Research construction route:** [Kubric: A scalable dataset generator](research/scenes-robotics.md#blender) — not run. See the source and comparison assessment.
+**Research construction route:** [Kubric: A scalable dataset generator](research/scenes-robotics.md#blender) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -96,11 +96,11 @@ Robot worlds; sensors; systems integration.
 
 **Terms:** Apache-2.0. Current Gazebo differs from the historical Gazebo in the 2004 paper; pin simulator and plugins together.
 
-**Literature:** [Design and use paradigms for gazebo, an open-source multi-robot simulator (2004)](bibliography.md#gazebo)
+**Literature:** [Design and use paradigms for gazebo, an open-source multi-robot simulator (2004)](bibliography.md#gazebo); [GzDRL: Reproducible and Scalable Deep Reinforcement Learning with Gazebo (2026)](bibliography.md#replication-gz-sim)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Gazebo](reproductions/gz-sim.md) — Author code executed; see paper comparison
 
-**Research construction route:** [GzDRL: Reproducible and Scalable Deep Reinforcement Learning with Gazebo](research/scenes-robotics.md#gz-sim) — not run. See the source and comparison assessment.
+**Research construction route:** [GzDRL: Reproducible and Scalable Deep Reinforcement Learning with Gazebo](research/scenes-robotics.md#gz-sim) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -128,11 +128,11 @@ Rigid-body dynamics; collision; Python robotics environments.
 
 **Terms:** Zlib core; separate bundled notices. Robot models and third-party examples carry separate terms.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots (2018)](bibliography.md#replication-bullet3)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Bullet / PyBullet](reproductions/bullet3.md) — Executed adaptation
 
-**Research construction route:** [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](research/scenes-robotics.md#bullet3) — not run. See the source and comparison assessment.
+**Research construction route:** [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](research/scenes-robotics.md#bullet3) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -208,11 +208,11 @@ Autonomous-driving worlds; sensors and traffic agents.
 
 **Terms:** MIT. MIT source does not cover the entire Unreal Engine runtime or every asset.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [CARLA: An Open Urban Driving Simulator (2017)](bibliography.md#replication-carla)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [CARLA](reproductions/carla.md) — Executed adaptation
 
-**Research construction route:** [CARLA: An Open Urban Driving Simulator](research/robotics-fem-cfd.md#carla) — not run. See the source and comparison assessment.
+**Research construction route:** [CARLA: An Open Urban Driving Simulator](research/robotics-fem-cfd.md#carla) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -262,7 +262,7 @@ Couple separate solvers across meshes and time steps.
 
 **Walkthrough:** [Turek-Hron fluid-structure interaction](examples/fluid-structure.md) — Upstream instructions checked; not run
 
-**Research construction route:** [Proposal for Numerical Benchmarking of Fluid-Structure Interaction between an Elastic Object and Laminar Incompressible Flow](research/robotics-fem-cfd.md#precice) — not run. See the source and comparison assessment.
+**Research construction route:** [Proposal for Numerical Benchmarking of Fluid-Structure Interaction between an Elastic Object and Laminar Incompressible Flow](research/robotics-fem-cfd.md#precice) — attempted blocked. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -274,11 +274,11 @@ Finite-element PDE models in Python and C++.
 
 **Terms:** LGPL-3.0. Keep variational equations; boundary conditions; mesh and solver configuration.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [Adaptive Finite Element Methods Based on Flux Equilibration Using FEniCSx (2026)](bibliography.md#replication-dolfinx)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [FEniCSx / DOLFINx](reproductions/dolfinx.md) — Selected published target compared; human review pending
 
-**Research construction route:** [Adaptive Finite Element Methods Based on Flux Equilibration Using FEniCSx](research/robotics-fem-cfd.md#dolfinx) — not run. See the source and comparison assessment.
+**Research construction route:** [Adaptive Finite Element Methods Based on Flux Equilibration Using FEniCSx](research/robotics-fem-cfd.md#dolfinx) — reproduced target. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -294,7 +294,7 @@ Finite-element framework with adaptive meshes.
 
 **Walkthrough:** [Turek-Hron fluid-structure interaction](examples/fluid-structure.md) — Upstream instructions checked; not run
 
-**Research construction route:** [Proposal for Numerical Benchmarking of Fluid-Structure Interaction between an Elastic Object and Laminar Incompressible Flow](research/robotics-fem-cfd.md#dealii) — not run. See the source and comparison assessment.
+**Research construction route:** [Proposal for Numerical Benchmarking of Fluid-Structure Interaction between an Elastic Object and Laminar Incompressible Flow](research/robotics-fem-cfd.md#dealii) — attempted blocked. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -418,11 +418,11 @@ Analog and mixed-signal circuit simulation.
 
 **Terms:** BSD-based; mixed component notices. Linked GitHub source is a mirror; upstream is SourceForge. Device models may have separate restrictions.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs (2020)](bibliography.md#replication-ngspice)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [AutoCkt public op-amp: author-code training and held-out evaluation](reproductions/ngspice.md) — Executed adaptation
 
-**Research construction route:** [AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs](research/multiphysics.md#ngspice) — not run. See the source and comparison assessment.
+**Research construction route:** [AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs](research/multiphysics.md#ngspice) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -464,13 +464,13 @@ Particle-based free-surface flow and fluid-body interaction.
 
 [Source](https://github.com/DualSPHysics/DualSPHysics) · [Documentation](https://dual.sphysics.org/) · [License](https://github.com/DualSPHysics/DualSPHysics#license)
 
-**Terms:** LGPL-2.1. CPU or CUDA builds; runtime depends strongly on particle count and duration.
+**Terms:** LGPL-2.1. CPU or CUDA builds; runtime depends strongly on particle count and duration. The case generator GenCase is a separately licensed binary-only helper; the example retrieves it and preserves its own terms.
 
 **Literature:** [DualSPHysics: Open-source parallel CFD solver based on Smoothed Particle Hydrodynamics (SPH) (2015)](bibliography.md#dualsphysics)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [DualSPHysics](reproductions/dualsphysics.md) — Executed adaptation
 
-**Research construction route:** [DualSPHysics: Open-source parallel CFD solver based on Smoothed Particle Hydrodynamics (SPH)](research/multiphysics.md#dualsphysics) — not run. See the source and comparison assessment.
+**Research construction route:** [DualSPHysics: Open-source parallel CFD solver based on Smoothed Particle Hydrodynamics (SPH)](research/multiphysics.md#dualsphysics) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -532,11 +532,11 @@ Portfolio scenarios; exposure and risk calculations.
 
 **Terms:** BSD-3-Clause. QuantLib-based; use bundled example markets before connecting licensed market data.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [Computing the impact of central clearing on systemic risk (2024)](bibliography.md#replication-engine)
 
 **Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
 
-**Research construction route:** [Computing the impact of central clearing on systemic risk](research/finance-economics.md#engine) — analysed saved output. See the source and comparison assessment.
+**Research construction route:** [Computing the impact of central clearing on systemic risk](research/finance-economics.md#engine) — attempted blocked. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -552,9 +552,9 @@ Heterogeneous-household choice and simulation.
 
 **Literature:** [Buffer-Stock Saving and the Life Cycle/Permanent Income Hypothesis (1997)](bibliography.md#carroll1997)
 
-**Walkthrough:** [Household saving baseline](examples/cpu-walkthroughs.md#household-saving) — Executed adaptation; [Household paper reproduction](examples/economics.md) — Upstream instructions checked; not run
+**Walkthrough:** [Household saving baseline](examples/cpu-walkthroughs.md#household-saving) — Executed adaptation; [Carroll author-associated HARK replication: executed with failed strict table comparison](reproductions/hark.md) — Author code executed; see paper comparison
 
-**Research construction route:** [Buffer-Stock Saving and the Life Cycle/Permanent Income Hypothesis](research/finance-economics.md#hark) — attempted blocked. See the source and comparison assessment.
+**Research construction route:** [Buffer-Stock Saving and the Life Cycle/Permanent Income Hypothesis](research/finance-economics.md#hark) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -598,11 +598,11 @@ U.S. income and payroll-tax microsimulation.
 
 **Terms:** CC0-1.0. Use allowed public-use inputs; code access does not supply restricted tax records or establish current-law accuracy.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [Integrating Microsimulation Models of Tax Policy into a DGE Macroeconomic Model (2019)](bibliography.md#replication-tax-calculator)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [TaxFuncIntegr: fresh macro steady states from public fitted inputs](reproductions/tax-calculator.md) — Author code executed; see paper comparison
 
-**Research construction route:** [Integrating Microsimulation Models of Tax Policy into a DGE Macroeconomic Model](research/finance-economics.md#tax-calculator) — not run. See the source and comparison assessment.
+**Research construction route:** [Integrating Microsimulation Models of Tax Policy into a DGE Macroeconomic Model](research/finance-economics.md#tax-calculator) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -630,11 +630,11 @@ Dynamic stochastic general equilibrium and related macroeconomic models.
 
 **Terms:** GPL-3.0-or-later for most source; component notices. Use GNU Octave for an open runtime; MATLAB is an optional proprietary alternative. Pin .mod file and calibration.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [Shocks and Frictions in US Business Cycles: A Bayesian DSGE Approach (2007)](bibliography.md#replication-dynare)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Smets–Wouters maintained model: fresh mode evaluation and shock decomposition](reproductions/dynare.md) — Executed adaptation
 
-**Research construction route:** [Shocks and Frictions in US Business Cycles: A Bayesian DSGE Approach](research/finance-economics.md#dynare) — not run. See the source and comparison assessment.
+**Research construction route:** [Shocks and Frictions in US Business Cycles: A Bayesian DSGE Approach](research/finance-economics.md#dynare) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; official docs available.
 
@@ -730,9 +730,9 @@ Trajectory-based discrete-event simulation in R.
 
 **Literature:** [simmer: Discrete-Event Simulation for R (2019)](bibliography.md#simmer)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [The published M/M/1 queue and its replication interval](reproductions/simmer.md) — Selected published target compared; human review pending
 
-**Research construction route:** [simmer: Discrete-Event Simulation for R](research/agents-operations.md#simmer) — not run. See the source and comparison assessment.
+**Research construction route:** [simmer: Discrete-Event Simulation for R](research/agents-operations.md#simmer) — reproduced target. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -780,9 +780,9 @@ Power flow; short circuits and network analysis.
 
 **Literature:** [Pandapower—An Open-Source Python Tool for Convenient Modeling, Analysis, and Optimization of Electric Power Systems (2018)](bibliography.md#pandapower)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Published ring-network switching states and full-day comparison](reproductions/pandapower.md) — Author code executed; see paper comparison
 
-**Research construction route:** [Pandapower—An Open-Source Python Tool for Convenient Modeling, Analysis, and Optimization of Electric Power Systems](research/energy-natural-sciences.md#pandapower) — not run. See the source and comparison assessment.
+**Research construction route:** [Pandapower—An Open-Source Python Tool for Convenient Modeling, Analysis, and Optimization of Electric Power Systems](research/energy-natural-sciences.md#pandapower) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -794,11 +794,11 @@ Energy-system planning and optimization.
 
 **Terms:** Apache-2.0. Optimization model; open and commercial solver backends are distinct choices.
 
-**Literature:** [Calliope: a multi-scale energy systems modelling framework (2018)](bibliography.md#calliope)
+**Literature:** [Calliope: a multi-scale energy systems modelling framework (2018)](bibliography.md#calliope); [Diversity of options to eliminate fossil fuels and reach carbon neutrality across the entire European energy system (2022)](bibliography.md#replication-calliope)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Archived energy-system metric comparison and verified optimizer blocker](reproductions/calliope.md) — Archived outputs analysed; simulation not rerun
 
-**Research construction route:** [Diversity of options to eliminate fossil fuels and reach carbon neutrality across the entire European energy system](research/energy-natural-sciences.md#calliope) — not run. See the source and comparison assessment.
+**Research construction route:** [Diversity of options to eliminate fossil fuels and reach carbon neutrality across the entire European energy system](research/energy-natural-sciences.md#calliope) — analysed saved output. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -812,9 +812,9 @@ Microscopic multimodal traffic simulation.
 
 **Literature:** [Luxembourg SUMO Traffic (LuST) Scenario: Traffic Demand Evaluation (2017)](bibliography.md#lust)
 
-**Walkthrough:** [Luxembourg traffic scenarios](examples/traffic.md) — Upstream instructions checked; not run
+**Walkthrough:** [Historical LuST city-model run with three seeds](reproductions/sumo.md) — Executed adaptation
 
-**Research construction route:** [Luxembourg SUMO Traffic (LuST) Scenario: Traffic Demand Evaluation](research/energy-natural-sciences.md#sumo) — not run. See the source and comparison assessment.
+**Research construction route:** [Luxembourg SUMO Traffic (LuST) Scenario: Traffic Demand Evaluation](research/energy-natural-sciences.md#sumo) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -926,9 +926,9 @@ Reproducible systems-biology models and simulation experiments.
 
 **Literature:** [Tellurium notebooks—An environment for reproducible dynamical modeling in systems biology (2018)](bibliography.md#tellurium)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Tellurium Calzone archive: selected Figure4B Wee1c comparison](reproductions/tellurium.md) — Selected published target compared; human review pending
 
-**Research construction route:** [Tellurium notebooks—An environment for reproducible dynamical modeling in systems biology](research/energy-natural-sciences.md#tellurium) — not run. See the source and comparison assessment.
+**Research construction route:** [Tellurium notebooks—An environment for reproducible dynamical modeling in systems biology](research/energy-natural-sciences.md#tellurium) — reproduced target. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -942,7 +942,7 @@ Spiking neural-network simulation.
 
 **Literature:** [Brian 2, an intuitive and efficient neural simulator (2019)](bibliography.md#brian2)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Historical Brian eye-movement author model with exploratory Figure3 comparison](reproductions/brian2.md) — Author code executed; see paper comparison
 
 **Research construction route:** [Brian 2, an intuitive and efficient neural simulator](research/energy-natural-sciences.md#brian2) — executed example. See the source and comparison assessment.
 
@@ -958,11 +958,11 @@ Packet-level network simulation.
 
 **Terms:** GPL-2.0-only compatible codebase; component notices. GitHub is an upstream-maintained mirror; primary development is on GitLab.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel (2024)](bibliography.md#replication-ns-3-dev-git)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [Unison: Table 2 and thread determinism](reproductions/ns-3-dev-git.md) — Selected published target compared; human review pending
 
-**Research construction route:** [Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel](research/agents-operations.md#ns-3-dev-git) — not run. See the source and comparison assessment.
+**Research construction route:** [Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel](research/agents-operations.md#ns-3-dev-git) — reproduced target. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.
 
@@ -974,10 +974,10 @@ Distributed-computing and scheduling simulation.
 
 **Terms:** LGPL-2.1 core; separate bundled notices. GitHub mirror; simulation platform files need calibration against the hardware being modeled.
 
-**Literature:** See the research construction route below for a candidate paper and its source assessment.
+**Literature:** [Lowering entry barriers to developing custom simulators of distributed applications and platforms with SimGrid (2025)](bibliography.md#replication-simgrid)
 
-**Walkthrough:** No OSRI walkthrough yet; start with the official documentation.
+**Walkthrough:** [SimGrid: Figure 13 endpoint workloads](reproductions/simgrid.md) — Author code executed; see paper comparison
 
-**Research construction route:** [Lowering entry barriers to developing custom simulators of distributed applications and platforms with SimGrid](research/agents-operations.md#simgrid) — not run. See the source and comparison assessment.
+**Research construction route:** [Lowering entry barriers to developing custom simulators of distributed applications and platforms with SimGrid](research/agents-operations.md#simgrid) — executed example. See the source and comparison assessment.
 
 Source checked 2026-11-15; repository available.

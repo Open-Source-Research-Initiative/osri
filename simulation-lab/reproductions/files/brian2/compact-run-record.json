@@ -1,0 +1,171 @@
+{
+  "tool_id": "brian2",
+  "title": "Historical Brian eye-movement author model with exploratory Figure3 comparison",
+  "question": "Can the paper-associated author model regenerate a specifically defined published output?",
+  "paper": {
+    "title": "Brian 2, an intuitive and efficient neural simulator",
+    "identifier": "10.7554/eLife.47314",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6786860/",
+    "locator": "Figure3b eye/object position trace; model code in Figure3c",
+    "publication_type": "journal_article"
+  },
+  "source": {
+    "url": "https://github.com/brian-team/brian2_paper_examples",
+    "ref": "immutable commit",
+    "commit": "73045cd61322e923e96883dc97c0848154f79f8c",
+    "paths": [
+      "example_2_eye_movements.ipynb",
+      "environment.yml"
+    ],
+    "license": "Author notebook MIT or CC-BY-4.0; Brian simulator CeCILL-2.1; original OSRI wrappers MIT. Paper figure under article Creative Commons attribution terms."
+  },
+  "inputs": {
+    "description": "Pinned author notebook and seed79620",
+    "access": "Public author GitHub and open publisher reference figure; no restricted data",
+    "hashes": {
+      "example_2_eye_movements.ipynb": "4663016b097268326696aba6d1c8e5d9d2b68a169164c2c988eeb7a9c0a6570a",
+      "brian-figure3.jpg": "bcfaf97cd936df8a21824e2e58ba9e9fa902d69a43eecd252f7aba0b7b40af3d"
+    }
+  },
+  "environment": {
+    "versions": {
+      "python": "3.6.11",
+      "brian2": "2.2.2.1",
+      "numpy": "1.16.4",
+      "scipy": "1.2.1",
+      "sympy": "1.3"
+    },
+    "changes_from_author": "Model-version stack reconstructed; author UI/Plotly dependencies omitted, only final presentation cell skipped. Original NumPy not pinned;1.16.4 chosen explicitly. NumPy backend used. No model-cell edits."
+  },
+  "commands": [
+    "micromamba create -y -p ./env -f environment.yml",
+    "./env/bin/python fetch_sources.py",
+    "MPLBACKEND=Agg ./env/bin/python run_brian_historical.py --output ./run",
+    "./env/bin/python compare_brian.py --run ./run --output ./comparison"
+  ],
+  "target": {
+    "observable": "Eye and object position trace from published Figure3b",
+    "reference": "158 digitized points in paper-figure3b-digitized-v2.csv, exact CDN reference image hash in source-manifest.json",
+    "tolerance": {
+      "rmse": 0.08,
+      "max_abs": 0.15
+    },
+    "tolerance_basis": "Exploratory figure-resolution allowance for5-6pixel line thickness at44.5pixels/unit, time calibration and manual extraction. Not a paper-published numerical tolerance.",
+    "declared_before_run": false,
+    "scope": "Post-hoc exploratory comparison after prior modern output and first historical run; v2 corrects legend contamination. Historical deterministic repeat does not make overall analysis prospective."
+  },
+  "execution": {
+    "status": "author_code_executed",
+    "result": "Unchanged eight author model cells ran on paper-version Brian2.2.2.1/Python3.6. Repeated historical arrays identical. Exploratory Figure3b comparison: eye RMSE0.0342156/max0.100732,object RMSE0.0195218/max0.0527203; within exploratory bounds. Code and actual published figure both use500ms; initial50ms transcription corrected.",
+    "exit_code": 0,
+    "elapsed_seconds": 6.821852922439575
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "scope": "Exploratory Figure3b raster comparison only",
+      "points": 158,
+      "metrics": {
+        "eye": {
+          "rmse": 0.03421559961322256,
+          "max_abs": 0.10073218876826281,
+          "within_exploratory_bounds": true
+        },
+        "object": {
+          "rmse": 0.019521799867352498,
+          "max_abs": 0.052720282787485306,
+          "within_exploratory_bounds": true
+        }
+      },
+      "passed": true,
+      "declared_before_first_run": false,
+      "protocol_note": "Tolerances and image ROI were refined after prior modern output and a first historical run existed; the initial failed legend-contaminated extraction is retained. A later deterministic repeat is not a new prospective study.",
+      "paper_source_correction": "Published figure and author notebook both use tau_object500ms; initial50ms transcription was corrected.",
+      "human_scientific_review": "pending"
+    },
+    "interpretation": "Post-hoc exploratory comparison after prior modern output and first historical run; v2 corrects legend contamination. Historical deterministic repeat does not make overall analysis prospective."
+  },
+  "outputs": [
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-run/trajectories.npz",
+      "sha256": "eb70afa8e1a6373a38df28b399037396980743f7101ceb04d54a8f75bad3c54d",
+      "bytes": 2392844,
+      "role": "Complete100000-sample position and spike arrays",
+      "public_reuse": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-run/positions.csv",
+      "sha256": "eb94f9dd506325abf0b6f13b9c83652e9c34bd8ea6c86a7b42007139c38e6fa6",
+      "bytes": 10154733,
+      "role": "Full100000-row positions CSV",
+      "public_reuse": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-comparison/positions-decimated.csv",
+      "sha256": "12e28ef84d2ce2a3ccca5c59481721fa04dd66137ce280100a0b3400f98ab87f",
+      "bytes": 101602,
+      "role": "Every100th model position sample",
+      "public_reuse": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-comparison/comparison-points.csv",
+      "sha256": "55d0b84b35f28e11381eed068c42cd3b63c00bf1823f5119ebb8e360e7accbbd",
+      "bytes": 28301,
+      "role": "158 paper/computed position pairs and residuals",
+      "public_reuse": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-comparison/comparison.png",
+      "sha256": "fc1f29f24bc6e5df766aafc25b391562e36b06625f3f941e291c6461696d5842",
+      "bytes": 129328,
+      "role": "Exploratory paper/model trace overlay",
+      "public_reuse": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-comparison/comparison.json",
+      "sha256": "c3c44e10e8737c6c43fc4dc0ed5fbc9545488ed2ad0ff8fa0cdaa286b2845616",
+      "bytes": 846,
+      "role": "Exploratory comparison receipt",
+      "public_reuse": true
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-run/run-record.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/brian/final-comparison/comparison.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/brian/source-manifest.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/brian/setup-attempts.json"
+  ],
+  "blockers": [
+    "Prospective paper-reference acceptance analysis not established; current raster analysis is explicitly exploratory.",
+    "Human scientific review of digitization, calibration and scope pending."
+  ],
+  "next_action": "Review the reference extraction independently, then predeclare any stronger new experiment before new stochastic/model outputs; do not rename this exploratory comparison a full-paper reproduction.",
+  "relationship_to_paper": "Exact author artifact; execution and numeric paper comparison scoped as declared above",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/biology/brian",
+    "guide": "guide.md",
+    "files": [
+      "guide.md",
+      "source-manifest.json",
+      "fetch_sources.py",
+      "environment.yml",
+      "environment-explicit.txt",
+      "requirements-tested.txt",
+      "setup-attempts.json",
+      "compact-run-record.json",
+      "digitize_reference.py",
+      "final-run/run-record.json",
+      "final-comparison/comparison.json",
+      "final-comparison/comparison-points.csv",
+      "final-comparison/comparison.png",
+      "run_brian_historical.py",
+      "compare_brian.py",
+      "paper-figure3b-digitized-v2.csv",
+      "digitization-protocol-v2.json",
+      "source-reading-correction.json",
+      "final-comparison/positions-decimated.csv"
+    ]
+  }
+}
