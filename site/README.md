@@ -1,26 +1,37 @@
 # OSRI website
 
-The website uses Prism and reads its guides and records from this hub. Research, topics, resources, publications, contributor activity, and Chinese draft guides are published as static pages.
+The public site uses Prism, the existing Python generator and GitHub Pages. Markdown and CSV remain the source for guides, catalogs, translations, registered projects, public outputs and activity.
 
-The organization site is published from [open-source-research-initiative.github.io](https://github.com/Open-Source-Research-Initiative/open-source-research-initiative.github.io). Its workflow checks out this hub, builds the site, and deploys GitHub Pages. It runs hourly, on publishing-repository changes, and on manual request.
+The publishing repository, [open-source-research-initiative.github.io](https://github.com/Open-Source-Research-Initiative/open-source-research-initiative.github.io), checks out **hub `main`**, builds and checks it, then deploys Pages. Its hourly schedule can publish a hub merge without another action. Obtain authorization for the reviewed **merge and publication together**.
 
-## Build and check
+## Build, check and preview
 
-Install the pinned packages in a project environment, then build to a new output directory:
+Use the pinned packages in `requirements.txt` in a project environment. The output directory must be new:
 
 ```sh
-python3 -m pip install -r site/requirements.txt
-python3 site/build.py --output /path/to/new-output
-python3 site/check.py /path/to/new-output
-python3 -m http.server 8765 --directory /path/to/new-output
+python site/build.py --output /workspace/build/builderbob/osri-preview
+python site/check.py /workspace/build/builderbob/osri-preview
+python -m unittest discover -s site -p 'test_*.py'
+python -m http.server 8769 --directory /workspace/build/builderbob/osri-preview
 ```
 
-Edit the hub's Markdown and CSV files to update the public content. `index.html` supplies the homepage body; `styles.css` retains the Prism base styles. `site.css` and `site.js` add navigation, guide layouts, and catalog filters. Essential content remains available without JavaScript.
+Tests use temporary fixture directories; set `TMPDIR` to the permitted workspace scratch directory on hosts that restrict working-data placement. The checks cover local routes and anchors, metadata, immutable source links, translation notices, SVG fonts and search coverage. Fixtures cover empty and multiple-project collections, invalid references and selection records, and unchanged output/work counting.
 
-The activity page uses `community/update.py` directly. It follows the same counting rules as the repository activity record. Source links identify the exact hub commit used for each build. Registered studies and public outputs appear only when their records are added.
+## Content and templates
 
-## Source and fonts
+- `build.py` reads sources, resolves routes and links, generates pages and creates `search-index.json` and `build-info.json`.
+- `render.py` holds reusable homepage, project, About, collaboration and venue components. The homepage no longer extracts or substitutes strings in a prototype. `index.html` is the retained historical Prism prototype, outside the build input.
+- `records.py` checks the structured editorial collections. Project IDs must already be registered in `projects/projects.csv`.
+- `projects/summaries.json` adds source-checked questions, status, methods, materials, a bounded task and proposed output plans. `short_title` and `status_note` support compact cards; status notes must remain consistent with the cited project record.
+- `publications/targets.json` stores venue comparisons, rationale, recommendations, official sources and verification dates, separately from `publications/publications.csv`. Status is `candidate` or `selected`. A selected target also needs `selected_by`, `selected_on` and a public `selection_reference`; it records intent, never submission, acceptance or publication.
+- `styles.css` provides the Prism foundation. `site.css` covers page templates. `site.js` adds mobile navigation, catalog filtering and brief section entrances; `search.js` adds indexed search, content filters, counts, reset and shareable query URLs.
 
-The hero vector is extracted from the selected Prism prototype; the logo comes from the [identity kit](../identity/prism/README.md). Inter and IBM Plex Mono files and their SIL Open Font License notices are in `assets/fonts/`.
+The activity page still calls `community/update.py` directly. Publication targets never enter that function or its CSV registers. Existing publication-counting behavior, CSV downloads, routes, linked anchors and translation notices are preserved. `/about/`, `/research/<lowercase-project-id>/` and `/search/` are additional routes. `/contribute/` adds collaboration routes and retains the full guide and its anchors in native disclosure content; its dedicated guide remains at `/guides/contributing/`.
 
-The build creates a renamed Chinese font subset from `../identity/shared-language/fonts/NotoSansCJKSC-Regular.woff2`. It includes the Chinese guide text and interface labels, checks character coverage, and retains the OFL notice. Draft and review status remain visible.
+Long guides generate a native, collapsible on-page contents list and linked headings. Essential content, menus, materials, targets and journey stages work without JavaScript. Search falls back to the complete linked index and browser Find. If animation or JavaScript fails, reading content remains visible. Reduced motion bypasses entrance effects.
+
+## Graphics, fonts and provenance
+
+Prism’s approved logo geometry is unchanged. The hero retains its existing vector planes, removing washed-out overlay polygons. Guide images with matching editable Prism SVG masters use those local vectors. Fonts declared by SVG masters are embedded from the identity kit during the build so SVG image documents resolve their own fonts. The generated files retain editable text, titles and descriptions; guides retain textual explanations.
+
+Inter, IBM Plex Mono and Noto font licenses remain alongside local assets. The renamed Chinese subset is built and checked for guide and interface character coverage. Page-specific descriptions, canonical URLs and immutable hub source links are generated for every page. `build-info.json` records the exact committed source; review previews built with uncommitted edits are provisional and must be rebuilt from the final reviewed commit before release verification.

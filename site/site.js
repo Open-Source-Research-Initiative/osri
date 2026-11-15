@@ -1,3 +1,22 @@
+// Progressive enhancement: every essential record and route is server-rendered.
+const toggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('#primary-menu');
+if (toggle && menu) {
+  toggle.hidden = false;
+  menu.classList.add('menu-enhanced');
+  const close = () => { menu.classList.remove('is-open'); toggle.setAttribute('aria-expanded', 'false'); };
+  toggle.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') !== 'true';
+    toggle.setAttribute('aria-expanded', String(open));
+    menu.classList.toggle('is-open', open);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { close(); toggle.focus(); }
+  });
+  document.addEventListener('click', event => {
+    if (!menu.contains(event.target) && !toggle.contains(event.target)) close();
+  });
+}
 document.querySelectorAll('[data-filter]').forEach(section => {
   const form = section.querySelector('form');
   const search = form.querySelector('[name="search"]');
@@ -23,4 +42,13 @@ document.querySelectorAll('[data-filter]').forEach(section => {
   form.addEventListener('input', update);
   form.addEventListener('change', update);
   update();
+});
+if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (entry.isIntersecting) { entry.target.classList.add('reveal-run'); observer.unobserve(entry.target); }
+  }), { threshold: 0.08 });
+  document.querySelectorAll('[data-reveal]').forEach(section => observer.observe(section));
+}
+if (document.querySelector('[data-site-search]')) import('./search.js').catch(() => {
+  document.querySelector('#search-count').textContent = 'Interactive search unavailable. Browse all records below or use your browser’s Find command.';
 });
