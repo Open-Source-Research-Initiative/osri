@@ -6,6 +6,8 @@ import csv
 from datetime import date
 from pathlib import Path
 import re
+import runpy
+import json
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
@@ -71,7 +73,7 @@ def validate(tools, papers, examples):
             raise ValueError(f"Incomplete reference: {paper['id']}")
 
 
-def catalog(tools, papers, examples):
+def catalog(tools, papers, examples, research_routes):
     lines = ["# Simulation tool catalog", "",
              f"{len(tools)} tools with open-source cores, grouped by use. This is a growing inventory; it is not an exhaustive list of all simulators. Some components depend on separately licensed runtimes or assets, as noted below.", "",
              "Read the [example index](examples/README.md), [source notes](source-notes.md), and [verification record](verification.md). Repository availability does not mean a tool was installed or a paper reproduced. A software-description paper establishes context; it is not automatically an application example.", "",
@@ -85,9 +87,10 @@ def catalog(tools, papers, examples):
                       f"[Source]({row['source_url']}) · [Documentation]({row['docs_url']}) · [License]({row['license_url']})", "",
                       f"**Terms:** {row['license_summary']}. {row['dependency_notes']}", ""]
             references = [f"[{papers[key]['title']} ({papers[key]['year']})](bibliography.md#{key})" for key in ids(row["paper_ids"])]
-            lines += ["**Literature:** " + ("; ".join(references) if references else "A verified literature example is still needed.") , ""]
+            lines += ["**Literature:** " + ("; ".join(references) if references else "See the research construction route below for a candidate paper and its source assessment.") , ""]
             routes = [f"[{examples[key]['title']}]({examples[key]['guide']}) — {STATUS[examples[key]['status']]}" for key in ids(row["example_ids"])]
             lines += ["**Walkthrough:** " + ("; ".join(routes) if routes else "No OSRI walkthrough yet; start with the official documentation."), "",
+                      f"**Research construction route:** [{research_routes[row['tool_id']]['paper']['title']}](research/{research_routes[row['tool_id']]['group']}.md#{row['tool_id']}) — {research_routes[row['tool_id']]['execution']['status'].replace('_', ' ')}. See the source and comparison assessment.", "",
                       f"Source checked {row['checked_date']}; {row['source_status'].replace('_', ' ')}.", ""]
     return "\n".join(lines)
 
@@ -123,7 +126,15 @@ def main():
     args = parser.parse_args()
     tools, papers, examples = load("tools.csv", "tool_id"), load("papers.csv", "id"), load("examples.csv", "example_id")
     validate(tools, papers, examples)
-    outputs = {"catalog.md": catalog(tools, papers, examples), "bibliography.md": bibliography(papers), "references.bib": bibtex(papers)}
+    research = runpy.run_path(str(ROOT / "research.py"), run_name="osri_research")
+    data = json.loads((ROOT / "research/routes.json").read_text())
+    research["validate"](data, tools)
+    for name, content in research["outputs"](data, tools).items():
+        path = ROOT / "research" / name
+        if not path.is_file() or path.read_text(encoding="utf-8") != content:
+            raise SystemExit(f"Generated research route differs: {name}; run research.py --write")
+    routes = {row["tool_id"]: row for row in data["records"]}
+    outputs = {"catalog.md": catalog(tools, papers, examples, routes), "bibliography.md": bibliography(papers), "references.bib": bibtex(papers)}
     for name, content in outputs.items():
         path = ROOT / name
         if args.write:

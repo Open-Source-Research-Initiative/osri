@@ -2,7 +2,7 @@
 
 Checks performed by **Codex on 2026-11-15**, under Cole's direction. This is a technical record, not independent human scientific review. Cole authorized merging and publishing after the final technical review; the acceptance and release record is [PR #11](https://github.com/Open-Source-Research-Initiative/osri/pull/11).
 
-## Executed CPU examples
+## Original release: executed CPU examples
 
 The four included examples ran in an isolated Python 3.12.16 environment on Linux x86-64. Direct versions were PyBaMM 26.10.1.1, QuantLib 1.44, Econ-ARK/HARK 0.17.2, and usd-core 26.11. The [complete tested dependency set](examples/requirements-tested.txt) and [machine-readable run records](verification/example-runs.json) preserve versions, parameters, checks, and file/source hashes.
 
@@ -32,7 +32,7 @@ These checks test the examples' behavior. QuantLib's [generator implementation](
 
 The bibliography contains 36 DOI records checked against Crossref. The [reading-status field](papers.csv) distinguishes metadata checks from inspected full-text passages. Black–Scholes assumptions and Eq. 13 and Carroll's model/calibration passages were read in the supplied PDFs. The original articles are not redistributed.
 
-Seven other example routes have inspected upstream instructions but were not executed: Isaac Lab, ABIDES, the historical Carroll reproduction, preCICE FSI3, PyPSA-Eur, service queues, and LuST. ViNoS remains an artifact-access lead. No GPU training, historical container, full traffic model, energy workflow, or coupled CFD run is claimed here.
+At the original release, seven other example routes had inspected upstream instructions but were not executed: Isaac Lab, ABIDES, the historical Carroll reproduction, preCICE FSI3, PyPSA-Eur, service queues, and LuST. ViNoS was an artifact-access lead at that point; the later versioned-archive retrieval and new model executions are recorded in the follow-up below. No GPU training, historical container, full traffic model, energy workflow, or coupled CFD run is claimed here.
 
 The catalog's source checks do not establish installation success for all 60 tools. Nor do the local checks establish mesh or time-step convergence, distributional convergence, empirical accuracy, real-world robot performance, or reproduction of an article's figures and tables.
 
@@ -43,3 +43,13 @@ The catalog's source checks do not establish installation success for all 60 too
 The site build and checker passed for 89 pages, 3,746 local links, and 198 search records, plus metadata, attribution, SVG fonts, and translation notices. All 14 site regression tests passed after integration with the current site design. Chromium checks covered case-insensitive search, domain filtering, combined filters, empty results, reset, keyboard-operated details and mobile navigation, CSV downloads, global search for all 60 tools, and content availability without JavaScript. Viewports from 320 to 1,440 pixels had no page-level horizontal overflow. Desktop and mobile screenshots were inspected. See the [browser-check record](verification/browser-check.json).
 
 Documentation-link probes found two obsolete paths, which were replaced with the official QuantEcon and EnergyPlus documentation. After correction, 55 documentation endpoints returned HTTP 200; two GitHub documentation routes were inspected through the repository connector. Blender, MOOSE, and Elmer documentation hosts returned HTTP 403 to the automated probe. Their official links are retained; the access denial is not a finding that the documentation is missing.
+
+## Follow-up: routes for the complete tool catalog
+
+At Cole's request, six domain agents researched [construction routes for all 60 tools](research/README.md), and a seventh agent reviewed the records and live-checked 14 diverse primary paper/code routes. The records preserve the specific paper target, code relationship and version, inputs, terms, construction steps, comparison measure, execution status, and gaps. The [structured inventory](research/routes.json) and [CSV](research/routes.csv) keep these assessments separate from the original teaching runs.
+
+New run receipts cover author/official software examples, a saved-output reanalysis, and a failed historical-code compatibility attempt. Each route links its actual receipt and compact numeric outputs. Full native outputs and environments remain in the development evidence directory with recorded hashes. The parent agent compared the recorded output hashes with the retained files. Source/output integrity, current regression-fixture agreement, convergence of one numerical example, and full paper-result reproduction are different checks. None of the new routes is labeled a reproduced published target.
+
+ViNoS v1.3.2 was retrieved and inspected, so its original source-access gap is closed; its model has not run. ORE saved outputs differ from the paper's exact 50% exposure-concentration statement, and HARK's unmodified historical script fails under the modern API. MFEM variants that report nonconvergence remain failed numerical checks even when their process exits zero. These findings remain visible.
+
+This follow-up is proposed work on a separate branch. Its technical and agent review does not record human scientific acceptance or authorization to publish the new result. The PR #11 authorization and checks above apply to the original release.

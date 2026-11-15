@@ -1,0 +1,159 @@
+{
+  "tool_id": "mfem",
+  "execution_status": "executed_example",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "Pinned MFEM source built serially without system installation. Poisson ex1: 20,801 unknowns, 111 iterations, solution and mesh saved. Maxwell ex3 order 1: 41,280 unknowns, 386 iterations, manufactured-solution L2 error 0.0134918. Two order 2 extensions exited 0 but reported PCG nonconvergence after 500 iterations; retained as failed. These are current upstream examples, not paper-result reproductions.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/execution-summary.json",
+  "source_run_record_sha256": "640ac5a31542ceab80ed9169d68e89ffc3cdcbcfddeb8f484fdc1fa3a2950950",
+  "native_output_hashes_checked": 6,
+  "compact_outputs": [],
+  "run_record": {
+    "tool_id": "mfem",
+    "status": "executed_example",
+    "source_repository": "https://github.com/mfem/mfem",
+    "source_commit": "781ed1cadaae3a03380c4d1414bc2e8969aac2b6",
+    "environment": {
+      "platform": "Linux 6.8.0-147-generic x86_64",
+      "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "build": "make serial -j 2; no system installation",
+      "parallelism": 2
+    },
+    "commands": [
+      {
+        "argv": [
+          "make",
+          "ex1",
+          "ex3",
+          "-j",
+          "2"
+        ],
+        "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/mfem-781ed1cadaae3a03380c4d1414bc2e8969aac2b6/examples",
+        "log": "examples-build.log",
+        "exit_code": 0,
+        "elapsed_seconds": 1.5161536529194564
+      },
+      {
+        "argv": [
+          "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/mfem-781ed1cadaae3a03380c4d1414bc2e8969aac2b6/examples/ex1",
+          "-m",
+          "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/mfem-781ed1cadaae3a03380c4d1414bc2e8969aac2b6/data/star.mesh",
+          "-o",
+          "1",
+          "-no-vis"
+        ],
+        "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/poisson",
+        "log": "poisson.log",
+        "exit_code": 0,
+        "elapsed_seconds": 0.06362428097054362
+      },
+      {
+        "argv": [
+          "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/mfem-781ed1cadaae3a03380c4d1414bc2e8969aac2b6/examples/ex3",
+          "-m",
+          "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/mfem-781ed1cadaae3a03380c4d1414bc2e8969aac2b6/data/star.mesh",
+          "-o",
+          "1",
+          "-no-vis"
+        ],
+        "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/maxwell-order1",
+        "log": "maxwell-order1.log",
+        "exit_code": 0,
+        "elapsed_seconds": 0.2641097700688988
+      },
+      {
+        "argv": [
+          "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/mfem-781ed1cadaae3a03380c4d1414bc2e8969aac2b6/examples/ex3",
+          "-m",
+          "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/mfem-781ed1cadaae3a03380c4d1414bc2e8969aac2b6/data/star.mesh",
+          "-o",
+          "2",
+          "-no-vis"
+        ],
+        "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/robotics-fem-cfd/mfem-example/maxwell-order2",
+        "log": "maxwell-order2.log",
+        "exit_code": 0,
+        "elapsed_seconds": 1.7664610620122403
+      }
+    ],
+    "outputs": [
+      {
+        "file": "poisson/sol.gf",
+        "bytes": 229440,
+        "sha256": "e78e3539f3b0e660aee2e7fda2c29f7465be13eeabb07f9ab059288f90908b22"
+      },
+      {
+        "file": "poisson/refined.mesh",
+        "bytes": 1008210,
+        "sha256": "bec604666bf549c213cfbf304e3c020e5da8205febdf11b7e4d170fde4c715e8"
+      },
+      {
+        "file": "maxwell-order1/sol.gf",
+        "bytes": 533917,
+        "sha256": "8d1b034da2614b7b8d0bbc876ad7eee533b8fcd9077d05f0a2dc2822bf840021"
+      },
+      {
+        "file": "maxwell-order1/refined.mesh",
+        "bytes": 1008210,
+        "sha256": "bec604666bf549c213cfbf304e3c020e5da8205febdf11b7e4d170fde4c715e8"
+      },
+      {
+        "file": "maxwell-order2/sol.gf",
+        "bytes": 2127897,
+        "sha256": "be0e73ddab67f9d34ca7da8f2d52c0162885d3a08b6e73a3df73d90836c29267"
+      },
+      {
+        "file": "maxwell-order2/refined.mesh",
+        "bytes": 1008210,
+        "sha256": "bec604666bf549c213cfbf304e3c020e5da8205febdf11b7e4d170fde4c715e8"
+      }
+    ],
+    "completed_at": "2026-11-15T20:30:06.291332+00:00",
+    "successful_examples": [
+      {
+        "case": "poisson",
+        "unknowns": 20801,
+        "iterations": 111,
+        "log_sha256": "69a855bbcc8316bbb757f25c9fa9ef510d0bea8d43c6a859e9ebd6a52ddfe7fa",
+        "manufactured_solution_L2_error": null
+      },
+      {
+        "case": "maxwell-order1",
+        "unknowns": 41280,
+        "iterations": 386,
+        "log_sha256": "adfe762756feba1eb24a6d29069654b9b8314624daf20eac91f184c5067e50ed",
+        "manufactured_solution_L2_error": 0.0134918
+      }
+    ],
+    "failed_extensions": [
+      {
+        "case": "maxwell-order2",
+        "process_exit_code": 0,
+        "solver_converged": false,
+        "reason": "PCG reached500iterations and explicitly reported no convergence; exit0 is insufficient.",
+        "log_sha256": "479a00791267c463098425bd18e44e576c03749abb22e96e2636205f10d2471b",
+        "reported_L2_error_unqualified": 0.00798451
+      },
+      {
+        "case": "maxwell-order2-static-condensation",
+        "process_exit_code": 0,
+        "solver_converged": false,
+        "reason": "PCG reached500iterations and explicitly reported no convergence; exit0 is insufficient.",
+        "log_sha256": "82b4cc0803e51a8986d62996fade28217a4bb8d1d47d97b8512e1db51ff69ad8",
+        "reported_L2_error_unqualified": 0.000906745,
+        "command": "ex3 -m star.mesh -o 2 -sc -no-vis"
+      }
+    ],
+    "human_scientific_review": "pending",
+    "paper_result_reproduction": false,
+    "source_hashes": {
+      "examples/ex1.cpp": "8a5841730522a7e5fb38bd1280c5129935450601f358f01b5b26076b6a2a9f29",
+      "examples/ex3.cpp": "463c42651234a9952f07ec3d87b00957f3a88f7596269b7caf6ddfaa0bc567d6",
+      "data/star.mesh": "374d20f1cd3457de6d398b33fb69f685215dd5cf8e23816f829a33f8b62bf210",
+      "INSTALL": "529b3c0d3bf56a791cc5bd43cc409dd1e9b3404f8b1e18ca052ea2dc4669689b"
+    },
+    "source_archive_sha256": "56c72d7b3f2d54eece81354546a41bc18ec5b3d56c12b132a69b2bcad2928509",
+    "build_log_sha256": "d3562ebbdf6edc72203366adb4951704d752bc9d220a5925fc7a9a9644d1336f",
+    "interpretation": "Two current upstream software examples executed; two higher-order extensions failed solver convergence and remain failed. No paper figure/table comparison or scientific reproduction is claimed."
+  }
+}

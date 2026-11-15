@@ -1,0 +1,99 @@
+{
+  "tool_id": "wntr",
+  "execution_status": "executed_example",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "All current official earthquake notebook code cells executed without numerical edits. Both 25x108 population-impacted CSV arrays exactly match current upstream regression fixtures (maximum absolute difference 0). 16 damaged pipes, 4 repaired after 15 h. Missing six dependency found on first attempt and installed only in isolated venv; failed attempt retained. This reproduces current upstream fixtures, not an established 2017 paper result.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/multiphysics/wntr-run/run-record.json",
+  "source_run_record_sha256": "e6322b7c82c581b4def674f7798525db8b3a21d0f57f0dff09e07dca859d446a",
+  "native_output_hashes_checked": 18,
+  "compact_outputs": [
+    {
+      "file": "wntr-earthquake_people_impacted.csv",
+      "sha256": "c576245cf59753b17b009898cd3883f56d4c6b07b9446e0fb10e39b47a638687",
+      "bytes": 11991
+    },
+    {
+      "file": "wntr-earthquake_people_impacted_wrepair.csv",
+      "sha256": "3e19c767d6c9d47b6b3d4e25ba8a0a780b1992b39f8765251bab205ff32c710c",
+      "bytes": 11416
+    }
+  ],
+  "run_record": {
+    "status": "executed_example",
+    "source": {
+      "repo": "USEPA/WNTR",
+      "ref": "main",
+      "commit": "39e6b34f37d4b2d074f107d822752c989bf108aa",
+      "path": "examples/earthquake_tutorial.ipynb",
+      "extraction": "All code cells concatenated in original order without numerical edits."
+    },
+    "script_sha256": "549d81d04807c8f9dc000ca1e3a141e130c24748539eb3dca1852872f1f458ca",
+    "python": "3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]",
+    "packages": {
+      "cantera": "3.2.0",
+      "wntr": "1.4.0",
+      "numpy": "2.5.4",
+      "matplotlib": "3.11.2",
+      "pandas": "3.1.1",
+      "scipy": "1.18.1"
+    },
+    "seconds": 2.207958459854126,
+    "checks": {
+      "earthquake_people_impacted.csv_finite": true,
+      "earthquake_people_impacted.csv_shape_matches_reference": true,
+      "earthquake_people_impacted.csv_reference_absolute_1e-6": true,
+      "earthquake_people_impacted_wrepair.csv_finite": true,
+      "earthquake_people_impacted_wrepair.csv_shape_matches_reference": true,
+      "earthquake_people_impacted_wrepair.csv_reference_absolute_1e-6": true
+    },
+    "measurements": {
+      "earthquake_people_impacted.csv": {
+        "shape": [
+          25,
+          108
+        ],
+        "reference_shape": [
+          25,
+          108
+        ],
+        "reference_max_abs_difference": 0.0
+      },
+      "earthquake_people_impacted_wrepair.csv": {
+        "shape": [
+          25,
+          108
+        ],
+        "reference_shape": [
+          25,
+          108
+        ],
+        "reference_max_abs_difference": 0.0
+      },
+      "comparison_scope": "Current upstream regression fixtures, not 2017 paper figures.",
+      "damaged_pipes": 16
+    },
+    "paper_result_reproduced": false,
+    "human_scientific_review": "pending",
+    "outputs": {
+      "figure-8.png": "20ca9b31a870f1a13e152111396bed44ac824d46bcb6d47b2a2c19e8faa7bbe2",
+      "figure-11.png": "484ffe4d880271544103be446f1cb550c79d80e3f9ca782d753429ef5a4136d3",
+      "figure-4.png": "5a117570c1f90cb24e34c47ad1970f8f5eb1a91528e3968d69a7bb2459143b08",
+      "figure-12.png": "98494e8a80aeeb46194039708b6e01a02649c53c9d935dab69a9965cd95847d2",
+      "figure-2.png": "94fa4ea801ccb188b92c5542e706254a57cbafa4e0b2ee022ee17abd5c82c4d4",
+      "figure-3.png": "4150f9d4870ac8ce103b71de3087e163a693279a6f285eff2e33471ddc3fde18",
+      "earthquake_people_impacted.csv": "c576245cf59753b17b009898cd3883f56d4c6b07b9446e0fb10e39b47a638687",
+      "figure-13.png": "bbb148ea86b02e70775cbefb12c5cf9ebe8dbfa0867811d1620965c27e55655c",
+      "figure-16.png": "2315744692be8debcae72b401fb258ff9b1f1fc009d87554f1db533dd4e6c051",
+      "figure-7.png": "6780b3843bad838e9065ce76b05f23efb17f217169d359ada4a55c13fc3e014e",
+      "earthquake_people_impacted_wrepair.csv": "3e19c767d6c9d47b6b3d4e25ba8a0a780b1992b39f8765251bab205ff32c710c",
+      "figure-1.png": "3d098e47bbaf6a8e1f1fa29b0fbcd8a75224e8dd90d76fccd0a7ab56ea88d10f",
+      "figure-9.png": "ea84d55692242d898ad9e5522fa5c5f777b3f55b7c971cb35e04f7c388e4b115",
+      "figure-10.png": "32d1ef0665b26b47d949ce86a883ee2401709c7f537dd3daed9350e2f0f763db",
+      "figure-14.png": "82e07d8e38256e79cc9c550fae98254e35996114a1f762fd51547980f0a74325",
+      "figure-6.png": "548c876f8eb205ba7b38813a3f4a589d276d9267a3aeea5ae60cff1075484da1",
+      "figure-15.png": "376d5065241a3c0c687653e796fa69bf9802f699f828ff72b9bfa28910fb8ca6",
+      "figure-5.png": "ca30de0cbc4a75ec5b1a80183bd00adc66f37a1aa78c241d997f5ad89f746536"
+    }
+  }
+}

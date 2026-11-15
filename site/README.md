@@ -30,7 +30,7 @@ The activity page still calls `community/update.py` directly. Publication target
 
 Long guides generate a native, collapsible on-page contents list and linked headings. Essential content, menus, materials, targets and journey stages work without JavaScript. Search falls back to the complete linked index and browser Find. If animation or JavaScript fails, reading content remains visible. Reduced motion bypasses entrance effects.
 
-The Simulation Lab reads `simulation-lab/tools.csv`, `papers.csv`, and `examples.csv`. The build validates their references and generated Markdown/BibTeX through `simulation-lab/catalog.py`. After editing those records, run `python3 simulation-lab/catalog.py --write` before building. The lab page, global search records, and downloadable CSV files use the same records.
+The Simulation Lab reads `simulation-lab/tools.csv`, `papers.csv`, and `examples.csv`. The build validates their references and generated Markdown/BibTeX through `simulation-lab/catalog.py`. After editing those records, run `python3 simulation-lab/catalog.py --write` before building. The lab page, global search records, and downloadable CSV files use the same records. The complete paper-to-code planning inventory lives in `simulation-lab/research/routes.json`; regenerate its six domain guides and CSV with `python3 simulation-lab/research.py --write` before regenerating the catalog. The site links every tool to its route, and the catalog validator checks complete coverage and generated-file freshness. Research routes have separate execution and paper-relationship fields and do not change the original teaching-run counts.
 
 ## Graphics, fonts and provenance
 

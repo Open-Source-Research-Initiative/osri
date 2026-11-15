@@ -1,0 +1,153 @@
+{
+  "tool_id": "ciw",
+  "execution_status": "executed_example",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "Unmodified v1.1.2 module executed with ciw 2.3.7, Python 3.12.16, NumPy 1.26.4 and pandas 2.2.3. Listing-6-style five-replication wrapper and a separate five-seed experiment ran; four checks passed, including exact repeatability of the seeded experiment. Seeded mean operator wait 3.270952 min; mean nurse wait 45.480603 min. The tutorial supplies no quantitative target/tolerance, so no paper-result reproduction is claimed.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/agents-operations/compact-run-record.json",
+  "source_run_record_sha256": "26b528bfb1a20941981858c631856ddf3b84612426fbb99eecfc33175962a5eb",
+  "native_output_hashes_checked": 4,
+  "compact_outputs": [
+    {
+      "file": "ciw-simpy-listing6-five-replications.csv",
+      "sha256": "ea16f5e9df1d6a2ad5dbd2376212413f69cd716f5616ac0648e1315e079d2f25",
+      "bytes": 453
+    },
+    {
+      "file": "ciw-ciw-listing6-five-replications.csv",
+      "sha256": "b13b7c929fb3ac149a8df943b7bbd64c7253d7f24ec3810a133f20d737729c37",
+      "bytes": 456
+    },
+    {
+      "file": "ciw-simpy-seeded-five-replications.csv",
+      "sha256": "0cd5d0cd777eba59f25240da2eae611f9c00c68ba12d149e966fb8fdb75720cb",
+      "bytes": 473
+    },
+    {
+      "file": "ciw-ciw-seeded-five-replications.csv",
+      "sha256": "0d4db637657c2ac04f230346e61f621061a189aff4c6f39cd50e6ab0c53ab320",
+      "bytes": 474
+    }
+  ],
+  "run_record": {
+    "source_archive_doi": "10.5281/zenodo.8193001",
+    "source_commit": "38c102ff46292496d1b2a3e5e4f83f4ab6331f28",
+    "python": "3.12.16",
+    "packages": {
+      "simpy": "4.0.1",
+      "ciw": "2.3.7",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3"
+    },
+    "paper_environment_difference": "Python 3.12 and newer NumPy/pandas, versus publication Python 3.9.16. Simulator versions match the article.",
+    "source_modified": false,
+    "claim": "Executed archived paper-associated models. No quantitative published-result target or tolerance was supplied by the tutorial, so this is not a paper-result reproduction.",
+    "output_hashes": {
+      "simpy-listing6-five-replications.csv": "ea16f5e9df1d6a2ad5dbd2376212413f69cd716f5616ac0648e1315e079d2f25",
+      "ciw-listing6-five-replications.csv": "b13b7c929fb3ac149a8df943b7bbd64c7253d7f24ec3810a133f20d737729c37",
+      "simpy-seeded-five-replications.csv": "0cd5d0cd777eba59f25240da2eae611f9c00c68ba12d149e966fb8fdb75720cb",
+      "ciw-seeded-five-replications.csv": "0d4db637657c2ac04f230346e61f621061a189aff4c6f39cd50e6ab0c53ab320"
+    },
+    "agent": "agents_operations",
+    "checked_on": "2026-11-15",
+    "run_command": "env/bin/python run_service_models.py",
+    "driver_sha256": "0640eb9f886b2cbe7e65a0e762a74fce2ae9e6a73c365b7f78f0edcadc59998c",
+    "runs": [
+      {
+        "tool": "simpy",
+        "module": "model.py",
+        "source_sha256": "f5976965885caef5ff5781049dba4c2895bfba347d8abc3fc8615e10775d6594",
+        "status": "executed_example",
+        "parameters": {
+          "n_operators": 13,
+          "n_nurses": 9,
+          "chance_callback": 0.4
+        },
+        "collection_minutes": 1000,
+        "replications": 5,
+        "listed_means": {
+          "01_mean_waiting_time": 2.8041516554885115,
+          "02_operator_util": 93.86230887049085,
+          "03_mean_nurse_waiting_time": 61.35255832486075,
+          "04_nurse_util": 97.30585261568802
+        },
+        "seeded_means": {
+          "01_mean_waiting_time": 4.118375122028491,
+          "02_operator_util": 93.4609604249732,
+          "03_mean_nurse_waiting_time": 43.501353866640386,
+          "04_nurse_util": 96.27178500421162
+        },
+        "seeds": {
+          "replication_seed": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "simpy_stream_offsets": {
+            "arrival": 0,
+            "call": 100,
+            "callback": 200,
+            "nurse": 300
+          }
+        },
+        "checks": {
+          "five_rows_four_measures": true,
+          "finite_nonnegative": true,
+          "utilization_zero_to_100": true,
+          "exact_seeded_repeatability": true
+        }
+      },
+      {
+        "tool": "ciw",
+        "module": "ciw_model.py",
+        "source_sha256": "0414f98aa8af14b8908106c49ad0bf2dc73600d8b66444fa081593796401c28c",
+        "status": "executed_example",
+        "parameters": {
+          "n_operators": 13,
+          "n_nurses": 9,
+          "chance_callback": 0.4
+        },
+        "collection_minutes": 1000,
+        "replications": 5,
+        "listed_means": {
+          "01_mean_waiting_time": 3.32115260072852,
+          "02_operator_util": 93.18822623468398,
+          "03_mean_nurse_waiting_time": 58.93966959543351,
+          "04_nurse_util": 97.69153476114697
+        },
+        "seeded_means": {
+          "01_mean_waiting_time": 3.270952211731996,
+          "02_operator_util": 92.53835275799611,
+          "03_mean_nurse_waiting_time": 45.48060298155157,
+          "04_nurse_util": 97.2942369510117
+        },
+        "seeds": {
+          "replication_seed": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "checks": {
+          "five_rows_four_measures": true,
+          "finite_nonnegative": true,
+          "utilization_zero_to_100": true,
+          "exact_seeded_repeatability": true
+        }
+      }
+    ],
+    "checks_per_tool": 4,
+    "failed_attempt_preserved": "attempt-1/service-execution.json records missing pkg_resources; resolved with setuptools75.8.0.",
+    "outputs_relative_to_run_directory": [
+      "simpy-listing6-five-replications.csv",
+      "ciw-listing6-five-replications.csv",
+      "simpy-seeded-five-replications.csv",
+      "ciw-seeded-five-replications.csv"
+    ],
+    "source_archive_sha256": "e3a1db0130c74cba160d692764fe2a4a478263bbfb1205deea2a96d591936203"
+  }
+}

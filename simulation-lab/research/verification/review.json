@@ -1,0 +1,94 @@
+{
+  "reviewer": "Codex review_routes agent",
+  "review_date": "2026-11-15",
+  "independent_human_review": false,
+  "records_inspected": 60,
+  "manifest_sha256_at_review": "926366e586c9076326a2a3a89e2fbbce2f2793b60b6505acae48c591bbf9aff5",
+  "primary_routes_live_checked": 14,
+  "blocking_findings": [],
+  "final_delta_review": {
+    "status": "passed_no_remaining_blocking_findings",
+    "records": 60,
+    "execution_status_counts": {
+      "not_run": 51,
+      "executed_example": 7,
+      "analysed_saved_output": 1,
+      "attempted_blocked": 1
+    },
+    "reproduction_tier_counts": {
+      "paper_model_adaptation": 27,
+      "paper_result_candidate": 21,
+      "software_paper_example": 10,
+      "related_tutorial_only": 1,
+      "unresolved": 1
+    },
+    "checks": [
+      "research.py validates all 60 records and generated-file freshness.",
+      "All 23 execution evidence links resolve to existing repository files.",
+      "All nine execution/analysis/blocked receipts match manifest status.",
+      "All nine receipts explicitly set paper_result_reproduced=false and human scientific review pending.",
+      "Compact output hashes in all receipts match files.",
+      "ns-3 clone/cd correction present in final consolidated manifest.",
+      "Preprint labels visible in generated scenes guide.",
+      "ORE saved-output discrepancy preserved; analysed_saved_output remains separate from simulator execution.",
+      "MFEM records two converged examples and two failed order-2 extensions; exit zero is not treated as convergence.",
+      "Cantera output compares only the documented example baseline; WNTR compares only current upstream fixtures; Brian2 does not claim a published-trace match.",
+      "SimPy/Ciw qualify environment drift and make no cross-simulator equivalence claim."
+    ],
+    "simulations_rerun_by_reviewer": false,
+    "new_primary_source_search_required": false,
+    "parent_native_output_hash_entries_checked": 43,
+    "parent_hash_count_note": "Reported count of checks across tool receipts; shared SimPy/Ciw outputs occur in both receipts."
+  },
+  "parent_validation": {
+    "native_output_hash_entries_checked": 43,
+    "all_match": true,
+    "research_record_tests_passed": 5,
+    "existing_site_tests_passed": 14,
+    "rendered_pages_checked": 96,
+    "local_links_checked": 4558,
+    "search_records_checked": 205,
+    "browser_check": {
+      "date": "2026-11-15",
+      "browser": "156.0.8078.4",
+      "tools": 60,
+      "examples": 12,
+      "financeCount": 4,
+      "search": "case-insensitive, domain intersection, empty state, reset passed",
+      "globalSearch": "60 tool records indexed; OpenUSD resource result opens the tool anchor",
+      "keyboard": "details opens with Enter; mobile navigation opens and closes with Escape",
+      "viewports": [
+        {
+          "width": 1440,
+          "content": 1440
+        },
+        {
+          "width": 1024,
+          "content": 1024
+        },
+        {
+          "width": 768,
+          "content": 768
+        },
+        {
+          "width": 390,
+          "content": 390
+        },
+        {
+          "width": 320,
+          "content": 320
+        }
+      ],
+      "downloads": {
+        "tools": 60,
+        "papers": 36,
+        "examples": 12
+      },
+      "noJavaScript": "60 tools and 12 examples available",
+      "researchRoutes": "60 indexed routes; six guide pages and all tool anchors checked; 60-row CSV; desktop/mobile table fits",
+      "pageErrors": []
+    },
+    "desktop_mobile_screenshots_inspected": true,
+    "scientific_claim_scope": "Example execution, input/output integrity and bounded checks; no exact published-result reproduction claimed."
+  }
+}

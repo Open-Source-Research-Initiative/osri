@@ -26,7 +26,7 @@ The public resources contain citations, passage locations, independently written
 | ABIDES | Original framework and historical dependencies. The distinct JPMorgan fork was archived when checked. |
 | PyPSA-Eur | Modern small tutorial linked to a 2018 model paper; the current run is not asserted to reproduce the original results. |
 | SUMO LuST | Author model originally validated on SUMO 0.26. New simulator versions need a documented port and comparison. |
-| ViNoS | JOSS article reviewed; source-host access challenge prevented model inspection. Archive retrieval and model licensing remain pending. |
+| ViNoS | Initial source-host challenge preserved as review history. Follow-up retrieved and inspected v1.3.2, version DOI 10.5281/zenodo.10798132, model/BehaviorSpace files and mixed per-file licenses. Model execution remains pending; see the dated fisheries-guide correction. |
 | Turek–Hron | Benchmark citation and current preCICE implementation checked; original numerical target tables still need review before a reproduction claim. |
 
 Keep dated source checks when updating the catalog. A repository can move, an archive can become unavailable, and default branches or licenses can change. Follow a guide's pinned version when its commands depend on that version.

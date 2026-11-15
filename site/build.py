@@ -276,10 +276,11 @@ class Website:
         tools = read_csv("simulation-lab/tools.csv")
         papers = {row["id"]: row for row in read_csv("simulation-lab/papers.csv")}
         examples = {row["example_id"]: row for row in read_csv("simulation-lab/examples.csv")}
+        research_routes = {row["tool_id"]: row for row in json.loads((HUB / "simulation-lab/research/routes.json").read_text())["records"]}
         executed = sum(row["status"] == "executed_adaptation" for row in examples.values())
         status = runpy.run_path(str(HUB / "simulation-lab/catalog.py"), run_name="osri_lab")["STATUS"]
         body = self.heading("Simulation Lab", "Learn from a model. Run an experiment.", f"Explore {len(tools)} tools and {len(examples)} examples linked to published research, from robot learning and battery physics to markets, household saving, and public policy.")
-        body += '<div class="text-actions">' + link("Browse tools", "#tool-catalog") + link("Run the CPU examples", self.docs["simulation-lab/examples/cpu-walkthroughs.md"]) + link("Read the lab guide", self.docs["simulation-lab/README.md"]) + '</div>'
+        body += '<div class="text-actions">' + link("Browse tools", "#tool-catalog") + link("Run the CPU examples", self.docs["simulation-lab/examples/cpu-walkthroughs.md"]) + link("Read the lab guide", self.docs["simulation-lab/README.md"]) + link("Research routes for all 60 tools", self.docs["simulation-lab/research/README.md"]) + '</div>'
         body += f'<section class="record-section" id="literature-examples"><h2>Start with a published example</h2><p>{executed} teaching examples have been run locally. Other routes point to inspected upstream instructions or an artifact still to retrieve. Each guide explains its relationship to the paper.</p><div class="guide-list">'
         for row in examples.values():
             guide = self.rewrite(row["guide"], "simulation-lab/README.md")
@@ -293,11 +294,13 @@ class Website:
             if row["paper_ids"]:
                 body += '<p>Literature: ' + "; ".join(link(papers[key]["title"], self.docs["simulation-lab/bibliography.md"] + "#" + key) for key in row["paper_ids"].split(";")) + '</p>'
             else:
-                body += '<p>A verified literature example is still needed.</p>'
+                body += '<p>See the construction route below for a candidate paper and its source assessment.</p>'
             if row["example_ids"]:
                 body += '<ul>' + "".join('<li>' + link(examples[key]["title"], self.rewrite(examples[key]["guide"], "simulation-lab/README.md")) + ' — ' + escape(status[examples[key]["status"]]) + '</li>' for key in row["example_ids"].split(";")) + '</ul>'
             else:
                 body += '<p>No OSRI walkthrough yet; start with the official documentation.</p>'
+            route = research_routes[row["tool_id"]]
+            body += '<p>Paper-to-code construction: ' + link(route["paper"]["title"], self.docs["simulation-lab/research/" + route["group"] + ".md"] + "#" + row["tool_id"]) + '</p>'
             body += f'<p class="small">Source checked {escape(row["checked_date"])}; {escape(row["source_status"].replace("_", " "))}.</p></details></article>'
         body += '</div><p class="filter-empty" hidden>No tools match. Try another term or domain.</p></section><div class="text-actions">' + link("Download tools (CSV)", "/data/simulation-lab-tools.csv") + link("Download examples (CSV)", "/data/simulation-lab-examples.csv") + link("Add a tool or example", self.docs["simulation-lab/contributing.md"]) + '</div>'
         self.write("/simulation-lab/", self.layout("Simulation Lab", body, active="/simulation-lab/", source="simulation-lab/README.md"))
@@ -347,7 +350,9 @@ class Website:
         for name in ["styles.css", "site.css", "site.js", "search.js"]:
             shutil.copy2(SITE / name, self.output / name)
         shutil.copy2(HUB / "identity/prism/previews/social-org.png", self.output / "assets/images/social-org.png")
-        for path in ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv", "simulation-lab/tools.csv", "simulation-lab/papers.csv", "simulation-lab/examples.csv"]:
+        data_paths = ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv", "simulation-lab/tools.csv", "simulation-lab/papers.csv", "simulation-lab/examples.csv", "simulation-lab/research/routes.csv"]
+        data_paths += [path.relative_to(HUB).as_posix() for path in sorted((HUB / "simulation-lab/research/verification").glob("*.csv"))]
+        for path in data_paths:
             destination = self.output / "data" / path.replace("/", "-")
             destination.parent.mkdir(exist_ok=True)
             shutil.copy2(HUB / path, destination)

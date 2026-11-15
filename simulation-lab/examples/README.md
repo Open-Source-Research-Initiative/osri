@@ -1,6 +1,6 @@
 # Literature examples
 
-Start with a paper and a specific model, equation, listing, or benchmark. The table distinguishes local teaching runs from upstream reproduction routes. The [bibliography](../bibliography.md) supplies complete citations.
+Start with a paper and a specific model, equation, listing, or benchmark. The table distinguishes local teaching runs from upstream reproduction routes. The [bibliography](../bibliography.md) supplies complete citations. For the full catalog, use the [paper-to-code construction routes for all 60 tools](../research/README.md); their source and execution assessments are separate from the teaching runs below.
 
 | Example | Literature connection | Available now |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Start with a paper and a specific model, equation, listing, or benchmark. The ta
 | [European energy networks](energy.md) | Hörsch et al. (2018), PyPSA-Eur | Checked current tutorial; not a rerun of the 2018 model |
 | [Service queues](queues.md) | Monks and Harper (2023), worked urgent-care call-centre model | Published code archive and browser/local setup; not run |
 | [Urban traffic](traffic.md) | Codeca et al. (2017), Luxembourg traffic-demand evaluation | Author configuration files and version restriction; not run |
-| [Fisheries and policy](fisheries.md) | Lemmen et al. (2024), ViNoS | Article read; model artifact retrieval pending |
+| [Fisheries and policy](fisheries.md) | Lemmen et al. (2024), ViNoS | Versioned model and experiment inspected; not run |
 
 **New to simulation?** Start with [battery discharge](cpu-walkthroughs.md#battery-discharge), then inspect its CSV before changing a parameter. For a browser route, try the published [service-model notebooks](queues.md). A hosted notebook service's availability is separate from the availability of the source code.
 

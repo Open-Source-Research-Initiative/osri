@@ -20,11 +20,20 @@ For an example, add a guide that gives the research question, exact paper connec
 
 Use the [run-record template](run-record-template.md) for a new run. A claim that a published result was reproduced also needs a specified target, matched methods and inputs, an explicit comparison and tolerance, and human scientific review. Keep substantive new studies in their own research repositories.
 
+## Research routes for the complete catalog
+
+The [paper-to-code route inventory](research/README.md) records construction plans separately from the accepted teaching-example catalog. Edit `research/routes.json` and preserve the primary metadata record, the paper location, code-to-paper relationship, immutable version where available, input access, construction commands, comparison target, execution evidence, and unresolved gaps.
+
+A paper result candidate identifies what to reproduce; a software-paper example or related tutorial has a narrower relationship to the research. Do not upgrade an execution status without a run record. A published-target comparison needs matched inputs and methods, an explicit observable and tolerance, and retained numerical evidence. Human scientific review remains separate.
+
+Run `python3 simulation-lab/research.py --write` before regenerating the main catalog. This validates one route per catalog tool and generates the six domain guides and downloadable route inventory. New substantive research belongs in a study repository; this inventory is shared learning and reproduction planning.
+
 ## Regenerate and check
 
 From the hub root, using Python 3.10 or newer:
 
 ```sh
+python3 simulation-lab/research.py --write
 python3 simulation-lab/catalog.py --write
 python3 simulation-lab/catalog.py
 ```

@@ -1,0 +1,108 @@
+{
+  "tool_id": "cantera",
+  "execution_status": "executed_example",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "Official Cantera v3.2.0 script ran unchanged under a logging/plot-export harness. At 1000 K and 40 atm, real-gas ignition delay=0.0004092691037528133 s and ideal-gas delay=0.00043326392307736766 s; real-gas value matches documented 4.093e-4 s within the declared 0.2% example tolerance. Both 16-point temperature sweeps finite and positive. This checks official example output, not a paper figure.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/multiphysics/cantera-run/run-record.json",
+  "source_run_record_sha256": "c33bf2cde06b5acf4f8182a52205f117e79f3bf21b1b5e4596ef540d814268f7",
+  "native_output_hashes_checked": 3,
+  "compact_outputs": [
+    {
+      "file": "cantera-temperature-sweep.csv",
+      "sha256": "4b1873416c5fcdb202ac2642ed13439c197b05f932745b408632383a3af26184",
+      "bytes": 1249
+    }
+  ],
+  "run_record": {
+    "status": "executed_example",
+    "source": {
+      "repo": "Cantera/cantera",
+      "ref": "v3.2.0",
+      "commit": "4a8358eb80cfeb50474386b5f9ec0b3a83519889",
+      "path": "samples/python/reactors/non_ideal_shock_tube.py"
+    },
+    "script_sha256": "60037a6d2903550462ce63b2b67994a706e426699ae7b696c5836aeefd0ebe42",
+    "python": "3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]",
+    "packages": {
+      "cantera": "3.2.0",
+      "wntr": "1.4.0",
+      "numpy": "2.5.4",
+      "matplotlib": "3.11.2",
+      "pandas": "3.1.1",
+      "scipy": "1.18.1"
+    },
+    "seconds": 38.345104932785034,
+    "checks": {
+      "finite_positive_delays": true,
+      "real_gas_documented_baseline_within_0p2percent": true
+    },
+    "measurements": {
+      "tau_RG": 0.0004092691037528133,
+      "tau_IG": 0.00043326392307736766,
+      "temperatures_K": [
+        1250,
+        1170,
+        1120,
+        1080,
+        1040,
+        1010,
+        990,
+        970,
+        950,
+        930,
+        910,
+        880,
+        850,
+        820,
+        790,
+        760
+      ],
+      "real_gas_delay_s": [
+        2.274415099909795e-05,
+        5.5326787775829845e-05,
+        0.00010240071733827619,
+        0.00017226855404048634,
+        0.0002856656775527476,
+        0.00038417511024013495,
+        0.0004253805586728579,
+        0.0004248209329743226,
+        0.0003910826199450819,
+        0.00034957306973035663,
+        0.0003214248100301053,
+        0.0003116458029833909,
+        0.0003233355784536022,
+        0.00034983719925167774,
+        0.00041378630213116083,
+        0.0005818833951541033
+      ],
+      "ideal_gas_delay_s": [
+        2.3797003663684305e-05,
+        5.794960231978815e-05,
+        0.00010729187457972642,
+        0.00018057751959834828,
+        0.0003001346925163897,
+        0.0004056674736206579,
+        0.0004516002626739914,
+        0.0004536123825604848,
+        0.000419420462011232,
+        0.0003759589842317856,
+        0.00034606895798020384,
+        0.00033570938666738106,
+        0.0003484301220092236,
+        0.00037714654431331997,
+        0.0004451438432597664,
+        0.0006215449099709504
+      ],
+      "comparison_scope": "Official Cantera 3.2 documentation baseline, not a digitized paper-result target.",
+      "runtime_mechanism_sha256": "3d3b59ed91dec0d0bcbac2fa2ef2cba13fbd565bfff8f266ca847ed6aa92f7f1"
+    },
+    "paper_result_reproduced": false,
+    "human_scientific_review": "pending",
+    "outputs": {
+      "figure-2.png": "e9548ae254ef5c0ee24f9af1af9b961117eae847a073bfd6c6c46895361a328b",
+      "temperature-sweep.csv": "4b1873416c5fcdb202ac2642ed13439c197b05f932745b408632383a3af26184",
+      "figure-1.png": "dfb2b32124a219f9209150a292bad9dbd7da2fe8cc71714591bb92197501bab4"
+    }
+  }
+}

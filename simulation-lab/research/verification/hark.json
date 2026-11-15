@@ -1,0 +1,28 @@
+{
+  "tool_id": "hark",
+  "execution_status": "attempted_blocked",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "Unmodified author script at commit 0a278360b77eeac1df1e91374c168b3091365fbf attempted with Python 3.12.16/HARK 0.17.2. Exited 1 at line 147: ImportError, HARK.utilities.plotFuncs removed/renamed. This tests modern compatibility only, not the historical author environment. No figures or tables generated.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/finance-economics/hark-attempt/run.json",
+  "source_run_record_sha256": "30f2788849c4e83ce6d6b7d52668dfcb435b6b62ca4dcd14548d2c9422083cbb",
+  "native_output_hashes_checked": 0,
+  "compact_outputs": [],
+  "run_record": {
+    "started_at": "2026-11-15T20:23:05.974474+00:00",
+    "command": [
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-lab-2026-11-15/examples-env/bin/python",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/finance-economics/hark-attempt/Code/Python/BufferStock-LifeCycle.py"
+    ],
+    "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/finance-economics/hark-attempt/Code/Python",
+    "source_commit": "0a278360b77eeac1df1e91374c168b3091365fbf",
+    "source_sha256": "8d1618a2b7ed13af37795ce030c1c1d21a7900ea333d13a596b39ccd20b7a980",
+    "source_modified": false,
+    "exit_code": 1,
+    "stdout_file": "stdout.log",
+    "stderr_file": "stderr.log",
+    "runtime": "Existing lab Python 3.12.16 with econ-ark 0.17.2; this is a compatibility attempt, not the historical environment.",
+    "status": "attempted_blocked",
+    "result": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/finance-economics/hark-attempt/Code/Python/BufferStock-LifeCycle.py:275: SyntaxWarning: \"is\" with 'str' literal. Did you mean \"==\"?\n  if direc is 'neg':\n/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/finance-economics/hark-attempt/Code/Python/BufferStock-LifeCycle.py:311: SyntaxWarning: \"is\" with 'str' literal. Did you mean \"==\"?\n  if direc is 'neg' :\nTraceback (most recent call last):\n  File \"/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/finance-economics/hark-attempt/Code/Python/BufferStock-LifeCycle.py\", line 147, in <module>\n    from HARK.utilities import plotFuncs\nImportError: cannot import name 'plotFuncs' from 'HARK.utilities' (/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-lab-2026-11-15/examples-env/lib/python3.12/site-packages/HARK/utilities.py). Did you mean: 'plot_funcs'?\n"
+  }
+}
