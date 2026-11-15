@@ -1,6 +1,6 @@
 # Simulation Lab verification record
 
-Checks performed by **Codex on 2026-11-15**, under Cole's direction. This is a technical record, not independent human scientific review. Cole authorized merging and publishing after the final technical review; the acceptance and release record is [PR #11](https://github.com/Open-Source-Research-Initiative/osri/pull/11).
+Checks performed by **Codex on 2026-11-15**, under Cole's direction. This is a technical record, not independent human scientific review. Cole authorized merging and publishing after the final technical review; the original release record is [PR #11](https://github.com/Open-Source-Research-Initiative/osri/pull/11). Cole has also authorized merging [PR #12](https://github.com/Open-Source-Research-Initiative/osri/pull/12) and publishing its examples after final technical review. This release authorization does not record independent human scientific review.
 
 ## Original release: executed CPU examples
 
@@ -30,7 +30,7 @@ These checks test the examples' behavior. QuantLib's [generator implementation](
 
 ## Literature and upstream routes
 
-The bibliography contains 36 DOI records checked against Crossref. The [reading-status field](papers.csv) distinguishes metadata checks from inspected full-text passages. Black–Scholes assumptions and Eq. 13 and Carroll's model/calibration passages were read in the supplied PDFs. The original articles are not redistributed.
+The original release bibliography contained 36 DOI records checked against Crossref; the current bibliography has 48 records checked against primary Crossref or DataCite metadata. The [reading-status field](papers.csv) distinguishes metadata checks from inspected full-text passages. Black–Scholes assumptions and Eq. 13 and Carroll's model/calibration passages were read in the supplied PDFs. The original articles are not redistributed.
 
 At the original release, seven other example routes had inspected upstream instructions but were not executed: Isaac Lab, ABIDES, the historical Carroll reproduction, preCICE FSI3, PyPSA-Eur, service queues, and LuST. ViNoS was an artifact-access lead at that point; the later versioned-archive retrieval and new model executions are recorded in the follow-up below. No GPU training, historical container, full traffic model, energy workflow, or coupled CFD run is claimed here.
 
@@ -52,7 +52,7 @@ New run receipts cover author/official software examples, a saved-output reanaly
 
 ViNoS v1.3.2 was retrieved and inspected, so its original source-access gap is closed; its model has not run. ORE saved outputs differ from the paper's exact 50% exposure-concentration statement, and HARK's unmodified historical script fails under the modern API. MFEM variants that report nonconvergence remain failed numerical checks even when their process exits zero. These findings remain visible.
 
-This follow-up is proposed work on a separate branch. Its technical and agent review does not record human scientific acceptance or authorization to publish the new result. The PR #11 authorization and checks above apply to the original release.
+Cole authorized merging PR #12 and publishing this follow-up after final technical review. The technical and agent review records do not establish independent human scientific acceptance. The PR #11 authorization and checks above describe the original release.
 
 ## Author-code campaign: 21 selected candidates
 
@@ -60,6 +60,6 @@ The [campaign index](reproductions/README.md) records all 21 candidates and link
 
 Other runs retain narrower or failed paper comparisons. GzDRL’s same-seed policy tensors agree but its return does not match the paper. HARK’s strict printed rounding target fails. AutoCkt training is incomplete and its reward threshold differs from strict constraint satisfaction. TaxFuncIntegr executes only the macro stage using public fitted inputs; restricted-PUF microsimulation was not run, and its negative government-spending closure fails feasibility. Dynare executes maintained third-party replication code with modern compatibility changes, not the inaccessible original estimation archive.
 
-Calliope compares archived output ranges; an expired original solver license prevented fresh optimization. ORE lacks the original fresh-simulation generator. The shared preCICE/deal.II attempt ran but failed coupling convergence, including a retry, so it remains blocked for the scientific target despite zero process exits in one run.
+Calliope compares archived output ranges. The original Gurobi license was expired, and a follow-up confirmed GLPK interface compatibility; the exact author input constructor then failed under the declared 12 GiB address-space cap before any backend or study optimization was completed. ORE lacks the original fresh-simulation generator. The shared preCICE/deal.II attempt ran but failed coupling convergence, including a retry, so it remains blocked for the scientific target despite zero process exits in one run.
 
 The parent verified native output-file hashes before export and kept full sources, environments and failed attempts outside the hub contribution. Public files are selected, reusable teaching artifacts; Kubric asset derivatives retain CC BY-SA 4.0 terms. The bibliography now includes primary DataCite metadata for archival preprints as well as Crossref records. Agent scientific review and automated checks remain distinct from human scientific review.
