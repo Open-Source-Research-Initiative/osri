@@ -1,0 +1,37 @@
+
+- Setup the topology...
+
+- Calculating routes...
+  Host  NodeId  System  Address
+  0     12      0       10.0.0.1
+  1     13      0       10.0.0.3
+  2     14      0       10.0.1.1
+  3     15      0       10.0.1.3
+  4     16      0       10.1.0.1
+  5     17      0       10.1.0.3
+  6     18      0       10.1.1.1
+  7     19      0       10.1.1.3
+
+- Generating traffic...
+  Expected data rate = 0.56Gbps
+  Generated data rate = 0.00379778Gbps
+  Expected avg flow size = 1.71125MB
+  Generated avg flow size = 0.040789MB
+  Total flow count = 1
+
+- Start simulation...
+  Detected #flow = 0
+  Finished #flow = 0
+  Average FCT (all) = -nanus
+  Average FCT (finished) = -nanus
+  Average end to end delay = -nanus
+  Average flow throughput = -nanGbps
+  Network throughput = 0Gbps
+  Total Tx packets = 0
+  Total Rx packets = 0
+  Dropped packets = 0
+
+- Done!
+  Event count = 106
+  Simulation time = 0.00046548s
+

@@ -1,0 +1,491 @@
+{
+  "tool_id": "calliope",
+  "title": "Archived energy-system metric comparison and verified optimizer blocker",
+  "question": "Do the author archived441 configurations recover Table1 metric ranges, and can the original optimization runtime start?",
+  "paper": {
+    "title": "Diversity of options to eliminate fossil fuels and reach carbon neutrality across the entire European energy system",
+    "identifier": "10.1016/j.joule.2022.05.009",
+    "url": "https://doi.org/10.1016/j.joule.2022.05.009",
+    "locator": "Table1 metric ranges; Figure3 describes441 configurations; Resource availability identifies model/result archives.",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/calliope-project/calliope",
+    "ref": "304cba8ab5e4fd212ea9f35cde49ac3a1a2303d7",
+    "commit": "304cba8ab5e4fd212ea9f35cde49ac3a1a2303d7",
+    "paths": [
+      "Author archive5774988:model/requirements.yml",
+      "model/create_input.py",
+      "model/run.py",
+      "model/model/eurospores/model-2018.yaml",
+      "Result archive6546817:slack-10/data/paper_metrics.csv"
+    ],
+    "license": "Calliope Apache-2.0; archived result data package CC-BY-4.0; commercial solver separate. No license file redistributed."
+  },
+  "inputs": {
+    "description": "Exact DOI archives model5774988 (691421748bytes), results6546817(1097344788bytes), verified author MD5. Source commit tarball recovered after ordinary git checkout failed.",
+    "access": "Public Zenodo author deposits, fully downloaded and hashed; optimization license prerequisite fails.",
+    "hashes": {
+      "euro-calliope-sector-coupled-v0.1.zip": "c1cff7a87474bc8178e1cfb8b0a79917ded35f88d1bbc6e6ab632d271eaeb974",
+      "euro-spores-results-v2022-05-13.zip": "05f585a9bd42b9875af8f0222a9285990aab5fdab23cd55256695dac42a5a133",
+      "calliope-original-source.tar.gz": "152760adb2eac8c7564e6abb3a80e0df909b6affab3552c472026853ce7fcea3"
+    }
+  },
+  "environment": {
+    "versions": {
+      "python": "3.7.12",
+      "calliope": "0.6.8-dev",
+      "gurobi": "9.1.2",
+      "numpy": "1.19.5",
+      "pandas": "1.2.5",
+      "pyomo": "6.0.1",
+      "xarray": "0.17.0",
+      "netCDF4": "1.5.8",
+      "setuptools": "67.8.0"
+    },
+    "changes_from_author": "Python3.7,Gurobi9.1.2 and exact Calliope commit follow archived requirements. Compatible dependency pins added to resolve missing legacy NetCDF wheels and incompatible setuptools. Public analysis script uses Python3 standard library and does not load an optimizer."
+  },
+  "commands": [
+    "micromamba create -p calliope-env -c conda-forge -c gurobi python=3.7 pip<=20 gurobi=9.1.2",
+    "calliope-env/bin/python -m pip install -c calliope-constraints.txt ./calliope-source/calliope-304cba8ab5e4fd212ea9f35cde49ac3a1a2303d7",
+    "calliope-env/bin/python -c \"import gurobipy; gurobipy.Model()\" (fails original solver license prerequisite)",
+    "python3 analyse_calliope_archive.py",
+    "python3 public/calliope/analyse_archive.py --output public/calliope/portable-check"
+  ],
+  "target": {
+    "observable": "Archived count441 configurations and extrema of9metrics versus Table1. A new baseline optimization is blocked before solving.",
+    "reference": "Verified result DOI6546817 and open full article via EuropePMC XML.",
+    "tolerance": "Counts exact; per-bound half-last-published-digit rounding tolerance as recorded in comparison JSON.",
+    "tolerance_basis": "Rounding intervals for published table presentation; not prediction accuracy or optimizer convergence.",
+    "declared_before_run": true,
+    "scope": "Archived-result analysis only; no new optimization. Full hourly model README estimates~2days; faithful smaller optimization target was not established."
+  },
+  "execution": {
+    "status": "analysed_saved_output",
+    "result": "Completed archived-data analysis:3969rows/441configurations, all9Table1ranges agree within rounding. Separate fresh open-solver follow-up confirmed GLPK5.0/Pyomo6.0.1 interface compatibility, then attempted the exact original model constructor; it failed a12GiB address-space budget with an8.05GiB Unicode allocation before native inputs or any study solve.",
+    "exit_code": 0,
+    "elapsed_seconds": null
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "archive_configurations": 441,
+      "metric_rows": 3969,
+      "all_ranges_match_rounding": true,
+      "metrics": {
+        "storage_discharge_capacity": {
+          "observed_range": [
+            0.0295568834742695,
+            10.866084839855777
+          ],
+          "paper_rounded_range": [
+            0.03,
+            11
+          ],
+          "rounding_tolerance": [
+            0.005,
+            0.5
+          ],
+          "within_rounding": true
+        },
+        "curtailment": {
+          "observed_range": [
+            0.1181335673529551,
+            6.356581410437055
+          ],
+          "paper_rounded_range": [
+            0,
+            6
+          ],
+          "rounding_tolerance": [
+            0.5,
+            0.5
+          ],
+          "within_rounding": true
+        },
+        "biofuel_utilisation": {
+          "observed_range": [
+            0.0,
+            99.9995922654263
+          ],
+          "paper_rounded_range": [
+            0,
+            100
+          ],
+          "rounding_tolerance": [
+            0.5,
+            0.5
+          ],
+          "within_rounding": true
+        },
+        "average_national_import": {
+          "observed_range": [
+            3.767194301482713,
+            69.46407067436424
+          ],
+          "paper_rounded_range": [
+            4,
+            69
+          ],
+          "rounding_tolerance": [
+            0.5,
+            0.5
+          ],
+          "within_rounding": true
+        },
+        "electricity_production_gini": {
+          "observed_range": [
+            0.5369595971949748,
+            0.7398559842812967
+          ],
+          "paper_rounded_range": [
+            0.54,
+            0.74
+          ],
+          "rounding_tolerance": [
+            0.005,
+            0.005
+          ],
+          "within_rounding": true
+        },
+        "fuel_autarky_gini": {
+          "observed_range": [
+            0.6431154543147005,
+            0.9859280897060496
+          ],
+          "paper_rounded_range": [
+            0.64,
+            0.99
+          ],
+          "rounding_tolerance": [
+            0.005,
+            0.005
+          ],
+          "within_rounding": true
+        },
+        "ev_flexibility": {
+          "observed_range": [
+            0.5202152919685685,
+            0.9246026317517496
+          ],
+          "paper_rounded_range": [
+            0.52,
+            0.92
+          ],
+          "rounding_tolerance": [
+            0.005,
+            0.005
+          ],
+          "within_rounding": true
+        },
+        "heat_electrification": {
+          "observed_range": [
+            3.981500188473535,
+            99.949547443602
+          ],
+          "paper_rounded_range": [
+            4,
+            100
+          ],
+          "rounding_tolerance": [
+            0.5,
+            0.5
+          ],
+          "within_rounding": true
+        },
+        "transport_electrification": {
+          "observed_range": [
+            52.64832433794121,
+            100.00000000000004
+          ],
+          "paper_rounded_range": [
+            53,
+            100
+          ],
+          "rounding_tolerance": [
+            0.5,
+            0.5
+          ],
+          "within_rounding": true
+        }
+      },
+      "new_optimization_performed": false,
+      "original_solver_prerequisite_exit_code": 1
+    },
+    "interpretation": "Independent paper-table extraction agrees with author data; does not reproduce or validate a new solver run. Original optimization remains blocked by a verified expired solver license."
+  },
+  "outputs": [
+    {
+      "path": "files/calliope/outputs/solver-blocker.log",
+      "sha256": "ead1e194882549467c38a96415103b78259edffe98a55588dfea86aacdf16bc3",
+      "bytes": 476,
+      "role": "figure_or_log",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/outputs/solver-blocker.log",
+      "published": true
+    },
+    {
+      "path": "files/calliope/outputs/glpk-interface-check.json",
+      "sha256": "09c8606ba641f2e82a77ee25a75ba97c30c6514da9640c8fdc52eb57ecc9e505",
+      "bytes": 215,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/outputs/glpk-interface-check.json",
+      "published": true
+    },
+    {
+      "path": "files/calliope/outputs/archive-comparison.json",
+      "sha256": "7c6aded1e9c71a564c8202d1a091c631c6b5a6c509ef0b9361ba23eb34e4535c",
+      "bytes": 3465,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/outputs/archive-comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/calliope/outputs/fresh-model-attempt.json",
+      "sha256": "30a77d65f2145982b78ca3c92b650f69cbc894e70da551a349f80283881c61b1",
+      "bytes": 4147,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/outputs/fresh-model-attempt.json",
+      "published": true
+    },
+    {
+      "path": "files/calliope/README.md",
+      "sha256": "ab14aed3376cd2d222ef985467b4dadfd6a2c8c58f54e7441ef38393b1b01e06",
+      "bytes": 6573,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/README.md"
+    },
+    {
+      "path": "files/calliope/analyse_archive.py",
+      "sha256": "8fa4f5b9e20f104f871166a49c3a9ffb90acbe8659b93ffe93b7fd965c77e82d",
+      "bytes": 2171,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/analyse_archive.py"
+    },
+    {
+      "path": "files/calliope/author-environment-lock.txt",
+      "sha256": "77d964654dee7561daf93cfd87cca834e4dfc030afaf724e3c37737310cb4bdf",
+      "bytes": 958,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/author-environment-lock.txt"
+    },
+    {
+      "path": "files/calliope/check_model_resources.py",
+      "sha256": "ebca9bb841cd4be8357164e620e0ce777048d88e9e5de19406526abcb27216c7",
+      "bytes": 2968,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/check_model_resources.py"
+    },
+    {
+      "path": "files/calliope/compatibility-constraints.txt",
+      "sha256": "1d056a2349243d8f017f58cb90a012a0256ec316a24e2a9aebf227e1e6f99933",
+      "bytes": 127,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/compatibility-constraints.txt"
+    },
+    {
+      "path": "files/calliope/fetch_archives.py",
+      "sha256": "81dab3d6c4c58132a138a3b72daa55077bf92d641c3cb5ed4ac3d0d66e1f11a4",
+      "bytes": 1097,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/fetch_archives.py"
+    },
+    {
+      "path": "files/calliope/fresh-solver-protocol.json",
+      "sha256": "cffb5b8173d299fee4e561d906baf15b7300f8abf4bbf55e6af342ccc7494b36",
+      "bytes": 2086,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/fresh-solver-protocol.json"
+    },
+    {
+      "path": "files/calliope/paper_metrics.csv",
+      "sha256": "2e01de18469c7b89fd6620d0e6423ca9fce29a99a37a8b48b0bf02ac962f1467",
+      "bytes": 204291,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/paper_metrics.csv"
+    },
+    {
+      "path": "files/calliope/target.json",
+      "sha256": "b28d2924dfbf646098f1937a1c5e3e12dd97945b69a8a565d262b31625e96057",
+      "bytes": 2723,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope/target.json"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-analysis-target-before-run.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-archive-analysis.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-solver-check.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-install.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-install-recovered.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-install-pinned.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-install-final.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-original-commit-check.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/zenodo-5774988.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/zenodo-6546817.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-open-solver/fresh-solver-protocol.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-open-solver/fresh-baseline-run.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-open-solver/fresh-baseline-run.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-open-solver/archive-compiled-model-check.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-open-solver/open-solver-feasibility.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-open-solver/glpk-interface-check.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/calliope-open-solver/glpk-interface-check.log"
+  ],
+  "blockers": [
+    "Exact author input constructor failed under a scoped12GiB process address-space limit:8.05GiB Unicode array allocation shape6491x8760,dtype<U38; peakRSS8993384KiB. This is a bounded resource outcome, not proof the host or an open solver inherently cannot solve the LP.",
+    "No compiled input arrays/LP exist in the two author archives, and native input construction did not complete; a fresh same-model backend/optimization was not reached.",
+    "Earlier originalGurobi9.1.2 prerequisite failed with an expired license. Existing GLPK5.0 is compatible with authorPyomo6.0.1; license expiry is not a general open-solver blocker."
+  ],
+  "next_action": "Qualify unchanged input construction in a provisioned environment or verify a memory representation improvement, persist native arrays, then run the same LP using the declared open-solver protocol and compare objective/residuals/capacities. Keep archived-data analysis separate.",
+  "relationship_to_paper": "Exact deposited model/results and requested runtime source. Archived-data comparison completed. A separate unchanged original-scenario constructor was attempted for a GLPK adaptation, but resource allocation failed before any study optimization.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/calliope",
+    "guide": "README.md",
+    "files": [
+      "README.md",
+      "analyse_archive.py",
+      "author-environment-lock.txt",
+      "check_model_resources.py",
+      "compatibility-constraints.txt",
+      "fetch_archives.py",
+      "fresh-solver-protocol.json",
+      "outputs/archive-comparison.json",
+      "outputs/fresh-model-attempt.json",
+      "outputs/glpk-interface-check.json",
+      "outputs/solver-blocker.log",
+      "paper_metrics.csv",
+      "target.json"
+    ]
+  },
+  "fresh_model_attempt": {
+    "status": "attempted_blocked",
+    "scope": "New bounded original-scenario GLPK adaptation attempt, separate from completed archived-data analysis.",
+    "protocol_file": "fresh-solver-protocol.json",
+    "solver_interface": {
+      "solver": "GLPK5.0",
+      "author_pyomo": "6.0.1",
+      "interface_probe_passed": true,
+      "probe_scope": "Minimal solver-interface prerequisite only, not the study model."
+    },
+    "model": {
+      "locations": 98,
+      "source_hourly_steps": 8760,
+      "requested_two_hour_steps": 4380,
+      "source_set_counts": {
+        "resources": 27,
+        "carriers": 26,
+        "carrier_tiers": 6,
+        "costs": 1,
+        "locs": 98,
+        "techs_non_transmission": 72,
+        "techs_demand": 9,
+        "techs_supply": 9,
+        "techs_supply_plus": 1,
+        "techs_conversion": 32,
+        "techs_conversion_plus": 9,
+        "techs_storage": 12,
+        "techs_transmission_names": 5,
+        "techs_transmission": 171,
+        "techs": 77,
+        "coordinates": 2,
+        "timesteps": 8760,
+        "techlists": 0,
+        "loc_carriers": 2058,
+        "loc_tech_carriers_con": 6076,
+        "loc_tech_carriers_conversion_all": 3822,
+        "loc_tech_carriers_conversion_plus": 2940,
+        "loc_tech_carriers_demand": 856,
+        "loc_tech_carriers_export": 0,
+        "loc_tech_carriers_prod": 6319,
+        "loc_tech_carriers_supply_all": 903,
+        "loc_tech_carriers_supply_conversion_all": 4725,
+        "loc_techs": 6491,
+        "loc_techs_area": 196,
+        "loc_techs_asynchronous_prod_con": 0,
+        "loc_techs_conversion": 2254,
+        "loc_techs_conversion_all": 3136,
+        "loc_techs_conversion_plus": 882,
+        "loc_techs_cost": 4089,
+        "loc_techs_costs_export": 0,
+        "loc_techs_demand": 856,
+        "loc_techs_export": 0,
+        "loc_techs_finite_resource": 980,
+        "loc_techs_finite_resource_demand": 294,
+        "loc_techs_finite_resource_supply": 588,
+        "loc_techs_finite_resource_supply_plus": 98,
+        "loc_techs_in_2": 294,
+        "loc_techs_in_3": 196,
+        "loc_techs_investment_cost": 3991,
+        "loc_techs_milp": 0,
+        "loc_techs_non_conversion": 3355,
+        "loc_techs_non_transmission": 6049,
+        "loc_techs_om_cost": 3305,
+        "loc_techs_om_cost_conversion": 882,
+        "loc_techs_om_cost_conversion_plus": 882,
+        "loc_techs_om_cost_supply": 707,
+        "loc_techs_om_cost_supply_plus": 98,
+        "loc_techs_out_2": 588,
+        "loc_techs_out_3": 98,
+        "loc_techs_purchase": 0,
+        "loc_techs_ramping": 0,
+        "loc_techs_storage": 1154,
+        "loc_techs_store": 1252,
+        "loc_techs_supply": 805,
+        "loc_techs_supply_all": 903,
+        "loc_techs_supply_conversion_all": 4039,
+        "loc_techs_supply_plus": 98,
+        "loc_techs_transmission": 442
+      },
+      "estimated_time_index_products": {
+        "loc_tech_carriers_prod": 27677220,
+        "loc_tech_carriers_con": 26612880,
+        "loc_techs_store": 5483760,
+        "loc_techs_supply_plus": 429240,
+        "loc_techs_om_cost": 14475900
+      },
+      "sum_estimated_time_index_products": 74679000,
+      "estimate_limit": "Source index products before actual backend creation. These are not instantiated or solved LP variable counts."
+    },
+    "process_address_space_cap_gib": 12,
+    "elapsed_seconds": 236.8993053259328,
+    "peak_rss_kib": 8993384,
+    "exception_type": "MemoryError",
+    "exception": "Unable to allocate 8.05 GiB for an array with shape (6491, 8760) and data type <U38",
+    "failure_stage": "Calliope preprocess/time.py:add_time_dimension, xr.broadcast(...).copy(), before resampling/native NetCDF/backend/solve.",
+    "native_inputs_persisted": false,
+    "backend_instantiated": false,
+    "solver_run_on_study_model": false,
+    "new_objective_compared": false,
+    "driver_exit_code": 0,
+    "driver_exit_note": "Recorded driver caught MemoryError and wrote failure status; shell0 is not success. Portable resource-check driver returns2 for a caught failure.",
+    "interpretation": "The exact author constructor exceeded the scoped12GiB process address-space budget through an8.05GiB Unicode broadcast allocation. This does not prove the31GiBhost or an open solver inherently cannot solve the LP. No scientific objective or capacity result was produced.",
+    "protocol_path": "fresh-solver-protocol.json",
+    "actual_driver_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 TMPDIR=<workspace-temp> timeout1800 calliope-env/bin/python -u calliope-open-solver/run_baseline_glpk.py",
+    "portable_driver": "check_model_resources.py (input-construction resource check only; no study solve)"
+  },
+  "research_group": "energy-transport",
+  "guide_source": "templates/calliope.md.in"
+}

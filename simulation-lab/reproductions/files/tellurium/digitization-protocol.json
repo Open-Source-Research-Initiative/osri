@@ -1,0 +1,33 @@
+{
+  "source": "https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1006220.g004",
+  "source_sha256": "9b0529a383c50d9541de954616a63143fd7cc9235f206f27026824a5a9c55ddd",
+  "target": "Figure4B blue Wee1c trace only",
+  "calibration": {
+    "x_time0": 2031,
+    "x_time250": 2830,
+    "y_zero": 790,
+    "y_one": 420
+  },
+  "sample_times": [
+    25,
+    50,
+    75,
+    100,
+    125,
+    145,
+    180,
+    200,
+    220,
+    240
+  ],
+  "tolerance": {
+    "rmse_at_most": 0.03,
+    "max_abs_at_most": 0.06
+  },
+  "basis": "Original PNG line about3-4pixels thick,370pixels per concentration unit; tolerance includes calibration, compression, time-pixel error and deterministic solver change. More generous max allowance near transients. Chosen before any Tellurium model execution.",
+  "declared_before_run": true,
+  "limitations": [
+    "Comparison covers selected Wee1c points in Figure4B, not all6panels.",
+    "Manual plot calibration needs human scientific review."
+  ]
+}

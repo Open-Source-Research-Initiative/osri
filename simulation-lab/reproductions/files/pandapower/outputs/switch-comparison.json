@@ -1,0 +1,16 @@
+{
+  "stage": "switch_analysis",
+  "counts": {
+    "all_states": 276,
+    "infeasible_topology": 96,
+    "short_circuit_invalid": 100,
+    "valid_states": 80
+  },
+  "checks": {
+    "published_switch_counts": true,
+    "reference_valid_switch_ids": true,
+    "reference_short_circuit_currents": true
+  },
+  "max_current_difference_ka": 4.762168437366654e-11,
+  "elapsed_seconds": 2.5689804553985596
+}

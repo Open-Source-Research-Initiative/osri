@@ -1,0 +1,69 @@
+{
+  "tool_id": "brian2",
+  "execution_status": "executed_example",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "Unmodified author model cells executed on Python 3.12.16 / Brian2 2.9.0 / NumPy 1.26.4, NumPy backend. Seed 79620, dt 0.1 ms, 10 s, 100000 samples; 2406 retinal spikes and motor counts 56/51. Six bounded consistency checks passed. All arrays retained in NPZ/CSV with SHA256, plus a new Matplotlib plot. Original Plotly presentation cell omitted. Published numeric reference was not recovered; this is author-code compatibility execution, not a verified Figure 3 reproduction.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/energy-natural-sciences/brian-eye-run/run-record.json",
+  "source_run_record_sha256": "d1589e77a07c012a8c50c59d9f0eae19cb255e49d767b13ada4f4744a01aead4",
+  "native_output_hashes_checked": 3,
+  "compact_outputs": [],
+  "run_record": {
+    "status": "executed_example",
+    "scientific_reproduction_claim": false,
+    "human_scientific_review": "pending",
+    "source_repository": "https://github.com/brian-team/brian2_paper_examples",
+    "source_commit": "73045cd61322e923e96883dc97c0848154f79f8c",
+    "notebook": "example_2_eye_movements.ipynb",
+    "paper_doi": "10.7554/eLife.47314",
+    "paper_target": "Case study 2 / Figure 3",
+    "source_notebook_sha256": "4663016b097268326696aba6d1c8e5d9d2b68a169164c2c988eeb7a9c0a6570a",
+    "executed_model_cells_sha256": "241c2dd16188ef3d0b32670e6fe4091fef7716e7103af8edc6080a481b5d1efb",
+    "model_cells_changed": false,
+    "presentation_change": "Skipped final Plotly cell, exported all numeric arrays and rendered a new Matplotlib plot.",
+    "backend": "numpy",
+    "python": "3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "brian2": "2.9.0",
+    "numpy": "1.26.4",
+    "seed": 79620,
+    "dt_seconds": 0.0001,
+    "duration_seconds": 10,
+    "samples": 100000,
+    "retinal_spikes": 2406,
+    "motor_spikes": [
+      56,
+      51
+    ],
+    "eye_object_rmse": 0.16351136562755472,
+    "elapsed_seconds": 6.469991683959961,
+    "checks": {
+      "samples_100000": true,
+      "all_positions_finite": true,
+      "time_monotonic": true,
+      "both_motor_neurons_spike": true,
+      "retina_spikes": true,
+      "nonconstant_eye_motion": true
+    },
+    "comparison_limitation": "No published numeric reference trace was recovered. Current Brian2 2.9.0 / Python 3.12 and NumPy backend differ from the paper environment Brian2 2.2.2.1 / Python 3.6. These checks establish execution and bounded internal consistency, not Figure 3 reproduction.",
+    "outputs": {
+      "trajectories.npz": {
+        "bytes": 2393045,
+        "sha256": "3ec265438d45cd1726a39c8058763bff5851add576aa7b183003f1b9f48a45fa"
+      },
+      "eye-movements.png": {
+        "bytes": 89129,
+        "sha256": "b29765ed85a082d32938e8469a081700383139cf06760ee509b734623062a16a"
+      },
+      "positions.csv": {
+        "bytes": 10154733,
+        "sha256": "45d06c6465e448e503fbbdfc2cd023783f91450299061ef6144e6e4be7af740e"
+      }
+    },
+    "checked_at": "2026-11-15T20:25:40.059767+00:00",
+    "command": "MPLCONFIGDIR=/workspace/cache/builderbob/osri-simulation-paper-examples/matplotlib XDG_CACHE_HOME=/workspace/cache/builderbob/osri-simulation-paper-examples TMPDIR=/workspace/tmp/builderbob/osri-simulation-lab brian-env/bin/python run_brian_eye.py",
+    "run_script_sha256": "8a7e27df5753f6ac518a3951e96afb733b1dfbbf4314f8103c1e22380d1f9be0",
+    "environment_freeze_sha256": "91e8ecb761601286e79d4cdb785359491a66936cc811427560dff20b020b74d7",
+    "failed_setup_attempt": "Initial wrapper asserted 10 code cells; actual notebook contains 9. Assertion corrected before model execution. Retained log: brian-eye-first-attempt.log."
+  }
+}

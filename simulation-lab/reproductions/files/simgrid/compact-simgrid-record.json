@@ -1,0 +1,208 @@
+{
+  "tool_id": "simgrid",
+  "title": "SimGrid: Figure 13 endpoint workloads",
+  "paper": {
+    "title": "Lowering entry barriers to developing custom simulators of distributed applications and platforms with SimGrid",
+    "identifier": "10.1016/j.parco.2025.103125",
+    "url": "https://fred-suter.com/files/publications/simgrid-parco25.pdf",
+    "locator": "Introduction paragraph before Section 2; Section 7, Figures 13-14; reference 66.",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/simgrid/coordinator_worker_flashback",
+    "ref": "main",
+    "commit": "b09453d19541b7186703f4d651c1bba790461e44",
+    "paths": [
+      "masterworker-v3_10.c",
+      "masterworker-v3_34.cpp",
+      "Dockerfile_simgrid_v3_10",
+      "Dockerfile_simgrid_v3_36"
+    ],
+    "license": "Model files carry SimGrid-team GNU LGPL notices referring to the package. SimGrid package COPYING identifies LGPL-2.1 core, with component notices."
+  },
+  "inputs": {
+    "description": "Original generated platform ranges: 1,000 four-core hosts, 100 links, ten-link routes, 100-200 Mflop/s cores, 100-200 MB/s links, 100 Mflop/100 MB workunits. Figure 13 endpoints: 4,000 and 60,000 workunits, seeds zero through nine, both versions.",
+    "access": "Synthetic generated inputs; native XML saved for validation cases.",
+    "hashes": [
+      {
+        "path": "simgrid-benchmark/masterworker-v3_10.c",
+        "sha256": "070eff3191fdfee19f53aa02e738c31930c0c2bb87968c127307f5562f27fb3c"
+      },
+      {
+        "path": "simgrid-benchmark/masterworker-v3_34.cpp",
+        "sha256": "2910ff2e08331fc08c013d630e3553276dc17701b22130290ac3e2b9642be800"
+      },
+      {
+        "path": "simgrid-benchmark/Dockerfile_simgrid_v3_10",
+        "sha256": "ed50df44ee79d7b34c3afb626054f82b18316a839dceb842769e17d47f0e19d0"
+      },
+      {
+        "path": "simgrid-benchmark/Dockerfile_simgrid_v3_36",
+        "sha256": "67298b0bd71e815c2228fa19b4bc9e8f498851aa5cb3494ea005c998d5ff80ed"
+      }
+    ]
+  },
+  "environment": {
+    "versions": {
+      "operating_system": "Ubuntu 24.04.5 LTS",
+      "compiler": "GCC/G++ 13.3.0",
+      "cmake": "3.31.6",
+      "boost": "1.90.0; existing prefix reused read-only",
+      "simgrid3.10_commit": "9a82cac1b6f73bb342495c39807acd7380e153d5",
+      "simgrid3.36_commit": "7ed73b43153fc79a8c5eb5cff8e9f81e4f52e619",
+      "cpu_affinity": "one CPU, logical CPU 0, shared host"
+    },
+    "changes_from_author": [
+      "Source builds on Ubuntu 24.04 instead of Debian 12 containers.",
+      "Only two hardcoded /tmp XML paths moved under run directory; numerical/event logic unchanged.",
+      "Exact authors Dockerfile CMake workaround applied for 3.10; configure run from build directory for its old probes.",
+      "Optional SMPI/model checking disabled; 3.36 host energy enabled as author driver does.",
+      "Dedicated paper Xeon 8380 hardware not matched; intermediate Figure 13 points and Figure 14 core-count sweep not run."
+    ]
+  },
+  "target": {
+    "observable": "Compare original MSG3.10 and S4U3.36 author benchmark makespans and simulator RSS/wall time for paper Figure13 workload, 1000hosts4cores,4000tasks; exploratory diagnostic4hosts40tasks first.",
+    "reference": "Paper introduction explicitly calls3.10 v3, with developments through3.36 culminating in4.0; reference66 Dockerfiles pin3.10 and3.36.",
+    "tolerance": "Makespan agreement <=1e-6 simulated seconds (local validation rule, not specified by paper); report observed differences and performance ratios without asserting hardware-specific speedup replication.",
+    "tolerance_basis": "Six decimals in native log timestamps. No portable runtime/RSS threshold imposed.",
+    "declared_before_run": true,
+    "scope": "Makespan consistency and descriptive endpoint performance/RSS comparison. Complete historical curves and hardware are not matched."
+  },
+  "execution": {
+    "status": "author_code_executed",
+    "result": "48 native runs: forty performance runs (two Figure 13 endpoints, ten seeds and two versions), six small makespan-validation runs and two paper-size makespan-validation runs. All exited zero; all four makespan checks matched to 0.000001 simulated seconds.",
+    "exit_code": 0,
+    "elapsed_seconds": 28.720062526408583
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "makespans": [
+        {
+          "hosts": 4,
+          "tasks": 40,
+          "seed": 0,
+          "v3_10_makespan": 41.122089,
+          "v3_36_makespan": 41.122089,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        },
+        {
+          "hosts": 4,
+          "tasks": 40,
+          "seed": 1,
+          "v3_10_makespan": 41.122089,
+          "v3_36_makespan": 41.122089,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        },
+        {
+          "hosts": 4,
+          "tasks": 40,
+          "seed": 2,
+          "v3_10_makespan": 40.623535,
+          "v3_36_makespan": 40.623535,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        },
+        {
+          "hosts": 1000,
+          "tasks": 4000,
+          "seed": 0,
+          "v3_10_makespan": 4233.049287,
+          "v3_36_makespan": 4233.049287,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        }
+      ],
+      "performance_summaries": [
+        {
+          "tasks": 4000,
+          "version": "3.10",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 0.269,
+          "elapsed_min_seconds": 0.2,
+          "elapsed_max_seconds": 0.31,
+          "elapsed_sample_sd_seconds": 0.03247221034122014,
+          "max_rss_mean_kib": 354393.6,
+          "max_rss_min_kib": 354240,
+          "max_rss_max_kib": 354432
+        },
+        {
+          "tasks": 4000,
+          "version": "3.36",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 0.20700000000000002,
+          "elapsed_min_seconds": 0.16,
+          "elapsed_max_seconds": 0.23,
+          "elapsed_sample_sd_seconds": 0.024966644414765343,
+          "max_rss_mean_kib": 68160,
+          "max_rss_min_kib": 68160,
+          "max_rss_max_kib": 68160
+        },
+        {
+          "tasks": 60000,
+          "version": "3.10",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 1.366,
+          "elapsed_min_seconds": 1.18,
+          "elapsed_max_seconds": 1.8,
+          "elapsed_sample_sd_seconds": 0.1819767994980557,
+          "max_rss_mean_kib": 365107.2,
+          "max_rss_min_kib": 364992,
+          "max_rss_max_kib": 365184
+        },
+        {
+          "tasks": 60000,
+          "version": "3.36",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 0.862,
+          "elapsed_min_seconds": 0.78,
+          "elapsed_max_seconds": 0.98,
+          "elapsed_sample_sd_seconds": 0.07114929530376404,
+          "max_rss_mean_kib": 68160,
+          "max_rss_min_kib": 68160,
+          "max_rss_max_kib": 68160
+        }
+      ],
+      "local_ratios": [
+        {
+          "tasks": 4000,
+          "mean_wall_time_ratio_3_10_over_3_36": 1.2995169082125604,
+          "mean_rss_ratio_3_10_over_3_36": 5.19943661971831,
+          "paper_reported_min_rss_ratio": 4.1,
+          "paper_rss_bound_observed_locally": true,
+          "historical_hardware_speedup_reproduced": false
+        },
+        {
+          "tasks": 60000,
+          "mean_wall_time_ratio_3_10_over_3_36": 1.5846867749419955,
+          "mean_rss_ratio_3_10_over_3_36": 5.356619718309859,
+          "paper_reported_min_rss_ratio": 4.1,
+          "paper_rss_bound_observed_locally": true,
+          "historical_hardware_speedup_reproduced": false
+        }
+      ]
+    },
+    "interpretation": "Four makespan consistency checks passed. Local RSS reduction at the tested endpoints is 5.1994x/5.3566x, exceeding the article reported 4.1 minimum. The lower-endpoint wall-time ratio is 1.2995x, below its reported 1.45 minimum. Different host/compiler and partial curves prevent a historical performance-reproduction claim."
+  },
+  "human_scientific_review": "pending",
+  "failed_attempts": [
+    "Old 3.10 configure wrote conftestval into current directory; rerunning configure from the build directory resolved it.",
+    "Initial 3.36/4.0 builds were exploratory; final recorded comparison is 3.10/3.36."
+  ],
+  "selected_run_count": 48,
+  "executed_harness_sha256": "9aaceb6f8b00d5ee276481ab08e4b43906d0ef0ed29707b7d10f7903495720c7",
+  "portable_harness_sha256": "6581700d218587bbdbe8b7bb10b5e2ee45a2f2489272ea461e56e585ccd95dba",
+  "output_hashes": {
+    "simgrid-output/figure13-endpoints.svg": "988c1e8eae2e9fc1e595fad1ebcb5d9662f2a65afdf23f308a8affdff8fe1988",
+    "simgrid-output/figure13-endpoints.png": "aa16c2dd4cb2419f330fffe5ae86656347a6002aefcdecc13bafb15bf70915ea",
+    "simgrid-output/performance-replications.csv": "7e6537ceb98869a5e0da75f64b2d89ec47df453dab972813ae5b5cfb91316320",
+    "simgrid-output/performance-summary.csv": "bb700b2c8040f3c1c4b8a106e8fe8129e4b1d35325b19871a4d9d8bad83ae9cd"
+  }
+}

@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "https://simgrid.org/simgrid.dtd">
+<platform version="4.1">
+  <actor host="MasterHost" function="master">
+    <argument value="40" />
+    <argument value="100000000.00" />
+    <argument value="100000000.00" />
+    <argument value="100000000.00" />
+    <argument value="100000000.00" />
+    <argument value="16" />
+  </actor>
+  <actor host="WorkerHost-0" function="worker">
+     <argument value="0" />
+  </actor>
+  <actor host="WorkerHost-1" function="worker">
+     <argument value="1" />
+  </actor>
+  <actor host="WorkerHost-2" function="worker">
+     <argument value="2" />
+  </actor>
+  <actor host="WorkerHost-3" function="worker">
+     <argument value="3" />
+  </actor>
+  <actor host="WorkerHost-0" function="worker">
+     <argument value="4" />
+  </actor>
+  <actor host="WorkerHost-1" function="worker">
+     <argument value="5" />
+  </actor>
+  <actor host="WorkerHost-2" function="worker">
+     <argument value="6" />
+  </actor>
+  <actor host="WorkerHost-3" function="worker">
+     <argument value="7" />
+  </actor>
+  <actor host="WorkerHost-0" function="worker">
+     <argument value="8" />
+  </actor>
+  <actor host="WorkerHost-1" function="worker">
+     <argument value="9" />
+  </actor>
+  <actor host="WorkerHost-2" function="worker">
+     <argument value="10" />
+  </actor>
+  <actor host="WorkerHost-3" function="worker">
+     <argument value="11" />
+  </actor>
+  <actor host="WorkerHost-0" function="worker">
+     <argument value="12" />
+  </actor>
+  <actor host="WorkerHost-1" function="worker">
+     <argument value="13" />
+  </actor>
+  <actor host="WorkerHost-2" function="worker">
+     <argument value="14" />
+  </actor>
+  <actor host="WorkerHost-3" function="worker">
+     <argument value="15" />
+  </actor>
+</platform>

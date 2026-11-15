@@ -1,0 +1,54 @@
+{
+  "declared_at": "2026-11-15T20:41:31.382536+00:00",
+  "before_numerical_output": true,
+  "ns3": {
+    "observable": "Table2 mean FCT(ms), end-to-end delay/RTT(ms), mean per-flow throughput(Mbps) for 2/4-cluster default and Unison; Section6.2 thread determinism.",
+    "reference": {
+      "paper_table_2": {
+        "default_2": [
+          650.89,
+          15.14,
+          6.81
+        ],
+        "unison_2": [
+          632.52,
+          15.03,
+          6.99
+        ],
+        "default_4": [
+          480.84,
+          10.49,
+          6.5
+        ],
+        "unison_4": [
+          472.45,
+          11.39,
+          6.41
+        ]
+      },
+      "interpretation": "Published values are averages. Event tie-breaking legitimately differs between Unison and default. Test repeated Unison thread counts for exact determinism; do not demand equal packets versus default as a paper claim."
+    },
+    "inputs": "First diagnostic reduced 0.1s; full accuracy scenario uses cluster2/4, k4, delay500000ns, bandwidth100Mbps, buffer100p, NewReno, packet500, load0.7, time5s, flowmon enabled, default author seed.",
+    "tolerance": "Table2 printed precision: absolute difference <=0.005 in the printed unit for each two-decimal table entry (rounding agreement only, not a scientific equivalence margin). Unison determinism: exact equality of printed event counts and model metrics across repeated runs/threads.",
+    "scope": "Attempt exact author accuracy settings and compare with Table2; differences retained as failed match. Hardware speedup not tested; reduced diagnostic separate from paper input.",
+    "tolerance_basis": "Paper Table2 prints two decimals; half the last printed decimal unit. Section6.2 explicitly claims exact Unison event-count/results agreement across1..16threads. Earlier proposed1%/packet equality rule superseded BEFORE output after reading actual article."
+  },
+  "simgrid": {
+    "observable": "Coordinator-worker simulated makespan across matched authored C++ model at SimGrid3.36 and4.0; one physical core wall time/RSS recorded for paper-family workload.",
+    "reference": "SimGrid3.36 author benchmark, compared with same source compiled against4.0. Paper Section7 Figures13\u201314 gives workload family, but exact v3/v4 source pair unresolved.",
+    "inputs": "Initial bounded 4 hosts,4 cores/host,100-200Mflop/s,100 links,100-200MB/s,route length10,40tasks,100Mflop/100MB per task,seeds0..2. Then 1000hosts4cores and4000workunits where reasonable.",
+    "tolerance": "Absolute makespan difference <=1e-6 simulated seconds for same generated inputs and seed. Exploratory version-equivalence rule, not published tolerance.",
+    "scope": "A current source-version comparison cannot establish the historical figures or their hardware-specific speedups."
+  },
+  "updated_after_paper_read_at": "2026-11-15T20:43:00.302853+00:00",
+  "still_before_numerical_output": true,
+  "simgrid_paper_pair": {
+    "declared_at": "2026-11-15T20:46:16.388677+00:00",
+    "before_numerical_output_for_v3_10": true,
+    "observable": "Compare original MSG3.10 and S4U3.36 author benchmark makespans and simulator RSS/wall time for paper Figure13 workload, 1000hosts4cores,4000tasks; exploratory diagnostic4hosts40tasks first.",
+    "reference": "Paper introduction explicitly calls3.10 v3, with developments through3.36 culminating in4.0; reference66 Dockerfiles pin3.10 and3.36.",
+    "tolerance": "Makespan agreement <=1e-6 simulated seconds (local validation rule, not specified by paper); report observed differences and performance ratios without asserting hardware-specific speedup replication.",
+    "tolerance_basis": "Six decimals in native log timestamps. No portable runtime/RSS threshold imposed.",
+    "repetitions": "Three seeds for bounded matched validation; 10 seeds if completing paper4000task anchor is feasible. Full4000..60000workunit sweep still separate."
+  }
+}

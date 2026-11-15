@@ -1,0 +1,551 @@
+{
+  "tool_id": "simmer",
+  "title": "The published M/M/1 queue and its replication interval",
+  "question": "Can the publisher code reproduce the article’s printed Section4.2 estimate, and do independently seeded runs agree with M/M/1 theory?",
+  "paper": {
+    "title": "simmer: Discrete-Event Simulation for R",
+    "identifier": "10.18637/jss.v090.i02",
+    "url": "https://www.jstatsoft.org/article/view/v090i02",
+    "locator": "Sections4.1–4.2, pp19–20, Figure3 and printed t-test; Section5.2 deterministic arrival example",
+    "publication_type": "journal_article"
+  },
+  "source": {
+    "url": "https://www.jstatsoft.org/article/download/v090i02/3818",
+    "ref": "Publisher replication supplement and simmer4.3.0 package, retrieved2026-11-15",
+    "commit": "",
+    "paths": [
+      "replication.R sections4.1,4.2 and5.2",
+      "simmer4.3.0 source package"
+    ],
+    "license": "simmer GPL>=2; supplement/article retain publisher terms; source retrieved separately rather than vendored."
+  },
+  "inputs": {
+    "description": "Synthetic exponential interarrivals rate2/service rate4, infinite single-server queue; author seed1234, horizon2000 then100 replicas at500. Independent validation seeds10001–10100. Deterministic1000 arrivals at times1..1000, delay1.",
+    "access": "Public publisher source; no external dataset or restricted inputs.",
+    "hashes": {
+      "sources/replication.R": "72131e759ea273394f7c78450ad0c5a4aebc310b3993679a9b6c814b06cb2478",
+      "sources/simmer-publisher.tar.gz": "9a06202908ed78e4f3d15bfada06f06d85622c2070a89ac7318c450de2bbf5c8",
+      "sources/BH_1.69.0-1.tar.gz": "a0fd4364b7e368f09c56dec030823f52c16da0787580af7e4615eddeb99baca2",
+      "run_mm1.R": "120bf26369cc7a22306f1727cf08142616a2119dcefeba1aa786eaf9b2859ee7",
+      "plot_results.R": "8ce1080603eb9f9040b1d326914b56885370e9a7e944effd5aacf51907b5d219",
+      "targets.json": "befe6b002eea1f0f5835ad69d297a28158fda52e514b50a23e6a4e6af25ce83b",
+      "R-packages.csv": "78167e806655eb6ad51675fdf2a2fae087b16472c1bc59278015cab7ac4fa1d8",
+      "conda-linux-64-explicit.txt": "d296da930fa9e1509dc570e96b8dbf037747422472648ec07a6f3cface9ff17e"
+    }
+  },
+  "environment": {
+    "versions": {
+      "R": "4.5.3",
+      "simmer": "4.3.0",
+      "Rcpp": "1.1.2",
+      "BH": "1.69.0.1",
+      "magrittr": "2.0.5",
+      "jsonlite": "2.0.0",
+      "compiler": "g++13.3.0"
+    },
+    "changes_from_author": [
+      "Newer R4.5.3 vs article performance environment R3.3.3; publisher simmer4.3.0 source unchanged.",
+      "Explicit two-worker fork setting preserves original default mc.cores=2; original mc.set.seed=FALSE unchanged.",
+      "Author model blocks executed unchanged; simmer.plot presentation omitted and base-R plot rendered separately.",
+      "Separate independent-seed extension is labeled separately and does not replace literal printed-output comparison.",
+      "BH pinned to2019 archive after unmodified source failed against modern BH1.90."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "env/bin/Rscript",
+        "--vanilla",
+        "run_mm1.R",
+        "."
+      ],
+      "cwd": "runs/queues",
+      "environment": {
+        "TMPDIR": "runs/queues/tmp",
+        "XDG_CACHE_HOME": "runs/queues/cache"
+      }
+    },
+    {
+      "argv": [
+        "env/bin/Rscript",
+        "--vanilla",
+        "plot_results.R",
+        "."
+      ],
+      "cwd": "runs/queues"
+    },
+    {
+      "argv": [
+        "env/bin/Rscript",
+        "--vanilla",
+        "check_fork_streams.R",
+        "."
+      ],
+      "cwd": "runs/queues",
+      "scope": "Exploratory same-fork-stream diagnosis after primary comparison"
+    }
+  ],
+  "target": {
+    "observable": "Printed replication mean and both95%CI endpoints; analytic mean time/system population; deterministic starts/ends/activity times",
+    "reference": {
+      "paper_mean": 0.4974943,
+      "paper_ci95": [
+        0.4868269,
+        0.5081617
+      ],
+      "analytic_time": 0.5,
+      "analytic_population": 1,
+      "deterministic_complete_arrivals": 1000
+    },
+    "tolerance": {
+      "printed_results_absolute": 5e-08,
+      "analytic_validation": "Each analytic target inside corresponding97.5%Student-t interval from100 distinct-seed replications",
+      "deterministic_absolute": 0
+    },
+    "tolerance_basis": "Half last printed decimal for literal output; two97.5%intervals yield Bonferroni simultaneous95%; exact representable integers for deterministic test.",
+    "declared_before_run": true,
+    "declaration_file": "planning/simulation-reproduction-2026-11-15/runs/queues/targets.json",
+    "scope": "Selected printed output and analytic/deterministic methods; not blanket validation of the software or all paper experiments.",
+    "locator_correction": "The pre-run targets.json incorrectly labels Section5.2 p25; verified printed page is26. Model and numerical acceptance targets unchanged; original target file preserved."
+  },
+  "execution": {
+    "status": "target_compared",
+    "result": "All three printed Section4.2 numbers matched at7-decimal rounding; two independently seeded theory intervals contain analytic values; all1000 deterministic arrival records exactly match. Literal forked run has duplicated streams (50 unique replication means), retained as a source limitation.",
+    "exit_code": 0,
+    "elapsed_seconds": 1.26
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "status": "completed",
+      "paper": "10.18637/jss.v090.i02",
+      "runtime": "R version 4.5.3 (2026-03-11)",
+      "packages": {
+        "simmer": "4.3.0",
+        "Rcpp": "1.1.2",
+        "BH": "1.69.0.1",
+        "magrittr": "2.0.5",
+        "jsonlite": "2.0.0"
+      },
+      "author": {
+        "mean": 0.4974943125894268,
+        "ci95": [
+          0.4868269346038281,
+          0.5081616905750255
+        ],
+        "unique_replication_means": 50,
+        "replications": 100,
+        "time_weighted_occupancy_single_run": 0.927123373672206,
+        "mc_cores": 2,
+        "mc_set_seed": false
+      },
+      "literal_paper_comparison": {
+        "reference": [
+          0.4974943,
+          0.4868269,
+          0.5081617
+        ],
+        "observed": [
+          0.4974943125894268,
+          0.4868269346038281,
+          0.5081616905750255
+        ],
+        "absolute_error": [
+          1.2589426778841784e-08,
+          3.460382808073703e-08,
+          9.424974578564616e-09
+        ],
+        "tolerance": 5e-08,
+        "passed": true
+      },
+      "independent_validation": {
+        "system_time": {
+          "mean": 0.4980618498685042,
+          "standard_error": 0.00433792856825208,
+          "ci97p5": [
+            0.48818870937393966,
+            0.5079349903630688
+          ],
+          "reference": 0.5,
+          "contains_reference": true
+        },
+        "system_occupancy": {
+          "mean": 0.997695344652664,
+          "standard_error": 0.010123005742408884,
+          "ci97p5": [
+            0.9746553484080143,
+            1.0207353408973137
+          ],
+          "reference": 1,
+          "contains_reference": true
+        },
+        "replications": 100,
+        "seeds": [
+          10001,
+          10002,
+          10003,
+          10004,
+          10005,
+          10006,
+          10007,
+          10008,
+          10009,
+          10010,
+          10011,
+          10012,
+          10013,
+          10014,
+          10015,
+          10016,
+          10017,
+          10018,
+          10019,
+          10020,
+          10021,
+          10022,
+          10023,
+          10024,
+          10025,
+          10026,
+          10027,
+          10028,
+          10029,
+          10030,
+          10031,
+          10032,
+          10033,
+          10034,
+          10035,
+          10036,
+          10037,
+          10038,
+          10039,
+          10040,
+          10041,
+          10042,
+          10043,
+          10044,
+          10045,
+          10046,
+          10047,
+          10048,
+          10049,
+          10050,
+          10051,
+          10052,
+          10053,
+          10054,
+          10055,
+          10056,
+          10057,
+          10058,
+          10059,
+          10060,
+          10061,
+          10062,
+          10063,
+          10064,
+          10065,
+          10066,
+          10067,
+          10068,
+          10069,
+          10070,
+          10071,
+          10072,
+          10073,
+          10074,
+          10075,
+          10076,
+          10077,
+          10078,
+          10079,
+          10080,
+          10081,
+          10082,
+          10083,
+          10084,
+          10085,
+          10086,
+          10087,
+          10088,
+          10089,
+          10090,
+          10091,
+          10092,
+          10093,
+          10094,
+          10095,
+          10096,
+          10097,
+          10098,
+          10099,
+          10100
+        ],
+        "same_model_rates_horizon": true,
+        "explicit_seed_change": true
+      },
+      "deterministic": {
+        "rows": 1000,
+        "all_starts_exact": true,
+        "all_ends_exact": true,
+        "activity_time_exact": true,
+        "all_finished": true
+      },
+      "elapsed_seconds": 1.26
+    },
+    "interpretation": "Reproduces selected publisher-code printed numerical output within prespecified rounding tolerance. Additional validation uses independent seeds. Literal source interval is not accepted as independent100-replication uncertainty because forked streams are duplicated. Modern R runtime difference and pending human review remain explicit.",
+    "exploratory_stream_diagnostic": {
+      "scope": "Exploratory diagnosis, not a prespecified scientific target",
+      "replications": 2,
+      "mc_cores": 2,
+      "mc_set_seed": false,
+      "first_completed_arrivals": 1010,
+      "second_completed_arrivals": 1010,
+      "complete_arrival_monitors_identical": true,
+      "comparison": "All dataframe columns compared with identical()"
+    }
+  },
+  "outputs": [
+    {
+      "path": "files/simmer/outputs/author-arrivals.csv",
+      "sha256": "80ec5a4119b30a992ff4513b435cb51de943282a77588ced22c623ef107c717a",
+      "bytes": 291044,
+      "role": "numeric output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/author-arrivals.csv",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/author-replications.csv",
+      "sha256": "aa5bff9c0cb63fad413bc716fda501a5826713b33911ef5f94dbdf992183808a",
+      "bytes": 2114,
+      "role": "numeric output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/author-replications.csv",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/author-resource-monitor.csv",
+      "sha256": "50e539b148744cfde6974b2cf44a76cb6d6a62e9f9d6bc2e3d22a087c7de7a90",
+      "bytes": 399187,
+      "role": "numeric output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/author-resource-monitor.csv",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/author-t-test.txt",
+      "sha256": "4acb3fc6ebf587018d3c3ba0da23d4d57a0a7db0c5650435d31332ea6dc9e544",
+      "bytes": 227,
+      "role": "session or test output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/author-t-test.txt",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/deterministic-arrivals.csv",
+      "sha256": "af69aa62555d49f4939452e94b4ad8b8ef55f2ab2ee3f30e0536e26574fe50c8",
+      "bytes": 26751,
+      "role": "numeric output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/deterministic-arrivals.csv",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/executed-section41.R",
+      "sha256": "170f98f9583bcfb4391d0aa008ee65c5cfbcc431b0a6d7701e73d4995934c40d",
+      "bytes": 401,
+      "role": "execution source excerpt",
+      "public_reuse": false,
+      "reuse_notes": "Original numerical outputs/plots shareable; extracted author source blocks should not be copied publicly without retaining original source terms.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/executed-section41.R",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/executed-section42.R",
+      "sha256": "0f99bc40547c4c729960ed6a32db63a0d7221374a99cdf3ed2984d92fdc446ba",
+      "bytes": 454,
+      "role": "execution source excerpt",
+      "public_reuse": false,
+      "reuse_notes": "Original numerical outputs/plots shareable; extracted author source blocks should not be copied publicly without retaining original source terms.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/executed-section42.R",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/executed-section52.R",
+      "sha256": "0b636b5373ceb324f5c62c1f459135e9df0dd3c05c228d5bf603dee87986b63b",
+      "bytes": 202,
+      "role": "execution source excerpt",
+      "public_reuse": false,
+      "reuse_notes": "Original numerical outputs/plots shareable; extracted author source blocks should not be copied publicly without retaining original source terms.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/executed-section52.R",
+      "published": false
+    },
+    {
+      "path": "files/simmer/outputs/independent-replications.csv",
+      "sha256": "57a3aa86be222d604d79cb12f5402744ee5b0b3462561bab1ed60e76f2fb1590",
+      "bytes": 4959,
+      "role": "numeric output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/independent-replications.csv",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/mm1-paper-comparison.png",
+      "sha256": "a9bb1fe570b0bbe4deaa38864d763ef4d93bc4bd572c6b8b5f72c03569eb9465",
+      "bytes": 44222,
+      "role": "plot",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/mm1-paper-comparison.png",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/mm1-paper-comparison.svg",
+      "sha256": "80cb846970db891c03f3fc0f599eea31ff72692442856a800476df4cd3dc29f0",
+      "bytes": 255763,
+      "role": "plot",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/mm1-paper-comparison.svg",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/results.json",
+      "sha256": "7eff331623da1ec9b034657450a1f79add3dc4ca3bd86b5cb4b00af2a86cd18e",
+      "bytes": 2961,
+      "role": "numeric output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/results.json",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/sessionInfo.txt",
+      "sha256": "168ee25ae4fc26fb83a5a5333349f07ab4f99c4818c86ad2e93049eb4128d013",
+      "bytes": 972,
+      "role": "session or test output",
+      "public_reuse": true,
+      "reuse_notes": "Generated numeric outputs and original plots; no private data.",
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/sessionInfo.txt",
+      "published": true
+    },
+    {
+      "path": "files/simmer/outputs/duplicate-stream-check.json",
+      "sha256": "83e5b64b792e97b2e1c1e649095717d2922d92d7ee47ac7f298cf99a25d8eef7",
+      "bytes": 326,
+      "role": "exploratory source-diagnostic output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/outputs/duplicate-stream-check.json",
+      "published": true
+    },
+    {
+      "path": "files/simmer/prepare_sources.py",
+      "sha256": "88e0328d2e629d4968f7cb0e528ed86aa136d4f8756cd3b1491c986bfe36c8b8",
+      "bytes": 1251,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/prepare_sources.py"
+    },
+    {
+      "path": "files/simmer/run_mm1.R",
+      "sha256": "120bf26369cc7a22306f1727cf08142616a2119dcefeba1aa786eaf9b2859ee7",
+      "bytes": 4669,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/run_mm1.R"
+    },
+    {
+      "path": "files/simmer/plot_results.R",
+      "sha256": "8ce1080603eb9f9040b1d326914b56885370e9a7e944effd5aacf51907b5d219",
+      "bytes": 891,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/plot_results.R"
+    },
+    {
+      "path": "files/simmer/check_fork_streams.R",
+      "sha256": "2f9855ac41df9b3834dc4316ec2d0cfea63868c121fe1d0bf83f046007355a94",
+      "bytes": 1087,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/check_fork_streams.R"
+    },
+    {
+      "path": "files/simmer/Makevars",
+      "sha256": "9b48632be9a310a4c0336a299a6870b1b0e2aa4a4357cb2162de72b37061ab80",
+      "bytes": 191,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/Makevars"
+    },
+    {
+      "path": "files/simmer/R-packages.csv",
+      "sha256": "78167e806655eb6ad51675fdf2a2fae087b16472c1bc59278015cab7ac4fa1d8",
+      "bytes": 538,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/R-packages.csv"
+    },
+    {
+      "path": "files/simmer/conda-linux-64-explicit.txt",
+      "sha256": "d296da930fa9e1509dc570e96b8dbf037747422472648ec07a6f3cface9ff17e",
+      "bytes": 7993,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/conda-linux-64-explicit.txt"
+    },
+    {
+      "path": "files/simmer/targets.json",
+      "sha256": "befe6b002eea1f0f5835ad69d297a28158fda52e514b50a23e6a4e6af25ce83b",
+      "bytes": 1557,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/queues/targets.json"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/queues/targets.json",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/execution.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/environment-install.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/environment-install-second.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/dependencies-install.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/simmer-build.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/simmer-build-second.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/bh-install.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/source-hashes.json",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/R-packages.csv",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/conda-linux-64-explicit.txt",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/guide.md",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/run_mm1.R",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/prepare_sources.py",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/plot_results.R",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/Makevars",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/check_fork_streams.R",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/stream-check.log",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/retrieval-report.json",
+    "planning/simulation-reproduction-2026-11-15/runs/queues/prepare_sources.py"
+  ],
+  "blockers": [],
+  "next_action": "Integrate this bounded target comparison as a Lab example, retain duplicated-stream warning, and obtain human scientific review; optional exact historicalR reconstruction is separate.",
+  "relationship_to_paper": "Direct publisher-supplied model and Section4.2 printed result, with isolated modernR compatibility environment; independent-seed extension separately labeled.",
+  "human_scientific_review": "pending",
+  "research_group": "queues",
+  "guide_source": "templates/simmer.md.in"
+}

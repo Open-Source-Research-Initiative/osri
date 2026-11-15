@@ -1,0 +1,142 @@
+{
+  "tool_id": "engine",
+  "execution_status": "analysed_saved_output",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "Exploratory saved-output reanalysis only: paper-linked CSV yields CCP exposure shares 0.5033912935–0.5092717832 in its two financial systems and six clearing cases, versus the paper statement 0.5. Maximum absolute difference 0.0092717832. No tolerance prespecified and no ORE simulation rerun; target reproduction remains unresolved.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/finance-economics/ore-output-check/run.json",
+  "source_run_record_sha256": "609e6edb8d43cc8c603bf6d95fcac5f8f91dbf2da41593b9262dd7a4421e25ed",
+  "native_output_hashes_checked": 3,
+  "compact_outputs": [
+    {
+      "file": "engine-ccp-exposure-shares.csv",
+      "sha256": "43761bfdcd2db2a69235fcbc3088aab3ceac1ae24540512416333af5c9f92fad",
+      "bytes": 1077
+    }
+  ],
+  "run_record": {
+    "status": "analysed_saved_output",
+    "scope": "Exploratory reanalysis of saved author ORE outputs only; no ORE executable or simulation-generation code ran.",
+    "source_repository": "https://github.com/niknow/systemic-risk",
+    "source_commit": "677f5e7b639d4b8de18767a0f2b8db4844ceaf1a",
+    "input_url": "https://raw.githubusercontent.com/niknow/systemic-risk/677f5e7b639d4b8de18767a0f2b8db4844ceaf1a/dashboards/central_clearing/simulation_cva/df_risk_cp.csv",
+    "input_sha256": "e0f3abe88e844b97fb9c35efda1edc28ed592f3c2c1f4937ca5e9d3699df1c70",
+    "script_sha256": "2429af1c49b33e6339475ef27c70f3b985f96fc41647bb91b6160d544ffc8afc",
+    "command": [
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-lab-2026-11-15/examples-env/bin/python",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-paper-examples-2026-11-15/runs/finance-economics/ore-output-check/check_saved_output.py"
+    ],
+    "executed_at": "2026-11-15T20:25:00.846368+00:00",
+    "pandas_version": "3.1.1",
+    "paper": "10.3389/frai.2024.1138611",
+    "paper_locator": "Section 8.4 Figure 15: exact 50% exposure concentration statement",
+    "metric": "sum(BaselEEPE+ for CP<0)/sum(BaselEEPE+ for all counterparties), separately by financial system and clearing case",
+    "results": [
+      {
+        "financial_system": 0,
+        "regulation": "cleared_AA",
+        "ccp_exposure_share": 0.5033912935342565,
+        "stored_normalized_share": 0.5033912935342564,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.00339129353425649
+      },
+      {
+        "financial_system": 0,
+        "regulation": "cleared_AAA",
+        "ccp_exposure_share": 0.5033912935342565,
+        "stored_normalized_share": 0.5033912935342564,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.00339129353425649
+      },
+      {
+        "financial_system": 0,
+        "regulation": "cleared_AAAA",
+        "ccp_exposure_share": 0.5033912935342565,
+        "stored_normalized_share": 0.5033912935342564,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.00339129353425649
+      },
+      {
+        "financial_system": 0,
+        "regulation": "multi_cleared_AA",
+        "ccp_exposure_share": 0.5042574258755664,
+        "stored_normalized_share": 0.5042574258755664,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.004257425875566434
+      },
+      {
+        "financial_system": 0,
+        "regulation": "multi_cleared_AAA",
+        "ccp_exposure_share": 0.5042574258755664,
+        "stored_normalized_share": 0.5042574258755664,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.004257425875566434
+      },
+      {
+        "financial_system": 0,
+        "regulation": "multi_cleared_AAAA",
+        "ccp_exposure_share": 0.5042574258755664,
+        "stored_normalized_share": 0.5042574258755664,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.004257425875566434
+      },
+      {
+        "financial_system": 1,
+        "regulation": "cleared_AA",
+        "ccp_exposure_share": 0.5092717832387722,
+        "stored_normalized_share": 0.5092717832387722,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.009271783238772202
+      },
+      {
+        "financial_system": 1,
+        "regulation": "cleared_AAA",
+        "ccp_exposure_share": 0.5092717832387722,
+        "stored_normalized_share": 0.5092717832387722,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.009271783238772202
+      },
+      {
+        "financial_system": 1,
+        "regulation": "cleared_AAAA",
+        "ccp_exposure_share": 0.5092717832387722,
+        "stored_normalized_share": 0.5092717832387722,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.009271783238772202
+      },
+      {
+        "financial_system": 1,
+        "regulation": "multi_cleared_AA",
+        "ccp_exposure_share": 0.5071121566479307,
+        "stored_normalized_share": 0.5071121566479306,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.007112156647930745
+      },
+      {
+        "financial_system": 1,
+        "regulation": "multi_cleared_AAA",
+        "ccp_exposure_share": 0.5071121566479307,
+        "stored_normalized_share": 0.5071121566479306,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.007112156647930745
+      },
+      {
+        "financial_system": 1,
+        "regulation": "multi_cleared_AAAA",
+        "ccp_exposure_share": 0.5071121566479307,
+        "stored_normalized_share": 0.5071121566479306,
+        "paper_stated_reference": 0.5,
+        "difference_from_reference": 0.007112156647930745
+      }
+    ],
+    "minimum_share": 0.5033912935342565,
+    "maximum_share": 0.5092717832387722,
+    "maximum_absolute_difference_from_0_5": 0.009271783238772202,
+    "interpretation": "Saved output does not equal the paper’s exact 0.5 statement. No numerical acceptance tolerance was prespecified; these are exploratory diagnostics. Source/version correspondence and numerical asymmetry remain unresolved, so no reproduction claim.",
+    "outputs": {
+      "ccp-exposure-shares.csv": "43761bfdcd2db2a69235fcbc3088aab3ceac1ae24540512416333af5c9f92fad",
+      "ccp-exposure-shares.png": "026581942d6f03fcc3020d59a3c0a7fb5cfe3f371ae6cfe60d41ab9eed9d97e4",
+      "ccp-exposure-shares.svg": "b67391c7eb56c880cff9fbf9eea39aace2650b70e59ef3b91787ad16c1029602"
+    }
+  }
+}

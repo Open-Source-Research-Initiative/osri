@@ -1,0 +1,331 @@
+{
+  "tool_id": "tax-calculator",
+  "title": "TaxFuncIntegr: fresh macro steady states from public fitted inputs",
+  "question": "Can the paper’s micro tax-rate estimates and macro tax-function comparisons be regenerated?",
+  "paper": {
+    "title": "Integrating Microsimulation Models of Tax Policy into a DGE Macroeconomic Model",
+    "identifier": "10.1177/1091142118816744",
+    "url": "https://doi.org/10.1177/1091142118816744",
+    "locator": "May 2018 author manuscript DEP_TaxFuncs.pdf, Tables 7 and 8, preferred specification steady-state GDP change +0.07%; final 2019 journal numerical tables not independently matched.",
+    "publication_type": "author-manuscript of journal article"
+  },
+  "source": {
+    "url": "https://github.com/rickecon/TaxFuncIntegr",
+    "ref": "master",
+    "commit": "715cc76e3305c00dd64d79521c504bb388c6d87d",
+    "paths": [
+      "run_TaxFuncInt.py",
+      "TFI_tables_figures.py",
+      "environment.yml",
+      "2017_law.json",
+      "OUTPUT_BASELINE",
+      "OUTPUT_REFORM"
+    ],
+    "license": "CC0-1.0 dedication; LICENSE.md inspected. Tax-Calculator itself also CC0."
+  },
+  "inputs": {
+    "description": "Public author archived model_params.pkl calibration/fitted-tax arrays for baseline and counterfactual _DEP_Age. No PUF records read and no micro-estimation performed.",
+    "access": "Public CC0 archive; fresh Tax-Calculator PUF microsimulation still requires restricted input access.",
+    "hashes": {
+      "OUTPUT_BASELINE/_DEP_Age/model_params.pkl": "59edb0c1a5473eba43437a13f6ce4fd3f68ac492b857622286bfe9b50731dbb0",
+      "OUTPUT_REFORM/_DEP_Age/model_params.pkl": "776359afb302e115ffb9a50eb789cd5e6816d2366c28fb3530c16c24f8e025fb",
+      "OUTPUT_BASELINE/_DEP_Age/SS/SS_vars.pkl": "8dd8fdd6e70efe44133f92a15f0165ac27cd4cfe25326656a77e4a2fc6bf3438",
+      "OUTPUT_REFORM/_DEP_Age/SS/SS_vars.pkl": "6175e9b142c04bbee73edc318f20d6dc7365bd8652ce5773868321652209528b",
+      "DEP_TaxFuncs.pdf": "e00b7ab415b509650681239d05e7fe0b452de4292593659fcd5e2a83b593022a"
+    }
+  },
+  "environment": {
+    "versions": {
+      "python": "3.6.15",
+      "numpy": "1.19.5",
+      "scipy": "1.5.3",
+      "pandas": "1.1.5",
+      "numba": "0.53.1",
+      "taxcalc": "0.19.0 at 8b845d1ae65115c1544603418c39252957931457",
+      "dask": "0.17.5",
+      "distributed": "1.21.8"
+    },
+    "changes_from_author": [
+      "Loose author requirements resolved to compatible legacy versions.",
+      "Original macro solver source unchanged; wrapper bypasses run_TaxFuncInt.py PUF-estimation stage and passes public archived calibrated inputs directly.",
+      "Single-worker fresh SS solves only; transition paths omitted."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "./legacy-env/bin/python",
+        "run_fitted_pair.py"
+      ],
+      "cwd": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator"
+    }
+  ],
+  "target": {
+    "declared_before_run": true,
+    "paper_version": "May 2018 author manuscript DEP_TaxFuncs.pdf at pinned replication commit; not independently matched to final 2019 journal version",
+    "locator": "Table 7/8, steady-state GDP percent change, ratio of polynomials varying by age and income source",
+    "observable": "100*(Y_TCJA/Y_2017law-1) from freshly solved macro steady states using supplied fitted tax functions",
+    "reference": 0.07,
+    "tolerance": 0.005,
+    "units": "percentage points",
+    "tolerance_basis": "Half of the reported 0.01 percentage point precision, fixed before paired solve.",
+    "scope": "Macro steady-state stage only; Tax-Calculator PUF microsimulation and transition paths are not rerun."
+  },
+  "execution": {
+    "status": "author_code_executed",
+    "result": "Fresh baseline and counterfactual macro steady states solved; author-manuscript SS GDP rounding target matches. Economic-feasibility diagnostic fails because both closures require negative government spending. Tax-Calculator imported but its microsimulation/PUF estimation NOT executed.",
+    "exit_code": 0,
+    "elapsed_seconds": 13.83126833406277
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "status": "author_code_executed",
+      "elapsed_seconds": 13.83126833406277,
+      "observable": "100*(Y_TCJA/Y_2017law-1) from freshly solved macro steady states using supplied fitted tax functions",
+      "reference_percentage_points": 0.07,
+      "actual_percentage_points": 0.06954553514306738,
+      "absolute_error_percentage_points": 0.00045446485693262373,
+      "tolerance_percentage_points": 0.005,
+      "passed": true,
+      "baseline_Y_TCJA": 0.6424733699362518,
+      "counterfactual_Y_2017law": 0.6420268689145029,
+      "counterfactual_Y_archive": 0.6420268689145023,
+      "counterfactual_Y_archive_error": 5.551115123125783e-16,
+      "max_abs_reform_euler_savings": 1.813271754969037e-13,
+      "max_abs_reform_euler_labor_leisure": 1.794120407794253e-13,
+      "reform_resource_constraint_error": 1.609823385706477e-14,
+      "scope": "Macro steady-state stage only; Tax-Calculator PUF microsimulation and transition paths are not rerun.",
+      "paper_version": "May 2018 author manuscript DEP_TaxFuncs.pdf at pinned replication commit; not independently matched to final 2019 journal version",
+      "baseline_government_spending": -0.012946647621442861,
+      "counterfactual_government_spending": -0.010511793705472339,
+      "economic_feasibility_passed": false,
+      "feasibility_note": "Author solver warns negative government spending in the counterfactual debt closure. Matching the archive/table does not establish a feasible policy simulation.",
+      "baseline_archive_comparisons": {
+        "Yss": {
+          "reference": 0.6424733699362516,
+          "actual": 0.6424733699362518,
+          "absolute_error": 2.220446049250313e-16,
+          "passed": true
+        },
+        "Kss": {
+          "reference": 2.026742674577305,
+          "actual": 2.026742674577308,
+          "absolute_error": 2.6645352591003757e-15,
+          "passed": true
+        },
+        "Lss": {
+          "reference": 0.3460933518030097,
+          "actual": 0.34609335180300965,
+          "absolute_error": 5.551115123125783e-17,
+          "passed": true
+        },
+        "rss": {
+          "reference": 0.05877340925402806,
+          "actual": 0.058773409254027936,
+          "absolute_error": 1.249000902703301e-16,
+          "passed": true
+        },
+        "wss": {
+          "reference": 1.2066330898383069,
+          "actual": 1.206633089838308,
+          "absolute_error": 1.1102230246251565e-15,
+          "passed": true
+        },
+        "Css": {
+          "reference": 0.4938322434169942,
+          "actual": 0.4938322434169946,
+          "absolute_error": 3.885780586188048e-16,
+          "passed": true
+        }
+      }
+    },
+    "interpretation": "Numerical +0.069545535% matches May-2018 draft +0.07% at declared tolerance; six baseline outputs match archived author SS. Scope is fresh macro solve using supplied fitted inputs. Negative G in both cases is retained as failed economic feasibility, so neither this match nor small Euler residuals establish a valid policy prediction."
+  },
+  "outputs": [
+    {
+      "path": "files/tax-calculator/results.json",
+      "sha256": "9a2feb87bfe3fce97d58b19432318e368b55ee28a795632907db37cb3e13891f",
+      "bytes": 1520,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/results.json",
+      "published": true
+    },
+    {
+      "path": "files/tax-calculator/comparison.csv",
+      "sha256": "0a0ccc05edb99f8df027055707c3bccaeb0a69bd2fdcd612522096eeb81ae8cf",
+      "bytes": 470,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/comparison.csv",
+      "published": true
+    },
+    {
+      "path": "files/tax-calculator/pair-results.json",
+      "sha256": "bf22b9be39dcdce0bba8b726744e8e4637f232bd04436ff575bccd64c1926295",
+      "bytes": 1404,
+      "role": "execution evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/pair-results.json",
+      "published": true
+    },
+    {
+      "path": "files/tax-calculator/output/SS_vars.pkl",
+      "sha256": "f8a70d5b518f8ed24f736b9e84766aa691156ae60882a03584293b3dda0a04b5",
+      "bytes": 29004,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/output/SS_vars.pkl",
+      "published": true
+    },
+    {
+      "path": "files/tax-calculator/pair-output/baseline/SS/SS_vars.pkl",
+      "sha256": "f8a70d5b518f8ed24f736b9e84766aa691156ae60882a03584293b3dda0a04b5",
+      "bytes": 29004,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/pair-output/baseline/SS/SS_vars.pkl",
+      "published": true
+    },
+    {
+      "path": "files/tax-calculator/pair-output/reform/SS_vars.pkl",
+      "sha256": "77f32e16522bc687f11a8fb879506792acefa0d7f591e1b74c24caf046bd3685",
+      "bytes": 29004,
+      "role": "native result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/pair-output/reform/SS_vars.pkl",
+      "published": true
+    },
+    {
+      "path": "files/tax-calculator/guide.md",
+      "sha256": "cb77659057d25cd8bf450a833e87fc44b55f3bd2f85454ffe3a06dca6f0395cd",
+      "bytes": 3145,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/guide.md"
+    },
+    {
+      "path": "files/tax-calculator/get-source.sh",
+      "sha256": "2d617af8c1f659b19a5eaa0055b8d4a75259b066c80a1bc4162b42fd05a977ab",
+      "bytes": 328,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/get-source.sh"
+    },
+    {
+      "path": "files/tax-calculator/run_fitted_ss.py",
+      "sha256": "dabaa481ce6a79ac3f55869301d90673ef58dec11cac9dabda4439addab490b9",
+      "bytes": 2725,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/run_fitted_ss.py"
+    },
+    {
+      "path": "files/tax-calculator/run_fitted_pair.py",
+      "sha256": "5527a976f092f3ec9f9baf3025ea7975aad2d0759d745d09af1296925bcec3a1",
+      "bytes": 3323,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/run_fitted_pair.py"
+    },
+    {
+      "path": "files/tax-calculator/environment.yml",
+      "sha256": "7e7153b6af429760783666ae7c4b00ea792cc626b9d1f1201bf72e0280d24db6",
+      "bytes": 166,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/environment.yml"
+    },
+    {
+      "path": "files/tax-calculator/environment-explicit.txt",
+      "sha256": "1fe26352a79157d6979b56a62a569849b41c089e0a91dc97f423938ccc9daf36",
+      "bytes": 9720,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/environment-explicit.txt"
+    },
+    {
+      "path": "files/tax-calculator/requirements-legacy.txt",
+      "sha256": "92ff368fae4be66c4158374e76e852cd7e5d414467a5525a1d269c6aac30fd3b",
+      "bytes": 183,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/requirements-legacy.txt"
+    },
+    {
+      "path": "files/tax-calculator/requirements-tested.txt",
+      "sha256": "20d9f6076deb5edead938b61b9f206ea7b20271252e1caf8b7c2fa10791617d5",
+      "bytes": 734,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/requirements-tested.txt"
+    },
+    {
+      "path": "files/tax-calculator/target.json",
+      "sha256": "06a459e5b3ce4a26c0f0165ab47e6344089b621e1d663fed46875ff6ad135a5a",
+      "bytes": 807,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/target.json"
+    },
+    {
+      "path": "files/tax-calculator/pair-target.json",
+      "sha256": "09d3a7720c999c6070a0f500e43c77f9f1c03a38f9ee7cd6b427aeb822fd36a9",
+      "bytes": 716,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/pair-target.json"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/pair-target.json",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/pair-results.json",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/fitted-pair-stdout.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/fitted-pair-stderr.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/fitted-ss-stderr-attempt-1.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/fitted-ss-stderr-2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator/environment-legacy-create.json"
+  ],
+  "blockers": [
+    "Original restricted IRS PUF not available for fresh Tax-Calculator micro-estimation.",
+    "Government spending is negative in both solved macro steady states.",
+    "Final 2019 journal table identity not checked; selected comparison is the May 2018 author manuscript.",
+    "Full tax-function fitting and transition paths not rerun."
+  ],
+  "next_action": "Resolve fiscal closure feasibility and verify final journal table/version; use lawful PUF access only if fresh microsimulation estimation is required.",
+  "relationship_to_paper": "Fresh author-code macro stage with supplied public fitted inputs; named author-manuscript table comparison. Not a rerun of Tax-Calculator micro-estimation or the complete published study.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/finance/tax-calculator",
+    "guide": "guide.md",
+    "files": [
+      "guide.md",
+      "get-source.sh",
+      "run_fitted_ss.py",
+      "run_fitted_pair.py",
+      "environment.yml",
+      "environment-explicit.txt",
+      "requirements-legacy.txt",
+      "requirements-tested.txt",
+      "target.json",
+      "pair-target.json",
+      "results.json",
+      "pair-results.json",
+      "comparison.csv"
+    ]
+  },
+  "research_group": "finance",
+  "guide_source": "templates/tax-calculator.md.in"
+}

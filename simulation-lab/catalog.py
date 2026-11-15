@@ -6,11 +6,16 @@ import csv
 from datetime import date
 from pathlib import Path
 import re
+import runpy
+import json
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
 STATUS = {
     "executed_adaptation": "Executed adaptation",
+    "executed_author_code": "Author code executed; see paper comparison",
+    "published_target_compared": "Selected paper target compared; human review pending",
+    "analysed_saved_output": "Archived outputs analysed; simulation not rerun",
     "upstream_instructions_checked": "Upstream instructions checked; not run",
     "access_pending": "Artifact access pending",
 }
@@ -71,7 +76,7 @@ def validate(tools, papers, examples):
             raise ValueError(f"Incomplete reference: {paper['id']}")
 
 
-def catalog(tools, papers, examples):
+def catalog(tools, papers, examples, research_routes):
     lines = ["# Simulation tool catalog", "",
              f"{len(tools)} tools with open-source cores, grouped by use. This is a growing inventory; it is not an exhaustive list of all simulators. Some components depend on separately licensed runtimes or assets, as noted below.", "",
              "Read the [example index](examples/README.md), [source notes](source-notes.md), and [verification record](verification.md). Repository availability does not mean a tool was installed or a paper reproduced. A software-description paper establishes context; it is not automatically an application example.", "",
@@ -85,16 +90,17 @@ def catalog(tools, papers, examples):
                       f"[Source]({row['source_url']}) · [Documentation]({row['docs_url']}) · [License]({row['license_url']})", "",
                       f"**Terms:** {row['license_summary']}. {row['dependency_notes']}", ""]
             references = [f"[{papers[key]['title']} ({papers[key]['year']})](bibliography.md#{key})" for key in ids(row["paper_ids"])]
-            lines += ["**Literature:** " + ("; ".join(references) if references else "A verified literature example is still needed.") , ""]
+            lines += ["**Literature:** " + ("; ".join(references) if references else "See the research construction route below for a candidate paper and its source assessment.") , ""]
             routes = [f"[{examples[key]['title']}]({examples[key]['guide']}) — {STATUS[examples[key]['status']]}" for key in ids(row["example_ids"])]
             lines += ["**Walkthrough:** " + ("; ".join(routes) if routes else "No OSRI walkthrough yet; start with the official documentation."), "",
+                      f"**Research construction route:** [{research_routes[row['tool_id']]['paper']['title']}](research/{research_routes[row['tool_id']]['group']}.md#{row['tool_id']}) — {research_routes[row['tool_id']]['execution']['status'].replace('_', ' ')}. See the source and comparison assessment.", "",
                       f"Source checked {row['checked_date']}; {row['source_status'].replace('_', ' ')}.", ""]
     return "\n".join(lines)
 
 
 def bibliography(papers):
     lines = ["# Simulation bibliography", "",
-             "DOI metadata was checked against Crossref on 2026-11-15. Reading status is separate: only the passages identified below were inspected for the example mappings. This curated bibliography is not a systematic literature review.", "",
+             "DOI metadata was checked against primary Crossref or DataCite records on 2026-11-15. Preprints and paper versions remain identified separately. Reading status is separate: only the passages identified below were inspected for the example mappings. This curated bibliography is not a systematic literature review.", "",
              "Download [CSV](papers.csv) or [BibTeX](references.bib). See the [example index](examples/README.md) for runnable code and upstream routes.", ""]
     for key, row in papers.items():
         lines += [f"## {key}", "", f"{row['authors']} ({row['year']}). **{row['title']}**. *{row['venue']}*. [{row['doi']}]({row['url']}).", "",
@@ -107,12 +113,12 @@ def bibtex(papers):
     def tex(value):
         return value.replace("&", "\\&").replace("%", "\\%").replace("_", "\\_")
     entries = []
-    kinds = {"proceedings-article": "inproceedings", "book-chapter": "incollection", "book": "book"}
+    kinds = {"proceedings-article": "inproceedings", "book-chapter": "incollection", "book": "book", "posted-content": "misc"}
     for key, row in papers.items():
         kind = kinds.get(row["publication_type"], "article")
         fields = {"title": row["title"], "author": " and ".join(row["authors"].split("; ")), "year": row["year"], "doi": row["doi"], "url": row["url"]}
         if kind != "book":
-            fields["journal" if kind == "article" else "booktitle"] = row["venue"]
+            fields["journal" if kind == "article" else "howpublished" if kind == "misc" else "booktitle"] = row["venue"]
         entries.append("@" + kind + "{" + key + ",\n" + ",\n".join("  " + name + " = {" + tex(value) + "}" for name, value in fields.items()) + "\n}\n")
     return "\n".join(entries)
 
@@ -123,7 +129,22 @@ def main():
     args = parser.parse_args()
     tools, papers, examples = load("tools.csv", "tool_id"), load("papers.csv", "id"), load("examples.csv", "example_id")
     validate(tools, papers, examples)
-    outputs = {"catalog.md": catalog(tools, papers, examples), "bibliography.md": bibliography(papers), "references.bib": bibtex(papers)}
+    research = runpy.run_path(str(ROOT / "research.py"), run_name="osri_research")
+    data = json.loads((ROOT / "research/routes.json").read_text())
+    research["validate"](data, tools)
+    for name, content in research["outputs"](data, tools).items():
+        path = ROOT / "research" / name
+        if not path.is_file() or path.read_text(encoding="utf-8") != content:
+            raise SystemExit(f"Generated research route differs: {name}; run research.py --write")
+    routes = {row["tool_id"]: row for row in data["records"]}
+    campaign = runpy.run_path(str(ROOT / "reproduce.py"), run_name="osri_reproduce")
+    attempts = json.loads((ROOT / "reproductions/campaign.json").read_text())
+    campaign["validate"](attempts, tools)
+    for name, content in campaign["outputs"](attempts).items():
+        path = ROOT / "reproductions" / name
+        if not path.is_file() or path.read_text(encoding="utf-8") != content:
+            raise SystemExit(f"Generated reproduction guide differs: {name}; run reproduce.py --write")
+    outputs = {"catalog.md": catalog(tools, papers, examples, routes), "bibliography.md": bibliography(papers), "references.bib": bibtex(papers)}
     for name, content in outputs.items():
         path = ROOT / name
         if args.write:

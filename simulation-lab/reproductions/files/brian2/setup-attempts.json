@@ -1,0 +1,34 @@
+{
+  "brian2": [
+    {
+      "attempt": 1,
+      "result": "Conda solve failed: exact cython0.29.36 unavailable on chosen channel; retained historical-install.log."
+    },
+    {
+      "attempt": 2,
+      "result": "Author-compatible cython0.29 wildcard solved; historical model stack available."
+    }
+  ],
+  "tellurium": [
+    {
+      "attempt": 1,
+      "result": "System python3.12 venv creation failed: ensurepip unavailable; no system package installation attempted."
+    },
+    {
+      "attempt": 2,
+      "result": "Borrowed engineering Python3.12 runtime created venv but ctypes shared extension import failed with undefined _PyErr_SetLocaleString, including with its lib directory in LD_LIBRARY_PATH."
+    },
+    {
+      "attempt": 3,
+      "result": "Isolated conda-forge Python3.11 plus pip Tellurium installed. Import needed environment lib directory in LD_LIBRARY_PATH for libpython3.11.so.1.0."
+    },
+    {
+      "attempt": 4,
+      "result": "Tellurium import identified undeclared six dependency; installed six only in isolated env."
+    },
+    {
+      "attempt": 5,
+      "result": "Archive executed. First export wrapper looked at outer result dict, so raw NPZ omitted nested dataGenerators. Retained run1; fixed export only and reran unchanged archive as run2."
+    }
+  ]
+}

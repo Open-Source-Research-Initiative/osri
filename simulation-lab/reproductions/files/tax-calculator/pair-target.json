@@ -1,0 +1,11 @@
+{
+  "declared_before_run": true,
+  "paper_version": "May 2018 author manuscript DEP_TaxFuncs.pdf at pinned replication commit; not independently matched to final 2019 journal version",
+  "locator": "Table 7/8, steady-state GDP percent change, ratio of polynomials varying by age and income source",
+  "observable": "100*(Y_TCJA/Y_2017law-1) from freshly solved macro steady states using supplied fitted tax functions",
+  "reference": 0.07,
+  "tolerance": 0.005,
+  "units": "percentage points",
+  "tolerance_basis": "Half of the reported 0.01 percentage point precision, fixed before paired solve.",
+  "scope": "Macro steady-state stage only; Tax-Calculator PUF microsimulation and transition paths are not rerun."
+}

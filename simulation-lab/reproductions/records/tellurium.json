@@ -1,0 +1,332 @@
+{
+  "tool_id": "tellurium",
+  "title": "Tellurium Calzone archive: selected Figure4B Wee1c comparison",
+  "question": "Can the paper-associated author model regenerate a specifically defined published output?",
+  "paper": {
+    "title": "Tellurium notebooks—An environment for reproducible dynamical modeling in systems biology",
+    "identifier": "10.1371/journal.pcbi.1006220",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006220",
+    "locator": "Figure4B Wee1c selected10points; exact archive from reference54",
+    "publication_type": "journal_article"
+  },
+  "source": {
+    "url": "https://github.com/0u812/tellurium-combine-archive-test-cases",
+    "ref": "immutable commit",
+    "commit": "eff025846c5b12ee4350f043623332158e05f262",
+    "paths": [
+      "real-models/calzone-fig1-fig3.omex"
+    ],
+    "license": "Tellurium Apache-2.0; original OSRI wrappers MIT; PLOS article/figure CC BY. No standalone original model/archive license found; do not relicense or redistribute that archive by inference."
+  },
+  "inputs": {
+    "description": "Pinned COMBINE archive embeds public SBML and both SEDML model variants; no external observations or human data",
+    "access": "Public author GitHub and open publisher reference figure; no restricted data",
+    "hashes": {
+      "calzone-fig1-fig3.omex": "448856895ce67031ca9a0b2c6ed903d871a912aeeecc9f7dabb623d85e5d5c1f",
+      "calzone-figure4.png": "9b0529a383c50d9541de954616a63143fd7cc9235f206f27026824a5a9c55ddd"
+    }
+  },
+  "environment": {
+    "versions": {
+      "python": "3.11.18",
+      "tellurium": "2.2.13.1",
+      "libroadrunner": "2.10.0",
+      "python-libsedml": "2.0.34",
+      "python-libsbml": "5.21.2",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "matplotlib": "3.11.2",
+      "six": "1.17.0"
+    },
+    "changes_from_author": "Current Tellurium2.2.13.1/libRoadRunner2.11.0, not paper-era runtime. SBML/SEDML archive unchanged. Linux conda libpython path supplied in LD_LIBRARY_PATH and missing six dependency installed only in isolated environment."
+  },
+  "commands": [
+    "micromamba create -y -p ./env -f environment.yml",
+    "./env/bin/python fetch_sources.py",
+    "LD_LIBRARY_PATH=\"$PWD/env/lib\" MPLBACKEND=Agg ./env/bin/python run_calzone.py --output ./run",
+    "LD_LIBRARY_PATH=\"$PWD/env/lib\" ./env/bin/python compare_calzone.py --run ./run --output ./comparison"
+  ],
+  "target": {
+    "observable": "Wee1c concentration at10 fixed times in Figure4B",
+    "reference": "Digitized original publisher PNG at times25,50,75,100,125,145,180,200,220,240; reference image hash/calibration retained",
+    "tolerance": {
+      "rmse": 0.03,
+      "max_abs": 0.06
+    },
+    "tolerance_basis": "Fixed before any archive execution to allow4pixel line width, manual calibration/time-pixel error and current deterministic-solver difference. These are OSRI bounds, not source-paper tolerances.",
+    "declared_before_run": true,
+    "scope": "Selected10-point Wee1c trace only; full archive ran but other5panels not numerically accepted."
+  },
+  "execution": {
+    "status": "target_compared",
+    "result": "Exact author COMBINE archive executed unchanged, both1001-point timegrids and all21 data-generators finite. Selected Figure4B Wee1c comparison RMSE0.0026733313,maxabs0.0062600522; within prospective.03/.06 bounds. Current Tellurium runtime differs from2018 runtime.",
+    "exit_code": 0,
+    "elapsed_seconds": 0.6827993392944336
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "target": "Figure4B Wee1c at10 preselected times",
+      "reference_points": 10,
+      "rmse": 0.0026733313070862225,
+      "max_abs": 0.00626005219744763,
+      "bounds": {
+        "rmse": 0.03,
+        "max_abs": 0.06
+      },
+      "passed": true,
+      "declared_before_run": true,
+      "scope": "Selected10-point Figure4B Wee1c raster trace, not all6panels, original BIOCHAM result or biological validation.",
+      "checks": {
+        "all_21_data_generators_finite": true,
+        "time1_1001_samples_0_to250": true,
+        "time2_1001_samples_0_to180": true
+      },
+      "human_scientific_review": "pending"
+    },
+    "interpretation": "Selected10-point Wee1c trace only; full archive ran but other5panels not numerically accepted."
+  },
+  "outputs": [
+    {
+      "path": "files/tellurium/final-run/raw-results.npz",
+      "sha256": "36797c75e839ee996da866e12e633aef4223f4638c8f0524a280611279ba9f43",
+      "bytes": 149243,
+      "role": "All21 executed SEDML data-generators",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-run/raw-results.npz",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-run/data-generators.csv",
+      "sha256": "a01c618a75aad8557219d96b0f8979ca0622c056a865b715d41c2ac89b9e37f9",
+      "bytes": 525756,
+      "role": "All21 data-generators CSV",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-run/data-generators.csv",
+      "published": false
+    },
+    {
+      "path": "files/tellurium/final-comparison/figure4b-traces.csv",
+      "sha256": "acca074731a7636f6e9fc77eb5a43f680167d0f0047ac188fbd63e9ec54e4dd4",
+      "bytes": 125165,
+      "role": "Complete1001-sample Figure4B model traces",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-comparison/figure4b-traces.csv",
+      "published": true
+    },
+    {
+      "path": "files/tellurium/final-comparison/comparison-points.csv",
+      "sha256": "b278855190792efb660f44ec6d9176d87915470d462a7623354da62ecb2df1e1",
+      "bytes": 1070,
+      "role": "10 fixed paper/computed Wee1c pairs and residuals",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-comparison/comparison-points.csv",
+      "published": true
+    },
+    {
+      "path": "files/tellurium/final-comparison/comparison.png",
+      "sha256": "a428f841d91237e19eda121177164b95a2441a74d0e4453c32bd19e7eace87d3",
+      "bytes": 52445,
+      "role": "Selected paper/model Wee1c overlay",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-comparison/comparison.png",
+      "published": true
+    },
+    {
+      "path": "files/tellurium/final-comparison/comparison.json",
+      "sha256": "32467dd8494b6043687944fdd354c602babad4e134dfd306c0b307d2d20c1128",
+      "bytes": 562,
+      "role": "Scoped prospective comparison receipt",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-comparison/comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/tellurium/guide.md",
+      "sha256": "69628f1c28956f6068c938396a99ea07fd4e5f7163723aaefd5544a15f14dabc",
+      "bytes": 4080,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/guide.md"
+    },
+    {
+      "path": "files/tellurium/source-manifest.json",
+      "sha256": "c4c2f9ac147284c71dd67cafd2b3fe9f0e8fad278b74dccf2cec1477631bc990",
+      "bytes": 521,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/source-manifest.json"
+    },
+    {
+      "path": "files/tellurium/fetch_sources.py",
+      "sha256": "d5a59fdd1d878c3d6117622bf0d84d03cb64376fe4a7a8122b8aa42d418e2e43",
+      "bytes": 749,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/fetch_sources.py"
+    },
+    {
+      "path": "files/tellurium/environment.yml",
+      "sha256": "db842c4807ad9861dc451267d941d7780f7bb5846fde1ac96e3d583dccb2d7d4",
+      "bytes": 138,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/environment.yml"
+    },
+    {
+      "path": "files/tellurium/environment-explicit.txt",
+      "sha256": "381c353cb197bf6fee8a0f2e4ac3382e42c39eb4c93a0ba165826da3faecfc60",
+      "bytes": 2343,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/environment-explicit.txt"
+    },
+    {
+      "path": "files/tellurium/requirements-tested.txt",
+      "sha256": "8b324cdbebf880dd5ce8c657e60ea2c2d73252da68d462712c16ca5fd64f9b50",
+      "bytes": 1170,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/requirements-tested.txt"
+    },
+    {
+      "path": "files/tellurium/setup-attempts.json",
+      "sha256": "85d89cf2dba7118e25bbb7c63faf7bb523c92a095f6cc4ef4b5c344a7ea504c5",
+      "bytes": 1293,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/setup-attempts.json"
+    },
+    {
+      "path": "files/tellurium/compact-run-record.json",
+      "sha256": "5f145e88916229c20c013659f370f06a8605a32ea359012e6046075516297e6b",
+      "bytes": 8866,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/compact-run-record.json"
+    },
+    {
+      "path": "files/tellurium/digitize_reference.py",
+      "sha256": "108fc946fe1c416ba1abebc3ba09ddf318a97afdcbc754f06884bf873a7f9ffa",
+      "bytes": 1880,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/digitize_reference.py"
+    },
+    {
+      "path": "files/tellurium/final-run/run-record.json",
+      "sha256": "54ee4025564295aea424325c5b67997b9d6a92e6bcc107bf4cc9926d3917d488",
+      "bytes": 1152,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-run/run-record.json"
+    },
+    {
+      "path": "files/tellurium/run_calzone.py",
+      "sha256": "9834adf732f1492ebdc267e76533f5c7dabba4d6d36832be15d8769bcc4d636b",
+      "bytes": 2103,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/run_calzone.py"
+    },
+    {
+      "path": "files/tellurium/compare_calzone.py",
+      "sha256": "7416fc6ac76b9c76c7e4e6c89a142f4dd2f706fdf90cbb105f2398afa3110cf4",
+      "bytes": 2120,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/compare_calzone.py"
+    },
+    {
+      "path": "files/tellurium/paper-figure4b-wee1c-digitized.csv",
+      "sha256": "cbb569662dabf2ebc3d8135dad729d5a87b00437464d2048fd90b0756b8d1cf7",
+      "bytes": 390,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/paper-figure4b-wee1c-digitized.csv"
+    },
+    {
+      "path": "files/tellurium/digitization-protocol.json",
+      "sha256": "efbfa74ea99ec1b0c8f0616da04073fe63eded57333992af74ce64d2d906c08c",
+      "bytes": 1014,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/digitization-protocol.json"
+    },
+    {
+      "path": "files/tellurium/packaging-validation.json",
+      "sha256": "1a1e6e1099ac003009f63e81ee8e0ae2075803b2037753ddd21645d72870a843",
+      "bytes": 1841,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/packaging-validation.json"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-run/run-record.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/final-comparison/comparison.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/source-manifest.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/setup-attempts.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/compact-run-record.json",
+    "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/packaging-validation.json"
+  ],
+  "blockers": [
+    "Human review of raster calibration/tolerances is pending.",
+    "Original archive/model redistribution license not found in inspected archive/repository; input is fetched from author rather than relicensed/repackaged."
+  ],
+  "next_action": "Review the10-point digitization and tolerance, then extend independent numerical reference comparisons to the other paper panels or obtain original numeric figure data.",
+  "relationship_to_paper": "Exact author artifact; execution and numeric paper comparison scoped as declared above",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium",
+    "guide": "guide.md",
+    "files": [
+      "guide.md",
+      "source-manifest.json",
+      "fetch_sources.py",
+      "environment.yml",
+      "environment-explicit.txt",
+      "requirements-tested.txt",
+      "setup-attempts.json",
+      "compact-run-record.json",
+      "digitize_reference.py",
+      "final-run/run-record.json",
+      "final-comparison/comparison.json",
+      "final-comparison/comparison-points.csv",
+      "final-comparison/comparison.png",
+      "run_calzone.py",
+      "compare_calzone.py",
+      "paper-figure4b-wee1c-digitized.csv",
+      "digitization-protocol.json",
+      "final-comparison/figure4b-traces.csv",
+      "packaging-validation.json"
+    ]
+  },
+  "packaging_validation": {
+    "result": "passed",
+    "helper_sha256": "108fc946fe1c416ba1abebc3ba09ddf318a97afdcbc754f06884bf873a7f9ffa",
+    "reference_csv_sha256": "cbb569662dabf2ebc3d8135dad729d5a87b00437464d2048fd90b0756b8d1cf7",
+    "same_10_reference_points": true,
+    "original_protocol_bytes_identical": true,
+    "receipt": "planning/simulation-reproduction-2026-11-15/runs/biology/tellurium/packaging-validation.json",
+    "history": "Original one-off generator produced references before numerical execution; portable helper was generated later and its syntax-only packaging error is now corrected."
+  },
+  "research_group": "biology",
+  "guide_source": "templates/tellurium.md.in"
+}

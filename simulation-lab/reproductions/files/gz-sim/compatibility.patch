@@ -1,0 +1,185 @@
+diff --git a/envs/env_specs/hover_spec.hh b/envs/env_specs/hover_spec.hh
+index 17ec84f..2c54a0d 100644
+--- a/envs/env_specs/hover_spec.hh
++++ b/envs/env_specs/hover_spec.hh
+@@ -39,7 +39,7 @@ public:
+         float fmax = std::numeric_limits<float>::max();
+         const int last_action_sz = conf["action_history_size"_] * 4;
+         const int obs_dim = 14 + last_action_sz;
+-        return MakeDict("obs"_.Bind(Spec<float>({obs_dim}, {-fmax, fmax})));
++        return MakeDict("obs"_.Bind(Spec<float>({obs_dim}, std::tuple<float, float>{-fmax, fmax})));
+     }
+ 
+     /** @brief Returns the action spec for Hover env
+@@ -51,7 +51,7 @@ public:
+     {
+         const int act_dim = 4;
+         return MakeDict("action"_.Bind(Spec<float>(
+-            {-1, act_dim}, {-1.0f, 1.0f})));
++            {-1, act_dim}, std::tuple<float, float>{-1.0f, 1.0f})));
+     }
+ };
+ 
+diff --git a/envs/env_specs/inverted_pendulum_ll_spec.hh b/envs/env_specs/inverted_pendulum_ll_spec.hh
+index 5ac43f8..85d3fe8 100644
+--- a/envs/env_specs/inverted_pendulum_ll_spec.hh
++++ b/envs/env_specs/inverted_pendulum_ll_spec.hh
+@@ -47,15 +47,15 @@ public:
+         if (!conf["privileged_obs"_]){
+             privileged_info_dim = 0;
+         }
+-        return MakeDict("obs"_.Bind(Spec<float>({obs_dim + privileged_info_dim}, {-fmax, fmax})),
+-                "info:policy_obs_dim"_.Bind(Spec<float>({1}, {-fmax, fmax})),
+-                "info:privileged_obs_dim"_.Bind(Spec<float>({1}, {-fmax, fmax})));
++        return MakeDict("obs"_.Bind(Spec<float>({obs_dim + privileged_info_dim}, std::tuple<float, float>{-fmax, fmax})),
++                "info:policy_obs_dim"_.Bind(Spec<float>({1}, std::tuple<float, float>{-fmax, fmax})),
++                "info:privileged_obs_dim"_.Bind(Spec<float>({1}, std::tuple<float, float>{-fmax, fmax})));
+     }
+ 
+     template <typename Config>
+     static decltype(auto) ActionSpec(const Config &conf)
+     {
+-        return MakeDict("action"_.Bind(Spec<float>({-1, 4}, {-1.0f, 1.0f})));
++        return MakeDict("action"_.Bind(Spec<float>({-1, 4}, std::tuple<float, float>{-1.0f, 1.0f})));
+     }
+ };
+ 
+diff --git a/envs/env_specs/multiagent_formation_ll_spec.hh b/envs/env_specs/multiagent_formation_ll_spec.hh
+index 08196ba..a086bca 100644
+--- a/envs/env_specs/multiagent_formation_ll_spec.hh
++++ b/envs/env_specs/multiagent_formation_ll_spec.hh
+@@ -42,7 +42,7 @@ public:
+         // Others state: Relative pos(3), pdist(1), rotmat(9), angular vel(3) => Total 16 per other agent (x 4 = 64)
+         // Dimension: 18 + (NUM_AGENTS - 1) * 16 = 82
+         const int obs_dim = 18 + (num_agents - 1) * 16;
+-        return MakeDict("obs"_.Bind(Spec<float>({num_agents, obs_dim}, {-fmax, fmax})));
++        return MakeDict("obs"_.Bind(Spec<float>({num_agents, obs_dim}, std::tuple<float, float>{-fmax, fmax})));
+     }
+ 
+     /** @brief Returns the action spec for Hover env
+@@ -54,7 +54,7 @@ public:
+     {
+         const int act_dim = 4;
+         const int num_agents = conf["num_agents"_];
+-        return MakeDict("action"_.Bind(Spec<float>({num_agents, act_dim}, {-1.0f, 1.0f})));
++        return MakeDict("action"_.Bind(Spec<float>({num_agents, act_dim}, std::tuple<float, float>{-1.0f, 1.0f})));
+     }
+ };
+ 
+diff --git a/envs/env_specs/payload_transport_ll_spec.hh b/envs/env_specs/payload_transport_ll_spec.hh
+index c70a401..e9891c4 100644
+--- a/envs/env_specs/payload_transport_ll_spec.hh
++++ b/envs/env_specs/payload_transport_ll_spec.hh
+@@ -34,13 +34,13 @@ public:
+         float fmax = std::numeric_limits<float>::max();
+         const int last_action_sz = conf["action_history_size"_] * 4;
+         const int obs_dim = 22 + last_action_sz;
+-        return MakeDict("obs"_.Bind(Spec<float>({obs_dim}, {-fmax, fmax})));
++        return MakeDict("obs"_.Bind(Spec<float>({obs_dim}, std::tuple<float, float>{-fmax, fmax})));
+     }
+ 
+     template <typename Config>
+     static decltype(auto) ActionSpec(const Config &conf)
+     {
+-        return MakeDict("action"_.Bind(Spec<float>({-1, 4}, {-1.0f, 1.0f})));
++        return MakeDict("action"_.Bind(Spec<float>({-1, 4}, std::tuple<float, float>{-1.0f, 1.0f})));
+     }
+ };
+ 
+diff --git a/envs/env_specs/payload_transport_spec.hh b/envs/env_specs/payload_transport_spec.hh
+index 64a10e8..004cb14 100644
+--- a/envs/env_specs/payload_transport_spec.hh
++++ b/envs/env_specs/payload_transport_spec.hh
+@@ -44,7 +44,7 @@ public:
+         float fmax = std::numeric_limits<float>::max();
+         const int last_action_sz = conf["action_history_size"_] * 3;
+         const int obs_dim = 22 + last_action_sz;
+-        return MakeDict("obs"_.Bind(Spec<float>({obs_dim}, {-fmax, fmax})));
++        return MakeDict("obs"_.Bind(Spec<float>({obs_dim}, std::tuple<float, float>{-fmax, fmax})));
+     }
+     /** @brief Returns the action spec for PayloadTransport env
+      * Action space consists of:
+@@ -54,7 +54,7 @@ public:
+     static decltype(auto) ActionSpec(const Config &conf)
+     {
+         return MakeDict("action"_.Bind(Spec<float>(
+-            {-1, 3}, {-1.0f, 1.0f})));
++            {-1, 3}, std::tuple<float, float>{-1.0f, 1.0f})));
+     }
+ };
+ 
+diff --git a/envs/env_specs/trajectory_tracking_ll_spec.hh b/envs/env_specs/trajectory_tracking_ll_spec.hh
+index 740ba6a..c68e7b9 100644
+--- a/envs/env_specs/trajectory_tracking_ll_spec.hh
++++ b/envs/env_specs/trajectory_tracking_ll_spec.hh
+@@ -61,10 +61,10 @@ public:
+             conf["future_waypoint_num"_] * reference_features;
+         return MakeDict(
+             "obs"_.Bind(Spec<float>(
+-                {observation_dimension}, {-fmax, fmax})),
+-            "info:state"_.Bind(Spec<float>({13}, {-fmax, fmax})),
++                {observation_dimension}, std::tuple<float, float>{-fmax, fmax})),
++            "info:state"_.Bind(Spec<float>({13}, std::tuple<float, float>{-fmax, fmax})),
+             "info:trajectory"_.Bind(
+-                Spec<float>({13}, {-fmax, fmax})));
++                Spec<float>({13}, std::tuple<float, float>{-fmax, fmax})));
+     }
+ 
+     template <typename Config>
+@@ -73,7 +73,7 @@ public:
+         (void)conf;
+         return MakeDict(
+             "action"_.Bind(Spec<float>(
+-                {-1, kActionDimension}, {-1.0f, 1.0f})));
++                {-1, kActionDimension}, std::tuple<float, float>{-1.0f, 1.0f})));
+     }
+ 
+ };
+diff --git a/envs/env_specs/trajectory_tracking_spec.hh b/envs/env_specs/trajectory_tracking_spec.hh
+index e891490..5857935 100644
+--- a/envs/env_specs/trajectory_tracking_spec.hh
++++ b/envs/env_specs/trajectory_tracking_spec.hh
+@@ -70,10 +70,10 @@ public:
+             conf["future_waypoint_num"_] * reference_features;
+         return MakeDict(
+             "obs"_.Bind(Spec<float>(
+-                {observation_dimension}, {-fmax, fmax})),
+-            "info:state"_.Bind(Spec<float>({13}, {-fmax, fmax})),
++                {observation_dimension}, std::tuple<float, float>{-fmax, fmax})),
++            "info:state"_.Bind(Spec<float>({13}, std::tuple<float, float>{-fmax, fmax})),
+             "info:trajectory"_.Bind(
+-                Spec<float>({13}, {-fmax, fmax})));
++                Spec<float>({13}, std::tuple<float, float>{-fmax, fmax})));
+     }
+ 
+     template <typename Config>
+@@ -82,7 +82,7 @@ public:
+         (void)conf;
+         return MakeDict(
+             "action"_.Bind(Spec<float>(
+-                {-1, kActionDimension}, {-1.0f, 1.0f})));
++                {-1, kActionDimension}, std::tuple<float, float>{-1.0f, 1.0f})));
+     }
+ 
+ };
+diff --git a/envs/envpool/core/env_spec.h b/envs/envpool/core/env_spec.h
+index 6bed0c8..b16a6dc 100644
+--- a/envs/envpool/core/env_spec.h
++++ b/envs/envpool/core/env_spec.h
+@@ -39,14 +39,14 @@ auto common_state_spec =
+              "info:players.env_id"_.Bind(Spec<int>({-1})),
+              "elapsed_step"_.Bind(Spec<int>({})), "done"_.Bind(Spec<bool>({})),
+              "reward"_.Bind(Spec<float>({-1})),
+-             "discount"_.Bind(Spec<float>({-1}, {0.0, 1.0})),
++             "discount"_.Bind(Spec<float>({-1}, std::tuple<float, float>{0.0, 1.0})),
+              "step_type"_.Bind(Spec<int>({})), "trunc"_.Bind(Spec<bool>({})));
+ 
+ auto common_multi_agent_state_spec =
+     MakeDict("info:env_id"_.Bind(Spec<int>({})),
+              "info:players.env_id"_.Bind(Spec<int>({-1})),
+              "elapsed_step"_.Bind(Spec<int>({})), "done"_.Bind(Spec<bool>({})),
+-             "discount"_.Bind(Spec<float>({-1}, {0.0, 1.0})),
++             "discount"_.Bind(Spec<float>({-1}, std::tuple<float, float>{0.0, 1.0})),
+              "step_type"_.Bind(Spec<int>({})), "trunc"_.Bind(Spec<bool>({})));
+ /**
+  * EnvSpec funciton, it constructs the env spec when a Config is passed.

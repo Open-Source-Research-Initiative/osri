@@ -1,0 +1,123 @@
+{
+  "status": "adapted_run",
+  "training": {
+    "iteration": 140,
+    "episode_reward_mean": -3.4773777264721186,
+    "timesteps_total": 168000,
+    "episodes_total": 6009,
+    "seconds": 900.1452465057373,
+    "checkpoint": "training-seed100/checkpoint_140/checkpoint-140"
+  },
+  "training_convergence_criterion_met": false,
+  "final_evaluations": [
+    {
+      "status": "adapted_run",
+      "training_seed": 100,
+      "evaluation_seed": 10000,
+      "count": 20,
+      "author_success_count": 13,
+      "strict_success_count": 0,
+      "success_fraction": 0.65,
+      "success_wilson95": [
+        0.4328542766852419,
+        0.8188081758989145
+      ],
+      "paper_fraction": 0.963,
+      "paper_fraction_inside_interval": false,
+      "mean_action_steps_successes": 22.846153846153847,
+      "seconds": 17.14107632637024,
+      "checkpoint": "training-seed100/checkpoint_140/checkpoint-140",
+      "heldout_sha256": "4d0f6c5c4a5dbd3735fdba26ea2d4bf89a118ba5640f9b4f9300eff3d5df5d57",
+      "training_specs_sha256": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+      "heldout_training_vectors_disjoint": true,
+      "paper_result_reproduced": false,
+      "limitations": [
+        "Newly trained public64x64 policy differs from article stated3x50 network.",
+        "ngspice41 and Python3.6 rather than original release27/Python3.5.",
+        "Original evaluation seeds and original policy unavailable.",
+        "Bounded training may not meet source convergence criterion."
+      ]
+    },
+    {
+      "status": "adapted_run",
+      "training_seed": 100,
+      "evaluation_seed": 10001,
+      "count": 20,
+      "author_success_count": 15,
+      "strict_success_count": 1,
+      "success_fraction": 0.75,
+      "success_wilson95": [
+        0.5312991223812622,
+        0.8881382985923318
+      ],
+      "paper_fraction": 0.963,
+      "paper_fraction_inside_interval": false,
+      "mean_action_steps_successes": 24.333333333333332,
+      "seconds": 17.349268198013306,
+      "checkpoint": "training-seed100/checkpoint_140/checkpoint-140",
+      "heldout_sha256": "ff920b93ae43f2bf84fac89c4d8eed03d8f0c8bcb8f99e58dd4a8c5c57091817",
+      "training_specs_sha256": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+      "heldout_training_vectors_disjoint": true,
+      "paper_result_reproduced": false,
+      "limitations": [
+        "Newly trained public64x64 policy differs from article stated3x50 network.",
+        "ngspice41 and Python3.6 rather than original release27/Python3.5.",
+        "Original evaluation seeds and original policy unavailable.",
+        "Bounded training may not meet source convergence criterion."
+      ]
+    },
+    {
+      "status": "adapted_run",
+      "training_seed": 100,
+      "evaluation_seed": 10002,
+      "count": 20,
+      "author_success_count": 13,
+      "strict_success_count": 1,
+      "success_fraction": 0.65,
+      "success_wilson95": [
+        0.4328542766852419,
+        0.8188081758989145
+      ],
+      "paper_fraction": 0.963,
+      "paper_fraction_inside_interval": false,
+      "mean_action_steps_successes": 23.23076923076923,
+      "seconds": 17.324877738952637,
+      "checkpoint": "training-seed100/checkpoint_140/checkpoint-140",
+      "heldout_sha256": "16de67c5a1a4293a39053287a2c41579ac4fb5469a5bef3f0810d6d50d47fe99",
+      "training_specs_sha256": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+      "heldout_training_vectors_disjoint": true,
+      "paper_result_reproduced": false,
+      "limitations": [
+        "Newly trained public64x64 policy differs from article stated3x50 network.",
+        "ngspice41 and Python3.6 rather than original release27/Python3.5.",
+        "Original evaluation seeds and original policy unavailable.",
+        "Bounded training may not meet source convergence criterion."
+      ]
+    }
+  ],
+  "total_final_targets": 60,
+  "total_author_successes": 41,
+  "total_strict_successes": 2,
+  "intermediate_pilot_excluded_from_final_counts": true,
+  "interrupted_training_excluded_from_final_policy": true,
+  "paper_target": {
+    "successes": 963,
+    "targets": 1000,
+    "mean_successful_simulations": 27
+  },
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "differences": [
+    "Public64x64 network versus paper3x50.",
+    "Bundled350 training targets versus article50; no per-worker source partition.",
+    "Source reward success threshold aggregate normalized deficit>=-.02; strict constraint success reported separately.",
+    "Python3.6/ngspice41 instead of Python3.5/ngspice27 during training.",
+    "Original weights/seeds absent; new bounded training and independent held-out seeds used.",
+    "Observation-space metadata fixed; all numerical environment values/action mapping/reward/measurement code kept.",
+    "Fresh per-worker workspace/logging adapter applied after an interrupted startup attempt."
+  ],
+  "aggregate_author_success_wilson95": [
+    0.5576623297382359,
+    0.7869413244763324
+  ]
+}

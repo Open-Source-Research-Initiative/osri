@@ -1,0 +1,70 @@
+{
+  "tool_id": "mujoco",
+  "execution_status": "executed_example",
+  "paper_result_reproduced": false,
+  "human_scientific_review": "pending",
+  "scope": "Modern dm-control 1.0.52: 1000 Cartpole swingup steps over 9.999999999999831 simulated seconds; two seeded episodes exactly identical. Paper Section 5 quaternion matrix matched with zero error (chosen absolute tolerance 1e-12). This is execution of paper software examples, not learning-benchmark reproduction.",
+  "source_run_record": "planning/simulation-paper-examples-2026-11-15/runs/scenes-robotics/mujoco-output/run.json",
+  "source_run_record_sha256": "63f35ad24cda7c7b13aed9d7ab1bc2bee7d6efb234a16231e004dba7267d2d09",
+  "native_output_hashes_checked": 2,
+  "compact_outputs": [
+    {
+      "file": "mujoco-cartpole-episode.csv",
+      "sha256": "7e7b7061ea3e3104de3af8bd9a9c045640bea785de6951a8eb982ca9a6a4a7b0",
+      "bytes": 143534
+    },
+    {
+      "file": "mujoco-quaternion-matrix.json",
+      "sha256": "2c5ed00497167b079a994fc522080b90f47030be1c9fc3203023084c26f37346",
+      "bytes": 430
+    }
+  ],
+  "run_record": {
+    "paper": "https://arxiv.org/html/1801.00690v1",
+    "paper_locator": "Section 4 episode-loop and suite.load examples; Section 5 quaternion-to-matrix printed output",
+    "status": "executed_example",
+    "classification": "Modern-package adaptation of published software examples, not original learning-result reproduction.",
+    "environment": {
+      "python": "3.12.16",
+      "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+      "packages": {
+        "dm-control": "1.0.52",
+        "mujoco": "4.0.1",
+        "mujoco-core": "4.0.1",
+        "numpy": "2.5.4",
+        "dm-env": "1.6"
+      }
+    },
+    "inputs": {
+      "domain": "cartpole",
+      "task": "swingup",
+      "environment_seed": 42,
+      "random_action_generator": "numpy.default_rng(42)",
+      "rendering": false
+    },
+    "output": {
+      "steps": 1000,
+      "simulated_time_s": 9.999999999999831,
+      "total_reward": 34.31165411043982,
+      "mean_reward": 0.03431165411043982
+    },
+    "checks": {
+      "finite_states_and_rewards": true,
+      "reward_in_zero_one": true,
+      "two_seeded_episodes_identical": true,
+      "paper_quaternion_matrix_matches_at_1e12": true
+    },
+    "tolerance_note": "Matrix tolerance 1e-12 is selected for this algebraic example, not a paper-published scientific tolerance.",
+    "limitations": [
+      "Current 2026 packages differ from the 2018 MuJoCo engine and bindings.",
+      "Random actions are a software-API example, not a trained controller.",
+      "No comparison to paper learning curves or physical observations.",
+      "Human scientific review pending."
+    ],
+    "source_sha256": "42e583f0746ee410a225da9d1af386cedfa1f9f17d037dd0038224dcd69053ef",
+    "output_sha256": {
+      "cartpole-episode.csv": "7e7b7061ea3e3104de3af8bd9a9c045640bea785de6951a8eb982ca9a6a4a7b0",
+      "quaternion-matrix.json": "2c5ed00497167b079a994fc522080b90f47030be1c9fc3203023084c26f37346"
+    }
+  }
+}

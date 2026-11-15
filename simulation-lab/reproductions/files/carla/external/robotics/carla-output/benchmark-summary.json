@@ -1,0 +1,132 @@
+{
+  "status": "adapted_run",
+  "experiment": "First3 Town01 straight-route CoRL2017 pose pairs, first training weather",
+  "agent": "Authors ForwardAgent, not original MP/IL/RL policies",
+  "metrics": {
+    "episodes_completion": {
+      "1.0": [
+        [
+          0.9968721472030084,
+          0.9968723959103463,
+          0.9854162912807287
+        ]
+      ]
+    },
+    "intersection_offroad": {
+      "1.0": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "intersection_otherlane": {
+      "1.0": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "collision_pedestrians": {
+      "1.0": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "collision_vehicles": {
+      "1.0": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "collision_other": {
+      "1.0": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "percentage_off_road": {
+      "1.0": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "percentage_green_lights": {
+      "1.0": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "end_pedestrian_collision": {
+      "1.0": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "end_vehicle_collision": {
+      "1.0": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "end_other_collision": {
+      "1.0": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "episodes_fully_completed": {
+      "1.0": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    "average_speed": {
+      "1.0": [
+        27.665662840431285
+      ]
+    },
+    "driven_kilometers": {
+      "1.0": [
+        0.20227446910746988
+      ]
+    }
+  },
+  "raw_output": "_benchmarks_results/headless-corl2017-subset-1",
+  "elapsed_seconds": 3.836879253387451,
+  "changes": [
+    "Removed camera sensor because -nullrhi provides physics only",
+    "Selected first3 pose pairs and one weather from author suite",
+    "Applied PEP479 generator-return compatibility patch"
+  ]
+}

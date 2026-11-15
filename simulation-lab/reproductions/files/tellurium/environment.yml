@@ -1,0 +1,8 @@
+name: osri-calzone
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - tellurium==2.2.13.1
+      - six==1.17.0

@@ -1,0 +1,10 @@
+name: osri-brian-paper-model
+channels: [conda-forge]
+dependencies:
+  - python=3.6
+  - brian2=2.2.2.1
+  - numpy=1.16.4
+  - scipy=1.2.1
+  - sympy=1.3
+  - cython=0.29
+  - matplotlib=2.1.2

@@ -1,0 +1,677 @@
+{
+  "tool_id": "ngspice",
+  "title": "AutoCkt public op-amp: author-code training and held-out evaluation",
+  "question": "Can the public author code recover held-out gain, bias-current, phase-margin and bandwidth specifications?",
+  "paper": {
+    "title": "AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs",
+    "identifier": "10.23919/DATE48585.2020.9116200",
+    "url": "https://doi.org/10.23919/DATE48585.2020.9116200",
+    "locator": "SectionIII-B, Figures6-8 and TableII",
+    "publication_type": "proceedings-article"
+  },
+  "source": {
+    "url": "https://github.com/ksettaluri6/AutoCkt",
+    "ref": "master snapshot",
+    "commit": "a6c8a61d3dffb8b433f19251e135994a5b0f6ee4",
+    "paths": [
+      "autockt/envs/ngspice_vanilla_opamp.py",
+      "autockt/val_autobag_ray.py",
+      "autockt/rollout.py",
+      "eval_engines/ngspice/TwoStageClass.py",
+      "eval_engines/ngspice/ngspice_inputs/netlist/two_stage_opamp.cir"
+    ],
+    "license": "No repository reuse license detected; retrieved locally for inspection/execution, not vendored publicly."
+  },
+  "inputs": {
+    "description": "Author45nm circuit and transistor model, bundled350 training-spec data; held-out targets generated separately.",
+    "access": "Public author repository; no policy checkpoint found.",
+    "hashes": {
+      "autockt/gen_specs/ngspice_specs_gen_two_stage_opamp": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+      "eval_engines/ngspice/ngspice_inputs/spice_models/45nm_bulk.txt": "42489e9aab3423fe868c6d249326535892ad87de7f8f5b18d790d0afe8401ef4",
+      "eval_engines/ngspice/ngspice_inputs/yaml_files/two_stage_opamp.yaml": "83086648744650acea20ce79275f0e22c7b544ee46512ee260d2342db62b14dd"
+    }
+  },
+  "environment": {
+    "versions": {
+      "installed_ngspice": "41",
+      "Python": "3.6.15",
+      "TensorFlow": "1.10.1",
+      "Ray": "0.6.3",
+      "NumPy": "1.16.4",
+      "SciPy": "1.1.0",
+      "Gym": "0.10.5",
+      "opencv-python-headless": "3.4.18.65",
+      "flatbuffers": "1.11",
+      "gast": "0.3.2",
+      "PyYAML": "5.1.2",
+      "ngspice27_source_commit": "af7ab797c2b5548a99d9bcb4c7f74556aa4ac67e"
+    },
+    "changes_from_author": [
+      "Author environmentPython3.5.6; isolatedPython3.6 compatibility environment preparation underway.",
+      "ngspice41 rather than author release27.",
+      "Author pins TensorFlow1.10.1 and NumPy1.16.4 despite TensorFlow declaring NumPy<=1.14.5; package resolver conflict retained and isolated legacy resolver used to match author pins.",
+      "Scratch redirected to workspace; native ngspice command logs preserved and exit failures now raise exceptions.",
+      "Author observation-space metadata does not contain returned observations; corrected bounds proposed for training without changing numerical observations.",
+      "Current public source loads350 training targets for every worker, while article describes50.",
+      "No numerical paper equivalence is inferred from a Wilson interval, especially a20-case pilot.",
+      "Interrupted Ray attempt excluded; its task-created scratch moved to workspace and preserved; fresh run validates per-worker scratch redirection."
+    ]
+  },
+  "commands": [
+    {
+      "argv": [
+        "legacy-env/bin/python",
+        "circuit_probe.py"
+      ],
+      "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+      "environment": {
+        "AUTOCKT_RUN_ROOT": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits"
+      }
+    },
+    {
+      "argv": [
+        "legacy-env/bin/python",
+        "train_policy.py"
+      ],
+      "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+      "environment": {
+        "AUTOCKT_RUN_ROOT": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+        "AUTOCKT_SEED": "100",
+        "AUTOCKT_TRAIN_ITERATIONS": "150",
+        "AUTOCKT_TRAIN_SECONDS": "900"
+      }
+    },
+    {
+      "argv": [
+        "legacy-env/bin/python",
+        "evaluate_policy.py"
+      ],
+      "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+      "environment": {
+        "AUTOCKT_RUN_ROOT": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+        "AUTOCKT_EVAL_COUNT": "20",
+        "AUTOCKT_EVAL_SEED": "10000",
+        "AUTOCKT_RAY_TMP": "/workspace/tmp/builderbob/ac-e10000"
+      }
+    },
+    {
+      "argv": [
+        "legacy-env/bin/python",
+        "evaluate_policy.py"
+      ],
+      "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+      "environment": {
+        "AUTOCKT_RUN_ROOT": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+        "AUTOCKT_EVAL_COUNT": "20",
+        "AUTOCKT_EVAL_SEED": "10001",
+        "AUTOCKT_RAY_TMP": "/workspace/tmp/builderbob/ac-e10001"
+      }
+    },
+    {
+      "argv": [
+        "legacy-env/bin/python",
+        "evaluate_policy.py"
+      ],
+      "cwd": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+      "environment": {
+        "AUTOCKT_RUN_ROOT": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits",
+        "AUTOCKT_EVAL_COUNT": "20",
+        "AUTOCKT_EVAL_SEED": "10002",
+        "AUTOCKT_RAY_TMP": "/workspace/tmp/builderbob/ac-e10002"
+      }
+    }
+  ],
+  "target": {
+    "declared_before_run": true,
+    "declared_on": "2026-11-15",
+    "paper": "AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs, DATE2020, DOI10.23919/DATE48585.2020.9116200",
+    "locator": "Section III-B, Figures6-8 and TableII, public 45nm two-stage op-amp",
+    "observable": "Held-out specification success count, trajectory simulation steps and their uncertainty, maximum30 action steps per test specification",
+    "reference": {
+      "reported_success": 963,
+      "reported_count": 1000,
+      "reported_average_simulations": 27,
+      "reported_training_wall_clock_hours": 1.3,
+      "reported_CPU_cores": 8
+    },
+    "comparison_rule": "Report counts and binomial Wilson95% interval; describe whether paper proportion0.963 is inside interval. Do not force the same result or claim failure solely from nonidentical random seeds. Report mean action count for successes, separately counting initial reset simulation. No article-equivalence claim unless matching policy architecture, training inputs and evaluation seed requirements are established.",
+    "author_reward_rule": "Use unchanged TwoStageAmp.reward: sum negative normalized constraint violations, ibias sign reversed; author success when reward>=10 (sum deficit>=-0.02). Also separately report strict all-constraints-satisfied success.",
+    "seed_rule": "Independent rerun seeds100,101,102 for training and10000,10001,10002 for held-out generation; all RNG sources explicitly seeded. Begin faithful20-test pilot for runtime/runtime validation. Full1000 evaluations only if a trained policy is available and runtime reasonable. Original paper random seeds are not supplied; record this mismatch.",
+    "initial_findings": [
+      "Repository includes saved reached/unreached target-specification arrays but no policy checkpoint.",
+      "Current training script uses64x64 network while paper says three layers50 neurons; this is a documented author-code/paper discrepancy.",
+      "rollout.py imports missing Spectre source module; public ngspice environment import requires a documented correction.",
+      "Author netlist model include points to original author's home and requires documented path correction.",
+      "Author wrapper writes /tmp/ckt_da and suppresses native solver logs; redirect outputs under workspace and preserve actual solver logs."
+    ],
+    "tolerance": "Report counts and binomial Wilson95% interval; describe whether paper proportion0.963 is inside interval. Do not force the same result or claim failure solely from nonidentical random seeds. Report mean action count for successes, separately counting initial reset simulation. No article-equivalence claim unless matching policy architecture, training inputs and evaluation seed requirements are established.",
+    "tolerance_basis": "Author reward criterion and separately reported strict inequalities; no tolerance for claiming Table II reproduction is established.",
+    "scope": "Direct author circuit and public ngspice code; paper/code architecture discrepancies documented before execution."
+  },
+  "execution": {
+    "status": "adapted_run",
+    "result": "41/60 final held-out targets reached under author reward; 2 strictly satisfied all constraints. Training 140iterations/168000steps, criterion met=False.",
+    "exit_code": 0,
+    "elapsed_seconds": 951.9604687690735
+  },
+  "comparison": {
+    "performed": true,
+    "passed": false,
+    "measurements": {
+      "status": "adapted_run",
+      "training": {
+        "iteration": 140,
+        "episode_reward_mean": -3.4773777264721186,
+        "timesteps_total": 168000,
+        "episodes_total": 6009,
+        "seconds": 900.1452465057373,
+        "checkpoint": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140"
+      },
+      "training_convergence_criterion_met": false,
+      "final_evaluations": [
+        {
+          "status": "adapted_run",
+          "training_seed": 100,
+          "evaluation_seed": 10000,
+          "count": 20,
+          "author_success_count": 13,
+          "strict_success_count": 0,
+          "success_fraction": 0.65,
+          "success_wilson95": [
+            0.4328542766852419,
+            0.8188081758989145
+          ],
+          "paper_fraction": 0.963,
+          "paper_fraction_inside_interval": false,
+          "mean_action_steps_successes": 22.846153846153847,
+          "seconds": 17.14107632637024,
+          "checkpoint": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140",
+          "heldout_sha256": "4d0f6c5c4a5dbd3735fdba26ea2d4bf89a118ba5640f9b4f9300eff3d5df5d57",
+          "training_specs_sha256": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+          "heldout_training_vectors_disjoint": true,
+          "paper_result_reproduced": false,
+          "limitations": [
+            "Newly trained public64x64 policy differs from article stated3x50 network.",
+            "ngspice41 and Python3.6 rather than original release27/Python3.5.",
+            "Original evaluation seeds and original policy unavailable.",
+            "Bounded training may not meet source convergence criterion."
+          ]
+        },
+        {
+          "status": "adapted_run",
+          "training_seed": 100,
+          "evaluation_seed": 10001,
+          "count": 20,
+          "author_success_count": 15,
+          "strict_success_count": 1,
+          "success_fraction": 0.75,
+          "success_wilson95": [
+            0.5312991223812622,
+            0.8881382985923318
+          ],
+          "paper_fraction": 0.963,
+          "paper_fraction_inside_interval": false,
+          "mean_action_steps_successes": 24.333333333333332,
+          "seconds": 17.349268198013306,
+          "checkpoint": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140",
+          "heldout_sha256": "ff920b93ae43f2bf84fac89c4d8eed03d8f0c8bcb8f99e58dd4a8c5c57091817",
+          "training_specs_sha256": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+          "heldout_training_vectors_disjoint": true,
+          "paper_result_reproduced": false,
+          "limitations": [
+            "Newly trained public64x64 policy differs from article stated3x50 network.",
+            "ngspice41 and Python3.6 rather than original release27/Python3.5.",
+            "Original evaluation seeds and original policy unavailable.",
+            "Bounded training may not meet source convergence criterion."
+          ]
+        },
+        {
+          "status": "adapted_run",
+          "training_seed": 100,
+          "evaluation_seed": 10002,
+          "count": 20,
+          "author_success_count": 13,
+          "strict_success_count": 1,
+          "success_fraction": 0.65,
+          "success_wilson95": [
+            0.4328542766852419,
+            0.8188081758989145
+          ],
+          "paper_fraction": 0.963,
+          "paper_fraction_inside_interval": false,
+          "mean_action_steps_successes": 23.23076923076923,
+          "seconds": 17.324877738952637,
+          "checkpoint": "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140",
+          "heldout_sha256": "16de67c5a1a4293a39053287a2c41579ac4fb5469a5bef3f0810d6d50d47fe99",
+          "training_specs_sha256": "b0ac0805c116441bba79a10ca46ec094fc959b7341d05740e9213acf51cf28b6",
+          "heldout_training_vectors_disjoint": true,
+          "paper_result_reproduced": false,
+          "limitations": [
+            "Newly trained public64x64 policy differs from article stated3x50 network.",
+            "ngspice41 and Python3.6 rather than original release27/Python3.5.",
+            "Original evaluation seeds and original policy unavailable.",
+            "Bounded training may not meet source convergence criterion."
+          ]
+        }
+      ],
+      "total_final_targets": 60,
+      "total_author_successes": 41,
+      "total_strict_successes": 2,
+      "intermediate_pilot_excluded_from_final_counts": true,
+      "interrupted_training_excluded_from_final_policy": true,
+      "paper_target": {
+        "successes": 963,
+        "targets": 1000,
+        "mean_successful_simulations": 27
+      },
+      "paper_result_reproduced": false,
+      "human_scientific_review": "pending",
+      "differences": [
+        "Public64x64 network versus paper3x50.",
+        "Bundled350 training targets versus article50; no per-worker source partition.",
+        "Source reward success threshold aggregate normalized deficit>=-.02; strict constraint success reported separately.",
+        "Python3.6/ngspice41 instead of Python3.5/ngspice27 during training.",
+        "Original weights/seeds absent; new bounded training and independent held-out seeds used.",
+        "Observation-space metadata fixed; all numerical environment values/action mapping/reward/measurement code kept.",
+        "Fresh per-worker workspace/logging adapter applied after an interrupted startup attempt."
+      ],
+      "aggregate_author_success_wilson95": [
+        0.5576623297382359,
+        0.7869413244763324
+      ],
+      "native_output_manifest": {
+        "files": 700138,
+        "uncompressed_bytes_hashed": 1284853347,
+        "manifest_sha256": "e25fe255cf054a45ea8d59bf5543fb718f1f89eb220cf2cdf6edf71285e22ece",
+        "manifest_bytes": 27649291,
+        "seconds": 25.699647426605225
+      }
+    },
+    "interpretation": "Descriptive comparison of a new bounded public-source policy with articleTableII; inputs/methods are not matched, so this is not target_compared or paper reproduction. Confidence intervals quantify target-sampling uncertainty conditional on this policy and do not establish equivalence. Training-seed variation has not been characterized."
+  },
+  "outputs": [
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/guide.md",
+      "sha256": "e7cfcac0d62f9b106d5a72ee81054fac0c7ac352d5f4d3a3061766b293c9154c",
+      "bytes": 7220,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/guide.md",
+      "published": false
+    },
+    {
+      "path": "files/ngspice/retrieve_source.py",
+      "sha256": "16063e5395a65b6fd9e58a60a8400f99c10e657bbd8cc04262610c11a1f33ff8",
+      "bytes": 933,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/retrieve_source.py",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/author_runtime.py",
+      "sha256": "4e6330c6602e8218398715cf2f9c374b6339db90c1a80f950a5b09f88d4ecad7",
+      "bytes": 1467,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/author_runtime.py",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/circuit_probe.py",
+      "sha256": "96341b26b9006f85b66a43837f42310eba28407f693b1f1698c3f33c4cec40f6",
+      "bytes": 1649,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/circuit_probe.py",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/train_policy.py",
+      "sha256": "4c8fffe090de550e0521611d463ffb4da5ce7cbfe975ff685a2ce3e138cf894d",
+      "bytes": 2867,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/train_policy.py",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/evaluate_policy.py",
+      "sha256": "a53ce4a3483ba46a5f698a17d07284a9bf5efb6c346575ecd2f43041ba931aba",
+      "bytes": 6192,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/evaluate_policy.py",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/requirements-legacy.txt",
+      "sha256": "7a35211a6485fe43b2d191d06ea8acc4ad96c031148e6ac17c15ff2f9bc12d3e",
+      "bytes": 186,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/requirements-legacy.txt",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/requirements-tested.txt",
+      "sha256": "089e493d0922f9a5b1bdab626ef7570d33a20eb0cda9ffe22e8e4df2a254a415",
+      "bytes": 965,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/requirements-tested.txt",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/conda-explicit-clean.txt",
+      "sha256": "c6793eb73a6da1bc0cf7db6cf0f3cdcac0176e963461a11ced013837ef5e010a",
+      "bytes": 2316,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/conda-explicit-clean.txt",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/ngspice27-build.sh",
+      "sha256": "f85a596eb3bc344bba39e031ccc26d750bcf1cb0acd1920250333c5146bc7110",
+      "bytes": 799,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/ngspice27-build.sh",
+      "published": false
+    },
+    {
+      "path": "files/ngspice/target-plan.json",
+      "sha256": "97836b3581402c6b2b764d94f66b03f80e49aa07a98b3939c0b4edaba709264b",
+      "bytes": 2249,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/target-plan.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/diagnostics/capacitance-check.json",
+      "sha256": "8c16cce3d203314d9c8cebea0670c2de477d53a84c14dab41e37b685835fe176",
+      "bytes": 330,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/diagnostics/capacitance-check.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/diagnostics/ngspice-version-comparison.json",
+      "sha256": "51b12241dc60e2016d77777f9c8f6278afd13bedbbecc6fde5a11db99a79f61c",
+      "bytes": 258,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/diagnostics/ngspice-version-comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/source-hashes.json",
+      "sha256": "ab948d7da2added6fb36b1b6a2f06c3eae2b94c07f8528985d17fa6f24828c74",
+      "bytes": 991,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/source-hashes.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/reset-dc.csv",
+      "sha256": "367b6131d4c09a1173582ae992ab59e3104447792c05544987fc880f4cd411ff",
+      "bytes": 62,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/reset-dc.csv",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/seed10001-evaluation.json",
+      "sha256": "41ff51e00d4656a1b74bacc9c3dc9821a047c36388c39203da12e6c779cab168",
+      "bytes": 1056,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/seed10001-evaluation.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/reset-ac.csv",
+      "sha256": "2d5241dfacea91374c47aadf0dd870927fe65d688d52a941b605be09475cab49",
+      "bytes": 4692,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/reset-ac.csv",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/seed10002-evaluation.json",
+      "sha256": "0fcca43a3ed5a1d8da56a2ea24e784313c0fe782e8d0be3d2b015ecf58cb228c",
+      "bytes": 1055,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/seed10002-evaluation.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/seed10002-episodes.csv",
+      "sha256": "d22b04b55cefeab14808ee0ad9b2bdc6ddd557b0cb38d07c6b898616bd6d8416",
+      "bytes": 2945,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/seed10002-episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/learning-curve.csv",
+      "sha256": "775ccc80cc1b651e24858859565cc79bf0676fdf2b0a1f5b23eaf84d4b9c782e",
+      "bytes": 10463,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/learning-curve.csv",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/seed10001-episodes.csv",
+      "sha256": "8c0ea9c714f9a6f5e290cf15708505f9dd69c0ece419698c7e32b2647e9a90e4",
+      "bytes": 2950,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/seed10001-episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/summary.json",
+      "sha256": "210ce518457f36b4ce34b16c4d52165b65ab66ac5aeed0c8c8c4ca51b35dc264",
+      "bytes": 5006,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/summary.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/seed10000-evaluation.json",
+      "sha256": "09eec6b585a6757b00c48137c49918aae6d36d153aa57d99ef671e66261ea9ac",
+      "bytes": 1055,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/seed10000-evaluation.json",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/seed10000-episodes.csv",
+      "sha256": "e432e8f0bed73681f0c6c5dffca847b854e17fbf6ff271930ae5b590da85332f",
+      "bytes": 2943,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/seed10000-episodes.csv",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/training-curve.png",
+      "sha256": "63757f3224a507bb89d0b2051f597b34b6203b66c7866f289a168f009c83daaa",
+      "bytes": 63391,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/training-curve.png",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/public_outputs/heldout-success.png",
+      "sha256": "56135d7cf9d74ea6eaf56e8383f0be7c7788107c80736b6590fc05d00a3433ba",
+      "bytes": 43912,
+      "role": "numerical_output",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/public_outputs/heldout-success.png",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/plot_outputs.py",
+      "sha256": "b43ff9d84404fa5ef4a0f551ce3e946a15b25ff7c6bb2ae8324a16d4b847a514",
+      "bytes": 1674,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/plot_outputs.py",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/plotting-requirements.txt",
+      "sha256": "0a8b47ddc92915f16a905da39abd7fde1479ab8d5ec58f42a337afe2e0e3c288",
+      "bytes": 32,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/plotting-requirements.txt",
+      "published": true
+    },
+    {
+      "path": "files/ngspice/diagnostics/ngspice-version-file-hashes.json",
+      "sha256": "b376614de4f17def211675d83b024a37ee97191c880c3065ac72e85900525d15",
+      "bytes": 465,
+      "role": "portable_harness_or_evidence",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/diagnostics/ngspice-version-file-hashes.json",
+      "published": true
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/native-manifest.jsonl.gz",
+      "sha256": "e25fe255cf054a45ea8d59bf5543fb718f1f89eb220cf2cdf6edf71285e22ece",
+      "bytes": 27649291,
+      "role": "full_native_output_hash_manifest",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/native-manifest.jsonl.gz",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140",
+      "sha256": "a0df6f6f7340e6cb98fde73caf6fe3412613d10227dcb222610a5d6aa748c302",
+      "bytes": 48367,
+      "role": "accepted_adaptation_policy_checkpoint",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140",
+      "published": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140.tune_metadata",
+      "sha256": "923a48aa901920ab1dd5f652be921a59528f4fe6fdaf9b35bb42c51854f62968",
+      "bytes": 183,
+      "role": "accepted_adaptation_policy_checkpoint",
+      "public_reuse": false,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/checkpoint_140/checkpoint-140.tune_metadata",
+      "published": false
+    },
+    {
+      "path": "files/ngspice/guide.md",
+      "sha256": "e7cfcac0d62f9b106d5a72ee81054fac0c7ac352d5f4d3a3061766b293c9154c",
+      "bytes": 7220,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/guide.md"
+    },
+    {
+      "path": "files/ngspice/ngspice27-build.sh",
+      "sha256": "f85a596eb3bc344bba39e031ccc26d750bcf1cb0acd1920250333c5146bc7110",
+      "bytes": 799,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/circuits/ngspice27-build.sh"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/target-plan.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/circuit-probe.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/circuit-probe.log",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/pip-attempt-02-dependency-conflict.log",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100/latest.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100.log",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/requirements-tested.txt",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/saved-target-array-inspection.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/pilot-evaluation-checkpoint46/evaluation.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/circuit-probe-ngspice27.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/diagnostics/ngspice-version-comparison.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/final-summary.json",
+    "planning/simulation-reproduction-2026-11-15/runs/circuits/native-manifest-summary.json"
+  ],
+  "blockers": [
+    "Original policy, exact training/evaluation seeds and a source revision matching all article hyperparameters are unavailable.",
+    "Paper/code architecture, training-set size and reward details differ.",
+    "Declared bounded training ended before source convergence criterion."
+  ],
+  "next_action": "Recover original author checkpoint and exact configuration, or explicitly agree a new independently seeded matched-method experiment with longer training budget. Do not present saved author arrays or this adaptation as a fresh reproduction of963/1000.",
+  "relationship_to_paper": "Direct author circuit and public ngspice code; paper/code architecture discrepancies documented before execution.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/circuits",
+    "guide": "guide.md",
+    "files": [
+      "guide.md",
+      "retrieve_source.py",
+      "author_runtime.py",
+      "circuit_probe.py",
+      "train_policy.py",
+      "evaluate_policy.py",
+      "requirements-legacy.txt",
+      "requirements-tested.txt",
+      "conda-explicit-clean.txt",
+      "ngspice27-build.sh",
+      "target-plan.json",
+      "diagnostics/capacitance-check.json",
+      "diagnostics/ngspice-version-comparison.json",
+      "source-hashes.json",
+      "public_outputs/reset-dc.csv",
+      "public_outputs/seed10001-evaluation.json",
+      "public_outputs/reset-ac.csv",
+      "public_outputs/seed10002-evaluation.json",
+      "public_outputs/seed10002-episodes.csv",
+      "public_outputs/learning-curve.csv",
+      "public_outputs/seed10001-episodes.csv",
+      "public_outputs/summary.json",
+      "public_outputs/seed10000-evaluation.json",
+      "public_outputs/seed10000-episodes.csv",
+      "public_outputs/training-curve.png",
+      "public_outputs/heldout-success.png",
+      "plot_outputs.py",
+      "plotting-requirements.txt",
+      "diagnostics/ngspice-version-file-hashes.json"
+    ]
+  },
+  "native_directories": [
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/AutoCkt",
+      "role": "author_source_retrieved_locally",
+      "public_reuse": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/training-seed100",
+      "role": "new_policy_and_training_logs",
+      "public_reuse": false
+    },
+    {
+      "path": "planning/simulation-reproduction-2026-11-15/runs/circuits/native",
+      "role": "full_native_decks_arrays_logs_covered_by_compressed_manifest",
+      "public_reuse": false
+    }
+  ],
+  "research_group": "circuits",
+  "guide_source": "templates/ngspice.md.in"
+}

@@ -1,0 +1,16 @@
+{
+  "declared_before_run": true,
+  "observable": "Baseline DEP_Age macro steady-state outputs under supplied public fitted tax functions",
+  "reference": {
+    "Yss": 0.6424733699362516,
+    "Kss": 2.026742674577305,
+    "Lss": 0.3460933518030097,
+    "rss": 0.05877340925402806,
+    "wss": 1.2066330898383069,
+    "Css": 0.4938322434169942
+  },
+  "relative_tolerance": 1e-06,
+  "absolute_tolerance": 1e-08,
+  "tolerance_basis": "Cross-platform numerical regression allowance chosen before the fresh solve; original solver has mindist_SS=1e-09. Not a published scientific tolerance.",
+  "scope": "Fresh author SS solver from archived calibrated inputs, compared to author archive output. Does not rerun Tax-Calculator micro-estimation or paper transition paths; paper table identity not yet established."
+}

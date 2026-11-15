@@ -1,0 +1,37 @@
+{
+  "declared_at": "2026-11-15T20:42:15.759119+00:00",
+  "declared_before_run": true,
+  "paper": "10.18637/jss.v090.i02",
+  "paper_locator": "Section4.1 Figure3 and Eq2; Section4.2 printed t-test p20; Section5.2 deterministic example p25",
+  "literal_supplement_target": {
+    "mean": 0.4974943,
+    "ci95": [
+      0.4868269,
+      0.5081617
+    ],
+    "absolute_tolerance": 5e-08,
+    "basis": "Half unit in last printed decimal (7 places), for literal output identity only. Runtime/stream differences will not be hidden."
+  },
+  "analytic_validation": {
+    "replications": 100,
+    "seeds": "10001 through10100, one distinct set.seed per replication",
+    "horizon": 500,
+    "lambda": 2,
+    "mu": 4,
+    "system_time_reference": 0.5,
+    "time_weighted_system_occupancy_reference": 1,
+    "acceptance_rule": "Bonferroni simultaneous95% intervals for two metrics: each two-sided t interval97.5%, analytic target lies within it. No retrospective rerun/seed selection. Empty initial state and finite-horizon completion censoring remain limitations."
+  },
+  "deterministic_target": {
+    "n": 1000,
+    "arrival_times": "1..1000",
+    "service_time": 1,
+    "departure_times": "2..1001",
+    "complete_rows": 1000,
+    "tolerance": 0,
+    "basis": "Integer input and exact addition within binary64 representable range."
+  },
+  "source_sha256": "72131e759ea273394f7c78450ad0c5a4aebc310b3993679a9b6c814b06cb2478",
+  "paper_sha256": "4f838d26ec809a6dd55818c600d9705fe7bd0332ed234b716feb44896e03347b",
+  "status": "targets fixed before numerical execution"
+}

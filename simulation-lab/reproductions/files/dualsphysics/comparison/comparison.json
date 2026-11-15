@@ -1,0 +1,19 @@
+{
+  "performed": true,
+  "passed": null,
+  "observable": "Horizontal SWL-gauge front at z=0.03m, interpolated to fixture times",
+  "reference": "Koshizuka and Oka1996 values as bundled by the DualSPHysics authors",
+  "points": 14,
+  "predeclared_selection": "Only reference x<=3.9, before4m right-wall contact",
+  "measurements": {
+    "mae_m": 0.2472552502452107,
+    "rmse_m": 0.26367564386044096,
+    "max_abs_m": 0.33469765983142663
+  },
+  "input_hashes": {
+    "GaugesSWL_Swl_z003.csv": "90393c1ab929c260845857cef05d059a37a4bf4cb64b29a4424505473b772516",
+    "EXP_X-DamTipPosition_Koshizula&Oka1996.txt": "9d0fc12e5813dc5fadc679b3dfeff8b60b1d87e03fcbc404a2905350a3f3185f"
+  },
+  "tolerance": null,
+  "interpretation": "Numerical discrepancy against an upstream paper-associated validation fixture. No source uncertainty/acceptance threshold supplied. Fixture scaling/observable definition was not independently verified against the original1996 article; no paper-result reproduction is claimed."
+}

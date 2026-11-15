@@ -1,0 +1,100 @@
+{
+  "status": "target_compared",
+  "paper_doi": "10.1109/TPWRS.2018.2829021",
+  "paper_targets": "Section VII-B switching-state counts; VII-D/Figure7 operational limits and nine selected states",
+  "source_commit": "6213b92acd265cf7803ff4b8978542957d0c9777",
+  "counts": {
+    "all_states": 276,
+    "infeasible_topology": 96,
+    "short_circuit_invalid": 100,
+    "valid_states": 80
+  },
+  "switch_checks": {
+    "published_switch_counts": true,
+    "reference_valid_switch_ids": true,
+    "reference_short_circuit_currents": true
+  },
+  "max_current_difference_ka": 4.762168437366654e-11,
+  "timeseries_rows": 97,
+  "selected_states": 11,
+  "paper_operational_checks": {
+    "voltage_within_0.97_1.03": true,
+    "line_loading_below_50_percent": true,
+    "transformer_loading_below_50_percent": true,
+    "minimum_fault_current_above_1.1_ka": true,
+    "published_nine_switching_states": false
+  },
+  "author_reference_max_errors": {
+    "losses": 141.2246381165517,
+    "max_line_loading": 5.281464154904825e-11,
+    "max_trafo_loading": 40.816757285805764,
+    "min_voltage": 4.969624711748111e-11,
+    "max_voltage": 4.9813486668881524e-11,
+    "tp_2w": 0.0,
+    "tp_3w": 0.0,
+    "min_sc": 0.0
+  },
+  "author_reference_checks": {
+    "losses": false,
+    "max_line_loading": true,
+    "max_trafo_loading": false,
+    "min_voltage": true,
+    "max_voltage": true,
+    "tp_2w": true,
+    "tp_3w": true,
+    "min_sc": true,
+    "switches": true
+  },
+  "tolerances": {
+    "losses": 0.001,
+    "max_line_loading": 0.001,
+    "max_trafo_loading": 0.001,
+    "min_voltage": 1e-06,
+    "max_voltage": 1e-06,
+    "tp_2w": 0,
+    "tp_3w": 0,
+    "min_sc": 1e-05
+  },
+  "published_count_target_passed": true,
+  "full_comparison_passed": false,
+  "limits": "Any failed reference comparisons are preserved, not silently normalized. Pin version matches article; exact dependency lock was reconstructed. Scientific review pending.",
+  "environment": {
+    "python": "3.6.15 | packaged by conda-forge | (default, Dec  3 2021, 18:49:41) \n[GCC 9.4.0]",
+    "pandapower": "1.4.3",
+    "numpy": "1.16.6",
+    "scipy": "1.2.3",
+    "pandas": "0.23.4",
+    "networkx": "2.2",
+    "matplotlib": "2.2.5"
+  },
+  "elapsed_seconds": 133.3563690185547,
+  "input_hashes": {
+    "data/case_study_grid.xlsx": "654f07988d6f24aeb5c439664b1c973e6028c27ceb39f2307ae7539499da1e20",
+    "data/profiles.csv": "f2747bf7554aeae306587f9586a64a129705493cb8d6354d97c8082e5eb2689f",
+    "results/results_switches.json": "71b6a6fcfce6c0002433af08adccc9fa61a95426d2f421839191e7ad1d0dadf1",
+    "results/results_timeseries.json": "cd20e24f7deba9913792f544d7d1874ecbe3e335729097d09c9b9e02083a860e"
+  },
+  "source_hashes": {
+    "switch_evaluation.ipynb": "83cf6a8d4e480d124ade10f199d388c33109cfe1931091189a2c333609c2ec2e",
+    "timeseries_simulation.ipynb": "0273a4ad3d49d56fce447109ba4392b45ac91dd42115db7dd4e235eaeb8f57c3"
+  },
+  "reference_discrepancies": {
+    "losses": "Raw columns represented kW and quarter-hour kWh. Source-defined conversion establishes corrected energy agreement; preserve original raw-column result and protocol correction.",
+    "transformer_loading": "Saved author results are0.1 times freshly computed percentage values. After multiplying reference by10, maximum difference is5.000018177270249e-10 percentage points. Raw comparison remains failed.",
+    "selected_states": "Paper text says9 states. Author notebook markdown explicitly says11, and the full-day run matches the author JSON11 states exactly."
+  },
+  "unit_reconciliation": {
+    "losses": {
+      "source_formula": "abs(net.res_bus.p_kw.sum())/4 in timeseries_simulation.ipynb cell10; fifteen-minute intervals convert kW to kWh.",
+      "reference_conversion": "author_reference_losses_kW *0.25 hours",
+      "maximum_energy_error_kwh": 1.7499957039035507e-10,
+      "passed_at_original_energy_tolerance_0_001kwh": true,
+      "chronology": "Raw column comparison failed first; source inspection established different physical quantities. This documented unit reconciliation is a later protocol correction, not a fit."
+    },
+    "transformer_loading": {
+      "source": "Bundled Excel transformer sn_kva=40000,df=0.1. pandapower1.4.3 results_branch.py divides nominal loading by df.",
+      "normalized_max_difference_percent": 5.000018177270249e-10,
+      "origin_of_saved_reference_convention": "unresolved; consistent with nominal versus derated loading, but original JSON metadata does not state this."
+    }
+  }
+}

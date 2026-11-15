@@ -1,0 +1,246 @@
+{
+  "tool_id": "dolfinx",
+  "status": "target_compared",
+  "author_source_sha256": "825d7f333e250e1347bf4695eff20f9ed2a643f06cd87c24f58585fa3effa5ce",
+  "target": {
+    "reference": "arXiv:2410.09764v1 Section4.1 Figure2(a), contrast5 k1 m2",
+    "rateuh1": 0.5,
+    "ieff": 1.06,
+    "absolute_tolerance": 0.005,
+    "tolerance_basis": "Half last printed unit at two decimals; tests reporting-precision agreement only."
+  },
+  "inputs": {
+    "order_prime": 1,
+    "order_eqlb": 2,
+    "nref": 20,
+    "doerfler": 0.5,
+    "ratio_k": 5
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "rows": 20,
+      "elements": 367164.0,
+      "ndofs": 183899.0,
+      "energy_error": 0.009483476035049803,
+      "rateuh1": 0.5021171063611626,
+      "estimator": 0.010078245989489396,
+      "ieff": 1.0627164504071498
+    },
+    "checks": {
+      "rateuh1": true,
+      "ieff": true
+    },
+    "interpretation": "One author-code preprint parameter combination; comparison uses rounded printed reference values, with human scientific review pending."
+  },
+  "human_scientific_review": "pending",
+  "elapsed_seconds": 8.1202746569179,
+  "outputs": [
+    {
+      "path": "Riviere-5_P1_RT2-mesh19_error.h5",
+      "sha256": "745d4d2f3a9d58956a3e9f3725ef519681d0e97e7f8de82d9a8d0f2515ec523e",
+      "bytes": 14699192
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh10_error.h5",
+      "sha256": "1ee2b9efd5055faddbf336876a2170f50c81836215c7b704d25f6210936403ad",
+      "bytes": 94936
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh12_error.h5",
+      "sha256": "285f54776d7872e868b06d90c1f00c6888207e4612552665ffb5c0cf14fda7d7",
+      "bytes": 299112
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh8_error.h5",
+      "sha256": "a869dd25412dbbf135d02090da7f9b3f1928d1d796fedcd7a6711b4d8969efb3",
+      "bytes": 36344
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh18_error.h5",
+      "sha256": "a3cfd8eda6996655c0b16c172a7ba1df2aa400506534969229936741a1fd322e",
+      "bytes": 8607400
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh6_error.xdmf",
+      "sha256": "0ce3f3d29ef5bfd26e44ae03077f627afaceea2364167ca7c747232324faf740",
+      "bytes": 1102
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh16_error.xdmf",
+      "sha256": "c7d434b6eba85dd7f3bbc8017960dd04b56a4486fb9eaa3de66c229046f3ef0b",
+      "bytes": 1113
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh7_error.h5",
+      "sha256": "ee58a5591efa0aae98bff3431c7ce047645c813e718b67f0129a9f080fcb02d0",
+      "bytes": 24408
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh7_error.xdmf",
+      "sha256": "f6c69e321de5acb4994dfe13d197879237d9774dbfe3bf66358abc6cb23b4e0a",
+      "bytes": 1102
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh15_error.h5",
+      "sha256": "3c990f1cf4ba55889bd0b9cac25e8729d12b6fca62042d7288bf1285050df65d",
+      "bytes": 1648328
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh5_error.h5",
+      "sha256": "e0582055d75a1ee208026236ccfa323dfbcf646cb25164916a999f5c1cc7109e",
+      "bytes": 15496
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh10_error.xdmf",
+      "sha256": "d495d0c5b4ae4f71cfe22aab14b3738b692dbe9684e43bbb43b6e66cbcada4f4",
+      "bytes": 1109
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh3_error.h5",
+      "sha256": "fd382f7a27e3a673dd0401e60453b4d53cca540e74f9e97d5cf75a7581d622b4",
+      "bytes": 10656
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh1_error.h5",
+      "sha256": "f286157554799820a7cda9b7599d23732a312b94fef85d74e58f4e834a87a9b7",
+      "bytes": 8120
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh12_error.xdmf",
+      "sha256": "da69409d05f02c8262a3697e75b1e851a5c920611b04e1dfc77c08af3a11bf70",
+      "bytes": 1109
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh9_error.xdmf",
+      "sha256": "3382bb9e0428b642b114861e5d6adcac51ddf8802b87db08351745795a67162b",
+      "bytes": 1105
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh14_error.xdmf",
+      "sha256": "47fd8ed96725862781b75540b0007c55d686de82fffbb6b92a8a8453dc334af9",
+      "bytes": 1113
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh16_error.h5",
+      "sha256": "c42d91a12c1aed74ea9903a8e59f0537215e70e0492ea1a2d70342d27588986f",
+      "bytes": 2922792
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh6_error.h5",
+      "sha256": "6e75845d681c00ecf5783bbe2a7d95393b412ed5917d905e1475919fb0f23888",
+      "bytes": 19704
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh19_error.xdmf",
+      "sha256": "ce5caaf39ed1424af78418e5b29b08276f24e7067b6a5d47840224361e770d4d",
+      "bytes": 1117
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh0_error.xdmf",
+      "sha256": "26a0c53ad83d97ed13910560c5aa838f4de62312135491b0c0feea3959910951",
+      "bytes": 1098
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh13_error.xdmf",
+      "sha256": "319d36ad3c2553b9d1a94d8c3b6b174f62b697f3a3e432984123e38c57bdecb7",
+      "bytes": 1112
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh11_error.h5",
+      "sha256": "e2fc134be4b9c1d899c3a6e83423fb0170906fb09ad3538811935ac02d84b6c3",
+      "bytes": 166568
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh1_error.xdmf",
+      "sha256": "64a94eeca3218232a48d5686a0c7c8502e254da6917938e61adfdc94de09d18d",
+      "bytes": 1098
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh4_error.h5",
+      "sha256": "ac6fda137e51a29c57c3a0794a47ee5518bb59091afe6f54b5c92d2102c807a4",
+      "bytes": 13960
+    },
+    {
+      "path": "Riviere-5_P1_RT2.csv",
+      "sha256": "b4a012eccd1052d5f97778457bb461a2e1c82558d2e034ed736fcc0b4a188f66",
+      "bytes": 3556
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh15_error.xdmf",
+      "sha256": "2107a79a0f311b82f8395a517ffbdb8a74e20a0477c5f1021459964d2953923f",
+      "bytes": 1113
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh11_error.xdmf",
+      "sha256": "92dd805e626095f3a8d06864e4e5901bbee5c17dc5ad60991b1fc6c4434668da",
+      "bytes": 1109
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh9_error.h5",
+      "sha256": "2048597d6d87fdc9e7542e99fee86074e79d36d8fb6608448199f310e9961c16",
+      "bytes": 59928
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh18_error.xdmf",
+      "sha256": "cdd616f0fcfeb7102714060556529272a55c62a4d2668ebf2e668ae37cfb4197",
+      "bytes": 1117
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh2_error.xdmf",
+      "sha256": "4b3d9cb225401d8a3a571ec9aca2998f14f68de176466c8baa67fb76a7f2c96f",
+      "bytes": 1098
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh2_error.h5",
+      "sha256": "4290ea52961c04baa26bfa93533d5f95e2fbc4ceb12e938a26b4573e29913876",
+      "bytes": 10208
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh4_error.xdmf",
+      "sha256": "9496592bc5fe588cdc16c808db0ca1b5dd0c49d58d86d8dc8f616b65bba2e813",
+      "bytes": 1101
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh17_error.h5",
+      "sha256": "a253ef795eac64bb4e40940bd44281efff7ebc255e5e3b4cb98bcf1deb87eaf8",
+      "bytes": 5032120
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh5_error.xdmf",
+      "sha256": "b31bf0ebef83eea54141157fa9d1fc66b54998e25bb2383a3aa992ea22d773d8",
+      "bytes": 1102
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh0_error.h5",
+      "sha256": "0f876a18a50eec013657a23f3d6fc4e15b6fb19c985acee2d80b6df714a6299f",
+      "bytes": 8120
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh14_error.h5",
+      "sha256": "f71a572138d092dced8015889afda861445ddf65fd990a7a8491d071da31268b",
+      "bytes": 939960
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh3_error.xdmf",
+      "sha256": "ee2e99502745e94b1d4e513b42692375b8765faaabbb8c33f1979df40b764324",
+      "bytes": 1101
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh17_error.xdmf",
+      "sha256": "3764cb99f5bb030a1c850922f76eaefa46c8a20eb6fe450b95a06f772e064cd6",
+      "bytes": 1116
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh13_error.h5",
+      "sha256": "607884b10ffecd64a5d6ffb66db0ffb424dcabdc566dfe74dfdaf93188abb681",
+      "bytes": 522744
+    },
+    {
+      "path": "Riviere-5_P1_RT2-mesh8_error.xdmf",
+      "sha256": "51780616d190ea5e44a237acb4f26603e053027457ef8354c0e2231059e2d329",
+      "bytes": 1102
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "author_code_executed",
+  "elapsed_seconds": 13.83126833406277,
+  "observable": "100*(Y_TCJA/Y_2017law-1) from freshly solved macro steady states using supplied fitted tax functions",
+  "reference_percentage_points": 0.07,
+  "actual_percentage_points": 0.06954553514306738,
+  "absolute_error_percentage_points": 0.00045446485693262373,
+  "tolerance_percentage_points": 0.005,
+  "passed": true,
+  "baseline_Y_TCJA": 0.6424733699362518,
+  "counterfactual_Y_2017law": 0.6420268689145029,
+  "counterfactual_Y_archive": 0.6420268689145023,
+  "counterfactual_Y_archive_error": 5.551115123125783e-16,
+  "max_abs_reform_euler_savings": 1.813271754969037e-13,
+  "max_abs_reform_euler_labor_leisure": 1.794120407794253e-13,
+  "reform_resource_constraint_error": 1.609823385706477e-14,
+  "scope": "Macro steady-state stage only; Tax-Calculator PUF microsimulation and transition paths are not rerun.",
+  "paper_version": "May 2018 author manuscript DEP_TaxFuncs.pdf at pinned replication commit; not independently matched to final 2019 journal version",
+  "baseline_government_spending": -0.012946647621442861,
+  "counterfactual_government_spending": -0.010511793705472339,
+  "economic_feasibility_passed": false,
+  "feasibility_note": "Author solver warns negative government spending in the counterfactual debt closure. Matching the archive/table does not establish a feasible policy simulation."
+}

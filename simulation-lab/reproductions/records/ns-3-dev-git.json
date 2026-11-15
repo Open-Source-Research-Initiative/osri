@@ -1,0 +1,607 @@
+{
+  "tool_id": "ns-3-dev-git",
+  "title": "Unison: Table 2 and thread determinism",
+  "question": "Can Unison preserve packet/flow outcomes while speeding up ns-3 execution?",
+  "paper": {
+    "title": "Unison: A Parallel-Efficient and User-Transparent Network Simulation Kernel",
+    "identifier": "10.1145/3627703.3629574",
+    "url": "https://cs.nju.edu.cn/tianchen/lunwen/2024/eurosys24-final201.pdf",
+    "locator": "Section6.2, Table2; exact thread/result determinism paragraph after Figure11.",
+    "publication_type": "proceedings-article"
+  },
+  "source": {
+    "url": "https://github.com/NASA-NJU/UNISON-for-ns-3",
+    "ref": "unison-evaluations",
+    "commit": "7b3274167615c55ae8d69f7edee4e2dc2d81f706",
+    "paths": [
+      "scratch/fat-tree.cc",
+      "scratch/utils/common.cc",
+      "scratch/cdf/web-search.txt",
+      "exp.py",
+      "process.py"
+    ],
+    "license": "GPL-2.0; upstream notices retained."
+  },
+  "inputs": {
+    "description": "Author Table 2 settings: two/four clusters, k=4, 100 Mbps, 500 microseconds, RED 100-packet buffer, NewReno, 500-byte packets, load 0.7, incast 0.1, five simulated seconds; exact web-search CDF and default seed retained.",
+    "access": "Public author repository; synthetic traffic.",
+    "hashes": [
+      {
+        "path": "unison/scratch/fat-tree.cc",
+        "sha256": "6a0a75b30d59c9eaeae34b68cbd6cbbfe022b031f7c5c8ccdc8d6d231c88fb34"
+      },
+      {
+        "path": "unison/scratch/utils/common.cc",
+        "sha256": "363b653a1ea910192492b70df254b2283ff5f6b53fd6dcfd31f489d5f8098291"
+      },
+      {
+        "path": "unison/scratch/cdf/web-search.txt",
+        "sha256": "a2ef6ec23d803055dc150530dba65bf2f4550da7c24364f62f922e5a9a90ea68"
+      },
+      {
+        "path": "unison/exp.py",
+        "sha256": "653a058ba657bafd17d9fccd8d353f0e3e9f2e80ecccd849256ad5d660319431"
+      },
+      {
+        "path": "unison/process.py",
+        "sha256": "488b104f01f4a32ea69d2ed053089cc374e3a50ab6293373e87ac39a9069be87"
+      }
+    ]
+  },
+  "environment": {
+    "versions": {
+      "operating_system": "Ubuntu 24.04.5 LTS",
+      "compiler": "GCC/G++ 13.3.0",
+      "cmake": "3.31.6",
+      "ninja": "1.11.1.3",
+      "ns3": "3.36.1",
+      "python_analysis": "3.12.3"
+    },
+    "changes_from_author": [
+      "Ubuntu 24.04/GCC 13.3 versus recommended Ubuntu 22.04.",
+      "Compiler option -include cstdint supplies an old-source header dependency; no source/model edits.",
+      "Separate local sequential and MTP builds; no MPI or host-mutating exp.py init."
+    ]
+  },
+  "commands": [
+    "Configured exact author source and built fat-tree with separate MTP/sequential caches; actual configure/build logs retained. GCC 13 compatibility option: -include cstdint.",
+    "Executed seven native build[-default]/scratch/ns3.36.1-fat-tree-optimized commands, cwd unison, with exact Table 2 parameters. run_unison.py reconstructs those executed argv without model edits.",
+    "Executed original python3 process.py 2, cwd unison, on parsed native metrics; original processed result retained as ns3-output/author-table2.csv.",
+    "Executed analyse_unison.py; saved twelve numerical comparisons and fixed-input determinism checks."
+  ],
+  "target": {
+    "observable": "Table2 mean FCT(ms), end-to-end delay/RTT(ms), mean per-flow throughput(Mbps) for 2/4-cluster default and Unison; Section6.2 thread determinism.",
+    "reference": {
+      "paper_table_2": {
+        "default_2": [
+          650.89,
+          15.14,
+          6.81
+        ],
+        "unison_2": [
+          632.52,
+          15.03,
+          6.99
+        ],
+        "default_4": [
+          480.84,
+          10.49,
+          6.5
+        ],
+        "unison_4": [
+          472.45,
+          11.39,
+          6.41
+        ]
+      },
+      "interpretation": "Published values are averages. Event tie-breaking legitimately differs between Unison and default. Test repeated Unison thread counts for exact determinism; do not demand equal packets versus default as a paper claim."
+    },
+    "tolerance": "Table2 printed precision: absolute difference <=0.005 in the printed unit for each two-decimal table entry (rounding agreement only, not a scientific equivalence margin). Unison determinism: exact equality of printed event counts and model metrics across repeated runs/threads.",
+    "tolerance_basis": "Paper Table2 prints two decimals; half the last printed decimal unit. Section6.2 explicitly claims exact Unison event-count/results agreement across1..16threads. Earlier proposed1%/packet equality rule superseded BEFORE output after reading actual article.",
+    "declared_before_run": true,
+    "scope": "Attempt exact author accuracy settings and compare with Table2; differences retained as failed match. Hardware speedup not tested; reduced diagnostic separate from paper input."
+  },
+  "execution": {
+    "status": "target_compared",
+    "result": "Seven full author-model simulations completed. All twelve Table 2 printed-value checks passed at predeclared 0.005 tolerance. Four two-cluster Unison runs (one/two/four threads plus repeated two-thread run) had identical 7,447,618 events and model metrics. One short diagnostic with no observed completed flows is preserved separately.",
+    "exit_code": 0,
+    "elapsed_seconds": 73.39
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "table_checks": [
+        {
+          "configuration": "default_2",
+          "metric": "fct_ms",
+          "reference": 650.89,
+          "observed": 650.895,
+          "absolute_difference": 0.005,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "default_2",
+          "metric": "rtt_ms",
+          "reference": 15.14,
+          "observed": 15.13888,
+          "absolute_difference": 0.00112,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "default_2",
+          "metric": "throughput_mbps",
+          "reference": 6.81,
+          "observed": 6.81012,
+          "absolute_difference": 0.00012,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "unison_2",
+          "metric": "fct_ms",
+          "reference": 632.52,
+          "observed": 632.525,
+          "absolute_difference": 0.005,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "unison_2",
+          "metric": "rtt_ms",
+          "reference": 15.03,
+          "observed": 15.0337,
+          "absolute_difference": 0.0037,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "unison_2",
+          "metric": "throughput_mbps",
+          "reference": 6.99,
+          "observed": 6.98695,
+          "absolute_difference": 0.00305,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "default_4",
+          "metric": "fct_ms",
+          "reference": 480.84,
+          "observed": 480.842,
+          "absolute_difference": 0.002,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "default_4",
+          "metric": "rtt_ms",
+          "reference": 10.49,
+          "observed": 10.49304,
+          "absolute_difference": 0.00304,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "default_4",
+          "metric": "throughput_mbps",
+          "reference": 6.5,
+          "observed": 6.50213,
+          "absolute_difference": 0.00213,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "unison_4",
+          "metric": "fct_ms",
+          "reference": 472.45,
+          "observed": 472.454,
+          "absolute_difference": 0.004,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "unison_4",
+          "metric": "rtt_ms",
+          "reference": 11.39,
+          "observed": 11.38678,
+          "absolute_difference": 0.00322,
+          "tolerance": 0.005,
+          "passed": true
+        },
+        {
+          "configuration": "unison_4",
+          "metric": "throughput_mbps",
+          "reference": 6.41,
+          "observed": 6.40928,
+          "absolute_difference": 0.00072,
+          "tolerance": 0.005,
+          "passed": true
+        }
+      ],
+      "determinism": [
+        {
+          "run": "unison-cluster2-thread1",
+          "values": {
+            "fct_us": "632525",
+            "e2ed_us": "7516.85",
+            "throughput_gbps": "0.00698695",
+            "events": 7447618,
+            "tx_packets": 678387,
+            "rx_packets": 676639,
+            "flow_count": 364,
+            "finished_flow_count": 278
+          },
+          "matches_first_run": true
+        },
+        {
+          "run": "unison-cluster2-thread2",
+          "values": {
+            "fct_us": "632525",
+            "e2ed_us": "7516.85",
+            "throughput_gbps": "0.00698695",
+            "events": 7447618,
+            "tx_packets": 678387,
+            "rx_packets": 676639,
+            "flow_count": 364,
+            "finished_flow_count": 278
+          },
+          "matches_first_run": true
+        },
+        {
+          "run": "unison-cluster2-thread2-repeat",
+          "values": {
+            "fct_us": "632525",
+            "e2ed_us": "7516.85",
+            "throughput_gbps": "0.00698695",
+            "events": 7447618,
+            "tx_packets": 678387,
+            "rx_packets": 676639,
+            "flow_count": 364,
+            "finished_flow_count": 278
+          },
+          "matches_first_run": true
+        },
+        {
+          "run": "unison-cluster2-thread4",
+          "values": {
+            "fct_us": "632525",
+            "e2ed_us": "7516.85",
+            "throughput_gbps": "0.00698695",
+            "events": 7447618,
+            "tx_packets": 678387,
+            "rx_packets": 676639,
+            "flow_count": 364,
+            "finished_flow_count": 278
+          },
+          "matches_first_run": true
+        }
+      ],
+      "transforms": "Exactly authors process.py2: FCT=fct_us/1000; RTT=e2ed_us*2/1000; throughput=Gbps*1000."
+    },
+    "interpretation": "All12 table entries agree to the predeclared half-last-digit threshold. This does not independently establish validity of packet models, table uncertainty, other paper experiments or hardware speedups."
+  },
+  "outputs": [
+    {
+      "path": "files/ns-3-dev-git/ns3-output/author-postprocess.log",
+      "sha256": "eff4c7812e209f4c903a7fed4085a3a518bb0df415db262a1a008cb82ac4bc54",
+      "bytes": 2239,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/author-postprocess.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/author-table2.csv",
+      "sha256": "d69ab8e4bb0f441858cbf3fe85783ecdb4c26312e6fe3d0ce19be917bc979704",
+      "bytes": 499,
+      "role": "numerical result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/author-table2.csv",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/comparison.json",
+      "sha256": "e586e7d46ebb018a8d96562a3c818281ec471fe49f36018275e15e2d372c53dc",
+      "bytes": 6829,
+      "role": "numerical comparison receipt",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/default-cluster2-time.log",
+      "sha256": "b1c2afddd9405d859c57216d6e914fb9dd43c3676017630e50796551a4dd30a0",
+      "bytes": 974,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/default-cluster2-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/default-cluster2.log",
+      "sha256": "a50d0ee39d4987f0f96c9e3845639161b5c4b9f56fc8f1cc689e07c784ff0b45",
+      "bytes": 935,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/default-cluster2.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/default-cluster4-time.log",
+      "sha256": "f496f9894d4b9252187f29e453692a1e651d5665298172b29966304b9b80cccc",
+      "bytes": 978,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/default-cluster4-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/default-cluster4.log",
+      "sha256": "16e343603e9fb6b0ce61e604b2fd62fd66b61711efc05b771e1d141b670486bc",
+      "bytes": 1201,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/default-cluster4.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/diagnostic-time.log",
+      "sha256": "15d19c5a8a518479d63761318e257fdd0abe23ab4d67ee4f2ee25d11527038e0",
+      "bytes": 979,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/diagnostic-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/diagnostic.log",
+      "sha256": "76bf22a7701b924d267e62195efefa974d82b3c8e298d158d7412776d87e61e9",
+      "bytes": 901,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/diagnostic.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/table2-comparison.csv",
+      "sha256": "4a38297152952ab7e106fb83c333912d0b41dda9a7d838c57e7f82aa4d09cf54",
+      "bytes": 713,
+      "role": "numerical result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/table2-comparison.csv",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/table2-comparison.png",
+      "sha256": "840b377bb6aad46ed780d575a73c0d71f5de33a65b644ea5469855fd7fcb00ff",
+      "bytes": 86514,
+      "role": "original comparison figure",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/table2-comparison.png",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/table2-comparison.svg",
+      "sha256": "2690b83a7f67cd20c99417749fb6d7fffaf23c4ba2385c6c95408ff316d7de23",
+      "bytes": 58121,
+      "role": "original comparison figure",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/table2-comparison.svg",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread1-time.log",
+      "sha256": "b159e4027cbc2ddac9b260a25f89661c81d247de40548288671cd2c8eadc12d9",
+      "bytes": 977,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread1-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread1.log",
+      "sha256": "88f984c279ddf413e5ca242bc57add25cad51206a327874cd503efad0ff10899",
+      "bytes": 934,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread1.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread2-repeat-time.log",
+      "sha256": "fbaf175858d4d841a89c2a97387385ef6eac7c2f1a54d68c236594f229d1bd24",
+      "bytes": 977,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread2-repeat-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread2-repeat.log",
+      "sha256": "ff00c5a1d84573ed543d9d33a1c547c699a41a415976c7069ba8bddefa70b7ea",
+      "bytes": 934,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread2-repeat.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread2-time.log",
+      "sha256": "4daf5d346c941350773205abb8f683b003c09a8a4062b915c94feb583ed0e9fe",
+      "bytes": 977,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread2-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread2.log",
+      "sha256": "6ee413edef524c8a7a4f4ee90911e2f7192b39ac96ef0988f9080219b165c087",
+      "bytes": 934,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread2.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread4-time.log",
+      "sha256": "e2b2eb2c22898cb624b1aefcab37a057d9e428202d80822a07b7312ab086c0cd",
+      "bytes": 978,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread4-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster2-thread4.log",
+      "sha256": "d7da31a79906e3abb9fcf75ad9545651e0000a5d3e05647c58f68deeb989482c",
+      "bytes": 934,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster2-thread4.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster4-thread4-time.log",
+      "sha256": "bf8a31b6fbdb28aa30066e54ee7896214102e725a026e49dcacbf00204392889",
+      "bytes": 982,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster4-thread4-time.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-output/unison-cluster4-thread4.log",
+      "sha256": "d1b094892ecde611d22644c93001d92cf8d9c2b2b57d05d5bee85ded7820589b",
+      "bytes": 1200,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/unison-cluster4-thread4.log",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/compact-unison-record.json",
+      "sha256": "15c994ed6dcafa94b9efa03efa5a7a8cd5f6853bdb6bb82d4d21336576c18bb7",
+      "bytes": 12280,
+      "role": "portable compact run/comparison receipt",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/compact-unison-record.json",
+      "published": true
+    },
+    {
+      "path": "files/ns-3-dev-git/build-network-tools.sh",
+      "sha256": "93a30c388d03e600324e4d52875cd435ac97016a50fdead4893207c762a61eaf",
+      "bytes": 3835,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/build-network-tools.sh"
+    },
+    {
+      "path": "files/ns-3-dev-git/requirements-build.txt",
+      "sha256": "2b8d2c4a3582da661fd5456f12bd57b581b4d918a8bdb058d0d0180149fb5d53",
+      "bytes": 30,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/requirements-build.txt"
+    },
+    {
+      "path": "files/ns-3-dev-git/THIRD-PARTY-NOTICES.md",
+      "sha256": "19ab99fb1d18c8dc5fd64d2d277b21cf074ef57b63a24097a75e79248eefa1c7",
+      "bytes": 1245,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/THIRD-PARTY-NOTICES.md"
+    },
+    {
+      "path": "files/ns-3-dev-git/targets-before-run.json",
+      "sha256": "c9245b9c663ae4f15e8a52b98796cecf6ce402d914ce051c3850a572f4914db5",
+      "bytes": 3903,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/targets-before-run.json"
+    },
+    {
+      "path": "files/ns-3-dev-git/plot_network_results.py",
+      "sha256": "4865311e82947b8b2ed51eca219677225a9831c2d41df8e94e1725f6d0fa1952",
+      "bytes": 2046,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/plot_network_results.py"
+    },
+    {
+      "path": "files/ns-3-dev-git/requirements-plot.txt",
+      "sha256": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38",
+      "bytes": 19,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/requirements-plot.txt"
+    },
+    {
+      "path": "files/ns-3-dev-git/ns3-guide.md",
+      "sha256": "9d74d224bc40173be819037367fa25489737280811766b9616bceb7b4c507a29",
+      "bytes": 4597,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-guide.md"
+    },
+    {
+      "path": "files/ns-3-dev-git/run_unison.py",
+      "sha256": "9b25cab27896074e41213337cb03c17f74558990cba1d460f0ca10b686ae8721",
+      "bytes": 1430,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/run_unison.py"
+    },
+    {
+      "path": "files/ns-3-dev-git/analyse_unison.py",
+      "sha256": "d0b0e93015f62a997da6c711e57326b36d6dabd26bebf9b06f0c196c9f3e126d",
+      "bytes": 4278,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/analyse_unison.py"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/networks/targets-before-run.json",
+    "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-output/comparison.json",
+    "planning/simulation-reproduction-2026-11-15/runs/networks/ns3-guide.md"
+  ],
+  "blockers": [
+    "Human scientific review is pending.",
+    "Native log values use six significant digits; two FCT comparisons touch the predeclared half-last-decimal threshold.",
+    "Tested one/two/four threads, not all one-to-sixteen threads or the distinct Figure 11 topology. No hardware speedup claim."
+  ],
+  "next_action": "Human methods review of source, inputs and numerical comparison; then extend to the remaining named paper targets.",
+  "relationship_to_paper": "Original author-code reconstruction of Section 6.2, Table 2, with matched source, input data and settings. Thread-determinism checks have the narrower tested scope recorded separately.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/networks",
+    "guide": "ns3-guide.md",
+    "files": [
+      "build-network-tools.sh",
+      "requirements-build.txt",
+      "THIRD-PARTY-NOTICES.md",
+      "targets-before-run.json",
+      "plot_network_results.py",
+      "requirements-plot.txt",
+      "ns3-guide.md",
+      "run_unison.py",
+      "analyse_unison.py",
+      "compact-unison-record.json"
+    ]
+  },
+  "research_group": "networks",
+  "guide_source": "templates/ns-3-dev-git.md.in"
+}

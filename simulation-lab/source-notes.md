@@ -5,7 +5,7 @@ This catalog was assembled on 2026-11-15 from official repositories, documentati
 ## What was checked
 
 - Repository availability and source-license information were inspected for the listed tools. License summaries identify the core source where possible; dependency, data, plugin, and asset terms remain separate.
-- Citation titles and DOIs were checked against Crossref. The bibliography records publication types and per-reference reading status. Metadata verification does not mean the article's methods were read or tested.
+- Citation titles and DOIs were checked against primary Crossref or DataCite records. The bibliography records publication types and per-reference reading status. Metadata verification does not mean the article's methods were read or tested.
 - The featured walkthroughs identify specific inspected code, paper passages, or upstream instructions. Only the four included CPU examples were executed here. The [verification record](verification.md) reports their results.
 
 The broad catalog has more tools than application guides. Rows without a verified paper or local walkthrough say so. Adding a paper-linked example for those tools is an open contribution; a documentation link is not represented as a literature example.
@@ -26,11 +26,11 @@ The public resources contain citations, passage locations, independently written
 | ABIDES | Original framework and historical dependencies. The distinct JPMorgan fork was archived when checked. |
 | PyPSA-Eur | Modern small tutorial linked to a 2018 model paper; the current run is not asserted to reproduce the original results. |
 | SUMO LuST | Author model originally validated on SUMO 0.26. New simulator versions need a documented port and comparison. |
-| ViNoS | JOSS article reviewed; source-host access challenge prevented model inspection. Archive retrieval and model licensing remain pending. |
+| ViNoS | Initial source-host challenge preserved as review history. Follow-up retrieved and inspected v1.3.2, version DOI 10.5281/zenodo.10798132, model/BehaviorSpace files and mixed per-file licenses. Model execution remains pending; see the dated fisheries-guide correction. |
 | Turek–Hron | Benchmark citation and current preCICE implementation checked; original numerical target tables still need review before a reproduction claim. |
 
 Keep dated source checks when updating the catalog. A repository can move, an archive can become unavailable, and default branches or licenses can change. Follow a guide's pinned version when its commands depend on that version.
 
 ## Credits and review
 
-Human direction: Cole / @ajhcs. Codex researched sources, drafted resources, implemented the teaching scripts and catalog, and performed the recorded technical checks. Cole authorized merging and publishing the lab after a final technical review; acceptance and release are tracked in [PR #11](https://github.com/Open-Source-Research-Initiative/osri/pull/11). Independent human scientific review has not been recorded. The public guides and code follow the hub's [licensing](../LICENSE.md); linked third-party material retains its own terms.
+Human direction: Cole / @ajhcs. Codex researched sources, drafted resources, implemented the teaching scripts and catalog, and performed the recorded technical checks. Cole authorized merging and publishing the lab after a final technical review; the original release is tracked in [PR #11](https://github.com/Open-Source-Research-Initiative/osri/pull/11). Cole separately authorized final review, merge and publication of the new examples in [PR #12](https://github.com/Open-Source-Research-Initiative/osri/pull/12). Independent human scientific review has not been recorded. The public guides and code follow the hub's [licensing](../LICENSE.md); linked third-party material retains its own terms.

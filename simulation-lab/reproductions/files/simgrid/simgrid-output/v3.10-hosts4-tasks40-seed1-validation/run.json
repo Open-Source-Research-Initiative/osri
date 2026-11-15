@@ -1,0 +1,33 @@
+{
+  "version": "3.10",
+  "hosts": 4,
+  "cores_per_host": 4,
+  "tasks": 40,
+  "seed": 1,
+  "validation_logging": true,
+  "exit_code": 0,
+  "elapsed_seconds": 0.0046105870278552175,
+  "max_rss_kib": 6912,
+  "makespan_seconds": 41.122089,
+  "cpu_affinity": [
+    0
+  ],
+  "argv": [
+    "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/networks/coordinator-workspace-v3.10",
+    "4",
+    "4",
+    "100",
+    "200",
+    "100",
+    "100",
+    "200",
+    "10",
+    "40",
+    "100",
+    "100",
+    "100",
+    "100",
+    "1"
+  ],
+  "path": "simgrid-output/v3.10-hosts4-tasks40-seed1-validation"
+}

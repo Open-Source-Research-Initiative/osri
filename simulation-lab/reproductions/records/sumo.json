@@ -1,0 +1,450 @@
+{
+  "tool_id": "sumo",
+  "title": "Historical LuST city-model run with three seeds",
+  "question": "Can the authors' full-city scenario run with original SUMO0.26, and how variable are first-hour completed-trip metrics?",
+  "paper": {
+    "title": "Luxembourg SUMO Traffic (LuST) Scenario: Traffic Demand Evaluation",
+    "identifier": "10.1109/MITS.2017.2666585",
+    "url": "https://doi.org/10.1109/MITS.2017.2666585",
+    "locator": "Author scenario and traffic-demand evaluation; full article target unavailable (institutional LuST2.pdf requires copy request).",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/lcodeca/LuSTScenario",
+    "ref": "5edb7ecb9ad196c39172b6eb95d19ed789f4b1a6",
+    "commit": "5edb7ecb9ad196c39172b6eb95d19ed789f4b1a6",
+    "paths": [
+      "scenario/dua.static.sumocfg",
+      "scenario/lust.net.xml",
+      "scenario/DUARoutes/",
+      "scenario/transit.rou.xml",
+      "scenario/buslines.rou.xml"
+    ],
+    "license": "LuST MIT; SUMO0.26 GPL-3.0-or-later; OSRI harness MIT."
+  },
+  "inputs": {
+    "description": "Unchanged author full-city network, routes, vehicle types, bus stops, inductive loops, polygons and static traffic-light program. First3600seconds, seeds42/43/44.",
+    "access": "Public author scenario. Original2017 article numerical targets/observation files not available.",
+    "hashes": {
+      "dua.static.sumocfg": "eb9352c8cf64b21f80764cd09bec7e79495286beca22ced6f80e533cb92bb992",
+      "lust.net.xml": "6f5d76223cf14b797ae6267f13b23eb6c872d76adec1fb22a8569a806dc09341",
+      "buslines.rou.xml": "201101ae9ae3812c35bdb775eb2f8c8549fc7435f702202fc89d7df338b06e1e",
+      "DUARoutes/local.0.rou.xml": "d00d09ac2fca75a18ed5b07a570be5680a2df17e30bc7f31e44f434947ef4054",
+      "DUARoutes/local.1.rou.xml": "ed3a7d543d2b322a52904549771d1d21867b2cd744ecbdc457f1d68e1c5d512f",
+      "DUARoutes/local.2.rou.xml": "fa446f0bd1e6bf2e4755a91f82991116df9a9780bb69cbb5be9d18a44cdd3f99",
+      "transit.rou.xml": "2effb58329e51fd79fea06fb9c212524a769e730df38c033af4a2f041996f4a0",
+      "vtypes.add.xml": "8bfa1f4f2c51f4f15066e5d799027572f3482aaaa67fb37ee10a75cecf42ee92",
+      "busstops.add.xml": "cc63875ee4b18e495d85278b1ef35762347261602273184fcfc9800800718039",
+      "e1detectors.add.xml": "bcc7fb7d0caf44f125bdaf744868951af0fa220b6662d5245b3ae08fa0ec2feb",
+      "lust.poly.xml": "abb519b3e12e0392111e9d0c3517e8f54ec424dedbb54dd9ceaf31a9eb3fcc8e",
+      "tll.static.xml": "893f4e0e9ffb8e8eed67caeafada8fec958fb92f437aa41f69783c059c474102"
+    }
+  },
+  "environment": {
+    "versions": {
+      "sumo": "0.26.0",
+      "compiler": "GNU C++13.3.0",
+      "xerces": "Isolated explicit conda lock",
+      "sumo_binary_sha256": "be2a86943b3594809bafb5f40e617ae92d77caa9b6d77b1d853ca62e047f3c0e",
+      "sumo_release_sha256": "258ed74514ab119b5a812908a8bf97b4ea6ef91a3b921499feff3b642e4bad39"
+    },
+    "changes_from_author": "Original runtime release; compiled with C++11 and legacy macro/header compatibility flags, no algorithm source edits. No GUI/PROJ/GDAL required. End bounded to3600seconds; seeds explicit; XML schema validation disabled because legacy Xerces cannot fetch current HTTPS schema. Output paths changed only."
+  },
+  "commands": [
+    [
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/bin/sumo",
+      "-c",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/LuSTScenario/scenario/dua.static.sumocfg",
+      "--end",
+      "3600",
+      "--seed",
+      "42",
+      "--no-step-log",
+      "true",
+      "--duration-log.statistics",
+      "true",
+      "--xml-validation",
+      "never",
+      "--log",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed42/run.log",
+      "--summary-output",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed42/summary.xml",
+      "--tripinfo-output",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed42/tripinfo.xml"
+    ],
+    [
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/bin/sumo",
+      "-c",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/LuSTScenario/scenario/dua.static.sumocfg",
+      "--end",
+      "3600",
+      "--seed",
+      "43",
+      "--no-step-log",
+      "true",
+      "--duration-log.statistics",
+      "true",
+      "--xml-validation",
+      "never",
+      "--log",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed43/run.log",
+      "--summary-output",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed43/summary.xml",
+      "--tripinfo-output",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed43/tripinfo.xml"
+    ],
+    [
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/bin/sumo",
+      "-c",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/LuSTScenario/scenario/dua.static.sumocfg",
+      "--end",
+      "3600",
+      "--seed",
+      "44",
+      "--no-step-log",
+      "true",
+      "--duration-log.statistics",
+      "true",
+      "--xml-validation",
+      "never",
+      "--log",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed44/run.log",
+      "--summary-output",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed44/summary.xml",
+      "--tripinfo-output",
+      "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed44/tripinfo.xml"
+    ]
+  ],
+  "target": {
+    "observable": "Actual model runs to3600seconds; native summary/trip outputs and repeated-seed duration distributions.",
+    "reference": "Author scenario source and simulator version; no published numerical target available.",
+    "tolerance": null,
+    "tolerance_basis": "No scientific acceptance threshold invented. Parse/end-time checks support execution only.",
+    "declared_before_run": true,
+    "scope": "Bounded duration adaptation, no full-day or empirical traffic-validation claim."
+  },
+  "execution": {
+    "status": "adapted_run",
+    "result": "Three author-model runs completed. Each inserted878vehicles; completed trips757/761/756, still running121/117/122. Conditional completed-trip means486.023778/487.896189/487.310847seconds.",
+    "exit_code": 0,
+    "elapsed_seconds": 8.467857487965375
+  },
+  "comparison": {
+    "performed": false,
+    "passed": null,
+    "measurements": {
+      "runs": [
+        {
+          "seed": 42,
+          "argv": [
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/bin/sumo",
+            "-c",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/LuSTScenario/scenario/dua.static.sumocfg",
+            "--end",
+            "3600",
+            "--seed",
+            "42",
+            "--no-step-log",
+            "true",
+            "--duration-log.statistics",
+            "true",
+            "--xml-validation",
+            "never",
+            "--log",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed42/run.log",
+            "--summary-output",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed42/summary.xml",
+            "--tripinfo-output",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed42/tripinfo.xml"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 3.673138172016479,
+          "summary_last_step": {
+            "time": "3599.00",
+            "loaded": "923",
+            "inserted": "878",
+            "running": "121",
+            "waiting": "0",
+            "ended": "757",
+            "meanWaitingTime": "0.03",
+            "meanTravelTime": "486.02",
+            "duration": "1"
+          },
+          "completed_trip_rows": 757,
+          "completed_trip_mean_duration_seconds": 486.0237780713342,
+          "completed_trip_duration_sd_seconds": 283.8915266519149
+        },
+        {
+          "seed": 43,
+          "argv": [
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/bin/sumo",
+            "-c",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/LuSTScenario/scenario/dua.static.sumocfg",
+            "--end",
+            "3600",
+            "--seed",
+            "43",
+            "--no-step-log",
+            "true",
+            "--duration-log.statistics",
+            "true",
+            "--xml-validation",
+            "never",
+            "--log",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed43/run.log",
+            "--summary-output",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed43/summary.xml",
+            "--tripinfo-output",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed43/tripinfo.xml"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 2.458735044929199,
+          "summary_last_step": {
+            "time": "3599.00",
+            "loaded": "923",
+            "inserted": "878",
+            "running": "117",
+            "waiting": "0",
+            "ended": "761",
+            "meanWaitingTime": "0.03",
+            "meanTravelTime": "487.90",
+            "duration": "1"
+          },
+          "completed_trip_rows": 761,
+          "completed_trip_mean_duration_seconds": 487.89618922470436,
+          "completed_trip_duration_sd_seconds": 283.79592556454685
+        },
+        {
+          "seed": 44,
+          "argv": [
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/bin/sumo",
+            "-c",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/LuSTScenario/scenario/dua.static.sumocfg",
+            "--end",
+            "3600",
+            "--seed",
+            "44",
+            "--no-step-log",
+            "true",
+            "--duration-log.statistics",
+            "true",
+            "--xml-validation",
+            "never",
+            "--log",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed44/run.log",
+            "--summary-output",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed44/summary.xml",
+            "--tripinfo-output",
+            "/workspace/repos/builderbob/open-source-research-initiative/planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/seed44/tripinfo.xml"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 2.335984271019697,
+          "summary_last_step": {
+            "time": "3599.00",
+            "loaded": "923",
+            "inserted": "878",
+            "running": "122",
+            "waiting": "0",
+            "ended": "756",
+            "meanWaitingTime": "0.02",
+            "meanTravelTime": "487.31",
+            "duration": "0"
+          },
+          "completed_trip_rows": 756,
+          "completed_trip_mean_duration_seconds": 487.3108465608466,
+          "completed_trip_duration_sd_seconds": 283.11005500765015
+        }
+      ],
+      "mean_of_seed_means_seconds": 487.07693795229505,
+      "sd_of_seed_means_seconds": 0.9578704555847346
+    },
+    "interpretation": "New numerical outputs from actual historical simulator and complete city inputs; duration bounded. Completed-trip mean is censored, and three seeds do not validate traffic demand. No 2017 paper-target comparison could be made."
+  },
+  "outputs": [
+    {
+      "path": "files/sumo/outputs/repeated-runs.json",
+      "sha256": "9f633972b998d9870843fa637a83b9b7da813bbc74fd932cc7930be6941eec9c",
+      "bytes": 2302,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/repeated-runs.json",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed43/summary.xml",
+      "sha256": "200fe96192e8dff21ecdff8bab3c66815d73c79a5f0f820e5dd2da19a9c53853",
+      "bytes": 550972,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed43/summary.xml",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed43/run.log",
+      "sha256": "a7f7d43038fbaeb9401f761737cabaa287b87cdeb3fa04fc80048aa349622459",
+      "bytes": 1802,
+      "role": "figure_or_log",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed43/run.log",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed43/tripinfo.xml",
+      "sha256": "e017d580927fdc5c22bbe32d42b4fe955e2e268e21fd7253b62c362ed003f94c",
+      "bytes": 290688,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed43/tripinfo.xml",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed42/summary.xml",
+      "sha256": "87ee23518d16db432714bf05906553961b16047f56af97f36af9651d46997caf",
+      "bytes": 549579,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed42/summary.xml",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed42/run.log",
+      "sha256": "2214acf1cde2f27f02c80a8784a1093bc5017ff3a9d865e52716336765b11fc3",
+      "bytes": 1045,
+      "role": "figure_or_log",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed42/run.log",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed42/tripinfo.xml",
+      "sha256": "5036f1ace95fcf93df9eda350a58a648c5ba4b0259fed3826ab836e5a325b869",
+      "bytes": 288573,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed42/tripinfo.xml",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed44/summary.xml",
+      "sha256": "4b73a76da16a8333c550d50676ccc68b7325af87985d402011ea112cef82c6b3",
+      "bytes": 550914,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed44/summary.xml",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed44/run.log",
+      "sha256": "ab23f4464a755f77ab25b82aaf3ecc5bc9db5053d1c4c1b17c9345f99262c0b3",
+      "bytes": 1802,
+      "role": "figure_or_log",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed44/run.log",
+      "published": true
+    },
+    {
+      "path": "files/sumo/outputs/seed44/tripinfo.xml",
+      "sha256": "b9a8f0ccd91fba67bf1d42d47a6d3bb7f3d11b38f1615fb20c39a73413f51473",
+      "bytes": 288982,
+      "role": "numeric_result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/outputs/seed44/tripinfo.xml",
+      "published": true
+    },
+    {
+      "path": "files/sumo/README.md",
+      "sha256": "7bda9ecae5db73e1bc7d5e23f86477dc7ea3453d59d22d947b4b62b31dff476b",
+      "bytes": 3736,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/README.md"
+    },
+    {
+      "path": "files/sumo/build_runtime.sh",
+      "sha256": "b43ad8acc0d027f1c113709addb2f0c24e7abfda79c4dcff6d3fbba201db4094",
+      "bytes": 517,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/build_runtime.sh"
+    },
+    {
+      "path": "files/sumo/fetch_source.py",
+      "sha256": "b74fd1e5fb8e187aaf336aad5db868b0423691421596862069d7242183a4c391",
+      "bytes": 1185,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/fetch_source.py"
+    },
+    {
+      "path": "files/sumo/run_lust.py",
+      "sha256": "5700d2d75151c4a10458a58e99f16c57abe2703466b83df3ffd177cb494728e6",
+      "bytes": 2683,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/run_lust.py"
+    },
+    {
+      "path": "files/sumo/target.json",
+      "sha256": "2afbe22bf207f7e0f9cda382ea75a475282776eb829d8a1cca8f3aa6fee8fc9c",
+      "bytes": 1111,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/target.json"
+    },
+    {
+      "path": "files/sumo/xerces-linux-64.explicit",
+      "sha256": "99d4e16c74e9aba9fa328deadf5888381b9d739dca2d571b1178740cf78c7341",
+      "bytes": 893,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/xerces-linux-64.explicit"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/sumo-target-before-run.json",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/sumo-build.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/sumo-build-compat.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/sumo-build-compat2.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/sumo-run-first-path-error.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/sumo-run-schema-error.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/sumo-portable-check.log",
+    "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo/portable-check/run-record.json"
+  ],
+  "blockers": [
+    "2017 paper LuST2.pdf and original observation/validation series unavailable; institutional record requires copy request.",
+    "Full-day empirical comparison not attempted without its target/data."
+  ],
+  "next_action": "Obtain Codeca etal2017 DOI10.1109/MITS.2017.2666585 full text and validation data, declare a statistic/uncertainty rule, then extend run duration and repeat enough seeds.",
+  "relationship_to_paper": "Exact authors' city scenario and historical simulator; bounded original-model adaptation with fresh outputs, not paper validation.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/energy-transport/public/sumo",
+    "guide": "README.md",
+    "files": [
+      "README.md",
+      "build_runtime.sh",
+      "fetch_source.py",
+      "outputs/repeated-runs.json",
+      "outputs/seed42/run.log",
+      "outputs/seed42/summary.xml",
+      "outputs/seed42/tripinfo.xml",
+      "outputs/seed43/run.log",
+      "outputs/seed43/summary.xml",
+      "outputs/seed43/tripinfo.xml",
+      "outputs/seed44/run.log",
+      "outputs/seed44/summary.xml",
+      "outputs/seed44/tripinfo.xml",
+      "run_lust.py",
+      "target.json",
+      "xerces-linux-64.explicit"
+    ]
+  },
+  "research_group": "energy-transport",
+  "guide_source": "templates/sumo.md.in"
+}

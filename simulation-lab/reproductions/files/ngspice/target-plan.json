@@ -1,0 +1,12 @@
+{
+  "declared_before_run": true,
+  "declared_on": "2026-11-15",
+  "paper": "AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs, DATE2020, DOI10.23919/DATE48585.2020.9116200",
+  "locator": "Section III-B, Figures6-8 and TableII, public 45nm two-stage op-amp",
+  "observable": "Held-out specification success count, trajectory simulation steps and their uncertainty, maximum30 action steps per test specification",
+  "reference": {"reported_success":963,"reported_count":1000,"reported_average_simulations":27,"reported_training_wall_clock_hours":1.3,"reported_CPU_cores":8},
+  "comparison_rule": "Report counts and binomial Wilson95% interval; describe whether paper proportion0.963 is inside interval. Do not force the same result or claim failure solely from nonidentical random seeds. Report mean action count for successes, separately counting initial reset simulation. No article-equivalence claim unless matching policy architecture, training inputs and evaluation seed requirements are established.",
+  "author_reward_rule": "Use unchanged TwoStageAmp.reward: sum negative normalized constraint violations, ibias sign reversed; author success when reward>=10 (sum deficit>=-0.02). Also separately report strict all-constraints-satisfied success.",
+  "seed_rule": "Independent rerun seeds100,101,102 for training and10000,10001,10002 for held-out generation; all RNG sources explicitly seeded. Begin faithful20-test pilot for runtime/runtime validation. Full1000 evaluations only if a trained policy is available and runtime reasonable. Original paper random seeds are not supplied; record this mismatch.",
+  "initial_findings": ["Repository includes saved reached/unreached target-specification arrays but no policy checkpoint.","Current training script uses64x64 network while paper says three layers50 neurons; this is a documented author-code/paper discrepancy.","rollout.py imports missing Spectre source module; public ngspice environment import requires a documented correction.","Author netlist model include points to original author's home and requires documented path correction.","Author wrapper writes /tmp/ckt_da and suppresses native solver logs; redirect outputs under workspace and preserve actual solver logs."]
+}

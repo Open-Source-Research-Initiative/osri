@@ -1,0 +1,1855 @@
+{
+  "tool_id": "simgrid",
+  "title": "SimGrid: Figure 13 endpoint workloads",
+  "question": "Can the paper’s simulator-version time and memory comparison be rebuilt?",
+  "paper": {
+    "title": "Lowering entry barriers to developing custom simulators of distributed applications and platforms with SimGrid",
+    "identifier": "10.1016/j.parco.2025.103125",
+    "url": "https://fred-suter.com/files/publications/simgrid-parco25.pdf",
+    "locator": "Introduction paragraph before Section 2; Section 7, Figures 13-14; reference 66.",
+    "publication_type": "journal-article"
+  },
+  "source": {
+    "url": "https://github.com/simgrid/coordinator_worker_flashback",
+    "ref": "main",
+    "commit": "b09453d19541b7186703f4d651c1bba790461e44",
+    "paths": [
+      "masterworker-v3_10.c",
+      "masterworker-v3_34.cpp",
+      "Dockerfile_simgrid_v3_10",
+      "Dockerfile_simgrid_v3_36"
+    ],
+    "license": "Model files carry SimGrid-team GNU LGPL notices referring to the package. SimGrid package COPYING identifies LGPL-2.1 core, with component notices."
+  },
+  "inputs": {
+    "description": "Original generated platform ranges: 1,000 four-core hosts, 100 links, ten-link routes, 100-200 Mflop/s cores, 100-200 MB/s links, 100 Mflop/100 MB workunits. Figure 13 endpoints: 4,000 and 60,000 workunits, seeds zero through nine, both versions.",
+    "access": "Synthetic generated inputs; native XML saved for validation cases.",
+    "hashes": [
+      {
+        "path": "simgrid-benchmark/masterworker-v3_10.c",
+        "sha256": "070eff3191fdfee19f53aa02e738c31930c0c2bb87968c127307f5562f27fb3c"
+      },
+      {
+        "path": "simgrid-benchmark/masterworker-v3_34.cpp",
+        "sha256": "2910ff2e08331fc08c013d630e3553276dc17701b22130290ac3e2b9642be800"
+      },
+      {
+        "path": "simgrid-benchmark/Dockerfile_simgrid_v3_10",
+        "sha256": "ed50df44ee79d7b34c3afb626054f82b18316a839dceb842769e17d47f0e19d0"
+      },
+      {
+        "path": "simgrid-benchmark/Dockerfile_simgrid_v3_36",
+        "sha256": "67298b0bd71e815c2228fa19b4bc9e8f498851aa5cb3494ea005c998d5ff80ed"
+      }
+    ]
+  },
+  "environment": {
+    "versions": {
+      "operating_system": "Ubuntu 24.04.5 LTS",
+      "compiler": "GCC/G++ 13.3.0",
+      "cmake": "3.31.6",
+      "boost": "1.90.0; existing prefix reused read-only",
+      "simgrid3.10_commit": "9a82cac1b6f73bb342495c39807acd7380e153d5",
+      "simgrid3.36_commit": "7ed73b43153fc79a8c5eb5cff8e9f81e4f52e619",
+      "cpu_affinity": "one CPU, logical CPU 0, shared host"
+    },
+    "changes_from_author": [
+      "Source builds on Ubuntu 24.04 instead of Debian 12 containers.",
+      "Only two hardcoded /tmp XML paths moved under run directory; numerical/event logic unchanged.",
+      "Exact authors Dockerfile CMake workaround applied for 3.10; configure run from build directory for its old probes.",
+      "Optional SMPI/model checking disabled; 3.36 host energy enabled as author driver does.",
+      "Dedicated paper Xeon 8380 hardware not matched; intermediate Figure 13 points and Figure 14 core-count sweep not run."
+    ]
+  },
+  "commands": [
+    "Built exact SimGrid 3.10 and 3.36 sources with the same GCC 13.3 compiler at Release optimization; authors Dockerfile CMake workaround used for 3.10.",
+    "Compiled original C and C++ author models with two XML path substitutions only. Original and patched source/diff retained.",
+    "Executed run_simgrid_executed.py. The portable equivalent run_simgrid.py accepts a dependency prefix; each native argv, exit, CPU affinity, wall time and RSS is retained under simgrid-output/.",
+    "Executed analyse_simgrid.py; saved repetition CSV, summaries and makespan comparisons."
+  ],
+  "target": {
+    "observable": "Compare original MSG3.10 and S4U3.36 author benchmark makespans and simulator RSS/wall time for paper Figure13 workload, 1000hosts4cores,4000tasks; exploratory diagnostic4hosts40tasks first.",
+    "reference": "Paper introduction explicitly calls3.10 v3, with developments through3.36 culminating in4.0; reference66 Dockerfiles pin3.10 and3.36.",
+    "tolerance": "Makespan agreement <=1e-6 simulated seconds (local validation rule, not specified by paper); report observed differences and performance ratios without asserting hardware-specific speedup replication.",
+    "tolerance_basis": "Six decimals in native log timestamps. No portable runtime/RSS threshold imposed.",
+    "declared_before_run": true,
+    "scope": "Makespan consistency and descriptive endpoint performance/RSS comparison. Complete historical curves and hardware are not matched."
+  },
+  "execution": {
+    "status": "author_code_executed",
+    "result": "48 native runs: forty performance runs (two Figure 13 endpoints, ten seeds and two versions), six small makespan-validation runs and two paper-size makespan-validation runs. All exited zero; all four makespan checks matched to 0.000001 simulated seconds.",
+    "exit_code": 0,
+    "elapsed_seconds": 28.720062526408583
+  },
+  "comparison": {
+    "performed": true,
+    "passed": true,
+    "measurements": {
+      "makespans": [
+        {
+          "hosts": 4,
+          "tasks": 40,
+          "seed": 0,
+          "v3_10_makespan": 41.122089,
+          "v3_36_makespan": 41.122089,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        },
+        {
+          "hosts": 4,
+          "tasks": 40,
+          "seed": 1,
+          "v3_10_makespan": 41.122089,
+          "v3_36_makespan": 41.122089,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        },
+        {
+          "hosts": 4,
+          "tasks": 40,
+          "seed": 2,
+          "v3_10_makespan": 40.623535,
+          "v3_36_makespan": 40.623535,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        },
+        {
+          "hosts": 1000,
+          "tasks": 4000,
+          "seed": 0,
+          "v3_10_makespan": 4233.049287,
+          "v3_36_makespan": 4233.049287,
+          "absolute_difference": 0.0,
+          "tolerance_seconds": 1e-06,
+          "passed": true
+        }
+      ],
+      "performance_summaries": [
+        {
+          "tasks": 4000,
+          "version": "3.10",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 0.269,
+          "elapsed_min_seconds": 0.2,
+          "elapsed_max_seconds": 0.31,
+          "elapsed_sample_sd_seconds": 0.03247221034122014,
+          "max_rss_mean_kib": 354393.6,
+          "max_rss_min_kib": 354240,
+          "max_rss_max_kib": 354432
+        },
+        {
+          "tasks": 4000,
+          "version": "3.36",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 0.20700000000000002,
+          "elapsed_min_seconds": 0.16,
+          "elapsed_max_seconds": 0.23,
+          "elapsed_sample_sd_seconds": 0.024966644414765343,
+          "max_rss_mean_kib": 68160,
+          "max_rss_min_kib": 68160,
+          "max_rss_max_kib": 68160
+        },
+        {
+          "tasks": 60000,
+          "version": "3.10",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 1.366,
+          "elapsed_min_seconds": 1.18,
+          "elapsed_max_seconds": 1.8,
+          "elapsed_sample_sd_seconds": 0.1819767994980557,
+          "max_rss_mean_kib": 365107.2,
+          "max_rss_min_kib": 364992,
+          "max_rss_max_kib": 365184
+        },
+        {
+          "tasks": 60000,
+          "version": "3.36",
+          "repetitions": 10,
+          "elapsed_mean_seconds": 0.862,
+          "elapsed_min_seconds": 0.78,
+          "elapsed_max_seconds": 0.98,
+          "elapsed_sample_sd_seconds": 0.07114929530376404,
+          "max_rss_mean_kib": 68160,
+          "max_rss_min_kib": 68160,
+          "max_rss_max_kib": 68160
+        }
+      ],
+      "local_ratios": [
+        {
+          "tasks": 4000,
+          "mean_wall_time_ratio_3_10_over_3_36": 1.2995169082125604,
+          "mean_rss_ratio_3_10_over_3_36": 5.19943661971831,
+          "paper_reported_min_rss_ratio": 4.1,
+          "paper_rss_bound_observed_locally": true,
+          "historical_hardware_speedup_reproduced": false
+        },
+        {
+          "tasks": 60000,
+          "mean_wall_time_ratio_3_10_over_3_36": 1.5846867749419955,
+          "mean_rss_ratio_3_10_over_3_36": 5.356619718309859,
+          "paper_reported_min_rss_ratio": 4.1,
+          "paper_rss_bound_observed_locally": true,
+          "historical_hardware_speedup_reproduced": false
+        }
+      ]
+    },
+    "interpretation": "Four makespan consistency checks passed. Local RSS reduction at the tested endpoints is 5.1994x/5.3566x, exceeding the article reported 4.1 minimum. The lower-endpoint wall-time ratio is 1.2995x, below its reported 1.45 minimum. Different host/compiler and partial curves prevent a historical performance-reproduction claim."
+  },
+  "outputs": [
+    {
+      "path": "files/simgrid/simgrid-output/comparison.json",
+      "sha256": "ac615d4d2f3deacde4fe724dfee7971a5a4c3665091aba4e857ed7741aa068c6",
+      "bytes": 48614,
+      "role": "numerical comparison receipt",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/comparison.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/diagnostic-v3.10/stderr.log",
+      "sha256": "fc358cc83d7374d9541c1c6df83a4e50c05e4449b3d9b9f37255d930e861eeb1",
+      "bytes": 13429,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/diagnostic-v3.10/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/diagnostic-v3.10/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/diagnostic-v3.10/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/diagnostic-v3.36/stderr.log",
+      "sha256": "524c5697a5bc5f85b8715ad9fe8d39053ac7b33560d471173410114f1e4dedab",
+      "bytes": 7560,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/diagnostic-v3.36/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/diagnostic-v3.36/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/diagnostic-v3.36/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/figure13-endpoints.png",
+      "sha256": "aa16c2dd4cb2419f330fffe5ae86656347a6002aefcdecc13bafb15bf70915ea",
+      "bytes": 81047,
+      "role": "original comparison figure",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/figure13-endpoints.png",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/figure13-endpoints.svg",
+      "sha256": "988c1e8eae2e9fc1e595fad1ebcb5d9662f2a65afdf23f308a8affdff8fe1988",
+      "bytes": 52072,
+      "role": "original comparison figure",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/figure13-endpoints.svg",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/performance-replications.csv",
+      "sha256": "7e6537ceb98869a5e0da75f64b2d89ec47df453dab972813ae5b5cfb91316320",
+      "bytes": 2318,
+      "role": "numerical result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/performance-replications.csv",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/performance-summary.csv",
+      "sha256": "bb700b2c8040f3c1c4b8a106e8fe8129e4b1d35325b19871a4d9d8bad83ae9cd",
+      "bytes": 459,
+      "role": "numerical result",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/performance-summary.csv",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/runs.json",
+      "sha256": "19a2f906757f62acdc4185d598747d3030508c3e37dff7b38bf5a944950fcfc2",
+      "bytes": 37144,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/runs.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-performance/run.json",
+      "sha256": "cd3634e498aaeb5cffc4a3206105c399c5f1cf656166d38c48c00d39b4bb2470",
+      "bytes": 694,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-performance/stderr.log",
+      "sha256": "4378a25939b9074506bbad867dc02e3b4fc93a3c83d39189eeb0de6733161a42",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/platform_master_worker.xml",
+      "sha256": "2344ef11bd489a8b9dbb959dc377663fd559f0b8bfed599d8188130c1373447f",
+      "bytes": 512365,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/platform_master_worker_d.xml",
+      "sha256": "bd175415c38b3381c346d4a40c465e016c8722c8cd0f91f2ba0b506163d4bddc",
+      "bytes": 378852,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/run.json",
+      "sha256": "fd033eeccc7906b617f6489acd2f55031e21ddf69bfa6fd1dc56fb3514c314ff",
+      "bytes": 666,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/stderr.log",
+      "sha256": "bbfc591418ae6d232291b1e7d126679b8c784783d6b857124de27667953f43ea",
+      "bytes": 1535229,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed0-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed1-performance/run.json",
+      "sha256": "80c6968ae43285647babc35f09044beb79d14067c768c06725aee67415bab432",
+      "bytes": 695,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed1-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed1-performance/stderr.log",
+      "sha256": "739dcb0bbc57625b0986c9172b0236df2bd37e9ac0b1d4229583383604fca7c5",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed1-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed1-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed1-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed2-performance/run.json",
+      "sha256": "1accea16cdc654aff3b2b77f21f824b05e43f35a13e50744cd5b22b2867ea35d",
+      "bytes": 695,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed2-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed2-performance/stderr.log",
+      "sha256": "29174719e563f776f89fe08fd6db6d8cdb827c9e605ee0156e9d20fb59a8ab96",
+      "bytes": 945,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed2-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed2-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed2-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed3-performance/run.json",
+      "sha256": "524c76383277f17f69c8499a2869f4a601dcb1794ae7d31a4024662ca74f3e79",
+      "bytes": 694,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed3-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed3-performance/stderr.log",
+      "sha256": "9b65883acf840ebd3e04d024822f298d2ecaa2f49088d7f868c0af20f82d7b7a",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed3-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed3-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed3-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed4-performance/run.json",
+      "sha256": "2615b1203e010b408f9a810ae64e4c636968a26d91f85647f1f1e0d61a682df7",
+      "bytes": 694,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed4-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed4-performance/stderr.log",
+      "sha256": "549a8e6fe58dc1a9ca6b54b813c708e3cd6a03e554b4c7ca6ba31bd8a855582f",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed4-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed4-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed4-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed5-performance/run.json",
+      "sha256": "14f7ff6c6fc7f64c1982c250cbc5f7d59bd41552213792b5229b72f6d2ff6db7",
+      "bytes": 694,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed5-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed5-performance/stderr.log",
+      "sha256": "0aa8ae29d7a639e04905da43ff006c0063e7ad8388164736e64f1c69dda739de",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed5-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed5-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed5-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed6-performance/run.json",
+      "sha256": "1d80bcd6f024fc7d2048dab9bef9cf9430d82ae432037209dbc740e75840d331",
+      "bytes": 695,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed6-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed6-performance/stderr.log",
+      "sha256": "d6c8374b7fe665b07722905af2fc95078c40252bc18fbfe85e66c8f4c969d505",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed6-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed6-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed6-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed7-performance/run.json",
+      "sha256": "63628202dab4256a6412c5965e2ea6e41237aaf97ed9086fc375f96dc2707d96",
+      "bytes": 695,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed7-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed7-performance/stderr.log",
+      "sha256": "3f467c6fe19facb12315e37bcccc42b4573f385eb141ed507ce8b4f50bb8d3d1",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed7-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed7-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed7-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed8-performance/run.json",
+      "sha256": "0ccff0d9d22d633eab22a3e460709109d1c87ba1903ed33728d0118d59ec91d2",
+      "bytes": 693,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed8-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed8-performance/stderr.log",
+      "sha256": "234046931f9e7fe735185884147258e8e40dc72b6619bf9bd133a1ee48738ae5",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed8-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed8-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed8-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed9-performance/run.json",
+      "sha256": "65e089129a6299cdc7e1768ef19023f914c13059918cef61db1aab8c0acac8ea",
+      "bytes": 695,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed9-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed9-performance/stderr.log",
+      "sha256": "b933312cfb84695b4f5faf67ddf86aab547597e79ade8d3e7e98681d41775cb3",
+      "bytes": 946,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed9-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks4000-seed9-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks4000-seed9-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed0-performance/run.json",
+      "sha256": "b9374e8b80d2524111251bcd85309cf7e37e3c446155854ad33091c289c53d20",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed0-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed0-performance/stderr.log",
+      "sha256": "39bcd616a5142068e8913990b05ef13bafc75456edd4a2e3fea010c2672984d0",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed0-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed0-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed0-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed1-performance/run.json",
+      "sha256": "82673361b602170f3355092f1ddc053e7c5f44e6a935f9a0cf867af01d80f98b",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed1-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed1-performance/stderr.log",
+      "sha256": "48bb42a44feec75fdc056632b47d9dbfd5c9928a59be4e05b2de5735e257437d",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed1-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed1-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed1-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed2-performance/run.json",
+      "sha256": "1979da861d98b3c3c25051958cfe43beb2fecab9286ccbfd763d467c814349cb",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed2-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed2-performance/stderr.log",
+      "sha256": "9c03272bad987b5fd156972894e6ff02a9209dcc10ca602da9a5efac78320040",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed2-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed2-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed2-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed3-performance/run.json",
+      "sha256": "b423c48b5dbcb2e79d0d9c6c1a947ae3fcf4ccaad28a138c4bd4ec9c44a67304",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed3-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed3-performance/stderr.log",
+      "sha256": "bc4f03172a3ceed553e020dce28964175b8a2d9d99057e18f1085091c78d7eba",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed3-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed3-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed3-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed4-performance/run.json",
+      "sha256": "1d5dea5faa84b8422d38d4779ac3ad5eed0b4b68c214946ca645dcc2c7c81a9e",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed4-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed4-performance/stderr.log",
+      "sha256": "f9f95ae8c0c23f020948b45f92041b94721effe38e786764beb58211e62e22b6",
+      "bytes": 948,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed4-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed4-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed4-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed5-performance/run.json",
+      "sha256": "391a24fb06352262d6e5982e04ac64336aba79e405d6ee368c8b01f1ce131697",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed5-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed5-performance/stderr.log",
+      "sha256": "0f1d8a868dbdcb4acb7669573274920e3a6536f54676fdb52ad0a1e30ef13a85",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed5-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed5-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed5-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed6-performance/run.json",
+      "sha256": "4e26755d26e4580c2c7182e4db7964576efda9ebf5ec128cc843ae07195a346e",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed6-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed6-performance/stderr.log",
+      "sha256": "8a3d12c0439069371830ba3a1cd47353767e969a317fb56a64371cac9d3d571b",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed6-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed6-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed6-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed7-performance/run.json",
+      "sha256": "442a4681fe219e7ef5cba1742aecadebf721455cb67fa3064cbf7fa8c898149f",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed7-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed7-performance/stderr.log",
+      "sha256": "8ee93327d3768b19c56ff4bf0c924f61fc56c70563bb95d9891ae119278bf437",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed7-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed7-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed7-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed8-performance/run.json",
+      "sha256": "e3576a154f4df563143fd43704d7a02fad49ca76d116f0d64d9e09ab397d4450",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed8-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed8-performance/stderr.log",
+      "sha256": "2ade74b96cd33b312d413c4a716d481ce7e5f7885fec7d0ad12ea12c9190292d",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed8-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed8-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed8-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed9-performance/run.json",
+      "sha256": "619c4f3e2542aa8a13e7c5a8fb442e8265a94be918f36350c777b9c2cc5e3082",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed9-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed9-performance/stderr.log",
+      "sha256": "be5766d6ca68a0b1adf628bd9682e59eca8505a7e82af85e0512aae1e3a9c196",
+      "bytes": 947,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed9-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts1000-tasks60000-seed9-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts1000-tasks60000-seed9-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/platform_master_worker.xml",
+      "sha256": "3b45309a4688c4d807056e4e7a4a61772dc6099464804ba9b9f5db944f7a5a96",
+      "bytes": 8609,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/platform_master_worker_d.xml",
+      "sha256": "4dca61f28ad08465c945b286204862baf5dc592f85d539d30caa3fc704019e98",
+      "bytes": 1844,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/run.json",
+      "sha256": "84a4e75e820eeb771562f62a950fe02fa5d78bc615f9e2c8a85972f849a7a1f8",
+      "bytes": 648,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/stderr.log",
+      "sha256": "1e6263594dfb3ec9e08fb993dca57b72d0af30b7df9c4c1f7dd0871c3504ef5d",
+      "bytes": 13545,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed0-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/platform_master_worker.xml",
+      "sha256": "3b45309a4688c4d807056e4e7a4a61772dc6099464804ba9b9f5db944f7a5a96",
+      "bytes": 8609,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/platform_master_worker_d.xml",
+      "sha256": "4dca61f28ad08465c945b286204862baf5dc592f85d539d30caa3fc704019e98",
+      "bytes": 1844,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/run.json",
+      "sha256": "c8111746425ab9f23212f0b9c393d9d13ac9e188f465a0ea8b701e0f6e2cd99a",
+      "bytes": 649,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/stderr.log",
+      "sha256": "bb717bb994876cf015bd83df6a8a7d3d0a333008772c7dd32bf338888540c63e",
+      "bytes": 13545,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed1-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/platform_master_worker.xml",
+      "sha256": "8f887e001ea5e170ac06896b104a6388558a94a2a4b2211247cdbc36870348bf",
+      "bytes": 8610,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/platform_master_worker_d.xml",
+      "sha256": "4dca61f28ad08465c945b286204862baf5dc592f85d539d30caa3fc704019e98",
+      "bytes": 1844,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/run.json",
+      "sha256": "d708a336b0f5d62a3d8c0a35a6abd73d20c36b5c73cb20e49eda83b9824b94c6",
+      "bytes": 648,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/stderr.log",
+      "sha256": "6e4f580ed566d7fbf9dc58421bf1e3139f3e1d7d312a1626eedb212d5d68f8d9",
+      "bytes": 13545,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.10-hosts4-tasks40-seed2-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-performance/run.json",
+      "sha256": "9952107a7d512f3e6788ef221314c4c59680e02883f5c296dfc89ba8c05633a2",
+      "bytes": 726,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-performance/stderr.log",
+      "sha256": "18ea273736f70c64113aea306c40d30157b317e87b06c7f1a021308694fdc018",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/platform_master_worker.xml",
+      "sha256": "609a1d6ff630eb213705dbed6c21367af1aec3b4ad006ed932d814245dea88df",
+      "bytes": 584425,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/platform_master_worker_d.xml",
+      "sha256": "7bd25464228fbd76b3ec3282b275943e2b7faad58490b6f52e079d42bd92b05f",
+      "bytes": 366839,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/run.json",
+      "sha256": "e654c603e009fc215a0d06b1b2150ddfdd154d1b27ae132d43458c9cf391de9d",
+      "bytes": 697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/stderr.log",
+      "sha256": "9eb3be6266a4ad0ed8e78780bbb5cca12f9794747df7a7bc9dd884d46d403d98",
+      "bytes": 921697,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed0-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed1-performance/run.json",
+      "sha256": "3233c2c27475aa44f7d305fea8a488fd3a0a03660b98d105c7af66921e9594d0",
+      "bytes": 725,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed1-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed1-performance/stderr.log",
+      "sha256": "cd8e4c973085072c3f1286b610b6227c9cb06e1bd81d9ece9cb4ddba8bed5992",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed1-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed1-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed1-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed2-performance/run.json",
+      "sha256": "95cbeda2a97ffc3364681c0ee6043baaac18a066a86a5de8ab1a2844c07ed23b",
+      "bytes": 726,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed2-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed2-performance/stderr.log",
+      "sha256": "1379dfd4b01068ce99bf6d6074a847354f5ada17fe79776775926ea2d44f3ebc",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed2-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed2-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed2-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed3-performance/run.json",
+      "sha256": "90d99cb22d0eaf1120dfc9d9779ae45e37082fd5bd918447cde43a523b10941b",
+      "bytes": 725,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed3-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed3-performance/stderr.log",
+      "sha256": "3ea5675cf7a8c593cbe81191b7ea16e06a9e8338f544b3684b7f9ac5d795e055",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed3-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed3-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed3-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed4-performance/run.json",
+      "sha256": "3b49bf56638d4a3294455663527c59f7a91a6e2cf6ca2eb84eb2ca1c4228e192",
+      "bytes": 726,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed4-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed4-performance/stderr.log",
+      "sha256": "7d0153e8ec2e03b783aa832bd14e61d7ddca994cbf87d3c617cee85ed3b3e0a9",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed4-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed4-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed4-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed5-performance/run.json",
+      "sha256": "6ee7fc8cb161a045016e4589b9bbffcaa5bd7dd884731c128fc9b2e7c945c196",
+      "bytes": 725,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed5-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed5-performance/stderr.log",
+      "sha256": "8e41675636f9dc7a68cc90db7421dbaa48cf67b38dbdf0185890cf6a4e1b5fa7",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed5-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed5-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed5-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed6-performance/run.json",
+      "sha256": "5177c2b2fb33ed0f39882cececbfa15ccec76262f104287d9452ccf8bc850496",
+      "bytes": 725,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed6-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed6-performance/stderr.log",
+      "sha256": "51c511a8f5bfa532e21ba82ed4b2c427e237895240a4d5090e3a4106e1b80182",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed6-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed6-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed6-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed7-performance/run.json",
+      "sha256": "6eb0a8f6623c520ca0d11d1c0101082343688774cc8f9c491f548c6ab67c49cd",
+      "bytes": 726,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed7-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed7-performance/stderr.log",
+      "sha256": "3e6ad9d18a7107b533721614f64e6aa6872eb6d32661802aaf6666a3a4cc6819",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed7-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed7-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed7-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed8-performance/run.json",
+      "sha256": "8546e63dcc50d3631230528aad0de99534d01bf84b17256df24e42acd67b5310",
+      "bytes": 726,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed8-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed8-performance/stderr.log",
+      "sha256": "528dedc45bd97369c22664639d68db59f2281ba11599c6bc6a2d2913e25dc664",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed8-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed8-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed8-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed9-performance/run.json",
+      "sha256": "0dec8857ca2f4e394865a560d3e6c731067cc7fb5b4e507691287984aa912ae4",
+      "bytes": 725,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed9-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed9-performance/stderr.log",
+      "sha256": "0f51aa991f205f9bf6c51957c3871cc29eae5b15a6b280feb617355e886678bf",
+      "bytes": 970,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed9-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks4000-seed9-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks4000-seed9-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed0-performance/run.json",
+      "sha256": "994e8471fab3ac480a41cf1d23aa792e335c00797a958b3b016889f909d1cd5c",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed0-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed0-performance/stderr.log",
+      "sha256": "2e4a32de2a8ddfd12c1b93a2d9823b79a9c0d68264c608c958b34696280aa8ce",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed0-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed0-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed0-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed1-performance/run.json",
+      "sha256": "480afacf36fa567695c654f7a6204cb167e360fcad3eac9854b53c313b26adaf",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed1-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed1-performance/stderr.log",
+      "sha256": "a7e08f343b88a713b4257b66ea60795453b5c6afc6f0eae260877a0749c43a0a",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed1-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed1-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed1-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed2-performance/run.json",
+      "sha256": "da305fcda6cd4eb96d403e9786b8ee01d771ffdfdba3f05df0c288a56e9b6c48",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed2-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed2-performance/stderr.log",
+      "sha256": "15a4e0ea0ac31c78f51ea21ebfc5ce92e9b7edcb31a77867bb70b197eef0e46b",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed2-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed2-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed2-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed3-performance/run.json",
+      "sha256": "e47d8e20119f0d85f4b6a711e421c007e7a3b86d322caa9d0ee0e3cf58772b92",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed3-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed3-performance/stderr.log",
+      "sha256": "65f07f0d83f3f315d4862228d4f266dc12b710834f32e227a45089e4bb357187",
+      "bytes": 972,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed3-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed3-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed3-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed4-performance/run.json",
+      "sha256": "792441ae8136c910400fbae508c5f8217148368c160b6a95220e142434701f91",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed4-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed4-performance/stderr.log",
+      "sha256": "d682c58247df5120f6a9f338471d13569afae5220582e14b5d719223a86ee62a",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed4-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed4-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed4-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed5-performance/run.json",
+      "sha256": "73b10f653534e842082ba8d83c4d9c257b9b1f33475c4ac6bebcbb07e2d0c69f",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed5-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed5-performance/stderr.log",
+      "sha256": "606196fc1dafba759e1964bf7600d41c620e75f1e09712c8c29b559b48efbcee",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed5-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed5-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed5-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed6-performance/run.json",
+      "sha256": "186d3b6eb68d54b89e9250d4dd4c40afe5c458e27b8aa733ae09c6745b17c3a5",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed6-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed6-performance/stderr.log",
+      "sha256": "8ebfd3a4856c87ddce593d435fb5240189036105e3159b2189cb7596933016f3",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed6-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed6-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed6-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed7-performance/run.json",
+      "sha256": "c216573be88bdc4e86f1f4908b0ef44fe079c20c0fa798af9382a666714df031",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed7-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed7-performance/stderr.log",
+      "sha256": "2b2488a2405e6db4efda1cd0948b482a1c9d995a9a90f1ea8dea09d1ff3459b6",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed7-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed7-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed7-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed8-performance/run.json",
+      "sha256": "2bfcd43efdd558ca0caadf92898d4660a06aea1acd62a01c3dcf894609897024",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed8-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed8-performance/stderr.log",
+      "sha256": "5cdbb18a135a13e5205daab6bcdaa788564b2bba4fec71816d5d61788aa2dc9d",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed8-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed8-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed8-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed9-performance/run.json",
+      "sha256": "0e983fe8c17ff867ca429fbc6a8a9e4edf66071982a6e72ce99062f93fd24b13",
+      "bytes": 728,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed9-performance/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed9-performance/stderr.log",
+      "sha256": "432943ec30e7df73d844eda13c6ac7d8d8144c6a05527f39497124ff8f665537",
+      "bytes": 971,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed9-performance/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts1000-tasks60000-seed9-performance/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts1000-tasks60000-seed9-performance/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/platform_master_worker.xml",
+      "sha256": "e90e9a88ab6bff7561f50eac78477e53eef117c929c0d93db6e0ffbdb2fca159",
+      "bytes": 8957,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/platform_master_worker_d.xml",
+      "sha256": "870c1fd9c2f527286bbeee81a16d646ac197a14b4820bc4af6ff5bab275d48f1",
+      "bytes": 1783,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/run.json",
+      "sha256": "9054b975e1e7f61c0d53e1b1bd62061dfae0c90b3b28f25b2846cbaa6f8f9708",
+      "bytes": 680,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/stderr.log",
+      "sha256": "a7c6bd2b8d28e604cb5c35d62cd81d5841d21208166ea71be9bfe49d8d448f28",
+      "bytes": 7673,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed0-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/platform_master_worker.xml",
+      "sha256": "e90e9a88ab6bff7561f50eac78477e53eef117c929c0d93db6e0ffbdb2fca159",
+      "bytes": 8957,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/platform_master_worker_d.xml",
+      "sha256": "870c1fd9c2f527286bbeee81a16d646ac197a14b4820bc4af6ff5bab275d48f1",
+      "bytes": 1783,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/run.json",
+      "sha256": "6489197b39231c4a9b99240bfe2fe3c1c885c7f905456401a7e00f5ad565aab5",
+      "bytes": 680,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/stderr.log",
+      "sha256": "2f75509bb135910b9edeb6d7c771b72c4ef180ee2c16ac8d14b7444cdb335a11",
+      "bytes": 7671,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed1-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/platform_master_worker.xml",
+      "sha256": "1445fe842a7e05ff1b5df1caa503ebae4efb4e099ae441d7750db41be46bab21",
+      "bytes": 8958,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/platform_master_worker.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/platform_master_worker_d.xml",
+      "sha256": "870c1fd9c2f527286bbeee81a16d646ac197a14b4820bc4af6ff5bab275d48f1",
+      "bytes": 1783,
+      "role": "native generated simulation input",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/platform_master_worker_d.xml",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/run.json",
+      "sha256": "885e67ccf2d03dff79fc00f7080de4d1c048b83bff89610cbcd2ef8c13971bf8",
+      "bytes": 680,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/run.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/stderr.log",
+      "sha256": "3a365d669e407b72e3dd9211e7389846b50c627a443cc6ee047825cca4058ce1",
+      "bytes": 7672,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/stderr.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "native run output or command record",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/v3.36-hosts4-tasks40-seed2-validation/stdout.log",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/compact-simgrid-record.json",
+      "sha256": "ad14c3bca38ac2eeb2655f979c89b9143e34a4ab4eb731bc56733051766f0f2b",
+      "bytes": 9141,
+      "role": "portable compact run/comparison receipt",
+      "public_reuse": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/compact-simgrid-record.json",
+      "published": true
+    },
+    {
+      "path": "files/simgrid/build-network-tools.sh",
+      "sha256": "93a30c388d03e600324e4d52875cd435ac97016a50fdead4893207c762a61eaf",
+      "bytes": 3835,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/build-network-tools.sh"
+    },
+    {
+      "path": "files/simgrid/requirements-build.txt",
+      "sha256": "2b8d2c4a3582da661fd5456f12bd57b581b4d918a8bdb058d0d0180149fb5d53",
+      "bytes": 30,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/requirements-build.txt"
+    },
+    {
+      "path": "files/simgrid/THIRD-PARTY-NOTICES.md",
+      "sha256": "19ab99fb1d18c8dc5fd64d2d277b21cf074ef57b63a24097a75e79248eefa1c7",
+      "bytes": 1245,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/THIRD-PARTY-NOTICES.md"
+    },
+    {
+      "path": "files/simgrid/targets-before-run.json",
+      "sha256": "c9245b9c663ae4f15e8a52b98796cecf6ce402d914ce051c3850a572f4914db5",
+      "bytes": 3903,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/targets-before-run.json"
+    },
+    {
+      "path": "files/simgrid/plot_network_results.py",
+      "sha256": "4865311e82947b8b2ed51eca219677225a9831c2d41df8e94e1725f6d0fa1952",
+      "bytes": 2046,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/plot_network_results.py"
+    },
+    {
+      "path": "files/simgrid/requirements-plot.txt",
+      "sha256": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38",
+      "bytes": 19,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/requirements-plot.txt"
+    },
+    {
+      "path": "files/simgrid/simgrid-guide.md",
+      "sha256": "556bbd1b127fa1bd2501f989ca5944c8f68ff7d956f1b443467bab6fa34211b6",
+      "bytes": 4612,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-guide.md"
+    },
+    {
+      "path": "files/simgrid/run_simgrid.py",
+      "sha256": "6581700d218587bbdbe8b7bb10b5e2ee45a2f2489272ea461e56e585ccd95dba",
+      "bytes": 4131,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/run_simgrid.py"
+    },
+    {
+      "path": "files/simgrid/analyse_simgrid.py",
+      "sha256": "184b8b46daef495eb17ba201114bb1c9384f6877b6518b5f650e0c557df97bf9",
+      "bytes": 2847,
+      "role": "portable driver or environment/source record",
+      "public_reuse": true,
+      "published": true,
+      "native_path": "planning/simulation-reproduction-2026-11-15/runs/networks/analyse_simgrid.py"
+    }
+  ],
+  "evidence_files": [
+    "planning/simulation-reproduction-2026-11-15/runs/networks/targets-before-run.json",
+    "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-output/comparison.json",
+    "planning/simulation-reproduction-2026-11-15/runs/networks/simgrid-guide.md"
+  ],
+  "blockers": [
+    "Human scientific review is pending.",
+    "Exact dedicated historical CPU/compiler not matched; shared-host load affects wall time.",
+    "Intermediate Figure 13 points and Figure 14 core-count sweep remain unexecuted.",
+    "Paper introduction calls 3.10 v3 and describes developments through 3.36 culminating in v4. Reference 66 Dockerfiles pin 3.10/3.36, but the exact development commit behind every printed v4 curve observation is unestablished."
+  ],
+  "next_action": "Human methods review of source, inputs and numerical comparison; then extend to the remaining named paper targets.",
+  "relationship_to_paper": "Original reference-66 model and workload family. The introduction passage before Section 2 reconciles paper v3/v4 language with repository 3.10/3.36 pins. Makespan agreement is an author-benchmark consistency check, separate from historical hardware-performance reproduction.",
+  "human_scientific_review": "pending",
+  "public_bundle": {
+    "root": "planning/simulation-reproduction-2026-11-15/runs/networks",
+    "guide": "simgrid-guide.md",
+    "files": [
+      "build-network-tools.sh",
+      "requirements-build.txt",
+      "THIRD-PARTY-NOTICES.md",
+      "targets-before-run.json",
+      "plot_network_results.py",
+      "requirements-plot.txt",
+      "simgrid-guide.md",
+      "run_simgrid.py",
+      "analyse_simgrid.py",
+      "compact-simgrid-record.json"
+    ]
+  },
+  "research_group": "networks",
+  "guide_source": "templates/simgrid.md.in"
+}

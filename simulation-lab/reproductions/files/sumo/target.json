@@ -1,0 +1,9 @@
+{
+  "declared_at": "2026-11-15T20:48:32.991795+00:00",
+  "paper": "10.1109/MITS.2017.2666585",
+  "paper_comparison": "Full 2017 article and original observed validation series unavailable; institutional record says request a copy. Do not compare with numbers from the distinct 2015 paper.",
+  "run_scope": "Actual author full-city network and demand, original SUMO0.26, first 3600 seconds of dua.static configuration; no model or demand downscaling. Bounded duration does not establish full-day validation.",
+  "inputs": "LuSTScenario commit5edb7ecb9ad196c39172b6eb95d19ed789f4b1a6; original configuration and listed input files.",
+  "repeatability": "Run seeds42,43,44 and retain each native summary/trip output; compare distributions across repeats. These are new observations without a paper reference or prespecified numerical success threshold.",
+  "checks": "Native run reaches end3600; parse completed summary/trip files; report inserted/ended/running/waiting and travel-time mean with uncertainty, plus warnings/teleports. No acceptance tolerance for published result because missing primary target."
+}

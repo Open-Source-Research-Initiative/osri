@@ -1,0 +1,132 @@
+{
+  "tool_id": "dualsphysics",
+  "source": {
+    "url": "https://github.com/DualSPHysics/DualSPHysics",
+    "commit": "ef3721a861fda961f0e2f9ec4cd317b19de99086",
+    "model_source_sha256": "47c1b6f7a00dce67d405d47902e82c3e18abaa6da54632ec6c4f3c8857c48f2f",
+    "solver_binary_sha256": "12beb77667e99937da0bc0012a1e7df0adc480c479626d6700a92fa07f3232db",
+    "gencase_binary_sha256": "a1b6414e0f716669363d1a80a05e133085c04995e15716e3c1f0406e0d023226"
+  },
+  "input_hashes": {
+    "examples/main/01_DamBreak/CaseDambreakVal2D_Def.xml": "47c1b6f7a00dce67d405d47902e82c3e18abaa6da54632ec6c4f3c8857c48f2f",
+    "examples/main/01_DamBreak/EXP_X-DamTipPosition_Koshizula&Oka1996.txt": "9d0fc12e5813dc5fadc679b3dfeff8b60b1d87e03fcbc404a2905350a3f3185f"
+  },
+  "environment": {
+    "compiler": "GCC13.3.0",
+    "solver": "DualSPHysics5.4 CPU",
+    "gencase": "5.4.354.01",
+    "OMP_NUM_THREADS": "2",
+    "compile_changes": [
+      "Force include cstdint for GCC13 SIZE_MAX declaration",
+      "COMPILE_CHRONO=NO; COMPILE_WAVEGEN=NO; COMPILE_MOORDYNPLUS=NO; optional components unused by case"
+    ],
+    "numerical_source_changed": false,
+    "input_xml_changed": false
+  },
+  "predeclared_target_file": "planning/simulation-reproduction-2026-11-15/runs/numerics/targets.json",
+  "commands": [
+    {
+      "argv": [
+        "make",
+        "-f",
+        "Makefile_cpu",
+        "-j2",
+        "CC=g++ -include cstdint",
+        "COMPILE_CHRONO=NO",
+        "COMPILE_WAVEGEN=NO",
+        "COMPILE_MOORDYNPLUS=NO"
+      ],
+      "cwd": "source/src/source",
+      "log": "build-attempt2.log",
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "source/bin/linux/GenCase_linux64",
+        "source/examples/main/01_DamBreak/CaseDambreakVal2D_Def",
+        "output-full/CaseDambreakVal2D",
+        "-save:all"
+      ],
+      "cwd": ".",
+      "log": "gencase.log",
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "timeout",
+        "300",
+        "source/bin/linux/DualSPHysics5.4CPU_linux64",
+        "-ompthreads:2",
+        "output-full/CaseDambreakVal2D",
+        "output-full"
+      ],
+      "cwd": ".",
+      "log": "solver-full.log",
+      "exit_code": 124
+    },
+    {
+      "argv": [
+        "timeout",
+        "300",
+        "source/bin/linux/DualSPHysics5.4CPU_linux64",
+        "-ompthreads:2",
+        "-partbegin:144",
+        "output-full/data",
+        "output-full/CaseDambreakVal2D",
+        "output-resumed"
+      ],
+      "cwd": ".",
+      "log": "solver-resumed.log",
+      "exit_code": 0
+    }
+  ],
+  "execution": {
+    "status": "adapted_run",
+    "result": "Unchanged current author model completed the original 2-second horizon with a retained timeout/restart; initial unrestarted data cover all 14 comparison points.",
+    "initial_exit_code": 124,
+    "restart_exit_code": 0,
+    "initial_wall_bound_seconds": 300,
+    "continuation_native_runtime_seconds": 124.799004,
+    "total_wall_elapsed_seconds": null,
+    "physical_end_time_seconds": 2.0,
+    "initial_particles": 21001,
+    "restart_part": 144,
+    "restart_single_precision_warning": true,
+    "failed_build_log": "build.log"
+  },
+  "comparison": {
+    "performed": true,
+    "passed": null,
+    "observable": "Horizontal SWL-gauge front at z=0.03m, interpolated to fixture times",
+    "reference": "Koshizuka and Oka1996 values as bundled by the DualSPHysics authors",
+    "points": 14,
+    "predeclared_selection": "Only reference x<=3.9, before4m right-wall contact",
+    "measurements": {
+      "mae_m": 0.2472552502452107,
+      "rmse_m": 0.26367564386044096,
+      "max_abs_m": 0.33469765983142663
+    },
+    "input_hashes": {
+      "GaugesSWL_Swl_z003.csv": "90393c1ab929c260845857cef05d059a37a4bf4cb64b29a4424505473b772516",
+      "EXP_X-DamTipPosition_Koshizula&Oka1996.txt": "9d0fc12e5813dc5fadc679b3dfeff8b60b1d87e03fcbc404a2905350a3f3185f"
+    },
+    "tolerance": null,
+    "interpretation": "Numerical discrepancy against an upstream paper-associated validation fixture. No source uncertainty/acceptance threshold supplied. Fixture scaling/observable definition was not independently verified against the original1996 article; no paper-result reproduction is claimed."
+  },
+  "native_output_manifest": {
+    "path": "native-output-manifest.json",
+    "sha256": "7bf8e76fac2058313dea237f7e065e78ea43990e26b6ce4309f695e346c2866e"
+  },
+  "component_terms": {
+    "solver": "LGPL-2.1-or-later",
+    "GenCase": "Separate binary-only helper; source redistribution/modification restricted without express authorization; no executable redistributed by this bundle.",
+    "experimental_fixture": "Author-attributed to Koshizuka and Oka (1996); a separate dataset license was not located. The original fixture is retrieved from upstream rather than included in the public bundle."
+  },
+  "limitations": [
+    "Original 1996 figure, coordinate scale and front definition not independently verified",
+    "No experiment uncertainty or paper-author acceptance tolerance supplied",
+    "Current SPH implementation differs from the original MPS algorithm and historical DualSPHysics version",
+    "Post-impact continuation uses a single-precision restart; pre-impact comparison does not"
+  ],
+  "human_scientific_review": "pending"
+}

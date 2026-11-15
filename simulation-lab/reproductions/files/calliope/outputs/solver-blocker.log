@@ -1,0 +1,10 @@
+3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) 
+[GCC 9.4.0]
+Gurobi version: (9, 1, 2)
+GurobiError: License expired 2022-01-13
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "src/gurobipy/env.pxi", line 67, in gurobipy.Env.__init__
+  File "src/gurobipy/gurobi.pxi", line 32, in gurobipy.gurobi._getdefaultenv
+  File "src/gurobipy/env.pxi", line 67, in gurobipy.Env.__init__
+gurobipy.GurobiError: License expired 2022-01-13
