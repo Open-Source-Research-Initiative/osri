@@ -1,6 +1,6 @@
 # Simulation Lab verification record
 
-Checks performed by **Codex on 2026-11-15**, under Cole's direction. This is a technical record, not independent human scientific review. Human review and acceptance remain pending.
+Checks performed by **Codex on 2026-11-15**, under Cole's direction. This is a technical record, not independent human scientific review. Cole authorized merging and publishing after the final technical review; the acceptance and release record is [PR #11](https://github.com/Open-Source-Research-Initiative/osri/pull/11).
 
 ## Executed CPU examples
 

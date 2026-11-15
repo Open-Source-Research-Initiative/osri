@@ -33,4 +33,4 @@ Keep dated source checks when updating the catalog. A repository can move, an ar
 
 ## Credits and review
 
-Human direction: Cole / @ajhcs. Codex researched sources, drafted resources, implemented the teaching scripts and catalog, and performed the recorded technical checks. Human scientific review, repository acceptance, and publication authorization remain pending. The public guides and code follow the hub's [licensing](../LICENSE.md); linked third-party material retains its own terms.
+Human direction: Cole / @ajhcs. Codex researched sources, drafted resources, implemented the teaching scripts and catalog, and performed the recorded technical checks. Cole authorized merging and publishing the lab after a final technical review; acceptance and release are tracked in [PR #11](https://github.com/Open-Source-Research-Initiative/osri/pull/11). Independent human scientific review has not been recorded. The public guides and code follow the hub's [licensing](../LICENSE.md); linked third-party material retains its own terms.
