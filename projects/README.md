@@ -1,14 +1,14 @@
-# Research projects
+# Research directory
 
-Each coherent research project gets one repository. It can span several areas and produce several publications.
+Each study has one research repository. Open its README for the question and current state, **Issues** for tasks, and **Pull requests** for proposed changes. A study can span several areas and produce several publications.
 
-Start with an [idea](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas). A maintainer can help narrow the question and identify a human lead. Use [project-template](https://github.com/Open-Source-Research-Initiative/project-template) when ready.
+Start with an [idea](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas). A maintainer can help narrow the question and identify a human lead. Use the [research repository template](https://github.com/Open-Source-Research-Initiative/research-repository-template) when ready. Name the repository after the paper or working title, using lowercase words separated by hyphens. Keep the full title in its README and directory entry.
 
 Ask an administrator to assign a stable ID, such as OSRI-0001, and add the project to [projects.csv](projects.csv). The directory links to each project's own record. The project README holds its current question, methods, and research state.
 
 The directory records accepted projects. Infrastructure repositories and example topics are not research-project records. This is not an inventory of every collaborator's prior work.
 
-[OSRI-0001: Medical XR](https://github.com/Open-Source-Research-Initiative/medical-xr-capability-evidence) brings an existing capability evidence map under Cole / @ajhcs. Scientific screening is paused; source adjudication, audits and human verification remain incomplete. Directory acceptance records project administration, not scientific validation or external peer review. Its own repository holds the locked question, methods, original-history provenance and current state. See its [bounded human source-check task](https://github.com/Open-Source-Research-Initiative/medical-xr-capability-evidence/issues/1).
+[Medical XR: from capabilities to sustainable use](https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use) (OSRI-0001) brings an existing capability evidence map under Cole / @ajhcs. Scientific screening is paused; source adjudication, audits and human verification remain incomplete. Directory acceptance records project administration, not scientific validation or external peer review. Its own repository holds the locked question, methods, original-history provenance and current state. See its [bounded human source-check task](https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/issues/1).
 
 If no project task is available, [offer help in Q&A](../docs/find-help.md#find-collaborators-or-offer-help) or [try a first source comparison](../START_HERE.md#a-first-task-without-code). Use the [browser setup guide](../docs/browser-setup.md) to start a project, or [find collaborators](../docs/find-help.md). Ask a maintainer to confirm the human lead and next task.
 

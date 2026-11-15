@@ -10,9 +10,15 @@ OSRI brings people across fields together to conduct human-driven Agentic-Powere
 
 1. Follow the [research guide](START_HERE.md), from a first question to a public output.
 2. Bring a question to [Q&A](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=q-a) or propose a topic in [Ideas](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas).
-3. When a project is ready, use the [project template](https://github.com/Open-Source-Research-Initiative/project-template). Each research project gets its own repository.
+3. Choose a study from the [research directory](projects/README.md). Open its repository, read the README, and look in **Issues** for tasks. To start a study, use the [research repository template](https://github.com/Open-Source-Research-Initiative/research-repository-template).
 
 A browser is enough to begin. [Choose a contribution](CONTRIBUTING.md): sources, explanations, reviews, writing, data work, code, or models. Your own agent is welcome. No paid agent, plugin bundle, or coding experience is required to start.
+
+## Where the research lives
+
+OSRI is the organization. Each study has its own repository, named after its paper or working title. The repository holds the research files, **Issues** holds tasks, and **Pull requests** holds proposed changes. The shared hub you are reading holds guides, area indexes, and the research directory.
+
+Browse **[Medical XR: from capabilities to sustainable use](https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use)**, led by Cole / @ajhcs. Its README explains the question and current state; its [Issues](https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/issues) lists tasks.
 
 ## Follow the research
 
@@ -36,7 +42,7 @@ The [Simulation Lab guide](simulation-lab/README.md) supports computational expe
 - [Choose a topic](topics/README.md): twelve candidate ideas and verified example papers.
 - [Find resources](resources/README.md): public data, application programming interfaces (APIs) for finding literature, research software, and administrator access requests.
 - [Use tools consistently](tooling/workflows.md): inputs, outputs, and checks for common tasks. The [tool catalog](tooling/README.md) is optional.
-- [Read the rules](governance/contribution-standards.md), [find a project](projects/README.md), or [record a publication](publications/README.md).
+- [Read the rules](governance/contribution-standards.md), [find a research repository](projects/README.md), or [record a publication](publications/README.md).
 - Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).
 - See [contributor activity and recorded research outputs](community/ACTIVITY.md).
 - Explore the [Prism landing-page source](site/README.md).

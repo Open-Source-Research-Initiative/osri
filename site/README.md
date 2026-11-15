@@ -17,7 +17,7 @@ python3 -m http.server 8765 --directory /path/to/new-output
 
 Edit the hub's Markdown and CSV files to update the public content. `index.html` supplies the homepage body; `styles.css` retains the Prism base styles. `site.css` and `site.js` add navigation, guide layouts, and catalog filters. Essential content remains available without JavaScript.
 
-The activity page uses `community/update.py` directly. It follows the same counting rules as the repository board. Source links identify the exact hub commit used for each build. Registered projects and public outputs appear only when their records are added.
+The activity page uses `community/update.py` directly. It follows the same counting rules as the repository activity record. Source links identify the exact hub commit used for each build. Registered studies and public outputs appear only when their records are added.
 
 ## Source and fonts
 

@@ -16,12 +16,14 @@ Ask the maintainer to confirm the project, person responsible for the next actio
 
 ## Create a project
 
-1. Open [project-template](https://github.com/Open-Source-Research-Initiative/project-template).
+Each study gets one repository. The repository is its home for research files, tasks, and proposed changes.
+
+1. Open [research-repository-template](https://github.com/Open-Source-Research-Initiative/research-repository-template).
 2. Choose **Use this template**, then **Create a new repository**.
 3. Select your account as owner, or ask an administrator to create an OSRI repository.
-4. Choose a name and visibility. Select **Create repository from template**. Public repositories expose their files and history.
+4. Name the repository after the paper or working title, using lowercase words separated by hyphens, such as `medical-xr-from-capabilities-to-sustainable-use`. Choose visibility, then select **Create repository from template**. Public repositories expose their files and history.
 5. In the new repository, open `README.md` and use the pencil button to edit it.
-6. Fill in the question, human lead, scope, state, and first task. Remove the setup prompts when finished.
+6. Use the full paper or working title as the README heading. Fill in the question, human lead, research areas, scope, state, and first task. Remove the setup prompts when finished.
 7. Preview the edit. Use the [change steps below](#propose-a-file-change) to request acceptance.
 8. Open **Issues**, then **New issue**. State the first task, expected result, and help needed.
 9. Share the repository link with an administrator to request a project ID and directory entry.

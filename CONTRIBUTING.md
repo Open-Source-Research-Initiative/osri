@@ -17,7 +17,7 @@ You can contribute a question, source, explanation, review, writing, data work, 
 | Writing and review | Edit a passage, check a method, or review a claim against its evidence. |
 | Languages and community | Translate a page, review a translation, request a resource, or help another contributor. |
 
-Choose a small task from a [research project](projects/README.md), or describe what you can help with in Q&A. Include the question, source, or proposed change. A maintainer can help with Git and the next step.
+Choose a study from the [research directory](projects/README.md), open its repository, and look in **Issues** for a small task, or describe what you can help with in Q&A. Include the question, source, or proposed change. A maintainer can help with Git and the next step.
 
 If no project is ready for you, [offer help](docs/find-help.md#find-collaborators-or-offer-help) or [try the first source comparison](START_HERE.md#a-first-task-without-code). You do not need to start a whole study.
 
@@ -33,4 +33,4 @@ Use the [help and review guide](docs/find-help.md) to request a collaborator or 
 
 Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).
 
-Accepted work can be recorded on the [contributor activity board](community/ACTIVITY.md). Ask a maintainer to add the record and your chosen public credit name.
+Accepted work can be recorded on the [contributor activity record](community/ACTIVITY.md). Ask a maintainer to add the record and your chosen public credit name.

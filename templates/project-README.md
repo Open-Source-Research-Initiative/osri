@@ -1,6 +1,6 @@
-# [Project title]
+# [Paper or working title]
 
-Template for an OSRI research project. Replace the prompts and remove unused sections. Start with the brief; add methods and execution details as the work develops.
+Template for an OSRI research project. Replace the prompts and remove unused sections. Name the repository after the paper or working title, using lowercase words separated by hyphens. Start with the brief; add methods and execution details as the work develops.
 
 ## Project brief
 
