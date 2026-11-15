@@ -12,6 +12,7 @@ import re
 import runpy
 import shutil
 import subprocess
+import sys
 from urllib.parse import unquote, urlsplit
 
 from markdown_it import MarkdownIt
@@ -22,7 +23,7 @@ ORIGIN = "https://open-source-research-initiative.github.io"
 GITHUB = "https://github.com/Open-Source-Research-Initiative"
 FORUM = "https://github.com/orgs/Open-Source-Research-Initiative/discussions"
 ALIASES = {"START_HERE.md": "/start/", "CONTRIBUTING.md": "/contribute/", "community/ACTIVITY.md": "/activity/", "README.md": "/guides/osri/"}
-NAV = [("Start here", "/start/"), ("Research", "/research/"), ("Contribute", "/contribute/"), ("Resources", "/resources/"), ("Activity", "/activity/"), ("Guides", "/guides/"), ("Discussions ↗", FORUM)]
+NAV = [("Start here", "/start/"), ("Research", "/research/"), ("Simulation Lab", "/simulation-lab/"), ("Contribute", "/contribute/"), ("Resources", "/resources/"), ("Activity", "/activity/"), ("Guides", "/guides/"), ("Discussions ↗", FORUM)]
 AREAS = [("healthcare", "Healthcare", "Nonclinical public health and health systems research."), ("engineering", "Engineering", "Systems Engineering, Engineering Management, Operations Research, and Decision Science. Initial work excludes physical laboratory experiments."), ("informatics", "Informatics", "Bioinformatics, information systems, and Computational Natural Sciences. Initial work excludes physical laboratory experiments."), ("economics", "Economics", "Resources, incentives, public economics, research, and innovation."), ("social-behavioral-sciences", "Social and Behavioral Sciences", "Judgment, collaboration, organizations, and behavior."), ("public-policy", "Public Policy", "Policy analysis, evaluation, institutions, and governance.")]
 
 
@@ -171,10 +172,10 @@ class Website:
     def heading(self, label, title, text):
         return f'<header class="page-intro"><p class="eyebrow">{escape(label)}</p><h1>{escape(title)}</h1><p>{escape(text)}</p></header>'
 
-    def filters(self, placeholder, options=None):
+    def filters(self, placeholder, options=None, area_label="Listed area", all_label="All areas"):
         field = '<label>Search<input type="search" name="search" placeholder="' + escape(placeholder, quote=True) + '"></label>'
         if options:
-            field += '<label>Listed area<select name="area"><option value="">All areas</option>' + "".join(f'<option value="{escape(value, quote=True)}">{escape(value)}</option>' for value in options) + "</select></label>"
+            field += '<label>' + escape(area_label) + '<select name="area"><option value="">' + escape(all_label) + '</option>' + "".join(f'<option value="{escape(value, quote=True)}">{escape(value)}</option>' for value in options) + "</select></label>"
         return f'<form class="filters" role="search">{field}<p class="filter-count" role="status" aria-live="polite"></p></form>'
 
     def render_home(self):
@@ -198,14 +199,14 @@ class Website:
             body += '<p>No research repositories are registered yet. Existing work can join when its lead is ready.</p><div class="text-actions">' + link("Offer help in Q&A", FORUM + "/new?category=q-a") + link("Try a first source comparison", "/start/#a-first-task-without-code") + '</div>'
         body += '</section><section><h2>Research areas</h2><div class="research-grid">' + "".join(f'<article class="area {color}"><h3>{link(name, self.docs[f"areas/{slug}.md"])}</h3><p>{escape(text)}</p></article>' for (slug, name, text), color in zip(AREAS, ["lavender", "mint", "teal", "gold", "coral", "blue"])) + "</div>"
         body += f'<div class="text-actions">{link("Explore candidate topics", "/topics/")}{link("Bring an existing study", self.docs["projects/README.md"] + "#bring-an-existing-project")}{link("Publication goals and records", "/publications/")}</div></section>'
-        body += '<div class="programs"><section class="program simulation"><h2>OSRI Simulation Lab</h2><p class="status">Proposed</p><p>Computational experiments across research areas, with documented assumptions, checks, and limits.</p>' + link("Read the lab guide", self.docs["simulation-lab/README.md"]) + '</section><section class="program practice"><h2>Research practice and meta-research</h2><p>Administrators study and improve research methods, evidence quality, reproducibility, and collaboration.</p>' + link("Read the shared responsibilities", self.docs["meta-research/README.md"]) + "</section></div>"
+        body += '<div class="programs"><section class="program simulation"><h2>OSRI Simulation Lab</h2><p>Open-source tools, examples from published research, and runnable teaching code across research areas.</p>' + link("Explore the Simulation Lab", "/simulation-lab/") + '</section><section class="program practice"><h2>Research practice and meta-research</h2><p>Administrators study and improve research methods, evidence quality, reproducibility, and collaboration.</p>' + link("Read the shared responsibilities", self.docs["meta-research/README.md"]) + "</section></div>"
         self.write("/research/", self.layout("Research", body, active="/research/"))
 
     def render_resources(self):
         rows = read_csv("resources/resources.csv")
         areas = sorted({value.strip() for row in rows for value in row["areas"].split(";")})
         body = self.heading("Resources", "Find the material you need", "Public data, literature services, research software, and access routes. Read each resource's terms and review notes before use.")
-        body += '<div class="text-actions">' + link("Request a resource", self.docs["governance/resource-requests.md"]) + link("Tools and research skills", "/tools/") + link("Download the catalog (CSV)", "/data/resources-resources.csv") + "</div>"
+        body += '<div class="text-actions">' + link("Request a resource", self.docs["governance/resource-requests.md"]) + link("Simulation Lab", "/simulation-lab/") + link("Tools and research skills", "/tools/") + link("Download the catalog (CSV)", "/data/resources-resources.csv") + "</div>"
         body += '<section data-filter>' + self.filters("Search resources, formats, or uses", areas) + '<div class="record-list">'
         for row in rows:
             searchable = " ".join(row.values())
@@ -228,6 +229,35 @@ class Website:
             body += '</dl><p>' + link(row["official_source"], row["source_url"]) + '</p><p>Example paper: ' + link(row["example_paper_title"], row["example_paper_url"]) + f' ({escape(row["example_paper_year"])}).</p><p class="small">{escape(row["reference_verification"])}</p></details></article>'
         body += '</div><p class="filter-empty" hidden>No topics match. Try another term or area.</p></section>'
         self.write("/topics/", self.layout("Research topics", body, active="/research/"))
+
+    def render_simulation(self):
+        tools = read_csv("simulation-lab/tools.csv")
+        papers = {row["id"]: row for row in read_csv("simulation-lab/papers.csv")}
+        examples = {row["example_id"]: row for row in read_csv("simulation-lab/examples.csv")}
+        executed = sum(row["status"] == "executed_adaptation" for row in examples.values())
+        status = runpy.run_path(str(HUB / "simulation-lab/catalog.py"), run_name="osri_lab")["STATUS"]
+        body = self.heading("Simulation Lab", "Learn from a model. Run an experiment.", f"Explore {len(tools)} tools and {len(examples)} examples linked to published research, from robot learning and battery physics to markets, household saving, and public policy.")
+        body += '<div class="text-actions">' + link("Browse tools", "#tool-catalog") + link("Run the CPU examples", self.docs["simulation-lab/examples/cpu-walkthroughs.md"]) + link("Read the lab guide", self.docs["simulation-lab/README.md"]) + '</div>'
+        body += f'<section class="record-section" id="literature-examples"><h2>Start with a published example</h2><p>{executed} teaching examples have been run locally. Other routes point to inspected upstream instructions or an artifact still to retrieve. Each guide explains its relationship to the paper.</p><div class="guide-list">'
+        for row in examples.values():
+            guide = self.rewrite(row["guide"], "simulation-lab/README.md")
+            body += f'<article><h3>{link(row["title"], guide)}</h3><p class="small">{escape(row["relationship"])}</p><p class="small">{escape(status[row["status"]])}</p></article>'
+        body += '</div><div class="text-actions">' + link("Bibliography and reading status", self.docs["simulation-lab/bibliography.md"]) + link("What was verified", self.docs["simulation-lab/verification.md"]) + '</div></section>'
+        body += '<section id="tool-catalog" data-filter><h2>Find a tool</h2><p>A growing inventory of solvers, modeling frameworks, and scene tools. Licenses below describe the source; runtime, data, and asset terms can differ.</p>'
+        body += self.filters("Search tools, methods, or licenses", sorted({row["domain"] for row in tools}), "Domain", "All domains") + '<div class="record-list">'
+        for row in tools:
+            body += f'<article id="{escape(row["tool_id"], quote=True)}" data-filter-item data-search="{escape(" ".join(row.values()), quote=True)}" data-area="{escape(row["domain"], quote=True)}"><p class="eyebrow">{escape(row["domain"])}</p><h3>{escape(row["name"])}</h3><p>{escape(row["role"])}</p><p class="small">{escape(row["license_summary"])}</p><div class="text-actions">{link("Source", row["source_url"])}{link("Documentation", row["docs_url"])}{link("License", row["license_url"])}</div><details><summary>Literature, examples, and requirements</summary><p>{escape(row["dependency_notes"])}</p>'
+            if row["paper_ids"]:
+                body += '<p>Literature: ' + "; ".join(link(papers[key]["title"], self.docs["simulation-lab/bibliography.md"] + "#" + key) for key in row["paper_ids"].split(";")) + '</p>'
+            else:
+                body += '<p>A verified literature example is still needed.</p>'
+            if row["example_ids"]:
+                body += '<ul>' + "".join('<li>' + link(examples[key]["title"], self.rewrite(examples[key]["guide"], "simulation-lab/README.md")) + ' — ' + escape(status[examples[key]["status"]]) + '</li>' for key in row["example_ids"].split(";")) + '</ul>'
+            else:
+                body += '<p>No OSRI walkthrough yet; start with the official documentation.</p>'
+            body += f'<p class="small">Source checked {escape(row["checked_date"])}; {escape(row["source_status"].replace("_", " "))}.</p></details></article>'
+        body += '</div><p class="filter-empty" hidden>No tools match. Try another term or domain.</p></section><div class="text-actions">' + link("Download tools (CSV)", "/data/simulation-lab-tools.csv") + link("Download examples (CSV)", "/data/simulation-lab-examples.csv") + link("Add a tool or example", self.docs["simulation-lab/contributing.md"]) + '</div>'
+        self.write("/simulation-lab/", self.layout("Simulation Lab", body, active="/simulation-lab/", source="simulation-lab/README.md"))
 
     def render_tools(self):
         body = self.heading("Tools and skills", "Choose tools for the task", "Use your own agents, selected skills, or manual methods. Record versions and actual checks. This catalog is optional.")
@@ -271,7 +301,7 @@ class Website:
         for name in ["styles.css", "site.css", "site.js"]:
             shutil.copy2(SITE / name, self.output / name)
         shutil.copy2(HUB / "identity/prism/previews/social-org.png", self.output / "assets/images/social-org.png")
-        for path in ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv"]:
+        for path in ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv", "simulation-lab/tools.csv", "simulation-lab/papers.csv", "simulation-lab/examples.csv"]:
             destination = self.output / "data" / path.replace("/", "-")
             destination.parent.mkdir(exist_ok=True)
             shutil.copy2(HUB / path, destination)
@@ -304,6 +334,7 @@ class Website:
         shutil.copy2(HUB / "identity/shared-language/fonts/NOTO-CJK-SC-OFL.txt", self.output / "assets/fonts/NOTO-RESEARCH-CJK-OFL.txt")
 
     def build(self):
+        subprocess.run([sys.executable, str(HUB / "simulation-lab/catalog.py")], check=True)
         self.output.mkdir(parents=True, exist_ok=False)
         self.assets()
         activity = runpy.run_path(str(HUB / "community/update.py"), run_name="osri_activity")
@@ -317,6 +348,7 @@ class Website:
         self.render_research()
         self.render_resources()
         self.render_topics()
+        self.render_simulation()
         self.render_tools()
         self.render_publications()
         self.render_guides()
@@ -324,7 +356,7 @@ class Website:
         (self.output / ".nojekyll").write_text("")
         (self.output / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {ORIGIN}/sitemap.xml\n")
         (self.output / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{ORIGIN}{escape(url)}</loc></url>" for url in sorted(self.pages) if url.endswith("/")) + "</urlset>")
-        (self.output / "build-info.json").write_text(json.dumps({"source_repository": f"{GITHUB}/osri", "source_commit": self.commit, "source_snapshot": self.snapshot, "pages": sorted(self.pages), "guides": len(self.docs), "resources": len(read_csv("resources/resources.csv")), "topics": len(read_csv("topics/example-topics.csv"))}, indent=2) + "\n")
+        (self.output / "build-info.json").write_text(json.dumps({"source_repository": f"{GITHUB}/osri", "source_commit": self.commit, "source_snapshot": self.snapshot, "pages": sorted(self.pages), "guides": len(self.docs), "resources": len(read_csv("resources/resources.csv")), "topics": len(read_csv("topics/example-topics.csv")), "simulation_tools": len(read_csv("simulation-lab/tools.csv")), "simulation_examples": len(read_csv("simulation-lab/examples.csv")), "simulation_papers": len(read_csv("simulation-lab/papers.csv"))}, indent=2) + "\n")
         print(f"Built {len(self.pages)} pages from hub {self.commit[:12]}")
 
 

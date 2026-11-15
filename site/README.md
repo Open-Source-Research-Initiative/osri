@@ -1,6 +1,6 @@
 # OSRI website
 
-The website uses Prism and reads its guides and records from this hub. Research, topics, resources, publications, contributor activity, and Chinese draft guides are published as static pages.
+The website uses Prism and reads its guides and records from this hub. Research, topics, resources, the Simulation Lab, publications, contributor activity, and Chinese draft guides are published as static pages.
 
 The organization site is published from [open-source-research-initiative.github.io](https://github.com/Open-Source-Research-Initiative/open-source-research-initiative.github.io). Its workflow checks out this hub, builds the site, and deploys GitHub Pages. It runs hourly, on publishing-repository changes, and on manual request.
 
@@ -18,6 +18,8 @@ python3 -m http.server 8765 --directory /path/to/new-output
 Edit the hub's Markdown and CSV files to update the public content. `index.html` supplies the homepage body; `styles.css` retains the Prism base styles. `site.css` and `site.js` add navigation, guide layouts, and catalog filters. Essential content remains available without JavaScript.
 
 The activity page uses `community/update.py` directly. It follows the same counting rules as the repository activity record. Source links identify the exact hub commit used for each build. Registered studies and public outputs appear only when their records are added.
+
+The Simulation Lab reads `simulation-lab/tools.csv`, `papers.csv`, and `examples.csv`. The build validates their references and generated Markdown/BibTeX through `simulation-lab/catalog.py`. After editing those records, run `python3 simulation-lab/catalog.py --write` before building. The searchable lab page and downloadable CSV files use the same records.
 
 ## Source and fonts
 

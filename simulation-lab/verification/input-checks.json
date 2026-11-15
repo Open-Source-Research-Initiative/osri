@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-15",
+  "performed_by": "Codex",
+  "cases": {
+    "changed_voltage": {
+      "exit_code": 2,
+      "output_created": false,
+      "diagnostic": "results_to_usd.py: error: voltage.csv does not match the battery run record"
+    },
+    "changed_parameters": {
+      "exit_code": 2,
+      "output_created": false,
+      "diagnostic": "results_to_usd.py: error: parameters.json does not match the battery run record"
+    },
+    "existing_run": {
+      "exit_code": 1,
+      "original_run_record_preserved": true
+    },
+    "zero_quantlib_seed": {
+      "exit_code": 2,
+      "output_created": false,
+      "diagnostic": "option_monte_carlo.py: error: --seed must be between 1 and 4294967295; zero does not select a fixed QuantLib seed"
+    }
+  },
+  "all_expected_rejections_observed": true
+}

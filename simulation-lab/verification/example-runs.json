@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-15",
+  "performed_by": "Codex",
+  "runs": {
+    "battery": {
+      "example": "battery-discharge",
+      "scope": "Educational adaptation; not a reproduction of a published result",
+      "python": "3.12.16",
+      "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+      "software": {
+        "pybamm": "26.10.1.1",
+        "pybammsolvers": "0.11.1",
+        "numpy": "2.5.4"
+      },
+      "parameters": {
+        "parameter_set": "Marquis2019",
+        "rate_C": 1,
+        "horizon_s": 3600,
+        "rtol": 1e-06,
+        "atol": 1e-08,
+        "model": "DFN",
+        "mesh": "PyBaMM version defaults"
+      },
+      "sources": [
+        "https://doi.org/10.5334/jors.309"
+      ],
+      "results": {
+        "termination": "final time",
+        "end_time_s": 3600.0,
+        "initial_voltage_V": 3.771780598538845,
+        "final_voltage_V": 3.171684116875606
+      },
+      "checks": {
+        "finite_voltage": true,
+        "time_increases": true,
+        "within_requested_horizon": true,
+        "positive_voltage": true
+      },
+      "files_sha256": {
+        "parameters.json": "46bd1a3e813ca44a354048867f4d1df82d761c514f1c4dc70accea2043572004",
+        "voltage.csv": "c52d9bd5b6fd9e3607366f65cc458c8310fc58c5b512c2af6045a200bfa8ffa6"
+      },
+      "code_sha256": {
+        "battery_discharge.py": "5f64682487162f90ddad87707e7e57e8b0117ea89d4698e87f4a2efca6cc773d",
+        "common.py": "04ed3edafd66ce67e090bd96cc38418539be6273ee8e78e52c0d146e2b3af61f",
+        "household_saving.py": "ce5027f144ca43708b050b99ff0004adebf8bf948ae682645df1e5d2cd42ddc0",
+        "option_monte_carlo.py": "d6ef5a027e788294acba919e0cea52249b2e25673719b7c226f42ed144d1ef30",
+        "results_to_usd.py": "0aa97bf3bd7ceb6d8ef46f7026608722ab92987c2dc407d51e5ef014eac5fb1e"
+      }
+    },
+    "options": {
+      "example": "option-monte-carlo",
+      "scope": "Educational adaptation; not a reproduction of a published result",
+      "python": "3.12.16",
+      "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+      "software": {
+        "QuantLib": "1.44"
+      },
+      "parameters": {
+        "spot": 100.0,
+        "strike": 100.0,
+        "rate_per_year": 0.05,
+        "volatility_per_sqrt_year": 0.2,
+        "maturity_years": 1.0,
+        "dividend_yield": 0,
+        "paths": 50000,
+        "seed": 42
+      },
+      "sources": [
+        "https://doi.org/10.1086/260062"
+      ],
+      "results": {
+        "analytic_price": 10.450583572185577,
+        "independent_formula_price": 10.450583572185565,
+        "mc_price": 10.454537076482858,
+        "standard_error": 0.06579663997682364,
+        "ci95": [
+          10.325575662128283,
+          10.583498490837432
+        ],
+        "z_score": 0.06008672021357118
+      },
+      "checks": {
+        "analytic_matches_formula": true,
+        "finite_nonnegative_payoffs": true,
+        "nonzero_sample_variance": true,
+        "mc_within_five_standard_errors": true
+      },
+      "files_sha256": {
+        "payoffs.csv": "9dfbff410e02019ea018d8b7d3b89f9a8fe24e7fbc239e11b4f30effc72cffcc"
+      },
+      "code_sha256": {
+        "battery_discharge.py": "5f64682487162f90ddad87707e7e57e8b0117ea89d4698e87f4a2efca6cc773d",
+        "common.py": "04ed3edafd66ce67e090bd96cc38418539be6273ee8e78e52c0d146e2b3af61f",
+        "household_saving.py": "ce5027f144ca43708b050b99ff0004adebf8bf948ae682645df1e5d2cd42ddc0",
+        "option_monte_carlo.py": "d6ef5a027e788294acba919e0cea52249b2e25673719b7c226f42ed144d1ef30",
+        "results_to_usd.py": "0aa97bf3bd7ceb6d8ef46f7026608722ab92987c2dc407d51e5ef014eac5fb1e"
+      }
+    },
+    "households": {
+      "example": "household-saving",
+      "scope": "Educational adaptation; not a reproduction of a published result",
+      "python": "3.12.16",
+      "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+      "software": {
+        "econ-ark": "0.17.2",
+        "numpy": "2.5.4",
+        "numba": "0.68.1"
+      },
+      "parameters": {
+        "cycles": 0,
+        "seed": 42,
+        "AgentCount": 1000,
+        "T_sim": 120,
+        "CRRA": 2.0,
+        "DiscFac": 0.96,
+        "Rfree": [
+          1.0
+        ],
+        "LivPrb": [
+          1.0
+        ],
+        "PermGroFac": [
+          1.02
+        ],
+        "PermShkStd": [
+          0.1
+        ],
+        "TranShkStd": [
+          0.1
+        ],
+        "UnempPrb": 0.005,
+        "IncUnemp": 0.0,
+        "BoroCnstArt": null,
+        "CubicBool": true,
+        "T_cycle": 1,
+        "aXtraMin": 0.001,
+        "aXtraMax": 20,
+        "aXtraCount": 48
+      },
+      "sources": [
+        "https://doi.org/10.1162/003355397555109",
+        "https://github.com/econ-ark/BufferStock-LifeCycle/blob/0a278360b77eeac1df1e91374c168b3091365fbf/Code/Python/BufferStock-LifeCycle.py"
+      ],
+      "results": {
+        "last_mean_resources": 1.332958621316104,
+        "last_mean_consumption": 0.9937537078933253,
+        "last_mean_assets": 0.33920491342277864,
+        "normalization": "permanent income"
+      },
+      "checks": {
+        "finite_history": true,
+        "positive_consumption": true,
+        "borrowing_constraint": true,
+        "budget_identity": true
+      },
+      "files_sha256": {
+        "households.csv": "49150c3b141a6a21116e9f9e50d66f9f5f3d4edf85c18a2c71340e844947daf1",
+        "parameters.json": "167d176b8f43cd417a7f7bb61b5c39de5dfcec34f0d06780a8fe006df2d7c7e8"
+      },
+      "code_sha256": {
+        "battery_discharge.py": "5f64682487162f90ddad87707e7e57e8b0117ea89d4698e87f4a2efca6cc773d",
+        "common.py": "04ed3edafd66ce67e090bd96cc38418539be6273ee8e78e52c0d146e2b3af61f",
+        "household_saving.py": "ce5027f144ca43708b050b99ff0004adebf8bf948ae682645df1e5d2cd42ddc0",
+        "option_monte_carlo.py": "d6ef5a027e788294acba919e0cea52249b2e25673719b7c226f42ed144d1ef30",
+        "results_to_usd.py": "0aa97bf3bd7ceb6d8ef46f7026608722ab92987c2dc407d51e5ef014eac5fb1e"
+      }
+    },
+    "usd": {
+      "example": "results-to-usd",
+      "scope": "Educational adaptation; not a reproduction of a published result",
+      "python": "3.12.16",
+      "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+      "software": {
+        "usd-core": "26.11"
+      },
+      "parameters": {
+        "time_codes_per_second": 1,
+        "meters_per_unit": 1
+      },
+      "sources": [
+        "https://openusd.org/release/api/class_usd_attribute.html",
+        "https://doi.org/10.5334/jors.309"
+      ],
+      "results": {
+        "samples": 121,
+        "source_sha256": "c52d9bd5b6fd9e3607366f65cc458c8310fc58c5b512c2af6045a200bfa8ffa6"
+      },
+      "checks": {
+        "same_sample_times": true,
+        "same_sample_values": true,
+        "time_unit_preserved": true,
+        "packaged_source_matches": true
+      },
+      "files_sha256": {
+        "battery.usda": "7abf8a9af4d2c4302056a1c5fd3b46c664cfc60c77bcd7215d431ded2151b698",
+        "source-parameters.json": "46bd1a3e813ca44a354048867f4d1df82d761c514f1c4dc70accea2043572004",
+        "source-run.json": "6b5de1437838d5e798ccbec5fecde6021dc6deef58d55e92cdd2080a6e97b73d",
+        "source-voltage.csv": "c52d9bd5b6fd9e3607366f65cc458c8310fc58c5b512c2af6045a200bfa8ffa6"
+      },
+      "code_sha256": {
+        "battery_discharge.py": "5f64682487162f90ddad87707e7e57e8b0117ea89d4698e87f4a2efca6cc773d",
+        "common.py": "04ed3edafd66ce67e090bd96cc38418539be6273ee8e78e52c0d146e2b3af61f",
+        "household_saving.py": "ce5027f144ca43708b050b99ff0004adebf8bf948ae682645df1e5d2cd42ddc0",
+        "option_monte_carlo.py": "d6ef5a027e788294acba919e0cea52249b2e25673719b7c226f42ed144d1ef30",
+        "results_to_usd.py": "0aa97bf3bd7ceb6d8ef46f7026608722ab92987c2dc407d51e5ef014eac5fb1e"
+      }
+    }
+  }
+}
