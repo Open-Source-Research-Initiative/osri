@@ -39,7 +39,7 @@ class Records(unittest.TestCase):
         projects, summaries, targets = project_data(self.root)
         self.assertEqual(len(projects), 1)
         self.assertEqual(len(targets), 3)
-        self.assertEqual(summaries['OSRI-0001']['status'], 'Screening paused')
+        self.assertEqual(summaries['OSRI-0001']['status'], 'AI screening resumed')
 
     def test_unknown_project_rejected(self):
         self.summaries[0]['project_id'] = 'OSRI-9999'
