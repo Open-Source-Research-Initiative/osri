@@ -30,6 +30,8 @@ The activity page still calls `community/update.py` directly. Publication target
 
 Long guides generate a native, collapsible on-page contents list and linked headings. Essential content, menus, materials, targets and journey stages work without JavaScript. Search falls back to the complete linked index and browser Find. If animation or JavaScript fails, reading content remains visible. Reduced motion bypasses entrance effects.
 
+The Simulation Lab reads `simulation-lab/tools.csv`, `papers.csv`, and `examples.csv`. The build validates their references and generated Markdown/BibTeX through `simulation-lab/catalog.py`. After editing those records, run `python3 simulation-lab/catalog.py --write` before building. The lab page, global search records, and downloadable CSV files use the same records.
+
 ## Graphics, fonts and provenance
 
 Prism’s approved logo geometry is unchanged. The hero retains its existing vector planes, removing washed-out overlay polygons. Guide images with matching editable Prism SVG masters use those local vectors. Fonts declared by SVG masters are embedded from the identity kit during the build so SVG image documents resolve their own fonts. The generated files retain editable text, titles and descriptions; guides retain textual explanations.

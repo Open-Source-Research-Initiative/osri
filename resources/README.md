@@ -1,6 +1,6 @@
 # Research resource starter catalog
 
-[Browse the resource catalog](https://open-source-research-initiative.github.io/resources/) or [download the comma-separated values (CSV) table](resources.csv). It lists 28 starting points for literature discovery, existing-data research, analysis, simulation, and research practice. It supports the six [OSRI research areas](../areas/README.md) and the proposed shared Simulation Lab. Healthcare use should follow OSRI's initial public health, health systems, and nonclinical scope. Operations Research and Decision Science sit within Engineering; Computational Natural Sciences sits within Informatics.
+[Browse the resource catalog](https://open-source-research-initiative.github.io/resources/) or [download the comma-separated values (CSV) table](resources.csv). It lists 28 starting points for literature discovery, existing-data research, analysis, simulation, and research practice. It supports the six [OSRI research areas](../areas/README.md) and the shared [Simulation Lab](../simulation-lab/README.md), which adds a dedicated tool catalog and literature walkthroughs. Healthcare use should follow OSRI's initial public health, health systems, and nonclinical scope. Operations Research and Decision Science sit within Engineering; Computational Natural Sciences sits within Informatics.
 
 This is a starter list, not an exhaustive inventory, endorsement, or qualification for a particular study. Official provider and maintainer documentation was reviewed on **2026-11-13**. No authenticated access, software installation, dataset download, or application programming interface (API) integration test was performed. A documentation check does not establish that an endpoint works or a dataset answers the question. It does not establish that a model predicts the system being studied.
 
@@ -36,7 +36,7 @@ In human-driven Agentic-Powered-Research, a person chooses the sources, directs 
 
 ## Maintain this catalog
 
-The CSV uses semicolon-separated values within `areas` and `exchange_formats`. `Cross-field` marks resources usable across disciplines; `Simulation Lab` marks potential use in the proposed lab. These tags are routing aids, not separate research areas or approved projects.
+The CSV uses semicolon-separated values within `areas` and `exchange_formats`. `Cross-field` marks resources usable across disciplines; `Simulation Lab` marks potential use in the lab. These tags are routing aids, not separate research areas or approved projects.
 
 | Field or status | Meaning |
 | --- | --- |
