@@ -22,11 +22,11 @@ Can you obtain the evidence, data, or model? Do its definitions fit your questio
 
 Try a small first task before planning a large study. Use the [resource guide](resources/README.md) or [ask an administrator](governance/resource-requests.md) for missing access. Narrow or change the question when needed.
 
-## 4. Give the project a home
+## 4. Create a research repository
 
-Use [project-template](https://github.com/Open-Source-Research-Initiative/project-template) and name a human lead. An administrator can create an OSRI repository; contributors can also begin in their own account.
+Use the [research repository template](https://github.com/Open-Source-Research-Initiative/research-repository-template) and name a human lead. An administrator can create a repository directly under the OSRI organization; contributors can also begin in their own account. Name the repository after the paper or working title, using lowercase words separated by hyphens.
 
-Describe the question in the project README. Open one issue for the first task. Ask an administrator to add the project to the [directory](projects/README.md). A project may span several areas and produce several publications.
+Put the full paper or working title at the top of the README, followed by the question, lead, research areas, and current state. Open **Issues** for tasks and **Pull requests** for proposed changes. Ask an administrator to add the study to the [research directory](projects/README.md). One repository can span several areas and produce several publications.
 
 Follow the [browser setup steps](docs/browser-setup.md#create-a-project) or ask a maintainer to help. To [find collaborators](docs/find-help.md), state the question, first task, and help needed. Record roles in `contributions.md` and discuss authorship as the work develops.
 

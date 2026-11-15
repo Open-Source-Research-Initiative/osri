@@ -9,4 +9,4 @@ Use only the detail your task needs. A question or unchecked source lead needs n
 - [Public resource request](resource-request.md): public metadata only.
 - [Private request record](resource-request-private.md): use the agreed private route and storage.
 
-The [project-template repository](https://github.com/Open-Source-Research-Initiative/project-template) is the starting kit for a new project. The fuller brief is optional.
+The [research repository template](https://github.com/Open-Source-Research-Initiative/research-repository-template) is the starting kit for a new project. The fuller brief is optional.

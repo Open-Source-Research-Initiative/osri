@@ -21,7 +21,7 @@ You may use your agent to prepare a contribution within the authority you have g
 
 ## Turn a conversation into work
 
-When people agree on a task, a maintainer links or creates an issue in the relevant project repository. The issue states the task, responsible person, and checks. Pull requests hold proposed changes. An organization Project can provide an overall task view when needed.
+When people agree on a task, a maintainer links or creates an issue in the relevant research repository. The issue states the task, responsible person, and checks. Pull requests hold proposed changes.
 
 Keep links between the conversation, task, and resulting research record. Record methods and conclusions in the project repository. Keep publication metadata in the shared register. A question may remain a useful conversation without becoming a project.
 
