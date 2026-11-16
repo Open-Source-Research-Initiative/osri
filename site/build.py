@@ -83,7 +83,7 @@ class Website:
             rel = path.relative_to(HUB).as_posix()
             if rel.startswith("simulation-lab/reproductions/files/"):
                 continue
-            if rel.startswith((".git/", ".github/", "site/", "identity/")) and rel != "identity/prism/research-journey.md":
+            if rel.startswith((".git/", ".github/", "site/", "identity/", "planning/")) and rel != "identity/prism/research-journey.md":
                 continue
             candidates.append(rel)
         self.docs = {rel: route(rel) for rel in candidates}

@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "base": "https://open-source-research-initiative.github.io",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "browser": "Playwright; Browser plugin not available",
+  "flow": "directory -> walkthrough playback -> starter tasks and feedback links",
+  "video_duration_seconds": 89.92,
+  "checks": {
+    "page_identity": "pass",
+    "meaningful_content": "pass",
+    "no_framework_overlay": "pass",
+    "console_health": "pass",
+    "screenshots": "pass",
+    "interaction_proof": "pass"
+  },
+  "details": [
+    "57 default venues",
+    "two field links each restore six results",
+    "compare three and restore shortlist URL",
+    "all six issue links",
+    "video plays and seeks, optional captions load",
+    "direct evidence and use-report links",
+    "desktop/mobile layout",
+    "mobile navigation"
+  ],
+  "limits": "Chromium only; no test issue submitted; no external human usability trial",
+  "errors": []
+}

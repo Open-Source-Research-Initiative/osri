@@ -20,6 +20,7 @@ Tests use temporary fixture directories; set `TMPDIR` to the permitted workspace
 ## Content and templates
 
 - `build.py` reads sources, resolves routes and links, generates pages and creates `search-index.json` and `build-info.json`.
+- Organization launch records in `planning/` are versioned on GitHub and excluded from the researcher-guide pages and search index.
 - `render.py` holds reusable homepage, project, About, collaboration and venue components. The homepage no longer extracts or substitutes strings in a prototype. `index.html` is the retained historical Prism prototype, outside the build input.
 - `records.py` checks the structured editorial collections. Project IDs must already be registered in `projects/projects.csv`.
 - `projects/summaries.json` adds source-checked questions, status, methods, materials, a bounded task and proposed output plans. `short_title` supports compact cards. Public `stage` and `activity` use a dated human-lead `status_decision`; execution checkpoints remain separate. See `projects/website-summaries.md`.
