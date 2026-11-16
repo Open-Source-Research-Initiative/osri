@@ -6,6 +6,13 @@ import json
 import re
 from urllib.parse import urlsplit
 
+STAGES = {'planning': 'Planning', 'research': 'Research', 'writing_review': 'Writing & review', 'publication': 'Publication'}
+ACTIVITIES = {'active': 'Active', 'on_hold': 'On hold', 'complete': 'Complete'}
+
+
+def project_status(summary):
+    return ACTIVITIES[summary['activity']] + ' · ' + STAGES[summary['stage']]
+
 
 def public_url(value):
     parsed = urlsplit(value)
@@ -32,9 +39,20 @@ def project_data(root):
         if key not in ids or key in seen:
             raise ValueError('Unknown or duplicate summary project: ' + key)
         seen.add(key)
-        for field in ['question', 'summary', 'status', 'status_detail', 'methods', 'contribution', 'outputs', 'sources']:
+        for field in ['question', 'summary', 'status_detail', 'methods', 'contribution', 'outputs', 'sources']:
             if not summary.get(field):
                 raise ValueError(key + ': missing ' + field)
+        if summary.get('stage') not in STAGES or summary.get('activity') not in ACTIVITIES:
+            raise ValueError(key + ': invalid project stage or activity')
+        if 'status' in summary or 'status_note' in summary:
+            raise ValueError(key + ': public status must use stage and activity')
+        decision = summary.get('status_decision', {})
+        lead = next(p['human_lead'] for p in projects if p['project_id'] == key)
+        if decision.get('by') != lead or not decision.get('note'):
+            raise ValueError(key + ': status decision needs the registered human lead and a note')
+        checked_date(decision.get('on', ''))
+        if summary['activity'] == 'on_hold' and not summary.get('hold_reason', '').strip():
+            raise ValueError(key + ': whole-project hold needs a reason')
         if not summary.get('materials'):
             raise ValueError(key + ': missing materials')
         public_url(summary['contribution']['url'])

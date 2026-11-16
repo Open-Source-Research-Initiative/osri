@@ -1,58 +1,6 @@
 # Public health and population research
 
-Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
-
-## Bulgarian Journal of Public Health
-
-**Fit:** Population health and public health research with Bulgaria, Europe and other countries in scope; publishes in Bulgarian and English. Verify current submission instructions.
-
-**Submission fee:** none. **Publication fee:** none.
-
-**Conditions and other costs:** The journal states that authors pay no submission or publication fees. Select an original research or review article within the stated 12-page limit and submit by email; foreign authors submit in English. The publisher provides technical editing, formatting and proofreading. The author instructions also require Bulgarian and English manuscripts for Bulgarian authors. The PDF instructions are undated; page and language rules should be checked at submission. No mandatory author payment identified for the documented email submission and standard publication route. The journal states there are no submission or publication fees and the publisher provides technical editing, formatting and proofreading. The instructions do not state a paid membership or paid translation requirement.
-
-**AI policy:** AI use for generating text, data analysis and other research components is expressly contemplated; code-assisted analysis falls within data analysis. Authors remain accountable.
-
-**Disclosure (required):** Disclose AI assistance transparently in the manuscript; a specific section, tool/version details are not stipulated.
-
-[Author guidance](https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf) · [Venue](https://ncpha.government.bg/)
-
-**Quality evidence (needs_verification):** Verification incomplete: external peer-review details, applicable corrections and retractions policy, a traceable publication sample. See the sources and access limits; these gaps do not establish misconduct.
-
-- CABI: publisher claim only — Issue claims Web of Science (CABI); does not establish SCIE, SSCI or ESCI membership. [source](https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf)
-
-- Venue base: [Bulgaria](https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf) — Editorial office and national public-health center, Sofia.
-- Author eligibility (not_stated): The issue does not establish geographic eligibility for authors.
-- [Author eligibility source](https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf)
-- [Fee evidence](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf): Official policy states no submission and publication fees for the indicated route.
-- [Fee evidence](https://ncpha.government.bg/uploads/magazines/_AutorsInstr_en.pdf): Author instructions set a 12-page maximum for original articles and reviews, permit email submission, and specify English for foreign authors; the document is undated. No paid membership or translation service requirement is stated.
-- [Fee evidence](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf): Journal policy states no submission or publication fees and assigns technical editing, formatting and proofreading to the publisher.
-- [AI policy](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf): Explicit text, data analysis and other research uses with disclosure and author responsibility.
-- [Disclosure source](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf) — Use of Artificial Intelligence (AI) Tools
-
-## Epidemiologia e Serviços de Saúde: revista do SUS
-
-**Fit:** Population-health, epidemiology, management and policy evidence relevant to Brazil's Unified Health System (SUS). Existing-data analyses and systematic reviews fit; the Evidência em contexto category also accepts evidence synthesis, methods and policy interpretation. A concrete SUS contribution is required.
-
-**Submission fee:** none. **Publication fee:** none.
-
-**Conditions and other costs:** Portuguese manuscript and meaningful SUS contribution required. Submission, evaluation and publication are free; English full-text and Spanish-abstract translations are publisher-funded. Original articles, including systematic reviews, normally allow 3000 words; Evidência em contexto 2000. Meet data-availability and applicable ethics requirements and use a suitable free repository where deposit is required. None for the stated journal route, including its provided translations; no compulsory author membership stated.
-
-**AI policy:** Journal expressly covers AI for collection and analysis and writing assistance; code is a method of data analysis and must be described for reproducibility. Authors ensure accurate citations and originality.
-
-**Disclosure (required):** Report collection and analysis in Methods with complete reproducibility details; writing and revision assistance in Uso de inteligência artificial generativa, including procedures ensuring citation accuracy, originality and absence of plagiarism.
-
-[Author guidance](https://www.scielo.br/journal/ress/about/) · [Venue](https://www.scielo.br/j/ress/)
-
-**Quality evidence (needs_verification):** Some policies and named editorial oversight documented; article samples and independent indexing remain unverified.
-
-- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 13917, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
-
-- Venue base: [Brazil](https://www.scielo.br/journal/ress/about/) — Brazil Ministry of Health edits and publishes the journal.
-- Author eligibility (not_stated): Author geographic eligibility not expressly established in the inspected policy.
-- [Author eligibility source](https://www.scielo.br/journal/ress/about/)
-- [Fee evidence](https://www.scielo.br/journal/ress/about/): Complete current official policy explicitly excludes submission/evaluation/publication fees under diamond access and states that English/Spanish translations are free, funded by the Brazilian Ministry of Health; author language and article limits are on the same page.
-- [AI policy](https://www.scielo.br/journal/ress/about/): Covers research data collection and analysis and writing assistance, with reporting and authors responsible for research ethics.
-- [Disclosure source](https://www.scielo.br/journal/ress/about/) — Adoção de softwares de inteligência artificial
+Free peer-reviewed routes with a compatible AI policy and core editorial standards documented. Check current author instructions before submission.
 
 ## Perspectives in Public Health
 

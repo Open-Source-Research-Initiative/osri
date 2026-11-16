@@ -15,11 +15,12 @@
     "kind_counts": {
       "journal": 146
     },
-    "verified_free_peer_reviewed_open_for_consideration": 73,
+    "verified_free_peer_reviewed_open_for_consideration": 57,
     "venues_with_metrics": 98,
     "missing_role_files": [],
     "cross_subfield_fee_conflicts": [],
     "verified_free_peer_reviewed_before_quality": 74,
+    "verified_free_core_documented": 57,
     "fee_followup": {
       "target_count": 74,
       "baseline_recommended_count": 70,
@@ -275,7 +276,7 @@
         "name": "Public health and population research",
         "source_listings": 17,
         "unique_venues": 8,
-        "verified_free_peer_reviewed": 8,
+        "verified_free_peer_reviewed": 6,
         "venues_with_reported_metrics": 2
       },
       {
@@ -323,7 +324,7 @@
         "name": "Computational physics, chemistry and materials",
         "source_listings": 19,
         "unique_venues": 9,
-        "verified_free_peer_reviewed": 8,
+        "verified_free_peer_reviewed": 3,
         "venues_with_reported_metrics": 5
       },
       {
@@ -331,7 +332,7 @@
         "name": "Economics, econometrics and research economics",
         "source_listings": 19,
         "unique_venues": 2,
-        "verified_free_peer_reviewed": 2,
+        "verified_free_peer_reviewed": 0,
         "venues_with_reported_metrics": 0
       },
       {
@@ -347,7 +348,7 @@
         "name": "Sociology, organizations and collaboration",
         "source_listings": 18,
         "unique_venues": 8,
-        "verified_free_peer_reviewed": 7,
+        "verified_free_peer_reviewed": 5,
         "venues_with_reported_metrics": 4
       },
       {
@@ -427,7 +428,7 @@
         "name": "Energy systems and environmental engineering",
         "source_listings": 8,
         "unique_venues": 1,
-        "verified_free_peer_reviewed": 1,
+        "verified_free_peer_reviewed": 0,
         "venues_with_reported_metrics": 0
       },
       {
@@ -451,7 +452,7 @@
         "name": "Political science and international relations",
         "source_listings": 9,
         "unique_venues": 9,
-        "verified_free_peer_reviewed": 9,
+        "verified_free_peer_reviewed": 5,
         "venues_with_reported_metrics": 3
       },
       {
@@ -1801,7 +1802,7 @@
   "build_sources": [
     {
       "path": "scripts/build.py",
-      "sha256": "1ca9c3ea1a939a87a7df011db74cd7346726ff402ec9cc984753e4e511da01f7"
+      "sha256": "4f453d9e449d8865811452064b089807e9634863e3fee80ab30fa41087ae122b"
     },
     {
       "path": "scripts/fee_followup.py",
@@ -1813,7 +1814,23 @@
     },
     {
       "path": "scripts/directory.html",
-      "sha256": "898fadd0b17ad7c4cbca21ed64f720eb7ff10fa0f65ef4b647976c79c3e2424c"
+      "sha256": "c01f33e956a624a6f3490141cb0a543c100ffc3250029c0726561b29cf806def"
+    },
+    {
+      "path": "scripts/directory-fragment.html",
+      "sha256": "abf54325c4c4e5b82ffe487f022fee8eb2219e3023b6e6189bd2a990ba20fc64"
+    },
+    {
+      "path": "scripts/directory.css",
+      "sha256": "4783cd552e0ae23d5b1a3d93728b815237d8391e2ca38895cd8904438b0f785a"
+    },
+    {
+      "path": "scripts/directory.js",
+      "sha256": "20bbcf2bdcbc646a7c9ff98ea2f424f6c88a9d24a82adaa36e2d26f4cce4ff34"
+    },
+    {
+      "path": "docs/display-policy.md",
+      "sha256": "dad727d22aa74115de89f04ff49f225d565be9fa9fbbf8d46c39479e64581c9b"
     },
     {
       "path": "data/subfields.json",

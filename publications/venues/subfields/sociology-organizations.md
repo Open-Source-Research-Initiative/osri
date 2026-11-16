@@ -1,6 +1,6 @@
 # Sociology, organizations and collaboration
 
-Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
+Free peer-reviewed routes with a compatible AI policy and core editorial standards documented. Check current author instructions before submission.
 
 ## Current Sociology
 
@@ -59,65 +59,6 @@ Default recommended free peer-reviewed routes with a compatible AI policy and no
 - [AI policy](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy): Research and coding examples, generated-text disclosure, no rejection solely for disclosed use, and prohibited uses; partial drafting inference remains uncertain.
 - [Disclosure source](https://journals.sagepub.com/author-instructions/org) — AI generated (disclosure required); AI assistance (no disclosure required)
 - [Disclosure source](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy) — AI generated (disclosure required); AI assistance (no disclosure required)
-
-## Organization Studies
-
-**Fit:** Organizations and organizing, including existing-data empirical studies of collaboration and organizational processes and relevant methodological contributions. Since June 2025 the regular research-article route accepts empirical work only; ordinary conceptual/theory papers are redirected to Organization Theory. Special essay and Perspectives formats have separate conditions.
-
-**Submission fee:** none. **Publication fee:** none.
-
-**Conditions and other costs:** Use subscription publication; print color and OA are optional paid choices. Regular research articles are empirical-only since June 2025. Research/Method/ology limit: 13,000 words including references/appendices. X and OS/Perspectives require prior editorial discussion. Preprints accepted without updates during review. Disclose generative AI; prompt-generated submissions/data, synthetic interviews, and AI analysis of experiences/themes are prohibited. Independent authors permitted; extra integrity documentation may be requested. None stated for the compliant subscription route. Paid OA, requested print color and third-party permissions are separate choices.
-
-**AI policy:** Human-led literature assistance and AI-generated or checked research code are appropriate with disclosure. Conditional partial drafting is inferred from Sage’s treatment of partial generated text and disclosed use, subject to editorial interpretation of its prohibition on generating a submission through prompts. Authors are responsible for accuracy and checking original sources.
-
-**Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in Methods or Acknowledgements. Suggestions to improve the author’s own language, grammar or structure do not require disclosure.
-
-[Author guidance](https://journals.sagepub.com/author-instructions/oss) · [Venue](https://journals.sagepub.com/home/oss)
-
-**Quality evidence (needs_verification):** Named editorial leadership, publisher identity, applicable ethics and corrections policies, and traceable article metadata documented. Details establishing independent external review remain to be checked.
-
-- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 36194; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
-- Crossref: registry confirmed — Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion. [source](https://api.crossref.org/journals/0170-8406)
-- DOAJ: not verified — ISSN query returned no match; no claim of absence from a comprehensive list is made. [source](https://doaj.org/api/search/journals/issn%3A0170-8406?pageSize=2)
-
-- Author eligibility (not_stated): No affirmative author-location eligibility statement found in sources examined; no restriction inferred.
-- [Author eligibility source](https://us2.sagepub.com/en-us/nam/journal/organization-studies)
-- [Fee evidence](https://journals.sagepub.com/author-instructions/oss): Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.
-- [Fee evidence](https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges): Title absent from the active-charge list; no applicable page-fee schedule found.
-- [AI policy](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy): Literature assistance and generated or checked research code are appropriate with disclosure; partial generated content affecting research is disclosed, and disclosed use alone does not lead to rejection. The prompt-generated submission restriction does not define partial drafting.
-- [AI policy](https://journals.sagepub.com/author-instructions/oss): Instructions explicitly direct authors to Sage AI disclosure and prohibited uses; no stronger title-specific restriction found in inspected instructions.
-- [Disclosure source](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy) — AI generated (disclosure required)
-- [Acceptance rate (%)](https://journals.sagepub.com/overview-metric/OSS): 6.0; period: not reported; population: Unknown: rendered official overview does not identify the reporting year, submitted-versus-final-decision cohort, article types, or numerator/denominator counts.. Official displayed value, checked 2026-11-16. The check date is not the metric year. Retained with explicit missing period/cohort; do not compare numerically against rates with a defined denominator or interpret as an individual manuscript probability.
-
-## Organizational Research Methods
-
-**Fit:** Methodological advances for organizational science: comparisons and improvements of quantitative or qualitative methods, computational procedures, and practical methodological syntheses. Routine substantive applications of an existing method are discouraged; an organizational research contribution is required.
-
-**Submission fee:** none. **Publication fee:** none.
-
-**Conditions and other costs:** Use subscription publication; avoid paid print color and optional OA. Regular papers are encouraged within 40 pages inclusive; short reports allow 18 text pages. Preprints accepted, without updates during review. Disclose generative AI; prompt-generated submissions/data, synthetic interviews, and AI analysis of experiences/themes are prohibited. Independent authors permitted; extra integrity documentation may be requested. None stated for the compliant subscription route. Paid OA, requested print color and third-party permissions are separate choices.
-
-**AI policy:** Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.
-
-**Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.
-
-[Author guidance](https://journals.sagepub.com/author-instructions/orm) · [Venue](https://journals.sagepub.com/home/orm)
-
-**Quality evidence (needs_verification):** Named editorial leadership, publisher identity, applicable ethics and corrections policies, and traceable article metadata documented. Details establishing independent external review remain to be checked.
-
-- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 36204; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
-- Crossref: registry confirmed — Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion. [source](https://api.crossref.org/journals/1094-4281)
-- DOAJ: not verified — ISSN query returned no match; no claim of absence from a comprehensive list is made. [source](https://doaj.org/api/search/journals/issn%3A1094-4281?pageSize=2)
-
-- Author eligibility (international): The journal encourages submissions from authors across all countries.
-- [Author eligibility source](https://journals.sagepub.com/author-instructions/orm)
-- [Fee evidence](https://journals.sagepub.com/author-instructions/orm): Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.
-- [Fee evidence](https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges): Title absent from the active-charge list; no applicable page-fee schedule found.
-- [AI policy](https://journals.sagepub.com/author-instructions/orm): Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions.
-- [AI policy](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy): Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous.
-- [Disclosure source](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy) — AI generated (disclosure required); Appropriate use of GenAI
-- [Disclosure source](https://journals.sagepub.com/author-instructions/orm) — AI generated (disclosure required); Appropriate use of GenAI
-- [Journal Impact Factor (2-year)](https://journals.sagepub.com/pb-assets/cmscontent/ORM/ORM-2025%20Call%20for%20Editors-1752512158.pdf): 7.6; period: 2024; population: Journal-level citations in the metric year to citable items from the preceding two years, divided by citable items in those years. Publisher reports the JCR journal metric; not a submission acceptance rate or measure of an individual paper.
 
 ## Rationality and Society
 

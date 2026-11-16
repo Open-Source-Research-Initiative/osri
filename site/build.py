@@ -162,7 +162,7 @@ class Website:
             rendered = re.sub(r'(</h1>)', lambda match: match[1] + toc, rendered, count=1)
         return rendered
 
-    def layout(self, title, content, active="", source=None, chinese=False, document=False, home=False, description=None):
+    def layout(self, title, content, active="", source=None, chinese=False, document=False, home=False, description=None, extra_head=""):
         navigation = ''.join(link(label, url, aria_current='page' if url == active else 'false') for label, url in NAV)
         translated = 'translations/zh-Hans/' + source if source and not source.startswith('translations/') else None
         other = self.docs.get(translated, '/zh-hans/') if not chinese else self.docs.get(source.removeprefix('translations/zh-Hans/'), '/')
@@ -183,7 +183,7 @@ class Website:
         description = escape(description[:220], quote=True)
         body_class = ('home' if home else 'content-page') + (' chinese' if chinese else '')
         return f'''<!doctype html>
-<html lang="{'zh-Hans' if chinese else 'en'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="{description}"><title>{name}</title><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"><link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/site.css"><meta property="og:title" content="{name}"><meta property="og:description" content="{description}"><meta property="og:type" content="website"><meta property="og:image" content="{ORIGIN}/assets/images/social-org.png"><meta name="twitter:card" content="summary_large_image"><script type="module" src="/site.js"></script></head>
+<html lang="{'zh-Hans' if chinese else 'en'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="{description}"><title>{name}</title><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"><link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/site.css"><meta property="og:title" content="{name}"><meta property="og:description" content="{description}"><meta property="og:type" content="website"><meta property="og:image" content="{ORIGIN}/assets/images/social-org.png"><meta name="twitter:card" content="summary_large_image"><script type="module" src="/site.js"></script>{extra_head}</head>
 <body class="{body_class}"><a class="skip-link" href="#main">{'跳到正文' if chinese else 'Skip to content'}</a>
 <header class="site-header wrap"><a class="brand" href="/" aria-label="OSRI home"><img src="/assets/images/logo-symbol.svg" alt="" width="36" height="40"><span><strong>OSRI</strong><span>Open Source Research Initiative</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" hidden>Menu <span aria-hidden="true">☰</span></button><div class="header-links" id="primary-menu"><nav class="site-nav" aria-label="Primary navigation">{navigation}</nav><div class="header-tools">{link('Search', '/search/')}<details class="language-control"><summary>Language</summary><div>{language}</div></details>{link('Collaborate ↗', '/contribute/', class_='button primary')}</div></div></header>
 <main id="main" class="wrap" tabindex="-1">{content}</main>
@@ -217,37 +217,41 @@ class Website:
     def render_home(self):
         self.write('/', self.layout('Open Source Research Initiative', render.home(self), home=True, description='Human-driven research across disciplines, with free publication routes, source-checked venue comparisons and open research records.'))
 
-    def render_venue_directory(self):
+    def venue_snapshot(self):
+        if hasattr(self, '_venue_snapshot'):
+            return self._venue_snapshot
         directory = HUB / 'publications/venues'
         snapshot = json.loads((directory / 'snapshot.json').read_text())
-        browser = directory / 'browser.html'
-        expected = next(row['sha256'] for row in snapshot['files'] if row['path'] == 'browser.html')
-        if hashlib.sha256(browser.read_bytes()).hexdigest() != expected:
-            raise ValueError('Venue browser differs from its reviewed snapshot')
-        text = browser.read_text()
+        paths = set()
+        for row in snapshot['files']:
+            path = directory / row['path']
+            if not path.resolve().is_relative_to(directory.resolve()) or row['path'] in paths:
+                raise ValueError('Unsafe or duplicate venue snapshot path')
+            paths.add(row['path'])
+            if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != row['sha256']:
+                raise ValueError('Venue file differs from its reviewed snapshot: ' + row['path'])
+        if not {'browser.html','browser-fragment.html','directory.css','directory.js','build-receipt.json'} <= paths:
+            raise ValueError('Venue snapshot is missing reviewed presentation assets')
+        self._venue_snapshot = (directory, snapshot)
+        return self._venue_snapshot
+
+    def render_venue_directory(self):
+        directory, snapshot = self.venue_snapshot()
+        fragment = (directory / 'browser-fragment.html').read_text()
         replacements = {
-            'href="DIRECTORY.md"': 'href="' + self.docs['publications/venues/README.md'] + '"',
             'href="README.md"': 'href="' + self.docs['publications/venues/README.md'] + '"',
-            'href="docs/methodology.md"': 'href="' + self.docs['publications/venues/methodology.md'] + '"',
             'href="methodology.md"': 'href="' + self.docs['publications/venues/methodology.md'] + '"',
-            'href="docs/quality-review.md"': 'href="' + self.docs['publications/venues/quality-review.md'] + '"',
             'href="quality-review.md"': 'href="' + self.docs['publications/venues/quality-review.md'] + '"',
-            'href="data/venues.csv"': 'href="/data/publications-venues-venues.csv"',
             'href="venues.csv"': 'href="/data/publications-venues-venues.csv"',
-            'href="data/venues.json"': 'href="/data/publications-venues-venues.json"',
             'href="venues.json"': 'href="/data/publications-venues-venues.json"',
-            'href="LICENSE.md"': 'href="' + self.docs['LICENSE.md'] + '"',
-            'href="https://github.com/Open-Source-Research-Initiative"': 'href="/"',
-            'href="${escapeText(p)}"': 'href="' + GITHUB + '/free-publication-directory/blob/' + snapshot['source_commit'] + '/${escapeText(p)}"',
+            'data-provenance-base=""': 'data-provenance-base="' + GITHUB + '/free-publication-directory/blob/' + snapshot['source_commit'] + '/"',
         }
         for old, new in replacements.items():
-            text = text.replace(old, new)
-        description = 'Compare research venues by submission and publication costs, AI disclosure, indexing, peer review, editorial standards, geography, and reported metrics.'
-        text = text.replace('</head>', '<meta name="description" content="' + description + '"><meta property="og:title" content="Free publication directory · OSRI"><meta property="og:description" content="' + description + '"><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"></head>')
-        source = link('Website source', self.source_url('publications/venues/snapshot.json'))
-        source += ' · ' + link('Directory repository', GITHUB + '/free-publication-directory')
-        text = text.replace('</footer>', '<p>' + source + '</p></footer>')
-        self.write('/venues/', text)
+            fragment = fragment.replace(old, new)
+        for source, destination in [('directory.css','venue-directory.css'),('directory.js','venue-directory.js')]:
+            shutil.copy2(directory / source, self.output / destination)
+        extra = '<link rel="stylesheet" href="/venue-directory.css"><script defer src="/venue-directory.js"></script>'
+        self.write('/venues/', self.layout('Free publication directory', fragment, active='/venues/', source='publications/venues/snapshot.json', description='Find free publication routes with documented editorial standards. Compare research fit, author costs, AI disclosure, indexing and eligibility.', extra_head=extra))
 
     def render_project_pages(self):
         for row in self.projects:
