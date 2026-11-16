@@ -1,0 +1,363 @@
+{
+  "subfield": "public-health",
+  "role": "ranking",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "public-health-bulletin-who",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Initial editorial screening requires originality, scientific rigour and explicit new knowledge, but no acceptance statistic or comparative contribution threshold was found. These requirements alone do not establish a relative difficulty band. International relevance and country-affiliation rules are fit conditions, not a prestige score.",
+        "source_urls": ["https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 8.4,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count is not disclosed on the WHO page.",
+          "source_url": "https://www.who.int/publications/journals/bulletin/about",
+          "note": "Officially labelled 2025. Citation impact is separate from acceptance difficulty."
+        }
+      ],
+      "audit_note": "Access: page for both the contributor guidelines and WHO About page. Explicit contribution screening is documented, but no high band was inferred from institutional reputation, international scope or the impact factor. No acceptance odds inferred."
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Editors assess methodological soundness, novelty and applicability after scope screening, but these criteria do not establish a comparative difficulty band. No dated official acceptance statistics were found. Relevance to public health in the Americas is a fit requirement.",
+        "source_urls": ["https://journal.paho.org/en/about-journal", "https://journal.paho.org/en/instructions-authors"]
+      },
+      "metrics": [],
+      "audit_note": "Access: page for both official pages, retrieved in full with Python urllib after the web tool returned HTTP 403. At least three reviewers are described, but reviewer count is not acceptance selectivity. No metric copied from a third-party journal directory."
+    },
+    {
+      "id": "public-health-emerging-infectious-diseases",
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment: official sources describe acceptance of approximately one quarter of submitted articles. The current general-information page reports 23.7%, whereas the 2024 report and EID Advantage describe about 25%; none specifies a comparable acceptance cohort. Emerging-infection/public-health relevance remains a separate fit condition.",
+        "source_urls": ["https://wwwnc.cdc.gov/eid/about/general", "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf", "https://wwwnc.cdc.gov/eid/page/eid-advantage"]
+      },
+      "metrics": [
+        {
+          "name": "Reported acceptance proportion, undated current summary",
+          "value": "approximately 23.7%",
+          "year": null,
+          "population": "Submitted articles, not only externally reviewed articles; exact count, cohort dates and treatment of invited manuscripts are not supplied.",
+          "source_url": "https://wwwnc.cdc.gov/eid/about/general",
+          "note": "Page updated 24 September 2026; this is the page date, not a stated acceptance-statistic year. Not an individual manuscript probability."
+        },
+        {
+          "name": "Typical annual acceptance proportion reported in 2024 journal report",
+          "value": "approximately 25%",
+          "year": null,
+          "population": "All submissions in an unspecified typical annual period; approximately 2000 manuscripts per year is contextual volume, not an exact denominator.",
+          "source_url": "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf",
+          "note": "The report is titled 2024 but does not identify the proportion as a measured 2024 cohort. Preserved separately from the current 23.7% summary."
+        },
+        {
+          "name": "CiteScore",
+          "value": 9.5,
+          "year": 2025,
+          "population": "Journal-level Scopus citation metric; underlying document count is not disclosed on the CDC page.",
+          "source_url": "https://wwwnc.cdc.gov/eid/about/general",
+          "note": "Official source explicitly labels this 2025. Citation impact is not used to infer acceptance difficulty."
+        }
+      ],
+      "audit_note": "Access: page for CDC General Information, EID Advantage and the complete 2024 report PDF. Acceptance summaries have different precision and unspecified periods; no false reconciliation. The 2025 report PDF was located and its bytes retrieved, but the web tool rejected full text extraction because of file size; its indexed introduction supplied no acceptance statistic, so no metric is attributed to that unread report. CDC impact-factor pages mix report-year labels with undated current summaries; those values were not normalized into an assumed citation year."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment: the editorial team's 2025 retrospective reports one in five articles accepted and 1050 submissions. The count and acceptance summary are journal-wide, not a forecast for an OSRI paper. European relevance is a scope condition; the editorial explicitly includes relevant work from outside Europe.",
+        "source_urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC12811709/"]
+      },
+      "metrics": [
+        {
+          "name": "Reported acceptance proportion",
+          "value": "one in five articles",
+          "year": 2025,
+          "population": "Articles submitted to the journal; the same retrospective reports 1050 submissions, but does not define a finalized submission cohort or accepted-count numerator.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811709/",
+          "note": "Primary editorial by the Eurosurveillance editorial team, discussing 2025. Do not manufacture an exact 210 accepted count or infer manuscript odds."
+        },
+        {
+          "name": "Manuscript submissions received",
+          "value": 1050,
+          "year": 2025,
+          "population": "All journal submissions received in 2025; the separately reported 149 pre-submission enquiries are not added.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811709/",
+          "note": "Journal-wide volume, not the externally reviewed subset."
+        }
+      ],
+      "audit_note": "Access: page for the primary editorial archived in PMC, retrieved in full via Python urllib after the web tool showed a browser challenge. Access: blocked for https://www.eurosurveillance.org/about (HTTP 403). Search also returned nonofficial mirrors; their metric tables were not retained. Editorial citation scores lack an explicit metric-year label, so were not assigned to 2025 merely because they appear in a 2025 retrospective."
+    },
+    {
+      "id": "public-health-journal-of-public-health-oup",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official grading emphasizes scientific originality, impact and relevance to public-health practice. No quantified acceptance selectivity or sufficiently discriminating contribution threshold was found to establish a comparative band. The published decision medians include desk rejections and do not imply easy acceptance.",
+        "source_urls": ["https://academic.oup.com/jpubhealth/pages/author-guidelines", "https://academic.oup.com/jpubhealth/pages/About"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.5,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count not reported in the journal table.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Official 2025 label; not an acceptance metric."
+        },
+        {
+          "name": "CiteScore",
+          "value": 6.0,
+          "year": 2025,
+          "population": "Journal-level Scopus citation metric; underlying document count not reported in the journal table.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Official 2025 label; not an acceptance metric."
+        },
+        {
+          "name": "Median days from submission to first decision",
+          "value": 8,
+          "year": 2025,
+          "population": "Manuscripts with a first decision in 2025, including rejection without external review; n not reported.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics . Not peer-review duration for accepted papers."
+        },
+        {
+          "name": "Median days from submission to final decision",
+          "value": 8,
+          "year": 2025,
+          "population": "Manuscripts with a final accept/reject decision in 2025, including desk rejections; n not reported.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Median days from acceptance to publication",
+          "value": 31,
+          "year": 2025,
+          "population": "Articles first published online in 2025; n not reported.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics . Post-acceptance production time."
+        }
+      ],
+      "audit_note": "Access: page for official author guidelines, About table and OUP metric definitions. Fast overall decisions are not evidence of high acceptance. No route or fee fields changed."
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official guidelines describe scientific/editorial screening and external review, but provide no dated acceptance cohort or comparative selectivity threshold. General quality requirements do not justify a moderate/easy label. Nordic association and topic fit do not determine difficulty.",
+        "source_urls": ["https://journals.sagepub.com/author-instructions/sjp"]
+      },
+      "metrics": [],
+      "audit_note": "Access: page for the full official author guidelines. The stated average 30-day decision has no measurement period, sample size or desk-rejection definition; it was not promoted into a dated performance metric. Access: blocked for attempted Sage metrics endpoints, including https://journals.sagepub.com/overview-metric/SJP (urllib HTTP 403)."
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment based on historical selectivity: the editors report 15.2% acceptance among 656 final decisions in 2023. This is a mixed peer/editor-reviewed regular-issue population, not current research-article odds. No 2024/2025 acceptance report was found in the bounded search; US public-health relevance is a separate fit condition.",
+        "source_urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/", "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf"]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate by final decisions",
+          "value": "15.2%",
+          "year": 2023,
+          "population": "100 acceptances among 656 final decisions on bimonthly peer/editor-reviewed content; excludes supplements and unreviewed content; includes letters and editor-reviewed departments.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Historical decision-year population, not 100 divided by new submissions."
+        },
+        {
+          "name": "New submissions received",
+          "value": 634,
+          "year": 2023,
+          "population": "614 regular-issue submissions plus 20 invited/sponsored supplement submissions.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Different population from acceptance-rate denominator."
+        },
+        {
+          "name": "Median days to first decision",
+          "value": 12,
+          "year": 2023,
+          "population": "617 first decisions in 2023 on bimonthly peer-reviewed content, including decisions on earlier submissions.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Interquartile range 7–25 days."
+        },
+        {
+          "name": "Median days from original submission to final acceptance",
+          "value": 229,
+          "year": 2023,
+          "population": "116 peer/editor-reviewed articles published in volume 138, January–December 2023; excludes unreviewed special material.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Interquartile range 193–289 days; accepted/published articles only."
+        },
+        {
+          "name": "Median days from final acceptance to online publication",
+          "value": 51,
+          "year": 2023,
+          "population": "123 full-content articles in volume 138, excluding reviewer acknowledgments and corrigenda.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Interquartile range 39–60 days; publication cohort differs from decision cohort."
+        }
+      ],
+      "audit_note": "Access: page for the complete editors' report archived in PMC and the official hosted author-guidelines PDF. Sage report HTML intermittently failed; PMC supplied full primary text. PDF impact factors lacked a year and were excluded. Historical rates support only a provisional band."
+    },
+    {
+      "id": "public-health-perspectives-in-public-health",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official quality screening and preference for research fitting upcoming themed issues are documented, but no dated acceptance statistics or comparative selectivity threshold were found. Issue-theme suitability is fit, not a prestige measure.",
+        "source_urls": ["https://journals.sagepub.com/author-instructions/rsh"]
+      },
+      "metrics": [],
+      "audit_note": "Access: page for full official guidance. Original research/reviews/short reports use peer review; Current Topics and Opinions is editor assessed, so its ease cannot stand in for research-paper difficulty. Access: blocked for attempted Sage metric endpoints, including https://journals.sagepub.com/overview-metric/RSH (urllib HTTP 403)."
+    },
+    {
+      "id": "public-health-european-journal",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Current author guidance describes peer review and international public-health fit. An editors' 2020 commentary mentions about 20% acceptance without a period or denominator; that historical statement is insufficient for a current comparative band. Citation scores and decision speed do not establish acceptance difficulty.",
+        "source_urls": ["https://academic.oup.com/eurpub/pages/author-guidelines", "https://academic.oup.com/eurpub/pages/about", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7536247/"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 5.2,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count not reported in journal table.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Official 2025 label; not acceptance selectivity."
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.8,
+          "year": 2025,
+          "population": "Journal-level Scopus citation metric; underlying document count not reported in journal table.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Official 2025 label; not acceptance selectivity."
+        },
+        {
+          "name": "Median days from submission to first decision",
+          "value": 11,
+          "year": 2025,
+          "population": "Manuscripts with a first decision in 2025, including rejection without external review; n not reported.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Median days from submission to final decision",
+          "value": 11,
+          "year": 2025,
+          "population": "Manuscripts with a final accept/reject decision in 2025, including desk rejections; n not reported.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Median days from acceptance to publication",
+          "value": 34,
+          "year": 2025,
+          "population": "Articles first published online in 2025; n not reported.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Historical approximate acceptance proportion mentioned in 2020 editorial",
+          "value": "approximately 20%",
+          "year": null,
+          "population": "Incoming journal papers; no rate period, cohort count or decision/submission denominator definition stated.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7536247/",
+          "note": "Editors' commentary published 20 August 2020. This does not establish an exact 2020 annual acceptance rate or a current rate."
+        }
+      ],
+      "audit_note": "Access: page for current official author guidance, lower-case /about metric table and OUP definitions; upper-case /About initially timed out. Access: page for the 2020 primary editorial archived in PMC, retrieved in full via Python urllib after the web tool returned a browser challenge. Its text states about 20% acceptance without a rate period. European focus and relevant global-health contributions are fit conditions."
+    },
+    {
+      "id": "public-health-annali-istituto-superiore-sanita",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "The official process has editor screening and at least two reviewers, but no dated acceptance statistic or comparative contribution threshold was found. Comparing regional/Italian findings with European or international data is an explicit fit requirement, not automatic high difficulty.",
+        "source_urls": ["https://annali.iss.it/index.php/anna/about"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor, publisher's year label",
+          "value": 2.1,
+          "year": 2025,
+          "population": "Journal-level citation metric; denominator and measurement window not stated in announcement.",
+          "source_url": "https://annali.iss.it/index.php/anna/announcement/view/8",
+          "note": "Title/body explicitly say 2025; page metadata retains 2021-07-01. Preserve the publisher's label without treating the metadata date as the metric year; not acceptance evidence."
+        }
+      ],
+      "audit_note": "Access: page for official About and impact-factor announcement. The announcement's old publication timestamp conflicts with its updated body; exact bibliometric window was not independently verified. No band was inferred from citation impact."
+    },
+    {
+      "id": "public-health-epidemiologia-servicos-saude",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Current official policy describes scope assessment, methodological-quality screening and external scientific-merit review. No dated acceptance statistics or comparative selectivity threshold were found. Evidence relevant to Brazil's SUS is a scope requirement, not a difficulty ranking.",
+        "source_urls": ["https://www.scielo.br/journal/ress/about/"]
+      },
+      "metrics": [],
+      "audit_note": "Access: page for the complete current official SciELO journal policy in Portuguese. Its estimated 90-day editorial evaluation is a policy estimate, not a measured year-specific median or acceptance metric; it was not placed in metrics."
+    },
+    {
+      "id": "public-health-college-community-physicians-sri-lanka",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Review evaluates originality, scientific validity, ethics and public-health implications. Those criteria and two independent reviewers do not establish a comparative difficulty band. No dated official acceptance statistics were found; country/society identity does not imply easier acceptance.",
+        "source_urls": ["https://jccpsl.sljol.info/about/editorialpolicies"]
+      },
+      "metrics": [],
+      "audit_note": "Access: page for full official editorial policies. A usual 2–6-week first-decision interval is an undated process expectation with no sample definition, not a measured annual performance statistic."
+    },
+    {
+      "id": "public-health-delaware-journal",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official peer-review guidance evaluates scientific/policy/analytic value and robustness. No dated acceptance statistics or comparative selectivity threshold were found. Delaware/regional relevance, the chosen issue theme and its deadline are fit conditions; regional publication does not imply easy acceptance.",
+        "source_urls": ["https://djph.org/djph-editorial-policies/peer-review/", "https://djph.org/submissions/submit-an-article/"]
+      },
+      "metrics": [],
+      "audit_note": "Access: page for complete official peer-review and submission pages. Submission expressly does not guarantee publication. No population-wide acceptance percentage inferred from output or submission instructions."
+    },
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment: a CDC announcement explicitly reports 14.2% acceptance in 2025, while editorial policy prioritizes novel ideas for a broad public-health audience. The denominator and article mix are not disclosed. The two-year data recency requirement is a fit condition, not a prestige measure.",
+        "source_urls": ["https://www.cdc.gov/PCD/announcements.htm", "https://www.cdc.gov/pcd/about_the_journal/editorial_policy.htm"]
+      },
+      "metrics": [
+        {
+          "name": "Reported acceptance rate",
+          "value": "14.2%",
+          "year": 2025,
+          "population": "Journal manuscripts; exact submission/decision cohort definition, denominator count and article-type mix not disclosed.",
+          "source_url": "https://www.cdc.gov/PCD/announcements.htm",
+          "note": "Announcement explicitly assigns the rate to 2025; About-page Quick Stats alone does not give the rate year. Not manuscript-specific odds."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 5.6,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count not disclosed in Quick Stats.",
+          "source_url": "https://www.cdc.gov/pcd/about_the_journal/index.htm",
+          "note": "Official page labels 2025, reported in 2026. This is separate from acceptance difficulty."
+        }
+      ],
+      "audit_note": "Access: page for official announcements, About/Quick Stats, editorial policy and general author information. The announcement's prose explanation of the five-year citation window is internally inconsistent, so that explanatory window and five-year metric were not retained. The acceptance year is explicitly stated and is independent of that citation-window issue."
+    }
+  ],
+  "notes": [
+    "All 14 discovery/diamond candidates were independently considered, with the fee audit read for context. This file replaces only difficulty, metrics and audit notes; it makes no fee/route eligibility changes.",
+    "Four high bands are provisional agent judgments within public health: EID, Eurosurveillance, PHR and PCD from official acceptance summaries with the stated limitations. Ten remain unknown. General originality/quality screening alone is insufficient for a comparative band. No easy or moderate status is inferred from missing information, regional scope, citation impact or faster decisions.",
+    "Retrospective acceptance percentages, decision-year rates, typical annual summaries and published-article handling times have different populations. Exact source years are retained; null year means the source did not give a rate period. No historic or aggregate percentage is an individual manuscript acceptance probability.",
+    "Metrics are a bounded selection of official citation and editorial-performance disclosures, not an exhaustive indicator inventory. No third-party journal-directory values were used. OUP timing definitions were retrieved at https://academic.oup.com/pages/using-the-content/metrics ; both first/final decision measures include desk rejections.",
+    "Access is reported per record. Blocked pages and snippets are not presented as complete policy verification. Official editorial statements archived in PMC remain primary reporting, while PMC is the host rather than the journal publisher. Search results can reveal newer leads without establishing their complete contents.",
+    "Country, region, subject, article type, issue theme, data age and local-author conditions govern manuscript fit independently of fee route and difficulty. This is a catalog-level agent review, not manuscript matching or human scientific review."
+  ]
+}

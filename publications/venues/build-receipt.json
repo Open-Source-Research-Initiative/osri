@@ -1,0 +1,508 @@
+{
+  "summary": {
+    "checked_on": "2026-11-16",
+    "subfields": 12,
+    "agent_role_files": 60,
+    "source_listings": 173,
+    "unique_venues": 169,
+    "eligibility_counts": {
+      "needs_verification": 51,
+      "verified_free": 114,
+      "conditional": 4
+    },
+    "kind_counts": {
+      "journal": 168,
+      "preprint_server": 1
+    },
+    "verified_free_peer_reviewed_open_for_consideration": 112,
+    "venues_with_metrics": 107,
+    "missing_role_files": [],
+    "cross_subfield_fee_conflicts": [],
+    "coverage": [
+      {
+        "subfield": "public-health",
+        "name": "Public health and population research",
+        "source_listings": 14,
+        "unique_venues": 14,
+        "verified_free_peer_reviewed": 12,
+        "verified_free_with_difficulty_band": 4,
+        "venues_with_reported_metrics": 8
+      },
+      {
+        "subfield": "health-systems",
+        "name": "Health systems, services and health informatics",
+        "source_listings": 14,
+        "unique_venues": 14,
+        "verified_free_peer_reviewed": 10,
+        "verified_free_with_difficulty_band": 0,
+        "venues_with_reported_metrics": 5
+      },
+      {
+        "subfield": "systems-engineering",
+        "name": "Systems engineering, reliability and engineering management",
+        "source_listings": 13,
+        "unique_venues": 13,
+        "verified_free_peer_reviewed": 4,
+        "verified_free_with_difficulty_band": 0,
+        "venues_with_reported_metrics": 12
+      },
+      {
+        "subfield": "operations-simulation",
+        "name": "Operations research, decision science and simulation",
+        "source_listings": 15,
+        "unique_venues": 15,
+        "verified_free_peer_reviewed": 8,
+        "verified_free_with_difficulty_band": 2,
+        "venues_with_reported_metrics": 13
+      },
+      {
+        "subfield": "informatics-computing",
+        "name": "Computer science, AI, data and research software",
+        "source_listings": 16,
+        "unique_venues": 16,
+        "verified_free_peer_reviewed": 14,
+        "verified_free_with_difficulty_band": 4,
+        "venues_with_reported_metrics": 4
+      },
+      {
+        "subfield": "computational-biology",
+        "name": "Bioinformatics and computational biology",
+        "source_listings": 15,
+        "unique_venues": 15,
+        "verified_free_peer_reviewed": 5,
+        "verified_free_with_difficulty_band": 0,
+        "venues_with_reported_metrics": 11
+      },
+      {
+        "subfield": "computational-physical-sciences",
+        "name": "Computational physics, chemistry and materials",
+        "source_listings": 15,
+        "unique_venues": 15,
+        "verified_free_peer_reviewed": 10,
+        "verified_free_with_difficulty_band": 0,
+        "venues_with_reported_metrics": 14
+      },
+      {
+        "subfield": "economics",
+        "name": "Economics, econometrics and research economics",
+        "source_listings": 14,
+        "unique_venues": 14,
+        "verified_free_peer_reviewed": 10,
+        "verified_free_with_difficulty_band": 1,
+        "venues_with_reported_metrics": 6
+      },
+      {
+        "subfield": "psychology-behavior",
+        "name": "Psychology, judgment and behavioral science",
+        "source_listings": 15,
+        "unique_venues": 15,
+        "verified_free_peer_reviewed": 12,
+        "verified_free_with_difficulty_band": 5,
+        "venues_with_reported_metrics": 10
+      },
+      {
+        "subfield": "sociology-organizations",
+        "name": "Sociology, organizations and collaboration",
+        "source_listings": 15,
+        "unique_venues": 15,
+        "verified_free_peer_reviewed": 13,
+        "verified_free_with_difficulty_band": 0,
+        "venues_with_reported_metrics": 6
+      },
+      {
+        "subfield": "public-policy",
+        "name": "Public policy, governance and administration",
+        "source_listings": 14,
+        "unique_venues": 14,
+        "verified_free_peer_reviewed": 10,
+        "verified_free_with_difficulty_band": 7,
+        "venues_with_reported_metrics": 10
+      },
+      {
+        "subfield": "meta-research",
+        "name": "Meta-research, evidence synthesis and scholarly communication",
+        "source_listings": 13,
+        "unique_venues": 13,
+        "verified_free_peer_reviewed": 7,
+        "verified_free_with_difficulty_band": 3,
+        "venues_with_reported_metrics": 10
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "path": "research/discovery/public-health.json",
+      "sha256": "687c1bb8e3037ed776c7ccfde6edc186079b5852104d2ebbdefd54ee0ab1dede",
+      "role": "discovery",
+      "subfield": "public-health"
+    },
+    {
+      "path": "research/diamond/public-health.json",
+      "sha256": "8abc9a2857a4ed8a47961ac7b3820cb81be1bebf75e49a9b6fe2abf209ce711d",
+      "role": "diamond",
+      "subfield": "public-health"
+    },
+    {
+      "path": "research/fees/public-health.json",
+      "sha256": "c0c4ab1bbe91745e413edb7838e72a62ae5681742a60d0af2b08c2ea8a70ecaa",
+      "role": "fees",
+      "subfield": "public-health"
+    },
+    {
+      "path": "research/ranking/public-health.json",
+      "sha256": "540eb67c3d6c4d6fb956b35c8a66cda8d95efdbacd91046f80a42639160f0d7a",
+      "role": "ranking",
+      "subfield": "public-health"
+    },
+    {
+      "path": "research/review/public-health.json",
+      "sha256": "b8795de0f06452719f8932e4e479400fb203ed114e5f81b80c0b6a18a5e10e72",
+      "role": "review",
+      "subfield": "public-health"
+    },
+    {
+      "path": "research/discovery/health-systems.json",
+      "sha256": "29f21eb925a339ecb3bd9d1499c03630cad177ea80f007f461cfb596688e492a",
+      "role": "discovery",
+      "subfield": "health-systems"
+    },
+    {
+      "path": "research/diamond/health-systems.json",
+      "sha256": "093a260785ce51d3549bff89a9899241c11bb1e52e2d49ab03be110d16765aaa",
+      "role": "diamond",
+      "subfield": "health-systems"
+    },
+    {
+      "path": "research/fees/health-systems.json",
+      "sha256": "a007dba0aec0327abaa1808e87982e83981efcd5dd39447911d5e36de9b03c37",
+      "role": "fees",
+      "subfield": "health-systems"
+    },
+    {
+      "path": "research/ranking/health-systems.json",
+      "sha256": "933a6d14ddb68cd2e1c7528516a70f9aca9d1de41613e3b8ac46cf220678c9b3",
+      "role": "ranking",
+      "subfield": "health-systems"
+    },
+    {
+      "path": "research/review/health-systems.json",
+      "sha256": "1cea54f2504e82fb22ccc5b59300e03e0d88e60def2dbfad7a200796f6ae1766",
+      "role": "review",
+      "subfield": "health-systems"
+    },
+    {
+      "path": "research/discovery/systems-engineering.json",
+      "sha256": "ed13c8d84b338a8d42faba85d4bbce909ccc0c1bb3a16de5d172006132c32230",
+      "role": "discovery",
+      "subfield": "systems-engineering"
+    },
+    {
+      "path": "research/diamond/systems-engineering.json",
+      "sha256": "96fc32b6950672206c76ba01b52b1f940f9811cf5af0bbb869e53609c712cd59",
+      "role": "diamond",
+      "subfield": "systems-engineering"
+    },
+    {
+      "path": "research/fees/systems-engineering.json",
+      "sha256": "b05e43cf501894c7683e1ca12359e542f7b41dd89bc04e99e46ca4cabeb14aaf",
+      "role": "fees",
+      "subfield": "systems-engineering"
+    },
+    {
+      "path": "research/ranking/systems-engineering.json",
+      "sha256": "1b61a0045c1ee4c006ff4db430cda0256ca6aac71766bafe8a4a4f5e13aa6a79",
+      "role": "ranking",
+      "subfield": "systems-engineering"
+    },
+    {
+      "path": "research/review/systems-engineering.json",
+      "sha256": "86795fca90ca5c15176331bcefab27b0165d80ce3ebd99ef8169b855f34c4a03",
+      "role": "review",
+      "subfield": "systems-engineering"
+    },
+    {
+      "path": "research/discovery/operations-simulation.json",
+      "sha256": "9ce33bd88d7381ceece42f951af235db242ff23338dbe3d042fbdf661b212d7a",
+      "role": "discovery",
+      "subfield": "operations-simulation"
+    },
+    {
+      "path": "research/diamond/operations-simulation.json",
+      "sha256": "5f526649f43277ba4bae44dbac05a2a3fb4b44df65ff1c781909e2e3ed998aee",
+      "role": "diamond",
+      "subfield": "operations-simulation"
+    },
+    {
+      "path": "research/fees/operations-simulation.json",
+      "sha256": "1f16b4bbd59a8af3750f80ef2c2158a4b92d570acba4c857fc1f8d9e411990ad",
+      "role": "fees",
+      "subfield": "operations-simulation"
+    },
+    {
+      "path": "research/ranking/operations-simulation.json",
+      "sha256": "90f204e35e1990db4ae2500d8ef46349cd728ffa3ef5e51120708300919b4243",
+      "role": "ranking",
+      "subfield": "operations-simulation"
+    },
+    {
+      "path": "research/review/operations-simulation.json",
+      "sha256": "d45e6dd89001d6007c90af25f9792cdeaca858aab500e069b13b416d78e47779",
+      "role": "review",
+      "subfield": "operations-simulation"
+    },
+    {
+      "path": "research/discovery/informatics-computing.json",
+      "sha256": "21d4bab83ab1806ae9c5066489acf4abbab2ea86d0521af9499ec36a8b71ca83",
+      "role": "discovery",
+      "subfield": "informatics-computing"
+    },
+    {
+      "path": "research/diamond/informatics-computing.json",
+      "sha256": "b1c943e01ab8959ca9256fc135b1bdd45cee870c20024c852f6ead3684e5b9e0",
+      "role": "diamond",
+      "subfield": "informatics-computing"
+    },
+    {
+      "path": "research/fees/informatics-computing.json",
+      "sha256": "f7edc62cc3d1a137eba50aad69c130ef3d096c3df51b3408dc6f7590a338c346",
+      "role": "fees",
+      "subfield": "informatics-computing"
+    },
+    {
+      "path": "research/ranking/informatics-computing.json",
+      "sha256": "85973d7d23808599129eed7c44e56d18fd4a3245b6cc8f035efa60c505882461",
+      "role": "ranking",
+      "subfield": "informatics-computing"
+    },
+    {
+      "path": "research/review/informatics-computing.json",
+      "sha256": "4b7584d8717bb9a2b9554d156b45df650826d29bf2a8304ea33c0859a4b4a4b9",
+      "role": "review",
+      "subfield": "informatics-computing"
+    },
+    {
+      "path": "research/discovery/computational-biology.json",
+      "sha256": "4273009452cc1f25ea74e782e415c2a768cddaa4dd4e332f5bc9d0d2e450b716",
+      "role": "discovery",
+      "subfield": "computational-biology"
+    },
+    {
+      "path": "research/diamond/computational-biology.json",
+      "sha256": "b455d763651fec67cdd9c0c6c646a5692795b6aa3b36fbc373397317e262a20e",
+      "role": "diamond",
+      "subfield": "computational-biology"
+    },
+    {
+      "path": "research/fees/computational-biology.json",
+      "sha256": "250e297131561e4ce9996c51b238f6a7a0b9d462078b5f142f75f85b6f23438b",
+      "role": "fees",
+      "subfield": "computational-biology"
+    },
+    {
+      "path": "research/ranking/computational-biology.json",
+      "sha256": "d6a3b3c8e8abb7fe52a5a6c20755ed281b1eb487bde3c9e98d227e49cc3d1c74",
+      "role": "ranking",
+      "subfield": "computational-biology"
+    },
+    {
+      "path": "research/review/computational-biology.json",
+      "sha256": "54e453e69d701c0c00b256196e05c23a5246994093c808ee7999d1394d36262c",
+      "role": "review",
+      "subfield": "computational-biology"
+    },
+    {
+      "path": "research/discovery/computational-physical-sciences.json",
+      "sha256": "21090b90b291bd8b4e8118dd88062b9158e33a2f52b9f71f5806d2ba467086b1",
+      "role": "discovery",
+      "subfield": "computational-physical-sciences"
+    },
+    {
+      "path": "research/diamond/computational-physical-sciences.json",
+      "sha256": "bc717f026c7acdaaae22ee0dd857d5f714e7703d9133ef6c0775abaefb42fbd4",
+      "role": "diamond",
+      "subfield": "computational-physical-sciences"
+    },
+    {
+      "path": "research/fees/computational-physical-sciences.json",
+      "sha256": "c9066703287d0a6c1aadc90cff033d96cc6e8c0b8bfa900c96d101d9ec97dc3a",
+      "role": "fees",
+      "subfield": "computational-physical-sciences"
+    },
+    {
+      "path": "research/ranking/computational-physical-sciences.json",
+      "sha256": "1e8bef6257a24077006ef3defa638e92a3cb996f2ffb50790b3457c38381e081",
+      "role": "ranking",
+      "subfield": "computational-physical-sciences"
+    },
+    {
+      "path": "research/review/computational-physical-sciences.json",
+      "sha256": "5ece5122e28476e42495db935408625a7734627a7f9c99e5a5e9f4b34085089d",
+      "role": "review",
+      "subfield": "computational-physical-sciences"
+    },
+    {
+      "path": "research/discovery/economics.json",
+      "sha256": "ad0e6164b07909e65023f351481748fc71e6f50eb39a7162b1b56c4605b79233",
+      "role": "discovery",
+      "subfield": "economics"
+    },
+    {
+      "path": "research/diamond/economics.json",
+      "sha256": "a1eb5dd073166b0be9b2ff9a4b4351646d0fe7b6ce3a5ab6f89e63e9b7a82517",
+      "role": "diamond",
+      "subfield": "economics"
+    },
+    {
+      "path": "research/fees/economics.json",
+      "sha256": "6a846587ea3fff10a0c80a41aee0c9155ffcc7b7e8ce1c62a871be2100278f19",
+      "role": "fees",
+      "subfield": "economics"
+    },
+    {
+      "path": "research/ranking/economics.json",
+      "sha256": "b695b6f34dc87413c95f3afab6057ad1dd5ac0ed3c607720d2d807a26b1745d7",
+      "role": "ranking",
+      "subfield": "economics"
+    },
+    {
+      "path": "research/review/economics.json",
+      "sha256": "0eeae4bde0423febf2856763ed4c0b8251a4c81d88808078cad80fcef9153629",
+      "role": "review",
+      "subfield": "economics"
+    },
+    {
+      "path": "research/discovery/psychology-behavior.json",
+      "sha256": "209306fd359ea76ca9a9bf968354516abcca3f5be755378cffd31afec122edb9",
+      "role": "discovery",
+      "subfield": "psychology-behavior"
+    },
+    {
+      "path": "research/diamond/psychology-behavior.json",
+      "sha256": "00643d170b9281a847960510ae240f0382f0724c5cd1ed9983775e6f5a6bf423",
+      "role": "diamond",
+      "subfield": "psychology-behavior"
+    },
+    {
+      "path": "research/fees/psychology-behavior.json",
+      "sha256": "2420d41a461ec34c9a62231fd3712ad66b3ab7980ca6f280bad30451742a68d8",
+      "role": "fees",
+      "subfield": "psychology-behavior"
+    },
+    {
+      "path": "research/ranking/psychology-behavior.json",
+      "sha256": "677d41d6ba15099550df394f89c382c520c1313d8699695b1dd748ac4e43af76",
+      "role": "ranking",
+      "subfield": "psychology-behavior"
+    },
+    {
+      "path": "research/review/psychology-behavior.json",
+      "sha256": "8bd56747c4e564eb279c12c0a4f25508b56eef0880891392b40682756ae37baa",
+      "role": "review",
+      "subfield": "psychology-behavior"
+    },
+    {
+      "path": "research/discovery/sociology-organizations.json",
+      "sha256": "058ea965adf245fee3d72c9dc0aa99bca1ec4619a74467deda7c735868138a34",
+      "role": "discovery",
+      "subfield": "sociology-organizations"
+    },
+    {
+      "path": "research/diamond/sociology-organizations.json",
+      "sha256": "16d3e443b6fd38db836834dbde5e0d977a404ae01cf0544a5a08c6c868ffcece",
+      "role": "diamond",
+      "subfield": "sociology-organizations"
+    },
+    {
+      "path": "research/fees/sociology-organizations.json",
+      "sha256": "baddf2b781579d1311e1601ff6b7aa400d743f76fedc10904313e9d7eb68a039",
+      "role": "fees",
+      "subfield": "sociology-organizations"
+    },
+    {
+      "path": "research/ranking/sociology-organizations.json",
+      "sha256": "60996c999ca70f88c1f1ddb1d4a17196232217011f2f3e8c687fe24468e86846",
+      "role": "ranking",
+      "subfield": "sociology-organizations"
+    },
+    {
+      "path": "research/review/sociology-organizations.json",
+      "sha256": "1b2b8480e940f3cada0b03c6d599e75f784f765671797cec75a05629ef61d2c1",
+      "role": "review",
+      "subfield": "sociology-organizations"
+    },
+    {
+      "path": "research/discovery/public-policy.json",
+      "sha256": "05ad4fbb3930dc6d8a738120950d209754196e8be4829b171ab3a526253927f4",
+      "role": "discovery",
+      "subfield": "public-policy"
+    },
+    {
+      "path": "research/diamond/public-policy.json",
+      "sha256": "c7754661ef6b8379b2ac5786997b43931fd44d42f433ad680adc7ae23e42c43d",
+      "role": "diamond",
+      "subfield": "public-policy"
+    },
+    {
+      "path": "research/fees/public-policy.json",
+      "sha256": "be76d6ff78556a333f4754523741fa2c1676755cbe3feef06c6c60d9e777f7ba",
+      "role": "fees",
+      "subfield": "public-policy"
+    },
+    {
+      "path": "research/ranking/public-policy.json",
+      "sha256": "8c85ae1861fd6d6b978d60853006f612921f4226aa0a302d8965429eef701524",
+      "role": "ranking",
+      "subfield": "public-policy"
+    },
+    {
+      "path": "research/review/public-policy.json",
+      "sha256": "06fc6af5aa1cf196f9d1f3f827198463322f68bd7501d441a902a6bab4ee8e14",
+      "role": "review",
+      "subfield": "public-policy"
+    },
+    {
+      "path": "research/discovery/meta-research.json",
+      "sha256": "015e365e34811e322f3321004cbcbd76c686680250c3775927484d98ea8e2278",
+      "role": "discovery",
+      "subfield": "meta-research"
+    },
+    {
+      "path": "research/diamond/meta-research.json",
+      "sha256": "6f8ff9db239998e7dd0962ed6730348549a2c7ae9794ba0f02d99878b0bfd4fa",
+      "role": "diamond",
+      "subfield": "meta-research"
+    },
+    {
+      "path": "research/fees/meta-research.json",
+      "sha256": "db766209a296ceefb8080cbb3efd726a8fa926944398aa00798e0932fdf93df9",
+      "role": "fees",
+      "subfield": "meta-research"
+    },
+    {
+      "path": "research/ranking/meta-research.json",
+      "sha256": "3b7b67a5e01e2236ea10cb41b8cb74bdb8f5ff1f11b961cd62005602283f379d",
+      "role": "ranking",
+      "subfield": "meta-research"
+    },
+    {
+      "path": "research/review/meta-research.json",
+      "sha256": "6ef78d90baa93fc4f4f74432efcf4f8261ed87bedff620dc70150ba47e42e41e",
+      "role": "review",
+      "subfield": "meta-research"
+    }
+  ],
+  "build_sources": [
+    {
+      "path": "scripts/build.py",
+      "sha256": "2e39e0cdf3f484e256fe9d3a3db7c00f33526cd1552c9247c5f55f27217c303e"
+    },
+    {
+      "path": "scripts/directory.html",
+      "sha256": "40738dd2c9c7f1e8df957d8580269461fd41a6ed828edc5967697c8706ea6198"
+    },
+    {
+      "path": "data/subfields.json",
+      "sha256": "a4c809870da80d6cdc2201f44a35cce9b995a90696075027efdfbdbf0ac8db47"
+    }
+  ]
+}

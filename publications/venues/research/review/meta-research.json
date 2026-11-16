@@ -1,0 +1,295 @@
+{
+  "subfield": "meta-research",
+  "role": "review",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "meta-research-scientometrics",
+      "scope_notes": "Quantitative science-of-science research, including indicators, citation/collaboration networks, research evaluation and computational studies of scholarly records. Research articles must supply methods or insights; reviews are invited. The standard research route uses single-anonymous peer review. Current instructions require human authorship and documentation of substantive LLM use in Methods or an appropriate section; copyediting of human-written text is exempt from disclosure. This does not remove author accountability.",
+      "audit_note": "Independently read the current journal homepage, author instructions and publishing-options page. Confirmed 2025 JIF 3.8 and five-year JIF 4.4, invited reviews, single-anonymous review, optional OA, free online colour and the LLM/copyediting distinction. Retained needs_verification because no-APC subscription wording does not resolve submission or page/overlength costs. Retained unknown difficulty; undated first-decision speed does not establish selectivity."
+    },
+    {
+      "id": "meta-research-research-evaluation",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical agent judgment: manuscripts must advance evaluation theory or practice, go beyond descriptive bibliometrics or standalone indicators, and interest the broader evaluation community. These are real scope and contribution gates, but they do not by themselves distinguish high from other difficulty bands. No current official acceptance statistic or comparative selectivity evidence was verified. Retained citation metrics describe impact rather than acceptance difficulty.",
+        "source_urls": [
+          "https://academic.oup.com/rev/pages/author-guidelines",
+          "https://academic.oup.com/rev/pages/about"
+        ]
+      },
+      "scope_notes": "Research evaluation theory and practice, including assessment of researchers, organizations, funding programmes, research outputs and policy interventions. Existing-data studies and evaluation methods fit when tied to an evaluation problem. The journal excludes purely descriptive bibliometrics or standalone indicator development without a broader evaluation contribution. Discussion papers may receive editorial rather than external peer review. Current guidelines permit preprints, require their status/DOI to be updated after publication, and require AI use to be disclosed in the cover letter and Methods or Acknowledgements; AI tools cannot be authors.",
+      "audit_note": "Independently read current instructions, About metrics and the separate Charges page. Confirmed 2025 JIF 2.7, five-year JIF 3.4 and CiteScore 3.6. Current standard licence/page/colour exclusions coexist with separate print-colour wording; retained that unresolved conflict and needs_verification for the submission-fee gap. Replaced high with unknown while retaining the substantive evaluation-contribution requirements and all metrics."
+    },
+    {
+      "id": "meta-research-science-and-public-policy",
+      "scope_notes": "Policy research concerning science, technology and innovation. Candidate OSRI work includes existing-data studies of research systems, funding, collaboration and research-policy effects. A policy contribution is required; a software tool or narrow replication report alone is not an assumed fit. Perspectives and some letters are editorially reviewed, unlike the journal's standard research articles. Current guidelines permit preprints with post-publication status/DOI updates, and require AI use to be disclosed in the cover letter and Methods or Acknowledgements; AI tools cannot be authors.",
+      "audit_note": "Independently read current instructions, journal About metrics and Charges. Confirmed ordinary subscription/no-licence-charge publication, no page/colour charges, optional paid OA, at least two referees for ordinary articles, and editorial-only Perspectives. Confirmed 2025 JIF 2.8, five-year JIF 3.5 and CiteScore 5.2. Retained needs_verification for the separate submission-fee gap and unknown difficulty; policy relevance and citation impact do not measure acceptance odds."
+    },
+    {
+      "id": "meta-research-accountability-in-research",
+      "scope_notes": "Research integrity, accountability and research policy across disciplines. Empirical analyses of published records, conceptual assessment and critical analysis can fit; new clinical studies are not a prerequisite. Candidate topics include reporting practices, reproducibility governance, peer review and research misconduct. Detailed article-type and length rules remain to be checked in the blocked author instructions. Official indexed scope excludes using the journal to adjudicate complaints about named cases. Numeric metrics and review statements were independently reproduced from official indexed text; direct author instructions remain blocked, so current journal-specific AI/preprint and detailed format conditions are unresolved.",
+      "audit_note": "Direct About retrieval independently returned HTTP 403. A targeted official-site search reproduced the full indexed scope/metrics block: 13% acceptance; 2025 JIF 4.4, five-year JIF 4.1 and CiteScore 6.4; double-anonymous external review after initial appraisal; non-OA no-APC route. The indexed page itself and accessible T&F metric definition identify the last full calendar year and all final decisions, including desk rejections, so 2025 is inferred at this check. Retained high as a provisional within-field judgment supported by that rate, with weaker indexed-source evidence. Retained needs_verification; full instructions, submission/page charges and AI/preprint conditions were not verified."
+    },
+    {
+      "id": "meta-research-social-studies-of-science",
+      "scope_notes": "Science and Technology Studies rather than a general methods journal. Social or institutional analyses of research practices, collaboration and knowledge production may fit when they make an STS contribution. Original research, discussion papers, short research notes and review essays are listed; existing literature or documents can support suitable studies. Research articles are normally limited to 12,000 words. Preprints are accepted; do not update the preprint during review and link the published version afterward. The linked Sage AI policy distinguishes assistive editing from generative research/content uses requiring disclosure and prohibits specified uses; it does not grant blanket permission for AI-authored submissions.",
+      "audit_note": "Independently read current author instructions, homepage, journal metrics and Sage definitions. Confirmed free submission/standard publication, optional paid OA/print colour, 12,000-word ordinary research limit, two independent reviews, preprint rules and linked current AI policy. Independently reproduced 7.7% acceptance from the metric page after following the journal homepage link. Retained very_high as a labeled within-STS judgment supported by the aggregate rate; 2025 is inferred from the previous-calendar-year final-decision definition, not printed next to the rate."
+    },
+    {
+      "id": "meta-research-research-ethics",
+      "scope_notes": "Research ethics, scientific integrity, research regulation and ethics-review processes. Theoretical original articles and critical reviews allow work based on existing evidence; new clinical studies are unnecessary. Original empirical articles normally have a 7,000-word limit, theoretical articles 5,000, and reviews 3,000–6,000. Letters receive editorial review and are not automatically peer-reviewed research articles. An AI statement is mandatory in every submission, including an explicit statement of no AI use where applicable. Preprints are accepted but must not be updated during review; accepted work requires a final-publication link. The journal-specific AI statement requirement is stricter than Sage's general assistive-editing disclosure exemption.",
+      "audit_note": "Independently read the current uppercase REA author-instructions page, metric page and Sage definitions. Confirmed Community OA at no author cost without a required author-institution agreement; two independent reviews; article limits; mandatory AI statement including non-use; and preprint conditions. Confirmed 21.9% acceptance and retained high as a provisional within-field judgment. The 2025 period follows the previous-calendar-year final-decision definition. Generic where-applicable APC boilerplate does not override the journal-specific no-author-cost policy."
+    },
+    {
+      "id": "meta-research-journal-of-information-science",
+      "scope_notes": "Information science and knowledge management offer a route for computational analyses of scholarly information, research-information organization, retrieval and communication when there is a clear information-science contribution. Methods and algorithms can accompany a research article; this is not a standalone software-deposit venue. Average article length is 5,000–7,500 words, with brief communications up to 1,500. Preprints are accepted, with no updates during review and a link to the published version after acceptance. The linked Sage AI policy distinguishes assistive editing from generative research/content uses requiring disclosure and prohibits specified uses; human authors remain accountable.",
+      "audit_note": "Independently read current author instructions, homepage, metric page and Sage definitions. Confirmed no standard submission/publication fees, optional OA/print colour, ordinary/brief length guidance, at least two referees and five reviews sought for most technical papers. Following the homepage metrics link independently reproduced 4.6% acceptance. Retained very_high as a labeled information-science judgment supported by the aggregate rate. Its 2025 period is inferred from the previous-calendar-year final-decision definition; it is not a rate restricted to externally reviewed research articles."
+    },
+    {
+      "id": "meta-research-research-synthesis-methods",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical agent judgment: current Cambridge research articles must contribute to research-synthesis methodology, establish scientific value, explain novelty and relevance, and receive two independent reviews. These requirements do not establish a comparative high band. The retained 31% final-decision acceptance statistic is explicitly Wiley 2023, not current Cambridge performance; the 2025 JIF is citation impact. Current selectivity remains unknown.",
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/research-synthesis-methods/information/about-this-journal",
+          "https://www.cambridge.org/core/journals/research-synthesis-methods/information/author-instructions/preparing-your-materials",
+          "https://www.cambridge.org/core/journals/research-synthesis-methods/information/about-this-journal/journal-metrics"
+        ]
+      },
+      "scope_notes": "Cross-disciplinary development and evaluation of evidence-synthesis methods: statistical methodology, simulations, search and extraction, bias assessment, qualitative synthesis, graphics and software. Existing-data, computational and methodological research fits without a new clinical study. A routine subject-matter systematic review is not an assumed fit; demonstrate the methodological contribution. Current instructions list Research Articles, Tutorials, Reviews, Research in Brief and Software Focus; Discussions are usually invited. Current transparency policy requires a data-availability statement, repository sharing whenever possible and previously unreported custom code, with exceptions assessed by editors; code may undergo reproducibility evaluation. Preprints are not duplicate publication under the journal policy.",
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/research-synthesis-methods/information/author-instructions/preparing-your-materials",
+          "https://www.cambridge.org/core/journals/research-synthesis-methods/information/journal-policies/publishing-ethics"
+        ]
+      },
+      "audit_note": "Independently read current Cambridge fee, waiver, preparation, transparency and ethics pages plus current homepage and raw live metrics HTML. Confirmed wholly OA charged normal publication and assessed full-waiver/discount support; needs_verification remains. Raw metrics HTML explicitly identifies Wiley 2023 acceptance 31%, whereas the homepage explicitly labels JIF 8 as 2025. Retained both metrics without conflating publisher/period. Replaced contribution-language-only high with unknown. The transparency obligations and research-methodology fit remain substantive; preregistration badges do not establish a universal preregistration requirement."
+    },
+    {
+      "id": "meta-research-meta-psychology",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical agent judgment: absence of a publication quota, target rejection rate or novelty criterion does not establish moderate acceptance difficulty. Papers still need a distinct psychological-science contribution, desk screening, at least two expert reviews and applicable reproducibility checks. The operative submission checklist requires preregistration for data-collecting or confirmatory studies. No sufficiently defined official acceptance statistic or comparative evidence was verified, so the band is unknown.",
+        "source_urls": [
+          "https://open.lnu.se/index.php/metapsychology/about",
+          "https://open.lnu.se/index.php/metapsychology/about/submissions"
+        ]
+      },
+      "scope_notes": "Psychology-focused metascience: reviews/meta-analyses, replication and reproducibility reports, methods, tutorials and research software must contribute to psychological science. Current submission instructions require a public OSF project with applicable data/code/materials or an explanation of constraints, plus a DOI-bearing preprint. Studies collecting primary or secondary data, explicitly including metascience and literature reviews, or having confirmatory questions/hypotheses must be preregistered; ordinary commentaries/tutorials are exempt unless they do those things. Open named peer review includes at least two experts and applicable statistical reproducibility checks. Authors assist with formatting. The Questionable Research Ideas and Other Peculiarities section does not promise peer review and is outside this standard scholarly route.",
+      "audit_note": "Independently read the complete About and submission-checklist pages. Confirmed the completely-free diamond policy, no publication quota/target rejection percentage/novelty criterion, desk rejection and minimum two experts, OSF sharing, DOI-bearing preprint and the stricter checklist preregistration condition. Replaced moderate with unknown: soundness-focused selection is not evidence of easier acceptance. The About page explicitly says preregistration is not mandatory, whereas current submission instructions require it for specified studies; the more specific submission condition is retained conservatively without claiming the conflict was resolved by the publisher. The QRAP section does not promise peer review and is not generalized to the listed standard research/methods/review/software route; no 100% acceptance claim is made. No journal-specific AI permission was established.",
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://open.lnu.se/index.php/metapsychology/about",
+          "https://open.lnu.se/index.php/metapsychology/about/submissions"
+        ]
+      }
+    },
+    {
+      "id": "meta-research-liber-quarterly",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Current OA policy explicitly excludes APCs, and the About page identifies sponsorship enabling publication without APCs. The current submission page does not contain the previously asserted statement that LIBER covers all publication costs. No explicit submission-fee exclusion or blanket all-author-fees exclusion was verified; no mandatory membership or paid service was stated. Retain the candidate diamond model without certifying zero total author cost.",
+        "other_mandatory_costs": "APCs are excluded; submission fees and compulsory non-APC extras remain unconfirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://liberquarterly.eu/policies",
+            "checked_on": "2026-11-16",
+            "note": "Current OA policy explicitly excludes APCs; it does not separately exclude submission fees or all author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://liberquarterly.eu/about",
+            "checked_on": "2026-11-16",
+            "note": "Current About page identifies sponsorship enabling publication without APCs; this is not an all-author-cost guarantee.",
+            "access": "page"
+          },
+          {
+            "url": "https://liberquarterly.eu/submission-information",
+            "checked_on": "2026-11-16",
+            "note": "Current submission instructions were inspected. No explicit submission-fee or blanket all-author-fees exclusion was located; no all-publication-costs wording was reproduced.",
+            "access": "page"
+          }
+        ]
+      },
+      "scope_notes": "Research-library and information-science work should connect scholarship with library practice and be relevant to researchers or librarians in European research institutions. Original articles, case studies and critical reviews are listed; reviews need critical synthesis rather than a descriptive inventory. Current policies accept preprints, noting potential effects on double-anonymous review, and encourage repository deposit of published articles. A generic meta-analysis or scientometric analysis needs an explicit research-library connection.",
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://liberquarterly.eu/policies",
+          "https://liberquarterly.eu/submission-information"
+        ]
+      },
+      "audit_note": "Independently read current About, submission and Policies pages. Confirmed no APC, research-library fit and current double-anonymous/preprint policy. Corrected fee-evidence wording: the current submission page does not establish that LIBER covers all publication costs. Retained needs_verification and unknown difficulty. The linked legacy peer-review-details URL returned 404 on direct retrieval; no detailed minimum-reviewer or commentary-review claim was newly certified. No journal-specific AI policy was established from inspected pages."
+    },
+    {
+      "id": "meta-research-engaging-science-technology-and-society",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical agent judgment: broad STS relevance, adequate argument and readable presentation are substantive editorial gates, normally followed by at least two peer-review reports. They establish manuscript fit and scholarly expectations, but do not by themselves establish high comparative selectivity. No defined official acceptance statistic was verified. Restrictive genAI expectations are a separate fit condition, not selectivity evidence.",
+        "source_urls": [
+          "https://estsjournal.org/index.php/ests/aims_and_scope",
+          "https://estsjournal.org/index.php/ests/decision_making",
+          "https://estsjournal.org/index.php/ests/about/submissions",
+          "https://estsjournal.org/index.php/ests/genai"
+        ]
+      },
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Current OA policy explicitly excludes submission fees and APCs without required membership or affiliation. The current single contribution category permits up to 9,000 words including abstract/footnotes but excluding references; overlong manuscripts are returned for revision. Most genAI use is strongly discouraged, with translation when alternatives are unavailable and AI-focused research identified as exceptions. All uses must be disclosed in the cover letter; data-generation or analysis uses must also be described in manuscript Methods. Human authors remain responsible.",
+        "other_mandatory_costs": "None for the ordinary article route; follow length and applicable ethics/data/AI policies.",
+        "fee_evidence": [
+          {
+            "url": "https://estsjournal.org/index.php/ests/open_access_policy",
+            "checked_on": "2026-11-16",
+            "note": "Current journal policy explicitly excludes submission fees and APCs without waiver eligibility conditions.",
+            "access": "page"
+          },
+          {
+            "url": "https://estsjournal.org/index.php/ests/faq",
+            "checked_on": "2026-11-16",
+            "note": "FAQ explicitly excludes submission/publication charges and says overlong manuscripts are returned for revision.",
+            "access": "page"
+          },
+          {
+            "url": "https://estsjournal.org/index.php/ests/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Current submission checklist sets the 9,000-word limit including abstract/footnotes, excluding references, and supplies ordinary author obligations.",
+            "access": "page"
+          },
+          {
+            "url": "https://estsjournal.org/index.php/ests/genai",
+            "checked_on": "2026-11-16",
+            "note": "Journal strongly discourages most genAI use, identifies limited exceptions, and requires disclosure of all uses in the cover letter.",
+            "access": "page"
+          }
+        ]
+      },
+      "scope_notes": "Conceptually grounded Science and Technology Studies work must matter to a broad STS readership, including studies of research cultures, institutions, knowledge and science/society relations. This is not a general statistics or synthesis-methods venue. From 2026, current submission instructions consolidate contributions into a single category up to 9,000 words. External double-anonymous review is the general rule, with stated exceptions such as single-anonymous review when anonymization is impossible or time-sensitive editorial review. Preprints are encouraged with disclosure and final-publication linking. Most genAI use is strongly discouraged and every use needs disclosure.",
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://estsjournal.org/index.php/ests/about/submissions",
+          "https://estsjournal.org/index.php/ests/decision_making"
+        ]
+      },
+      "audit_note": "Independently retrieved full live official OA, submission, decision-making and genAI pages by direct HTTP after browser access failed for genAI. Confirmed no submission/APC charges, the 2026 single contribution category, normal external review with exceptions, at least two reports, and preprint/AI conditions. Corrected the outdated distinct-genre caveat and added manuscript-methods disclosure for AI-generated/analyzed data. Replaced high with unknown because contribution gates alone do not establish comparative difficulty; verified_free remains."
+    },
+    {
+      "id": "meta-research-science-editing",
+      "scope_notes": "Scientific, technical and medical journal editing/publishing, including publishing data mining, integrity, peer review, journal evaluation and bibliometrics/scientometrics in the context of journal editing and publishing. Original analyses using existing records can fit; general subject-matter meta-analysis or bibliography is not sufficient without publishing/editing relevance. Unsolicited Original Articles allow 2,500 text words and 20 references under current guidance. Reviews normally allow 5,000 words and are invited. Unsolicited work receives external double-anonymous review, normally at least two reports and statistical review if needed; commissioned material may use editorial-board review.",
+      "audit_note": "Independently retrieved complete live official author instructions, scope, best-practice policy and homepage by direct HTTP. Confirmed explicit no submission/page/APC/author-side fees, invited-review limitation, 2,500-word Original Article limit, double-anonymous review and scope restriction to journal editing/publishing. Confirmed CiteScore 2.1 labeled 2025. The homepage acceptance rate 26% is labeled Last 12 months but lacks a defined decision population and exact window dates; it remains an undated note, not a 2025 structured statistic or ease claim. AI/preprint-specific policies were not established from the inspected instructions."
+    },
+    {
+      "id": "meta-research-european-science-editing",
+      "scope_notes": "Original contributions to scientific/scholarly editing and publishing, including integrity, peer review, bibliometrics, open science, predatory publishing and statistics, plus writing and translation. Existing-data studies and reviews require relevance to editing/publishing practice; this is not a general venue for every computational analysis. Original articles are prioritized; original articles and reviews have 4,000-word main-body limits. Suitable originals receive at least two independent reviewers; reviews/viewpoints at least one. Preprints are considered with disclosure and final-publication linking. AI uses require tool/task disclosure in the manuscript and prompt details in supplements; human authors remain accountable.",
+      "audit_note": "Independently retrieved complete live ARPHA About/instructions and homepage by direct HTTP. Confirmed no submission/publication/author charges, original-article and review lengths, one-versus-two independent reviewer conditions, preprint acceptance and AI-disclosure details. Tailored publicity is explicitly an optional paid service. Confirmed CiteScore 3.0 labeled 2025, separate from monthly 2026 tracker 1.9. Approximate 50% acceptance lacks a year/denominator and remains outside structured metrics; undated homepage JIF 1.6 likewise remains outside dated metrics. Retained verified_free and unknown difficulty."
+    }
+  ],
+  "findings": [
+    {
+      "id": "meta-research-scientometrics",
+      "severity": "info",
+      "issue": "A no-APC subscription route does not establish no submission or page/overlength charges; invited reviews are not an open general-review invitation.",
+      "resolution": "Retained needs_verification and unknown difficulty, confirmed both 2025 JIF values, and preserved invited-review/human-accountability conditions."
+    },
+    {
+      "id": "meta-research-research-evaluation",
+      "severity": "warning",
+      "issue": "The high band was based on contribution/scope language without comparative selectivity evidence; current and separate print-colour policies conflict.",
+      "resolution": "Difficulty replaced by unknown with actual contribution criteria retained; metrics and fee uncertainty preserved. Added verified AI/preprint conditions."
+    },
+    {
+      "id": "meta-research-science-and-public-policy",
+      "severity": "info",
+      "issue": "Publication/licence/page/colour fee exclusions do not explicitly resolve submission costs; editorial Perspectives are distinct from research peer review.",
+      "resolution": "Retained needs_verification, unknown difficulty and 2025 metrics; preserved article-type review distinction and added verified AI/preprint conditions."
+    },
+    {
+      "id": "meta-research-accountability-in-research",
+      "severity": "warning",
+      "issue": "Full author instructions remain blocked; official indexed metrics are weaker than direct page verification.",
+      "resolution": "Independently reproduced the numeric official indexed block and publisher definition. Retained metrics/high with access and inferred-2025 caveats; needs_verification and unresolved AI/preprint/format conditions remain."
+    },
+    {
+      "id": "meta-research-social-studies-of-science",
+      "severity": "info",
+      "issue": "The 7.7% page lacks an adjacent year and includes all final-decision article types.",
+      "resolution": "Independently reproduced the rate and confirmed publisher definition; retain inferred 2025 and very_high as agent judgment, never manuscript odds. Standard fees remain verified free."
+    },
+    {
+      "id": "meta-research-research-ethics",
+      "severity": "info",
+      "issue": "An older APC snapshot or generic conditional-payment boilerplate could obscure current Community OA; general Sage AI exemption does not remove the journal-specific AI statement.",
+      "resolution": "Confirmed current no-author-cost policy and mandatory AI/non-use statement. Retained high and 21.9% with inferred 2025 final-decision period."
+    },
+    {
+      "id": "meta-research-journal-of-information-science",
+      "severity": "info",
+      "issue": "The 4.6% aggregate acceptance rate is not restricted to technical articles or externally reviewed manuscripts.",
+      "resolution": "Independently reproduced it and confirmed previous-calendar-year definition; retain inferred 2025, very_high judgment and separate current review/AI/preprint conditions."
+    },
+    {
+      "id": "meta-research-research-synthesis-methods",
+      "severity": "warning",
+      "issue": "Contribution requirements alone supported high; the historical 31% rate belongs to Wiley 2023, while the current publisher has a charged wholly-OA route.",
+      "resolution": "Difficulty replaced by unknown. Current Cambridge waiver/APC conditions, 2025 JIF and explicitly historical Wiley acceptance metric retained separately; added current transparency obligations."
+    },
+    {
+      "id": "meta-research-meta-psychology",
+      "severity": "warning",
+      "issue": "Moderate was inferred from no quota/novelty criterion; About-page encouragement can be confused with the stricter current submission preregistration checklist.",
+      "resolution": "Difficulty replaced by unknown without weakening peer review. Current OSF/preprint/preregistration and author-formatting obligations retained; complete-free diamond policy confirmed."
+    },
+    {
+      "id": "meta-research-liber-quarterly",
+      "severity": "warning",
+      "issue": "The supplied fee-evidence note overstated what the current submission page establishes by claiming LIBER covers all publication costs.",
+      "resolution": "Replaced the full route evidence with current no-APC policy and sponsored-no-APC About evidence; retained needs_verification. Removed uncertified detailed commentary-review statement; preprint/double-anonymous policy confirmed."
+    },
+    {
+      "id": "meta-research-engaging-science-technology-and-society",
+      "severity": "warning",
+      "issue": "High was inferred from routine contribution gates, and the older genre distinction missed the current 2026 single-category policy. AI data-generation/analysis also needs manuscript disclosure.",
+      "resolution": "Difficulty replaced by unknown; full scope/review/route fields updated for current contribution category, review exceptions and both disclosure locations. Explicit no-submit/no-APC route retained."
+    },
+    {
+      "id": "meta-research-science-editing",
+      "severity": "warning",
+      "issue": "An unrestricted review-format label could imply unsolicited reviews; broad meta-research scope could omit the journal-editing/publishing context. Rolling 26% acceptance is not a dated defined statistic.",
+      "resolution": "Invited-review and Original Article limits made explicit; scope narrowed to official context. Verified-free fees and 2025 CiteScore preserved; rolling rate kept only as a caveated note."
+    },
+    {
+      "id": "meta-research-european-science-editing",
+      "severity": "info",
+      "issue": "Approximate 50% acceptance has no reporting year or denominator; the monthly tracker and undated JIF should not become completed-year metrics.",
+      "resolution": "Retained only the established completed-year CiteScore in structured metrics; verified zero standard author costs, scope, reviewer counts, preprint and AI disclosure conditions."
+    }
+  ],
+  "notes": [
+    "All 13 merged discovery/diamond candidates were read with both fee and ranking patches. This review supplies 13 record patches and 13 findings. Field patches are full replacements; fields not supplied retain the discovery/diamond + fees + ranking merge. No source role files or shared canonical files were edited.",
+    "Actual independent coverage: direct official browser pages were inspected for Scientometrics (homepage, submission guidelines, publishing options), Research Evaluation and Science and Public Policy (instructions, About metrics, Charges), the three Sage journals (instructions, homepages/metrics) and Sage metric/AI definitions, Meta-Psychology (About and submissions), LIBER Quarterly (About, submission information, Policies), and current Cambridge RSM (fees, OA options, preparation, metrics, transparency and ethics). Direct full live HTTP pages additionally established ESTS OA/submissions/decision-making/genAI, Science Editing instructions/scope/best-practice/homepage, ESE ARPHA About/homepage, and the hidden historical block in Cambridge RSM metrics. This is a document-policy audit, not a submitted test manuscript or exhaustive portal audit.",
+    "Accountability in Research remained HTTP 403 on direct retrieval. Its fee/scope/peer-review and numeric metric block were independently reproduced from official indexed About text using targeted official-site search, not a third-party aggregator. T&F's full accessible metric definition was independently read. Full current author instructions, submission/page charges, detailed formats and AI/preprint rules remain unresolved.",
+    "Fee outcome remains 7 verified_free and 6 needs_verification. No candidate was promoted using absence of a stated fee. Cambridge RSM remains normal-publication charged with an assessed conditional waiver/support route; LIBER, Springer/OUP candidates and blocked T&F instructions retain stated gaps. Optional OA, print colour and publicity are distinguished from compulsory author costs.",
+    "Four difficulty bands changed to unknown: Research Evaluation, current Cambridge RSM and ESTS from high, and Meta-Psychology from moderate. Their scientific, scope and openness requirements remain explicit. SSS and JIS retain very_high, Research Ethics and Accountability retain high, supported by independently reproduced official aggregate acceptance statistics and labeled as provisional within-field agent judgments. No single prestige ladder across the cluster is asserted.",
+    "All ranking metrics are retained unchanged. Independently checked metric values/periods include Scientometrics 2025 JIF 3.8/five-year 4.4; Research Evaluation 2025 2.7/3.4/CiteScore 3.6; Science and Public Policy 2025 2.8/3.5/CiteScore 5.2; Accountability official-indexed 2025 4.4/4.1/CiteScore 6.4 and 13%; Sage SSS 7.7%, REA 21.9%, JIS 4.6%; Cambridge RSM homepage JIF 8 labeled 2025 and historical Wiley acceptance 31% labeled 2023; Science Editing 2025 CiteScore 2.1; ESE 2025 CiteScore 3.0. Counts underlying reported metrics were not published in inspected displays.",
+    "Sage and T&F journal acceptance values lack an adjacent numeric year. The retained 2025 periods are identified from their current previous-full-calendar-year definitions at the 2026-11-16 check, not journal-side printed year labels or submission cohorts. Definitions include all final accept/reject decisions and all article types; T&F explicitly includes desk rejections. Sources: https://www.sagepub.com/journals/understanding-journal-metrics and https://authorservices.taylorandfrancis.com/publishing-your-research/choosing-a-journal/journal-metrics/ .",
+    "Current Cambridge RSM full HTML explicitly preserves a previous-publisher Wiley 2023 statistics block. The review independently reproduced it; it cannot establish current Cambridge acceptance selectivity or old hybrid author costs. Current transparency requirements were checked at https://www.cambridge.org/core/journals/research-synthesis-methods/information/journal-policies/research-transparency ; prior unreported custom code is required, data/materials should be shared whenever possible with justified exceptions, and badges do not impose universal preregistration.",
+    "Meta-Psychology's current checklist explicitly includes non-primary data collection in metascience and literature reviews in preregistration requirements, alongside confirmatory questions/hypotheses. Its current About page both encourages preregistration and explicitly says it is not mandatory; the checklist says specified studies must be preregistered. These are conflicting current policy texts, so the specific submission condition is retained conservatively without claiming publisher resolution. The QRAP section separately does not promise peer review; standard scholarly formats should not inherit that exception or vice versa. No novelty/quota selection does not imply a measured acceptance rate or easy publication. No journal-specific AI permission was established on the two inspected pages.",
+    "ESTS's current submission policy explicitly introduces a single contribution category as of 2026. Its genAI policy strongly discourages most uses rather than banning every use; all uses need cover-letter disclosure, with methods disclosure for data generation/analysis. Preprints are encouraged. Relevant direct sources: https://estsjournal.org/index.php/ests/about/submissions , https://estsjournal.org/index.php/ests/open_access_policy and https://estsjournal.org/index.php/ests/genai .",
+    "Current Sage AI policy distinguishes assistive editing not normally requiring disclosure from generative research/content use requiring disclosure and listed prohibited uses: https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy . Research Ethics nevertheless requires an AI statement in every submission including non-use. Journal preprint instructions were checked; preprint acceptance does not permit updating the preprint during Sage peer review.",
+    "Science Editing current scope expressly places bibliometrics/scientometrics in journal editing/publishing; invited reviews and a 2,500-word Original Article limit matter for practical fit. Its 26% acceptance display says Last 12 months without exact window/population, so it remains only a note. ESE's approximately 50% has no year/population and its 1.6 JIF no adjacent year; neither is promoted to structured dated metrics. ESE 2026 monthly tracker 1.9 remains separate from 2025 CiteScore 3.0. AI/preprint-specific rules for Science Editing were not established from the inspected instructions; those must not be invented from its published AI articles.",
+    "LIBER's current no-APC policy and preprint/double-anonymous wording were checked, but its legacy linked detailed peer-review URL returned 404. This does not erase the current peer-review statement; it limits detailed reviewer-count/genre claims. The source note claiming its current submission page explicitly says LIBER covers all publication costs was not reproduced and is corrected.",
+    "Checked on 2026-11-16. This is independent agent review of source-supported catalog claims, not human scientific review, usability acceptance, venue endorsement, editorial approval or a promise of manuscript acceptance."
+  ]
+}

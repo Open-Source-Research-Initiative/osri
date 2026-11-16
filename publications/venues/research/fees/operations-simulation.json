@@ -1,0 +1,481 @@
+{
+  "subfield": "operations-simulation",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "operations-simulation-stochastic-systems",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The current journal instructions explicitly exclude APCs and submission fees. Regular manuscripts are limited to 35 pages including references; short correspondences to eight pages. No author membership, registration payment or institutional agreement is required by the stated route.",
+        "other_mandatory_costs": "none stated in current submission and publication instructions",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0",
+            "checked_on": "2026-11-16",
+            "note": "The Open Access section states that all content is open access under CC BY, authors retain copyright, and neither article processing charges nor submission fees apply.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently read the current journal instructions: the explicit no-APC/no-submission-fee policy supports both fee fields. Checked length and submission steps; no required society membership, conference registration, page payment or selective waiver is identified. Retain verified_free."
+    },
+    {
+      "id": "operations-simulation-mathematics-of-operations-research",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Standard subscription publication exists alongside optional paid INFORMS Open Option. The reviewed pages do not explicitly exclude submission, page or membership charges. Normally at most 40 manuscript pages excluding references; up to 45 may be considered with justification. Print color is optional and charged.",
+        "other_mandatory_costs": "unknown; explicit confirmation of submission, standard publication, page and membership costs still required",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "The After Acceptance section identifies paid open access as an alternative to subscription publication and print color as an author-elected expense, but does not expressly say standard submission/publication is free.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy makes Open Option elective, with no effect on consideration or publication eligibility. This establishes optional OA, not absence of all other author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently read the journal submission, length and production sections and INFORMS Open Option policy. Elective OA and requested print color are separate expenses. No applicable explicit exclusion of submission, standard publication, page or required-member costs was found; retain needs_verification rather than transferring another INFORMS journal policy."
+    },
+    {
+      "id": "operations-simulation-operations-research",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Optional paid OA is documented, but no explicit no-fee standard-route statement was found. Regular manuscripts are limited to 30 pages excluding references; longer manuscripts are generally at most 40. Print color incurs a cost only if elected. Journal fees must not be inferred from other INFORMS journals.",
+        "other_mandatory_costs": "unknown; submission, standard publication, page and membership costs need explicit confirmation",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "The journal offers subscription publication and optional paid Open Option, and makes print color an optional additional expense. It does not explicitly rule out standard submission/publication charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Open Option is elective and does not affect editorial consideration or publication eligibility; that does not independently prove every other cost is absent.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently read the journal submission, length and production sections and INFORMS Open Option policy. Elective OA and requested print color are separate expenses. No applicable explicit exclusion of submission, standard publication, page or required-member costs was found; retain needs_verification rather than transferring another INFORMS journal policy."
+    },
+    {
+      "id": "operations-simulation-informs-journal-on-computing",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Ordinary subscription publication remains available beside optional paid INFORMS Open Option. Main papers may contain 25 pages including references, tables and graphs, plus up to ten appendix pages; editorial permission is needed for exceptions. Print color is elective and charged. Explicit confirmation of submission, standard publication and page/member costs remains absent.",
+        "other_mandatory_costs": "unknown; submission, standard publication, page and membership costs need explicit confirmation",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions distinguish subscription from elective paid Open Option and state that authors may elect paid print color. They do not explicitly confirm zero costs for all aspects of the standard route.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy establishes that the Open Option fee is optional and unrelated to editorial decisions; it is not a complete standard-route fee statement.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently read the journal submission, length and production sections and INFORMS Open Option policy. Elective OA and requested print color are separate expenses. No applicable explicit exclusion of submission, standard publication, page or required-member costs was found; retain needs_verification rather than transferring another INFORMS journal policy."
+    },
+    {
+      "id": "operations-simulation-queueing-systems",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal identifies itself as hybrid; Springer Nature explicitly excludes APCs when authors select subscription publication. Online color is free; requested print color, offprints and elective OA can cost money. No explicit submission, page/overlength or compulsory membership assurance was located. Subscription licensing may not meet an immediate-OA funder mandate.",
+        "other_mandatory_costs": "unknown; submission and page/overlength costs are not explicitly excluded; no compulsory membership or conference registration payment is listed; print color and offprints are optional",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/11134/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific page establishes the hybrid subscription/OA choice and licensing conditions. It does not itself give a comprehensive no-author-cost guarantee.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000211135-article-processing-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy explicitly states that hybrid-journal subscription publication carries no APC; applicable because this journal identifies as hybrid.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11134/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Instructions provide free online color, paid print color and optional offprints; no explicit submission or page/overlength fee exclusion was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher warns that subscription journals can have color, overlength or page charges; a no-APC statement does not settle those costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Retain needs_verification. Corrected evidence attribution: the current journal page establishes a hybrid route; the applicable publisher APC policy establishes no APC for subscription. Neither supplies explicit free-submission or page/overlength confirmation. No compulsory society membership or registration appears in the instructions checked."
+    },
+    {
+      "id": "operations-simulation-annals-of-operations-research",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal identifies itself as hybrid; Springer Nature explicitly excludes APCs when authors select subscription publication. Online color is free; requested print color, offprints and elective OA can cost money. No explicit submission, page/overlength or compulsory membership assurance was located. Subscription licensing may not meet an immediate-OA funder mandate.",
+        "other_mandatory_costs": "unknown; submission and page/overlength costs are not explicitly excluded; no compulsory membership or conference registration payment is listed; print color and offprints are optional",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10479/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific page establishes the hybrid subscription/OA choice and licensing conditions. It does not itself give a comprehensive no-author-cost guarantee.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000211135-article-processing-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy explicitly states that hybrid-journal subscription publication carries no APC; applicable because this journal identifies as hybrid.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10479/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Instructions provide free online color, paid print color and optional offprints; no explicit submission or page/overlength fee exclusion was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher warns that subscription journals can have color, overlength or page charges; a no-APC statement does not settle those costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Retain needs_verification. Corrected evidence attribution: the current journal page establishes a hybrid route; the applicable publisher APC policy establishes no APC for subscription. Neither supplies explicit free-submission or page/overlength confirmation. No compulsory society membership or registration appears in the instructions checked."
+    },
+    {
+      "id": "operations-simulation-or-spectrum",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal identifies itself as hybrid; Springer Nature explicitly excludes APCs when authors select subscription publication. Online color is free; requested print color, offprints and elective OA can cost money. No explicit submission, page/overlength or compulsory membership assurance was located. Subscription licensing may not meet an immediate-OA funder mandate.",
+        "other_mandatory_costs": "unknown; submission and page/overlength costs are not explicitly excluded; no compulsory membership or conference registration payment is listed; print color and offprints are optional",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/291/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific page establishes the hybrid subscription/OA choice and licensing conditions. It does not itself give a comprehensive no-author-cost guarantee.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000211135-article-processing-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy explicitly states that hybrid-journal subscription publication carries no APC; applicable because this journal identifies as hybrid.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/291/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Instructions provide free online color, paid print color and optional offprints; no explicit submission or page/overlength fee exclusion was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher warns that subscription journals can have color, overlength or page charges; a no-APC statement does not settle those costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Retain needs_verification. Corrected evidence attribution: the current journal page establishes a hybrid route; the applicable publisher APC policy establishes no APC for subscription. Neither supplies explicit free-submission or page/overlength confirmation. No compulsory society membership or registration appears in the instructions checked."
+    },
+    {
+      "id": "operations-simulation-simulation",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal explicitly excludes fees to submit or publish. Choose standard subscription publication; Sage Choice OA and requested print color are optional paid choices, while online color is free. No fixed manuscript-length cap or mandatory page, society-membership or registration payment is specified in the instructions checked.",
+        "other_mandatory_costs": "none stated for ordinary subscription publication; optional print color is charged",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/SIM",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific Publishing fees section explicitly excludes submission/publication fees, makes OA elective, and provides free online color while charging for requested print color.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently verified the journal-specific no-fees-to-submit-or-publish statement and production conditions. Requested print color and Sage Choice OA are optional; no mandatory page, membership or conference-registration charge is stated. The generic sentence separating OA from possible page/color charges does not itself impose a page fee. Retain verified_free for standard subscription publication."
+    },
+    {
+      "id": "operations-simulation-simulation-and-gaming",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal explicitly excludes fees to submit or publish. Standard subscription publication is free; paid OA and print color are optional, and online color is free. Limits excluding references: research articles 7000 words, short research reports 3000, theoretical and ready-to-use simulations 5000. Longer articles need explicit editorial permission.",
+        "other_mandatory_costs": "none stated for standard subscription publication; optional print color is charged",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/SAG",
+            "checked_on": "2026-11-16",
+            "note": "Current instructions explicitly exclude submission/publication fees and distinguish optional paid OA and print color from free online color.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently verified the journal-specific no-fees-to-submit-or-publish statement and production conditions. Requested print color and Sage Choice OA are optional; no mandatory page, membership or conference-registration charge is stated. The generic sentence separating OA from possible page/color charges does not itself impose a page fee. Retain verified_free for standard subscription publication."
+    },
+    {
+      "id": "operations-simulation-journal-of-defense-modeling-and-simulation",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Current journal instructions explicitly exclude submission/publication fees; paid OA is optional and online color is free. Avoid requested print color. Papers are ideally 10-20 pages although the stated submission policy imposes no fixed length restriction. No compulsory membership is stated.",
+        "other_mandatory_costs": "none stated for standard subscription publication; optional print color is charged",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/dms",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific instructions state no submit/publish fees, describe optional paid OA, and restrict color charges to requested print reproduction.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently verified the journal-specific no-fees-to-submit-or-publish statement and production conditions. Requested print color and Sage Choice OA are optional; no mandatory page, membership or conference-registration charge is stated. The generic sentence separating OA from possible page/color charges does not itself impose a page fee. Retain verified_free for standard subscription publication."
+    },
+    {
+      "id": "operations-simulation-croatian-operational-research-review",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Ordinary journal submission, without conference attendance. Manuscripts should contain 10–12 pages including bibliography, with at most 30 references. Final accepted files must use LaTeX. Authors must supply proofreading confirmation; the instructions make proofreading their responsibility and do not require a paid provider.",
+        "other_mandatory_costs": "None stated in the explicit no-author-fees policy; no mandatory society membership or conference registration is listed.",
+        "fee_evidence": [
+          {
+            "url": "https://hdoi.hr/crorr-journal/?page_id=20",
+            "checked_on": "2026-11-16",
+            "note": "Official society instructions explicitly exclude submission and publishing fees and all author fees for these activities.",
+            "access": "page"
+          },
+          {
+            "url": "https://ojs.srce.hr/index.php/crorr/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Current OJS instructions require 10–12 pages including bibliography, at most 30 references, final LaTeX and proofreading confirmation; no paid provider is mandated.",
+            "access": "page"
+          },
+          {
+            "url": "https://hdoi.hr/crorr-journal/?page_id=327",
+            "checked_on": "2026-11-16",
+            "note": "The current For authors URL repeatedly timed out in this audit; the alternate official instructions page and current OJS requirements were read instead.",
+            "access": "unavailable"
+          }
+        ]
+      },
+      "audit_note": "Retain verified_free for direct journal submission. Explicit no-author-fees evidence is available at the alternate official instructions URL despite timeout of the For authors URL. Checked length and proofreading requirement; no paid provider, society membership or conference attendance is required by the journal instructions. KOI conference registration is a separate activity."
+    },
+    {
+      "id": "operations-simulation-sort-statistics-and-operations-research-transactions",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "English-language original articles; an online RACO account is required without a stated payment. Normally at most about 25 PDF pages, or 40 pages using the SORT LaTeX template, including figures, tables and references; justified longer articles are possible. LaTeX is recommended initially and required at revision. The general no-fee statement is not a selective waiver.",
+        "other_mandatory_costs": "None stated in the journal no-submission-or-publication-fee statement and author instructions; no membership or registration payment is listed.",
+        "fee_evidence": [
+          {
+            "url": "https://www.idescat.cat/sort/",
+            "checked_on": "2026-11-16",
+            "note": "The Open Access Statement expressly excludes both manuscript submission and article publication fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://segur.idescat.cat/sort/normes.html",
+            "checked_on": "2026-11-16",
+            "note": "Instructions reconfirm no publication fees and specify approximate page limits, possible justified longer articles and LaTeX revision requirements, without an overlength payment.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Retain verified_free: the official Open Access Statement explicitly covers manuscript submission and publication fees. Added the current approximate page limits. Online account registration is not conference registration; no payment, compulsory membership or overlength charge is identified in the instructions checked."
+    },
+    {
+      "id": "operations-simulation-operations-research-and-decisions",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The homepage explicitly excludes publication fees; the aims page describes an institution-funded, free-of-charge journal. The author instructions do not explicitly settle submission fees. Non-survey papers may have at most 35 references; revised manuscripts must use LaTeX and the specified figure formats. No page/overlength tariff or compulsory membership is stated.",
+        "other_mandatory_costs": "No page or membership charges are listed; submission and any compulsory ancillary charges still need explicit confirmation.",
+        "fee_evidence": [
+          {
+            "url": "https://ord.pwr.edu.pl/",
+            "checked_on": "2026-11-16",
+            "note": "The journal homepage prominently states no publication fee.",
+            "access": "page"
+          },
+          {
+            "url": "https://ord.pwr.edu.pl/Aims_and_scope",
+            "checked_on": "2026-11-16",
+            "note": "The university journal describes itself as open access and free of charge, financed by its Faculty of Management; it does not separately enumerate submission costs.",
+            "access": "page"
+          },
+          {
+            "url": "https://ord.pwr.edu.pl/Instructions_for_authors",
+            "checked_on": "2026-11-16",
+            "note": "Instructions describe the submission and review process but do not explicitly rule out submission or ancillary charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Retain needs_verification. Independently checked the official home, aims/scope and author instructions: no publication fee and university funding are explicit, but the general free-of-charge description does not separately settle submission costs. No manuscript page cap, page tariff, mandatory society membership or registration charge is stated."
+    },
+    {
+      "id": "operations-simulation-orion",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Official policy explicitly excludes APCs and page fees under a Submission Fees heading; separate submission-fee wording remains unresolved. The submission checklist and guidelines state no membership or conference-registration payment and no manuscript page cap. Research articles have a distinct peer-review route; special issues require invitation.",
+        "other_mandatory_costs": "Page fees explicitly absent; no required membership payment is stated. Separate submission-fee confirmation remains unresolved.",
+        "fee_evidence": [
+          {
+            "url": "https://orion.journals.ac.za/index.php/pub/about",
+            "checked_on": "2026-11-16",
+            "note": "The official journal page states that it charges neither APCs nor page fees, under a Submission Fees heading. This supports free publication but leaves the literal submission-fee wording incomplete.",
+            "access": "page"
+          },
+          {
+            "url": "https://orion.journals.ac.za/pub/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Submission checklist and guidelines do not state a membership payment or other mandatory charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Retain needs_verification. The official Submission Fees section explicitly excludes APCs and page fees, but its sentence does not expressly exclude submission fees. Checked the submission checklist and author guidelines; no author membership, conference-registration payment or manuscript page cap is specified."
+    },
+    {
+      "id": "operations-simulation-rairo-operations-research",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access_under_subscribe_to_open_for_2026",
+        "conditions": "Publisher-supported Subscribe to Open route confirmed for 2026 content. The publisher excludes submission fees and provides free publication for the mathematics S2O journals, including authors at institutions without an S2O subscription. No selective waiver is needed. Open-access status is decided annually; recheck the eventual publication year. Journal-specific length/production instructions remain unreadable because of HTTP 403.",
+        "other_mandatory_costs": "None stated for mathematics S2O journals in the publisher free-publication policy; no author membership or institutional-subscription requirement.",
+        "fee_evidence": [
+          {
+            "url": "https://www.edpsciences.org/en/publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy expressly excludes submission fees across its journals and lists RAIRO - Operations Research within the S2O programme.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.edpsciences.org/en/faqs-the-edp-sciences-subscribe-to-open-programme",
+            "checked_on": "2026-11-16",
+            "note": "The current FAQ identifies RAIRO in the mathematics programme and says authors publish in these mathematics journals open access free of charge; A&A page-charge exceptions are separately identified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.edpsciences.org/en/news-highlights/3051-open-access-status-update-for-mathematics-journals-in-2026-june-update",
+            "checked_on": "2026-11-16",
+            "note": "The publisher 11 June 2026 update confirms that RAIRO - Operations Research reached the threshold for open access publication of its 2026 content.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.edpsciences.org/en/maths-s2o-programme",
+            "checked_on": "2026-11-16",
+            "note": "Publisher programme page identifies RAIRO and states that no-APC S2O applies even to submissions from institutions without an S2O subscription.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.rairo-ro.org/author-information/instructions-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific author instructions could not be read because the site returned HTTP 403.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Retain verified_free for the confirmed 2026 S2O volume. Independently verified publisher no-submission-fee policy, journal inclusion, mathematics S2O free-publication policy and the 11 June 2026 confirmation. Membership and an author-institution subscription are not conditions. Journal-specific length/production instructions remain blocked by HTTP 403; recheck the publication year because S2O opening is decided annually."
+    }
+  ],
+  "notes": [
+    "Independent fee audit of all 15 candidates in discovery and diamond files: seven verified_free, eight needs_verification; no eligibility upgrade relies on fee silence, a third-party directory, an institutional agreement or a selective waiver.",
+    "Checked submission, standard publication, page/length, mandatory membership/registration and optional OA/print-color implications. A missing cost statement is recorded as uncertainty, not evidence of a charge. Broad explicit no-author-fees statements can establish both submission and publication without requiring two separate sentences.",
+    "INFORMS policies were not transferred between journals. Optional Open Option establishes an elective OA expense; it does not prove the absence of submission or other standard-route charges. The three subscription INFORMS candidates therefore remain unverified.",
+    "Springer evidence attribution was corrected: the journals establish hybrid status and their production conditions; the applicable publisher APC policy establishes the APC-free subscription option. Publisher exceptions for page/overlength charges prevent a comprehensive free-route conclusion without explicit confirmation.",
+    "Current RAIRO S2O evidence confirms 2026, not a future-year guarantee. The journal-specific instructions remain HTTP 403. The publisher mathematics-programme policy supports no author payment without an institutional subscription; separate A&A page-charge exceptions are not applicable to RAIRO.",
+    "CRORR For authors page timed out repeatedly, so the accessible alternate official author-instructions page was paired with current OJS instructions. Sage lowercase SIM/SAG URLs timed out on first attempt; their official uppercase URLs were readable.",
+    "This audit is an independent agent policy check, not a human scientific review, a promise of acceptance or authorization to submit. No venue was contacted."
+  ]
+}

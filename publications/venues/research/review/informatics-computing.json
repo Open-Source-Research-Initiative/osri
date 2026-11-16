@@ -1,0 +1,216 @@
+{
+  "subfield": "informatics-computing",
+  "role": "review",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "informatics-computing-tmlr",
+      "scope_notes": "Original ML studies, methods, reproducibility and applications yielding insight into learning methods. Survey submissions are excluded from September 1, 2026, despite a Survey Certification still appearing in the editorial page. Archival conference-paper extensions are excluded; preprints and expressly non-archival workshop overlap can be eligible. Current official pages differ in specificity on LLM use: the editorial policy permits assistive tools, while the FAQ expects human-sourced ideas, claims and results and requires first-page disclosure.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No author fees. Every author needs an active OpenReview profile and sufficient annual submission quota, including for desk-rejected submissions. Length must be justified. No surveys from September 1, 2026; no expanded archival conference papers. The editorial LLM policy allows assistive use with human responsibility; the FAQ additionally expects human-sourced ideas/claims/results and first-page disclosure. Assess both against the actual workflow. Journal-to-conference presentation and attendance are separate.",
+        "other_mandatory_costs": "None for journal submission and publication under the blanket no-author-fee policy. Journal-to-conference travel or registration is outside this route and is not required to publish.",
+        "fee_evidence": [
+          {
+            "url": "https://jmlr.org/tmlr/editorial-policies.html",
+            "checked_on": "2026-11-16",
+            "note": "Blanket policy imposes no fees or payments on authors; annual quotas and originality rules govern eligibility.",
+            "access": "page"
+          },
+          {
+            "url": "https://jmlr.org/tmlr/author-guide.html",
+            "checked_on": "2026-11-16",
+            "note": "Any manuscript length is permitted if justified; active author profiles and the required format are documented.",
+            "access": "page"
+          },
+          {
+            "url": "https://jmlr.org/tmlr/faq.html",
+            "checked_on": "2026-11-16",
+            "note": "Excludes surveys from September 1, 2026; distinguishes conference presentation opportunities and states human-contribution and LLM-disclosure expectations.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "No official numerical acceptance-rate series was located in inspected policy/FAQ pages. OpenReview public papers exclude desk rejections, so counting visible accepted/rejected papers would miss part of the submission population. Independent review confirmed the no-fee policy and current acceptance criteria. Retain the FAQ survey exclusion over the residual certification description; do not interpret the broader editorial LLM wording as cancelling the FAQ conditions. Sources: https://jmlr.org/tmlr/editorial-policies.html ; https://jmlr.org/tmlr/faq.html ."
+    },
+    {
+      "id": "informatics-computing-joss",
+      "scope_notes": "Peer-reviewed papers about mature research software; requires more than six months of active public development and demonstrated research use, which may be by the developers. External community adoption is a positive signal, not mandatory. Pre-trained models, notebooks, thin API clients and one-off tools are outside scope. Humans must make core design decisions and validate AI-assisted work.",
+      "audit_note": "Independent review confirmed current maturity, research-use and AI conditions. The existing route correctly prohibits AI-mediated author/editor/reviewer conversation except translation. Old stage-rejection estimates lack precise periods/denominators and predate current criteria; they remain excluded. Source: https://joss.readthedocs.io/en/latest/submitting.html ."
+    },
+    {
+      "id": "informatics-computing-lmcs",
+      "scope_notes": "Original logic-related theoretical/practical computer-science research and surveys. The required pre-review arXiv/CoRR deposit includes cs.LO and TeX sources. The arXiv CS rule requiring prior successful journal/conference peer review for surveys creates an unresolved prerequisite conflict for a new LMCS survey. Verify a permitted deposit/submission arrangement before treating an unpublished survey as eligible; no exception was established here.",
+      "audit_note": "No official dated acceptance-rate or citation-metric series was found in the inspected author, policy, purpose and home pages. Independent review confirmed the current deposit workflow and platform no-payment policy. The survey-deposit conflict is a reviewer inference from two official policies, not an announced LMCS ban or established exception. Sources: https://lmcs.episciences.org/page/authors-information ; https://www.episciences.org/publishing-model/ ; https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/ ."
+    },
+    {
+      "id": "informatics-computing-jstatsoft",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical-review judgment: substantial statistical-software contribution, comparative discussion and exact reproducibility are explicit requirements. Regular articles and narrower code snippets have different contribution scopes. These requirements establish preparation and scientific standards, but the inspected official pages do not calibrate a comparative high acceptance-difficulty band. Unknown does not imply easy acceptance.",
+        "source_urls": [
+          "https://www.jstatsoft.org/mission",
+          "https://www.jstatsoft.org/authors"
+        ]
+      },
+      "audit_note": "No official acceptance-rate or dated numerical citation-metric series was located on inspected mission, author, home and about pages. Code snippets have a narrower contribution scope than regular articles. Independent review retained the explicit free-submission/no-author-fee route and software/manuscript peer review, but changed high to unknown: implementation scope and reproducibility burden do not alone establish comparative selectivity."
+    },
+    {
+      "id": "informatics-computing-tgdk",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical-review judgment: research, survey and resource submissions have distinct novelty, impact and quality criteria. These are documented contribution requirements, but the inspected policy does not establish comparative acceptance difficulty for the combined venue. No measured odds or calibrated high band is inferred from generic state-of-the-art and peer-review requirements.",
+        "source_urls": [
+          "https://www.dagstuhl.de/en/publishing/series/details/TGDK"
+        ]
+      },
+      "audit_note": "Inspected review process, calls and resource criteria. No dated acceptance-rate series was located. Special-issue guidance explicitly avoids enforcing a fixed acceptance rate; three-review procedure and the two-strike revision rule are process constraints, not measured selectivity. Independent review retained journal-specific no-author-fee evidence, peer review and three article types; replaced high with unknown because the documented criteria do not establish a calibrated comparative band."
+    },
+    {
+      "id": "informatics-computing-ajis",
+      "scope_notes": "Global information-systems theory/practice and conceptual development, with particular interest in Australasia. Ordinary Research Articles receive double-blind peer review. A submission must not already be available on a preprint service, so public-preprint-first workflows conflict with its checklist. Institutional credentials may be replaced by an explanation; this is not the same as an absolute institutional-affiliation requirement. Several named sections are closed and ACIS selected papers require invitation.",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical-review judgment: relevance, contribution, originality, impact, conceptual soundness and appropriate methods are stated assessment criteria, applied differently by article type. They establish scholarly expectations but no comparative selectivity threshold or observed acceptance series. Undated A-list claims and short workflow targets are not acceptance odds.",
+        "source_urls": [
+          "https://ajis.aaisnet.org/index.php/ajis/about",
+          "https://ajis.aaisnet.org/index.php/ajis/about/submissions"
+        ]
+      },
+      "audit_note": "No official numerical acceptance series was located. Undated A-list claims were not converted to dated metrics or acceptance odds. Published workflow targets are not observed turnaround statistics. Independent review retained explicit zero submission/APC/other fees and verified the preprint prohibition. Changed high to unknown because general assessment criteria and undated rankings do not calibrate comparative difficulty."
+    },
+    {
+      "id": "informatics-computing-einformatica",
+      "scope_notes": "Empirical software engineering, including AI/ML, tools, methods and systematic reviews with a direct software-engineering contribution. Mandatory author metadata includes affiliation-related email and public ORCID name plus university/company affiliation; unaffiliated-author exceptions remain unverified. Generative AI in manuscript writing is restricted to language/readability improvement, distinct from AI research methods.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No journal fees or paper-length limit. Must-have requirements specify affiliation-related email and public ORCID name plus university/company affiliation for all authors; no unaffiliated-author exception was established. Revised/final manuscripts require journal LaTeX; declarations and a hand-signed agreement are required. Generative AI in writing is restricted to language/readability improvement with disclosure and human responsibility. verified_free describes the monetary route for eligible authors, not universal author or workflow eligibility.",
+        "other_mandatory_costs": "None under the homepage's journal-wide no-fees statement; no paid membership, conference registration or overlength surcharge is specified.",
+        "fee_evidence": [
+          {
+            "url": "https://www.e-informatyka.pl/",
+            "checked_on": "2026-11-16",
+            "note": "Official current homepage states open access without any fees, no paper-length limit and university support.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+            "checked_on": "2026-11-16",
+            "note": "Author FAQ independently gives a publication fee of zero dollars.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/",
+            "checked_on": "2026-11-16",
+            "note": "Documents required declarations, LaTeX revision files and the restrictive generative-AI writing policy.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent review confirmed journal-wide no fees and journal-reported 2025 citation metrics. Mandatory affiliation metadata has no located unaffiliated-author exception. Sources: https://www.e-informatyka.pl/ ; https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/ ."
+    },
+    {
+      "id": "informatics-computing-jot",
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.jot.fm/authors.html",
+          "https://www.jot.fm/software",
+          "https://submissions.jot.fm/index.php/jot/about/submissions"
+        ]
+      },
+      "audit_note": "A 2010 farewell editorial reports about 30% acceptance without a defined observation window or counts; this old, underspecified figure was excluded. Event-specific editorial acceptance rates are not the ordinary journal rate. Source inspected: https://www.jot.fm/issues/issue_2010_05/editorial.pdf . Independent review confirmed the blanket free-to-authors policy, current submission scope and Software Section peer-review/artifact requirements. The legacy authors.html page timed out in this review; accessible current software and submission-system pages were added as corroborating evidence."
+    }
+  ],
+  "findings": [
+    {
+      "id": "informatics-computing-jmlr",
+      "severity": "low",
+      "issue": "Publication fees are explicitly excluded, but no separate submission-fee exclusion was established. A historical 2022 retrospective calls JMLR free but does not resolve a current explicit submission-fee policy.",
+      "resolution": "No fee promotion. Retain submission_fee=unknown and eligibility=needs_verification. Independently confirmed the historical 2021 median of 187 days excludes desk rejections. Sources: https://jmlr.org/author-info.html ; https://jmlr.org/news/2022/retrospectives.html ."
+    },
+    {
+      "id": "informatics-computing-jair",
+      "severity": "low",
+      "issue": "The official 10.6% and 55.9% quantities can be misread as raw acceptance rates; they are model outputs with different conditioning and possible resubmission.",
+      "resolution": "Existing metrics are correct and retained: data 2025-01-01 to 2026-01-01, release 2026-04-16, six-week resubmission assumption, no sample denominator recovered. The process image again returned HTTP 403; no reconstructed raw rate. Source: https://www.jair.org/index.php/jair/transparent-publishing ."
+    },
+    {
+      "id": "informatics-computing-tmlr",
+      "severity": "medium",
+      "issue": "The FAQ excludes surveys from September 1, 2026 while the editorial page retains Survey Certification. The FAQ also has more specific LLM disclosure/human-sourcing conditions than the broader editorial policy.",
+      "resolution": "Full route and scope replacements surface both policy discrepancies, preserve the current survey exclusion, fees, quotas and originality restrictions, and avoid claiming that the broader policy cancels the FAQ."
+    },
+    {
+      "id": "informatics-computing-joss",
+      "severity": "medium",
+      "issue": "Mature software is mandatory, but the record could imply external adoption is mandatory. Current documentation permits demonstrated developer research use and treats non-author engagement as a positive signal.",
+      "resolution": "Clarified scope, preserving more than six months of active public development, research use, human design/validation and the existing AI-conversation restriction."
+    },
+    {
+      "id": "informatics-computing-lmcs",
+      "severity": "medium",
+      "issue": "Accepted survey format can hide a prerequisite conflict: LMCS requires arXiv CS deposit before review while arXiv CS generally requires prior successful peer review for surveys.",
+      "resolution": "Surfaced the unresolved conflict in scope; no unsupported ban, exception or universally available new-survey route is asserted. The original-research no-payment route remains verified."
+    },
+    {
+      "id": "informatics-computing-jstatsoft",
+      "severity": "medium",
+      "issue": "The high difficulty band partly converts comprehensive software and reproducibility burden into comparative selectivity across regular articles and code snippets.",
+      "resolution": "Replaced difficulty with unknown, retaining the actual contribution and reproducibility requirements and the fee-free route."
+    },
+    {
+      "id": "informatics-computing-tgdk",
+      "severity": "medium",
+      "issue": "Novelty/impact/technical-quality criteria for three distinct article types do not by themselves calibrate the combined venue as high difficulty.",
+      "resolution": "Replaced difficulty with unknown; retained research/survey/resource scope, peer review, no fees and article-specific criteria."
+    },
+    {
+      "id": "informatics-computing-ajis",
+      "severity": "medium",
+      "issue": "An absolute preprint prohibition can be overlooked in a broad free-venue catalog. Generic significance/innovation criteria and undated A rankings do not calibrate high acceptance difficulty.",
+      "resolution": "Made the preprint restriction prominent in scope, distinguished explainable institutional-credential absence from EISEJ affiliation requirements, and changed difficulty to unknown."
+    },
+    {
+      "id": "informatics-computing-einformatica",
+      "severity": "medium",
+      "issue": "Must-have affiliation metadata can block unaffiliated authors. The AI restriction concerns manuscript writing.",
+      "resolution": "Made both limits explicit; preserved monetary verified_free, journal-reported 2025 citation values and unknown difficulty."
+    },
+    {
+      "id": "informatics-computing-jot",
+      "severity": "low",
+      "issue": "The only prior peer-review source URL timed out during this independent check.",
+      "resolution": "Added accessible official Software Section and submission-system corroboration while preserving the original URL and distinguishing author-free journal publication from conference event costs."
+    },
+    {
+      "id": "informatics-computing-theoretics",
+      "severity": "low",
+      "issue": "The April 2026 statistics mix calendar-year outputs, submission cohorts and milestone cohorts if naively combined. In particular, 28 acceptances during 2025 cannot be divided by 61 new 2025 submissions.",
+      "resolution": "Existing ten metrics retained after independent exact-value check: 61 submissions, 28 acceptance-year papers, 7 accepted 2025-cohort papers, 19 pending, and separate milestone-time/review counts. No acceptance rate calculated. Source: https://theoretics.episciences.org/page/statistics ."
+    },
+    {
+      "id": "informatics-computing-arxiv-corr",
+      "severity": "low",
+      "issue": "Free repository dissemination can be mistaken for peer-reviewed publication or an unrestricted CS survey route.",
+      "resolution": "Existing moderation/not_comparable labels retained. Independently checked free submission, two-new-submissions/month and three-active limits, AI accountability and prior-peer-review prerequisite for CS reviews/position papers. Sources: https://info.arxiv.org/about/index.html ; https://info.arxiv.org/help/moderation/index.html ; https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/ ."
+    }
+  ],
+  "notes": [
+    "Fifth distinct role: independent skeptical review of all 16 merged records (10 discovery plus 6 diamond expansion), after reading discovery, diamond, fees and ranking. Reopened official sources for every venue on 2026-11-16; this is venue-policy review, not human scientific, manuscript or usability review.",
+    "Coverage: JMLR current author guide and historical retrospective; JAIR FAQ, submissions and transparency; TMLR editorial, FAQ and acceptance criteria; JOSS current submission guide; JSS author and mission pages; LMCS author instructions plus Episciences policy; JOT homepage, software and current submission system; TGDK publisher journal policy; JDMDH homepage, author instructions and editorial policy; AJIS about/submission instructions; EISEJ homepage and must-have requirements; JGAA about; Theory of Computing submission instructions; DMTCS current author page; TheoretiCS review/statistics; arXiv about/moderation and official CS survey notice.",
+    "No corrective patch was needed for JDMDH: explicit no submission/publication/author fees, peer-reviewed community/tool/data reports and review articles are supported. No corrective patch was needed for JGAA, Theory of Computing or DMTCS: current journal policies support fee-free ordinary routes and their existing scope/review labels. This review did not repeat every linked AI-policy subpage or every archive-license workflow.",
+    "Full-field replacement patches preserve accurate prior fee evidence and uncertainty. Monetary verified_free is not universal eligibility for every author, format or AI-assisted workflow. No waived, membership-funded or conference-registration-dependent route was promoted to unconditionally free.",
+    "Three difficulty bands changed from high to unknown (JSS, TGDK, AJIS), a conservative reviewer judgment where ordinary contribution/preparation standards did not calibrate comparative selectivity. Remaining bands are agent judgments based on specific stated contribution gates, never individual acceptance probabilities. Unknown is not an easy-acceptance claim.",
+    "All merged metric arrays were inspected; no null-value metric placeholders were present. No metrics were fabricated or removed. JAIR is explicitly modeled; TheoretiCS keeps cohorts separate; EISEJ citation values remain journal-reported 2025 figures, separate from selectivity. Historical JMLR 187-day median remains labeled 2021 and excludes desk rejections.",
+    "Access limitations: JAIR process image returned HTTP 403 and JOT legacy authors.html timed out. Official accessible text corroborates the retained conclusions, but branch counts and inaccessible content were not independently recovered. No venue was contacted; no submission or external write was made."
+  ]
+}

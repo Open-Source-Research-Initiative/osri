@@ -1,0 +1,373 @@
+{
+  "subfield": "informatics-computing",
+  "role": "ranking",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "informatics-computing-jmlr",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment for the main ML research track: requires substantive advances in understanding with broader ML interest, rigorous support and substantial additions beyond a prior conference version. This is a contribution-threshold judgment, not a measured current acceptance probability; MLOSS software has separate criteria.",
+        "source_urls": [
+          "https://jmlr.org/author-info.html",
+          "https://jmlr.org/stats.html"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Median submission-to-first-review-decision time (days)",
+          "value": 187,
+          "year": 2021,
+          "population": "Papers sent to reviewers; desk rejections excluded",
+          "source_url": "https://www.jmlr.org/news/2022/retrospectives.html",
+          "note": "Historical 2021 median, reported 2022-02-21; not a current turnaround promise."
+        }
+      ],
+      "audit_note": "The current statistics page presents submission and decision-time plots without an accessible numerical acceptance-rate table. The 2022 retrospective's historical 'current 17%' lacks an unambiguous cohort year in its text and was not imported as a current or dated-cohort rate."
+    },
+    {
+      "id": "informatics-computing-jair",
+      "difficulty": {
+        "band": "very_high",
+        "basis": "Agent judgment within AI methods: the current transparency page reports strong overall modeled selection and screening for results important to the AI community, including methodological advances beyond a domain application. Its overall and post-screening probabilities refer to different populations; neither predicts the fate of an individual paper.",
+        "source_urls": [
+          "https://www.jair.org/index.php/jair/transparent-publishing"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Modeled overall acceptance probability, possibly after one revision",
+          "value": "10.6%",
+          "year": 2025,
+          "population": "Initial-submission model including summary rejection; underlying manuscript count not stated in accessible text",
+          "source_url": "https://www.jair.org/index.php/jair/transparent-publishing",
+          "note": "Data 2025-01-01 to 2026-01-01; released 2026-04-16. Model allows one revised resubmission after six weeks. Not a raw accepted/submitted rate."
+        },
+        {
+          "name": "Modeled acceptance probability conditional on no summary rejection",
+          "value": "55.9%",
+          "year": 2025,
+          "population": "Model conditioned on submissions not summarily rejected; underlying manuscript count not stated in accessible text",
+          "source_url": "https://www.jair.org/index.php/jair/transparent-publishing",
+          "note": "Same period and release. Includes possible revised resubmission; do not apply to all initial submissions."
+        },
+        {
+          "name": "Modeled expected time to acceptance (weeks)",
+          "value": 42.0,
+          "year": 2025,
+          "population": "Acceptance-path model, possibly after one revision; not all submitted manuscripts",
+          "source_url": "https://www.jair.org/index.php/jair/transparent-publishing",
+          "note": "Same period and release; assumes six weeks to resubmit. Expected time, not a guarantee."
+        }
+      ],
+      "audit_note": "Verified the official textual model and conditioning. Its linked process diagram returned HTTP 403, so raw branch counts, full branch calculations and sample denominators were not independently recovered. The page excludes the 90 days before release to reduce pending-submission distortion. No raw acceptance rate is asserted."
+    },
+    {
+      "id": "informatics-computing-tmlr",
+      "difficulty": {
+        "band": "moderate",
+        "basis": "Agent judgment within ML research, based on an explicitly less significance-selective acceptance model: accurate convincing evidence, clear communication and findings of interest to some ML researchers. Method novelty, state-of-the-art results, significance and impact are not necessary acceptance gates. Technical rigor remains necessary; this band gives no numerical odds.",
+        "source_urls": [
+          "https://jmlr.org/tmlr/acceptance-criteria.html",
+          "https://jmlr.org/tmlr/faq.html"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official numerical acceptance-rate series was located in inspected policy/FAQ pages. OpenReview public papers exclude desk rejections, so counting visible accepted/rejected papers would miss part of the submission population."
+    },
+    {
+      "id": "informatics-computing-joss",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Agent judgment withheld for relative editorial selectivity. Software must show research use, substantial design contribution, tests/documentation and more than six months of active public development. These are substantial maturity and preparation gates; their effort does not establish research-journal prestige or acceptance probability.",
+        "source_urls": [
+          "https://joss.readthedocs.io/en/latest/submitting.html",
+          "https://joss.theoj.org/about"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "The linked live analytics page timed out. An official 2023 blog gives historical stage rejection estimates with incompletely specified denominators; they precede the 2026 criteria revision and are not imported as current odds. Source: https://blog.joss.theoj.org/2023/05/JOSS-publishes-2000th-paper ."
+    },
+    {
+      "id": "informatics-computing-jstatsoft",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within statistical-software publication: the software and article are assessed jointly; regular articles target comprehensive implementations, comparisons with alternatives and nontrivial examples, with complete reproducibility. A software paper following a methods paper still requires substantial software innovation. This denotes contribution criteria, not acceptance odds or a citation ranking.",
+        "source_urls": [
+          "https://www.jstatsoft.org/mission",
+          "https://www.jstatsoft.org/authors"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official acceptance-rate or dated numerical citation-metric series was located on inspected mission, author, home and about pages. Code snippets have a narrower contribution scope than regular articles."
+    },
+    {
+      "id": "informatics-computing-lmcs",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Agent judgment withheld: original logic-related research/surveys undergo two or three referees, but generic highest-quality language and review procedure do not establish a calibrated comparative selectivity band. The stronger special policy for long-standing open-problem claims is not generalized to all submissions. Unknown does not mean easier.",
+        "source_urls": [
+          "https://lmcs.episciences.org/page/authors-information",
+          "https://lmcs.episciences.org/page/policies",
+          "https://lmcs.episciences.org/page/purpose"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official dated acceptance-rate or citation-metric series was found in the inspected author, policy, purpose and home pages."
+    },
+    {
+      "id": "informatics-computing-jot",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Agent judgment withheld for relative selectivity across research articles, surveys, mature practice reports and software. Originality, significance, soundness and presentation are assessed; conference extensions require at least 30% new material. These rules identify contribution gates without supplying comparable current acceptance odds.",
+        "source_urls": [
+          "https://www.jot.fm/",
+          "https://submissions.jot.fm/index.php/jot/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "A 2010 farewell editorial reports about 30% acceptance without a defined observation window or counts; this old, underspecified figure was excluded. Event-specific editorial acceptance rates are not the ordinary journal rate. Source inspected: https://www.jot.fm/issues/issue_2010_05/editorial.pdf ."
+    },
+    {
+      "id": "informatics-computing-tgdk",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within graph data/knowledge research: research articles must advance the state of the art and are assessed for novelty, relevance, impact, technical soundness, reproducibility and clarity. Surveys need novel systematic synthesis; resources have separate novelty/quality/adoption criteria. No acceptance percentage is inferred from these requirements.",
+        "source_urls": [
+          "https://www.dagstuhl.de/en/publishing/series/details/TGDK"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Inspected review process, calls and resource criteria. No dated acceptance-rate series was located. Special-issue guidance explicitly avoids enforcing a fixed acceptance rate; three-review procedure and the two-strike revision rule are process constraints, not measured selectivity."
+    },
+    {
+      "id": "informatics-computing-jdmdh",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Agent judgment withheld: the official policy specifies at least two editor-reviewers, iterative correction and agreement before acceptance, including peer-reviewed short software/dataset/community reports. It does not supply a discriminating editorial-selectivity threshold or measured acceptance odds.",
+        "source_urls": [
+          "https://jdmdh.episciences.org/page/editorial-policies",
+          "https://jdmdh.episciences.org/"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official dated acceptance or citation metrics located in inspected pages. Review deadlines on the policy page describe intended process, not observed performance."
+    },
+    {
+      "id": "informatics-computing-ajis",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within information-systems research: assessment explicitly considers a significant contribution, practical/research impact, innovation, originality/uniqueness, conceptual soundness and appropriate methods. This is a contribution-threshold judgment, not measured selectivity; the journal allows different criteria for different paper types.",
+        "source_urls": [
+          "https://ajis.aaisnet.org/index.php/ajis/about",
+          "https://ajis.aaisnet.org/index.php/ajis/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official numerical acceptance series was located. Undated A-list claims were not converted to dated metrics or acceptance odds. Published workflow targets are not observed turnaround statistics."
+    },
+    {
+      "id": "informatics-computing-einformatica",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Agent judgment withheld for comparative selectivity: requires substantial original contribution directly to software engineering and assessment of originality, innovation and analytical/theoretical strength by at least two reviewers. Its citation metrics describe citation performance, not ease of acceptance.",
+        "source_urls": [
+          "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "https://www.e-informatyka.pl/einformatica/authors-guide/admission-policies/",
+          "https://www.e-informatyka.pl/einformatica/authors-guide/review-process/"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.0,
+          "year": 2025,
+          "population": "Citation metric for the journal; source gives no underlying citation/item counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 metric. Citation performance only; provider calculation not independently audited."
+        },
+        {
+          "name": "Five-year Journal Impact Factor",
+          "value": 1.9,
+          "year": 2025,
+          "population": "Five-year citation metric for the journal; source gives no underlying counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 metric; not editorial selectivity."
+        },
+        {
+          "name": "Scopus CiteScore",
+          "value": 4.5,
+          "year": 2025,
+          "population": "Scopus journal citation metric; source gives no underlying citation/document counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 value with Scopus link; not acceptance probability."
+        },
+        {
+          "name": "Source Normalized Impact per Paper (SNIP)",
+          "value": 0.89,
+          "year": 2025,
+          "population": "Field-normalized journal citation metric; source gives no underlying counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 value; not acceptance probability."
+        }
+      ],
+      "audit_note": "No official acceptance-rate series located in the inspected author/admission/review pages. The approximate two-month review statement has no observation period or sample and is not treated as a measured statistic."
+    },
+    {
+      "id": "informatics-computing-jgaa",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within graph-algorithms research: the journal explicitly selects a limited set of papers and says new/correct results alone are insufficient; work needs sufficient weight, interest and potential to stimulate further research. Preliminary screening can reject marginal-interest or insufficiently original papers. This supports a significance-selective band without numerical odds.",
+        "source_urls": [
+          "https://jgaa.info/index.php/jgaa/about",
+          "https://jgaa.info/index.php/jgaa/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official dated acceptance-rate or citation-metric series found in inspected about/submission pages. Reviewer deadlines and review-time targets were not mistaken for observed medians."
+    },
+    {
+      "id": "informatics-computing-theory-of-computing",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Agent judgment withheld: the current introduction establishes rigorous single-blind review and an aspiration to highest scientific quality, but it does not expose sufficiently specific comparative contribution thresholds or current selectivity statistics. Editorial-board reputation and indexing are not acceptance probabilities.",
+        "source_urls": [
+          "https://theoryofcomputing.org/introduction.html",
+          "https://theoryofcomputing.org/submit/index.html"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official numerical acceptance-rate or dated citation metrics located in inspected introductory/submission pages or bounded official-site search. The special policy for long-standing complexity claims is not a measure of all-paper selectivity."
+    },
+    {
+      "id": "informatics-computing-dmtcs",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Agent judgment withheld for comparative selectivity: work must be original, mathematically correct, complete and important to readers beyond the referees; self-contained short notes are welcome. These requirements establish peer-reviewed research standards but do not calibrate this journal against other theory/discrete-mathematics outlets.",
+        "source_urls": [
+          "https://dmtcs.episciences.org/en/for-authors",
+          "https://dmtcs.episciences.org/en/about",
+          "https://dmtcs.episciences.org/en/indexing"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No official dated numerical acceptance/citation metric series found in inspected author, about and indexing pages. Ordinary journal articles and conference proceedings are distinct routes."
+    },
+    {
+      "id": "informatics-computing-theoretics",
+      "difficulty": {
+        "band": "very_high",
+        "basis": "Agent judgment within theoretical computer science: Phase 1 explicitly asks whether work is among the strongest contributions in its area in roughly the last year, emphasizing significance and lasting value before full correctness review. This concrete threshold supports very_high. The incomplete 2025 cohort is not used to estimate acceptance odds.",
+        "source_urls": [
+          "https://theoretics.episciences.org/page/review-process",
+          "https://theoretics.episciences.org/page/statistics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Submissions received",
+          "value": 61,
+          "year": 2025,
+          "population": "Manuscripts submitted during 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Snapshot April 2026; count, not acceptance denominator for acceptance-year output."
+        },
+        {
+          "name": "Accepted submissions by acceptance year",
+          "value": 28,
+          "year": 2025,
+          "population": "Manuscripts accepted during 2025, including earlier submission years",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Snapshot April 2026; do not divide by 61 submissions from a different cohort."
+        },
+        {
+          "name": "Accepted submissions by submission year",
+          "value": 7,
+          "year": 2025,
+          "population": "2025 submission cohort, accepted by April 2026",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Incomplete cohort; later decisions can change count."
+        },
+        {
+          "name": "Submissions awaiting decision by submission year",
+          "value": 19,
+          "year": 2025,
+          "population": "2025 submission cohort still pending in April 2026",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Most pending 2024/2025 papers were in Phase 2."
+        },
+        {
+          "name": "Mean submission-to-Phase-1-decision time (days)",
+          "value": 61,
+          "year": 2025,
+          "population": "Papers reaching Phase 1 decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; milestone-year population."
+        },
+        {
+          "name": "Mean submission-to-final-decision time (days)",
+          "value": 201,
+          "year": 2025,
+          "population": "All papers reaching final decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; includes rejected and accepted papers."
+        },
+        {
+          "name": "Mean submission-to-final-decision time for accepted papers (days)",
+          "value": 359,
+          "year": 2025,
+          "population": "Accepted papers reaching final decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; excludes rejections."
+        },
+        {
+          "name": "Mean submission-to-publication time (days)",
+          "value": 436,
+          "year": 2025,
+          "population": "Papers published in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; different milestone population."
+        },
+        {
+          "name": "Review requests sent",
+          "value": 290,
+          "year": 2025,
+          "population": "Review requests issued in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Approximate; repeated requests can occur."
+        },
+        {
+          "name": "Completed reviews received",
+          "value": 174,
+          "year": 2025,
+          "population": "Reviews received in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Approximate; not a submission acceptance metric."
+        }
+      ],
+      "audit_note": "Statistics are an April 2026 snapshot, not live November counts. Preserved the latest complete calendar-year columns and separate submission-year, acceptance-year and milestone-year populations. No derived acceptance rate."
+    },
+    {
+      "id": "informatics-computing-arxiv-corr",
+      "difficulty": {
+        "band": "not_comparable",
+        "basis": "Moderated preprint dissemination is not journal peer review. Endorsement and moderation are entry conditions; they do not certify scientific validity and cannot be ranked on a journal acceptance-difficulty scale.",
+        "source_urls": [
+          "https://info.arxiv.org/about/index.html",
+          "https://info.arxiv.org/help/moderation/index.html"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "No journal prestige or acceptance metric assigned to CoRR/arXiv. Repository-scale usage and total-deposit counts would not measure peer-reviewed selectivity."
+    }
+  ],
+  "notes": [
+    "Independently inspected official editorial/author pages for all 16 candidates (10 discovery plus 6 expansion), read the fee audit, and used only difficulty, metrics and audit_note replacement fields. No fee routes were edited.",
+    "Bands are explicitly agent judgments about stated editorial contribution gates within relevant computing specialties. They are not measured individual acceptance probabilities, a cross-discipline prestige order, or guarantees. Unknown is deliberate where evidence does not calibrate relative selectivity.",
+    "Citation metrics, review-process targets, preparation burden and software maturity are separate from selectivity. EISEJ citation values are journal-reported with exact metric years; underlying provider denominators are unavailable on the inspected page. No impact factor was used to assign a difficulty band.",
+    "JAIR 10.6%/55.9% are the official model outputs for an initial-submission/revised-resubmission path, including a six-week resubmission assumption. The conditional population excludes summary rejections. The process-diagram image was blocked, so raw branch counts and complete calculations remain unverified; no raw acceptance rate or reconstructed count is supplied.",
+    "JMLR historical 17% wording and JOT 2010 approximately 30% were excluded from numeric metrics because observation windows/cohorts are underspecified. JOSS 2023 stage rejection estimates were excluded because denominators and periods are not precise and the 2026 criteria changed. Its linked current analytics timed out.",
+    "TheoretiCS official statistics are dated April 2026. The 2025 counts have 19 pending submissions and mix different cohorts if combined incorrectly; no acceptance ratio was calculated. The phase-1 strongest-contribution gate, not these incomplete counts, supports its band.",
+    "This was a bounded official-source search, not proof that no other metrics exist. Empty metric arrays mean no sufficiently defined numerical metrics were established here. Agent review is not human scientific review."
+  ]
+}

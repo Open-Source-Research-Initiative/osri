@@ -1,0 +1,253 @@
+{
+  "subfield": "informatics-computing",
+  "role": "diamond",
+  "checked_on": "2026-11-16",
+  "records": [
+    {
+      "id": "informatics-computing-einformatica",
+      "name": "e-Informatica Software Engineering Journal",
+      "kind": "journal",
+      "publisher": "Wrocław University of Science and Technology",
+      "homepage": "https://www.e-informatyka.pl/",
+      "author_guidelines": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+      "submission_url": "https://mc.manuscriptcentral.com/e-InformaticaSEJ",
+      "subjects": ["informatics-computing"],
+      "formats": ["original_research", "review", "methods", "software"],
+      "scope_notes": "Empirical software engineering and data science, AI and ML in software engineering. Novel tools, methods, empirical studies and systematic reviews must contribute directly to software engineering; generic applications of AI without that contribution do not establish fit.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "University-funded journal with no submission or publication fees and no paper-length limit. Revised/final files require the journal LaTeX template and sources. Authors supply ORCID, required declarations and a signed agreement. The writing policy restricts generative AI use to language/readability improvements and requires disclosure plus human responsibility; check the manuscript's workflow against this policy before submission.",
+        "other_mandatory_costs": "None stated; official journal homepage says without any fees and its linked flyer explicitly excludes submission fees and APCs.",
+        "fee_evidence": [
+          {
+            "url": "https://www.e-informatyka.pl/",
+            "checked_on": "2026-11-16",
+            "note": "The journal describes open access without any fees, no paper-length limit and support from Wrocław University of Science and Technology.",
+            "access": "page"
+          },
+          {
+            "url": "https://madeyski.e-informatyka.pl/download/EISEJ_Flyer.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The live flyer linked by the journal homepage explicitly states no submission fees, no APCs, and free publication and reading.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+            "checked_on": "2026-11-16",
+            "note": "The journal's author FAQ independently lists the publication fee as zero dollars.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": ["https://www.e-informatyka.pl/einformatica/authors-guide/review-process/", "https://www.e-informatyka.pl/"]
+      },
+      "difficulty": {"band": "unknown", "basis": "Expansion did not establish acceptance difficulty. Free publication does not imply easy acceptance.", "source_urls": []},
+      "metrics": [],
+      "discovery_sources": ["https://www.e-informatyka.pl/", "https://www.e-informatyka.pl/einformatica/authors-guide/", "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/", "https://madeyski.e-informatyka.pl/download/EISEJ_Flyer.pdf", "https://www.oficyna.pwr.edu.pl/czasopisma/e-informatica/"]
+    },
+    {
+      "id": "informatics-computing-jgaa",
+      "name": "Journal of Graph Algorithms and Applications",
+      "kind": "journal",
+      "publisher": "Journal of Graph Algorithms and Applications; electronic edition hosted by Brown University Department of Computer Science",
+      "homepage": "https://jgaa.info/",
+      "author_guidelines": "https://jgaa.info/index.php/jgaa/about/submissions",
+      "submission_url": "https://jgaa.info/index.php/jgaa/about/submissions",
+      "subjects": ["informatics-computing"],
+      "formats": ["original_research", "review", "methods"],
+      "scope_notes": "Design, analysis, implementation and applications of graph algorithms; includes network analysis, graph drawing, database and knowledge-representation algorithms, software engineering and biomedical-informatics applications when graph-algorithm research is central. Regular, concise and survey papers are eligible.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal policy excludes all author charges. Manuscripts require LaTeX preparation, page/line numbers and the journal class for accepted files. Concise papers normally span 5–10 pages. AI use must be declared in the submission comments; unattributed AI creation of scientific content is forbidden. The journal's contribution/selectivity criteria still apply.",
+        "other_mandatory_costs": "None: the journal states there are no charges for authors or readers.",
+        "fee_evidence": [
+          {
+            "url": "https://jgaa.info/index.php/jgaa/about",
+            "checked_on": "2026-11-16",
+            "note": "The journal-specific aims and open-access policy state diamond access, no author fees and no charges to either authors or readers.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {"type": "peer_reviewed", "source_urls": ["https://jgaa.info/index.php/jgaa/about"]},
+      "difficulty": {"band": "unknown", "basis": "No expansion-role ranking assigned; the journal calls itself highly selective and requires broad or substantial interest, for independent ranking review.", "source_urls": ["https://jgaa.info/index.php/jgaa/about/submissions"]},
+      "metrics": [],
+      "discovery_sources": ["https://jgaa.info/index.php/jgaa/about", "https://jgaa.info/index.php/jgaa/about/submissions"]
+    },
+    {
+      "id": "informatics-computing-theory-of-computing",
+      "name": "Theory of Computing",
+      "kind": "journal",
+      "publisher": "Theory of Computing (community-run journal; main server provided by the University of Chicago Department of Computer Science)",
+      "homepage": "https://theoryofcomputing.org/",
+      "author_guidelines": "https://theoryofcomputing.org/submit/index.html",
+      "submission_url": "https://toc.episciences.org/",
+      "subjects": ["informatics-computing"],
+      "formats": ["original_research", "methods"],
+      "scope_notes": "Theoretical computer science research. Suitable for substantive mathematical and algorithmic contributions rather than routine informatics applications. The separate Graduate Surveys series is not treated as an unrestricted review-article route in this record.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The submission page states no author fees and free access for authors and readers. First post the LaTeX manuscript to arXiv under CC BY, then submit its identifier and cover letter through Episciences. Authors prepare the accepted version in ToCTeX format. A special policy applies to claimed solutions of long-standing complexity problems. arXiv moderation/endorsement remains separate from journal peer review.",
+        "other_mandatory_costs": "None stated in the submission page's no-author-fees policy.",
+        "fee_evidence": [
+          {
+            "url": "https://theoryofcomputing.org/submit/index.html",
+            "checked_on": "2026-11-16",
+            "note": "Under No Author Fees, the current submission instructions say Theory of Computing is free to authors and readers; the page documents the standard submission and final-production workflow.",
+            "access": "page"
+          },
+          {
+            "url": "https://theoryofcomputing.org/introduction.html",
+            "checked_on": "2026-11-16",
+            "note": "The journal defines its diamond model as free to authors with no APCs and free to readers.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {"type": "peer_reviewed", "source_urls": ["https://theoryofcomputing.org/introduction.html"]},
+      "difficulty": {"band": "unknown", "basis": "Expansion did not establish acceptance difficulty. Free publication does not imply easy acceptance.", "source_urls": []},
+      "metrics": [],
+      "discovery_sources": ["https://theoryofcomputing.org/introduction.html", "https://theoryofcomputing.org/submit/index.html"]
+    },
+    {
+      "id": "informatics-computing-dmtcs",
+      "name": "Discrete Mathematics & Theoretical Computer Science",
+      "kind": "journal",
+      "publisher": "Discrete Mathematics & Theoretical Computer Science (Episciences overlay journal)",
+      "homepage": "https://dmtcs.episciences.org/en",
+      "author_guidelines": "https://dmtcs.episciences.org/en/for-authors",
+      "submission_url": null,
+      "subjects": ["informatics-computing"],
+      "formats": ["original_research", "methods"],
+      "scope_notes": "Original research at the intersection of discrete mathematics and theoretical computer science. Self-contained short notes are welcome; mathematical correctness, complete proofs and importance beyond the immediate referees are expected. Does not function as a preprint server.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The current author policy states a model without author or reader fees. Submit directly as an author after depositing in HAL or arXiv. Regular journal articles have no page-number restriction; authors prepare accepted LaTeX sources in the journal style. Generative AI use requires disclosure. This record covers the regular journal route, excluding conference-proceedings participation or registration costs.",
+        "other_mandatory_costs": "None stated for the regular journal route; conference-associated routes need a separate cost audit.",
+        "fee_evidence": [
+          {
+            "url": "https://dmtcs.episciences.org/en/for-authors",
+            "checked_on": "2026-11-16",
+            "note": "The current author instructions, updated October 1, 2026, state that institutionally sponsored Episciences enables DMTCS to operate without author or reader fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "The policy for all Episciences journals rules out publication/access fees and says submission and publication are not conditional on a per-unit publication fee. DMTCS's live website establishes platform applicability.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {"type": "peer_reviewed", "source_urls": ["https://dmtcs.episciences.org/en", "https://dmtcs.episciences.org/en/for-authors"]},
+      "difficulty": {"band": "unknown", "basis": "No expansion-role ranking assigned; the journal describes itself as highly selective. The ranking role should assess that evidence independently.", "source_urls": ["https://dmtcs.episciences.org/en"]},
+      "metrics": [],
+      "discovery_sources": ["https://dmtcs.episciences.org/en", "https://dmtcs.episciences.org/en/for-authors", "https://www.episciences.org/publishing-model/"]
+    },
+    {
+      "id": "informatics-computing-theoretics",
+      "name": "TheoretiCS",
+      "kind": "journal",
+      "publisher": "TheoretiCS Foundation e.V.",
+      "homepage": "https://theoretics.episciences.org/",
+      "author_guidelines": "https://theoretics.episciences.org/page/submission-information",
+      "submission_url": null,
+      "subjects": ["informatics-computing"],
+      "formats": ["original_research"],
+      "scope_notes": "Original research across theoretical computer science, including full versions of conference papers. Articles need complete proofs and a contribution of lasting significance. Review articles are not a stated article type.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Diamond Episciences journal with no publication fees or APCs. First post the article and LaTeX sources on arXiv/CoRR; obtain an Episciences account and submit the correct arXiv version. There is no page limit. Authors must be natural persons and must categorize and disclose AI contributions. This journal route does not require conference presentation or registration.",
+        "other_mandatory_costs": "None stated for the standard journal route; journal and platform policies establish the free route.",
+        "fee_evidence": [
+          {
+            "url": "https://theoretics.episciences.org/",
+            "checked_on": "2026-11-16",
+            "note": "The journal identifies as diamond open access, rules out publication fees/APCs and identifies its Episciences overlay platform.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "The publisher/platform policy applies to all Episciences journals and states no access/publication fees and no payment condition on submission or publication.",
+            "access": "page"
+          },
+          {
+            "url": "https://theoretics.episciences.org/page/submission-information",
+            "checked_on": "2026-11-16",
+            "note": "The journal's current submission instructions independently state no publication charges and document its arXiv/CoRR submission route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {"type": "peer_reviewed", "source_urls": ["https://theoretics.episciences.org/page/review-process"]},
+      "difficulty": {"band": "unknown", "basis": "No expansion-role ranking assigned. Its two-phase review and lasting-significance criteria are evidence for the ranking role, not measured acceptance odds.", "source_urls": ["https://theoretics.episciences.org/page/review-process"]},
+      "metrics": [],
+      "discovery_sources": ["https://theoretics.episciences.org/", "https://theoretics.episciences.org/page/submission-information", "https://theoretics.episciences.org/page/review-process", "https://www.episciences.org/publishing-model/"]
+    },
+    {
+      "id": "informatics-computing-arxiv-corr",
+      "name": "arXiv computer science / Computing Research Repository (CoRR)",
+      "kind": "preprint_server",
+      "publisher": "arXiv (independent nonprofit organization)",
+      "homepage": "https://arxiv.org/",
+      "author_guidelines": "https://info.arxiv.org/help/submit/index.html",
+      "submission_url": "https://arxiv.org/user",
+      "subjects": ["informatics-computing"],
+      "formats": ["original_research", "methods", "review"],
+      "scope_notes": "Free dissemination of complete computer-science research manuscripts, including material later submitted to overlay journals. arXiv does not peer-review submissions. Computer-science surveys and position papers require documented successful prior journal/conference peer review; workshop review generally does not suffice.",
+      "route": {
+        "model": "free_deposit",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Free deposit; author registration, endorsement and moderation apply. Authors must have submission rights and meet scholarly, content and format standards. Current moderation limits each author to two new submissions per calendar month and three active submissions. Significant generative AI use must be reported and humans retain responsibility. Deposit and endorsement do not certify results or guarantee journal acceptance.",
+        "other_mandatory_costs": "None stated for submission and public dissemination; no paid membership requirement is established by the official submission policy.",
+        "fee_evidence": [
+          {
+            "url": "https://info.arxiv.org/about/index.html",
+            "checked_on": "2026-11-16",
+            "note": "The official about page states that registered users may submit articles without fees or costs, describes open dissemination, and explicitly distinguishes moderation from peer review.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {"type": "moderation", "source_urls": ["https://info.arxiv.org/about/index.html", "https://info.arxiv.org/help/moderation/index.html"]},
+      "difficulty": {"band": "not_comparable", "basis": "Repository moderation and endorsement are not journal peer review; no acceptance-difficulty comparison is assigned.", "source_urls": ["https://info.arxiv.org/help/moderation/index.html", "https://info.arxiv.org/help/endorsement.html"]},
+      "metrics": [],
+      "discovery_sources": ["https://info.arxiv.org/about/index.html", "https://info.arxiv.org/help/submit/index.html", "https://info.arxiv.org/help/moderation/index.html", "https://info.arxiv.org/help/endorsement.html", "https://info.arxiv.org/help/policies/content-types.html", "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/", "https://theoretics.episciences.org/page/submission-information"]
+    }
+  ],
+  "notes": [
+    "Expansion adds five journals and one separately labeled preprint route, with no duplicate venue in the informatics-computing discovery file read for this pass. All fee conclusions use official pages opened live on the checked date; no search snippet alone establishes verified_free.",
+    "The five journal additions broaden coverage of university-supported software engineering, graph algorithms and foundational computing. They are publication opportunities conditional on scope and scholarly standards, not recommendations for a particular manuscript.",
+    "Journal of Universal Computer Science was a credible additional lead, but its current lib.jucs.org about page returned HTTP 403. The older official jucs.org page says no submission/publication fees but points to the new site; omitted rather than assert that older policy is controlling. Journal of Computational Geometry was also considered, but direct access to its current about page failed with a redirect loop; omitted from the verified set.",
+    "The former DMTCS /page/prepare-submission URL was inaccessible. Its current /en/for-authors page opened successfully and carries an October 1, 2026 update; this current route is recorded.",
+    "arXiv's own current about page identifies it as an independent nonprofit established in 2026; Cornell affiliation is not carried forward as current ownership. arXiv moderation is explicitly not peer review. Its computer-science survey/position-paper prerequisite is documented by the official October 31, 2025 announcement, checked live.",
+    "Retain venue-specific AI restrictions: EISEJ's writing policy is more restrictive than a blanket permission for research generated with AI; JGAA requires disclosure and bars unattributed scientific-content generation; TheoretiCS asks authors to classify AI contributions. Human scientific authorship and responsibility remain essential.",
+    "No ACM or IEEE fee route is inferred from historical subscription or optional-OA policies. No conference registration costs, prestige metrics or estimated acceptance probabilities are assigned. Ranking, independent fee audit and skeptical review remain separate roles."
+  ]
+}

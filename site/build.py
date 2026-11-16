@@ -322,7 +322,8 @@ class Website:
 
     def render_publications(self):
         body = self.heading("Publications", "Share and build on the work", "Journal articles, full conference papers, preprints, and substantive research blogs or technical essays. Output type and peer-review status are recorded separately.")
-        body += '<div class="text-actions">' + link("Publish and record your research", self.docs["publications/publish.md"]) + link("Counting rules", self.docs["publications/README.md"]) + link("Recorded totals", "/activity/#publication-outputs") + link("Share an output ↗", FORUM + "/categories/show-and-tell") + "</div>"
+        body += '<p>OSRI prioritizes research submitted to credible venues that offer free submission and a free publication route.</p>'
+        body += '<div class="text-actions">' + link("Find a free publication route", self.docs["publications/free-publication.md"]) + link("Venue directory", self.docs["publications/venues/README.md"]) + link("Publish and record your research", self.docs["publications/publish.md"]) + link("Counting rules", self.docs["publications/README.md"]) + link("Recorded totals", "/activity/#publication-outputs") + link("Share an output ↗", FORUM + "/categories/show-and-tell") + "</div>"
         rows = [row for row in read_csv("publications/publications.csv") if row["status"] == "published"]
         if rows:
             body += '<div class="record-list">' + "".join(f'<article id="{escape(row["publication_id"].lower())}"><p class="eyebrow">{escape(row["publication_type"])} · {escape(row["peer_review_status"])}</p><h2>{link(row["title"], row["url"])}</h2><p>{escape(row["authors"])}</p><p>{escape(row["first_published_date"])} · Work {escape(row["work_id"])}</p></article>' for row in rows) + "</div>"
@@ -355,6 +356,7 @@ class Website:
         data_paths = ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv", "simulation-lab/tools.csv", "simulation-lab/papers.csv", "simulation-lab/examples.csv", "simulation-lab/research/routes.csv"]
         data_paths += [path.relative_to(HUB).as_posix() for path in sorted((HUB / "simulation-lab/research/verification").glob("*.csv"))]
         data_paths += [path.relative_to(HUB).as_posix() for path in sorted((HUB / "simulation-lab/reproductions").rglob("*.csv"))]
+        data_paths += ["publications/venues/venues.csv"]
         for path in data_paths:
             destination = self.output / "data" / path.replace("/", "-")
             destination.parent.mkdir(exist_ok=True)
