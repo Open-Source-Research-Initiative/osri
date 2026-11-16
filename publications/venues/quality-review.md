@@ -4,7 +4,7 @@ The November 16, 2026 campaign reviews the 146 AI-compatible venues for public e
 
 ## Findings
 
-As of November 16, 2026, all 146 included venues have an assessment: **118 have core standards documented, 27 have incomplete verification, and one has a documented medium concern**. These are evidence statuses, not quality scores. The 74 verified free peer-reviewed author routes remain cost-verified; **73 appear in the default recommendations** after the quality hold.
+As of November 16, 2026, all 146 included venues have an assessment: **118 have core standards documented, 27 have incomplete verification, and one has a documented medium concern**. These are evidence statuses, not quality scores. The 74 verified free peer-reviewed author routes remain cost-verified; **57 have core standards documented and appear by default**. An expanded mode includes 16 free routes with incomplete checks, for 73 options without a medium/high concern. This stricter [display policy](display-policy.md) updates the initial quality-campaign default without changing the evidence.
 
 | Venue | Finding | Directory treatment |
 | --- | --- | --- |
@@ -27,6 +27,6 @@ A publication sample may be a publisher article page, journal contents entry, ac
 - **Verification incomplete:** at least one core check remains unresolved, without a specific evidenced medium or high concern.
 - **Concerns documented:** at least one specific medium or high concern has supporting evidence. Open the venue for the observation, rationale and sources.
 
-The default results exclude documented concerns but retain incomplete reviews. Select a quality status or all statuses to inspect other records. These categories are not a prestige score, certification or prediction of article quality. Agent evidence review is not independent human scientific review or endorsement.
+The default results require core standards documented. Select Include incomplete quality checks or All directory records to inspect other records. These categories are not a prestige score, certification or prediction of article quality. Agent evidence review is not independent human scientific review or endorsement.
 
 Index evidence distinguishes a readable exact-identity registry confirmation from a publisher claim and an unresolved check. Coverage and historical status are recorded when available. An absent index listing is not evidence of misconduct; blocked access or an unsuccessful search does not establish non-indexing. DOI registration and Google Scholar discovery do not establish selective citation-index inclusion, and [PubMed coverage is distinct from MEDLINE selection](https://www.nlm.nih.gov/bsd/serfile_addedinfo.html). Read the linked sources and access notes before drawing conclusions, and recheck current policies before submission.

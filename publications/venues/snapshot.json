@@ -1,6 +1,6 @@
 {
   "source_repository": "free-publication-directory",
-  "source_commit": "3e8539cbddcf549c0b6d7a95cc69e13e3dee1a21",
+  "source_commit": "1a70b77f555799f1ed85a50df0c80b93adc265ac",
   "checked_on": "2026-11-16",
   "files": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "d03a928f5c5b111544d892ab5b06855d709f8acdfd3af9539e242206bb06c7bc"
+      "sha256": "6b4b0c3eb05c0337876e41f410d9c0970fe4206f80be9bbd010daaffbb2880ef"
     },
     {
       "path": "RESEARCH_NOTES.md",
@@ -20,12 +20,16 @@
       "sha256": "b1c71337201c3376e43c61d0f2130e599683ff4a18fc8c8f1b7bd2ef8fb6f2b2"
     },
     {
+      "path": "browser-fragment.html",
+      "sha256": "0950afa6890539f01dabd865cae48c00e7682a50718a66d7312898403869f8be"
+    },
+    {
       "path": "browser.html",
-      "sha256": "1a3b9769f92c81270b2acde1f218b62baf3bf285b542d57ec381f8fef4286c30"
+      "sha256": "44d94edb760cb89d29b9ee54760763e9ffc238d261d205914c0cd2b6c2a7cf8d"
     },
     {
       "path": "build-receipt.json",
-      "sha256": "aba6e8799b5ddfbb8fc9a707f9bda844aecf602d7f12c43505d259a8dc68c2da"
+      "sha256": "849ffbd08f69d1c505c4f72587566ae4d89bdb972551b227355aae92c1e627ae"
     },
     {
       "path": "candidates.json",
@@ -37,7 +41,19 @@
     },
     {
       "path": "coverage.json",
-      "sha256": "d4b47d378c9beabe9cb7c1443ae2ee10c11423b848e573dcc018e8fec6601d02"
+      "sha256": "b7d74a63972b7fcff7417c2dfd34b8aa5085ed51e830fd830a7989dc54e653eb"
+    },
+    {
+      "path": "directory.css",
+      "sha256": "2d588ac8cbd7d330a1a4feebeb6a3aec7a93bfca7b8dba5408c6027b9f13e121"
+    },
+    {
+      "path": "directory.js",
+      "sha256": "d21abb86f1b71e7750b22eaae705725ecb625da223e61538775c868daf2cd7ab"
+    },
+    {
+      "path": "display-policy.md",
+      "sha256": "dad727d22aa74115de89f04ff49f225d565be9fa9fbbf8d46c39479e64581c9b"
     },
     {
       "path": "excluded-venues.json",
@@ -49,11 +65,11 @@
     },
     {
       "path": "methodology.md",
-      "sha256": "5c20f4785ae3c02f592e186600bd956e30a2464d917611bff6e69dc874bb2874"
+      "sha256": "4abea4abc625b9bf06de84f267b5b7ab11901d871273c2b06b8e1dcd349a59cc"
     },
     {
       "path": "quality-review.md",
-      "sha256": "47b5ec4ce48df251cf29900b0a43d2bddaa927cc3f76efdfe7697fb6a03ce9a7"
+      "sha256": "9d49971acd5580dd51586c381bb4f7c713f764ad7f326d55bf26a0b893054e05"
     },
     {
       "path": "research/CONTRACT.md",
@@ -1185,103 +1201,103 @@
     },
     {
       "path": "subfields/business-innovation.md",
-      "sha256": "6bbe9f7598247da02c68cdb831f44a7e461830d6e6af4366a223a2ed70201648"
+      "sha256": "34c25412693fe3049c4d7c67948a267f203967762c8f843322b5fb0bf1fe633a"
     },
     {
       "path": "subfields/computational-biology.md",
-      "sha256": "6c626ec5b1ad16cdc908d6323907915b58d4e73cfd33c54ceacf8bb12c389842"
+      "sha256": "9be63f5fa7c39b29fdfff423e33989631ee27d416fcc6f1c0f4382c320cbb9a6"
     },
     {
       "path": "subfields/computational-physical-sciences.md",
-      "sha256": "1776ce9dee8da51014a3565785c1f77d3e613656c8b323710b78d15faafd0be8"
+      "sha256": "a353868b54045546003d0ab2217cfbc9e6839d5ace4793627d13b6d567c2094b"
     },
     {
       "path": "subfields/cybersecurity-privacy.md",
-      "sha256": "f5779e9996a01c77e754d48fbfd0c0b98d0ff8bd889c07647af924633a471cd6"
+      "sha256": "ea96e0bf1501bd35042b6c2d0cb8233b43c26ce93f2f869e0046d5601b7c2b9d"
     },
     {
       "path": "subfields/economics.md",
-      "sha256": "26d0eb404664c5b8420dfec55c45f711c7f90a079d488f3aa1605128a5d3c2cb"
+      "sha256": "dc9666601603148f767540aa6721441e048c2dc8673453790258c5562b7b5e56"
     },
     {
       "path": "subfields/education-learning-sciences.md",
-      "sha256": "0766e0a7366846260e81a3e59445154bff0a21c5c6faf3a0ccd253a46aef83f8"
+      "sha256": "37951d6995c7b147573223fb69d846d0244a3a9f333c83e34205e407705ab332"
     },
     {
       "path": "subfields/energy-environmental-engineering.md",
-      "sha256": "73988a669878775eef066f0ab5d291d7002a00ff90c6e3a04ac07b06b4e376d6"
+      "sha256": "6430f737914a35b7e01af18ac702ee3f43cdeb1e19a07a751b00b8dad2dd37e2"
     },
     {
       "path": "subfields/environmental-public-health.md",
-      "sha256": "32e2a818fc3a76904fb92a60552186401b8fb7abcab0c395e73c6333e545dca8"
+      "sha256": "b5a54735ebbe21ddc8afbea5e504a6908d81dd5fea1ff53263dd4c9762bbe501"
     },
     {
       "path": "subfields/epidemiology-biostatistics.md",
-      "sha256": "ebd270c80934cc9d8eb12046138fa343ed8e381adecf571b633765bed0ae9b6b"
+      "sha256": "8498e194f505ca4897e6e5ecb44fb5b829c01db52409d2a860bd992dbe79c252"
     },
     {
       "path": "subfields/health-economics.md",
-      "sha256": "968b61a2186dedc12d6809882efee2edb85e1fd1bbaabba4f5bd8f273892b848"
+      "sha256": "d9a70a893c5bf1c1b8e946721cf661de0f39a9410e4ff9a833afb7cde4d8bebc"
     },
     {
       "path": "subfields/health-systems.md",
-      "sha256": "ad22c30c58412ff81769fd1d5287417b859d9da408cc12811a888e9438d0fde6"
+      "sha256": "23f1369c9998ae2ae81f47c0b829c134203c819d09ff8075a6ed8e7472588f62"
     },
     {
       "path": "subfields/human-computer-interaction.md",
-      "sha256": "9ec517676ef43a2c08e8a7145fd6dae33fba7302536448925f36f9e083402927"
+      "sha256": "cd617392e32e858ee5ff1e38788557c9749897b5714a154f5ca35037718ee7d5"
     },
     {
       "path": "subfields/informatics-computing.md",
-      "sha256": "30ce514e823e37abf7a20415ac23542b5a6371c1135d3be56ce69470b1bcfb88"
+      "sha256": "7aad824cc61f682385493d318620fe681b1a9e38d514d3a20513fdf5401e04b4"
     },
     {
       "path": "subfields/meta-research.md",
-      "sha256": "96e330971b610c58e523864bb6337292f0781eb7075e3793c59f9a70dc5e15f0"
+      "sha256": "ee3a2dec8e12f7add67864a4fa804ff1d177a9544374a59d6a3e0f852429d7f0"
     },
     {
       "path": "subfields/operations-simulation.md",
-      "sha256": "4536828722be8c5ad695b40423b1eb575cef169fd45278c1c195864f65406721"
+      "sha256": "520ea35bcf8cb388542abd277a878d0a732461d09d14a3343a38e6c36e376754"
     },
     {
       "path": "subfields/political-science.md",
-      "sha256": "1c88e0ef98f21877b53632dec1e6b9ce1e47fd0079391c4094d7e50cfda6d072"
+      "sha256": "f8cd7e55cf97dec82d72baf794d12e06776ab3005efd25cc4bf3b31d95f005f6"
     },
     {
       "path": "subfields/psychology-behavior.md",
-      "sha256": "7454b7097c881bbfc910f2ab5063936edfbff4a9fb723b789133aff9f8b9ab24"
+      "sha256": "d310882326d9205b05b27ea7b13d52babab63665f5e91a2ee63390fa2fbb234a"
     },
     {
       "path": "subfields/public-health.md",
-      "sha256": "179566c55c6d92fccceb75666960b535dee00cc8ec875d6ca12f036d30beb34c"
+      "sha256": "d7192ee0db2c1b91666c27ea96e4ac3b3f50620dea38c930f595d6bd03e91e3a"
     },
     {
       "path": "subfields/public-policy.md",
-      "sha256": "3ab67637365159dd1a4b9a18ef860b76e439be54114561c40ed2543518e5ecf1"
+      "sha256": "bb859095eae1dd905d8732f227eec7f2db2b419eddcc4f86e8a5f8227b1a0ac9"
     },
     {
       "path": "subfields/robotics-control.md",
-      "sha256": "90392a4ec8bebbeaf8f3970ae58cdad4bf1b0cc30961f598c86c74c3589ba846"
+      "sha256": "81b7861f9436514760f624ba8417cb340ee605653088215e4e6b97461d0411c2"
     },
     {
       "path": "subfields/sociology-organizations.md",
-      "sha256": "c7969cea6ad072b80e6b0904f136acb5719cc481c02efd257c7f997988a02bd1"
+      "sha256": "4cfd4bedb8eacd5c9ad47d23b5eff04bb8ae3af3da1ee147eaf4c2e5afd1b05e"
     },
     {
       "path": "subfields/software-engineering.md",
-      "sha256": "98bc5a31704967567e09684045f3ba16c081c529e5535aded00b31ef623d4ac0"
+      "sha256": "a92bf7abb7101aa5aa657ccd7956bc223ae4873ba9844d5fc9bf2db6fe3ca9c1"
     },
     {
       "path": "subfields/statistics-applied-mathematics.md",
-      "sha256": "9d5d0c4e460333c001367a1c07d2232bf03183b795e6d0917f681df66717ba62"
+      "sha256": "1b2fbb9945e97f4281c1ec1876865df9abad92f99360724c0e124c0928b99685"
     },
     {
       "path": "subfields/systems-engineering.md",
-      "sha256": "9b93f0e188bc39f4521900d2e3c2971e4c34ea8d9c637f673a9d6810459ac97e"
+      "sha256": "8fa3141be5d201d07468a2edb7f2b1d6a1f674b769c060cdfde4f592c49cae7b"
     },
     {
       "path": "validation.json",
-      "sha256": "0f71a213e35f653dabeb85eacbf758b048b0ab1a619321fa4ae219c12f230955"
+      "sha256": "17eb96d8607deab4f953cf57befbdbbb90a03004ab09b5790334c2440140fdd8"
     },
     {
       "path": "venues.csv",

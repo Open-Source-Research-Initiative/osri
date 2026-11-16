@@ -13,7 +13,7 @@ from unittest.mock import patch
 
 import build
 from check import check, Page
-from records import project_data
+from records import project_data, project_status
 import render
 
 ROOT = build.HUB
@@ -39,7 +39,30 @@ class Records(unittest.TestCase):
         projects, summaries, targets = project_data(self.root)
         self.assertEqual(len(projects), 1)
         self.assertEqual(len(targets), 3)
-        self.assertEqual(summaries['OSRI-0001']['status'], 'AI screening resumed')
+        self.assertEqual(project_status(summaries['OSRI-0001']), 'Active · Research')
+
+    def test_stage_and_activity_validation(self):
+        for key in ['stage','activity']:
+            original=self.summaries[0][key]; self.summaries[0][key]='batch_paused'; self.save()
+            with self.assertRaisesRegex(ValueError,'stage or activity'): project_data(self.root)
+            self.summaries[0][key]=original
+
+    def test_whole_project_hold_requires_lead_and_reason(self):
+        s=self.summaries[0]; s['activity']='on_hold'; self.save()
+        with self.assertRaisesRegex(ValueError,'hold needs a reason'): project_data(self.root)
+        s['hold_reason']='Human lead paused the whole project for a scheduled review.'; self.save()
+        self.assertEqual(project_status(project_data(self.root)[1]['OSRI-0001']),'On hold · Research')
+        s['status_decision']['by']='Agent'; self.save()
+        with self.assertRaisesRegex(ValueError,'registered human lead'): project_data(self.root)
+
+    def test_batch_notes_do_not_pause_project_or_advance_stage(self):
+        self.summaries[0]['status_detail']='A batch is paused and human review is pending.'; self.save()
+        self.assertEqual(project_status(project_data(self.root)[1]['OSRI-0001']),'Active · Research')
+
+    def test_stages_can_repeat_without_publication_claims(self):
+        for stage in ['writing_review','research','planning','publication']:
+            self.summaries[0]['stage']=stage; self.save(); project_data(self.root)
+        self.assertEqual(self.summaries[0]['activity'],'active')
 
     def test_unknown_project_rejected(self):
         self.summaries[0]['project_id'] = 'OSRI-9999'
@@ -124,7 +147,7 @@ class Rendering(unittest.TestCase):
                 with (hub / 'projects/projects.csv').open('a') as stream:
                     stream.write('OSRI-0002,Second study,https://example.org/study,Engineering,Second human\n')
                 summaries = json.loads((hub / 'projects/summaries.json').read_text())
-                second = copy.deepcopy(summaries[0]); second['project_id'] = 'OSRI-0002'; second['short_title'] = 'Second study'; second['summary'] = 'Second question with a separate human lead.'; second['status'] = 'Scoping'
+                second = copy.deepcopy(summaries[0]); second['project_id'] = 'OSRI-0002'; second['short_title'] = 'Second study'; second['summary'] = 'Second question with a separate human lead.'; second['stage'] = 'planning'; second['status_decision']['by'] = 'Second human'
                 summaries.append(second)
                 (hub / 'projects/summaries.json').write_text(json.dumps(summaries))
             output = Path(temp) / 'built'
@@ -147,6 +170,35 @@ class Rendering(unittest.TestCase):
             self.assertNotIn('href="${escapeText(p)}"', browser)
             self.assertIn('/free-publication-directory/blob/', browser)
             self.assertEqual((output / 'data/publications-venues-venues.json').read_bytes(), (ROOT / 'publications/venues/venues.json').read_bytes())
+            self.assertEqual(browser.count('<main '),1)
+            self.assertIn('class="site-header wrap"',browser)
+            self.assertIn('data-provenance-base="https://github.com/',browser)
+            self.assertIn('/venue-directory.js',browser)
+            self.assertIn('name="subfield"',(output / 'index.html').read_text())
+            for route in ['index.html','research/index.html','contribute/index.html','research/osri-0001/index.html']:
+                text=(output / route).read_text()
+                self.assertIn('Active · Research',text)
+                self.assertNotIn('screening remains paused',text)
+            self.assertIn('aria-current="step">Research',(output / 'research/osri-0001/index.html').read_text())
+
+    def test_tampered_directory_assets_rejected(self):
+        for asset in ['directory.css','directory.js','browser-fragment.html','venues.json']:
+            with tempfile.TemporaryDirectory() as temp:
+                directory=Path(temp)/'publications/venues'
+                shutil.copytree(ROOT/'publications/venues',directory)
+                (directory/asset).write_text('altered')
+                site=object.__new__(build.Website)
+                with patch.object(build,'HUB',Path(temp)):
+                    with self.assertRaisesRegex(ValueError,'reviewed snapshot'):site.venue_snapshot()
+
+    def test_explicit_project_hold_shows_reason_on_project_page(self):
+        with self.fixture() as (site, output):
+            record=site.summaries['OSRI-0001']
+            record.update(activity='on_hold',hold_reason='Whole-project hold requested by the human lead.')
+            text=render.project(site,site.projects[0])
+            self.assertIn('On hold · Research',text)
+            self.assertIn(record['hold_reason'],text)
+            self.assertIn('data-activity="on_hold"',text)
 
     def test_tampered_venue_browser_rejected(self):
         with tempfile.TemporaryDirectory() as temp:

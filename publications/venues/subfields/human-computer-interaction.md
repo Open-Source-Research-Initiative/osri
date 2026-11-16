@@ -1,6 +1,6 @@
 # Human-computer interaction and human factors
 
-Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
+Free peer-reviewed routes with a compatible AI policy and core editorial standards documented. Check current author instructions before submission.
 
 ## Journal of Human-Technology Relations
 
