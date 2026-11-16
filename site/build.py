@@ -124,6 +124,8 @@ class Website:
             return self.docs[target] + suffix
         if target.endswith(".csv") and (HUB / target).is_file():
             return "/data/" + target.replace("/", "-") + suffix
+        if target.startswith('site/assets/') and (HUB / target).is_file():
+            return '/' + target.removeprefix('site/') + suffix
         if target.startswith('identity/prism/previews/') and target.endswith('.png'):
             vector = 'identity/prism/sources/' + Path(target).stem + '.svg'
             if (HUB / vector).is_file():
@@ -250,6 +252,8 @@ class Website:
             fragment = fragment.replace(old, new)
         for source, destination in [('directory.css','venue-directory.css'),('directory.js','venue-directory.js')]:
             shutil.copy2(directory / source, self.output / destination)
+        help_links = '<nav class="text-actions" aria-label="Directory help">' + link('90-second walkthrough', self.docs['docs/venue-directory-demo.md']) + link('Report a source or correction ↗', 'https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/new?template=venue-evidence.yml') + link('Share your experience ↗', 'https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/new?template=directory-use.yml') + link('Choose a starter task', self.docs['community/venue-starter-tasks.md']) + '</nav>'
+        fragment = help_links + fragment
         extra = '<link rel="stylesheet" href="/venue-directory.css"><script defer src="/venue-directory.js"></script>'
         self.write('/venues/', self.layout('Free publication directory', fragment, active='/venues/', source='publications/venues/snapshot.json', description='Find free publication routes with documented editorial standards. Compare research fit, author costs, AI disclosure, indexing and eligibility.', extra_head=extra))
 
@@ -454,7 +458,8 @@ class Website:
             title = title_of(text, Path(path).stem)
             if not re.search(r"^# ", text, re.M):
                 text = f"# {title}\n\n{text}"
-            self.write(url, self.layout(title, self.markdown(text, path), active=url, source=path, chinese=path.startswith("translations/zh-Hans/"), document=True))
+            body = render.venue_demo(self, title, text.partition('\n')[2]) if path == 'docs/venue-directory-demo.md' else self.markdown(text, path)
+            self.write(url, self.layout(title, body, active=url, source=path, chinese=path.startswith("translations/zh-Hans/"), document=True))
         original_contribution = self.markdown((HUB / 'CONTRIBUTING.md').read_text(), 'CONTRIBUTING.md')
         original_contribution = re.sub(r'<h1(.*?)>(.*?)</h1>', r'<h2\1>\2</h2>', original_contribution, count=1)
         collaboration = render.collaborate(self) + '<details class="contribution-details"><summary>Full contribution guide</summary><div class="document">' + original_contribution + '</div></details>'
