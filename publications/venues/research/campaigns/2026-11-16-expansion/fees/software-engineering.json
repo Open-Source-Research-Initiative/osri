@@ -1,0 +1,209 @@
+{
+  "subfield": "software-engineering",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/software_fees",
+  "notes": [
+    "Eight discovery candidates audited; the helper returned no additional baseline records. Journal fee policies do not establish AI compatibility."
+  ],
+  "patches": [
+    {
+      "id": "software-engineering-journal-object-technology",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The journal states it is completely free to authors and readers, and its general policy applies to all contributions.",
+        "other_mandatory_costs": "No compulsory membership, page or conference charge stated for regular journal submissions.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jot.fm/oa.php",
+            "checked_on": "2026-11-16",
+            "note": "Journal states completely free for authors and readers.",
+            "access": "page"
+          },
+          {
+            "url": "https://submissions.jot.fm/index.php/jot/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Regular submission instructions have no fixed page limit; optional presentation artifact.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    },
+    {
+      "id": "software-engineering-art-science-engineering-programming",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "not_free",
+        "oa_status": "open_access",
+        "conditions": "Journal says authors pay no journal fee, but its publication agreement requires an author to register for and present at the next Programming conference.",
+        "other_mandatory_costs": "Conference registration required; 2026 online rate was €200. Student volunteering and financial hardship support are conditional; future rates may differ.",
+        "fee_evidence": [
+          {
+            "url": "https://programming-journal.org/",
+            "checked_on": "2026-11-16",
+            "note": "Journal says authors do not need to pay any journal fee.",
+            "access": "page"
+          },
+          {
+            "url": "https://programming-journal.org/copyright/AGREEMENT.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Publication agreement requires author or coauthor to register and present at next conference.",
+            "access": "page"
+          },
+          {
+            "url": "https://2026.programming-conference.org/attending/registration",
+            "checked_on": "2026-11-16",
+            "note": "2026 conference listed paid registration, including €200 online, with conditional volunteer and hardship options.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    },
+    {
+      "id": "software-engineering-e-informatica",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal says no fees for authors or readers, with no paper length limit.",
+        "other_mandatory_costs": "No mandatory membership or conference charges stated.",
+        "fee_evidence": [
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no fees for authors and readers and no paper length limit.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    },
+    {
+      "id": "software-engineering-journal-statistical-software",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Author instructions explicitly describe free submission and no author fees across publishing.",
+        "other_mandatory_costs": "No compulsory membership, page or conference charges stated.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jstatsoft.org/authors",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions describe free submission and no author fees, including publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    },
+    {
+      "id": "software-engineering-journal-open-source-software",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal states no fees for manuscript processing or publishing and zero publication fees. Research software must satisfy submission requirements.",
+        "other_mandatory_costs": "No compulsory membership, page or conference charges stated; donations are voluntary.",
+        "fee_evidence": [
+          {
+            "url": "https://joss.theoj.org/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no fees for manuscript processing or publishing materials and zero publication fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    },
+    {
+      "id": "software-engineering-journal-functional-programming",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The new 2026 publisher states no publication fee; submission fee and other compulsory costs not explicitly confirmed. Requires deposit in an accepted repository.",
+        "other_mandatory_costs": "Submission or other compulsory costs not fully verified.",
+        "fee_evidence": [
+          {
+            "url": "https://jfp.mpi-sws.org/",
+            "checked_on": "2026-11-16",
+            "note": "New publisher states no publication fee after 2026 move; does not explicitly address submission fee.",
+            "access": "page"
+          },
+          {
+            "url": "https://jfp.episciences.org/for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions describe submission through an open repository and Episciences.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    },
+    {
+      "id": "software-engineering-journal-formalized-reasoning",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal explicitly states no submission processing fees or article processing charges.",
+        "other_mandatory_costs": "Other compulsory page, membership, or conference costs not explicitly resolved.",
+        "fee_evidence": [
+          {
+            "url": "https://jfr.unibo.it/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal explicitly states neither submission processing fees nor article processing charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    },
+    {
+      "id": "software-engineering-logical-methods-computer-science",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal answers no to whether any charges apply to authors, specifically including page charges; submission requires an arXiv preprint.",
+        "other_mandatory_costs": "No compulsory membership or conference charges stated.",
+        "fee_evidence": [
+          {
+            "url": "https://lmcs.episciences.org/page/faq",
+            "checked_on": "2026-11-16",
+            "note": "FAQ says no charges for authors and no page charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://lmcs.episciences.org/public/instructions.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions describe journal as free of cost to authors and readers.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent official-source fee audit; applies to the described standard journal route."
+    }
+  ]
+}

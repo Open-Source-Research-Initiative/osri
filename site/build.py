@@ -227,16 +227,20 @@ class Website:
         text = browser.read_text()
         replacements = {
             'href="DIRECTORY.md"': 'href="' + self.docs['publications/venues/README.md'] + '"',
+            'href="README.md"': 'href="' + self.docs['publications/venues/README.md'] + '"',
             'href="docs/methodology.md"': 'href="' + self.docs['publications/venues/methodology.md'] + '"',
+            'href="methodology.md"': 'href="' + self.docs['publications/venues/methodology.md'] + '"',
             'href="data/venues.csv"': 'href="/data/publications-venues-venues.csv"',
+            'href="venues.csv"': 'href="/data/publications-venues-venues.csv"',
             'href="data/venues.json"': 'href="/data/publications-venues-venues.json"',
+            'href="venues.json"': 'href="/data/publications-venues-venues.json"',
             'href="LICENSE.md"': 'href="' + self.docs['LICENSE.md'] + '"',
             'href="https://github.com/Open-Source-Research-Initiative"': 'href="/"',
             'href="${escapeText(p)}"': 'href="' + GITHUB + '/free-publication-directory/blob/' + snapshot['source_commit'] + '/${escapeText(p)}"',
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
-        description = 'Compare free research submission and publication routes by subfield, fee conditions, editorial demands and source-linked metrics.'
+        description = 'Compare research venues by submission and publication costs, AI policies and disclosure, geography, and reported metrics.'
         text = text.replace('</head>', '<meta name="description" content="' + description + '"><meta property="og:title" content="Free publication directory · OSRI"><meta property="og:description" content="' + description + '"><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"></head>')
         source = link('Website source', self.source_url('publications/venues/snapshot.json'))
         source += ' · ' + link('Directory repository', GITHUB + '/free-publication-directory')

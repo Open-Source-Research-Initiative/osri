@@ -1,0 +1,180 @@
+{
+  "subfield": "human-computer-interaction",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/hci_fees",
+  "notes": [
+    "The discovery file currently repeats the eight baseline IDs rather than listing additional venues; patches cover every distinct candidate returned by the helper.",
+    "No conference registration fee is inferred for the CLEI journal; separate conference participation can incur charges."
+  ],
+  "patches": [
+    {
+      "id": "human-computer-interaction-journal-of-human-technology-relations",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The journal explicitly states neither submission charges nor APCs are required and publishing is completely free.",
+        "other_mandatory_costs": "No mandatory page or membership charge stated; article-type word limits apply.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.open.tudelft.nl/jhtr/about",
+            "checked_on": "2026-11-16",
+            "note": "The policy expressly covers both submission and publication. The journal explicitly states neither submission charges nor APCs are required and publishing is completely free.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "The policy expressly covers both submission and publication."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-visualization-and-interaction",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The journal describes its diamond model as charging no author fees.",
+        "other_mandatory_costs": "No mandatory page or membership charge stated.",
+        "fee_evidence": [
+          {
+            "url": "https://www.journalovi.org/",
+            "checked_on": "2026-11-16",
+            "note": "The journal-wide no-author-fees statement covers the standard submission and publication route. The journal describes its diamond model as charging no author fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "The journal-wide no-author-fees statement covers the standard submission and publication route."
+    },
+    {
+      "id": "human-computer-interaction-avances-en-interaccion-humano-computadora",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The journal states authors are not charged for submission, processing or publication.",
+        "other_mandatory_costs": "No mandatory page or membership charge stated.",
+        "fee_evidence": [
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/OA",
+            "checked_on": "2026-11-16",
+            "note": "Explicit free submission and publication policy. The journal states authors are not charged for submission, processing or publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Explicit free submission and publication policy."
+    },
+    {
+      "id": "human-computer-interaction-interaccion",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The society states that publication carries no cost for authors and both submission and publication are completely free.",
+        "other_mandatory_costs": "No mandatory page or membership charge stated.",
+        "fee_evidence": [
+          {
+            "url": "https://aipo.es/investigacion/revista-interaccion/",
+            "checked_on": "2026-11-16",
+            "note": "Official society statement covers both stages. The society states that publication carries no cost for authors and both submission and publication are completely free.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official society statement covers both stages."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-human-centered-technology",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The journal says no fees are charged upon publishing; submission charges and other mandatory costs are not explicitly addressed.",
+        "other_mandatory_costs": "Unknown; page and membership charges not verified.",
+        "fee_evidence": [
+          {
+            "url": "https://humentech.utm.my/index.php/humentech/about",
+            "checked_on": "2026-11-16",
+            "note": "No submission fee cannot be inferred from free publication. The journal says no fees are charged upon publishing; submission charges and other mandatory costs are not explicitly addressed.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "No submission fee cannot be inferred from free publication."
+    },
+    {
+      "id": "human-computer-interaction-clei-electronic-journal",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The journal says no fees to read or publish. Submission and other compulsory charges are not explicitly addressed.",
+        "other_mandatory_costs": "Unknown; page and membership charges not verified.",
+        "fee_evidence": [
+          {
+            "url": "https://clei.org/cleiej/index.php/cleiej/about",
+            "checked_on": "2026-11-16",
+            "note": "This is the journal route, distinct from paid CLEI conference registration. The journal says no fees to read or publish. Submission and other compulsory charges are not explicitly addressed.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "This is the journal route, distinct from paid CLEI conference registration."
+    },
+    {
+      "id": "human-computer-interaction-security-and-information-applications",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The journal states it does not charge APCs; submission and other compulsory charges are not explicitly addressed.",
+        "other_mandatory_costs": "Unknown; page and membership charges not verified.",
+        "fee_evidence": [
+          {
+            "url": "https://mojes.um.edu.my/index.php/JSIA/about",
+            "checked_on": "2026-11-16",
+            "note": "No APC does not establish a free submission or absence of other charges. The journal states it does not charge APCs; submission and other compulsory charges are not explicitly addressed.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "No APC does not establish a free submission or absence of other charges."
+    },
+    {
+      "id": "human-computer-interaction-international-journal-of-research-in-computing",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The journal states there are no publication fees; submission and other compulsory charges are not explicitly addressed.",
+        "other_mandatory_costs": "Unknown; page and membership charges not verified.",
+        "fee_evidence": [
+          {
+            "url": "https://mail.ijrcom.org/index.php/ijrc/about",
+            "checked_on": "2026-11-16",
+            "note": "No publication fee does not establish free submission or absence of other charges. The journal states there are no publication fees; submission and other compulsory charges are not explicitly addressed.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "No publication fee does not establish free submission or absence of other charges."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "subfield": "software-engineering",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/software_review",
+  "notes": [
+    "Reviewed all eight candidate identities and all fee, geography, and AI policy patches; challenged compatible claims against JOSS and JFP policies, language-only restriction against e-Informatica, and mandatory conference terms against the Programming agreement. Author eligibility remains not stated throughout.",
+    "Official venue metrics searches found no sufficiently specific reported acceptance rates for these records; empty arrays do not imply zero citations or easy acceptance. JFP direct ACM policy was blocked; the other auditor reports reading an official ACM reproduction. Review is agent evidence review, not human scientific review."
+  ],
+  "patches": [
+    {
+      "id": "software-engineering-journal-object-technology",
+      "metrics": [],
+      "audit_note": "General author-free statement and Italian editorial contact supported; policy silence does not establish AI permission."
+    },
+    {
+      "id": "software-engineering-art-science-engineering-programming",
+      "metrics": [],
+      "audit_note": "Agreement requires conference registration and presentation; paid 2026 rate does not guarantee future charges. AI policy permits writing but does not explicitly establish substantive analytical use."
+    },
+    {
+      "id": "software-engineering-e-informatica",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.0,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/",
+          "note": "Journal-reported 2025 impact factor; not an acceptance rate."
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.5,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/",
+          "note": "Journal-reported Scopus CiteScore; not an acceptance rate."
+        }
+      ],
+      "audit_note": "Official author policy restricts AI writing to language/readability; 2025 metrics are journal-reported and do not predict acceptance."
+    },
+    {
+      "id": "software-engineering-journal-statistical-software",
+      "metrics": [],
+      "audit_note": "Submission guide explicitly states no author fees and free submission; AI policy remains unverified."
+    },
+    {
+      "id": "software-engineering-journal-open-source-software",
+      "metrics": [],
+      "audit_note": "Journal AI policy explicitly permits research software creation and manuscript drafting with mandatory specific disclosure and human verification; geography and author eligibility remain unknown."
+    },
+    {
+      "id": "software-engineering-journal-functional-programming",
+      "metrics": [],
+      "audit_note": "Journal adopts ACM authorship guidelines; ACM direct policy inaccessible in this review, so applicability depends on the official ACM reproduction already recorded. Current submission costs remain unverified."
+    },
+    {
+      "id": "software-engineering-journal-formalized-reasoning",
+      "metrics": [],
+      "audit_note": "Official about page supports scope and no processing charges; additional compulsory costs and substantive AI permission remain unverified."
+    },
+    {
+      "id": "software-engineering-logical-methods-computer-science",
+      "metrics": [],
+      "audit_note": "FAQ answers no to author charges and identifies absence of page charges; it does not establish AI permission."
+    }
+  ],
+  "findings": [
+    {
+      "id": "software-engineering-art-science-engineering-programming",
+      "severity": "high",
+      "issue": "Publication agreement requires conference registration and presentation; a zero journal fee alone is insufficient.",
+      "resolution": "Retain fees auditor not_free classification and dated conference rate, subject to future rates."
+    },
+    {
+      "id": "software-engineering-e-informatica",
+      "severity": "high",
+      "issue": "Writing policy limits generative AI to language and readability.",
+      "resolution": "Retain limited compatibility and exclude from the AI-compatible main directory."
+    },
+    {
+      "id": "software-engineering-journal-functional-programming",
+      "severity": "medium",
+      "issue": "Publisher changed in 2026; submission costs remain unconfirmed and direct ACM page was inaccessible.",
+      "resolution": "Retain needs_verification route and linked adoption plus official ACM reproduction evidence; recheck current policy and fee before submitting."
+    },
+    {
+      "id": "software-engineering-journal-open-source-software",
+      "severity": "low",
+      "issue": "Software-specific permission and mandatory disclosure must accompany compatibility; author geography is not established.",
+      "resolution": "Retain conditional permissions, required disclosure, and not_stated author eligibility."
+    }
+  ]
+}

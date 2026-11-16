@@ -1,0 +1,279 @@
+{
+  "subfield": "epidemiology-biostatistics",
+  "role": "geography",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_geo_epidemiology_biostatistics",
+  "notes": [
+    "Research focus classified International only where the scope expressly says international; missing location or eligibility evidence is not an exclusion. Journal-specific pages and submission instructions were inspected."
+  ],
+  "patches": [
+    {
+      "id": "epidemiology-biostatistics-ebph",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "IT",
+            "name": "Italy",
+            "basis": "Milano University Press ownership and Italian society journal",
+            "source_url": "https://riviste.unimi.it/index.php/ebph/about"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [
+          {
+            "code": "IT",
+            "name": "Italy",
+            "basis": "Milano University Press, institutional owner and publisher",
+            "source_url": "https://riviste.unimi.it/index.php/ebph/about"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal explicitly welcomes authors regardless of geographic location.",
+          "source_urls": [
+            "https://riviste.unimi.it/index.php/ebph/about"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Public health and methods; international forum.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://riviste.unimi.it/index.php/ebph/about",
+            "note": "Public health and methods; international forum. Journal explicitly welcomes authors regardless of geographic location.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    },
+    {
+      "id": "epidemiology-biostatistics-epidemiologic-methods",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No geographic author eligibility statement identified.",
+          "source_urls": [
+            "https://hsph.harvard.edu/research/vanderweele-group/journal-epidemiologic-methods/"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Epidemiological methodology; Harvard describes founding by its faculty but this alone does not establish the current editorial base.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://hsph.harvard.edu/research/vanderweele-group/journal-epidemiologic-methods/",
+            "note": "Epidemiological methodology; Harvard describes founding by its faculty but this alone does not establish the current editorial base. No geographic author eligibility statement identified.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    },
+    {
+      "id": "epidemiology-biostatistics-open-statistics",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No geographic author eligibility statement identified in instructions.",
+          "source_urls": [
+            "https://www.degruyterbrill.com/publication/journal_key/STAT/downloadAsset/STAT_Instructions%20for%20Authors.pdf"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "All areas of statistics; internationally recognized platform is a stated aspiration, not author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.degruyterbrill.com/publication/journal_key/STAT/downloadAsset/STAT_Instructions%20for%20Authors.pdf",
+            "note": "All areas of statistics; internationally recognized platform is a stated aspiration, not author eligibility. No geographic author eligibility statement identified in instructions.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    },
+    {
+      "id": "epidemiology-biostatistics-research-methods-medicine-health-sciences",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal encourages submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rmm"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Methods for medicine and health sciences; no geographic research limitation established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rmm",
+            "note": "Methods for medicine and health sciences; no geographic research limitation established. Journal encourages submissions from authors across all countries and backgrounds.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    },
+    {
+      "id": "epidemiology-biostatistics-statistical-methods-medical-research",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal encourages submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/smm"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Statistical methods for medical research; no geographic research limitation established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/smm",
+            "note": "Statistical methods for medical research; no geographic research limitation established. Journal encourages submissions from authors across all countries and backgrounds.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    },
+    {
+      "id": "epidemiology-biostatistics-biostatistics-epidemiology",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No affirmative geographic author eligibility statement identified.",
+          "source_urls": [
+            "https://www.tandfonline.com/journals/tbep20"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Official publication of International Biometric Society Chinese Region; methods and biomedical applications are not described as restricted to China. Society association alone does not establish an office location.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.tandfonline.com/journals/tbep20",
+            "note": "Official publication of International Biometric Society Chinese Region; methods and biomedical applications are not described as restricted to China. Society association alone does not establish an office location. No affirmative geographic author eligibility statement identified.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    },
+    {
+      "id": "epidemiology-biostatistics-electronic-journal-statistics",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No affirmative geographic author eligibility statement identified.",
+          "source_urls": [
+            "https://imstat.org/journals-and-publications/electronic-journal-of-statistics/"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Theoretical, computational and applied statistics; co-sponsored by IMS and Bernoulli Society, without a confirmed single journal office.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://imstat.org/journals-and-publications/electronic-journal-of-statistics/",
+            "note": "Theoretical, computational and applied statistics; co-sponsored by IMS and Bernoulli Society, without a confirmed single journal office. No affirmative geographic author eligibility statement identified.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    },
+    {
+      "id": "epidemiology-biostatistics-brazilian-journal-biometrics",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "BR",
+            "name": "Brazil",
+            "basis": "Journal headquarters at Federal University of Lavras; Brazilian Region of International Biometric Society official journal",
+            "source_url": "https://biometria.ufla.br/index.php/BBJ/about"
+          }
+        ],
+        "venue_regions": [
+          "South America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "BR",
+            "name": "Brazil",
+            "basis": "Federal University of Lavras Press, institutional publisher in Lavras",
+            "source_url": "https://biometria.ufla.br/index.php/BBJ/about"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Instructions describe English-language submissions but do not expressly establish worldwide eligibility.",
+          "source_urls": [
+            "https://biometria.ufla.br/index.php/BBJ/about"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Biological-science statistics, including medicine and public health; stated aim is advancement globally.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://biometria.ufla.br/index.php/BBJ/about",
+            "note": "Biological-science statistics, including medicine and public health; stated aim is advancement globally. Instructions describe English-language submissions but do not expressly establish worldwide eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Country fields reflect direct journal ownership or headquarters evidence only; absent evidence remains unknown."
+    }
+  ]
+}

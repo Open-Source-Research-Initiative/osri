@@ -1,0 +1,210 @@
+{
+  "subfield": "robotics-control",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/robot_review",
+  "patches": [
+    {
+      "id": "robotics-control-autonomous-intelligent-systems",
+      "metrics": [
+        {
+          "name": "CiteScore",
+          "value": 8.2,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/43684",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        },
+        {
+          "name": "SJR",
+          "value": 0.997,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/43684",
+          "note": "Publisher reports SCImago Journal Rank; not an acceptance rate."
+        }
+      ],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Springer permits supervised analysis and drafting summaries with disclosure; copyediting disclosure conflict retained."
+    },
+    {
+      "id": "robotics-control-autonomous-robots",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 6.0,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/10514",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        }
+      ],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Springer permits supervised analysis and drafting summaries with disclosure; copyediting disclosure conflict retained."
+    },
+    {
+      "id": "robotics-control-international-journal-social-robotics",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 4.6,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/12369",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        }
+      ],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Springer permits supervised analysis and drafting summaries with disclosure; copyediting disclosure conflict retained."
+    },
+    {
+      "id": "robotics-control-international-journal-control-automation-systems",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.8,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/12555",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        }
+      ],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Springer permits supervised analysis and drafting summaries with disclosure; copyediting disclosure conflict retained."
+    },
+    {
+      "id": "robotics-control-international-journal-dynamics-control",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.7,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40435",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        },
+        {
+          "name": "CiteScore",
+          "value": 3.9,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40435",
+          "note": "Publisher-reported citation metric; not an acceptance rate."
+        }
+      ],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Springer permits supervised analysis and drafting summaries with disclosure; copyediting disclosure conflict retained."
+    },
+    {
+      "id": "robotics-control-international-journal-intelligent-robotics-applications",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.0,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/41315",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        }
+      ],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Springer permits supervised analysis and drafting summaries with disclosure; copyediting disclosure conflict retained."
+    },
+    {
+      "id": "robotics-control-discrete-event-dynamic-systems",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.0,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/10626",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        }
+      ],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. Explicit no submission or publication fee supports standard route; optional print color and OA remain separate. Springer permits supervised analysis and drafting summaries with disclosure; copyediting disclosure conflict retained."
+    },
+    {
+      "id": "robotics-control-robotics-autonomous-systems",
+      "metrics": [],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Elsevier drafting conflict and blocked journal guide warrant unclear AI status."
+    },
+    {
+      "id": "robotics-control-journal-franklin-institute",
+      "metrics": [],
+      "audit_note": "Reviewed official journal metrics and fee, geography and AI audits. No free submission inferred from no APC; geographic author eligibility not established. Elsevier drafting conflict and blocked journal guide warrant unclear AI status."
+    }
+  ],
+  "findings": [
+    {
+      "id": "robotics-control-autonomous-intelligent-systems",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-autonomous-robots",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-international-journal-social-robotics",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-international-journal-control-automation-systems",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-international-journal-dynamics-control",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-international-journal-intelligent-robotics-applications",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-discrete-event-dynamic-systems",
+      "severity": "info",
+      "issue": "Journal explicitly states no submission or publication fee; short paper length and optional charges remain conditions.",
+      "resolution": "Retain verified_free for documented standard route and conditions."
+    },
+    {
+      "id": "robotics-control-robotics-autonomous-systems",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-robotics-autonomous-systems",
+      "severity": "warning",
+      "issue": "Elsevier factsheet and policy differ on substantive writing; journal-specific guide blocked.",
+      "resolution": "Retain unclear AI compatibility pending resolution."
+    },
+    {
+      "id": "robotics-control-journal-franklin-institute",
+      "severity": "info",
+      "issue": "Fee evidence does not verify all mandatory author charges; author geography is not affirmatively established.",
+      "resolution": "Retain needs_verification and geographic uncertainty."
+    },
+    {
+      "id": "robotics-control-journal-franklin-institute",
+      "severity": "warning",
+      "issue": "Elsevier factsheet and policy differ on substantive writing; journal-specific guide blocked.",
+      "resolution": "Retain unclear AI compatibility pending resolution."
+    },
+    {
+      "id": "robotics-control-journal-franklin-institute",
+      "severity": "warning",
+      "issue": "Official indexed pages show differing undated Impact Factor values (4.2 and 3.7), with no metric year established.",
+      "resolution": "Do not select either as current; metrics remain empty pending dated confirmation."
+    }
+  ],
+  "notes": [
+    "Reviewed all nine discovery IDs and completed role files; baseline has no records in this field. Official Springer journal pages and publisher AI guidance read; ScienceDirect indexed official content accessible but direct journal guides blocked. Citation metrics do not measure acceptance probability. Elsevier metrics omitted because indexed values are undated or conflicting. No independently reported acceptance rate established.",
+    "AI interpretation follows the campaign semantic rule: explicitly permitted basic analysis and drafting literature reviews or summaries meet the human-led workflow with disclosure; complete autonomous manuscript writing is not required."
+  ]
+}

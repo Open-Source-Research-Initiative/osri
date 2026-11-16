@@ -1,31 +1,587 @@
 {
   "source_repository": "free-publication-directory",
-  "source_commit": "47192220ab10a780903879e3093cb067e20054a7",
+  "source_commit": "50935c0430b5f101e67d4bbb9fc37d95feba5f41",
   "checked_on": "2026-11-16",
   "files": [
     {
+      "path": "LICENSE.md",
+      "sha256": "efbc8485ccf818bde7a784ede5476d6b076744ab9e10e05a26b3acddd9132e25"
+    },
+    {
       "path": "README.md",
-      "sha256": "3e72a1f732b7381709a5ade294f685796f880a1dca9f202a93b43fee116ff181"
+      "sha256": "1357e271e1368b43336ee540b1f9270c5acd70cdfc0b7d38c8bc0c71385def00"
     },
     {
       "path": "RESEARCH_NOTES.md",
-      "sha256": "af772228e40e71ca007a06bb44bf1c1223494468bb25bd90cdf284a5c15e0de8"
+      "sha256": "6c62645f029fed4cdbe7b663a4e6ba901c1f193aa136778b9fbf5562cac46944"
+    },
+    {
+      "path": "agent-assignments.json",
+      "sha256": "b1c71337201c3376e43c61d0f2130e599683ff4a18fc8c8f1b7bd2ef8fb6f2b2"
     },
     {
       "path": "browser.html",
-      "sha256": "0276a5c07cf5906d0026fafdd794945bfde0d087e635d74db638ec2d9202abb5"
+      "sha256": "ca3c66b2fd69466896365a0692f91f0f6bca744a2a83126df66b5e854a8a5cc8"
     },
     {
       "path": "build-receipt.json",
-      "sha256": "d9cf4dbaf61582c44b52a0a04f4fbc95119f1d4900e3cea9d33665936f23fc63"
+      "sha256": "e70692f22cd56f5e2e42e696b74f9c344f5fb0e970a87ac5c9585f50ad4be68a"
+    },
+    {
+      "path": "candidates.json",
+      "sha256": "d087a9ce2782fcad768ddc2de8e458215e58034c97502daf36011cbf65ed77cb"
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "eb051a6c66cacf8cf4a20d56aa7bcc176bd6c56cb9c61241a452462bab8de0db"
+    },
+    {
+      "path": "excluded-venues.json",
+      "sha256": "9c96cd54ef15ab3cbad00b54c6c6f981fba92ad08930e0a054da9f903097bae7"
+    },
+    {
+      "path": "memberships.json",
+      "sha256": "ff2d00b94568b23d8f2b25af94209c245dbdbb017d3721ea73ba19ca4130b038"
     },
     {
       "path": "methodology.md",
-      "sha256": "fba9dca4435d5ccca0ca3b852e6518a21cfc13337d709bff04874b6deaf10416"
+      "sha256": "e8d9207779e339ec9a12f1e5f6e2d82be51e234f0f8315cdc76c2019c20beb19"
     },
     {
       "path": "research/CONTRACT.md",
-      "sha256": "ea0dd4935993c810c6515f3a945d3083dbb449af50de636fa5843e9304e9e977"
+      "sha256": "0bbdf6a71c34103741860293e9ed21968fb319d27da1dd25863f084570aa7263"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/CONTRACT.md",
+      "sha256": "8f01809ed9be8f723f5d318e5b770a2ade5baf922a34e7c70a38539c487704c1"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/adjudications.json",
+      "sha256": "169b156304d2f3b973c6fb6d07f925f3c42b84e036989e6cab396fcc0cabadce"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+      "sha256": "628ff76fff1075e455513b46df26eea61de472d948301545c44d999b5529f352"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/computational-biology.json",
+      "sha256": "910b1439c18c6690df69854d3227149b4b68fca5f674c9e05bd836169845fb5a"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json",
+      "sha256": "a2b0807fcb0b7ff9ae3a037798fb2026f32021ff0707e7e548db8771f51a2498"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/cybersecurity-privacy.json",
+      "sha256": "9d3c290780fbb50d9ea2cd7a263ef8099df985a39e7124466ab6e8142d6e9067"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/economics.json",
+      "sha256": "e476e9b2fea68e75e582cd57ed8172d483343d241412fa4483acadd64c158261"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/education-learning-sciences.json",
+      "sha256": "5490e2a3b36c9e787890d9cae6454693f394c4e16572481eba5f0fcac1d08c5c"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/energy-environmental-engineering.json",
+      "sha256": "5212ad72cb36e2927eb8a03824429f75a1ddb678bccf3ad43cf5a6a6ba8c8ec9"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/environmental-public-health.json",
+      "sha256": "8c23282a566e8364aa660d339fbe710da59f0c46131f33161906432264614547"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/epidemiology-biostatistics.json",
+      "sha256": "529766f9d682eb8c8b04ab3a94feb88b074b48a4dd7019b1d11b865c1f8f4c59"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/health-economics.json",
+      "sha256": "7efc485b5515669354e995f9ceca14542adeb4b125a86e67abe3e64f4ea71a82"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/health-systems.json",
+      "sha256": "7f2ac4fa8a7b3f8a1ad87e4b6c2e12eb16a4c0bd6779955d7cb96b63941fb906"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/human-computer-interaction.json",
+      "sha256": "21af4f8e41c7879a0ac8145b861a166654eda7b2c39bafd159993b50350604b7"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/informatics-computing.json",
+      "sha256": "527ec6269864661a5b7066d21950d47c472ad479f5f1574cfb61fde457287468"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/meta-research.json",
+      "sha256": "33de9324eed981d3de38b6a54ca0b559cd2786af1ecefb90fd2001175b958414"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/operations-simulation.json",
+      "sha256": "9e03e75cae4880dcf1f2b2afab8f3d7bb685b651c306bf3c745645dc1265a44e"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/political-science.json",
+      "sha256": "83041856765196dad2ab976ca79c83e677fbea6a8f17a21e96ec955010d2f188"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/psychology-behavior.json",
+      "sha256": "d0d8180081d4373df85ebb7e00408711e72387c031e6ca8269d388321e50f1e6"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/public-health.json",
+      "sha256": "de3a7a8d230fc0a73370fdd7232052ed8ab6be7a8f3a3941298676de4ab9d6f6"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/public-policy.json",
+      "sha256": "91c11a0c7149863cd492510b9cd547df76e8415e26104e650c01b5dea410c364"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/robotics-control.json",
+      "sha256": "534345a181baf800ec38b7631a18c30855520b5b270157d9bb6bf537938e860b"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/sociology-organizations.json",
+      "sha256": "c83e0099b1c76a72bbe4bd6b1aaaa7c1d041a605039049d5416f27a6c2292b91"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/software-engineering.json",
+      "sha256": "d39f609c10c7aac62c71dbec17328744467d16d70c501674ec1f38cfd328650d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/statistics-applied-mathematics.json",
+      "sha256": "b95e89dc3405bddc34deb4e6ab8847c6d41710395383e1ab8ea9544267aa3a5d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/systems-engineering.json",
+      "sha256": "4d7a297c7917c73937e319d55edb9a296e198f0fc21f86842fa08a1ee7f76141"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+      "sha256": "1ebe4c7023a7a336d442e587c6aaac07ffd818760147d63ebfe85ecf844d86c8"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/baseline/venues.json",
+      "sha256": "71f8e0f111c838080f52f1d0787763c2dd5aecdfbee91bd407bd6d774c4eb6d8"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/campaign.json",
+      "sha256": "c2ef01fe95de29b61d16e37f5152f2b676e836b1f5ecc2e4c00da6f7ffe80fcc"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+      "sha256": "e12b0ad2b4b4a6d9f449af96d8830150860538f9ac093ef2a98222c17c1337c5"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/computational-biology.json",
+      "sha256": "8fc84479d4a33eae611332509f101f3313194484a5d021c9be1d1986c3b79770"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/computational-physical-sciences.json",
+      "sha256": "1eb5ce356023a0713d352ad28e4b555e51a19b767eb8e1aced802b4bb9c4584a"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/cybersecurity-privacy.json",
+      "sha256": "4d629273167eae0a712109507e1cccc0d9770d9736b156062194ecbc4d10a3c7"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/economics.json",
+      "sha256": "713cf6f514aec07060750bf452f6515a1d368c8f38a32c09a323ba03be3090e1"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/education-learning-sciences.json",
+      "sha256": "196e4658c1ef76c214f63e12d249f0160588352cd398817e8b8d35fc45c32554"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/energy-environmental-engineering.json",
+      "sha256": "6b29a4bca47dc72b904505719bae6efcfa34b1f4c2bf866ea2ca88cf84260254"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/environmental-public-health.json",
+      "sha256": "8907dfa1bc5c41ad12f4576c901e5ba8b226579cb7ceaf6712a7fc64f7968c45"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/epidemiology-biostatistics.json",
+      "sha256": "47ef1e59e309f1bd532ba09f63bae562cea3b881a4b5a79290318e24749d6d2d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/health-economics.json",
+      "sha256": "b361d529c89484355c1336a432eaa16fe5f6059c8de3f463e8721eba52888302"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/health-systems.json",
+      "sha256": "4cba0a803d4a1da492ee194cc5e4083efaf3ef1280b2ae21d30e109b6e2b19a5"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/human-computer-interaction.json",
+      "sha256": "e91bde42c228592966eaf8980ea0f7f3027d11bdbe433df4d7be286c047b8eee"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/informatics-computing.json",
+      "sha256": "b908e4a0c401da89f1f7ec0a443c2f95c2f210a9907abb2657e33fc0dc939989"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/meta-research.json",
+      "sha256": "dc2a23500a589e8a2a132a30d9d7d413d09322bbc8284bce6cfc708bce04e92f"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/operations-simulation.json",
+      "sha256": "3aa104956278a6148a6d533e03c947381c33199726a28a45532ce1df087a4ffc"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/political-science.json",
+      "sha256": "0de4ce3476e73c0d64a67e48eefb082e531f1405aef5ae7d490292856326aa51"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/psychology-behavior.json",
+      "sha256": "08c1c77f68acc027b20635fab048f60f209165bfe4638ac79cbef895e89a9840"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/public-health.json",
+      "sha256": "1eebe4dacbc99e4295e742f3fdb974f5dd8b377884df946d9a65972c0920a4a7"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/public-policy.json",
+      "sha256": "23e3cbbd551705e1ff6fbc7ff5ab2297594372b6b0a1aa9190d65ab699827146"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/robotics-control.json",
+      "sha256": "6ad4a6fbcfe9762a504760beaa4a4c39b0167d6c010e5dc30b76f968c6e1ffbe"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/sociology-organizations.json",
+      "sha256": "eef1db6257b4746e5d1517bace9f209d21159e22ba7b8a04faf0760d401ab2eb"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/software-engineering.json",
+      "sha256": "5567aefd756fd5e00d783c150097dafc28778a1c871bc244d14a36ef53b2059a"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/statistics-applied-mathematics.json",
+      "sha256": "abd5f1b80b04d821ecd980bfb5d1f076929087ee95b1552a463252c5b95574cf"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/systems-engineering.json",
+      "sha256": "3b5cf91c310338bec79c6ebbcc01de2f48fb641116f64ed190ca5338b51946c5"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+      "sha256": "f4ec5c3a19dd28c952f7c65fd192fad3ed65ea647717582351f83568b33041c4"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/computational-biology.json",
+      "sha256": "1de57ace7c3ced5cd799cbf1bde34c64f12b60f5552bf3eeeaceff7e31d5f351"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+      "sha256": "eb3bc5224a1cc609dbda9eae6a95f36ba895f0f145c255323286c926f428c61e"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/cybersecurity-privacy.json",
+      "sha256": "f6c0ce400af21b1756a944f52f936a693f95a1779f12c171b263f17317e7a34f"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/economics.json",
+      "sha256": "944a35a94fbafac813a7a3a67adc5e06f06da0c01bb0407dc26efdfd359c9c2d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/education-learning-sciences.json",
+      "sha256": "9b20bd8714eb2064eab92068a75ee8530e64896d67d04d72d62d5cb0e16f25fb"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/energy-environmental-engineering.json",
+      "sha256": "93cbad373eb584d36540563f52885e13c4fedf271aa79677ecf696657da02e8c"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/environmental-public-health.json",
+      "sha256": "207db3401485e152cc08b8b5176da2becc40dc430cfb36839684b2e7c974ca18"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/epidemiology-biostatistics.json",
+      "sha256": "9ad1475a89d95f122cfe787bf319dbc280a0aa32675dc674e74125e59c30db78"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/health-economics.json",
+      "sha256": "aaeca4bcb19e3cb74ee0ccca90381560566abdd0f194bd71a926295aac0f51c4"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/health-systems.json",
+      "sha256": "3662c3161e1af0474991fea3d9bd44e28fb6f644741bc7942dddfa546fb76760"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/human-computer-interaction.json",
+      "sha256": "3882753f4858d60ba5a05df4f023863b1083ea9e982a963cf1c865f8db41c200"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/informatics-computing.json",
+      "sha256": "b1a91201c33b81a08ac7f12527a57ab835c44381efc4bf067f5fb4ef45da6e8c"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/meta-research.json",
+      "sha256": "4e74d4a2e9200a21ce068685d852f20614764ddf469ec6bf0851d9a6ae2a5582"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/operations-simulation.json",
+      "sha256": "42faf6b3154c44f99f0dd2e386426bb1e90c5c3c56927ae77e1fef3c0dc24bfc"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/political-science.json",
+      "sha256": "d47b07f40b050fbc5d53a69f944be825c1f495f9c3b94e976e9980b0c2bed829"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/psychology-behavior.json",
+      "sha256": "d753c9686bf7425c949aaecd71b41c9d3bd5fa50e12ea5fc414143604e911c48"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/public-health.json",
+      "sha256": "63eae7ad99f2dde7933e088ee725fc772415c961ea39ec40ce64dd0b421d9879"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/public-policy.json",
+      "sha256": "a4bdaab3fd44b5bf07659288dd2284c772c007f81ecbf0492ba6dba55bae6f1e"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/robotics-control.json",
+      "sha256": "88c1f109cbb972565c902ca98dbf831c8de609cc809c8a5a48f8f855065d7c70"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/sociology-organizations.json",
+      "sha256": "91424a3389ebcc20f6b85a8777ab6e0bff01f25d1ad0804db398cb7004b851ff"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/software-engineering.json",
+      "sha256": "dd0c54778ed4910c13c5be8cf32db3a0dd9a0681f95412d23f66bbe5a9d4edb0"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/statistics-applied-mathematics.json",
+      "sha256": "1eae831358a41695c8a07702ae4a82e4e67ef93038040f60281fa53769f4c736"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/systems-engineering.json",
+      "sha256": "1ad9e54b68f2f9d4cb87d7747c1ad5302678e87879ad438a000a5812ebea3c96"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+      "sha256": "03654b9c7e9a90c204115c425bba39b019146683782e289cf79987fdc0d0b3ad"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/computational-biology.json",
+      "sha256": "84ae1417638313972e297cc1b3afe4ae63ac050537040fe7d346db6dca0f3c46"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+      "sha256": "c3b95bf7d65598737744d16e660fef03b206bd9530df32a21a27318fcc541688"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/cybersecurity-privacy.json",
+      "sha256": "3e48171b51083a24272a02a0eac05ea0b822669257856e9e2925ef23b6120266"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/economics.json",
+      "sha256": "27910a959673898c30529501e19bc0c9ec9f7c71036db70043c5dec720b48ea9"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/education-learning-sciences.json",
+      "sha256": "81ed77f6c5119a96528c386d7c3276d4c7946df172831ae37211bdde39d86de3"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/energy-environmental-engineering.json",
+      "sha256": "e5d5c12a7210b891f39df4d0dfe28a1bd5815905b48fda51e8a0400718b9d38b"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/environmental-public-health.json",
+      "sha256": "6ff84498b6131fcb004ac83986baeac590237b0e246b1faab3183c829e6bff20"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/epidemiology-biostatistics.json",
+      "sha256": "dcb6e2cd0d68f8eb99bd3bbf3090abe6b7f9622ee85f8fc2c98e418c8f1a7dd1"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/health-economics.json",
+      "sha256": "174f9e02156c9f9d056a9d166bee64b387ec0e9b755f9915264a055b3d3716d6"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/health-systems.json",
+      "sha256": "b3797a02bc3bfc34e3c2f175af53faa687394865fa744efe6ced942742f79b98"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/human-computer-interaction.json",
+      "sha256": "4e27a099e81b6a927aaa5720a7765da31a406311c3cd9f46ef7ec7afcf4e3345"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/informatics-computing.json",
+      "sha256": "f6cf9258b627bbf7674127bfa424eeb597a7ae7abd791fdf26a0f975cae4439d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/meta-research.json",
+      "sha256": "593c8993e8553fb1b7adbd15407cfa2bab339a66d3f3a87bf61cf1fb39e60868"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/operations-simulation.json",
+      "sha256": "b039bb247b703ca3d2f025d2f09612dd92dee8123bd641e5f12def1b8f1d5a14"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/political-science.json",
+      "sha256": "d14fd900729b582a5a01fecec2b82d9eacff10be17fdc4a05f153c5b6999450e"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/psychology-behavior.json",
+      "sha256": "569b1095e2b7d36cb13fe4f169d22633a7630ecfab0caac57e650ffa67c3b0cd"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/public-health.json",
+      "sha256": "20986342442c01a3c53bbdef99590eaa8849782817a181a6c43d24246101da71"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/public-policy.json",
+      "sha256": "562da1856d4525c563c7aa94b8dc4bdd6cc95dcbb33b6f6f39cc295421bd06ad"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/robotics-control.json",
+      "sha256": "2c4844f281e5fae56f08e0e0968bda1136d09e92e66a660e3bdf83e4ca9eb079"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/sociology-organizations.json",
+      "sha256": "861d7303337f9ee1255ba708c6046e636460ae4bcc517daeb63ddf5a090c72a4"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/software-engineering.json",
+      "sha256": "b5f78f4f57d831b6d5ec94ba6fe82c369b4ebecdc14222ac799eafa664ea547b"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/statistics-applied-mathematics.json",
+      "sha256": "936c6680b00c54924ebfa1315fa4e9774f0ad8a9b25314b64919a3bd468c19b5"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/systems-engineering.json",
+      "sha256": "e80f018a99fa15d37602177c40f1cfbbefbb0a34dfd86c8d1b75220672791fbb"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+      "sha256": "dc5708a539d4feb0cda1b8294ff415a240def6de5ff8f554b0e541e8ade0b463"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/computational-biology.json",
+      "sha256": "a466df32e5dc663a49747c78a178a16af0319f95a1c31afaaa47e60f03a52357"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/computational-physical-sciences.json",
+      "sha256": "15e041755676ce50e48b2ce1478aaa53ba6ec5d59f21e8caba77edce5810de6d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/cybersecurity-privacy.json",
+      "sha256": "06a94111d1599ce024980242144a126a5cf0fcc08eb7b0616f143da7400a4047"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/economics.json",
+      "sha256": "93ee31dc8e46b03a20d3586b1613fa200e6d716bd50a0f52d7cf6bc6f38479ef"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/education-learning-sciences.json",
+      "sha256": "5a7ad97373e74768a93229672e400bd5648360eb8af6a6fbe6149f1f4493a956"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/energy-environmental-engineering.json",
+      "sha256": "f8697153bbc7421bec95e8635ccd5fc901fc737f6dd1f3db19b8326a4c66c0af"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/environmental-public-health.json",
+      "sha256": "a953814e85a4f857228235388f264fcf763b8195aff0d0b924cc1ab251949ccc"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/epidemiology-biostatistics.json",
+      "sha256": "25aeb38521320da9cce1ae22390e7d1a1043801a325084af049a6c4e2bb28dd3"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/health-economics.json",
+      "sha256": "aeecf33ee15f6ad4df9af7ac24713b24e820b9c15eefd99c48fa1da21bf31f5f"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/health-systems.json",
+      "sha256": "825db85b0d6d4babdc82ae915ef7590d2100ced6e64381529e46dddf8f21a7f9"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/human-computer-interaction.json",
+      "sha256": "ba555966fbeac173462ab736742aaae07f280a4b5b8ec0087267e24e4e34bd64"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/informatics-computing.json",
+      "sha256": "3507661461337ad448c7d0b7c2a535a1d4daea890d69c09e507656047c40b2d0"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/meta-research.json",
+      "sha256": "815fcaa70e1d0a5847b8677f2b3e5112368ee22351b38ad1ddc29fe550ed397d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/operations-simulation.json",
+      "sha256": "13076011cbc008c29ad866eb9a749898454e36a7e281a61ff5330b6082d0af40"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/political-science.json",
+      "sha256": "0784587b96dce641a6741fe7b4f65f0ffa0d2bed587e0751a80a3324a2267b21"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/psychology-behavior.json",
+      "sha256": "ad127e2f9538343874694e955835fa790b169dcc7bdcc6f35a4c9eff69d3e8b7"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/public-health.json",
+      "sha256": "b0121988d3739d54488abfa4772958a789076692617d85ae4cf230c6a7293635"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/public-policy.json",
+      "sha256": "609015254e9aee2f60a6c01b0aa0a7e7b41652c187e1b0a2f1915e48a009998f"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/robotics-control.json",
+      "sha256": "d523f1d84ac15c85fda4d51eaa6273f61ae95c249b360fa50b2a646b26e14966"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/sociology-organizations.json",
+      "sha256": "ef83c90a35faf561711d3e5ccbc239a9bda111f2dc39f17d5e96652f414a1c23"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/software-engineering.json",
+      "sha256": "07838c01e69f1be8eee45729fdb350200e6a4921e6f40d897fffffd41c1996b5"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/statistics-applied-mathematics.json",
+      "sha256": "e747a389bab5f9e1e77de51aed5e70bd1fde4c6177bf57781136cdcf2bcc0ade"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/systems-engineering.json",
+      "sha256": "ad9d75c8d1aca7005ab609a865e1e62c0f2db86b463200ed322e3c9cf844c9f3"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-batch-c.json",
+      "sha256": "6ecfd7cf406d853c9c8ef5f2113bd88d1d3e74683a7232221efa0fdb5094036e"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-1.json",
+      "sha256": "962cd9392593fb40c265f8e5b4bcb80852987979df3cf6a3705a151260fc438d"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-2.json",
+      "sha256": "a5d402eb1e75b05885cfee53b133f17d12c1937adc2e5fd466bd3f350bdba8c8"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-3.json",
+      "sha256": "a4662df907525158459ef5ac76798b71d00f54f08be178c6ca793eb38e47e0d2"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-4.json",
+      "sha256": "ccea0d01896672b2e4a534eb3ff8f39087232793cb725f9115fe7f5dac67ae23"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-5.json",
+      "sha256": "f6feeedec6ce2eb0f2a07a741284cf1d749628324b900f4d00ff4957e1256535"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage.json",
+      "sha256": "91caf30510d7e88467c09eea9a5cb17feddb41d9b4dc7f43e1a7380b09f4de5c"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/release-spotcheck.json",
+      "sha256": "8d560f308ebf3c3f348cb36ce3504f617a12a51b1598752ab04b7b8921dd302b"
     },
     {
       "path": "research/diamond/computational-biology.json",
@@ -268,64 +824,112 @@
       "sha256": "86795fca90ca5c15176331bcefab27b0165d80ce3ebd99ef8169b855f34c4a03"
     },
     {
+      "path": "subfields/business-innovation.md",
+      "sha256": "54517859ad0fcf7169c867532ba8b9133987832c40f2b29eeb48909b5debd669"
+    },
+    {
       "path": "subfields/computational-biology.md",
-      "sha256": "15e5f57008db8747f2d8fe0972492545846750f1463ef05c75805f0fda19eaed"
+      "sha256": "87c8ca78ff092f8a4c8f6900b395171edd6cf00eab53b058cb0cc56a42e3c726"
     },
     {
       "path": "subfields/computational-physical-sciences.md",
-      "sha256": "90e03041a918dd9cf32a430443fed2c16e199a67d72b7764dc3a5bc0cb0c8715"
+      "sha256": "7199f58b7567cdf804ea04b39aec106ec3308d7d7de96ef4defe012b47ed4045"
+    },
+    {
+      "path": "subfields/cybersecurity-privacy.md",
+      "sha256": "63c19350a74ebc25b7cb95ddeef20e1e418adc2f91d60d9a697437d045681412"
     },
     {
       "path": "subfields/economics.md",
-      "sha256": "3cc9008bae26dd953759e4c67c001aba0ed3d4d59ca58534ac9f750eee2b8fbc"
+      "sha256": "d4f6d80c1adcf5771bf1278348848847d7b18c0e83c1ceb7b4eb3aa455a3f88c"
+    },
+    {
+      "path": "subfields/education-learning-sciences.md",
+      "sha256": "81a7060618c35f778206abaf22848c4c474ea401572576301db19fc5c81af12e"
+    },
+    {
+      "path": "subfields/energy-environmental-engineering.md",
+      "sha256": "1d92aa4eb7bc808bf088d922cc4e405d1ea31b95df580c92d18840b4b63f0145"
+    },
+    {
+      "path": "subfields/environmental-public-health.md",
+      "sha256": "b44c153b9db9020562b5ee4f504b5f1bec3d8bbcd671a9bfc606ee58b94aab44"
+    },
+    {
+      "path": "subfields/epidemiology-biostatistics.md",
+      "sha256": "bf32755dea86c9a380f22192413d01d44ae3762314d59709f60a15e767ce02f2"
+    },
+    {
+      "path": "subfields/health-economics.md",
+      "sha256": "bf19f7f58ee37f91bbcbf62a6012f3c64fa047b844d49cb61d8fd5edc9e69600"
     },
     {
       "path": "subfields/health-systems.md",
-      "sha256": "ca6305f3b876fe4fe23d875983baf54a5c01ffec837dd86aa53dba56fba22b12"
+      "sha256": "7b597ec0172dcfb072c43d4ec49e6b4132916c90656337d70fd03a58e66580e2"
+    },
+    {
+      "path": "subfields/human-computer-interaction.md",
+      "sha256": "ad4285db1db8f6e1ddfade54a6065619e68bc982d09ee2797037364e6d3238a6"
     },
     {
       "path": "subfields/informatics-computing.md",
-      "sha256": "7f4b013913aa296c793d42faa22a7ea56a2732e4aea01bdcb6e177588b548202"
+      "sha256": "555be633a158f6149e19223cd398f59e7a867dc29794fd0276413ab4823366bd"
     },
     {
       "path": "subfields/meta-research.md",
-      "sha256": "ed7c050ac2a4acd2ad29d0fb925fd7bc2ddeab6fd55c2cb7f8d82a754caa1081"
+      "sha256": "73c554ae34e4152d3a5b3c8091f55b5a9052a83cfdee08ee5cbe1f0c9207111e"
     },
     {
       "path": "subfields/operations-simulation.md",
-      "sha256": "506f72cc49b087a496fdde33be032d1f59451f2519c6424776055132cb929190"
+      "sha256": "15ffcba2949541902c051c01f992c71491bfd3dda8c2b545cc71c4c60241ef17"
+    },
+    {
+      "path": "subfields/political-science.md",
+      "sha256": "8fcd4f505b22bb50829bd62bf4acc94b78e9f3c04c973d1f5eb73e6e6d37b99f"
     },
     {
       "path": "subfields/psychology-behavior.md",
-      "sha256": "c6b454880bc43871ba9e3a442a46ad011a38e8ca1ae146a3cecd5e12aaf8440f"
+      "sha256": "633e1d3299eafa6a0c84f14348c3598ad50b72283e860329ee620737eff528ca"
     },
     {
       "path": "subfields/public-health.md",
-      "sha256": "91b1a25ce2bf0a502c1db0c70867ec6f64a349e5570ed48ab562d08c7321b003"
+      "sha256": "7d77787b3fe1b40336d8cec443a2402a97186554b52904e363dfb3aacddd9a95"
     },
     {
       "path": "subfields/public-policy.md",
-      "sha256": "dfe5ad2ecd4c2132691a71f1badb2962b4e6f589ff43417bce50df9af057fa33"
+      "sha256": "aa12041ed4ed2c183692a81abce2465bc8605edb95de42a7e44b89d633f09f07"
+    },
+    {
+      "path": "subfields/robotics-control.md",
+      "sha256": "dbbc619ee6b9a8c2e3dde4bea899be9430f0d7013974c446e22fae22d28273ad"
     },
     {
       "path": "subfields/sociology-organizations.md",
-      "sha256": "d30804a530257305e3d5eb7308e92ba29621a55d84bf877eadd60497b50550f6"
+      "sha256": "2888d36ca1eec32f339014367110b3bf8ce9378e385044cef23d882712458eef"
+    },
+    {
+      "path": "subfields/software-engineering.md",
+      "sha256": "6940d8b01fb90e7c02597f710b717aca3a37c7c22f8555f360a7b0122c79710c"
+    },
+    {
+      "path": "subfields/statistics-applied-mathematics.md",
+      "sha256": "1ae9c73c2eee9f9e9c2c22e3e62ae9bdc1909b9d54c159fb9b0553aa52f647ce"
     },
     {
       "path": "subfields/systems-engineering.md",
-      "sha256": "32f854d8d49d575516e03f9adf410db5446cafb95b2dd969b63fb9a2496dff66"
+      "sha256": "b1b435b258a22afbcc0124258e53d3ed3fe332b478a79439f4ec3b1930e4c69a"
     },
     {
       "path": "validation.json",
-      "sha256": "3130f30205c66d2ef4af91476d6d7b6c8a171a1ee6a16bd8d138ffd739e1a668"
+      "sha256": "53df17dd50f106e0d9421dfa9d69259e718c0258e2f14b70d50713528617007f"
     },
     {
       "path": "venues.csv",
-      "sha256": "20bbb29161db107243175dfa9a671bef86b514e66671ad7749cd10a2f6c32d50"
+      "sha256": "57248bc787ca2b7ad540e0673714fda5e02ba2454e972fa977e5562666830c2f"
     },
     {
       "path": "venues.json",
-      "sha256": "71f8e0f111c838080f52f1d0787763c2dd5aecdfbee91bd407bd6d774c4eb6d8"
+      "sha256": "607d5636ecdaab84e7c74d92afe2c5fc2177495d73c0d44a0472405c483dd897"
     }
   ]
 }

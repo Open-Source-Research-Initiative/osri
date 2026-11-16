@@ -1,0 +1,191 @@
+{
+  "subfield": "epidemiology-biostatistics",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_fees_epidemiology_biostatistics",
+  "notes": [
+    "All eight candidates audited; zero baseline records were returned by the campaign helper. Direct access to some policies failed; indexed publisher text is marked search_snippet."
+  ],
+  "patches": [
+    {
+      "id": "epidemiology-biostatistics-ebph",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal explicitly states no payments required from authors, including submission charges and APCs.",
+        "other_mandatory_costs": "None required according to journal.",
+        "fee_evidence": [
+          {
+            "url": "https://riviste.unimi.it/index.php/ebph/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal explicitly states authors pay nothing and no submission or processing charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    },
+    {
+      "id": "epidemiology-biostatistics-epidemiologic-methods",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "The journal founder states no publication charges; publisher instructions state no APC for the standard non-OA route. Optional immediate OA costs extra; founder says articles become OA after twelve months.",
+        "other_mandatory_costs": "Submission, membership, page and other charges not explicitly established.",
+        "fee_evidence": [
+          {
+            "url": "https://hsph.harvard.edu/research/vanderweele-group/journal-epidemiologic-methods/",
+            "checked_on": "2026-11-16",
+            "note": "Founder states no publication charges and open access within twelve months.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.degruyterbrill.com/publication/journal_key/EM/downloadAsset/EM_Instructions%20for%20Authors.pdf",
+            "checked_on": "2026-11-16",
+            "note": "2024 instructions describe no APC for non-OA hybrid publication; optional OA has an APC.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    },
+    {
+      "id": "epidemiology-biostatistics-open-statistics",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "2021 publisher instructions state no submission or publication fees; current applicability and submission status require confirmation.",
+        "other_mandatory_costs": "No additional author fees identified in dated instructions; current terms and page or membership charges not independently confirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://www.degruyterbrill.com/publication/journal_key/STAT/downloadAsset/STAT_Instructions%20for%20Authors.pdf",
+            "checked_on": "2026-11-16",
+            "note": "2021 author instructions say manuscripts are free to authors with no submission or publication fees; direct retrieval failed.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    },
+    {
+      "id": "epidemiology-biostatistics-research-methods-medicine-health-sciences",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Journal says no article processing fees and content is free to view; same instructions label access subscription and describe optional paid OA. No explicit submission fee statement located.",
+        "other_mandatory_costs": "Page, membership and other mandatory costs not confirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rmm",
+            "checked_on": "2026-11-16",
+            "note": "Journal author instructions state no APC; subscription label and optional OA description leave access model ambiguous.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    },
+    {
+      "id": "epidemiology-biostatistics-statistical-methods-medical-research",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "hybrid",
+        "conditions": "No fee to submit or publish on the standard subscription route. OA via Sage Choice and specifically requested print colour are optional and paid.",
+        "other_mandatory_costs": "No mandatory charges stated; print colour is optional.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/smm",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions explicitly state no fees to submit or publish; optional OA and print colour carry charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    },
+    {
+      "id": "epidemiology-biostatistics-biostatistics-epidemiology",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Publisher states subscriber-only publication has no APC; journal-specific page could not be independently accessed. No conclusion about all publication fees.",
+        "other_mandatory_costs": "Submission, page, membership and other mandatory charges not verified.",
+        "fee_evidence": [
+          {
+            "url": "https://www.tandfonline.com/why-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says subscriber-only access incurs no APC but most, not all, journals are otherwise free.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://www.tandfonline.com/journals/tbep20/about-this-journal",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific information returned HTTP 403.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    },
+    {
+      "id": "epidemiology-biostatistics-electronic-journal-statistics",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Society says author or publication fees are not required; donations are voluntary. Explicit submission fee language was not located.",
+        "other_mandatory_costs": "No compulsory membership or page charge identified; submission and other charges not explicitly confirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://imstat.org/journals-and-publications/electronic-journal-of-statistics/",
+            "checked_on": "2026-11-16",
+            "note": "Society says author or publication fees are not required; donations are voluntary.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    },
+    {
+      "id": "epidemiology-biostatistics-brazilian-journal-biometrics",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal says authors are not required to pay fees for publication and historically no author or reader fees have been charged; an explicit current submission-fee statement was not found.",
+        "other_mandatory_costs": "Page and membership charges not separately confirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://biometria.ufla.br/index.php/BBJ/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no publication fees and describes its history without author fees; direct page retrieval timed out.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Independent fee audit; uncertain costs remain unverified."
+    }
+  ]
+}

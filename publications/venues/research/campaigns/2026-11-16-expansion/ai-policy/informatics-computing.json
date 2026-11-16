@@ -1,0 +1,681 @@
+{
+  "subfield": "informatics-computing",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_ai_informatics_computing",
+  "patches": [
+    {
+      "id": "informatics-computing-jmlr",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://jmlr.org/author-info.html"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://jmlr.org/author-info.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-jair",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://www.jair.org/index.php/jair/about/submissions"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.jair.org/index.php/jair/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-tmlr",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "LLMs may be used as general-purpose assistive tools, with human responsibility. The cited policy does not specify disclosure requirements or location.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "Policy does not state a disclosure requirement, location or content.",
+          "source_urls": [
+            "https://jmlr.org/tmlr/editorial-policies.html"
+          ],
+          "section": "LLM use policy for authors"
+        },
+        "restrictions": [
+          "LLMs cannot be authors; authors are responsible for plagiarism and fabricated facts."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://jmlr.org/tmlr/editorial-policies.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "LLMs may be used as general-purpose assistive tools, with human responsibility. The cited policy does not specify disclosure requirements or location."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-joss",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Most aspects of submission including software creation, review, and paper authoring may use generative AI; humans review and validate outputs and make core design decisions.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Include an AI usage disclosure statement identifying tools/models and versions, where used, nature and scope of assistance, and confirmation that humans reviewed, edited and validated outputs and made core design decisions.",
+          "source_urls": [
+            "https://joss.readthedocs.io/en/latest/submitting.html"
+          ],
+          "section": "AI Usage Policy"
+        },
+        "restrictions": [
+          "No AI in author-editor or author-reviewer conversations except translation; authors remain accountable for accuracy, originality, licensing and compliance."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Most aspects of submission including software creation, review, and paper authoring may use generative AI; humans review and validate outputs and make core design decisions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-jstatsoft",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://www.jstatsoft.org/authors"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.jstatsoft.org/authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-lmcs",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://lmcs.episciences.org/page/authors-information"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://lmcs.episciences.org/page/authors-information",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-jot",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://submissions.jot.fm/index.php/jot/about/submissions"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://submissions.jot.fm/index.php/jot/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-tgdk",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "TGDK explicitly applies Dagstuhl policy. It permits ideas and text structuring and addresses disclosure of data analysis and generated text, but the permitted-use list does not explicitly cover research code; disclosure alone does not prove that use is permitted.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "In a suitable manuscript section such as acknowledgments or before references, state type and purpose of substantive use and extent of human review; tool/version/date and paid or free tier are optional.",
+          "source_urls": [
+            "https://drops.dagstuhl.de/docs/gen-ai"
+          ],
+          "section": "Sections 2 and 4"
+        },
+        "restrictions": [
+          "No reference generation or unreviewed substantial text; no confidential data, unpublished manuscripts or personal information in GenAI systems."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://drops.dagstuhl.de/docs/gen-ai",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "TGDK explicitly applies Dagstuhl policy. It permits ideas and text structuring and addresses disclosure of data analysis and generated text, but the permitted-use list does not explicitly cover research code; disclosure alone does not prove that use is permitted."
+          },
+          {
+            "url": "https://www.dagstuhl.de/en/publishing/series/details/tgdk",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal submission instructions explicitly apply Dagstuhl AI policy.",
+            "note": "Requires disclosure of substantive AI use."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-jdmdh",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://jdmdh.episciences.org/page/submissions/lang/en"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://jdmdh.episciences.org/page/submissions/lang/en",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-ajis",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://ajis.aaisnet.org/index.php/ajis/about/submissions"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://ajis.aaisnet.org/index.php/ajis/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-einformatica",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "The author requirements restrict AI use in the writing process to enhancing language and readability; research and code assistance are not expressly resolved.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Immediately before references, name the tool and reason for use and state that authors reviewed and edited the content and accept responsibility.",
+          "source_urls": [
+            "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/"
+          ],
+          "section": "Declaration of Generative AI and AI-assisted Technologies in the Writing Process"
+        },
+        "restrictions": [
+          "Writing assistance is restricted to language and readability."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "The author requirements restrict AI use in the writing process to enhancing language and readability; research and code assistance are not expressly resolved."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-jgaa",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "The journal permits generative AI where it assists the work; its examples include research programming and text polishing, with human review and full responsibility. Broad permission encompasses assistance in scientific writing, though drafting is not a specific example.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose any use of generative AI in Comments for the Editor in the submission form.",
+          "source_urls": [
+            "https://jgaa.info/index.php/jgaa/about/submissions"
+          ],
+          "section": "AI Policy"
+        },
+        "restrictions": [
+          "Authors must review accuracy, bias, integrity and completeness; cite appropriately and comply with privacy, ethics and law."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://jgaa.info/index.php/jgaa/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "The journal permits generative AI where it assists the work; its examples include research programming and text polishing, with human review and full responsibility. Broad permission encompasses assistance in scientific writing, though drafting is not a specific example."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-theory-of-computing",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://theoryofcomputing.org/submit/index.html"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://theoryofcomputing.org/submit/index.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-dmtcs",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://dmtcs.episciences.org/en/for-authors"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://dmtcs.episciences.org/en/for-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-theoretics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Current live author policy addresses any application of AI under human supervision, requires understanding and responsibility for all aspects, and permits AI-assisted writing. A search snippet reflected an older, more restrictive writing rule; the current page was read directly.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Include an AI disclosure statement in both the manuscript and cover letter describing use relevant to editorial assessment.",
+          "source_urls": [
+            "https://theoretics.episciences.org/page/policies"
+          ],
+          "section": "Use of artificial intelligence by authors"
+        },
+        "restrictions": [
+          "All authors must understand and take responsibility for proofs, experimental results, figures and citations; AI cannot be an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://theoretics.episciences.org/page/policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Current live author policy addresses any application of AI under human supervision, requires understanding and responsibility for all aspects, and permits AI-assisted writing. A search snippet reflected an older, more restrictive writing rule; the current page was read directly."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-arxiv-corr",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "arXiv recognizes tools used for science and reports, requires reporting significant use including generative AI, and holds humans responsible. The available text does not explicitly authorize each required use.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Report significant use of tools, including text-to-text generative AI, in the work consistent with subject methodology standards.",
+          "source_urls": [
+            "https://github.com/arXiv/arxiv-docs/blob/develop/source/help/moderation/index.md"
+          ],
+          "section": "Policy for authors’ use of generative AI language tools"
+        },
+        "restrictions": [
+          "AI language tools cannot be authors; humans are responsible for all contents."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://github.com/arXiv/arxiv-docs/blob/develop/source/help/moderation/index.md",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "arXiv recognizes tools used for science and reports, requires reporting significant use including generative AI, and holds humans responsible. The available text does not explicitly authorize each required use."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-irrj",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Full disclosure of AI used in research and writing is required in the cover letter; the author instructions prohibit undisclosed AI as plagiarism but do not expressly authorize each required use.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Cover letter must fully disclose generative AI used in the research and writing.",
+          "source_urls": [
+            "https://platform.openjournals.nl/IRRJ/about/submissions"
+          ],
+          "section": "Originality and Cover letter"
+        },
+        "restrictions": [
+          "Undisclosed use is included in the plagiarism policy."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://platform.openjournals.nl/IRRJ/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Full disclosure of AI used in research and writing is required in the cover letter; the author instructions prohibit undisclosed AI as plagiarism but do not expressly authorize each required use."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-jfp",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal follows ACM authorship guidance for generative AI, but the linked ACM page returned HTTP 403; its actual permissions and disclosure could not be checked.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://manager.episciences.org/jfp/page/ethical-charter"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://manager.episciences.org/jfp/page/ethical-charter",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Journal follows ACM authorship guidance for generative AI, but the linked ACM page returned HTTP 403; its actual permissions and disclosure could not be checked."
+          },
+          {
+            "url": "https://www.acm.org/publications/policies/frequently-asked-questions",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Linked from journal ethical charter.",
+            "note": "HTTP 403, policy contents not verified."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-computational-linguistics",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal submission site is offline following its published security notice; applicable policy and disclosure could not be established from the site.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://submissions.cljournal.org/index.php/cljournal/about/submissions"
+          ],
+          "section": null
+        },
+        "restrictions": [
+          "Submission system was taken offline after security incident according to its notice."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://submissions.cljournal.org/index.php/cljournal/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Journal submission site is offline following its published security notice; applicable policy and disclosure could not be established from the site."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    },
+    {
+      "id": "informatics-computing-jlcl",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions establishing the full workflow were located.",
+          "source_urls": [
+            "https://jlcl.org/about/submissions"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://jlcl.org/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Reviewed the journal author instructions; no explicit permission and disclosure for all three required uses was established. This is uncertainty, not a finding that AI assistance is banned."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author instructions and discoverable applicable publisher policy checked; uncertainty is retained where positive evidence is incomplete."
+    }
+  ],
+  "notes": "All baseline plus discovery candidates from campaign helper inspected. Search snippets were not treated as authoritative policy. Disclosure-only wording does not itself establish permission. TheoretiCS current page differs from an indexed older snippet; live page is used."
+}

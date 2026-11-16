@@ -1,0 +1,785 @@
+{
+  "subfield": "computational-biology",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_ai_computational_biology",
+  "notes": [
+    "All baseline and discovery candidates inspected. Springer journal copyediting exemption conflicts with newer publisher guidance; both retained. Elsevier title-specific guides blocked."
+  ],
+  "patches": [
+    {
+      "id": "computational-biology-journal-of-mathematical-biology",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/285/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/285/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-bulletin-of-mathematical-biology",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/11538/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/11538/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-theory-in-biosciences",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/12064/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/12064/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-interdisciplinary-sciences-computational-life-sciences",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/12539/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/12539/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-network-modeling-analysis-health-informatics-bioinformatics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/13721/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/13721/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-acta-biotheoretica",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/10441/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10441/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-journal-of-biological-physics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/10867/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10867/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-journal-of-molecular-modeling",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/894/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/894/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-plos-computational-biology",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Research support, generated submission content and analysis scripts are permitted with disclosure and human oversight; claims, interpretations and conclusions must reflect authors’ own ideas.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "In Methods, Acknowledgements or relevant figure legends identify tools, use and affected content, and validation. Basic spelling, grammar and language improvements are exempt; translation disclosure is recommended.",
+          "source_urls": [
+            "https://journals.plos.org/ploscompbiol/s/ethical-publishing-practice"
+          ],
+          "section": "Artificial Intelligence Tools and Technologies"
+        },
+        "restrictions": [
+          "No AI authors; authors remain accountable.",
+          "No fabricated or misrepresented primary data."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.plos.org/ploscompbiol/s/ethical-publishing-practice",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Explicitly permits support for research and submission content; FAQ confirms analysis scripts and software; names disclosure location and validation."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-bioinformatics",
+      "ai_policy": {
+        "compatibility": "prohibited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "Journal explicitly forbids LLMs drafting papers from prompts; research algorithms, code assistance and checking anomalies are allowed. Journal rule overrides broader OUP permissions.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Document acceptable use affecting content with sufficient detail in supplementary materials; disclose AI in cover letter and Methods or Acknowledgements. OUP requests tool/version, use and human oversight; basic language correction is exempt under central policy.",
+          "source_urls": [
+            "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+            "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors"
+          ],
+          "section": "Disclosure of AI use"
+        },
+        "restrictions": [
+          "Papers must be written by researchers; no LLM-generated draft from a prompt.",
+          "Human authors take responsibility for code and submitted content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal follows ISCB policy: explicitly bans drafting papers from prompts while allowing code assistance and algorithmic research."
+          },
+          {
+            "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy expressly linked by journal.",
+            "note": "OUP policy permits analysis and substantial rewriting but gives journal-specific variations priority."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-biomath",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "No applicable AI use policy was found in the inspected official submission instructions. Silence does not establish permission.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "No disclosure instructions found in inspected page.",
+          "source_urls": [
+            "https://biomath.math.bas.bg/biomath/index.php/biomath/about/submissions"
+          ],
+          "section": "Author submissions"
+        },
+        "restrictions": [
+          "No affirmative evidence for the required workflow."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://biomath.math.bas.bg/biomath/index.php/biomath/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200; no AI policy found in inspected submissions page."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-biometrical-letters",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Broad permission to enhance authors’ efforts is not sufficiently specific to establish research assistance, analysis/code and substantive drafting.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Include a declaration identifying tool and reason and confirming human review and responsibility. Fundamental grammar, spelling and reference verification tools are exempt.",
+          "source_urls": [
+            "https://www.biometrical-letters.edu.pl/en/manuscript_procedings_guide"
+          ],
+          "section": "Declaration of generative AI and AI-assisted technologies"
+        },
+        "restrictions": [
+          "No AI authors; authors retain critical analysis and responsibility."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.biometrical-letters.edu.pl/en/manuscript_procedings_guide",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal broadly permits AI to enhance authors’ efforts with human supervision and mandates manuscript-use declaration; no express analysis or substantive drafting examples."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-biodiversity-informatics",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal requires disclosure for a broad range of uses including analysis, coding and text generation; disclosure alone does not establish permission for each use.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Separate Declaration of AI Use before References identifying tools, timing and purposes; no declaration if no tools were used.",
+          "source_urls": [
+            "https://journals.ku.edu/jbi/about"
+          ],
+          "section": "Use of artificial intelligence tools"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors remain responsible for accuracy, originality and integrity."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.ku.edu/jbi/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: AI declaration lists literature searches, analysis, coding and text generation as disclosure examples, but does not expressly grant permission."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-peer-community-journal",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Permits AI bibliography and data analysis with published/cited or adequately described methods, and generation of text and code with checking.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose how AI generated text and code in Methods or Acknowledgements; document and cite analytical methods sufficiently.",
+          "source_urls": [
+            "https://peercommunityjournal.org/page/about/"
+          ],
+          "section": "Use of artificial intelligence (AI)"
+        },
+        "restrictions": [
+          "No AI-generated illustrations.",
+          "Check generated text and code for plagiarism, hallucinations and errors; no AI authorship."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://peercommunityjournal.org/page/about/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Official AI section permits AI bibliography/data analysis and generated text/code subject to checking and disclosure; journal follows thematic PCI process."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-journal-of-open-source-software",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Permits AI support for research software creation, code and paper drafting within the software submission; humans make core design decisions and validate outputs.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "All submissions include AI usage disclosure in paper, stating whether AI was used; identify tools and versions, locations, scope and human review and validation.",
+          "source_urls": [
+            "https://joss.readthedocs.io/en/latest/policies.html"
+          ],
+          "section": "AI usage policy"
+        },
+        "restrictions": [
+          "Authors remain responsible for originality, accuracy, licensing and compliance.",
+          "No AI in author-editor/reviewer conversations except translation."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://joss.readthedocs.io/en/latest/policies.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Explicit permission for software creation, documentation and paper drafting with required disclosure and human validation."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-mathematical-biosciences",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Publisher permits literature research and AI use in reproducible research methods; substantive text drafting is not explicitly established, and the journal guide was inaccessible.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Publisher requires manuscript AI declaration naming tool, purpose and human oversight; report research use in Methods. Basic grammar/spelling/punctuation checks exempt.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/mathematical-biosciences/about/guide-for-authors",
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors / Disclosure"
+        },
+        "restrictions": [
+          "Journal-specific variations could not be checked.",
+          "Human authors remain responsible; no fabrication of data."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sciencedirect.com/journal/mathematical-biosciences/about/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific policy inaccessible.",
+            "note": "Official journal author guide returned HTTP 403 on direct retrieval."
+          },
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher identifies these as Elsevier journals; title-specific restrictions could not be checked.",
+            "note": "Elsevier permits literature synthesis and reproducible research methods, but manuscript drafting itself is not expressly authorized in the retrieved overview."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-journal-of-theoretical-biology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Publisher permits literature research and AI use in reproducible research methods; substantive text drafting is not explicitly established, and the journal guide was inaccessible.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Publisher requires manuscript AI declaration naming tool, purpose and human oversight; report research use in Methods. Basic grammar/spelling/punctuation checks exempt.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-theoretical-biology/about/guide-for-authors",
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors / Disclosure"
+        },
+        "restrictions": [
+          "Journal-specific variations could not be checked.",
+          "Human authors remain responsible; no fabrication of data."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-theoretical-biology/about/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific policy inaccessible.",
+            "note": "Official journal author guide returned HTTP 403 on direct retrieval."
+          },
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher identifies these as Elsevier journals; title-specific restrictions could not be checked.",
+            "note": "Elsevier permits literature synthesis and reproducible research methods, but manuscript drafting itself is not expressly authorized in the retrieved overview."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-biosystems",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Publisher permits literature research and AI use in reproducible research methods; substantive text drafting is not explicitly established, and the journal guide was inaccessible.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Publisher requires manuscript AI declaration naming tool, purpose and human oversight; report research use in Methods. Basic grammar/spelling/punctuation checks exempt.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/biosystems/about/guide-for-authors",
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors / Disclosure"
+        },
+        "restrictions": [
+          "Journal-specific variations could not be checked.",
+          "Human authors remain responsible; no fabrication of data."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sciencedirect.com/journal/biosystems/about/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific policy inaccessible.",
+            "note": "Official journal author guide returned HTTP 403 on direct retrieval."
+          },
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher identifies these as Elsevier journals; title-specific restrictions could not be checked.",
+            "note": "Elsevier permits literature synthesis and reproducible research methods, but manuscript drafting itself is not expressly authorized in the retrieved overview."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    },
+    {
+      "id": "computational-biology-mathematical-medicine-and-biology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "OUP explicitly allows data analysis and substantial rewriting; journal requires content-generation disclosure, but neither inspected statement affirmatively permits initial substantive manuscript drafting.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Journal specifies cover letter and Methods or Acknowledgements. OUP requests cover letter and Acknowledgements plus Methods for integral methodology; provide tool/version, use and human review. Basic grammar and reference formatting are exempt under OUP.",
+          "source_urls": [
+            "https://academic.oup.com/imammb/pages/General_Instructions",
+            "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors"
+          ],
+          "section": "Authorship / OUP AI disclosure"
+        },
+        "restrictions": [
+          "No AI authors; human accountability.",
+          "Do not misrepresent AI outputs as original research data."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://academic.oup.com/imammb/pages/General_Instructions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal requires disclosure for content generation, code and data processing, but disclosure alone does not establish permission for initial drafting."
+          },
+          {
+            "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "OUP journal publisher policy; journal-specific instructions also apply.",
+            "note": "Publisher explicitly permits data analysis, code and substantial rewriting; initial generation as manuscript drafting is not clearly listed."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked journal-specific author instructions and applicable publisher guidance; uncertainty and conflicts retained."
+    }
+  ]
+}

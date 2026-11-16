@@ -1,0 +1,204 @@
+{
+  "subfield": "cybersecurity-privacy",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/cyber_fees",
+  "patches": [
+    {
+      "id": "cybersecurity-privacy-computer-security",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "optional_open_access",
+        "conditions": "Standard subscription route has no submission or publication fee. Optional open access and optional print colour are charged; guidance says the journal is online-only despite retaining print-colour language.",
+        "other_mandatory_costs": "No mandatory page, membership or other charge identified in the journal guidelines.",
+        "fee_evidence": [
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-journal-of-computer-security_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Journal guidance says no fees to submit or publish; optional open access and print colour carry charges. It also refers generically to page charges in the OA section but states no fees to publish in this journal.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Journal-specific no-fee statement supports the standard route; print-colour text conflicts with online-only statement and is optional."
+    },
+    {
+      "id": "cybersecurity-privacy-privacy-confidentiality",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "charged",
+        "eligibility": "not_free",
+        "oa_status": "open_access",
+        "conditions": "Current submission instructions require $500 per accepted manuscript effective April 1, 2025; earlier 2024 no-fee statement is superseded.",
+        "other_mandatory_costs": "No additional mandatory cost established.",
+        "fee_evidence": [
+          {
+            "url": "https://journalprivacyconfidentiality.org/index.php/jpc/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Current fee section states no submission fee and $500 publication fee per accepted manuscript.",
+            "access": "page"
+          },
+          {
+            "url": "https://journalprivacyconfidentiality.org/index.php/jpc/article/download/939/772",
+            "checked_on": "2026-11-16",
+            "note": "2024 editorial described a no-fee model before current fee policy.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Corrects outdated 2024 fee claim."
+    },
+    {
+      "id": "cybersecurity-privacy-groups-complexity-cryptology",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Diamond open-access overlay; requires a suitable repository deposit.",
+        "other_mandatory_costs": "No mandatory page, membership or other charge identified in journal policy.",
+        "fee_evidence": [
+          {
+            "url": "https://gcc.episciences.org/page/about-jgcc",
+            "checked_on": "2026-11-16",
+            "note": "Journal states it does not charge authors for publication, with no submission fees or APCs.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Explicit no-author-charge policy covers submission and publication."
+    },
+    {
+      "id": "cybersecurity-privacy-cybersecurity-intelligence-cybercrime",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Instructions state no submission fees or page charges, but do not explicitly rule out an APC or other publication charge.",
+        "other_mandatory_costs": "Other mandatory costs and membership requirements not established.",
+        "fee_evidence": [
+          {
+            "url": "https://vc.bridgew.edu/ijcic/policies.html",
+            "checked_on": "2026-11-16",
+            "note": "Publication charges section rules out submission fees and page charges; it does not explicitly address all publication fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "No page charges alone does not establish absence of all publication fees."
+    },
+    {
+      "id": "cybersecurity-privacy-indonesian-cybersecurity-emerging-risks",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal states no submission fees, page charges or article processing charges.",
+        "other_mandatory_costs": "No mandatory membership or other author charge identified.",
+        "fee_evidence": [
+          {
+            "url": "https://journal.idnns.org/index.php/ijcyber/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions explicitly rule out page charges, APCs and submission fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Direct journal policy covers submission and publication charges."
+    },
+    {
+      "id": "cybersecurity-privacy-security-information-applications",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal states no APC; original articles, reviews, and case studies are limited to 12 pages, short communications to 6. Submission fees are not explicitly addressed.",
+        "other_mandatory_costs": "Other compulsory costs and membership not established.",
+        "fee_evidence": [
+          {
+            "url": "https://borneojournal.um.edu.my/index.php/JSIA",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no publication fees and no APC.",
+            "access": "page"
+          },
+          {
+            "url": "https://borneojournal.um.edu.my/index.php/JSIA/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Author guidelines specify no APC and article-type page limits, but do not explicitly address submission fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "No APC is insufficient to establish zero submission fees."
+    },
+    {
+      "id": "cybersecurity-privacy-security-privacy-wiley",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "optional_open_access",
+        "conditions": "Journal offers a subscription licence when optional open access funding is denied. Optional open access is quoted at $3,050; subscription-route author charges and submission fees remain unverified.",
+        "other_mandatory_costs": "Page, membership and other compulsory costs are not established; optional print colour may be charged.",
+        "fee_evidence": [
+          {
+            "url": "https://onlinelibrary.wiley.com/page/journal/24756725/homepage/fundedaccess.html",
+            "checked_on": "2026-11-16",
+            "note": "Journal offers paid open access and describes subscription licence as an alternative; does not establish submission and subscription publication fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://onlinelibrary.wiley.com/page/journal/24756725/homepage/forauthors.html",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions were inspected; Free Format means formatting flexibility, not a no-fee assertion.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer no fee from subscription model or Free Format."
+    },
+    {
+      "id": "cybersecurity-privacy-computers-security",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "optional_open_access",
+        "conditions": "Journal-branded insights page states no publication fee on subscription route and an optional open access charge. Publisher author guide returned 403; submission and other charges remain unverified.",
+        "other_mandatory_costs": "Mandatory page or length charges and membership are unverified.",
+        "fee_evidence": [
+          {
+            "url": "https://computersandsecurity.org/journal-insights/",
+            "checked_on": "2026-11-16",
+            "note": "Journal-branded page states no publication fee for subscription; ownership of this external domain was not independently established.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Publisher guide inaccessible during audit.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Subscription publication fee is reported by journal-branded page, whose publisher ownership is unconfirmed; submission cost remains unknown."
+    }
+  ],
+  "notes": [
+    "No baseline memberships exist for this new subfield; audited all eight discovery candidates returned by the campaign helper.",
+    "Fee audit does not assess AI compatibility."
+  ]
+}

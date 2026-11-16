@@ -1,0 +1,141 @@
+{
+  "subfield": "epidemiology-biostatistics",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_review_epidemiology_biostatistics",
+  "notes": [
+    "Reviewed all eight discovery records and the three role files. No baseline records or previously sourced metrics were present. Official publisher and society sources were read through web retrieval; inaccessible journal pages are noted per candidate. Citation metrics are journal-level indicators, not acceptance probabilities."
+  ],
+  "patches": [
+    {
+      "id": "epidemiology-biostatistics-ebph",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "IT",
+            "name": "Italy",
+            "basis": "Milano University Press ownership and Italian society journal",
+            "source_url": "https://riviste.unimi.it/index.php/ebph/about"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [
+          {
+            "code": "IT",
+            "name": "Italy",
+            "basis": "Milano University Press, institutional owner and publisher",
+            "source_url": "https://riviste.unimi.it/index.php/ebph/about"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The journal describes an international public health forum, but the cited about page does not expressly state author geographic eligibility.",
+          "source_urls": [
+            "https://riviste.unimi.it/index.php/ebph/about"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Public health and methods; international forum.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://riviste.unimi.it/index.php/ebph/about",
+            "note": "Journal identifies Milano University Press and an international public health forum; the cited page does not affirm author eligibility regardless of location.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Correct unsupported worldwide-author assertion; international audience is not international eligibility."
+    },
+    {
+      "id": "epidemiology-biostatistics-epidemiologic-methods",
+      "metrics": [
+        {
+          "name": "CiteScore",
+          "value": 1.9,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://www.degruyterbrill.com/journal/key/em/html",
+          "note": "Publisher reports Scopus CiteScore for 2025; journal-level citation metric, not acceptance probability."
+        },
+        {
+          "name": "SCImago Journal Rank",
+          "value": 0.378,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://www.degruyterbrill.com/journal/key/em/html",
+          "note": "Publisher reports 2025 SJR based on Scopus data; not an acceptance rate."
+        }
+      ],
+      "audit_note": "Official publisher journal page explicitly labels metric year."
+    },
+    {
+      "id": "epidemiology-biostatistics-electronic-journal-statistics",
+      "metrics": [
+        {
+          "name": "Estimated rejection rate (%)",
+          "value": 64.44,
+          "year": 2022,
+          "population": "225 submissions received July 1–December 31, 2022; status as of the July 10, 2023 editorial report",
+          "source_url": "https://imstat.org/wp-content/uploads/2023/08/2023-all-reports.pdf",
+          "note": "Editors describe this as a loose estimate at least 64.44%, counting 124 rejected and 21 reject-resubmit; other submissions remained under review or revision. Not an acceptance rate and not a final cohort outcome."
+        }
+      ],
+      "audit_note": "Preserve stated uncertainty and denominator; never convert this partial-cohort figure to acceptance."
+    }
+  ],
+  "findings": [
+    {
+      "id": "epidemiology-biostatistics-ebph",
+      "severity": "medium",
+      "issue": "The cited about page describes an international forum but does not say authors are welcome regardless of geographic location. AI policy contemplates analysis and editing, not substantive drafting.",
+      "resolution": "Replace author eligibility with not_stated; retain unclear AI compatibility. Journal policy requires a declaration for AI use."
+    },
+    {
+      "id": "epidemiology-biostatistics-epidemiologic-methods",
+      "severity": "info",
+      "issue": "Publisher author guidance discusses significant generated manuscript content and research design but does not explicitly permit analytical coding or analysis; submission fee remains unconfirmed.",
+      "resolution": "Retain unclear AI and needs_verification fee status. Publisher journal page reports 2025 citation metrics."
+    },
+    {
+      "id": "epidemiology-biostatistics-open-statistics",
+      "severity": "medium",
+      "issue": "Publisher policy is not an affirmative analytical-code permission; journal author instructions are dated 2021 and current fee terms and submission activity remain uncertain.",
+      "resolution": "Keep unclear AI and needs_verification; recheck current policy and activity. Journal publisher page was readable, but current fee evidence was not independently established."
+    },
+    {
+      "id": "epidemiology-biostatistics-research-methods-medicine-health-sciences",
+      "severity": "info",
+      "issue": "Sage instructions explicitly encourage authors from all countries, link the AI policy, and say no APC; they also label access subscription while saying free to view. Submission fees are not expressly settled.",
+      "resolution": "Keep international eligibility, conditional AI with qualitative-theme restriction, and fee needs_verification."
+    },
+    {
+      "id": "epidemiology-biostatistics-statistical-methods-medical-research",
+      "severity": "info",
+      "issue": "Journal explicitly says no fees to submit or publish and optional OA and print colour are paid. Sage permits disclosed research code and generated content but prohibits analysis of experiences and themes.",
+      "resolution": "Retain verified_free standard route and conditional compatible AI, including the stated limitation."
+    },
+    {
+      "id": "epidemiology-biostatistics-biostatistics-epidemiology",
+      "severity": "medium",
+      "issue": "Journal page returned HTTP 403. Taylor & Francis publisher policy prohibits AI first drafts of manuscripts or sections; journal-specific overrides and all fees could not be independently checked.",
+      "resolution": "Retain limited AI and needs_verification fees; do not infer geographic author eligibility from the society name."
+    },
+    {
+      "id": "epidemiology-biostatistics-electronic-journal-statistics",
+      "severity": "info",
+      "issue": "IMS states author or publication fees are not required and donations are voluntary; submission-specific and other charges remain conservatively unresolved. No applicable AI policy established. Historical editorial report includes a partial-cohort rejection estimate rather than acceptance.",
+      "resolution": "Keep fee needs_verification and AI unclear; report rejection only with cohort, date and unresolved decisions, never infer acceptance."
+    },
+    {
+      "id": "epidemiology-biostatistics-brazilian-journal-biometrics",
+      "severity": "medium",
+      "issue": "Official submission instructions explicitly limit AI to text organization and improvement. About page timed out in this review, so location and broad fee claims could not be independently reread.",
+      "resolution": "Retain limited AI and needs_verification costs; retain geography provisionally and recheck journal about page."
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "subfield": "psychology-behavior",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_c/psychology_ai",
+  "patches": [
+    {
+      "id": "psychology-behavior-applied-psychological-measurement",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed generated text and research assistance, including literature support and AI-generated or checked code, with human verification. It prohibits analysis of experiences and themes and generating a submission through a series of prompts.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions at submission; describe appropriate research uses in methods or acknowledgements. Language, grammar and structure suggestions alone are exempt. Verify outputs and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/apm"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Do not generate a submission using a series of prompts.",
+          "Do not use GenAI to analyze experiences and themes, fabricate data or references, or present generated images as novel research images.",
+          "Authors remain responsible; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/apm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal author instructions link Sage publication ethics and, where present, the generative AI policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy for Sage journal",
+            "note": "Explicitly addresses generated text, literature assistance, research code, disclosure and prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-personality-social-psychology-bulletin",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed generated text and research assistance, including literature support and AI-generated or checked code, with human verification. It prohibits analysis of experiences and themes and generating a submission through a series of prompts.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions at submission; describe appropriate research uses in methods or acknowledgements. Language, grammar and structure suggestions alone are exempt. Verify outputs and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/psp"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Do not generate a submission using a series of prompts.",
+          "Do not use GenAI to analyze experiences and themes, fabricate data or references, or present generated images as novel research images.",
+          "Authors remain responsible; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/psp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal author instructions link Sage publication ethics and, where present, the generative AI policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy for Sage journal",
+            "note": "Explicitly addresses generated text, literature assistance, research code, disclosure and prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-group-processes-intergroup-relations",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed generated text and research assistance, including literature support and AI-generated or checked code, with human verification. It prohibits analysis of experiences and themes and generating a submission through a series of prompts.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions at submission; describe appropriate research uses in methods or acknowledgements. Language, grammar and structure suggestions alone are exempt. Verify outputs and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/gpi"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Do not generate a submission using a series of prompts.",
+          "Do not use GenAI to analyze experiences and themes, fabricate data or references, or present generated images as novel research images.",
+          "Authors remain responsible; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/gpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal author instructions link Sage publication ethics and, where present, the generative AI policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy for Sage journal",
+            "note": "Explicitly addresses generated text, literature assistance, research code, disclosure and prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-culture-psychology",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed generated text and research assistance, including literature support and AI-generated or checked code, with human verification. It prohibits analysis of experiences and themes and generating a submission through a series of prompts.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions at submission; describe appropriate research uses in methods or acknowledgements. Language, grammar and structure suggestions alone are exempt. Verify outputs and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/cap"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Do not generate a submission using a series of prompts.",
+          "Do not use GenAI to analyze experiences and themes, fabricate data or references, or present generated images as novel research images.",
+          "Authors remain responsible; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cap",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal author instructions link Sage publication ethics and, where present, the generative AI policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy for Sage journal",
+            "note": "Explicitly addresses generated text, literature assistance, research code, disclosure and prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-feminism-psychology",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed generated text and research assistance, including literature support and AI-generated or checked code, with human verification. It prohibits analysis of experiences and themes and generating a submission through a series of prompts.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions at submission; describe appropriate research uses in methods or acknowledgements. Language, grammar and structure suggestions alone are exempt. Verify outputs and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/fap"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Do not generate a submission using a series of prompts.",
+          "Do not use GenAI to analyze experiences and themes, fabricate data or references, or present generated images as novel research images.",
+          "Authors remain responsible; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/fap",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal author instructions link Sage publication ethics and, where present, the generative AI policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy for Sage journal",
+            "note": "Explicitly addresses generated text, literature assistance, research code, disclosure and prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-theory-psychology",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed generated text and research assistance, including literature support and AI-generated or checked code, with human verification. It prohibits analysis of experiences and themes and generating a submission through a series of prompts.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions at submission; describe appropriate research uses in methods or acknowledgements. Language, grammar and structure suggestions alone are exempt. Verify outputs and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/tap"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Do not generate a submission using a series of prompts.",
+          "Do not use GenAI to analyze experiences and themes, fabricate data or references, or present generated images as novel research images.",
+          "Authors remain responsible; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/tap",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal instructions direct authors to Sage publication ethics policies; no additional AI-specific provision found in instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy for Sage journal",
+            "note": "Explicitly addresses generated text, literature assistance, research code, disclosure and prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-european-journal-personality",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed generated text and research assistance, including literature support and AI-generated or checked code, with human verification. It prohibits analysis of experiences and themes and generating a submission through a series of prompts.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions at submission; describe appropriate research uses in methods or acknowledgements. Language, grammar and structure suggestions alone are exempt. Verify outputs and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/erp"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Do not generate a submission using a series of prompts.",
+          "Do not use GenAI to analyze experiences and themes, fabricate data or references, or present generated images as novel research images.",
+          "Authors remain responsible; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/erp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal author instructions link Sage publication ethics and, where present, the generative AI policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy for Sage journal",
+            "note": "Explicitly addresses generated text, literature assistance, research code, disclosure and prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-psychological-research",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits author-led research assistance, exploratory data analysis and drafting sections based on author input with verification, oversight and disclosure. Its explicit analysis permission supports the analysis/code category; final interpretation and scientific claims remain author-led.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods; include an AI Use Declaration at the end directing readers to methods and confirming accountability. Detail manuscript preparation use in the declaration, including copy editing.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "AI cannot be an author or take responsibility.",
+          "Do not use AI to write an entire manuscript, independently write results or discussion, or generate scientific claims or interpretations.",
+          "Verify facts and references; protect confidentiality and consent."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/426/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal submission guidance identifies Springer Nature editorial policies."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal publisher guidance",
+            "note": "Publisher framework explicitly allows exploratory analysis and extensive writing support with oversight and disclosure."
+          },
+          {
+            "url": "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Allows drafting sections from author input, while prohibiting independent results or discussion and AI-generated scientific claims."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-memory-cognition",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits author-led research assistance, exploratory data analysis and drafting sections based on author input with verification, oversight and disclosure. Its explicit analysis permission supports the analysis/code category; final interpretation and scientific claims remain author-led.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods; include an AI Use Declaration at the end directing readers to methods and confirming accountability. Detail manuscript preparation use in the declaration, including copy editing.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "AI cannot be an author or take responsibility.",
+          "Do not use AI to write an entire manuscript, independently write results or discussion, or generate scientific claims or interpretations.",
+          "Verify facts and references; protect confidentiality and consent."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/13421/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal submission guidance identifies Springer Nature editorial policies."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal publisher guidance",
+            "note": "Publisher framework explicitly allows exploratory analysis and extensive writing support with oversight and disclosure."
+          },
+          {
+            "url": "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Allows drafting sections from author input, while prohibiting independent results or discussion and AI-generated scientific claims."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-judgment-decision-making",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions and policy pages did not establish permission for the requested substantive AI workflow. Silence is not a ban or affirmative permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable journal-specific disclosure instructions for this workflow were established in the inspected pages.",
+          "source_urls": [
+            "https://www.cambridge.org/core/journals/judgment-and-decision-making/information/author-instructions",
+            "https://www.cambridge.org/core/journals/judgment-and-decision-making/information/journal-policies/publishing-ethics"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.cambridge.org/core/journals/judgment-and-decision-making/information/author-instructions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Inspected author instructions; no applicable substantive AI permission established."
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/judgment-and-decision-making/information/journal-policies/publishing-ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy page",
+            "note": "Inspected journal policy/about page; AI workflow permission not established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-meta-psychology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions and policy pages did not establish permission for the requested substantive AI workflow. Silence is not a ban or affirmative permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable journal-specific disclosure instructions for this workflow were established in the inspected pages.",
+          "source_urls": [
+            "https://open.lnu.se/index.php/metapsychology/about/submissions",
+            "https://open.lnu.se/index.php/metapsychology/about"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://open.lnu.se/index.php/metapsychology/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Inspected author instructions; no applicable substantive AI permission established."
+          },
+          {
+            "url": "https://open.lnu.se/index.php/metapsychology/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy page",
+            "note": "Inspected journal policy/about page; AI workflow permission not established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-methodology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions and policy pages did not establish permission for the requested substantive AI workflow. Silence is not a ban or affirmative permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable journal-specific disclosure instructions for this workflow were established in the inspected pages.",
+          "source_urls": [
+            "https://meth.psychopen.eu/index.php/meth/for-authors-guidelines",
+            "https://meth.psychopen.eu/index.php/meth/policies"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://meth.psychopen.eu/index.php/meth/for-authors-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Inspected author instructions; no applicable substantive AI permission established."
+          },
+          {
+            "url": "https://meth.psychopen.eu/index.php/meth/policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy page",
+            "note": "Inspected journal policy/about page; AI workflow permission not established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-social-psychological-bulletin",
+      "ai_policy": {
+        "compatibility": "prohibited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "The journal permits disclosed AI analytical tasks and editing or translation, but expressly prohibits AI writing original text even with disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "In acknowledgments describe writing-process role and tool version; for analytical tasks describe the use, tool name and version.",
+          "source_urls": [
+            "https://spb.psychopen.eu/index.php/spb/policies"
+          ],
+          "section": "Use of Artificial Intelligence"
+        },
+        "restrictions": [
+          "AI must not write original text.",
+          "AI systems cannot be authors; authors must appropriately attribute sources."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://spb.psychopen.eu/index.php/spb/policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Explicitly permits analysis and prohibits original AI-written text."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-quantitative-computational-methods-behavioral-sciences",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions and policy pages did not establish permission for the requested substantive AI workflow. Silence is not a ban or affirmative permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable journal-specific disclosure instructions for this workflow were established in the inspected pages.",
+          "source_urls": [
+            "https://qcmb.psychopen.eu/index.php/qcmb/author-guidelines",
+            "https://qcmb.psychopen.eu/index.php/qcmb/policies"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://qcmb.psychopen.eu/index.php/qcmb/author-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Inspected author instructions; no applicable substantive AI permission established."
+          },
+          {
+            "url": "https://qcmb.psychopen.eu/index.php/qcmb/policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy page",
+            "note": "Inspected journal policy/about page; AI workflow permission not established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-psychological-thought",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions and policy pages did not establish permission for the requested substantive AI workflow. Silence is not a ban or affirmative permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable journal-specific disclosure instructions for this workflow were established in the inspected pages.",
+          "source_urls": [
+            "https://psyct.swu.bg/index.php/psyct/about/submissions",
+            "https://psyct.swu.bg/index.php/psyct/about"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://psyct.swu.bg/index.php/psyct/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Inspected author instructions; no applicable substantive AI permission established."
+          },
+          {
+            "url": "https://psyct.swu.bg/index.php/psyct/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy page",
+            "note": "Inspected journal policy/about page; AI workflow permission not established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-computational-brain-behavior",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits author-led research assistance, exploratory data analysis and drafting sections based on author input with verification, oversight and disclosure. Its explicit analysis permission supports the analysis/code category; final interpretation and scientific claims remain author-led.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods; include an AI Use Declaration at the end directing readers to methods and confirming accountability. Detail manuscript preparation use in the declaration, including copy editing.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "AI cannot be an author or take responsibility.",
+          "Do not use AI to write an entire manuscript, independently write results or discussion, or generate scientific claims or interpretations.",
+          "Verify facts and references; protect confidentiality and consent."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/42113/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal submission guidance identifies Springer Nature editorial policies."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal publisher guidance",
+            "note": "Publisher framework explicitly allows exploratory analysis and extensive writing support with oversight and disclosure."
+          },
+          {
+            "url": "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Allows drafting sections from author input, while prohibiting independent results or discussion and AI-generated scientific claims."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-psychonomic-bulletin-review",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits author-led research assistance, exploratory data analysis and drafting sections based on author input with verification, oversight and disclosure. Its explicit analysis permission supports the analysis/code category; final interpretation and scientific claims remain author-led.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods; include an AI Use Declaration at the end directing readers to methods and confirming accountability. Detail manuscript preparation use in the declaration, including copy editing.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "AI cannot be an author or take responsibility.",
+          "Do not use AI to write an entire manuscript, independently write results or discussion, or generate scientific claims or interpretations.",
+          "Verify facts and references; protect confidentiality and consent."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/13423/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal submission guidance identifies Springer Nature editorial policies."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal publisher guidance",
+            "note": "Publisher framework explicitly allows exploratory analysis and extensive writing support with oversight and disclosure."
+          },
+          {
+            "url": "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Allows drafting sections from author input, while prohibiting independent results or discussion and AI-generated scientific claims."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    },
+    {
+      "id": "psychology-behavior-current-psychology",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits author-led research assistance, exploratory data analysis and drafting sections based on author input with verification, oversight and disclosure. Its explicit analysis permission supports the analysis/code category; final interpretation and scientific claims remain author-led.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods; include an AI Use Declaration at the end directing readers to methods and confirming accountability. Detail manuscript preparation use in the declaration, including copy editing.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "AI cannot be an author or take responsibility.",
+          "Do not use AI to write an entire manuscript, independently write results or discussion, or generate scientific claims or interpretations.",
+          "Verify facts and references; protect confidentiality and consent."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/12144/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal submission guidance identifies Springer Nature editorial policies."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal publisher guidance",
+            "note": "Publisher framework explicitly allows exploratory analysis and extensive writing support with oversight and disclosure."
+          },
+          {
+            "url": "https://www.springernature.com/de/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Allows drafting sections from author input, while prohibiting independent results or discussion and AI-generated scientific claims."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal instructions and relevant publisher or journal AI policy inspected; classification reflects the policy evidence and its limits."
+    }
+  ],
+  "notes": [
+    "Sage prohibits GenAI analysis of experiences and themes; its conditional compatibility applies to other permitted research/code workflows. Springer compatibility requires human-led reasoning and disclosure. Four journals lack sufficient applicable evidence in inspected pages; Social Psychological Bulletin expressly prohibits original AI text."
+  ]
+}

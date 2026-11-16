@@ -1,0 +1,547 @@
+{
+  "subfield": "environmental-public-health",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_ai_environmental_public_health",
+  "notes": [
+    "All eight discovery journals link to Springer journal policies; no baseline records are present. Publisher guidance permits human-led assistance while prohibiting independent AI authorship and interpretation. Policies may change; recheck at submission."
+  ],
+  "patches": [
+    {
+      "id": "environmental-public-health-international-archives-of-occupational-and-environmental-health",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/420/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    },
+    {
+      "id": "environmental-public-health-air-quality-atmosphere-and-health",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/11869/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    },
+    {
+      "id": "environmental-public-health-environmental-monitoring-and-assessment",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10661/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    },
+    {
+      "id": "environmental-public-health-environmental-geochemistry-and-health",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10653/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    },
+    {
+      "id": "environmental-public-health-exposure-and-health",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/12403/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    },
+    {
+      "id": "environmental-public-health-current-environmental-health-reports",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/40572/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    },
+    {
+      "id": "environmental-public-health-ecohealth",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10393/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    },
+    {
+      "id": "environmental-public-health-environmental-science-and-pollution-research",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits AI-supported research, data analysis and drafting sections based on author input, subject to transparent disclosure, verification and human intellectual responsibility. Explicit analytical permission supports the analysis/code category; it does not authorize autonomous scientific interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods, including inputs, outputs and validation where relevant; add an AI Use Declaration at the end referring to Methods and confirming accountability. Describe manuscript preparation use in the declaration, including copy editing. The publisher FAQ calls for tool versions, dates, prompts and extent of contribution; label AI-assisted content clearly.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship guidance; transparency and declaration; risk assessment framework"
+        },
+        "restrictions": [
+          "AI cannot be an author or take accountability; human authors must verify content and citations.",
+          "AI must not independently write results or discussion, generate scientific claims or interpretations, fabricate data or replace scholarly judgment.",
+          "Do not upload confidential or sensitive material to unsecured or public AI systems; comply with privacy and rights requirements.",
+          "Visual content requires verifiable inputs and human review; opaque AI-generated visuals are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/11356/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission page links its Editorial policies to Springer journal policies.",
+            "note": "Read the journal instructions and followed the Editorial policies link."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Linked by this journal as its editorial policies.",
+            "note": "AI section applies Springer Nature risk assessment to authors and links its editorial policy."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing research practice.",
+            "note": "Permits research assistance including data analysis and modelling with documented verification and human reasoning."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature editorial policy governing manuscript preparation.",
+            "note": "Drafting sections based on author input is permitted with care, labelling and accountability; autonomous results or discussion is prohibited."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature author guidance and disclosure instructions.",
+            "note": "Methods plus end-of-paper declaration; describes disclosure details and permits basic analysis and literature review drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific Editorial policies link and publisher AI policies inspected. Compatibility concerns the founder’s human-led assisted workflow; the journal may impose additional article-specific requirements."
+    }
+  ]
+}

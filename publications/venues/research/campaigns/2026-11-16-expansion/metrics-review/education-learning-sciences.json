@@ -1,0 +1,136 @@
+{
+  "subfield": "education-learning-sciences",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/education_review",
+  "notes": [
+    "Reviewed all eight candidates. Journal statistics are not manuscript acceptance probabilities. No acceptance rate was independently verified. Accessible Sage policy, IJIE policy, RAIE ethics and statistics, and JRET about page read directly; PUP author guidelines timed out. Fee and geography conclusions are bounded by the cited individual role evidence."
+  ],
+  "patches": [
+    {
+      "id": "education-learning-sciences-indonesian-journal-informatics-education",
+      "metrics": [],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    },
+    {
+      "id": "education-learning-sciences-review-artificial-intelligence-education",
+      "metrics": [
+        {
+          "name": "Google Scholar citations",
+          "value": 2014,
+          "year": 2026,
+          "population": null,
+          "source_url": "https://alumnijournals.org/raie/statistics_ojs",
+          "note": "Journal reports 2,014 cumulative Google Scholar citations; statistics updated 22 October 2026. Coverage and denominator are not specified; not an acceptance measure."
+        }
+      ],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    },
+    {
+      "id": "education-learning-sciences-research-education-teaching",
+      "metrics": [],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    },
+    {
+      "id": "education-learning-sciences-pup-education-review",
+      "metrics": [],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    },
+    {
+      "id": "education-learning-sciences-journal-management-education",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.5,
+          "year": 2023,
+          "population": null,
+          "source_url": "https://journals.sagepub.com/doi/abs/10.1177/10525629241290756",
+          "note": "Historical 2023 impact factor reported in journal editorial; not a current acceptance rate."
+        },
+        {
+          "name": "Average time from submission to first decision (days)",
+          "value": 25,
+          "year": null,
+          "population": null,
+          "source_url": "https://journals.sagepub.com/home/jme",
+          "note": "Journal homepage reports average 25 days; measurement period, submission population, and decision type breakdown are not specified."
+        }
+      ],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    },
+    {
+      "id": "education-learning-sciences-journal-transformative-education",
+      "metrics": [],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    },
+    {
+      "id": "education-learning-sciences-culture-and-education",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 0.885,
+          "year": 2018,
+          "population": null,
+          "source_url": "https://journals.sagepub.com/doi/10.1080/11356405.2020.1711595",
+          "note": "Historical figure in journal editorial, not a current impact factor or acceptance probability."
+        }
+      ],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    },
+    {
+      "id": "education-learning-sciences-theory-research-education",
+      "metrics": [],
+      "audit_note": "Reviewed merged fee, geography and AI-policy evidence and searched journal or publisher sources for reported metrics; retained uncertainty and restrictions."
+    }
+  ],
+  "findings": [
+    {
+      "id": "education-learning-sciences-indonesian-journal-informatics-education",
+      "severity": "info",
+      "issue": "The journal explicitly states a worldwide no-fee route and permits human-revised drafting and verified data-analysis assistance, but the checklist caps AI-generated text at 12%.",
+      "resolution": "Retain compatible conditional workflow and disclose the quantitative limit."
+    },
+    {
+      "id": "education-learning-sciences-review-artificial-intelligence-education",
+      "severity": "info",
+      "issue": "The journal states a worldwide no-fee policy and addresses AI use for writing, collection, and analysis with human oversight. Its journal-wide citation count is a snapshot, not acceptance probability.",
+      "resolution": "Retain compatible conditional workflow and label citation snapshot."
+    },
+    {
+      "id": "education-learning-sciences-research-education-teaching",
+      "severity": "info",
+      "issue": "Official policy confirms no-fee processing but limits AI to supportive language functions; location and author eligibility remain unestablished.",
+      "resolution": "Retain prohibited classification and unknown geography."
+    },
+    {
+      "id": "education-learning-sciences-pup-education-review",
+      "severity": "info",
+      "issue": "The author-guidelines URL timed out on independent web retrieval; the fee reviewer reports a snippet while the AI reviewer reports a successful page read. Disclosure alone cannot establish substantive permission.",
+      "resolution": "Retain needs_verification fee and unclear AI classifications pending readable policy verification."
+    },
+    {
+      "id": "education-learning-sciences-journal-management-education",
+      "severity": "info",
+      "issue": "Sage permits generated research code and conditional generated text with disclosure, but prohibits AI analysis of experiences and themes. The journal gives a first-decision average without a period or denominator.",
+      "resolution": "Retain qualified AI compatibility and label timing limits; do not infer acceptance rate."
+    },
+    {
+      "id": "education-learning-sciences-journal-transformative-education",
+      "severity": "info",
+      "issue": "Sage permits generated research code and conditional generated text with disclosure, but prohibits AI analysis of experiences and themes. Sage offices do not establish journal location.",
+      "resolution": "Retain qualified AI compatibility and unknown venue base."
+    },
+    {
+      "id": "education-learning-sciences-culture-and-education",
+      "severity": "info",
+      "issue": "The Spanish foundation location is supported by a historical 2020 editorial; it should not imply an independently reverified current operational office. Sage limits AI analysis of experiences and themes.",
+      "resolution": "Retain dated foundation basis and conditional compatibility; label 2018 impact factor historical."
+    },
+    {
+      "id": "education-learning-sciences-theory-research-education",
+      "severity": "info",
+      "issue": "Sage permits generated research code and conditional generated text with disclosure, but prohibits AI analysis of experiences and themes. Publisher offices do not establish the journal base.",
+      "resolution": "Retain qualified AI compatibility and unknown venue base."
+    }
+  ]
+}

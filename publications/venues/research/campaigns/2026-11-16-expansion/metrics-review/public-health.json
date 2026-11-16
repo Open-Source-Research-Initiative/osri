@@ -1,0 +1,409 @@
+{
+  "subfield": "public-health",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_review_public_health",
+  "patches": [
+    {
+      "id": "public-health-bulletin-who",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 8.4,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count is not disclosed on the WHO page.",
+          "source_url": "https://www.who.int/publications/journals/bulletin/about",
+          "note": "Officially labelled 2025. Citation impact is separate from acceptance difficulty."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity.",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Research design, data collection and interpretation, and manuscript preparation including LLM writing are addressed; authors verify output and accept responsibility. Analysis/code permission is an interpretation of the policy covering AI use in research conduct, data collection and interpretation; code generation is not separately named.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Methods or appropriate alternative: describe how and extent used, tools and versions, and prompts where needed for reproducibility; add end-of-manuscript AI declaration confirming independent validation and responsibility. Human-participant protocols have additional ethics disclosure.",
+          "source_urls": [
+            "https://journal.paho.org/en/instructions-authors"
+          ],
+          "section": "Use of artificial intelligence"
+        },
+        "restrictions": [
+          "AI cannot be a coauthor; no knowing use of copyrighted content to generate figures."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journal.paho.org/en/instructions-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Explicit research and preparation policy; describes tool use and human accountability."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "public-health-emerging-infectious-diseases",
+      "metrics": [
+        {
+          "name": "Reported acceptance proportion, undated current summary",
+          "value": "approximately 23.7%",
+          "year": null,
+          "population": "Submitted articles, not only externally reviewed articles; exact count, cohort dates and treatment of invited manuscripts are not supplied.",
+          "source_url": "https://wwwnc.cdc.gov/eid/about/general",
+          "note": "Page updated 24 September 2026; this is the page date, not a stated acceptance-statistic year. Not an individual manuscript probability."
+        },
+        {
+          "name": "Typical annual acceptance proportion reported in 2024 journal report",
+          "value": "approximately 25%",
+          "year": null,
+          "population": "All submissions in an unspecified typical annual period; approximately 2000 manuscripts per year is contextual volume, not an exact denominator.",
+          "source_url": "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf",
+          "note": "The report is titled 2024 but does not identify the proportion as a measured 2024 cohort. Preserved separately from the current 23.7% summary."
+        },
+        {
+          "name": "CiteScore",
+          "value": 9.5,
+          "year": 2025,
+          "population": "Journal-level Scopus citation metric; underlying document count is not disclosed on the CDC page.",
+          "source_url": "https://wwwnc.cdc.gov/eid/about/general",
+          "note": "Official source explicitly labels this 2025. Citation impact is not used to infer acceptance difficulty."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "metrics": [
+        {
+          "name": "Reported acceptance proportion",
+          "value": "one in five articles",
+          "year": 2025,
+          "population": "Articles submitted to the journal; the same retrospective reports 1050 submissions, but does not define a finalized submission cohort or accepted-count numerator.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811709/",
+          "note": "Primary editorial by the Eurosurveillance editorial team, discussing 2025. Do not manufacture an exact 210 accepted count or infer manuscript odds."
+        },
+        {
+          "name": "Manuscript submissions received",
+          "value": 1050,
+          "year": 2025,
+          "population": "All journal submissions received in 2025; the separately reported 149 pre-submission enquiries are not added.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811709/",
+          "note": "Journal-wide volume, not the externally reviewed subset."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-journal-of-public-health-oup",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.5,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count not reported in the journal table.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Official 2025 label; not an acceptance metric."
+        },
+        {
+          "name": "CiteScore",
+          "value": 6.0,
+          "year": 2025,
+          "population": "Journal-level Scopus citation metric; underlying document count not reported in the journal table.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Official 2025 label; not an acceptance metric."
+        },
+        {
+          "name": "Median days from submission to first decision",
+          "value": 8,
+          "year": 2025,
+          "population": "Manuscripts with a first decision in 2025, including rejection without external review; n not reported.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics . Not peer-review duration for accepted papers."
+        },
+        {
+          "name": "Median days from submission to final decision",
+          "value": 8,
+          "year": 2025,
+          "population": "Manuscripts with a final accept/reject decision in 2025, including desk rejections; n not reported.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Median days from acceptance to publication",
+          "value": 31,
+          "year": 2025,
+          "population": "Articles first published online in 2025; n not reported.",
+          "source_url": "https://academic.oup.com/jpubhealth/pages/About",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics . Post-acceptance production time."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "metrics": [
+        {
+          "name": "Acceptance rate by final decisions",
+          "value": "15.2%",
+          "year": 2023,
+          "population": "100 acceptances among 656 final decisions on bimonthly peer/editor-reviewed content; excludes supplements and unreviewed content; includes letters and editor-reviewed departments.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Historical decision-year population, not 100 divided by new submissions."
+        },
+        {
+          "name": "New submissions received",
+          "value": 634,
+          "year": 2023,
+          "population": "614 regular-issue submissions plus 20 invited/sponsored supplement submissions.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Different population from acceptance-rate denominator."
+        },
+        {
+          "name": "Median days to first decision",
+          "value": 12,
+          "year": 2023,
+          "population": "617 first decisions in 2023 on bimonthly peer-reviewed content, including decisions on earlier submissions.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Interquartile range 7–25 days."
+        },
+        {
+          "name": "Median days from original submission to final acceptance",
+          "value": 229,
+          "year": 2023,
+          "population": "116 peer/editor-reviewed articles published in volume 138, January–December 2023; excludes unreviewed special material.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Interquartile range 193–289 days; accepted/published articles only."
+        },
+        {
+          "name": "Median days from final acceptance to online publication",
+          "value": 51,
+          "year": 2023,
+          "population": "123 full-content articles in volume 138, excluding reviewer acknowledgments and corrigenda.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+          "note": "Interquartile range 39–60 days; publication cohort differs from decision cohort."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-perspectives-in-public-health",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-european-journal",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 5.2,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count not reported in journal table.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Official 2025 label; not acceptance selectivity."
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.8,
+          "year": 2025,
+          "population": "Journal-level Scopus citation metric; underlying document count not reported in journal table.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Official 2025 label; not acceptance selectivity."
+        },
+        {
+          "name": "Median days from submission to first decision",
+          "value": 11,
+          "year": 2025,
+          "population": "Manuscripts with a first decision in 2025, including rejection without external review; n not reported.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Median days from submission to final decision",
+          "value": 11,
+          "year": 2025,
+          "population": "Manuscripts with a final accept/reject decision in 2025, including desk rejections; n not reported.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Median days from acceptance to publication",
+          "value": 34,
+          "year": 2025,
+          "population": "Articles first published online in 2025; n not reported.",
+          "source_url": "https://academic.oup.com/eurpub/pages/about",
+          "note": "Population definition: https://academic.oup.com/pages/using-the-content/metrics ."
+        },
+        {
+          "name": "Historical approximate acceptance proportion mentioned in 2020 editorial",
+          "value": "approximately 20%",
+          "year": null,
+          "population": "Incoming journal papers; no rate period, cohort count or decision/submission denominator definition stated.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7536247/",
+          "note": "Editors' commentary published 20 August 2020. This does not establish an exact 2020 annual acceptance rate or a current rate."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-annali-istituto-superiore-sanita",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor, publisher's year label",
+          "value": 2.1,
+          "year": 2025,
+          "population": "Journal-level citation metric; denominator and measurement window not stated in announcement.",
+          "source_url": "https://annali.iss.it/index.php/anna/announcement/view/8",
+          "note": "Title/body explicitly say 2025; page metadata retains 2021-07-01. Preserve the publisher's label without treating the metadata date as the metric year; not acceptance evidence."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-epidemiologia-servicos-saude",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-college-community-physicians-sri-lanka",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-delaware-journal",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "metrics": [
+        {
+          "name": "Reported acceptance rate",
+          "value": "14.2%",
+          "year": 2025,
+          "population": "Journal manuscripts; exact submission/decision cohort definition, denominator count and article-type mix not disclosed.",
+          "source_url": "https://www.cdc.gov/PCD/announcements.htm",
+          "note": "Announcement explicitly assigns the rate to 2025; About-page Quick Stats alone does not give the rate year. Not manuscript-specific odds."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 5.6,
+          "year": 2025,
+          "population": "Journal-level citation metric; underlying citable-item count not disclosed in Quick Stats.",
+          "source_url": "https://www.cdc.gov/pcd/about_the_journal/index.htm",
+          "note": "Official page labels 2025, reported in 2026. This is separate from acceptance difficulty."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "CDC-sponsored journal of the United States public health agency",
+            "source_url": "https://www.cdc.gov/pcd/about_the_journal/index.htm"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Journal reports authorship by experts worldwide; this documents past participation, not an explicit universal author eligibility rule.",
+          "source_urls": [
+            "https://www.cdc.gov/pcd/about_the_journal/index.htm"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Population health and chronic disease prevention, with worldwide dialogue.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.cdc.gov/pcd/about_the_journal/index.htm",
+            "note": "Population health and chronic disease prevention, with worldwide dialogue.",
+            "access": "page"
+          }
+        ]
+      },
+      "scope_notes": "Chronic-disease prevention and population-health practice, including surveillance/survey and GIS analyses, evaluation and systematic reviews. Scoping reviews are excluded from the systematic-review category. The methods label maps to practical instructional Tools for Public Health Practice articles, which require a one-paragraph summary to the editor before manuscript submission; it does not establish a generic algorithm-paper format. Current guidance says submitted data should be the most current and no older than two years. CDC states that its publications must comply with Executive Orders 14151 and 14168; the editor may discuss identified concerns with the corresponding author. General information: https://www.cdc.gov/pcd/for_authors/general_information.htm."
+    },
+    {
+      "id": "public-health-bulgarian-journal",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-evidence-public-health",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    },
+    {
+      "id": "public-health-population-health-management",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI helper fields and preserved the supplied dated metrics. Official-source checks and limits are described in findings and notes; an empty metrics list is not evidence of low selectivity."
+    }
+  ],
+  "findings": [
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "severity": "medium",
+      "issue": "Authorship by experts worldwide does not explicitly affirm universal geographic eligibility; instructions also include editorial review for executive-order compliance.",
+      "resolution": "Changed author eligibility to not_stated and added the official research-content condition to scope notes."
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "severity": "low",
+      "issue": "Journal instructions list research conduct, data collection and interpretation but do not specifically name generated code.",
+      "resolution": "Retained conditional compatibility under the campaign interpretation of human-responsible code-assisted analysis, explicitly marking the inference and retaining disclosure requirements."
+    },
+    {
+      "id": "public-health-epidemiologia-servicos-saude",
+      "severity": "low",
+      "issue": "Official policy expressly discusses AI in data collection and analysis and writing assistance, but does not name generated code.",
+      "resolution": "Retained conditional compatibility as code-assisted data analysis, an interpretation, with methods and separate writing disclosure."
+    },
+    {
+      "id": "public-health-bulgarian-journal",
+      "severity": "low",
+      "issue": "Official policy contemplates AI text generation, data analysis and other research components; code is not separately named. No separate comprehensive page or membership cost evidence.",
+      "resolution": "Retained qualified conditional compatibility and needs_verification fee route; code-assisted analysis is an interpretation."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "severity": "low",
+      "issue": "Current journal editorial policy was inaccessible to the AI auditor, and journal location evidence is historical.",
+      "resolution": "Retained unclear AI compatibility and venue location caveat; no inference of current AI permission."
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "severity": "medium",
+      "issue": "Five printed pages are free, but charges apply above that threshold; Sage policy has a generation restriction.",
+      "resolution": "Retained explicit page limit and unclear AI classification, without claiming that long submissions are free or that drafting is permitted."
+    }
+  ],
+  "notes": [
+    "Reviewed all 17 baseline and discovery records against all three completed fee, geography and AI helper patches, including routes, restrictions, location evidence and compatibility. Independently read official PAHO author instructions via direct HTTPS after web tool 403; SciELO RESS policy; CDC PCD author, editorial and about pages; Bulgarian journal official ethics PDF; and OUP European Journal of Public Health metric page. Other helper evidence was evaluated from its recorded claims rather than independently refetched in every case.",
+    "Preserved all pre-existing dated and clearly labeled historical/undated metrics; official 2025 European Journal 5.2 JIF and 4.8 CiteScore confirmed, as was PCD 2025 JIF 5.6. No extra acceptance estimate invented. Citation measures do not predict manuscript acceptance.",
+    "AI analysis/code for RESS and Bulgarian journal reflects code-assisted work within expressly contemplated data analysis, not explicit named permission for arbitrary code generation; PAHO research-conduct language supports a similarly bounded interpretation. Human verification and the relevant disclosure requirements apply.",
+    "These are agent evidence reviews, not human scientific review. Fee waivers, optional OA, special supplements and scope constraints remain as recorded by the fee and geography auditors. No remote actions performed."
+  ]
+}

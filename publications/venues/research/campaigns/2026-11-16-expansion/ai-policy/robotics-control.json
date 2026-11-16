@@ -1,0 +1,419 @@
+{
+  "subfield": "robotics-control",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/robot_ai",
+  "patches": [
+    {
+      "id": "robotics-control-autonomous-intelligent-systems",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/43684/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/43684/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific guidelines and publisher policy inspected; disclosure differences retained."
+    },
+    {
+      "id": "robotics-control-autonomous-robots",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/10514/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10514/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific guidelines and publisher policy inspected; disclosure differences retained."
+    },
+    {
+      "id": "robotics-control-international-journal-social-robotics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/12369/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/12369/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific guidelines and publisher policy inspected; disclosure differences retained."
+    },
+    {
+      "id": "robotics-control-international-journal-control-automation-systems",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/12555/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/12555/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific guidelines and publisher policy inspected; disclosure differences retained."
+    },
+    {
+      "id": "robotics-control-international-journal-dynamics-control",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/40435/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/40435/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific guidelines and publisher policy inspected; disclosure differences retained."
+    },
+    {
+      "id": "robotics-control-international-journal-intelligent-robotics-applications",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/41315/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/41315/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific guidelines and publisher policy inspected; disclosure differences retained."
+    },
+    {
+      "id": "robotics-control-discrete-event-dynamic-systems",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/10626/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10626/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific guidelines and publisher policy inspected; disclosure differences retained."
+    },
+    {
+      "id": "robotics-control-robotics-autonomous-systems",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly allows literature support, research methods including analysis and code, and drafting with human intellectual contribution. Its separate author factsheet checklist says AI should not write substantive content, creating a material ambiguity; the journal guide was blocked, so journal-specific restrictions could not be checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Put a separate declaration immediately before references naming tool, purpose and human oversight; document research and code use in Methods with reproducibility details. Basic spelling, grammar and punctuation checks do not require declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Human authors must verify and edit outputs and retain responsibility and scientific judgment.",
+          "No fabrication or alteration of research data or references; primary research images and graphical abstracts have specific restrictions.",
+          "Publisher factsheet checklist says AI did not write substantive content, while policy permits drafting with genuine intellectual contribution; journal-specific rules inaccessible."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy explicitly addresses authors preparing manuscripts for Elsevier journals.",
+            "note": "Permits responsible drafting, literature synthesis, research methods and code; requires disclosure."
+          },
+          {
+            "url": "https://researcheracademy.elsevier.com/uploads/2026-06/genai_factsheet_authors_v1_updated-1.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Elsevier journal author factsheet.",
+            "note": "Prohibits substantive writing without intellectual contribution, but checklist also says AI did not write substantive content; retain conflict."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guide for authors.",
+            "note": "Direct retrieval returned HTTP 403; journal-specific policy could not be verified."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Publisher policy and factsheet reviewed; journal-specific guide blocked and substantive drafting conflict requires clarification."
+    },
+    {
+      "id": "robotics-control-journal-franklin-institute",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly allows literature support, research methods including analysis and code, and drafting with human intellectual contribution. Its separate author factsheet checklist says AI should not write substantive content, creating a material ambiguity; the journal guide was blocked, so journal-specific restrictions could not be checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Put a separate declaration immediately before references naming tool, purpose and human oversight; document research and code use in Methods with reproducibility details. Basic spelling, grammar and punctuation checks do not require declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Human authors must verify and edit outputs and retain responsibility and scientific judgment.",
+          "No fabrication or alteration of research data or references; primary research images and graphical abstracts have specific restrictions.",
+          "Publisher factsheet checklist says AI did not write substantive content, while policy permits drafting with genuine intellectual contribution; journal-specific rules inaccessible."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy explicitly addresses authors preparing manuscripts for Elsevier journals.",
+            "note": "Permits responsible drafting, literature synthesis, research methods and code; requires disclosure."
+          },
+          {
+            "url": "https://researcheracademy.elsevier.com/uploads/2026-06/genai_factsheet_authors_v1_updated-1.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Elsevier journal author factsheet.",
+            "note": "Prohibits substantive writing without intellectual contribution, but checklist also says AI did not write substantive content; retain conflict."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-the-franklin-institute/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guide for authors.",
+            "note": "Direct retrieval returned HTTP 403; journal-specific policy could not be verified."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Publisher policy and factsheet reviewed; journal-specific guide blocked and substantive drafting conflict requires clarification."
+    }
+  ],
+  "notes": [
+    "All nine discovery candidates inspected. Elsevier journal guides returned HTTP 403 and author factsheet conflicts with publisher policy on substantive text; conservative unclear classification retained."
+  ]
+}

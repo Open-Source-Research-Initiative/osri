@@ -2,7 +2,7 @@
 
 OSRI supports journal articles, full conference papers, preprints, and substantive research blogs or technical essays. State each output's peer-review status accurately.
 
-OSRI prioritizes free submission and a free publication route. Use the [free publication guide](free-publication.md) and [source-checked venue directory](venues/README.md) to build a shortlist. Venue records and rankings remain separate from project target decisions and actual publication outputs.
+OSRI prioritizes free submission and a free publication route. Use the [free publication guide](free-publication.md) and [source-checked venue directory](venues/README.md) to build a shortlist. Venue evidence and metric comparisons remain separate from project target decisions and actual publication outputs.
 
 Follow [Publish and record your research](publish.md) for submission, revision, preservation, and registration steps.
 

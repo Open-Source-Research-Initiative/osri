@@ -1,0 +1,674 @@
+{
+  "subfield": "meta-research",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_c/meta_ai",
+  "patches": [
+    {
+      "id": "meta-research-scientometrics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature-review or summary drafting, exploratory data analysis and methodological support with human verification and scholarly judgment. Journal instructions apply Springer policy.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document AI use in Methods or equivalent; follow journal instructions for specifics.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://link.springer.com/journal/11192/submission-guidelines"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No AI authorship, fabrication, substitution for human judgment, writing entire manuscripts or AI final interpretation."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/11192/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal author instructions identify Springer AI policy."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable Springer Nature publisher guidance",
+            "note": "Allows drafting literature reviews or summaries and exploratory analysis; human review and accountability required."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-research-evaluation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "OUP permits data analysis and code generation, substantial rewriting and text generation subject to disclosure and human accountability. Text generation is expressly identified in disclosure examples; journal-specific requirements take precedence.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "At initial submission and revisions disclose tool name/version, how used and human direction and checking in cover letter and acknowledgements; also methodology when integral. Routine grammar and reference formatting are exempt.",
+          "source_urls": [
+            "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "https://academic.oup.com/rev/pages/author-guidelines"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No misrepresentation of AI-generated material as human-generated research data/results; journal-specific rules override."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://academic.oup.com/rev/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal author guidelines include AI disclosure requirements."
+          },
+          {
+            "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "OUP journals policy; journal instructions may override",
+            "note": "Applies to OUP journals; analysis, code and text generation addressed, with disclosed use and author verification."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-science-and-public-policy",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "OUP permits data analysis and code generation, substantial rewriting and text generation subject to disclosure and human accountability. Text generation is expressly identified in disclosure examples; journal-specific requirements take precedence.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "At initial submission and revisions disclose tool name/version, how used and human direction and checking in cover letter and acknowledgements; also methodology when integral. Routine grammar and reference formatting are exempt.",
+          "source_urls": [
+            "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "https://academic.oup.com/spp/pages/author-guidelines"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No misrepresentation of AI-generated material as human-generated research data/results; journal-specific rules override."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://academic.oup.com/spp/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal author guidelines include AI disclosure requirements."
+          },
+          {
+            "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "OUP journals policy; journal instructions may override",
+            "note": "Applies to OUP journals; analysis, code and text generation addressed, with disclosed use and author verification."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-accountability-in-research",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "Publisher permits research and analytical code under conditions but expressly bars generative AI from first drafts of manuscript text or sections. Journal instructions were inaccessible.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Statement whether and how AI was used, tool and version, verified accuracy and responsibility; disclose methodological use in methods and retain prompts.",
+          "source_urls": [
+            "https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No AI first drafts of manuscript sections, creation or conclusion of article argument; full review and verification required."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=gacr20",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific instructions inaccessible; journal-specific variations unresolved."
+          },
+          {
+            "url": "https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Taylor & Francis publisher guidance",
+            "note": "Allows analysis and coding but forbids first drafts of manuscript sections."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-social-studies-of-science",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly allows literature and code assistance with disclosure but its examples do not clearly permit substantive manuscript drafting. Text-generating use must be disclosed, which alone is not affirmative permission. The policy also prohibits AI analysis of experiences and themes.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generative use on submission, in methods or acknowledgements; ordinary language, grammar or structure suggestions are exempt.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/sss"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No fabricated data, incorrect text or references; qualitative analysis of experiences and themes is listed as inappropriate. Authors must check sources and outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Sage journal author instructions; journal-specific additional limitations may apply."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journals publisher policy",
+            "note": "Permits AI literature and code support and requires disclosure, but substantive drafting permission is not explicit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-research-ethics",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly allows literature and code assistance with disclosure but its examples do not clearly permit substantive manuscript drafting. Text-generating use must be disclosed, which alone is not affirmative permission. The policy also prohibits AI analysis of experiences and themes.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generative use on submission, in methods or acknowledgements; ordinary language, grammar or structure suggestions are exempt.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/rea"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No fabricated data, incorrect text or references; qualitative analysis of experiences and themes is listed as inappropriate. Authors must check sources and outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rea",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Sage journal author instructions; journal-specific additional limitations may apply."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journals publisher policy",
+            "note": "Permits AI literature and code support and requires disclosure, but substantive drafting permission is not explicit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-journal-of-information-science",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly allows literature and code assistance with disclosure but its examples do not clearly permit substantive manuscript drafting. Text-generating use must be disclosed, which alone is not affirmative permission. The policy also prohibits AI analysis of experiences and themes.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generative use on submission, in methods or acknowledgements; ordinary language, grammar or structure suggestions are exempt.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/jis"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No fabricated data, incorrect text or references; qualitative analysis of experiences and themes is listed as inappropriate. Authors must check sources and outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/jis",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Sage journal author instructions; journal-specific additional limitations may apply."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journals publisher policy",
+            "note": "Permits AI literature and code support and requires disclosure, but substantive drafting permission is not explicit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-research-synthesis-methods",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal explicitly welcomes evaluation of AI for synthesis and points to Cambridge AI policy, but accessible policy text did not establish permission for substantive drafting.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "Follow journal and Cambridge disclosure instructions; methods for AI use should report relevant details.",
+          "source_urls": [
+            "https://www.cambridge.org/core/journals/research-synthesis-methods/information/author-instructions/preparing-your-materials"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "AI use in a study evaluation is distinct from permission to draft the manuscript."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.cambridge.org/core/journals/research-synthesis-methods/information/author-instructions/preparing-your-materials",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "Direct page retrieval establishes journal-specific methodological guidance and links publisher policy; full policy content required cookies."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-meta-psychology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Applicable official instructions inspected did not establish permission for substantive research assistance, analysis and manuscript drafting.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions verified.",
+          "source_urls": [
+            "https://open.lnu.se/index.php/metapsychology/about/submissions"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "Permission cannot be inferred from silence."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://open.lnu.se/index.php/metapsychology/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "No sufficiently explicit applicable AI policy established from accessible author guidance."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-liber-quarterly",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Allows reference discovery and coding assistance, but permits writing help only for linguistic purposes and rejects AI-generated manuscripts; substantive drafting permission is not established.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe tools and uses in methods, footnotes, or a separate section at the end of the manuscript.",
+          "source_urls": [
+            "https://liberquarterly.eu/Research-integrity"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "AI-generated manuscripts are not accepted; literature review cannot be outsourced; human authors must review and test code."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://liberquarterly.eu/Research-integrity",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal policy permits literature searches and coding and linguistic help while rejecting AI-generated manuscripts."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-engaging-science-technology-and-society",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal strongly discourages generative AI except translation without alternatives or where AI itself is the study focus; asks about literature searches, narrative formulation and data analysis, but disclosure questions do not establish substantive drafting permission.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose every use in cover letter, explain purpose, verification and effects; describe AI-generated or analysed data in methods.",
+          "source_urls": [
+            "https://estsjournal.org/index.php/ests/genai"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "Strongly discourages other generative AI uses; editorial review considers use."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://estsjournal.org/index.php/ests/genai",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "Direct HTTP retrieval: explicit discouragement and disclosure rubric for searches, narrative and analysis."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-science-editing",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Applicable official instructions inspected did not establish permission for substantive research assistance, analysis and manuscript drafting.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable disclosure instructions verified.",
+          "source_urls": [
+            "https://www.escienceediting.org/authors/authors.php"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "Permission cannot be inferred from silence."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.escienceediting.org/authors/authors.php",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "No sufficiently explicit applicable AI policy established from accessible author guidance."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-european-science-editing",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal requires reporting AI for analysis and generated code, but a general disclosure obligation for manuscript preparation does not explicitly establish permission for substantive AI drafting.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Identify model and task in Methods or separate AI declaration; describe prompts in supplement. Data or code generation and analysis go in Methods.",
+          "source_urls": [
+            "https://ese.arphahub.com/about"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "Human authors remain responsible; AI is not an author or primary source."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://ese.arphahub.com/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific guidance",
+            "note": "Direct HTTP retrieval: data analysis and code generation disclosure and manuscript preparation rules; explicit substantive drafting permission not established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-science-technology-human-values",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly allows literature and code assistance with disclosure but its examples do not clearly permit substantive manuscript drafting. Text-generating use must be disclosed, which alone is not affirmative permission. The policy also prohibits AI analysis of experiences and themes.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generative use on submission, in methods or acknowledgements; ordinary language, grammar or structure suggestions are exempt.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/sth"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No fabricated data, incorrect text or references; qualitative analysis of experiences and themes is listed as inappropriate. Authors must check sources and outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sth",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Sage journal author instructions; journal-specific additional limitations may apply."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journals publisher policy",
+            "note": "Permits AI literature and code support and requires disclosure, but substantive drafting permission is not explicit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-public-understanding-of-science",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly allows literature and code assistance with disclosure but its examples do not clearly permit substantive manuscript drafting. Text-generating use must be disclosed, which alone is not affirmative permission. The policy also prohibits AI analysis of experiences and themes.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generative use on submission, in methods or acknowledgements; ordinary language, grammar or structure suggestions are exempt.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/pus"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No fabricated data, incorrect text or references; qualitative analysis of experiences and themes is listed as inappropriate. Authors must check sources and outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pus",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Sage journal author instructions; journal-specific additional limitations may apply."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journals publisher policy",
+            "note": "Permits AI literature and code support and requires disclosure, but substantive drafting permission is not explicit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-science-communication",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly allows literature and code assistance with disclosure but its examples do not clearly permit substantive manuscript drafting. Text-generating use must be disclosed, which alone is not affirmative permission. The policy also prohibits AI analysis of experiences and themes.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generative use on submission, in methods or acknowledgements; ordinary language, grammar or structure suggestions are exempt.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/scx"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No fabricated data, incorrect text or references; qualitative analysis of experiences and themes is listed as inappropriate. Authors must check sources and outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/scx",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Sage journal author instructions; journal-specific additional limitations may apply."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journals publisher policy",
+            "note": "Permits AI literature and code support and requires disclosure, but substantive drafting permission is not explicit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    },
+    {
+      "id": "meta-research-information-services-and-use",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly allows literature and code assistance with disclosure but its examples do not clearly permit substantive manuscript drafting. Text-generating use must be disclosed, which alone is not affirmative permission. The policy also prohibits AI analysis of experiences and themes.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generative use on submission, in methods or acknowledgements; ordinary language, grammar or structure suggestions are exempt.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/isu"
+          ],
+          "section": "AI policy for authors"
+        },
+        "restrictions": [
+          "No fabricated data, incorrect text or references; qualitative analysis of experiences and themes is listed as inappropriate. Authors must check sources and outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/isu",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Sage journal author instructions; journal-specific additional limitations may apply."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journals publisher policy",
+            "note": "Permits AI literature and code support and requires disclosure, but substantive drafting permission is not explicit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently inspected applicable official AI policy and journal guidance; uncertain cases retained outside main directory."
+    }
+  ],
+  "notes": "All 17 baseline and discovery candidates covered. Direct HTTP retrieved ESTS, European Science Editing and Cambridge preparation page where browser access failed or was incomplete. Sage text generation disclosure alone is not affirmative drafting permission; journal-specific restrictions may be stricter. Science Editing and Meta-Psychology guidance yielded no established complete workflow."
+}

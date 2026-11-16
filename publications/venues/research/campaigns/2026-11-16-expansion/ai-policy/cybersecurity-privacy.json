@@ -1,0 +1,301 @@
+{
+  "subfield": "cybersecurity-privacy",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/cyber_ai",
+  "notes": [
+    "Baseline plus discovery helper yielded eight unique records at audit time. Disclosure alone is not permission.",
+    "Computers & Security guide blocked; applicable publisher policy is readable, but journal-specific restrictions could not be independently ruled out."
+  ],
+  "patches": [
+    {
+      "id": "cybersecurity-privacy-computer-security",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage explicitly permits literature assistance and generated or checked code for research. Its policy covers primary or partial AI-generated text with disclosure and says disclosed use alone is not grounds for rejection; authors retain responsibility and verify outputs.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative use upon submission and in methods or acknowledgements; cite and verify original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "No fabricated data or references, generated unique research images or qualitative analysis of experiences and themes; no AI authorship."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-journal-of-computer-security_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions reference Sage generative AI policy.",
+            "note": "Authorship section links AI policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal AI policy referenced by journal.",
+            "note": "Permits literature review, research code and generated content with disclosure; prohibits specified uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal guide links policy; substantive text covered semantically by primary or partial generated text and disclosed-use clause."
+    },
+    {
+      "id": "cybersecurity-privacy-privacy-confidentiality",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions do not establish permission for the requested research, analysis and drafting workflow. Silence does not establish a ban or permission.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "No applicable disclosure instructions identified in the inspected page.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://journalprivacyconfidentiality.org/index.php/jpc/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal submission instructions",
+            "note": "No applicable AI-use permissions established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Excluded pending explicit applicable policy."
+    },
+    {
+      "id": "cybersecurity-privacy-groups-complexity-cryptology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions do not establish permission for the requested research, analysis and drafting workflow. Silence does not establish a ban or permission.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "No applicable disclosure instructions identified in the inspected page.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://gcc.episciences.org/page/about-jgcc",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal about page",
+            "note": "No applicable AI-use permissions established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Excluded pending explicit applicable policy."
+    },
+    {
+      "id": "cybersecurity-privacy-cybersecurity-intelligence-cybercrime",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The inspected journal instructions do not establish permission for the requested research, analysis and drafting workflow. Silence does not establish a ban or permission.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "No applicable disclosure instructions identified in the inspected page.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://vc.bridgew.edu/ijcic/policies.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "No applicable AI-use permissions established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Excluded pending explicit applicable policy."
+    },
+    {
+      "id": "cybersecurity-privacy-indonesian-cybersecurity-emerging-risks",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal acknowledges AI for literature synthesis and research gaps, but the author permission explicitly names basic language assistance; its other-use declaration is not itself a grant of substantive drafting or analysis permission.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Declare generative AI in manuscript preparation upon submission beyond basic language assistance; precise location and contents not specified.",
+          "source_urls": [
+            "https://journal.idnns.org/index.php/ijcyber/about/submissions"
+          ],
+          "section": "12. The use of generative AI tools"
+        },
+        "restrictions": [
+          "Human oversight and critical evaluation required."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journal.idnns.org/index.php/ijcyber/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author policy.",
+            "note": "Research support is discussed but author permission for substantive drafting and analytical coding is ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Conservative interpretation of inconsistent scope of explicit author permission."
+    },
+    {
+      "id": "cybersecurity-privacy-security-information-applications",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal requires acknowledgement of generative AI in manuscript preparation and human responsibility, but does not explicitly permit research assistance or analytical coding; disclosure alone does not establish permission.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose use in Acknowledgements; remove acknowledgements from blinded review version and restore after acceptance.",
+          "source_urls": [
+            "https://borneojournal.um.edu.my/index.php/JSIA/about/submissions"
+          ],
+          "section": "Use of Generative AI"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors are responsible for accuracy and integrity."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://borneojournal.um.edu.my/index.php/JSIA/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission instructions.",
+            "note": "Disclosure requirement does not specify permitted substantive research and analysis uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Further explicit policy required."
+    },
+    {
+      "id": "cybersecurity-privacy-security-privacy-wiley",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Wiley’s readable ethics policy permits AI as a companion to writing and requires human responsibility. Its detailed author guidance appeared in search results describing literature, analysis, code and drafting but the actual page returned 403; journal-specific limitations could not be ruled out from that evidence.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose substantial use upon submission and in manuscript; Wiley guidance assigns drafting to acknowledgements and research methods to methods, with tool name/version and human role, but detailed page was blocked.",
+          "source_urls": [
+            "https://authors.wiley.com/ethics-guidelines/index.html",
+            "https://www.wiley.com/en-us/publishing/article/ai-guidelines"
+          ],
+          "section": "Artificial intelligence / Specific guidance"
+        },
+        "restrictions": [
+          "No AI authorship; final acceptability rests with the journal editor; privacy and rights restrictions apply."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://onlinelibrary.wiley.com/page/journal/24756725/homepage/forauthors.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions.",
+            "note": "Inspected journal author guidance."
+          },
+          {
+            "url": "https://authors.wiley.com/ethics-guidelines/index.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Wiley policy applies to Wiley journals.",
+            "note": "Companion writing and disclosure; detailed analysis guidance linked."
+          },
+          {
+            "url": "https://www.wiley.com/en-us/publishing/article/ai-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "search_snippet",
+            "applicability": "Wiley journal author guidance, detailed page blocked.",
+            "note": "Search index describes research, code, analysis and drafting; direct retrieval returned 403."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Unclear until detailed applicable policy and any journal restrictions can be read directly."
+    },
+    {
+      "id": "cybersecurity-privacy-computers-security",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier journal policy permits human-directed drafting and explicitly does not prevent AI in study design, code development or data analysis; authors must verify outputs and retain intellectual responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Describe AI research design and methods reproducibly in Methods. For manuscript preparation add declaration immediately before references naming tool, purpose, human review and responsibility.",
+          "source_urls": [
+            "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Author policy / frequently asked questions"
+        },
+        "restrictions": [
+          "AI cannot be an author; do not replace intellectual contribution; restrictions apply to primary research images."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Elsevier journals author policy applies to publisher journal.",
+            "note": "Study design, code and analysis plus drafting support and disclosures."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guide.",
+            "note": "Returned 403; no journal-specific conflict could be checked."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Publisher policy supports workflow; journal-specific guide blocked, check for stricter local rules before submission."
+    }
+  ]
+}

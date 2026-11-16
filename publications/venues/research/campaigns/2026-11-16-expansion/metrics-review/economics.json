@@ -1,0 +1,221 @@
+{
+  "subfield": "economics",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_review_economics",
+  "patches": [
+    {
+      "id": "economics-review-of-economic-analysis",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-erasmus-journal-for-philosophy-and-economics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-economics-and-business-letters",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-ekoist-journal-of-econometrics-and-statistics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-journal-of-mechanism-and-institution-design",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-comparative-economic-studies",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-journal-of-comparative-economics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits.",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The staged Oxford journal instructions require disclosure of AI use for content generation, code and data processing, but the cited clause is a disclosure instruction rather than explicit permission. Applicability to the current Elsevier route is also unverified; the Oxford portal was reported as under development.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose use in both the cover letter and the manuscript Methods or Acknowledgements; examples include content generation, code and data processing.",
+          "source_urls": [
+            "https://academic.oup.com/jce/pages/author-guidelines"
+          ],
+          "section": "Publication and research ethics: Authorship"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors are accountable for their work.",
+          "Disclosure examples alone do not establish permission for the campaign workflow; staged Oxford terms must not be assumed to govern the current Elsevier portal."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://academic.oup.com/jce/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions or policy.",
+            "note": "The journal explicitly addresses AI for content generation, code and data processing, subject to disclosure and human authorship responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "economics-swiss-journal-of-economics-and-statistics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "CH",
+            "name": "Switzerland",
+            "basis": "Swiss Society of Economics and Statistics owns journal",
+            "source_url": "https://www.sses.swiss/journal/"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "The owning society states that submission of new manuscripts is free for interested researchers worldwide.",
+          "source_urls": [
+            "https://www.sses.swiss/journal/"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Economics and statistics; country of society is not a geographic research restriction.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sses.swiss/journal/",
+            "note": "Swiss Society of Economics and Statistics owns journal",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sses.swiss/journal/",
+            "note": "Owning society explicitly addresses submission by interested researchers worldwide.",
+            "access": "page"
+          }
+        ]
+      }
+    },
+    {
+      "id": "economics-public-sector-economics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-health-economics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-review-of-economic-perspectives",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-european-journal-of-government-and-economics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-central-european-economic-journal",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits.",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The journal requires declarations describing AI use including data analysis, coding and drafting text; the cited passage gives disclosure examples but does not itself explicitly grant permission. The full workflow remains unclear.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "For articles published from November 2026 put a declaration before references in the anonymous manuscript stating whether and extent of use, tool names and purposes; provide the stated no-use declaration if applicable.",
+          "source_urls": [
+            "https://reference-global.com/download/document/journal/CEEJ/Submission_and_Formatting_Instructions.pdf"
+          ],
+          "section": "Declarations"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors remain fully responsible.",
+          "The cited disclosure clause does not itself establish permission for these uses."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://reference-global.com/download/document/journal/CEEJ/Submission_and_Formatting_Instructions.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions or policy.",
+            "note": "Instructions explicitly address coding, data analysis and drafting text during manuscript preparation and human responsibility, but independent research-stage uses are not expressly addressed."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "economics-economia-pucp",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-contextus",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-lahore-journal-of-economics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-studies-and-scientific-researches-economics-edition",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-journal-of-comments-and-replications-in-economics",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    },
+    {
+      "id": "economics-afyon-kocatepe-university-journal-of-economics-and-administrative-sciences",
+      "audit_note": "Reviewed merged candidate and role fields for fee, geography, AI policy, and metrics consistency; see findings and notes for independently checked sources and limits."
+    }
+  ],
+  "findings": [
+    {
+      "id": "economics-swiss-journal-of-economics-and-statistics",
+      "severity": "medium",
+      "issue": "Geography marked author eligibility unclear despite an affirmative worldwide submission statement by its owning society.",
+      "resolution": "Corrected complete geography field to international, citing the society."
+    },
+    {
+      "id": "economics-journal-of-comparative-economics",
+      "severity": "high",
+      "issue": "Oxford author guidance describes AI disclosure examples but does not expressly grant substantive permission; the 2027 Oxford portal is staged, and the current Elsevier policy was not independently confirmed.",
+      "resolution": "Classified AI compatibility unclear and retained staged/current route fee uncertainty; do not infer open submissions from the staged portal."
+    },
+    {
+      "id": "economics-central-european-economic-journal",
+      "severity": "medium",
+      "issue": "Disclosure examples for analysis, coding, and drafting alone were treated as conditional permissions.",
+      "resolution": "Retained unclear compatibility and required declaration while marking permissions not stated pending affirmative applicable evidence."
+    },
+    {
+      "id": "economics-economics-and-business-letters",
+      "severity": "high",
+      "issue": "The venue is closed to new submissions despite verified free fees; metrics do not make it available.",
+      "resolution": "Retain closure status and fee conditions; exclude from currently available main listings."
+    },
+    {
+      "id": "economics-contextus",
+      "severity": "info",
+      "issue": "Official journal policy addresses substantive analysis, literature review, text generation and modeling, with disclosure and human responsibility.",
+      "resolution": "Compatible classification retained; analysis qualifies semantically without the literal word code. Fee eligibility remains needs_verification."
+    }
+  ],
+  "notes": [
+    "Reviewed all 19 merged helper records and their fee, geography and AI-policy patch fields for internal consistency; independent official-source retrieval was targeted, not a fresh verification of every source. Official Swiss Society, Oxford guidance, Contextus and Afyon policy, EKOIST 2025 statistics, Economics and Business Letters metrics, and Comparative Economic Studies metrics were read. Other role observations are retained with their evidence and access limitations.",
+    "Existing sourced metrics retained, including official 2025 Comparative Economic Studies JIF 1.9 and five-year JIF 1.7, and EKOIST 2025 acceptance ratio 51% (36 accepted, 35 rejected; denominator/cohort limits noted). Economics and Business Letters 2025 JIF 1.0 and CiteScore 1.5 were confirmed. Citation metrics do not measure acceptance odds; no historical padding or inferred acceptance rate was added.",
+    "No independent live recheck of every fee, geographic claim or policy was possible in this review; unresolved or blocked policies remain uncertain. No remote actions."
+  ]
+}

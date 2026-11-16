@@ -1,0 +1,539 @@
+{
+  "subfield": "informatics-computing",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_fees_informatics_computing",
+  "notes": [
+    "All listed baseline and campaign discovery records audited. Source evidence is dated per entry. The Episciences model excludes publication charges but its statement about per-unit publication fees does not independently rule out a distinct submission fee. Event and conference routes are outside the ordinary journal routes."
+  ],
+  "patches": [
+    {
+      "id": "informatics-computing-jmlr",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The standard journal publication has no publication fee. A submission-fee exclusion was not found in the author page or FAQ, so the combined zero-cost route remains unverified. LaTeX and the JMLR style are required. Over 35 pages can delay review; over 50 pages, including appendices, requires justification and can lead to desk rejection. These are editorial length conditions, not a documented paid overlength option. Unsolicited surveys are excluded.",
+        "other_mandatory_costs": "Publication charges are excluded. Submission charges remain unknown; no compulsory paid membership or conference registration was identified in the inspected instructions.",
+        "fee_evidence": [
+          {
+            "url": "https://jmlr.org/author-info.html",
+            "checked_on": "2026-11-16",
+            "note": "Explicitly excludes publication fees and documents length and preparation conditions, but does not explicitly exclude submission fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://jmlr.org/faq.html",
+            "checked_on": "2026-11-16",
+            "note": "Describes account registration and submission workflow; does not provide an explicit submission-fee or blanket no-author-fee policy.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Publication is free on the stated route, but the reviewed evidence does not explicitly exclude a separate submission fee; eligibility remains unverified."
+    },
+    {
+      "id": "informatics-computing-jair",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No submission or publication fees. The ordinary journal route needs no conference participation. Authors supply publication-ready files and the mandatory reproducibility checklist; surveys have separate contribution requirements. Long articles may take longer to review, without a paid length option in the inspected policy. AI may assist research, but core contributions must come from the human authors.",
+        "other_mandatory_costs": "None for the ordinary journal route under the explicit free-submission/free-publication policy; no paid membership or required event registration is specified.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jair.org/index.php/jair/faq",
+            "checked_on": "2026-11-16",
+            "note": "Explicitly says authors are not charged for submitting or publishing articles.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.jair.org/index.php/jair/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Independently rules out submission and accepted-article publication fees; documents author preparation, checklist, survey and AI requirements.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-tmlr",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No author fees. Every author needs an active OpenReview profile and sufficient annual submission quota, including for desk-rejected submissions. Length must be justified. No surveys from September 1, 2026; no expanded archival conference papers. The editorial LLM policy allows assistive use with human responsibility; the FAQ additionally expects human-sourced ideas/claims/results and first-page disclosure. Assess both against the actual workflow. Journal-to-conference presentation and attendance are separate.",
+        "other_mandatory_costs": "None for journal submission and publication under the blanket no-author-fee policy. Journal-to-conference travel or registration is outside this route and is not required to publish.",
+        "fee_evidence": [
+          {
+            "url": "https://jmlr.org/tmlr/editorial-policies.html",
+            "checked_on": "2026-11-16",
+            "note": "Blanket policy imposes no fees or payments on authors; annual quotas and originality rules govern eligibility.",
+            "access": "page"
+          },
+          {
+            "url": "https://jmlr.org/tmlr/author-guide.html",
+            "checked_on": "2026-11-16",
+            "note": "Any manuscript length is permitted if justified; active author profiles and the required format are documented.",
+            "access": "page"
+          },
+          {
+            "url": "https://jmlr.org/tmlr/faq.html",
+            "checked_on": "2026-11-16",
+            "note": "Excludes surveys from September 1, 2026; distinguishes conference presentation opportunities and states human-contribution and LLM-disclosure expectations.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-joss",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No fees to submit or publish. Requires mature, research-used software under an OSI-approved license, tests, documentation and more than six months of active public development. A major contributor submits, participates in public review and archives a tagged release with a DOI. AI assistance requires disclosure and human validation; AI-mediated author/editor or reviewer conversation is prohibited except translation. Models, notebooks, thin API clients and one-off analysis tools are outside scope.",
+        "other_mandatory_costs": "None in the journal submission/publication policy. Repository hosting must permit free public access; free supported archive choices exist. Existing software development expenses are not journal charges.",
+        "fee_evidence": [
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "checked_on": "2026-11-16",
+            "note": "Explicitly excludes submission and publication fees and documents public-development maturity, research impact, AI limits, open hosting, public review and archived-release requirements.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-jstatsoft",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Free submission and no author fees. Requires GPL or GPL-compatible software, manuscript source and replication material reproducing all results. Authors prepare final publishable files. No page, figure or table limit applies; manuscripts over 30 pages can take longer to review. The journal does not supply paid conversion assistance as a prerequisite.",
+        "other_mandatory_costs": "None under the journal-wide no-author-fee policy; no compulsory paid membership, event registration or page charges are specified.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jstatsoft.org/authors",
+            "checked_on": "2026-11-16",
+            "note": "States free-submission publishing and no author fees; specifies software licensing, reproducibility, author typesetting and no page/figure/table limits.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-lmcs",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Free Episciences overlay-journal route. First post the paper and TeX source in arXiv/CoRR with cs.LO included, then submit through Episciences. Normally at most 50 pages; justify longer papers to the handling editor. Repository endorsement and moderation apply separately. Survey authors must check the arXiv CS prior-peer-review prerequisite before assuming the required deposit is available.",
+        "other_mandatory_costs": "No publication charge; separate submission fee and compulsory membership or other charges are not explicitly ruled out by the platform policy. Repository deposit and registration are nonmonetary conditions.",
+        "fee_evidence": [
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "All Episciences journals have no publication fees; submission and publication are not conditional on a per-unit publication fee. This does not explicitly rule out a separate submission fee.",
+            "access": "page"
+          },
+          {
+            "url": "https://lmcs.episciences.org/page/authors-information",
+            "checked_on": "2026-11-16",
+            "note": "Establishes LMCS as the free overlay journal and gives its arXiv/CoRR, TeX-source and 50-page conditions.",
+            "access": "page"
+          },
+          {
+            "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
+            "checked_on": "2026-11-16",
+            "note": "arXiv CS surveys and position papers require documented successful prior journal/conference peer review; this can constrain the prerequisite deposit for LMCS surveys.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Publication is free on the stated route, but the reviewed evidence does not explicitly exclude a separate submission fee; eligibility remains unverified."
+    },
+    {
+      "id": "informatics-computing-jot",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "All journal contributions are completely free for authors and readers, without APCs. This audit covers the ordinary journal route; conference-linked issues may have separate event conditions. JOT LaTeX is mandatory. No fixed page limit; typical papers are 25–30 pages and longer work needs justification. Software Section papers require a usable binary, examples and an issue tracker, plus an established user community or previously peer-reviewed underpinning technology.",
+        "other_mandatory_costs": "None under the blanket free-to-authors policy for ordinary journal publication; no paid AITO membership or required conference registration appears in that route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jot.fm/",
+            "checked_on": "2026-11-16",
+            "note": "States completely free access for authors and readers, applicable to all contributions, and no APCs.",
+            "access": "page"
+          },
+          {
+            "url": "https://submissions.jot.fm/index.php/jot/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Documents the ordinary submission workflow, required LaTeX template and absence of a fixed page limit.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.jot.fm/software",
+            "checked_on": "2026-11-16",
+            "note": "Documents Software Section maturity and artifact requirements; does not turn them into a publication fee.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-tgdk",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No fees for authors or readers, supported by SWSA. Ordinary journal submission requires no society membership or event participation. Research and resource articles need a Supplementary Material Statement even when no relevant resources exist, ORCIDs and the journal template. Resource submissions have no fixed upper/lower page limit, with 10–20 pages expected. Substantive GenAI use must be declared and humans remain responsible.",
+        "other_mandatory_costs": "None under the journal-specific no-author-fee policy; SWSA support is not an author membership charge. No paid page or registration requirement is imposed on the ordinary journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.dagstuhl.de/en/publishing/series/details/TGDK",
+            "checked_on": "2026-11-16",
+            "note": "Aims and Processing Charge sections explicitly exclude all author/reader fees. Submission, Resource Articles and GenAI sections establish the stated nonmonetary conditions.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-jdmdh",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No submission or publication fee. Deposit a preprint in HAL, arXiv or Zenodo and submit its repository identifier through Episciences. Accepted files use the journal toolkit; English and reproducible work are expected. Short tool, dataset and community-resource papers receive peer review. The inspected instructions specify no paid overlength option. Conference listings do not make attendance a prerequisite for the ordinary journal route.",
+        "other_mandatory_costs": "None under the explicit no-author-fee policy; no paid membership or required conference registration is specified for ordinary journal submission.",
+        "fee_evidence": [
+          {
+            "url": "https://jdmdh.episciences.org/page/editorial-policies",
+            "checked_on": "2026-11-16",
+            "note": "Cost section explicitly excludes submission, publication and all author fees; short papers/community reports are peer reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://jdmdh.episciences.org/page/submissions/lang/en",
+            "checked_on": "2026-11-16",
+            "note": "Requires supported repository deposit, an account and the repository ID; final formatting follows acceptance.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-ajis",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No submission fees, APCs, access fees or other charges. Use the ordinary Research Articles route; several named sections are closed and ACIS selected papers require invitation. Manuscripts must not already be on a preprint service. Use institutional credentials or explain their absence, supply data assurance, disclose substantive AI use and agree to review later submissions. Expected length is 20–30 A4 pages; substantial departures need editorial justification.",
+        "other_mandatory_costs": "None: the journal excludes any other fees or charges. The future-reviewer commitment is a nonmonetary obligation, not a paid membership. Ordinary Research Articles do not require ACIS registration.",
+        "fee_evidence": [
+          {
+            "url": "https://ajis.aaisnet.org/index.php/ajis/about",
+            "checked_on": "2026-11-16",
+            "note": "Explicitly excludes submission fees, APCs and every other form of fees or charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://ajis.aaisnet.org/index.php/ajis/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Documents preprint prohibition, credential explanation, data assurance, AI disclosure, reviewer commitment, length guidance, open Research Articles and closed/restricted sections.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-einformatica",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No journal fees or paper-length limit. Must-have requirements specify affiliation-related email and public ORCID name plus university/company affiliation for all authors; no unaffiliated-author exception was established. Revised/final manuscripts require journal LaTeX; declarations and a hand-signed agreement are required. Generative AI in writing is restricted to language/readability improvement with disclosure and human responsibility. verified_free describes the monetary route for eligible authors, not universal author or workflow eligibility.",
+        "other_mandatory_costs": "None under the homepage's journal-wide no-fees statement; no paid membership, conference registration or overlength surcharge is specified.",
+        "fee_evidence": [
+          {
+            "url": "https://www.e-informatyka.pl/",
+            "checked_on": "2026-11-16",
+            "note": "Official current homepage states open access without any fees, no paper-length limit and university support.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+            "checked_on": "2026-11-16",
+            "note": "Author FAQ independently gives a publication fee of zero dollars.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/",
+            "checked_on": "2026-11-16",
+            "note": "Documents required declarations, LaTeX revision files and the restrictive generative-AI writing policy.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-jgaa",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Diamond journal with no author charges. Requires LaTeX, numbered pages and lines, and journal-class final sources. Concise papers normally span 5–10 pages; the inspected regular-paper instructions do not specify a paid overlength option. Declare all generative AI use in submission comments; humans must validate its output and unattributed AI creation of scientific content is forbidden. Ordinary submission requires no conference attendance.",
+        "other_mandatory_costs": "None under the journal-wide no-author-fee policy; no mandatory membership, registration or page charge is specified for ordinary journal articles.",
+        "fee_evidence": [
+          {
+            "url": "https://jgaa.info/index.php/jgaa/about",
+            "checked_on": "2026-11-16",
+            "note": "Identifies JGAA as diamond open access with no author fees; the open-access policy excludes author and reader charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://jgaa.info/index.php/jgaa/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Documents regular/concise/survey formats, 5–10-page concise papers, required preparation and AI disclosure/integrity requirements.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-theory-of-computing",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No author fees. Post a LaTeX manuscript to arXiv under CC BY before submitting its identifier and cover letter through Episciences; authors format accepted papers in ToCTeX. The cover letter reports length, with no page-fee schedule in these instructions. Special handling applies to claimed solutions of long-standing complexity problems. arXiv endorsement and moderation remain separate from journal peer review.",
+        "other_mandatory_costs": "None under the submission page's blanket no-author-fees policy; no paid membership or required conference registration is imposed by the ordinary journal workflow.",
+        "fee_evidence": [
+          {
+            "url": "https://theoryofcomputing.org/submit/index.html",
+            "checked_on": "2026-11-16",
+            "note": "No Author Fees section states free access for authors and readers; page updated March 3, 2026 documents repository submission and author final typesetting.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-dmtcs",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No author or reader fees. Authors submit directly after depositing in HAL or arXiv and creating a platform account. Ordinary journal articles have no page restriction; accepted sources must use the journal LaTeX style. Generative AI use must be disclosed at submission. This audit excludes conference-proceedings participation or registration conditions.",
+        "other_mandatory_costs": "None under the current journal-wide no-author-fee policy for regular articles; conference-associated routes require a separate event-cost audit.",
+        "fee_evidence": [
+          {
+            "url": "https://dmtcs.episciences.org/en/for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions updated October 1, 2026 exclude author/reader fees and document repository deposit, no regular-article page limit, final LaTeX and AI disclosure.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-theoretics",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Free diamond Episciences journal. First post the article and LaTeX source on arXiv/CoRR, then submit the correct version through an Episciences account. No page limit applies. Only original research articles are accepted. Authors must be natural persons and disclose contributions by category of AI use. Conference versions are permitted; conference registration is not required for this journal route.",
+        "other_mandatory_costs": "No publication charge; separate submission fee and compulsory membership or other charges are not explicitly ruled out by the platform policy. Repository deposit and registration are nonmonetary conditions.",
+        "fee_evidence": [
+          {
+            "url": "https://theoretics.episciences.org/page/submission-information",
+            "checked_on": "2026-11-16",
+            "note": "Specifies no publication charges, arXiv/CoRR deposit, no page limit, original-research scope and AI disclosure.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "All Episciences journals have no publication fees; submission and publication are not conditional on a per-unit publication fee. This does not explicitly rule out a separate submission fee.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Publication is free on the stated route, but the reviewed evidence does not explicitly exclude a separate submission fee; eligibility remains unverified."
+    },
+    {
+      "id": "informatics-computing-arxiv-corr",
+      "route": {
+        "model": "free_deposit",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Free deposit and public dissemination, not peer-reviewed publication. Registration, endorsement, scholarly moderation and submission rights are required. CS surveys and position papers need documented successful prior journal/conference peer review; workshop review generally is insufficient. Each author may make two new submissions per calendar month and hold three active submissions. Significant generative AI use must be reported; human authors remain responsible.",
+        "other_mandatory_costs": "None for the deposit/dissemination route under the official free-submission policy; institutional funding memberships are not an individual deposit charge. publication_fee=none refers only to repository release.",
+        "fee_evidence": [
+          {
+            "url": "https://info.arxiv.org/about/index.html",
+            "checked_on": "2026-11-16",
+            "note": "Explicitly states no fees or costs for article submission, describes dissemination and states that arXiv does not peer-review material.",
+            "access": "page"
+          },
+          {
+            "url": "https://info.arxiv.org/help/moderation/index.html",
+            "checked_on": "2026-11-16",
+            "note": "Documents submission-rate limits, significant AI-use reporting and human responsibility; moderation is not peer review.",
+            "access": "page"
+          },
+          {
+            "url": "https://info.arxiv.org/help/endorsement.html",
+            "checked_on": "2026-11-16",
+            "note": "Documents first-paper/new-category endorsement and the personal-endorsement alternative to institutional-email criteria.",
+            "access": "page"
+          },
+          {
+            "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
+            "checked_on": "2026-11-16",
+            "note": "CS surveys/position papers need prior successful peer review; ordinary conference-workshop review generally does not qualify.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Free submission and dissemination are a repository deposit, not peer-reviewed journal publication; author endorsements and moderation remain applicable."
+    },
+    {
+      "id": "informatics-computing-irrj",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal says authors do not pay and specifies no APCs. Normal, extended, and opinion/review papers have different length guidelines. Printed volumes are sold to readers; no purchase is required for authors.",
+        "other_mandatory_costs": "No author payment under journal-wide statement; no compulsory paid membership, page charge or event registration is stated for ordinary journal publication.",
+        "fee_evidence": [
+          {
+            "url": "https://platform.openjournals.nl/IRRJ/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal says authors do not pay and explicitly excludes APCs; describes normal and extended paper lengths and optional printed volumes.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    },
+    {
+      "id": "informatics-computing-jfp",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Current Episciences successor is diamond open access and the transition announcement excludes publication fees. Separate submission charges and other mandatory costs are not explicitly excluded in inspected policies. Older Cambridge gold OA fee information applied before transfer.",
+        "other_mandatory_costs": "Page charges, paid membership and mandatory registration not independently established; no separate submission fee exclusion found.",
+        "fee_evidence": [
+          {
+            "url": "https://jfp.mpi-sws.org/",
+            "checked_on": "2026-11-16",
+            "note": "Journal describes no publication fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "All Episciences journals have no publication fees; submission and publication are not conditional on a per-unit publication fee, which does not explicitly exclude a separate submission fee.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Publication is free on the stated route, but the reviewed evidence does not explicitly exclude a separate submission fee; eligibility remains unverified."
+    },
+    {
+      "id": "informatics-computing-computational-linguistics",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "ACL special-issue call states no fee to publish. Its statement does not explicitly address a separate submission fee, mandatory page charges, or membership.",
+        "other_mandatory_costs": "Page charges, compulsory ACL membership and event registration not independently established.",
+        "fee_evidence": [
+          {
+            "url": "https://www.aclweb.org/portal/content/reminder-call-papers-special-issue-ethics-nlp-and-cl-computational-linguistics-deadline-27",
+            "checked_on": "2026-11-16",
+            "note": "Journal describes no publication fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Publication is free on the stated route, but the reviewed evidence does not explicitly exclude a separate submission fee; eligibility remains unverified."
+    },
+    {
+      "id": "informatics-computing-jlcl",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal explicitly excludes submission and publication fees for ordinary journal submissions.",
+        "other_mandatory_costs": "No page charges, paid membership or event registration specified in the inspected author policy; separate exceptional expenses not established.",
+        "fee_evidence": [
+          {
+            "url": "https://jlcl.org/about/codeofconduct",
+            "checked_on": "2026-11-16",
+            "note": "Journal ethics page explicitly states no submission or publication fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read the official journal or publisher fee source and retained the standard journal route; submission, publication and other obligatory costs are distinct."
+    }
+  ]
+}

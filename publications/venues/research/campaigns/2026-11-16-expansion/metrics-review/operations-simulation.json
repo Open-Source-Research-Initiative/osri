@@ -1,0 +1,867 @@
+{
+  "subfield": "operations-simulation",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_review_operations_simulation",
+  "patches": [
+    {
+      "id": "operations-simulation-stochastic-systems",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-mathematics-of-operations-research",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.5,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://pubsonline.informs.org/journal/moor",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "JCR category rank: Operations Research & Management Science (SCIE)",
+          "value": "58 / 106 (Q3)",
+          "year": 2024,
+          "population": "106 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/mathematics-of-operations-research",
+          "note": "Citation-based category position for the stated year, not a selectivity ranking."
+        },
+        {
+          "name": "JCR category rank: Mathematics, Applied (SCIE)",
+          "value": "70 / 343 (Q1)",
+          "year": 2024,
+          "population": "343 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/mathematics-of-operations-research",
+          "note": "Different citation category and denominator; not evidence of manuscript acceptance odds."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-operations-research",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.0,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://pubsonline.informs.org/journal/opre",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "Acceptance rate",
+          "value": "17.3%",
+          "year": "2025 Q1-Q3",
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://pubsonline.informs.org/pb-assets/filesopre/Ward-OPRE-report-2025-1761064466643.pdf",
+          "note": "Official dashboard on PDF page 4, in the report dated 2025-10-07. Denominator is not defined. The adjacent 102 acceptances and 741 original submissions are calendar-period counts, not a demonstrated submission cohort; do not divide them to replace the reported rate."
+        },
+        {
+          "name": "Acceptance rate",
+          "value": "19.9%",
+          "year": 2024,
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://pubsonline.informs.org/pb-assets/filesopre/Ward-OPRE-report-2025-1761064466643.pdf",
+          "note": "Official annual acceptance-rate series on PDF page 4. The dashboard does not define the rate population; do not assume it matches submissions received in 2024."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-informs-journal-on-computing",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.5,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://pubsonline.informs.org/journal/ijoc",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "JCR category rank: Operations Research & Management Science (SCIE)",
+          "value": "52 / 106 (Q2)",
+          "year": 2024,
+          "population": "106 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/informs-journal-on-computing",
+          "note": "Citation-based category position, not acceptance selectivity."
+        },
+        {
+          "name": "JCR category rank: Computer Science, Interdisciplinary Applications (SCIE)",
+          "value": "115 / 175 (Q3)",
+          "year": 2024,
+          "population": "175 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/informs-journal-on-computing",
+          "note": "A separate category denominator; not comparable acceptance odds."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-queueing-systems",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 0.8,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://link.springer.com/journal/11134",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 0.9,
+          "year": 2025,
+          "population": "Journal citation metric over the five-year publication window; underlying counts are not supplied on the journal page.",
+          "source_url": "https://link.springer.com/journal/11134",
+          "note": "Official publisher-reported five-year value; not evidence of acceptance probability."
+        }
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an AI Use Declaration at the end directing readers there and confirming accountability. Detail manuscript preparation and copy editing in the declaration. The publisher core principles also call for tool versions, usage dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/11134/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-annals-of-operations-research",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 4.0,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://link.springer.com/journal/10479",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 4.9,
+          "year": 2025,
+          "population": "Journal citation metric over the five-year publication window; underlying counts are not supplied on the journal page.",
+          "source_url": "https://link.springer.com/journal/10479",
+          "note": "Official publisher-reported five-year value; not evidence of acceptance probability."
+        }
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an AI Use Declaration at the end directing readers there and confirming accountability. Detail manuscript preparation and copy editing in the declaration. The publisher core principles also call for tool versions, usage dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10479/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-or-spectrum",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.3,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://link.springer.com/journal/291",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 2.8,
+          "year": 2025,
+          "population": "Journal citation metric over the five-year publication window; underlying counts are not supplied on the journal page.",
+          "source_url": "https://link.springer.com/journal/291",
+          "note": "Official publisher-reported five-year value; not evidence of acceptance probability."
+        }
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an AI Use Declaration at the end directing readers there and confirming accountability. Detail manuscript preparation and copy editing in the declaration. The publisher core principles also call for tool versions, usage dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/291/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-simulation",
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "3.6%",
+          "year": null,
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://journals.sagepub.com/overview-metric/SIM",
+          "note": "Live official overview read on 2026-11-16, also reachable through the journal description link. The visible page does not identify a reporting year, start/end date, or denominator. Access date is not a metric year; no annual period or acceptance probability for a new manuscript is inferred."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Society for Modeling and Simulation International headquarters, San Diego",
+            "source_url": "https://scs.org/"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal submission instructions encourage submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/SIM"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Research remit is topical rather than limited to a named region; author-location eligibility is not established by international scope.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/sim",
+            "note": "Journal identity and research remit reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sim",
+            "note": "Submission instructions checked for geographic eligibility; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://scs.org/",
+            "note": "Society publishes this journal and lists its San Diego address.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/SIM",
+            "note": "Journal instructions expressly encourage submissions from authors across all countries and backgrounds.",
+            "access": "page"
+          }
+        ]
+      }
+    },
+    {
+      "id": "operations-simulation-simulation-and-gaming",
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "11.1%",
+          "year": null,
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://journals.sagepub.com/overview-metric/SAG",
+          "note": "Live official overview read on 2026-11-16, also reachable through the journal description link. The visible page does not identify a reporting year, start/end date, or denominator. Access date is not a metric year; no annual period or acceptance probability for a new manuscript is inferred."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-journal-of-defense-modeling-and-simulation",
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "28.8%",
+          "year": null,
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://journals.sagepub.com/overview-metric/DMS",
+          "note": "Live official overview read on 2026-11-16, also reachable through the journal description link. The visible page does not identify a reporting year, start/end date, or denominator. Access date is not a metric year; no annual period or acceptance probability for a new manuscript is inferred."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-croatian-operational-research-review",
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "48%",
+          "year": 2020,
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://hdoi.hr/crorr-journal/",
+          "note": "Historical official homepage statistic, still displayed when checked on 2026-11-16. No submitted/decided/external-review cohort or sample size is supplied; do not describe as the current acceptance rate."
+        },
+        {
+          "name": "Rejection rate",
+          "value": "52%",
+          "year": 2020,
+          "population": "Unknown: official homepage does not define the population or denominator.",
+          "source_url": "https://hdoi.hr/crorr-journal/",
+          "note": "Separately reported historical figure, not calculated as the complement of the acceptance rate."
+        },
+        {
+          "name": "CiteScore",
+          "value": 1.4,
+          "year": 2023,
+          "population": "Journal citation metric attributed to Scopus; underlying citation/document population and counts are not stated on this page.",
+          "source_url": "https://hdoi.hr/crorr-journal/",
+          "note": "Official society homepage explicitly labels the metric year 2023. Not a current-year value or acceptance proxy."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-sort-statistics-and-operations-research-transactions",
+      "metrics": [
+        {
+          "name": "Rejection rate",
+          "value": "83.3%",
+          "year": 2025,
+          "population": "Total articles submitted, as explicitly labeled by the journal; counts and submission-cohort closure are not given.",
+          "source_url": "https://www.idescat.cat/sort/stats.html",
+          "note": "Official annual percentage of rejected articles. Pending/cohort treatment is unspecified; do not infer an acceptance rate as 100 minus this value."
+        },
+        {
+          "name": "Rejection rate",
+          "value": "91.0%",
+          "year": 2024,
+          "population": "Total articles submitted, as explicitly labeled by the journal; counts and submission-cohort closure are not given.",
+          "source_url": "https://www.idescat.cat/sort/stats.html",
+          "note": "Official annual percentage. Do not interpret its complement as acceptance probability."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.6,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://www.idescat.cat/sort/stats.html",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.2,
+          "year": 2024,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://www.idescat.cat/sort/stats.html",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-operations-research-and-decisions",
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "6.68%",
+          "year": "Since 2025-01-01; end date not stated",
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://ord.pwr.edu.pl/",
+          "note": "The page labels its metrics as calculated since 01/01/2025. No end date or denominator is supplied; do not call this a 2025 annual rate or assume the access date closes the reporting period."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.3,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://ord.pwr.edu.pl/",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "CiteScore",
+          "value": 2.2,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation/document counts and calculation window are not supplied on this page.",
+          "source_url": "https://ord.pwr.edu.pl/",
+          "note": "The homepage explicitly labels this 2025 Cite Score and links to monthly Scopus updates. Transcribed as the journal reports it, without treating it as acceptance selectivity."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-orion",
+      "metrics": [],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-rairo-operations-research",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.1,
+          "year": 2024,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://www.edpsciences.org/en/news-highlights/3031-edp-sciences-journal-impact-factors-and-citescores-reflect-strong-performance-across-key-disciplines",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.0,
+          "year": 2024,
+          "population": "Journal citation metric; underlying citation/document counts are not supplied in the publisher news item.",
+          "source_url": "https://www.edpsciences.org/en/news-highlights/3031-edp-sciences-journal-impact-factors-and-citescores-reflect-strong-performance-across-key-disciplines",
+          "note": "Publisher announcement dated 2025-07-17 explicitly describes the 2024 Journal Citation Reports and CiteScores. The publication date is not the metric year; not acceptance selectivity."
+        }
+      ],
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-computational-optimization-and-applications",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.5,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10589",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 2.6,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10589",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        }
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an AI Use Declaration at the end directing readers there and confirming accountability. Detail manuscript preparation and copy editing in the declaration. The publisher core principles also call for tool versions, usage dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10589/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-discrete-event-dynamic-systems",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.0,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10626",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.4,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10626",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        }
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an AI Use Declaration at the end directing readers there and confirming accountability. Detail manuscript preparation and copy editing in the declaration. The publisher core principles also call for tool versions, usage dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10626/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-journal-of-scheduling",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.6,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10951",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.9,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10951",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        }
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an AI Use Declaration at the end directing readers there and confirming accountability. Detail manuscript preparation and copy editing in the declaration. The publisher core principles also call for tool versions, usage dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    },
+    {
+      "id": "operations-simulation-journal-of-combinatorial-optimization",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 0.8,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10878",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.0,
+          "year": 2025,
+          "population": "Journal citation metric; underlying counts not stated on journal homepage.",
+          "source_url": "https://link.springer.com/journal/10878",
+          "note": "Official journal homepage; citation impact is not acceptance probability."
+        }
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an AI Use Declaration at the end directing readers there and confirming accountability. Detail manuscript preparation and copy editing in the declaration. The publisher core principles also call for tool versions, usage dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10878/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Reviewed the merged fee, geography and AI claims and retained sourced historical metrics with their stated periods; metrics are not acceptance predictions."
+    }
+  ],
+  "findings": [
+    {
+      "id": "operations-simulation-stochastic-systems",
+      "severity": "info",
+      "issue": "Fee status verified_free: The current journal instructions explicitly exclude APCs and submission fees. Regular manuscripts are limited to 35 pages including references; short correspondences to eight pages. No author membership, registration payment or institutional agreement is required by the stated route. Author eligibility is not_stated; venue country evidence: United States. AI status compatible: INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-mathematics-of-operations-research",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: Standard subscription publication exists alongside optional paid INFORMS Open Option. The reviewed pages do not explicitly exclude submission, page or membership charges. Normally at most 40 manuscript pages excluding references; up to 45 may be considered with justification. Print color is optional and charged. Author eligibility is not_stated; venue country evidence: United States. AI status compatible: INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-operations-research",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: Optional paid OA is documented, but no explicit no-fee standard-route statement was found. Regular manuscripts are limited to 30 pages excluding references; longer manuscripts are generally at most 40. Print color incurs a cost only if elected. Journal fees must not be inferred from other INFORMS journals. Author eligibility is not_stated; venue country evidence: United States. AI status compatible: INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-informs-journal-on-computing",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: Ordinary subscription publication remains available beside optional paid INFORMS Open Option. Main papers may contain 25 pages including references, tables and graphs, plus up to ten appendix pages; editorial permission is needed for exceptions. Print color is elective and charged. Explicit confirmation of submission, standard publication and page/member costs remains absent. Author eligibility is not_stated; venue country evidence: United States. AI status compatible: INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-queueing-systems",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: The journal identifies itself as hybrid; Springer Nature explicitly excludes APCs when authors select subscription publication. Online color is free; requested print color, offprints and elective OA can cost money. No explicit submission, page/overlength or compulsory membership assurance was located. Subscription licensing may not meet an immediate-OA funder mandate. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-annals-of-operations-research",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: The journal identifies itself as hybrid; Springer Nature explicitly excludes APCs when authors select subscription publication. Online color is free; requested print color, offprints and elective OA can cost money. No explicit submission, page/overlength or compulsory membership assurance was located. Subscription licensing may not meet an immediate-OA funder mandate. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-or-spectrum",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: The journal identifies itself as hybrid; Springer Nature explicitly excludes APCs when authors select subscription publication. Online color is free; requested print color, offprints and elective OA can cost money. No explicit submission, page/overlength or compulsory membership assurance was located. Subscription licensing may not meet an immediate-OA funder mandate. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-simulation",
+      "severity": "info",
+      "issue": "Fee status verified_free: The journal explicitly excludes fees to submit or publish. Choose standard subscription publication; Sage Choice OA and requested print color are optional paid choices, while online color is free. No fixed manuscript-length cap or mandatory page, society-membership or registration payment is specified in the instructions checked. Author eligibility is not_stated; venue country evidence: United States. AI status compatible: Sage permits disclosed AI literature support and generated or checked code for further research, and describes disclosed generation of text. Authors must verify outputs and remain responsible. Analytical coding satisfies this workflow, subject to explicit qualitative-analysis restrictions. Correction: journal instructions expressly encourage authors from all countries; replace the not_stated geographic status with international.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-simulation-and-gaming",
+      "severity": "info",
+      "issue": "Fee status verified_free: The journal explicitly excludes fees to submit or publish. Standard subscription publication is free; paid OA and print color are optional, and online color is free. Limits excluding references: research articles 7000 words, short research reports 3000, theoretical and ready-to-use simulations 5000. Longer articles need explicit editorial permission. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Sage permits disclosed AI literature support and generated or checked code for further research, and describes disclosed generation of text. Authors must verify outputs and remain responsible. Analytical coding satisfies this workflow, subject to explicit qualitative-analysis restrictions.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-journal-of-defense-modeling-and-simulation",
+      "severity": "info",
+      "issue": "Fee status verified_free: Current journal instructions explicitly exclude submission/publication fees; paid OA is optional and online color is free. Avoid requested print color. Papers are ideally 10-20 pages although the stated submission policy imposes no fixed length restriction. No compulsory membership is stated. Author eligibility is not_stated; venue country evidence: United States. AI status compatible: Sage permits disclosed AI literature support and generated or checked code for further research, and describes disclosed generation of text. Authors must verify outputs and remain responsible. Analytical coding satisfies this workflow, subject to explicit qualitative-analysis restrictions. Independent author-instructions retrieval was blocked by direct HTTP 403 and web fetch failure; the journal-specific role evidence could not be independently re-read.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-croatian-operational-research-review",
+      "severity": "caution",
+      "issue": "Fee status verified_free: Ordinary journal submission, without conference attendance. Manuscripts should contain 10–12 pages including bibliography, with at most 30 references. Final accepted files must use LaTeX. Authors must supply proofreading confirmation; the instructions make proofreading their responsibility and do not require a paid provider. Author eligibility is not_stated; venue country evidence: Croatia. AI status unclear: Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-sort-statistics-and-operations-research-transactions",
+      "severity": "caution",
+      "issue": "Fee status verified_free: English-language original articles; an online RACO account is required without a stated payment. Normally at most about 25 PDF pages, or 40 pages using the SORT LaTeX template, including figures, tables and references; justified longer articles are possible. LaTeX is recommended initially and required at revision. The general no-fee statement is not a selective waiver. Author eligibility is not_stated; venue country evidence: Spain. AI status unclear: Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission. Journal author-instructions source timed out on independent retrieval; other stated evidence and historical metrics remain bounded.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-operations-research-and-decisions",
+      "severity": "caution",
+      "issue": "Fee status verified_free: Current author instructions explicitly exclude both APCs and submission charges; the homepage also excludes publication fees and the aims page describes an institution-funded free journal. No selective waiver or affiliation agreement is required. Non-survey manuscripts may have at most 35 references. Revised manuscripts must use the journal LaTeX template and EPS figures; converted Word source or converted raster figures are not accepted. No compulsory membership, registration payment or page tariff is stated. Author eligibility is not_stated; venue country evidence: Poland. AI status unclear: Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-orion",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: Official policy explicitly excludes APCs and page fees under a Submission Fees heading; separate submission-fee wording remains unresolved. The submission checklist and guidelines state no membership or conference-registration payment and no manuscript page cap. Research articles have a distinct peer-review route; special issues require invitation. Author eligibility is not_stated; venue country evidence: South Africa. AI status unclear: Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission. Journal submissions instructions were independently accessible on recheck; they state no explicit fee or qualifying AI permission, so fee verification and AI compatibility remain uncertain.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-rairo-operations-research",
+      "severity": "caution",
+      "issue": "Fee status verified_free: Publisher-supported Subscribe to Open route confirmed for 2026 content. The publisher excludes submission fees and provides free publication for the mathematics S2O journals, including authors at institutions without an S2O subscription. No selective waiver is needed. Open-access status is decided annually; recheck the eventual publication year. Journal-specific length/production instructions remain unreadable because of HTTP 403. Author eligibility is unclear; venue country evidence: not established. AI status unclear: A qualifying AI policy was not verified in the available author guidance and targeted searches; the requested permissions remain uncertain. Journal-specific instructions returned 403; future-year S2O conditions and restrictions remain uncertain.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-computational-optimization-and-applications",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: Subscription route has no APC; optional open access has an APC. Submission, compulsory page and membership costs remain unverified. Online color is free; confirm any print-color costs. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship. Added both official 2025 impact factors; they do not estimate acceptance.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-discrete-event-dynamic-systems",
+      "severity": "info",
+      "issue": "Fee status verified_free: Instructions explicitly state no submission or publication fee and no author cost on standard publication. Short papers are limited to 12 journal pages; optional OA has an APC. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship. Added both official 2025 impact factors; they do not estimate acceptance.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-journal-of-scheduling",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: Subscription route has no APC; optional open access has an APC. Submission, compulsory page and membership costs remain unverified. Online color is free; confirm any print-color costs. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship. Added both official 2025 impact factors; they do not estimate acceptance.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    },
+    {
+      "id": "operations-simulation-journal-of-combinatorial-optimization",
+      "severity": "caution",
+      "issue": "Fee status needs_verification: Subscription route has no APC; optional open access has an APC. Submission, compulsory page and membership costs remain unverified. Online color is free; confirm any print-color costs. Author eligibility is not_stated; venue country evidence: not established. AI status compatible: Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship. Added both official 2025 impact factors; they do not estimate acceptance.",
+      "resolution": "Retain conservative fee and author-geography statuses and the policy limitations; consult linked journal and publisher evidence before submission."
+    }
+  ],
+  "notes": [
+    "All 19 baseline and discovery records and all three role patches reviewed. Publisher AI policies and selected fee, geographic and metrics evidence independently checked; findings retain per-candidate uncertainties. Historical source-backed metrics are preserved without difficulty labels.",
+    "RAIRO journal instructions blocked (HTTP 403); SORT author instructions timed out and Sage defense journal instructions were inaccessible on independent recheck. Access limitations are not evidence of prohibition. Acceptance rates with unknown period or denominator remain labeled accordingly.",
+    "Springer Nature publisher guidance requires version, dates, prompts and contribution extent, in addition to placement of declarations; corrections preserve the full AI policy fields.",
+    "Independently attempted official fee, location and AI source retrieval for every candidate, read shared publisher policies and journal instructions where accessible. Direct fetching of INFORMS and Sage was blocked but web retrieval recovered the INFORMS instructions, SIMULATION and Simulation & Gaming; defense journal instructions remained inaccessible. Springer direct responses were challenge pages, while web retrieval recovered journal pages. SORT author instructions timed out; RAIRO returned 403. ORiON submissions instructions opened on recheck. No access failure establishes a ban."
+  ]
+}

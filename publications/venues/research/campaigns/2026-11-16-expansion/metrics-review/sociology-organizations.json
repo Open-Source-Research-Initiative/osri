@@ -1,0 +1,310 @@
+{
+  "subfield": "sociology-organizations",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_c/sociology_review",
+  "patches": [
+    {
+      "id": "sociology-organizations-organizational-research-methods",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (2-year)",
+          "value": 7.6,
+          "year": 2024,
+          "population": "Journal-level citations in the metric year to citable items from the preceding two years, divided by citable items in those years",
+          "source_url": "https://journals.sagepub.com/pb-assets/cmscontent/ORM/ORM-2025%20Call%20for%20Editors-1752512158.pdf",
+          "note": "Publisher reports the JCR journal metric; not a submission acceptance rate or measure of an individual paper."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-social-science-computer-review",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-organization-studies",
+      "metrics": [
+        {
+          "name": "Acceptance rate (%)",
+          "value": 6.0,
+          "year": null,
+          "population": "Unknown: rendered official overview does not identify the reporting year, submitted-versus-final-decision cohort, article types, or numerator/denominator counts.",
+          "source_url": "https://journals.sagepub.com/overview-metric/OSS",
+          "note": "Official displayed value, checked 2026-11-16. The check date is not the metric year. Retained with explicit missing period/cohort; do not compare numerically against rates with a defined denominator or interpret as an individual manuscript probability."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-current-sociology",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-acta-sociologica",
+      "metrics": [
+        {
+          "name": "Acceptance rate (%)",
+          "value": 12.8,
+          "year": null,
+          "population": "Unknown: official overview does not name a measurement year, distinguish submitted from finally decided manuscripts, identify article-type coverage, or provide counts.",
+          "source_url": "https://journals.sagepub.com/overview-metric/ASJ",
+          "note": "Official page reached through https://journals.sagepub.com/description/ASJ. Checked 2026-11-16, not assigned to that year. No cross-journal odds comparison is justified by this undated/cohort-unclear display."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-rationality-and-society",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-organization",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-the-sociological-review",
+      "metrics": [
+        {
+          "name": "Acceptance rate (%)",
+          "value": 18.7,
+          "year": null,
+          "population": "All article types receiving a final accept/reject decision in the previous calendar year, regardless of initial submission date; actual calendar year and numerator/denominator counts are unstated.",
+          "source_url": "https://journals.sagepub.com/page/sor/peer_review_and_production",
+          "note": "Official page says metrics are updated yearly but gives no update date or named reporting year. Do not infer 2025 from a November 2026 check. This is a final-decision statistic, not a submitted-manuscript cohort or a research-article-only rate."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-computational-and-mathematical-organization-theory",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.3,
+          "year": 2025,
+          "population": "Citations in 2025 to journal content published in 2023–2024 divided by citable journal items from 2023–2024; raw citation/item counts are not supplied.",
+          "source_url": "https://link.springer.com/journal/10588",
+          "note": "Official publisher labels 1.3 as 2025. Citation impact is not acceptance difficulty. Definition reference: https://www.cambridge.org/core/services/authors/measuring-impact"
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.8,
+          "year": 2025,
+          "population": "Citations in 2025 to journal content from 2020–2024 divided by citable journal items from 2020–2024; raw counts are not supplied.",
+          "source_url": "https://link.springer.com/journal/10588",
+          "note": "Official publisher labels 1.8 as 2025. Definition reference: https://www.cambridge.org/core/services/authors/measuring-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.8,
+          "year": 2025,
+          "population": "Citations during 2022–2025 to eligible journal documents published in 2022–2025 divided by eligible documents published during that same four-year period; raw counts are not supplied.",
+          "source_url": "https://link.springer.com/journal/10588",
+          "note": "Official publisher update on the journal homepage explicitly states 4.8 for 2025. Definition reference: https://www.cambridge.org/core/services/authors/measuring-impact"
+        },
+        {
+          "name": "Journal Impact Factor (2-year)",
+          "value": 1.3,
+          "year": 2025,
+          "population": "Journal-level citations in the metric year to citable items from the preceding two years, divided by citable items in those years",
+          "source_url": "https://link.springer.com/journal/10588",
+          "note": "Publisher reports the JCR journal metric; not a submission acceptance rate or measure of an individual paper."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates.",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits literature support, basic analysis and partial drafting under human oversight, verification and disclosure. Its framework permits interpretive and evaluative AI assistance with caution and human accountability; the FAQ separately says not to use AI to interpret data, so that tension must be observed.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research uses in Methods; add an AI Use Declaration at the end addressing manuscript preparation and accountability. Describe tool versions, dates, prompts and extent of use.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship guidance; How can authors use AIGC?"
+        },
+        "restrictions": [
+          "No AI authorship or delegation of scholarly judgment; no entire AI-written manuscripts, fabricated results or citations; protect confidential information.",
+          "Framework permits supervised interpretive support, but FAQ says AI should not interpret data; seek journal clarification for interpretive use."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10588/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Springer journal submission page identifies journal and publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature guidance applies to publisher journals, subject to journal-specific rules",
+            "note": "Publisher guidance explicitly permits research, basic analysis, and partial drafting with conditions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "sociology-organizations-network-science",
+      "metrics": [
+        {
+          "name": "2-year Impact Factor",
+          "value": 1.6,
+          "year": null,
+          "population": "Citations in metric year Y to journal content from Y−1 and Y−2 divided by citable items from those two prior years; actual metric year and raw counts are not displayed.",
+          "source_url": "https://www.cambridge.org/core/journals/network-science/information/about-this-journal/journal-metrics",
+          "note": "Official displayed value is undated. Do not inherit the separate article-count table's 2024 year. Definition reference: https://www.cambridge.org/core/services/authors/measuring-impact"
+        },
+        {
+          "name": "5-year Impact Factor",
+          "value": 2.2,
+          "year": null,
+          "population": "Citations in metric year Y to journal content from Y−1 through Y−5 divided by citable items from those five prior years; actual metric year and raw counts are not displayed.",
+          "source_url": "https://www.cambridge.org/core/journals/network-science/information/about-this-journal/journal-metrics",
+          "note": "Official undated value, not assigned a guessed year and not a measure of selectivity. Definition reference: https://www.cambridge.org/core/services/authors/measuring-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 2.4,
+          "year": null,
+          "population": "Citations to eligible documents during the same four-year period in which those documents were published, divided by eligible documents in that period; actual four years and raw counts are not displayed.",
+          "source_url": "https://www.cambridge.org/core/journals/network-science/information/about-this-journal/journal-metrics",
+          "note": "Official undated value. Definition reference: https://www.cambridge.org/core/services/authors/measuring-impact"
+        },
+        {
+          "name": "Published research-type articles",
+          "value": 18,
+          "year": 2024,
+          "population": "Research-type articles published in the journal's 2024 volume(s), using volume publication rather than first online appearance; not a submission or acceptance denominator.",
+          "source_url": "https://www.cambridge.org/core/journals/network-science/information/about-this-journal/journal-metrics",
+          "note": "The article-count introduction explicitly names 2024. Cambridge definition: https://www.cambridge.org/core/services/authors/journal-publishing-statistics#article-counts"
+        },
+        {
+          "name": "Gold open-access research-type articles",
+          "value": 18,
+          "year": 2024,
+          "population": "Gold OA research-type articles in the journal's 2024 volume(s), within the reported total of 18 research-type articles; not an acceptance denominator.",
+          "source_url": "https://www.cambridge.org/core/journals/network-science/information/about-this-journal/journal-metrics",
+          "note": "Official count, not a derived acceptance/OA funding rate. The page also lists one article supported by subscription revenue: Cambridge's definition includes waived Gold OA, so this does not establish a current subscription publication route. Definition: https://www.cambridge.org/core/services/authors/journal-publishing-statistics#article-counts"
+        },
+        {
+          "name": "Journal Impact Factor (2-year)",
+          "value": 1.6,
+          "year": 2025,
+          "population": "Journal-level citations in the metric year to citable items from the preceding two years, divided by citable items in those years",
+          "source_url": "https://www.cambridge.org/core/journals/network-science",
+          "note": "Publisher reports the JCR journal metric; not a submission acceptance rate or measure of an individual paper."
+        },
+        {
+          "name": "CiteScore",
+          "value": 2.4,
+          "year": 2025,
+          "population": "Citations to eligible documents across the four-year Scopus window divided by eligible documents in that window",
+          "source_url": "https://www.cambridge.org/core/journals/network-science/announcements/call-for-papers/call-for-papers-political-networks-theory-methods-and-applications",
+          "note": "Publisher reports the 2025 value; journal-level citation metric, not acceptance odds."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-sociologica",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-management-aims",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-journal-of-world-systems-research",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-sociologia-slovak-sociological-review",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 0.9,
+          "year": 2025,
+          "population": "Citations in 2025 to journal content from 2023–2024 divided by citable journal items from 2023–2024; raw counts are not supplied by the institutional journal page.",
+          "source_url": "https://sociologia.sav.sk/en/static.php?id=1153",
+          "note": "Institutional journal page gives 0.9 and identifies its source as 2025 Journal Citation Reports (Clarivate Analytics, 2026). Preserve 2025 as the stated metric year and distinguish the 2026 release. Definition reference: https://www.cambridge.org/core/services/authors/measuring-impact"
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-przeglad-socjologiczny",
+      "metrics": [],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-social-science-history",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (2-year)",
+          "value": 1.3,
+          "year": 2025,
+          "population": "Journal-level citations in the metric year to citable items from the preceding two years, divided by citable items in those years",
+          "source_url": "https://www.cambridge.org/core/journals/social-science-history",
+          "note": "Publisher reports the JCR journal metric; not a submission acceptance rate or measure of an individual paper."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-social-policy-and-society",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (2-year)",
+          "value": 1.8,
+          "year": 2025,
+          "population": "Journal-level citations in the metric year to citable items from the preceding two years, divided by citable items in those years",
+          "source_url": "https://www.cambridge.org/core/journals/social-policy-and-society",
+          "note": "Publisher reports the JCR journal metric; not a submission acceptance rate or measure of an individual paper."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    },
+    {
+      "id": "sociology-organizations-journal-of-social-policy",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (2-year)",
+          "value": 2.5,
+          "year": 2025,
+          "population": "Journal-level citations in the metric year to citable items from the preceding two years, divided by citable items in those years",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-social-policy",
+          "note": "Publisher reports the JCR journal metric; not a submission acceptance rate or measure of an individual paper."
+        }
+      ],
+      "audit_note": "Reviewed the merged role evidence; retained prior sourced metrics and added only verified publisher-reported values. Missing metrics are not estimates."
+    }
+  ],
+  "findings": [
+    {
+      "id": "sociology-organizations-computational-and-mathematical-organization-theory",
+      "severity": "medium",
+      "issue": "The publisher framework permits supervised interpretive assistance while its FAQ says not to use AI to interpret data; a blanket prohibition misstates the framework and leaves a policy tension.",
+      "resolution": "Preserve compatible status for permitted research, basic analysis and partial drafting, while stating both clauses and the need to clarify interpretive use."
+    }
+  ],
+  "notes": [
+    "Reviewed all 18 candidate IDs against the other role files. Independently checked Sage policy, Springer AI guidance and current publisher metrics; Sage drafting ambiguity and Cambridge disclosure-only evidence remain unclear. Fee eligibility and geography assertions were challenged against cited evidence, and uncertainty retained where direct proof was incomplete. This is agent evidence review, not human scientific review.",
+    "2024 Organizational Research Methods figure is historical; newer official figure was not established. No acceptance-rate inference or difficulty rating is made."
+  ]
+}

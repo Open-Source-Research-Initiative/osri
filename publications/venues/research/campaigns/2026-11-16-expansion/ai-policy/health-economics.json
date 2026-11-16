@@ -1,0 +1,385 @@
+{
+  "subfield": "health-economics",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_ai_health_economics",
+  "notes": [
+    "All baseline plus discovery records returned by the campaign helper were examined. Publisher guidance must be read alongside any more restrictive journal-specific requirements."
+  ],
+  "patches": [
+    {
+      "id": "health-economics-european-journal-of-health-economics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research and analytical support including exploratory analysis and substantive writing support, with verification and human intellectual accountability. Analysis permission supports analytical coding semantically; no separate coding entitlement was established.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an AI Use Declaration at the end pointing to Methods and confirming accountability; describe manuscript preparation and AI-assisted copy editing in that declaration.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship Guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "No AI authorship; no undisclosed AI-generated research reasoning or fabricated data, citations or results; human oversight and verification required."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10198/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal submission guidelines",
+            "note": "Journal-specific author instructions and publisher identity; no conflicting AI clause found."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/guidance-for-researchers-on-use-of-ai-in-publishing/27826146",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher framework permits method suggestions, exploratory data analysis and extensive writing support subject to oversight and disclosure."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher guidance gives separate methods and end-of-paper declaration instructions."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Manuscript preparation policy supports drafting and summarisation with human accountability."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    },
+    {
+      "id": "health-economics-applied-health-economics-and-health-policy",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research and analytical support including exploratory analysis and substantive writing support, with verification and human intellectual accountability. Analysis permission supports analytical coding semantically; no separate coding entitlement was established.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an AI Use Declaration at the end pointing to Methods and confirming accountability; describe manuscript preparation and AI-assisted copy editing in that declaration.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship Guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "No AI authorship; no undisclosed AI-generated research reasoning or fabricated data, citations or results; human oversight and verification required."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/40258/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal submission guidelines",
+            "note": "Journal-specific author instructions and publisher identity; no conflicting AI clause found."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/guidance-for-researchers-on-use-of-ai-in-publishing/27826146",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher framework permits method suggestions, exploratory data analysis and extensive writing support subject to oversight and disclosure."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher guidance gives separate methods and end-of-paper declaration instructions."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Manuscript preparation policy supports drafting and summarisation with human accountability."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    },
+    {
+      "id": "health-economics-pharmacoeconomics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research and analytical support including exploratory analysis and substantive writing support, with verification and human intellectual accountability. Analysis permission supports analytical coding semantically; no separate coding entitlement was established.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an AI Use Declaration at the end pointing to Methods and confirming accountability; describe manuscript preparation and AI-assisted copy editing in that declaration.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship Guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "No AI authorship; no undisclosed AI-generated research reasoning or fabricated data, citations or results; human oversight and verification required."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/40273/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal submission guidelines",
+            "note": "Journal-specific author instructions and publisher identity; no conflicting AI clause found."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/guidance-for-researchers-on-use-of-ai-in-publishing/27826146",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher framework permits method suggestions, exploratory data analysis and extensive writing support subject to oversight and disclosure."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher guidance gives separate methods and end-of-paper declaration instructions."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Manuscript preparation policy supports drafting and summarisation with human accountability."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    },
+    {
+      "id": "health-economics-health-care-management-science",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research and analytical support including exploratory analysis and substantive writing support, with verification and human intellectual accountability. Analysis permission supports analytical coding semantically; no separate coding entitlement was established.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an AI Use Declaration at the end pointing to Methods and confirming accountability; describe manuscript preparation and AI-assisted copy editing in that declaration.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+          ],
+          "section": "AI authorship Guidance; AI use in manuscript preparation"
+        },
+        "restrictions": [
+          "No AI authorship; no undisclosed AI-generated research reasoning or fabricated data, citations or results; human oversight and verification required."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10729/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal submission guidelines",
+            "note": "Journal-specific author instructions and publisher identity; no conflicting AI clause found."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/guidance-for-researchers-on-use-of-ai-in-publishing/27826146",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher framework permits method suggestions, exploratory data analysis and extensive writing support subject to oversight and disclosure."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Publisher guidance gives separate methods and end-of-paper declaration instructions."
+          },
+          {
+            "url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy for its journals",
+            "note": "Manuscript preparation policy supports drafting and summarisation with human accountability."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    },
+    {
+      "id": "health-economics-health-economics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Journal permits AI development of manuscript portions subject to editorial judgment; applicable Wiley author guidance expressly addresses research methods and data analysis, with human responsibility. Analysis permission supports analytical coding semantically.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Journal requires detailed disclosure of manuscript development in Methods or Acknowledgements; Wiley guidance places research-method, data collection, analysis and literature review use in Methods. Ordinary spelling, grammar and general editing are exempt under journal instructions.",
+          "source_urls": [
+            "https://onlinelibrary.wiley.com/page/journal/10991050/homepage/forauthors.html",
+            "https://www.wiley.com/en-us/publishing/article/ai-guidelines"
+          ],
+          "section": "Artificial Intelligence"
+        },
+        "restrictions": [
+          "Editor decides whether a particular use is appropriate; AI cannot be an author; humans verify accuracy and sources."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://onlinelibrary.wiley.com/page/journal/10991050/homepage/forauthors.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal permits manuscript development with disclosure and reserves editorial discretion."
+          },
+          {
+            "url": "https://www.wiley.com/en-us/publishing/article/ai-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "search_snippet",
+            "applicability": "Wiley policy for journals published by Wiley",
+            "note": "Wiley journal-wide guidance covers research methodology including analysis and writing support."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    },
+    {
+      "id": "health-economics-asian-pacific-journal-of-health-economics-and-policy",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The journal author instructions reviewed do not establish AI research, analysis or substantive drafting permission.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "No journal AI disclosure instructions identified in the accessible author instructions.",
+          "source_urls": [
+            "https://www.ihep.jp/jhea/research/authors/"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.ihep.jp/jhea/research/authors/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Reviewed author instructions; no AI-specific statement found."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    },
+    {
+      "id": "health-economics-epidemiology-biostatistics-and-public-health",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The journal discusses AI in data collection and analysis and manuscript editing, but does not explicitly establish substantive drafting permission.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "It invites details of the tool, use, queries and date for collection and analysis; authors who used AI must add a declaration at the end naming tool, date, search terms and purpose, and affirming review and responsibility.",
+          "source_urls": [
+            "https://riviste.unimi.it/index.php/ebph/ethics"
+          ],
+          "section": "4.6 Use of Artificial Intelligence"
+        },
+        "restrictions": [
+          "Authors remain responsible for accuracy and anti-plagiarism; journal does not clearly authorize substantive drafting."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://riviste.unimi.it/index.php/ebph/ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal explicitly discusses data collection and analysis and editing, but does not establish substantive drafting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    },
+    {
+      "id": "health-economics-value-in-health",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "The journal explicitly encourages responsible AI use and gives an example of AI-generated first drafts; applicable Elsevier policy permits research design, analysis and code development with human judgment and transparent methods.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Journal requires a use or no-use statement on the title page and immediately before references, identifying tool, purpose and human oversight; describe research methods and analysis reproducibly in Methods.",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Use of Artificial Intelligence"
+        },
+        "restrictions": [
+          "Authors retain scientific judgment and responsibility; AI cannot be an author; comply with applicable image restrictions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal-specific instructions give first-draft example, require declarations and refer authors to Elsevier policy."
+          },
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Elsevier policy linked by journal",
+            "note": "Publisher policy permits research design, code and analysis; requires reproducible methods and human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Independently checked the official journal instructions and applicable publisher guidance; uncertainty retained where substantive permission is not established."
+    }
+  ]
+}

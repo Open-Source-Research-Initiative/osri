@@ -1,0 +1,433 @@
+{
+  "subfield": "education-learning-sciences",
+  "role": "geography",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/education_geo",
+  "notes": "All candidates returned by campaign_records helper inspected. Unknown location and eligibility retained where official pages do not substantiate more. Sage offices are explicitly publisher locations only.",
+  "patches": [
+    {
+      "id": "education-learning-sciences-indonesian-journal-informatics-education",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "ID",
+            "name": "Indonesia",
+            "basis": "University department publisher; university address in Surakarta",
+            "source_url": "https://jurnal.uns.ac.id/ijie/article/viewFile/58691/pdf"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [
+          {
+            "code": "ID",
+            "name": "Indonesia",
+            "basis": "Universitas Sebelas Maret publisher in Surakarta",
+            "source_url": "https://uns.ac.id/id/profil-universitas-2"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Policy explicitly refers to submissions from authors worldwide.",
+          "source_urls": [
+            "https://jurnal.uns.ac.id/ijie/about/editorialPolicies",
+            "https://jurnal.uns.ac.id/ijie/about/submissions"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "International informatics education research across educational contexts.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://jurnal.uns.ac.id/ijie/about/editorialPolicies",
+            "note": "Worldwide authors and international scope.",
+            "access": "page"
+          },
+          {
+            "url": "https://jurnal.uns.ac.id/ijie/about/submissions",
+            "note": "Submission instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://jurnal.uns.ac.id/ijie/article/viewFile/58691/pdf",
+            "note": "University department publishes journal.",
+            "access": "page"
+          },
+          {
+            "url": "https://uns.ac.id/id/profil-universitas-2",
+            "note": "University address in Indonesia.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    },
+    {
+      "id": "education-learning-sciences-review-artificial-intelligence-education",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "BR",
+            "name": "Brazil",
+            "basis": "Journal contact lists Guarulhos editorial contact address",
+            "source_url": "https://alumnijournals.org/raie/about/contact"
+          },
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Journal contact also lists Orlando address",
+            "source_url": "https://alumnijournals.org/raie/about/contact"
+          }
+        ],
+        "venue_regions": [
+          "South America",
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "BR",
+            "name": "Brazil",
+            "basis": "Publisher contact office at Guarulhos",
+            "source_url": "https://alumnijournals.org/raie/about/contact"
+          },
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Publisher contact office at Orlando",
+            "source_url": "https://alumnijournals.org/raie/about/contact"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Guidelines say fee policy applies equally to authors regardless of country, affiliation or funding.",
+          "source_urls": [
+            "https://alumnijournals.org/raie/guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "AI in education; no geographic research restriction stated.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://alumnijournals.org/raie/about/contact",
+            "note": "Journal contact provides Brazil and US addresses.",
+            "access": "page"
+          },
+          {
+            "url": "https://alumnijournals.org/raie/guidelines",
+            "note": "Fee policy explicitly applies regardless of author country and thematic scope.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    },
+    {
+      "id": "education-learning-sciences-research-education-teaching",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Author-location eligibility not explicitly established in the reviewed journal pages.",
+          "source_urls": [
+            "https://jret.elapublishing.net/en/sayfa/about-6043"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Journal describes a global educational research remit; editors affiliated with a Turkish university do not establish a journal office.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://jret.elapublishing.net/en/sayfa/about-6043",
+            "note": "Global scope and journal information.",
+            "access": "page"
+          },
+          {
+            "url": "https://jret.elapublishing.net/en/sayfa/editorial-board-6044",
+            "note": "Editorial affiliations; journal office not established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    },
+    {
+      "id": "education-learning-sciences-pup-education-review",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "PH",
+            "name": "Philippines",
+            "basis": "University research publications office and publisher in Manila",
+            "source_url": "https://publishing.pup.edu.ph/ojs/index.php/EdRev/issue/download/73/81"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [
+          {
+            "code": "PH",
+            "name": "Philippines",
+            "basis": "University publisher in Manila",
+            "source_url": "https://publishing.pup.edu.ph/ojs/index.php/EdRev/issue/download/73/81"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Journal describes local and international research engagement; instructions do not explicitly affirm author eligibility worldwide.",
+          "source_urls": [
+            "https://publishing.pup.edu.ph/ojs/index.php/EdRev/about/submissions"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Education research; local and international community engagement.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://publishing.pup.edu.ph/ojs/index.php/EdRev/issue/download/73/81",
+            "note": "University publisher, office and international engagement.",
+            "access": "page"
+          },
+          {
+            "url": "https://publishing.pup.edu.ph/ojs/index.php/EdRev/about/submissions",
+            "note": "Submission instructions do not state geographic eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    },
+    {
+      "id": "education-learning-sciences-journal-management-education",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Sage explicitly identified Thousand Oaks office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "Sage explicitly identified London office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Reviewed submission guidelines do not explicitly state author country eligibility.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/jme"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Management teaching and learning; no geographic remit established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/jme",
+            "note": "Journal scope.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/jme",
+            "note": "Submission guidelines.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/about/locations",
+            "note": "Sage office locations are publisher offices, not evidence of the journal base.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    },
+    {
+      "id": "education-learning-sciences-journal-transformative-education",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Sage explicitly identified Thousand Oaks office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "Sage explicitly identified London office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Submission instructions encourage authors from across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/jtd"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Transformative learning and education across disciplines; no geographic research restriction established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/jtd",
+            "note": "Journal scope.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/jtd",
+            "note": "Submission guidelines and author diversity statement.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/about/locations",
+            "note": "Sage office locations, not journal headquarters.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    },
+    {
+      "id": "education-learning-sciences-culture-and-education",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "ES",
+            "name": "Spain",
+            "basis": "Foundation publisher based in Madrid, as identified by journal editorial",
+            "source_url": "https://www.tandfonline.com/doi/full/10.1080/11356405.2020.1711595"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Sage explicitly identified Thousand Oaks office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "Sage explicitly identified London office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Submission instructions encourage authors from across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/cye"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Research on culture, education and human development; no geographic research restriction stated. Sage publishes the journal from 2024; historical foundation base is retained with its dated source.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/cye",
+            "note": "Current journal scope.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cye",
+            "note": "Submission instructions encourage authors across countries.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.tandfonline.com/doi/full/10.1080/11356405.2020.1711595",
+            "note": "2020 journal editorial identifies Madrid-based foundation.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/about/locations",
+            "note": "Sage office locations, separate from foundation.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    },
+    {
+      "id": "education-learning-sciences-theory-research-education",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Sage explicitly identified Thousand Oaks office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "Sage explicitly identified London office",
+            "source_url": "https://www.sagepub.com/about/locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Submission instructions encourage authors from across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/tre"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "International journal covering educational theory, policy and practice.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/tre",
+            "note": "International journal scope.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/tre",
+            "note": "Submission instructions encourage authors across countries.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/about/locations",
+            "note": "Sage offices do not establish a venue base.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official scope and author instructions checked; no author-location inference from scope or editorial diversity."
+    }
+  ]
+}
