@@ -1,0 +1,610 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/sage_titles_1",
+  "notes": "Independent reread of current Sage publisher policy and journal author guidance. A conditional partial-drafting interpretation is an inference from the combined policy clauses, not express paragraph-drafting permission; title-specific restrictions and journal decisions still control. Acta current online instructions timed out; accessible June 2025 official PDF is historical and cannot prove current title-specific policy.",
+  "patches": [
+    {
+      "id": "sociology-organizations-acta-sociologica",
+      "subfield": "sociology-organizations",
+      "audit_note": "Previously unclear; retain unclear because current title guidance was inaccessible, despite dated PDF supporting publisher applicability.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/asj",
+        "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-acta-sociologica_-sage-journals.pdf",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined. Current title instructions could not be read; the dated PDF supports publisher-policy applicability but cannot exclude later title-specific restrictions.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-acta-sociologica_-sage-journals.pdf"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/asj",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Current journal author instructions",
+            "note": "Current journal page timed out. Official June 24 2025 instructions PDF directs authors to Sage AI guidance and excludes AI authorship; its age prevents confirming current title-specific restrictions."
+          },
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-acta-sociologica_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Official journal submission-guideline PDF dated June 24, 2025, not confirmed current",
+            "note": "Directs authors to Sage generative AI policy; no further AI restriction found in PDF. Current page timed out."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy referenced in dated title instructions; current title application remains unconfirmed",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "psychology-behavior-culture-psychology",
+      "subfield": "psychology-behavior",
+      "audit_note": "Previously compatible; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/cap",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/cap"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cap",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "psychology-behavior-feminism-psychology",
+      "subfield": "psychology-behavior",
+      "audit_note": "Previously compatible; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/fap",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/fap"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/fap",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "political-science-international-relations",
+      "subfield": "political-science",
+      "audit_note": "Previously limited; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/ire",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/ire"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ire",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "education-learning-sciences-journal-management-education",
+      "subfield": "education-learning-sciences",
+      "audit_note": "Previously compatible; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/jme",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/jme"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/jme",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal instructions explicitly refer to generative AI guidance through a safelinks URL and to Sage publication ethics; the wrapped link is weaker than a direct clean publisher link."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "sociology-organizations-organizational-research-methods",
+      "subfield": "sociology-organizations",
+      "audit_note": "Previously unclear; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/orm",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/orm"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/orm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "public-health-population-health-management",
+      "subfield": "public-health",
+      "audit_note": "Previously unclear; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/pop",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/pop"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pop",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "sociology-organizations-rationality-and-society",
+      "subfield": "sociology-organizations",
+      "audit_note": "Previously unclear; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/rss",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/rss"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "public-policy-science-technology-and-human-values",
+      "subfield": "public-policy",
+      "audit_note": "Previously unclear; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/sth",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/sth"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sth",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "meta-research-science-technology-human-values",
+      "subfield": "meta-research",
+      "audit_note": "Previously unclear; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/sth",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/sth"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sth",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "epidemiology-biostatistics-statistical-methods-medical-research",
+      "subfield": "epidemiology-biostatistics",
+      "audit_note": "Previously compatible; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/smm",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/smm"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/smm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "sociology-organizations-the-sociological-review",
+      "subfield": "sociology-organizations",
+      "audit_note": "Previously unclear; recommend compatible conditionally under the stated interpretive boundary; current title guidance was read and points to Sage AI guidance.",
+      "source_urls": [
+        "https://journals.sagepub.com/author-instructions/sor",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/sor"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sor",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    }
+  ],
+  "findings": [
+    "International Relations previous limited classification differs from conditional recommendation: current title guidance links Sage policy, with no separate ban found; partial drafting remains an inference and prompt-generated submission boundary is undefined.",
+    "Acta Sociologica current page timed out; June 2025 Sage PDF is accessible but historical, so retain unclear rather than assert a current title-specific clearance.",
+    "Journal of Management Education references AI guidance via a wrapped safelinks URL; publisher applicability is supported but direct target was not independently verified.",
+    "Both Science, Technology, & Human Values memberships receive identical AI classifications and restrictions.",
+    "Prior shorthand statements that Sage expressly permits generated drafting overstate policy; combined-clause inference and uncertainty are preserved for every recommendation."
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_c",
+  "purpose": "Proposed AI-policy replacements for primary adjudication; original role evidence remains unchanged.",
+  "patches": [
+    {
+      "id": "business-innovation-research-policy",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "business-innovation-technovation",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "business-innovation-technology-in-society",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "business-innovation-technological-forecasting-and-social-change",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "business-innovation-european-management-journal",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "business-innovation-journal-of-business-research",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "business-innovation-industrial-marketing-management",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "business-innovation-journal-of-engineering-and-technology-management",
+      "subfield": "business-innovation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying explicitly publisher-wide author policy. Blocked author guide prevents checking local exceptions but supplies no evidence of one; recheck before submission. No fee conclusions.",
+      "source_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+        "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors"
+      ]
+    },
+    {
+      "id": "public-policy-policy-sciences",
+      "subfield": "public-policy",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature guidance permits supervised literature support, basic analysis, exploratory pattern identification and drafting literature reviews or summaries, with verification, disclosure and human intellectual responsibility. It also says AI should not interpret data, while its framework permits human-controlled interpretive assistance; retain this ambiguity and do not delegate interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an end-of-paper AI Use Declaration detailing manuscript preparation and human accountability. Guidance requests tool versions, dates, prompts and extent.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "How can authors use AIGC? Core principles"
+        },
+        "restrictions": [
+          "Human authors must verify outputs, retain scientific judgement and accountability, and disclose use; AI cannot be an author or write the entire manuscript.",
+          "The publisher guidance says AI should not interpret data, although its risk framework also describes human-controlled interpretive assistance; do not delegate interpretation and check current journal requirements.",
+          "Protect confidential, sensitive and copyright-protected information; AI-generated images are generally restricted."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature guidance for journal authors; journal is identified on its official Springer Nature Link submission guidelines.",
+            "note": "Guidance explicitly permits literature assistance, basic analysis, and literature-review or summary drafting with oversight."
+          },
+          {
+            "url": "https://link.springer.com/journal/11077/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Official journal-specific submission guidelines identify the journal and Springer Nature platform.",
+            "note": "Journal identity and author guidelines checked; no AI-specific provision located in the retrieved guidelines."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying Springer Nature journal-author guidance to this identified Springer journal. Guidance contains tension on interpretive assistance; retain both statements and human-led limitation. Journal submission guidelines did not identify an AI-specific exception; other journal policies may change. No fee conclusions.",
+      "source_urls": [
+        "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+        "https://link.springer.com/journal/11077/submission-guidelines"
+      ]
+    },
+    {
+      "id": "public-policy-public-organization-review",
+      "subfield": "public-policy",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature guidance permits supervised literature support, basic analysis, exploratory pattern identification and drafting literature reviews or summaries, with verification, disclosure and human intellectual responsibility. It also says AI should not interpret data, while its framework permits human-controlled interpretive assistance; retain this ambiguity and do not delegate interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an end-of-paper AI Use Declaration detailing manuscript preparation and human accountability. Guidance requests tool versions, dates, prompts and extent.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "How can authors use AIGC? Core principles"
+        },
+        "restrictions": [
+          "Human authors must verify outputs, retain scientific judgement and accountability, and disclose use; AI cannot be an author or write the entire manuscript.",
+          "The publisher guidance says AI should not interpret data, although its risk framework also describes human-controlled interpretive assistance; do not delegate interpretation and check current journal requirements.",
+          "Protect confidential, sensitive and copyright-protected information; AI-generated images are generally restricted."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature guidance for journal authors; journal is identified on its official Springer Nature Link submission guidelines.",
+            "note": "Guidance explicitly permits literature assistance, basic analysis, and literature-review or summary drafting with oversight."
+          },
+          {
+            "url": "https://link.springer.com/journal/11115/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Official journal-specific submission guidelines identify the journal and Springer Nature platform.",
+            "note": "Journal identity and author guidelines checked; no AI-specific provision located in the retrieved guidelines."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying Springer Nature journal-author guidance to this identified Springer journal. Guidance contains tension on interpretive assistance; retain both statements and human-led limitation. Journal submission guidelines did not identify an AI-specific exception; other journal policies may change. No fee conclusions.",
+      "source_urls": [
+        "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+        "https://link.springer.com/journal/11115/submission-guidelines"
+      ]
+    },
+    {
+      "id": "public-policy-public-choice",
+      "subfield": "public-policy",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature guidance permits supervised literature support, basic analysis, exploratory pattern identification and drafting literature reviews or summaries, with verification, disclosure and human intellectual responsibility. It also says AI should not interpret data, while its framework permits human-controlled interpretive assistance; retain this ambiguity and do not delegate interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an end-of-paper AI Use Declaration detailing manuscript preparation and human accountability. Guidance requests tool versions, dates, prompts and extent.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "How can authors use AIGC? Core principles"
+        },
+        "restrictions": [
+          "Human authors must verify outputs, retain scientific judgement and accountability, and disclose use; AI cannot be an author or write the entire manuscript.",
+          "The publisher guidance says AI should not interpret data, although its risk framework also describes human-controlled interpretive assistance; do not delegate interpretation and check current journal requirements.",
+          "Protect confidential, sensitive and copyright-protected information; AI-generated images are generally restricted."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature guidance for journal authors; journal is identified on its official Springer Nature Link submission guidelines.",
+            "note": "Guidance explicitly permits literature assistance, basic analysis, and literature-review or summary drafting with oversight."
+          },
+          {
+            "url": "https://link.springer.com/journal/11127/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Official journal-specific submission guidelines identify the journal and Springer Nature platform.",
+            "note": "Journal identity and author guidelines checked; no AI-specific provision located in the retrieved guidelines."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying Springer Nature journal-author guidance to this identified Springer journal. Guidance contains tension on interpretive assistance; retain both statements and human-led limitation. Journal submission guidelines did not identify an AI-specific exception; other journal policies may change. No fee conclusions.",
+      "source_urls": [
+        "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+        "https://link.springer.com/journal/11127/submission-guidelines"
+      ]
+    },
+    {
+      "id": "public-policy-international-tax-and-public-finance",
+      "subfield": "public-policy",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature guidance permits supervised literature support, basic analysis, exploratory pattern identification and drafting literature reviews or summaries, with verification, disclosure and human intellectual responsibility. It also says AI should not interpret data, while its framework permits human-controlled interpretive assistance; retain this ambiguity and do not delegate interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an end-of-paper AI Use Declaration detailing manuscript preparation and human accountability. Guidance requests tool versions, dates, prompts and extent.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "How can authors use AIGC? Core principles"
+        },
+        "restrictions": [
+          "Human authors must verify outputs, retain scientific judgement and accountability, and disclose use; AI cannot be an author or write the entire manuscript.",
+          "The publisher guidance says AI should not interpret data, although its risk framework also describes human-controlled interpretive assistance; do not delegate interpretation and check current journal requirements.",
+          "Protect confidential, sensitive and copyright-protected information; AI-generated images are generally restricted."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature guidance for journal authors; journal is identified on its official Springer Nature Link submission guidelines.",
+            "note": "Guidance explicitly permits literature assistance, basic analysis, and literature-review or summary drafting with oversight."
+          },
+          {
+            "url": "https://link.springer.com/journal/10797/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Official journal-specific submission guidelines identify the journal and Springer Nature platform.",
+            "note": "Journal identity and author guidelines checked; no AI-specific provision located in the retrieved guidelines."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Recommend applying Springer Nature journal-author guidance to this identified Springer journal. Guidance contains tension on interpretive assistance; retain both statements and human-led limitation. Journal submission guidelines did not identify an AI-specific exception; other journal policies may change. No fee conclusions.",
+      "source_urls": [
+        "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+        "https://link.springer.com/journal/10797/submission-guidelines"
+      ]
+    }
+  ],
+  "notes": [
+    "Elsevier policy states that authors preparing manuscripts for an Elsevier journal can use AI support and separately addresses research methods and AI-assisted code. Its statement that journal AI use varies occurs in its publication-process description; it is not evidence of a title-specific author prohibition. All eight guides were reported blocked by role agents and were not independently reopened in this reconciliation.",
+    "Springer Nature journal identity and submission guidelines were retrieved for four journals. Search within those guidelines for Artificial Intelligence found no matching text; this does not prove no separate journal-specific rule exists. Publisher guidance contains tension regarding AI-assisted interpretation; compatible recommendation is limited to human-led research and interpretation.",
+    "No fees, geography, remote state, original role files or canonical data were changed."
+  ]
+}

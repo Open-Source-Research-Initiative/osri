@@ -1,0 +1,313 @@
+{
+  "subfield": "informatics-computing",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_review_informatics_computing",
+  "patches": [
+    {
+      "id": "informatics-computing-jmlr",
+      "metrics": [
+        {
+          "name": "Median submission-to-first-review-decision time (days)",
+          "value": 187,
+          "year": 2021,
+          "population": "Papers sent to reviewers; desk rejections excluded",
+          "source_url": "https://www.jmlr.org/news/2022/retrospectives.html",
+          "note": "Historical 2021 median, reported 2022-02-21; not a current turnaround promise."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 5.952,
+          "year": 2004,
+          "population": "Journal citation metric; underlying counts not specified on official news page",
+          "source_url": "https://www.jmlr.org/news.html",
+          "note": "Historical 2004 ISI impact factor, not a current metric or acceptance probability."
+        }
+      ],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-jair",
+      "metrics": [
+        {
+          "name": "Modeled overall acceptance probability, possibly after one revision",
+          "value": "10.6%",
+          "year": 2025,
+          "population": "Initial-submission model including summary rejection; underlying manuscript count not stated in accessible text",
+          "source_url": "https://www.jair.org/index.php/jair/transparent-publishing",
+          "note": "Data 2025-01-01 to 2026-01-01; released 2026-04-16. Model allows one revised resubmission after six weeks. Not a raw accepted/submitted rate."
+        },
+        {
+          "name": "Modeled acceptance probability conditional on no summary rejection",
+          "value": "55.9%",
+          "year": 2025,
+          "population": "Model conditioned on submissions not summarily rejected; underlying manuscript count not stated in accessible text",
+          "source_url": "https://www.jair.org/index.php/jair/transparent-publishing",
+          "note": "Same period and release. Includes possible revised resubmission; do not apply to all initial submissions."
+        },
+        {
+          "name": "Modeled expected time to acceptance (weeks)",
+          "value": 42.0,
+          "year": 2025,
+          "population": "Acceptance-path model, possibly after one revision; not all submitted manuscripts",
+          "source_url": "https://www.jair.org/index.php/jair/transparent-publishing",
+          "note": "Same period and release; assumes six weeks to resubmit. Expected time, not a guarantee."
+        }
+      ],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-tmlr",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-joss",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-jstatsoft",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-lmcs",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-jot",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-tgdk",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-jdmdh",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-ajis",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-einformatica",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.0,
+          "year": 2025,
+          "population": "Citation metric for the journal; source gives no underlying citation/item counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 metric. Citation performance only; provider calculation not independently audited."
+        },
+        {
+          "name": "Five-year Journal Impact Factor",
+          "value": 1.9,
+          "year": 2025,
+          "population": "Five-year citation metric for the journal; source gives no underlying counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 metric; not editorial selectivity."
+        },
+        {
+          "name": "Scopus CiteScore",
+          "value": 4.5,
+          "year": 2025,
+          "population": "Scopus journal citation metric; source gives no underlying citation/document counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 value with Scopus link; not acceptance probability."
+        },
+        {
+          "name": "Source Normalized Impact per Paper (SNIP)",
+          "value": 0.89,
+          "year": 2025,
+          "population": "Field-normalized journal citation metric; source gives no underlying counts",
+          "source_url": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+          "note": "Official journal-reported 2025 value; not acceptance probability."
+        }
+      ],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-jgaa",
+      "metrics": [],
+      "audit_note": "Independent reading found no explicit substantive drafting permission; conservative interpretation excludes this venue pending clarification.",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal permits generative AI assistance, including research programming and proofreading or polishing author-written text, subject to disclosure and human responsibility. Its explicit writing examples do not establish permission for substantive AI manuscript drafting.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose any use of generative AI in Comments for the Editor in the submission form.",
+          "source_urls": [
+            "https://jgaa.info/index.php/jgaa/about/submissions"
+          ],
+          "section": "AI Policy"
+        },
+        "restrictions": [
+          "Authors must review accuracy, bias, integrity and completeness; cite appropriately and comply with privacy, ethics and law."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://jgaa.info/index.php/jgaa/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Broadly permits assistance in work; explicit examples are research programming and proofreading or polishing human-written text. Substantive drafting is not explicitly established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "informatics-computing-theory-of-computing",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-dmtcs",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-theoretics",
+      "metrics": [
+        {
+          "name": "Submissions received",
+          "value": 61,
+          "year": 2025,
+          "population": "Manuscripts submitted during 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Snapshot April 2026; count, not acceptance denominator for acceptance-year output."
+        },
+        {
+          "name": "Accepted submissions by acceptance year",
+          "value": 28,
+          "year": 2025,
+          "population": "Manuscripts accepted during 2025, including earlier submission years",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Snapshot April 2026; do not divide by 61 submissions from a different cohort."
+        },
+        {
+          "name": "Accepted submissions by submission year",
+          "value": 7,
+          "year": 2025,
+          "population": "2025 submission cohort, accepted by April 2026",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Incomplete cohort; later decisions can change count."
+        },
+        {
+          "name": "Submissions awaiting decision by submission year",
+          "value": 19,
+          "year": 2025,
+          "population": "2025 submission cohort still pending in April 2026",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Most pending 2024/2025 papers were in Phase 2."
+        },
+        {
+          "name": "Mean submission-to-Phase-1-decision time (days)",
+          "value": 61,
+          "year": 2025,
+          "population": "Papers reaching Phase 1 decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; milestone-year population."
+        },
+        {
+          "name": "Mean submission-to-final-decision time (days)",
+          "value": 201,
+          "year": 2025,
+          "population": "All papers reaching final decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; includes rejected and accepted papers."
+        },
+        {
+          "name": "Mean submission-to-final-decision time for accepted papers (days)",
+          "value": 359,
+          "year": 2025,
+          "population": "Accepted papers reaching final decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; excludes rejections."
+        },
+        {
+          "name": "Mean submission-to-publication time (days)",
+          "value": 436,
+          "year": 2025,
+          "population": "Papers published in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; different milestone population."
+        },
+        {
+          "name": "Review requests sent",
+          "value": 290,
+          "year": 2025,
+          "population": "Review requests issued in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Approximate; repeated requests can occur."
+        },
+        {
+          "name": "Completed reviews received",
+          "value": 174,
+          "year": 2025,
+          "population": "Reviews received in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Approximate; not a submission acceptance metric."
+        }
+      ],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-arxiv-corr",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-irrj",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-jfp",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-computational-linguistics",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    },
+    {
+      "id": "informatics-computing-jlcl",
+      "metrics": [],
+      "audit_note": "Inspected merged candidate and role patches; preserved previously sourced metrics. No acceptance estimate inferred from missing data."
+    }
+  ],
+  "findings": [
+    {
+      "id": "informatics-computing-jgaa",
+      "severity": "material",
+      "issue": "Broad generative AI assistance permits programming and polishing, but the author page explicitly names editing of human-written prose and does not explicitly establish substantive drafting. The compatible classification overstates this evidence.",
+      "resolution": "Set compatibility unclear and manuscript drafting not_stated; retain mandatory disclosure and responsibilities."
+    },
+    {
+      "id": "informatics-computing-theoretics",
+      "severity": "info",
+      "issue": "Submission-year and acceptance-year counts have different populations, and 2025 cohort was incomplete at the April 2026 snapshot.",
+      "resolution": "Preserved dated figures and cohort caveats; no derived acceptance rate."
+    }
+  ],
+  "notes": [
+    "Inspected all 20 baseline plus discovery records and the fee, geography, and AI role patches. Independently read the official JOSS, JGAA and TheoretiCS AI policies, JAIR fee FAQ, JSS submission guide, JMLR news and TheoretiCS statistics. Other venue claims were inspected from the other role files and not independently reverified; no claim of complete independent source coverage.",
+    "Added official historical JMLR 2004 impact factor; existing reported metrics retained with date and population. Citation impact is not acceptance probability. No subjective difficulty judgments.",
+    "Agent evidence review only; no human editorial or scientific review."
+  ]
+}

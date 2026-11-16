@@ -1,0 +1,491 @@
+{
+  "subfield": "health-systems",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_fees_health_systems",
+  "patches": [
+    {
+      "id": "health-systems-medical-care-research-and-review",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription publication has no submission or publication fee. Optional Sage Choice open access and specifically requested print color cost extra; online color is free. Stay within article limits: empirical research 6,000 words, reviews 8,000, brief reports 2,500, excluding abstract, tables, figures and references.",
+        "other_mandatory_costs": "No compulsory membership, registration, page or overlength payment is stated for manuscripts within the article limits; journal policy expressly excludes submission and publication fees.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/mcr",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific policy explicitly states that submission and publication carry no fees; distinguishes optional open access and print color costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-journal-of-health-services-research-and-policy",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Use standard subscription publication; submission and publication are free. Optional Sage Choice OA and specifically requested print color cost extra; online color is free. Follow word limits: quantitative research 3,500; qualitative/mixed methods and reviews 6,000; conceptual/methodological articles 4,000. Limits are editorial requirements, not a purchased overlength option.",
+        "other_mandatory_costs": "No compulsory membership, registration, page or overlength payment is stated for manuscripts within the article limits; journal policy expressly excludes submission and publication fees.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/HSR",
+            "checked_on": "2026-11-16",
+            "note": "The journal expressly makes both submission and publication free and separates optional open access and print color.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-health-services-management-research",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription route has no submission or publication fee. Optional Sage Choice OA and specifically requested print color cost extra; online color is free. Research, substantive theory/methods, evidence syntheses and theory-to-practice papers have 6,000-word limits; follow the separate limits for other formats.",
+        "other_mandatory_costs": "No compulsory membership, registration, page or overlength payment is stated for manuscripts within the article limits; journal policy expressly excludes submission and publication fees.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/hsm",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific instructions explicitly cover free submission and publication and identify optional open access and print color charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-health-information-management-journal",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard publication has no submission or publication fee. OA is optional and can be charged; print color specifically requested by the author can also be charged. Research and literature-review articles allow 5,000 words excluding abstract and references. Online color is available under the standard route.",
+        "other_mandatory_costs": "No compulsory membership, registration, page or overlength payment is stated for manuscripts within the article limits; journal policy expressly excludes submission and publication fees.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/him",
+            "checked_on": "2026-11-16",
+            "note": "Official journal instructions explicitly state that submission and publication are free and describe open access and print color as optional.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-journal-of-health-organization-and-management",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Choose standard subscription publication. Gold OA is optional and incurs an APC after acceptance. Original Articles allow 10,000 words; Case Studies 7,000; the count includes text, figures and tables, with 280 words allowed for each figure/table. Accepted-manuscript self-archiving is available free under the linked green-OA policy.",
+        "other_mandatory_costs": "No compulsory membership, page, length or registration payment is specified under the non-gold-OA no-payment policy.",
+        "fee_evidence": [
+          {
+            "url": "https://www.emerald.com/journals/author-guidance/1627/emerald-publishing-author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "FAQ excludes submission payment and all publication/processing/review payment except chosen gold OA.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.emerald.com/jhom",
+            "checked_on": "2026-11-16",
+            "note": "Journal explicitly offers hybrid subscription publication and links directly to the audited author policy; homepage supplies article word limits.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.emeraldgrouppublishing.com/journal/jhom",
+            "checked_on": "2026-11-16",
+            "note": "Publisher journal page search result says no submission, processing, review or publication payment except optional gold open access; publisher-wide wording, with journal identity established on emerald.com.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Inspected journal identity and publisher FAQ; publisher journal page was blocked in web open, with fee text available in search. Prior official author-guidance evidence retained."
+    },
+    {
+      "id": "health-systems-international-journal-of-health-governance",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Choose standard subscription publication. Gold OA is optional and incurs an APC after acceptance. Original Articles and Health Governance Reviews allow 7,000 words; the count includes text, figures and tables, with 280 words allowed for each figure/table. Accepted-manuscript self-archiving is available free under the linked green-OA policy.",
+        "other_mandatory_costs": "No compulsory membership, page, length or registration payment is specified under the non-gold-OA no-payment policy.",
+        "fee_evidence": [
+          {
+            "url": "https://www.emerald.com/journals/author-guidance/1627/emerald-publishing-author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "FAQ excludes submission payment and all publication/processing/review payment except chosen gold OA.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.emerald.com/ijhg",
+            "checked_on": "2026-11-16",
+            "note": "Journal explicitly offers hybrid subscription publication and links directly to the audited author policy; homepage supplies article word limits.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.emeraldgrouppublishing.com/journal/jhom",
+            "checked_on": "2026-11-16",
+            "note": "Publisher journal page search result says no submission, processing, review or publication payment except optional gold open access; publisher-wide wording, with journal identity established on emerald.com.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Inspected journal identity and publisher FAQ; publisher journal page was blocked in web open, with fee text available in search. Prior official author-guidance evidence retained."
+    },
+    {
+      "id": "health-systems-health-care-management-science",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Journal-specific options confirm subscription publication without an APC; paid OA is optional. Submission fees and complete standard publication/page/overlength costs remain unconfirmed. Online color is free; print color requires a contribution. Original Research is typically 5,000–8,000 words; reviews have an 8,000-word maximum, excluding abstract, references, figure legends and table captions.",
+        "other_mandatory_costs": "Unresolved: no compulsory membership, page or registration cost was found, but the inspected journal pages do not explicitly establish their absence. Publisher support warns that some subscription journals impose page/overlength charges.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10729/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription route has no APC; optional OA is charged. This statement does not address all author costs.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10729/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Inspected article limits and color policy; no explicit submission-fee or complete no-page/overlength-cost statement found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says subscription publication usually has no charge but some journals impose page, color or overlength costs; directs authors to journal-specific policies.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read journal-specific hybrid publishing page; subscription is a reader access model, optional OA is paid. Submission and additional compulsory charges remain unverified."
+    },
+    {
+      "id": "health-systems-journal-of-medical-systems",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Journal-specific options confirm subscription publication without an APC; paid OA is optional. Submission fees and complete standard publication/page/overlength costs remain unconfirmed. Color illustrations are free. Research allows 4,000 main-text words; reviews 5,500; brief reports 2,000.",
+        "other_mandatory_costs": "Unresolved: no compulsory membership, page or registration cost was found, but the inspected journal pages do not explicitly establish their absence. Publisher support warns that some subscription journals impose page/overlength charges.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10916/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription route has no APC; optional OA is charged. This statement does not address all author costs.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Inspected article limits and color policy; no explicit submission-fee or complete no-page/overlength-cost statement found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says subscription publication usually has no charge but some journals impose page, color or overlength costs; directs authors to journal-specific policies.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read journal-specific hybrid publishing page; subscription is a reader access model, optional OA is paid. Submission and additional compulsory charges remain unverified."
+    },
+    {
+      "id": "health-systems-international-journal-of-medical-informatics",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Retained as an unresolved subscription candidate. Current journal-specific author and insights pages returned HTTP 403; an ordinary direct HTTPS request to insights was also blocked. Reader subscription availability does not establish free submission or publication. Article-length, page, color and optional OA details could not be audited.",
+        "other_mandatory_costs": "Unknown: compulsory submission, standard publication, page/overlength, membership or other author payments remain unresolved.",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent author-policy fetch returned HTTP 403; no fee-free claim can be established.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/international-journal-of-medical-informatics/about/insights",
+            "checked_on": "2026-11-16",
+            "note": "Web and ordinary direct HTTPS attempts returned HTTP 403; current journal publishing-cost summary could not be inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://shop.elsevier.com/journals/international-journal-of-medical-informatics/1386-5056",
+            "checked_on": "2026-11-16",
+            "note": "Official publisher shop confirms a subscription offering but does not establish author fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Elsevier journal guide returned 403; hybrid subscription route does not establish absence of all submission, page or other charges. Retained conservative uncertainty."
+    },
+    {
+      "id": "health-systems-health-policy",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Retained as an unresolved subscription candidate. Current journal-specific author and insights pages returned HTTP 403; an ordinary direct HTTPS request to insights was also blocked. Reader subscription availability does not establish free submission or publication. Article-length, page, color and optional OA details could not be audited.",
+        "other_mandatory_costs": "Unknown: compulsory submission, standard publication, page/overlength, membership or other author payments remain unresolved.",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/health-policy/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent author-policy fetch returned HTTP 403; no fee-free claim can be established.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/health-policy/about/insights",
+            "checked_on": "2026-11-16",
+            "note": "Web and ordinary direct HTTPS attempts returned HTTP 403; current journal publishing-cost summary could not be inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://shop.elsevier.com/journals/health-policy/0168-8510",
+            "checked_on": "2026-11-16",
+            "note": "Official publisher shop confirms a subscription offering but does not establish author fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Elsevier journal guide returned 403; hybrid subscription route does not establish absence of all submission, page or other charges. Retained conservative uncertainty."
+    },
+    {
+      "id": "health-systems-q-bulletin",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Ministry-funded diamond route expressly excludes submission, processing and publication fees. Only qualifying completed QA/QI projects are eligible: completion within five years and at least two improvement cycles. Main text is approximately 5,000 words excluding abstract/tables/figures; at most five figures/tables; appendices at most five pages.",
+        "other_mandatory_costs": "None stated under the blanket free-for-authors policy; no compulsory membership, registration or page payment is specified. Online author-account registration is required; no payment is stated.",
+        "fee_evidence": [
+          {
+            "url": "https://journal.nih.gov.my/index.php/qbulletin/fee",
+            "checked_on": "2026-11-16",
+            "note": "Explicitly excludes submission fees, APCs and publication fees; Ministry funding makes the journal free for authors and readers.",
+            "access": "page"
+          },
+          {
+            "url": "https://journal.nih.gov.my/index.php/qbulletin/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Requires completed QA/QI projects within five years and at least two cycles; gives word/figure/appendix limits and author-account registration.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-journal-of-health-management-malaysia",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Diamond route expressly excludes all manuscript submission, processing and publication fees. Follow the official manuscript template, British English and 300-word abstract maximum. Applicable ethics approval and Malaysian NMRR registration must be reported. No compulsory author membership or affiliation payment is stated.",
+        "other_mandatory_costs": "None stated under the no-fees policy; no page, overlength, color, membership or registration payment is specified. No general main-text word maximum was found on the inspected HTML instructions; do not interpret this as unlimited length.",
+        "fee_evidence": [
+          {
+            "url": "https://journal.nih.gov.my/index.php/johm/fee",
+            "checked_on": "2026-11-16",
+            "note": "Journal explicitly excludes all submission, processing and publication fees and states there are no APCs.",
+            "access": "page"
+          },
+          {
+            "url": "https://journal.nih.gov.my/index.php/johm/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Inspected formatting, template, abstract limit, ethics and applicable NMRR reporting; no additional mandatory publication cost found.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-bulletin-of-the-world-health-organization",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Fully open access with no author fees. Research, systematic reviews and Policy & practice normally allow 3,000 words; follow format-specific limits. English submissions; translated abstracts cost authors nothing. Guidelines restrict prior publication, with a preprint exception only for research in a public health emergency of international concern. Primary research requires study-country institutional representation.",
+        "other_mandatory_costs": "No compulsory author charges under the blanket no-author-fees policy. Authors obtain permissions for copyrighted reuse. Accepted supplementary material needs a DOI-providing repository; a paid repository is not required by the stated policy.",
+        "fee_evidence": [
+          {
+            "url": "https://www.who.int/publications/journals/bulletin",
+            "checked_on": "2026-11-16",
+            "note": "Official homepage expressly excludes APCs associated with submitting or publishing.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors",
+            "checked_on": "2026-11-16",
+            "note": "Guidelines state no author fees, free abstract translation, article limits, supplementary-repository requirement and restricted preprint exception.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-pan-american-journal-of-public-health",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Diamond OA policy excludes fees for researchers and readers and says publication costs authors nothing. No selective waiver or membership is involved. Original research and reviews allow 3,500 words excluding abstract/tables/figures/references; shorter types have lower limits. Accepts English, Portuguese and Spanish; disclose any prior preprint or repository publication.",
+        "other_mandatory_costs": "No compulsory author payment under the broad no-fees-for-researchers policy; no required membership, registration, page/overlength or color charge is stated. Authors obtain copyright permissions for material they choose to reuse.",
+        "fee_evidence": [
+          {
+            "url": "https://journal.paho.org/en/about-journal",
+            "checked_on": "2026-11-16",
+            "note": "Full official page returned HTTP 200 by ordinary HTTPS. Access/distribution explicitly identifies diamond OA with no fees for researchers/readers and publication at no author cost.",
+            "access": "page"
+          },
+          {
+            "url": "https://journal.paho.org/en/instructions-authors",
+            "checked_on": "2026-11-16",
+            "note": "Full official page returned HTTP 200 by ordinary HTTPS. Inspected type/word limits, copyright, submission process and preprint-disclosure requirements; no additional mandatory charge stated.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read official about page and author instructions directly via HTTPS (200) after web tool returned 403; no researcher fees under the diamond policy."
+    },
+    {
+      "id": "health-systems-journal-of-health-systems-and-policies",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No author or institution fees at any stage including application, processing, page and color.",
+        "other_mandatory_costs": "none stated",
+        "fee_evidence": [
+          {
+            "url": "https://dergipark.org.tr/en/pub/jhesp/price-policy",
+            "checked_on": "2026-11-16",
+            "note": "No author or institution fees at any stage including application, processing, page and color.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    },
+    {
+      "id": "health-systems-health-systems",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Official journal search result states no APC for non-open-access route; optional open access can incur an APC. Submission fee and other costs need independent confirmation.",
+        "other_mandatory_costs": "unknown",
+        "fee_evidence": [
+          {
+            "url": "https://www.tandfonline.com/action/journalInformation?journalCode=THSS&show=aimsScope",
+            "checked_on": "2026-11-16",
+            "note": "Official journal search result states no APC for non-open-access route; optional open access can incur an APC. Submission fee and other costs need independent confirmation.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Publisher policy page returned 403; retained search-snippet evidence and conservative uncertainty for submission, page, membership and other compulsory costs."
+    },
+    {
+      "id": "health-systems-informatics-for-health-and-social-care",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Official journal search result states no APC for non-open-access route; optional open access can incur an APC. Submission fee and other costs need independent confirmation.",
+        "other_mandatory_costs": "unknown",
+        "fee_evidence": [
+          {
+            "url": "https://www.tandfonline.com/action/journalInformation?journalCode=imif20&show=aimsScope",
+            "checked_on": "2026-11-16",
+            "note": "Official journal search result states no APC for non-open-access route; optional open access can incur an APC. Submission fee and other costs need independent confirmation.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Publisher policy page returned 403; retained search-snippet evidence and conservative uncertainty for submission, page, membership and other compulsory costs."
+    },
+    {
+      "id": "health-systems-samsun-journal-of-health-sciences",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Open-access publication; journal says no charge at any stage for submission, evaluation or publication.",
+        "other_mandatory_costs": "No fee charged to authors or institutions under any name; no compulsory page, membership or registration charge stated.",
+        "fee_evidence": [
+          {
+            "url": "https://dergipark.org.tr/en/pub/jshs/price-policy",
+            "checked_on": "2026-11-16",
+            "note": "Official price policy states no fee to author or institution under any name, including submission, evaluation and publication.",
+            "access": "page"
+          },
+          {
+            "url": "https://dergipark.org.tr/en/pub/jshs/about-journal",
+            "checked_on": "2026-11-16",
+            "note": "Journal describes no fees at any stage and its open access publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently checked the official journal fee policy and route; review is limited to the selected standard route and stated manuscript limits."
+    }
+  ],
+  "notes": [
+    "Every baseline and completed discovery candidate audited; free routes are distinct from optional paid OA and reader subscriptions."
+  ]
+}

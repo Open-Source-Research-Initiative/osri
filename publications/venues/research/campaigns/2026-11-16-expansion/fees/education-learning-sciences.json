@@ -1,0 +1,191 @@
+{
+  "subfield": "education-learning-sciences",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/education_fees",
+  "notes": [
+    "PUP submission-fee source was accessible only as a search snippet; direct page retrieval timed out. Sage journal-specific PDF instructions were read; optional services do not change the standard route."
+  ],
+  "patches": [
+    {
+      "id": "education-learning-sciences-indonesian-journal-informatics-education",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No APC or submission, processing, review or publication charges for authors worldwide; research articles up to 8,000 words, with other article-type limits.",
+        "other_mandatory_costs": "No additional mandatory author charges stated.",
+        "fee_evidence": [
+          {
+            "url": "https://jurnal.uns.ac.id/ijie/about/editorialPolicies",
+            "checked_on": "2026-11-16",
+            "note": "No submission, handling, review or publication fees for authors worldwide; open access.",
+            "access": "page"
+          },
+          {
+            "url": "https://jurnal.uns.ac.id/ijie/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Manuscript and article type length requirements.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    },
+    {
+      "id": "education-learning-sciences-review-artificial-intelligence-education",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Journal states no fees of any kind, including submission, evaluation and publication.",
+        "other_mandatory_costs": "None under journal no-fee policy.",
+        "fee_evidence": [
+          {
+            "url": "https://alumnijournals.org/raie/guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Guidelines state no fees of any kind and explicitly cover submission, evaluation and publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    },
+    {
+      "id": "education-learning-sciences-research-education-teaching",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No fees at any stage for submission, editorial and reviewing procedures, or publication.",
+        "other_mandatory_costs": "No additional mandatory author charges stated.",
+        "fee_evidence": [
+          {
+            "url": "https://jret.elapublishing.net/en/sayfa/publication-fee-policy-6055",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no fees for submission, editorial and review procedures, or publication at any stage.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    },
+    {
+      "id": "education-learning-sciences-pup-education-review",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal about page confirms no APC. A search snippet of author guidelines states no submission or publication fees, but the author-guidelines page timed out and requires direct verification.",
+        "other_mandatory_costs": "Page, membership and other charges not independently verified.",
+        "fee_evidence": [
+          {
+            "url": "https://publishing.pup.edu.ph/ojs/index.php/EdRev/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal about page confirms no article processing charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://publishing.pup.edu.ph/ojs/index.php/EdRev/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Search snippet reports no submission or publication fees; direct page timed out.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    },
+    {
+      "id": "education-learning-sciences-journal-management-education",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_optional_open_access",
+        "conditions": "Standard subscription route has no submission or publication fee; optional open access may cost extra. Requested print colour may incur charges; colour online is free.",
+        "other_mandatory_costs": "No additional mandatory author charges stated in the journal submission guidelines.",
+        "fee_evidence": [
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-journal-of-management-education_-sage-journals88822042-9ac8-41a9-855c-bc95bea3a177.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific submission guidelines say no fees to submit or publish; open access is optional. Specifically requested print colour incurs charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    },
+    {
+      "id": "education-learning-sciences-journal-transformative-education",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_optional_open_access",
+        "conditions": "Standard subscription route has no submission or publication fee; optional open access may cost extra.",
+        "other_mandatory_costs": "No additional mandatory author charges stated in the journal submission guidelines.",
+        "fee_evidence": [
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-journal-of-transformative-education_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific submission guidelines say no fees to submit or publish; open access is optional.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    },
+    {
+      "id": "education-learning-sciences-culture-and-education",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_optional_open_access",
+        "conditions": "Standard subscription route has no submission or publication fee; optional open access may cost extra. Requested print colour may incur charges; colour online is free.",
+        "other_mandatory_costs": "No additional mandatory author charges stated in the journal submission guidelines.",
+        "fee_evidence": [
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-culture-and-education_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific submission guidelines say no fees to submit or publish; open access is optional. Specifically requested print colour incurs charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    },
+    {
+      "id": "education-learning-sciences-theory-research-education",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_optional_open_access",
+        "conditions": "Standard subscription route has no submission or publication fee; optional open access may cost extra.",
+        "other_mandatory_costs": "No additional mandatory author charges stated in the journal submission guidelines.",
+        "fee_evidence": [
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-theory-and-research-in-education_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific submission guidelines say no fees to submit or publish; open access is optional.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected official journal fee evidence; optional services and remaining uncertainty are distinguished from mandatory costs."
+    }
+  ]
+}

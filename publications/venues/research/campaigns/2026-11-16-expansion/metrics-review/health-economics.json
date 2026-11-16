@@ -1,0 +1,306 @@
+{
+  "subfield": "health-economics",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_review_health_economics",
+  "patches": [
+    {
+      "id": "health-economics-european-journal-of-health-economics",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.1,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/10198",
+          "note": "Publisher journal homepage reports the 2025 Journal Impact Factor; citation metric, not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 4.1,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/10198",
+          "note": "Publisher journal homepage reports the 2025 five-year metric; citation metric, not acceptance probability."
+        }
+      ],
+      "audit_note": "Reviewed journal homepage and publishing route and publisher AI framework; submission and other compulsory costs are not established by the subscription no-APC statement."
+    },
+    {
+      "id": "health-economics-applied-health-economics-and-health-policy",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.1,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40258",
+          "note": "Publisher journal homepage reports the 2025 Journal Impact Factor; citation metric, not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 3.8,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40258",
+          "note": "Publisher journal homepage reports the 2025 five-year metric; citation metric, not acceptance probability."
+        }
+      ],
+      "audit_note": "Reviewed journal homepage and publishing route and publisher AI framework; submission and other compulsory costs are not established by the subscription no-APC statement."
+    },
+    {
+      "id": "health-economics-pharmacoeconomics",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 4.8,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40273",
+          "note": "Publisher journal homepage reports the 2025 Journal Impact Factor; citation metric, not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 6.1,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40273",
+          "note": "Publisher journal homepage reports the 2025 five-year metric; citation metric, not acceptance probability."
+        }
+      ],
+      "audit_note": "Reviewed journal homepage and publishing route and publisher AI framework; submission and other compulsory costs are not established by the subscription no-APC statement."
+    },
+    {
+      "id": "health-economics-health-care-management-science",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.8,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Publisher journal homepage reports the 2025 Journal Impact Factor; citation metric, not acceptance probability."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 2.9,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Publisher journal homepage reports the 2025 five-year metric; citation metric, not acceptance probability."
+        }
+      ],
+      "audit_note": "Reviewed journal homepage and publishing route and publisher AI framework; submission and other compulsory costs are not established by the subscription no-APC statement."
+    },
+    {
+      "id": "health-economics-health-economics",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "The journal permits disclosed use to develop portions of a manuscript subject to editorial discretion and human responsibility. Applicable Wiley AI guidance on research and analysis could not be read in full: the publisher page returned 403; a search snippet alone does not establish the required research and analysis permission.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Journal requires transparent detailed disclosure of manuscript development in Methods or Acknowledgements; ordinary spelling, grammar and general editing are exempt. Research and analysis instructions from the blocked Wiley page could not be independently verified.",
+          "source_urls": [
+            "https://onlinelibrary.wiley.com/page/journal/10991050/homepage/forauthors.html",
+            "https://www.wiley.com/en-us/publishing/article/ai-guidelines"
+          ],
+          "section": "Artificial Intelligence"
+        },
+        "restrictions": [
+          "Editor decides whether a particular use is appropriate; AI cannot be an author; humans verify accuracy and sources."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://onlinelibrary.wiley.com/page/journal/10991050/homepage/forauthors.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal permits manuscript development with disclosure and reserves editorial discretion."
+          },
+          {
+            "url": "https://www.wiley.com/en-us/publishing/article/ai-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Wiley policy for journals published by Wiley",
+            "note": "Publisher guidance full page returned HTTP 403 during review; snippets alone cannot establish substantive research and analysis permissions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.0,
+          "year": null,
+          "population": null,
+          "source_url": "https://onlinelibrary.wiley.com/journal/10991050",
+          "note": "Wiley official search-indexed journal homepage; metric year not stated and full page timed out."
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.9,
+          "year": null,
+          "population": null,
+          "source_url": "https://onlinelibrary.wiley.com/journal/10991050",
+          "note": "Wiley official search-indexed homepage; metric year not stated and full page timed out."
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "value": 10,
+          "year": null,
+          "population": null,
+          "source_url": "https://onlinelibrary.wiley.com/journal/10991050",
+          "note": "Wiley official search-indexed journal homepage reports 10%; period and denominator not specified; full page timed out. Not an individual probability."
+        }
+      ],
+      "audit_note": "Downgraded AI compatibility because substantive research and analysis evidence was accessible only as a snippet; journal-level writing permission and disclosure remain."
+    },
+    {
+      "id": "health-economics-asian-pacific-journal-of-health-economics-and-policy",
+      "metrics": [],
+      "audit_note": "Official instructions describe no-fee open access, welcome all relevant scholars, and explicitly waive association membership; no explicit AI policy or official metric located."
+    },
+    {
+      "id": "health-economics-epidemiology-biostatistics-and-public-health",
+      "metrics": [],
+      "audit_note": "Official journal about page supports no author payments; ethics page addresses data analysis and editing but does not expressly permit substantive drafting."
+    },
+    {
+      "id": "health-economics-value-in-health",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "The journal explicitly encourages responsible AI use and gives an example of AI-generated first drafts; applicable Elsevier policy permits research design, analysis and code development with human judgment and transparent methods. AI drafting is prohibited for Letters to the Editor, but the policy gives a first-draft example for other manuscripts.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Journal requires a use or no-use statement on the title page and immediately before references, identifying tool, purpose and human oversight; describe research methods and analysis reproducibly in Methods.",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Use of Artificial Intelligence"
+        },
+        "restrictions": [
+          "Authors retain scientific judgment and responsibility; AI cannot be an author; comply with applicable image restrictions.",
+          "AI use for drafting Letters to the Editor is prohibited; this article-type restriction overrides general drafting permission."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal-specific instructions give first-draft example, require declarations and refer authors to Elsevier policy."
+          },
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Elsevier policy linked by journal",
+            "note": "Publisher policy permits research design, code and analysis; requires reproducible methods and human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 6.2,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR describes as current but does not identify the metric year."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 6.5,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR describes as current but does not identify the metric year."
+        },
+        {
+          "name": "CiteScore",
+          "value": 8.4,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR describes as current but does not identify the metric year."
+        },
+        {
+          "name": "Overall rejection rate (%)",
+          "value": ">82%",
+          "year": 2025,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR reports overall rejection rate; denominator not further specified. Not converted to an acceptance rate."
+        }
+      ],
+      "audit_note": "Retained compatible for research articles with article-type restriction on letters; added current undated citation metrics and reported 2025 rejection rate without deriving acceptance."
+    }
+  ],
+  "findings": [
+    {
+      "id": "health-economics-european-journal-of-health-economics",
+      "severity": "info",
+      "issue": "Hybrid subscription route is not proof of free submission or absence of all charges; country of editorial office and author geography remain unestablished. Springer policy supports supervised exploratory analysis and extensive writing with disclosure.",
+      "resolution": "Retain needs_verification, unknown venue country and not_stated author eligibility; record official citation metrics with year."
+    },
+    {
+      "id": "health-economics-applied-health-economics-and-health-policy",
+      "severity": "info",
+      "issue": "Hybrid subscription route is not proof of free submission or absence of all charges; country of editorial office and author geography remain unestablished. Springer policy supports supervised exploratory analysis and extensive writing with disclosure.",
+      "resolution": "Retain needs_verification, unknown venue country and not_stated author eligibility; record official citation metrics with year."
+    },
+    {
+      "id": "health-economics-pharmacoeconomics",
+      "severity": "info",
+      "issue": "Hybrid subscription route is not proof of free submission or absence of all charges; country of editorial office and author geography remain unestablished. Springer policy supports supervised exploratory analysis and extensive writing with disclosure.",
+      "resolution": "Retain needs_verification, unknown venue country and not_stated author eligibility; record official citation metrics with year."
+    },
+    {
+      "id": "health-economics-health-care-management-science",
+      "severity": "info",
+      "issue": "Hybrid subscription route is not proof of free submission or absence of all charges; country of editorial office and author geography remain unestablished. Springer policy supports supervised exploratory analysis and extensive writing with disclosure.",
+      "resolution": "Retain needs_verification, unknown venue country and not_stated author eligibility; record official citation metrics with year."
+    },
+    {
+      "id": "health-economics-health-economics",
+      "severity": "high",
+      "issue": "Publisher AI page blocked and the journal instructions establish manuscript development, not research and analysis; compatible designation rested on search snippet. Journal homepage metrics observed only in official indexed search content with no period or denominator.",
+      "resolution": "Exclude pending readable applicable research and analysis policy; preserve undated metrics with access and denominator limits."
+    },
+    {
+      "id": "health-economics-asian-pacific-journal-of-health-economics-and-policy",
+      "severity": "info",
+      "issue": "No-fee statement and no mandatory membership do not separately establish submission charges or every possible mandatory charge; policy does not establish substantive AI permissions.",
+      "resolution": "Retain needs_verification and unclear AI; no unsupported metric."
+    },
+    {
+      "id": "health-economics-epidemiology-biostatistics-and-public-health",
+      "severity": "info",
+      "issue": "Journal explicitly requires no author payments and permits declared data analysis; ethics language describes editing rather than substantive drafting.",
+      "resolution": "Retain verified_free and unclear AI pending explicit drafting permission; no unsupported metric."
+    },
+    {
+      "id": "health-economics-value-in-health",
+      "severity": "medium",
+      "issue": "Journal expressly prohibits AI drafting for Letters to the Editor; inherited AI record omitted this limitation. Current society instructions describe unpaid non-OA articles, but do not establish all submission or other mandatory charges.",
+      "resolution": "Add article-type restriction; retain needs_verification for complete cost route and not_stated author eligibility."
+    }
+  ],
+  "notes": [
+    "Reviewed all eight discovery candidates and each completed fee, geography and AI policy file. Citation metrics do not predict individual acceptance. No baseline records exist for this field.",
+    "Official Wiley journal homepage timed out and Wiley AI guidelines returned HTTP 403; indexed official search content was used only for labeled metric values, not to establish AI compatibility. Journal author instructions were readable.",
+    "No official citation or acceptance metric was established for Asian Pacific Journal of Health Economics and Policy or Epidemiology, Biostatistics, and Public Health. Source silence is not proof that none exists."
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "subfield": "public-health",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_ai_public_health",
+  "notes": [
+    "Policies interpreted conservatively; an AI disclosure requirement by itself is not proof of permission for every workflow element.",
+    "Eurosurveillance official policy blocked; search mirror not treated as direct official evidence."
+  ],
+  "patches": [
+    {
+      "id": "public-health-bulletin-who",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal requires disclosure of any AI use but does not explicitly establish permitted research, code and drafting uses.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose application and purpose of any AI use; journal does not identify a precise location in section 2.2.",
+          "source_urls": [
+            "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors"
+          ],
+          "section": "2.2 Uniform requirements"
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Broad disclosure requirement; no explicit workflow permission."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Research design, data collection and interpretation, and manuscript preparation including LLM writing are addressed; authors verify output and accept responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Methods or appropriate alternative: describe how and extent used, tools and versions, and prompts where needed for reproducibility; add end-of-manuscript AI declaration confirming independent validation and responsibility. Human-participant protocols have additional ethics disclosure.",
+          "source_urls": [
+            "https://journal.paho.org/en/instructions-authors"
+          ],
+          "section": "Use of artificial intelligence"
+        },
+        "restrictions": [
+          "AI cannot be a coauthor; no knowing use of copyrighted content to generate figures."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journal.paho.org/en/instructions-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Explicit research and preparation policy; describes tool use and human accountability."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-emerging-infectious-diseases",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Chatbot writing and generated ideas are discussed, but journal text does not clearly establish research analysis/code permission.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Place chatbot use information in Acknowledgements and indicate chatbot writing use on the EID Author Checklist.",
+          "source_urls": [
+            "https://wwwnc.cdc.gov/eid/page/authors-resource-instructions"
+          ],
+          "section": "Use of Chatbots/Artificial Intelligence"
+        },
+        "restrictions": [
+          "Journal prefers not to publish AI-created figures, graphs or images; chatbots cannot be authors."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://wwwnc.cdc.gov/eid/page/authors-resource-instructions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Requires transparent use, human accountability, and identifies writing; no explicit code permission in journal text."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Official editorial policy retrieval returned HTTP 403; mirrored search text is not sufficient to certify current official policy.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No adequate workflow-specific disclosure instruction established.",
+          "source_urls": [],
+          "section": "Not established"
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.eurosurveillance.org/editorial-policy",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal policy",
+            "note": "Official editorial policy retrieval returned HTTP 403; mirrored search text is not sufficient to certify current official policy."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-journal-of-public-health-oup",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "OUP permits AI data analysis and code generation/refinement with disclosure; its list specifies substantial editing and rewriting, but does not explicitly establish initial manuscript drafting. Check journal-specific exceptions.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose tool and use; methodology section may be required when integral to research; check journal instructions.",
+          "source_urls": [
+            "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "https://academic.oup.com/jpubhealth/pages/General_Instructions"
+          ],
+          "section": "Permissible uses and disclosure requirements"
+        },
+        "restrictions": [
+          "Do not misrepresent AI content as original research data or results."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "OUP journals policy",
+            "note": "Publisher policy lists analysis and code, and substantial editing, without explicit original drafting."
+          },
+          {
+            "url": "https://academic.oup.com/jpubhealth/pages/General_Instructions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Journal author instructions checked for journal-specific provisions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage permits literature assistance and generated or enhanced code but prohibits generation of a submission using a series of prompts; scope of permissible substantive manuscript drafting is ambiguous.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative research uses at submission and in Methods or Acknowledgements; basic language or structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sjp",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated; Prohibited use of AI"
+        },
+        "restrictions": [
+          "Prohibits AI analysis of experiences and themes, invented data and references, and generation of a submission using a series of prompts; verify drafting scope."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sjp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Journal instructions link Sage policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Lists research/code uses and a potentially conflicting prohibition on generation of a submission using a series of prompts."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage permits literature assistance and generated or enhanced code but prohibits generation of a submission using a series of prompts; scope of permissible substantive manuscript drafting is ambiguous.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative research uses at submission and in Methods or Acknowledgements; basic language or structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/phr",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated; Prohibited use of AI"
+        },
+        "restrictions": [
+          "Prohibits AI analysis of experiences and themes, invented data and references, and generation of a submission using a series of prompts; verify drafting scope."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/phr",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Journal instructions link Sage policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Lists research/code uses and a potentially conflicting prohibition on generation of a submission using a series of prompts."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-perspectives-in-public-health",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage permits literature assistance and generated or enhanced code but prohibits generation of a submission using a series of prompts; scope of permissible substantive manuscript drafting is ambiguous.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative research uses at submission and in Methods or Acknowledgements; basic language or structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rsh",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated; Prohibited use of AI"
+        },
+        "restrictions": [
+          "Prohibits AI analysis of experiences and themes, invented data and references, and generation of a submission using a series of prompts; verify drafting scope."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rsh",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Journal instructions link Sage policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Lists research/code uses and a potentially conflicting prohibition on generation of a submission using a series of prompts."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-european-journal",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "OUP permits AI data analysis and code generation/refinement with disclosure; its list specifies substantial editing and rewriting, but does not explicitly establish initial manuscript drafting. Check journal-specific exceptions.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose tool and use; methodology section may be required when integral to research; check journal instructions.",
+          "source_urls": [
+            "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "https://academic.oup.com/eurpub/pages/General_Instructions"
+          ],
+          "section": "Permissible uses and disclosure requirements"
+        },
+        "restrictions": [
+          "Do not misrepresent AI content as original research data or results."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript/ai-principles-for-oxford-journals/policy-on-ai-use-and-disclosure-for-oxford-journals-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "OUP journals policy",
+            "note": "Publisher policy lists analysis and code, and substantial editing, without explicit original drafting."
+          },
+          {
+            "url": "https://academic.oup.com/eurpub/pages/General_Instructions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Journal author instructions checked for journal-specific provisions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-annali-istituto-superiore-sanita",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Journal requires disclosure and follows ICMJE, but the journal text does not explicitly establish permission for all three workflow uses.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI use in cover letter and submitted work.",
+          "source_urls": [
+            "https://annali.iss.it/index.php/anna/about/submissions"
+          ],
+          "section": "Submission checklist; Manuscript presentation"
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://annali.iss.it/index.php/anna/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "AI use must be described in cover letter and submitted work; human authors responsible for content."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-epidemiologia-servicos-saude",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Journal expressly covers AI for collection and analysis and writing assistance; code is a method of data analysis and must be described for reproducibility. Authors ensure accurate citations and originality.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Report collection and analysis in Methods with complete reproducibility details; writing and revision assistance in Uso de inteligência artificial generativa, including procedures ensuring citation accuracy, originality and absence of plagiarism.",
+          "source_urls": [
+            "https://www.scielo.br/journal/ress/about/"
+          ],
+          "section": "Adoção de softwares de inteligência artificial"
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.scielo.br/journal/ress/about/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Covers research data collection and analysis and writing assistance, with reporting and authors responsible for research ethics."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-college-community-physicians-sri-lanka",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Submission guidelines did not establish a workflow-specific AI permission or disclosure.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No adequate workflow-specific disclosure instruction established.",
+          "source_urls": [
+            "https://jccpsl.sljol.info/about/submissions"
+          ],
+          "section": "Not established"
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://jccpsl.sljol.info/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Submission guidelines did not establish a workflow-specific AI permission or disclosure."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-delaware-journal",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "2025 author instructions did not establish a workflow-specific AI policy.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No adequate workflow-specific disclosure instruction established.",
+          "source_urls": [
+            "https://djph.org/wp-content/uploads/2025/10/DJPH-Author-Instructions.pdf"
+          ],
+          "section": "Not established"
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://djph.org/wp-content/uploads/2025/10/DJPH-Author-Instructions.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "2025 author instructions did not establish a workflow-specific AI policy."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Policy addresses AI in study methods and creation of manuscript content; human authors retain responsibility and reproducibility.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe use in cover letter and appropriate manuscript section. Guidance recommends tool, version, manufacturer, dates and use in acknowledgments; report study uses, prompts, datasets and performance in Methods with results and bias discussion where applicable.",
+          "source_urls": [
+            "https://www.cdc.gov/pcd/about_the_journal/editorial_policy.htm"
+          ],
+          "section": "Artificial Intelligence (AI)"
+        },
+        "restrictions": [
+          "Authors must prevent plagiarism and ensure attribution and rights."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.cdc.gov/pcd/about_the_journal/editorial_policy.htm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Journal policy permits content creation and research use subject to detailed reporting and accountability."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-bulgarian-journal",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "AI use for generating text, data analysis and other research components is expressly contemplated; code-assisted analysis falls within data analysis. Authors remain accountable.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose AI assistance transparently in the manuscript; a specific section, tool/version details are not stipulated.",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf"
+          ],
+          "section": "Use of Artificial Intelligence (AI) Tools"
+        },
+        "restrictions": [
+          "AI tools cannot be authors."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Explicit text, data analysis and other research uses with disclosure and author responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-evidence-public-health",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Policy explicitly addresses generated written and visual content but does not establish research or analysis/code permission.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Acknowledge generated or edited content in acknowledgments and methods if applicable, naming version, model, and source. Writing-use clause also asks for nature of generated content and editing in methodology; prompts and outputs encouraged as supplements.",
+          "source_urls": [
+            "https://eph.evidencejournals.com/index.php/j/about/submissions"
+          ],
+          "section": "Artificial intelligence (AI) use by authors; Reporting of AI tools used for writing"
+        },
+        "restrictions": [
+          "Authors verify factual accuracy, citations and plagiarism; AI cannot be an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://eph.evidencejournals.com/index.php/j/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Generated text and images addressed; no explicit research analysis/code permission."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    },
+    {
+      "id": "public-health-population-health-management",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage permits literature assistance and generated or enhanced code but prohibits generation of a submission using a series of prompts; scope of permissible substantive manuscript drafting is ambiguous.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative research uses at submission and in Methods or Acknowledgements; basic language or structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pop",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated; Prohibited use of AI"
+        },
+        "restrictions": [
+          "Prohibits AI analysis of experiences and themes, invented data and references, and generation of a submission using a series of prompts; verify drafting scope."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pop",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Journal instructions link Sage policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Lists research/code uses and a potentially conflicting prohibition on generation of a submission using a series of prompts."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official author and applicable publisher evidence checked for the full workflow. Unclear classifications are excluded pending explicit evidence."
+    }
+  ]
+}

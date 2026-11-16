@@ -1,0 +1,273 @@
+{
+  "subfield": "human-computer-interaction",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/hci_ai",
+  "notes": [
+    "Permission classifications reflect policy scope; silence or a disclosure requirement alone is not permission."
+  ],
+  "patches": [
+    {
+      "id": "human-computer-interaction-journal-of-human-technology-relations",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Responsible research assistance, analysis of data and software, and writing support are permitted with human-generated ideas, interpretations and conclusions; authors retain responsibility.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Identify the tool and its writing use in materials and methods; disclose contributing generative AI in a Use of AI section and cover letter. Data/software AI use should be disclosed where appropriate.",
+          "source_urls": [
+            "https://journals.open.tudelft.nl/jhtr/about"
+          ],
+          "section": "Research Data and Software; Use of AI"
+        },
+        "restrictions": [
+          "Ideas, interpretations and conclusions must be human-generated; AI cannot be a coauthor."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.open.tudelft.nl/jhtr/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "Responsible research assistance, analysis of data and software, and writing support are permitted with human-generated ideas, interpretations and conclusions; authors retain responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-visualization-and-interaction",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Generative AI content creation is expressly permitted, including substantive content, with disclosure and author responsibility. Policy does not explicitly establish permission for research assistance or analysis.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Fully disclose content-generating AI in the article; authorship section is suggested, identifying tools and purposes. Disclosure of spelling, grammar and translation tools that do not alter intended semantics is optional.",
+          "source_urls": [
+            "https://www.journalovi.org/author-guide.html"
+          ],
+          "section": "Authorship and AI/LLM policy"
+        },
+        "restrictions": [
+          "AI tools cannot be authors; authors must review and take responsibility for content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.journalovi.org/author-guide.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "Generative AI content creation is expressly permitted, including substantive content, with disclosure and author responsibility. Policy does not explicitly establish permission for research assistance or analysis."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    },
+    {
+      "id": "human-computer-interaction-avances-en-interaccion-humano-computadora",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "The journal explicitly permits AI assistance in manuscript preparation and identifies AI-generated analyses and code among content authors must verify. This broad manuscript preparation policy covers substantive drafting and analytical content under author responsibility.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Identify the tool and describe its role in an appropriate manuscript section.",
+          "source_urls": [
+            "https://revistaaihc.mx/index.php/aihc/ai-assisted-content"
+          ],
+          "section": "AI-Assisted Content Policy"
+        },
+        "restrictions": [
+          "Authors must verify AI-generated content, citations, analyses, images and code; AI cannot be an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/ai-assisted-content",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "The journal explicitly permits AI assistance in manuscript preparation and identifies AI-generated analyses and code among content authors must verify. This broad manuscript preparation policy covers substantive drafting and analytical content under author responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    },
+    {
+      "id": "human-computer-interaction-interaccion",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The reviewed author guidelines do not establish permission for the requested AI-assisted workflow.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "No disclosure instructions identified in the reviewed page.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://revista.aipo.es/index.php/INTERACCION/authorGuidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "The reviewed author guidelines do not establish permission for the requested AI-assisted workflow."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-human-centered-technology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The journal requires a declaration of generative AI in scientific writing, but the reviewed text does not explicitly establish substantive research, analytical or drafting permissions.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Declare use in scientific writing in a Declaration of Generative AI section at the end of the article. The page distinguishes AI analysis/configuration of image diagrams from scientific writing.",
+          "source_urls": [
+            "https://humentech.utm.my/index.php/humentech/about/submissions"
+          ],
+          "section": "Declaration of Generative AI"
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://humentech.utm.my/index.php/humentech/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "The journal requires a declaration of generative AI in scientific writing, but the reviewed text does not explicitly establish substantive research, analytical or drafting permissions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    },
+    {
+      "id": "human-computer-interaction-clei-electronic-journal",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The reviewed publication ethics page did not establish an AI permission or disclosure policy.",
+        "disclosure": {
+          "status": "not_stated",
+          "instructions": "No disclosure instructions identified in the reviewed page.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://clei.org/cleiej/index.php/cleiej/publication-ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "The reviewed publication ethics page did not establish an AI permission or disclosure policy."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    },
+    {
+      "id": "human-computer-interaction-security-and-information-applications",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The journal requires disclosure of generative AI in manuscript preparation and human responsibility, but the disclosure alone does not establish the three requested permissions.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose generative AI use in manuscript preparation in Acknowledgements.",
+          "source_urls": [
+            "https://ejournal.um.edu.my/index.php/JSIA/about"
+          ],
+          "section": "Artificial Intelligence (AI) Policy"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors remain responsible for accuracy and integrity."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://ejournal.um.edu.my/index.php/JSIA/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "The journal requires disclosure of generative AI in manuscript preparation and human responsibility, but the disclosure alone does not establish the three requested permissions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    },
+    {
+      "id": "human-computer-interaction-international-journal-of-research-in-computing",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "For review articles, AI may retrieve literature, classify themes, generate reports and assist analysis; the policy does not establish substantive manuscript drafting permission or generalize this permission to research articles.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Acknowledge such use in the manuscript and explicitly identify the authors’ own original interpretation, critical analysis or synthesis.",
+          "source_urls": [
+            "https://ijrcom.org/index.php/ijrc/about/submissions"
+          ],
+          "section": "Review Articles"
+        },
+        "restrictions": [
+          "Permission is explicitly stated for review articles; authors must identify their own contributions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://ijrcom.org/index.php/ijrc/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific page",
+            "note": "For review articles, AI may retrieve literature, classify themes, generate reports and assist analysis; the policy does not establish substantive manuscript drafting permission or generalize this permission to research articles."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Official journal author or ethics page reviewed; uncertain categories remain excluded from the main directory pending explicit applicable evidence."
+    }
+  ]
+}

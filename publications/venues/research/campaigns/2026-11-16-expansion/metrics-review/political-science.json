@@ -1,0 +1,166 @@
+{
+  "subfield": "political-science",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_review_political_science",
+  "patches": [
+    {
+      "id": "political-science-political-studies",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.8,
+          "year": 2025,
+          "population": "Citations in 2025 to journal items from the preceding two years; 351 citations to 124 items reported by society",
+          "source_url": "https://www.psa.ac.uk/news/psa-journal-impact-factors-for-2025-a-strong-year-across-the-board/",
+          "note": "Society-reported 2025 JCR figure; citation impact is not acceptance probability."
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "value": 11,
+          "year": 2024,
+          "population": null,
+          "source_url": "https://www.psa.ac.uk/sites/default/files/PSA%20Trustee%20reports%20and%20Accounts-%20Draft%20for%20cirulation.pdf",
+          "note": "Society reports the annual rate but does not specify the manuscript denominator or cohort; historical and not an individual probability."
+        }
+      ],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. Metrics reported by the owning society; historical acceptance denominator is unspecified."
+    },
+    {
+      "id": "political-science-international-relations",
+      "metrics": [],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. No independently verified official acceptance or citation metric found."
+    },
+    {
+      "id": "political-science-politics",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.0,
+          "year": 2025,
+          "population": "Citations in 2025 to journal items from the preceding two years; 158 citations to 53 items reported by society",
+          "source_url": "https://www.psa.ac.uk/news/psa-journal-impact-factors-for-2025-a-strong-year-across-the-board/",
+          "note": "Society-reported 2025 JCR figure; citation impact is not acceptance probability."
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "value": 32,
+          "year": 2024,
+          "population": null,
+          "source_url": "https://www.psa.ac.uk/sites/default/files/PSA%20Trustee%20reports%20and%20Accounts-%20Draft%20for%20cirulation.pdf",
+          "note": "Society reports the annual rate but does not specify the manuscript denominator or cohort; historical and not an individual probability."
+        }
+      ],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. Metrics reported by the owning society; historical acceptance denominator is unspecified."
+    },
+    {
+      "id": "political-science-comparative-political-studies",
+      "metrics": [],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. No independently verified official acceptance or citation metric found."
+    },
+    {
+      "id": "political-science-studies-in-indian-politics",
+      "metrics": [],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. No independently verified official acceptance or citation metric found."
+    },
+    {
+      "id": "political-science-european-union-politics",
+      "metrics": [],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. No independently verified official acceptance or citation metric found."
+    },
+    {
+      "id": "political-science-international-studies",
+      "metrics": [],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. No independently verified official acceptance or citation metric found."
+    },
+    {
+      "id": "political-science-the-british-journal-of-politics-and-international-relations",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.4,
+          "year": 2025,
+          "population": "Citations in 2025 to journal items from the preceding two years; Denominator not reported by society",
+          "source_url": "https://www.psa.ac.uk/news/psa-journal-impact-factors-for-2025-a-strong-year-across-the-board/",
+          "note": "Society-reported 2025 JCR figure; citation impact is not acceptance probability."
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "value": 16,
+          "year": 2024,
+          "population": null,
+          "source_url": "https://www.psa.ac.uk/sites/default/files/PSA%20Trustee%20reports%20and%20Accounts-%20Draft%20for%20cirulation.pdf",
+          "note": "Society reports the annual rate but does not specify the manuscript denominator or cohort; historical and not an individual probability."
+        }
+      ],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. Metrics reported by the owning society; historical acceptance denominator is unspecified."
+    },
+    {
+      "id": "political-science-ai-law-politics",
+      "metrics": [],
+      "audit_note": "Reviewed fee, geography and AI helper patches and official evidence. No independently verified official acceptance or citation metric found."
+    }
+  ],
+  "findings": [
+    {
+      "id": "political-science-political-studies",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-international-relations",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-politics",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-comparative-political-studies",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-studies-in-indian-politics",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-european-union-politics",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-international-studies",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-the-british-journal-of-politics-and-international-relations",
+      "severity": "info",
+      "issue": "Sage policy permits disclosed research and code uses but restricts prompt-generated submissions and thematic analysis; partial drafting boundary is unclear.",
+      "resolution": "Retain limited or unclear status and exclude from main directory; do not infer drafting permission."
+    },
+    {
+      "id": "political-science-ai-law-politics",
+      "severity": "info",
+      "issue": "Independent check of journal declarations and ethics supports conditional AI-assisted text, code, data and analysis, with substantial human intellectual contribution and disclosure.",
+      "resolution": "Retain compatible with stated restrictions; journal fee schedule confirms no author charges and identifies Warsaw publisher. Geographic author eligibility remains not stated."
+    }
+  ],
+  "notes": [
+    "Reviewed all nine baseline and discovery candidates against all three helper files. Journal-specific Sage instructions explicitly state no submission or publication fee; optional OA is separate. Seven instructions affirm worldwide submissions; International Studies instructions lack the shared policy passage and its society evidence is less direct.",
+    "VIZJA journal policy explicitly covers generative text, code, data and analysis and disclosure placement; no evidence supports a country restriction. Its official author fees page https://alp-journal.com/index.php/journal/author-fees-and-charges corroborates zero submission, publication, page and colour charges.",
+    "Sage publisher policy https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy lists restricted prompt generation and thematic analysis; all eight remain excluded.",
+    "Official 2025 JCR figures and 2024 acceptance figures for three PSA titles are included. Other six metrics remain empty; the source does not identify acceptance denominators. Source report is marked draft."
+  ]
+}

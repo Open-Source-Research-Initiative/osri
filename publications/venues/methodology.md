@@ -10,22 +10,26 @@ No APC alone does not establish no author cost. Check excess-page charges, requi
 
 The [Diamond Discovery Hub verification guidance](https://ddh.edch.eu/docs/diamond-open-access-journal-verification-guidelines/) checks author-facing charges as well as scholarly evaluation and open licensing. [Springer Nature's cost guidance](https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal) explicitly warns that some subscription journals have page, length, or colour charges. These sources support checking each venue rather than assuming a publishing model makes it free.
 
-## Difficulty and reputation
-
-Difficulty bands compare editorial demands within a subfield: very high, high, moderate, or unknown. They are provisional agent judgments, with the reason and source shown for each assignment. Moderate does not mean easy. Unknown means the retained evidence does not support a band. Preprints and repositories have a separate not-comparable label.
+## Reported metrics
 
 An acceptance rate is retained only when an official source reports it, with the time period and denominator where available. A rate among externally reviewed manuscripts differs from a rate among all submissions. Historical aggregate rates are not an individual manuscript's probability of acceptance.
 
-Citation indicators describe journal-level citation patterns. Keep the metric name, year, and source with the number, and compare like measures in the same field. They do not establish editorial difficulty or the quality of a particular paper. This separation follows [DORA's guidance on contextual use of indicators](https://sfdora.org/faq/). No composite prestige score or worldwide ladder is calculated from missing or incompatible measures.
+Citation indicators describe journal-level citation patterns. Keep the metric name, year, and source with the number, and compare like measures in the same field. They do not establish the quality of a particular paper. This separation follows [DORA's guidance on contextual use of indicators](https://sfdora.org/faq/). No composite prestige score or worldwide ladder is calculated from missing or incompatible measures.
 
 ## Evidence and review
 
-Five distinct agents work on every initial cluster. Discovery and expansion identify candidates. A fee auditor checks costs, a ranking researcher checks available selectivity and metric evidence, and a skeptical reviewer challenges the findings. Role files are retained under `research/`, and the build records their hashes. The data include failed verification and excluded leads so a larger list cannot conceal unresolved costs.
+Five distinct agents work on each campaign field: discovery, fees, geography, AI policy, and metrics review. The metrics reviewer also challenges the other findings. Role files are retained under `research/`, and the build records their hashes. The data include failed verification and excluded leads so a larger list cannot conceal unresolved costs.
 
 Agent review checks the recorded evidence; it is not independent human scientific review, author suitability approval, or endorsement by a venue. Policies can change. Recheck the specific route before every submission and refresh directory records after a material policy change.
 
 ## Scope and limits
 
-The initial twelve clusters cover OSRI's current areas but are not an exhaustive taxonomy. Venue coverage is a researched starting collection. Peer-reviewed journals, preprints, and repositories retain separate review labels. Conference venues qualify only if required registration and publication costs are also free; the absence of a conference from the shortlist does not imply it charges a fee.
+The covered fields are not an exhaustive taxonomy. Venue coverage is a researched starting collection. Peer-reviewed journals, preprints, and repositories retain separate review labels. Conference venues qualify only if required registration and publication costs are also free; the absence of a conference from the shortlist does not imply it charges a fee.
 
 Author eligibility, submission availability, and restrictions on AI-assisted work can affect suitability even when a route is free. Read the venue's current policies and disclose assistance as required. Do not infer that OSRI's use of Agentic-Powered-Research makes every venue suitable.
+
+## AI policy and geography
+
+The main list requires official, applicable evidence permitting substantive AI-assisted research, analysis or code, and manuscript drafting with human responsibility and disclosure. Permission limited to editing or a silent or inaccessible policy does not establish compatibility. Each entry links its policy and records the disclosure instructions and restrictions; verify their current applicability for the specific work. Where permission follows from a broad assistance rule or combined policy clauses, the record identifies that interpretation and its limits. For Sage venues, conditional partial drafting is interpreted from the combined policy; its prohibition on prompt-generated submissions and analysis of experiences and themes still applies, and stricter journal rules control.
+
+Venue country and region use the owning society or editorial host with a cited basis. Publisher offices, author eligibility and regional research focus are separate fields. An unknown author restriction is not evidence of worldwide eligibility.

@@ -1,0 +1,400 @@
+{
+  "subfield": "political-science",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_ai_political_science",
+  "patches": [
+    {
+      "id": "political-science-political-studies",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/psx",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions directly link Sage AI disclosure and prohibited uses.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability linked in journal submission guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-international-relations",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ire",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions directly link Sage AI disclosure and prohibited uses.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability linked in journal submission guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-politics",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pol",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions directly link Sage AI disclosure and prohibited uses.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability linked in journal submission guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-comparative-political-studies",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cps",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions directly link Sage AI disclosure and prohibited uses.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability linked in journal submission guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-studies-in-indian-politics",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/inp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions directly link Sage AI disclosure and prohibited uses.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability linked in journal submission guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-european-union-politics",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/eup",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions directly link Sage AI disclosure and prohibited uses.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability linked in journal submission guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-international-studies",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved. The journal instructions did not directly link the current AI policy; applicability remains uncertain.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/isq",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions; current AI policy not directly linked in retrieved instructions.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability not directly linked in retrieved guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-the-british-journal-of-politics-and-international-relations",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Sage explicitly permits disclosed literature review assistance and AI-generated or checked code for further research. It requires human verification, but lists generation of a submission using a series of prompts and analysis of experiences and themes as inappropriate. The boundary between partial text generation and prohibited prompt-generated submission is unclear; do not treat the entire requested drafting workflow as approved.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generation impacting methodology, analysis, results or conclusions on submission; Sage specifies methods or acknowledgements for its listed examples. Verify outputs and original sources; routine assistive language, grammar and structure improvements need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+        },
+        "restrictions": [
+          "Generation of data or a submission using a series of prompts is listed as inappropriate.",
+          "Analysis of experiences and themes is listed as inappropriate.",
+          "No fabricated content, references or qualitative interviews replacing participants."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/bpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions directly link Sage AI disclosure and prohibited uses.",
+            "note": "Journal-specific submission guidelines inspected."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher journal ethics policy; journal-specific applicability linked in journal submission guidelines.",
+            "note": "Lists disclosed literature/code uses and specific prohibited uses; scope of partial drafting versus prompt-generated submission is unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    },
+    {
+      "id": "political-science-ai-law-politics",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Journal permits disclosed AI-assisted text, code, data and analysis with human verification and full author responsibility. Manuscripts predominantly AI-generated without substantial human intellectual contribution are not accepted.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose tool, provider, model/version where available, access dates, purpose, stage and extent, and human verification. Initial full statement goes on title page; include anonymized statement if needed for review; accepted manuscript has Declarations before references. If AI is a research instrument or study object, describe settings, prompts, dates and validation in methodology. Routine non-generative spelling, formatting and reference management are exempt.",
+          "source_urls": [
+            "https://alp-journal.com/index.php/journal/required-declarations-templates-and-submission-checklist",
+            "https://alp-journal.com/index.php/journal/publication-ethics-and-research-integrity"
+          ],
+          "section": "Required Declarations sections 1 and 7; Publication Ethics section 16"
+        },
+        "restrictions": [
+          "Predominantly AI-generated manuscripts without substantial human intellectual contribution are not accepted.",
+          "Verify outputs against reliable original sources; do not cite generated output as a source.",
+          "Do not fabricate evidence or upload protected information without lawful basis and safeguards.",
+          "AI cannot be an author or contributor."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://alp-journal.com/index.php/journal/publication-ethics-and-research-integrity",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific publication ethics section 16.",
+            "note": "Discloses generated text, code, data and analysis; human responsibility and contribution required."
+          },
+          {
+            "url": "https://alp-journal.com/index.php/journal/required-declarations-templates-and-submission-checklist",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific mandatory author declarations.",
+            "note": "Specifies contents and placement of AI-use disclosure."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Current journal guidelines and relevant official AI policy checked."
+    }
+  ],
+  "notes": [
+    "Sage explicitly prohibits prompt-generated submissions and analysis of experiences and themes while allowing specified research and code assistance with disclosure. Partial manuscript drafting boundaries remain unclear; seven directly linked journals classified limited and International Studies unclear pending direct policy applicability."
+  ]
+}

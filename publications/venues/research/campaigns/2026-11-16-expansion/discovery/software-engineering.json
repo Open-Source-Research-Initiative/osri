@@ -1,0 +1,389 @@
+{
+  "subfield": "software-engineering",
+  "role": "discovery",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_discover_software_engineering",
+  "notes": [
+    "All records require independent fee, geography, and substantive AI policy review before inclusion. JOSS explicitly permits most submission uses including software and paper authoring subject to disclosure and human review: https://joss.readthedocs.io/en/latest/policies.html. E-Informatica asks authors to disclose generative AI in manuscript preparation, but that alone does not establish all three required permissions: https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/. Other AI policies remain unverified.",
+    "The Art, Science, and Engineering of Programming expects presentation at partnering conferences; do not assume a free route before checking registration and alternatives.",
+    "Global baseline names also present: Journal of Object Technology, e-Informatica Software Engineering Journal, Journal of Statistical Software, Journal of Open Source Software, Logical Methods in Computer Science. Kept because they are relevant to the new software-engineering membership and deduplication must preserve reviewed memberships.",
+    "JFP moved from Cambridge to its own charity on Episciences in 2026; do not rely on old publisher terms."
+  ],
+  "records": [
+    {
+      "id": "software-engineering-journal-object-technology",
+      "name": "Journal of Object Technology",
+      "kind": "journal",
+      "publisher": "AITO",
+      "homepage": "https://www.jot.fm/",
+      "author_guidelines": "https://www.jot.fm/",
+      "submission_url": "https://www.jot.fm/",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "methods",
+        "review"
+      ],
+      "scope_notes": "Software and language engineering, including model-driven engineering and formal methods.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The journal states it is completely free for authors and readers; independently verify submission and other costs.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jot.fm/",
+            "checked_on": "2026-11-16",
+            "note": "The journal states it is completely free for authors and readers; independently verify submission and other costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.jot.fm/",
+          "https://www.jot.fm/"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.jot.fm/"
+      ]
+    },
+    {
+      "id": "software-engineering-art-science-engineering-programming",
+      "name": "The Art, Science, and Engineering of Programming",
+      "kind": "journal",
+      "publisher": "AOSA",
+      "homepage": "https://programming-journal.org/",
+      "author_guidelines": "https://programming-journal.org/purpose/",
+      "submission_url": "https://programming-journal.org/",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Programming broadly construed. Authors of published papers are expected to present at partnering conferences; check whether this entails a mandatory cost.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "No open access publication fees are stated; conference presentation expected, and associated registration cost requires verification.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://programming-journal.org/purpose/",
+            "checked_on": "2026-11-16",
+            "note": "No open access publication fees are stated; conference presentation expected, and associated registration cost requires verification.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://programming-journal.org/",
+          "https://programming-journal.org/purpose/"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://programming-journal.org/",
+        "https://programming-journal.org/purpose/"
+      ]
+    },
+    {
+      "id": "software-engineering-e-informatica",
+      "name": "e-Informatica Software Engineering Journal",
+      "kind": "journal",
+      "publisher": "Wrocław University of Science and Technology",
+      "homepage": "https://www.e-informatyka.pl/einformatica/",
+      "author_guidelines": "https://www.e-informatyka.pl/einformatica/authors-guide/",
+      "submission_url": "https://www.e-informatyka.pl/einformatica/",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Empirical software engineering, methods, secondary studies and computational software engineering.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal says without fees for authors and readers; independently confirm all compulsory charges.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/",
+            "checked_on": "2026-11-16",
+            "note": "Journal says without fees for authors and readers; independently confirm all compulsory charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.e-informatyka.pl/einformatica/",
+          "https://www.e-informatyka.pl/einformatica/authors-guide/"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.e-informatyka.pl/einformatica/",
+        "https://www.e-informatyka.pl/einformatica/authors-guide/"
+      ]
+    },
+    {
+      "id": "software-engineering-journal-statistical-software",
+      "name": "Journal of Statistical Software",
+      "kind": "journal",
+      "publisher": "Foundation for Open Access Statistics",
+      "homepage": "https://www.jstatsoft.org/",
+      "author_guidelines": "https://www.jstatsoft.org/guides/submission",
+      "submission_url": "https://www.jstatsoft.org/",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "software",
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Open-source software for statistical computing; software and accompanying scholarly articles are required.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Submission guide states no author fees and describes free submission.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jstatsoft.org/guides/submission",
+            "checked_on": "2026-11-16",
+            "note": "Submission guide states no author fees and describes free submission.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.jstatsoft.org/",
+          "https://www.jstatsoft.org/guides/submission"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.jstatsoft.org/",
+        "https://www.jstatsoft.org/guides/submission"
+      ]
+    },
+    {
+      "id": "software-engineering-journal-open-source-software",
+      "name": "Journal of Open Source Software",
+      "kind": "journal",
+      "publisher": "Open Journals",
+      "homepage": "https://joss.theoj.org/",
+      "author_guidelines": "https://joss.readthedocs.io/en/latest/submitting.html",
+      "submission_url": "https://joss.theoj.org/",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "software"
+      ],
+      "scope_notes": "Research software packages; public development history of at least six months and substantive research application required.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal describes diamond open access and no APC; independently confirm submission and other mandatory costs.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://joss.theoj.org/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal describes diamond open access and no APC; independently confirm submission and other mandatory costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://joss.theoj.org/",
+          "https://joss.readthedocs.io/en/latest/submitting.html"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://joss.theoj.org/",
+        "https://joss.readthedocs.io/en/latest/submitting.html",
+        "https://joss.theoj.org/about"
+      ]
+    },
+    {
+      "id": "software-engineering-journal-functional-programming",
+      "name": "Journal of Functional Programming",
+      "kind": "journal",
+      "publisher": "Journal of Functional Programming Charity",
+      "homepage": "https://jfp.episciences.org/",
+      "author_guidelines": "https://jfp.episciences.org/for-authors",
+      "submission_url": "https://jfp.episciences.org/",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "methods",
+        "software"
+      ],
+      "scope_notes": "Functional programming design, implementation, program synthesis and semantics; new journal host from 2026.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "New publisher states no publication fee; check submission and all other mandatory costs. Requires preprint in arXiv, HAL, or Zenodo.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://jfp.mpi-sws.org/",
+            "checked_on": "2026-11-16",
+            "note": "New publisher states no publication fee; check submission and all other mandatory costs. Requires preprint in arXiv, HAL, or Zenodo.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://jfp.episciences.org/",
+          "https://jfp.episciences.org/for-authors"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://jfp.episciences.org/",
+        "https://jfp.episciences.org/for-authors",
+        "https://jfp.mpi-sws.org/"
+      ]
+    },
+    {
+      "id": "software-engineering-journal-formalized-reasoning",
+      "name": "Journal of Formalized Reasoning",
+      "kind": "journal",
+      "publisher": "University of Bologna",
+      "homepage": "https://jfr.unibo.it/",
+      "author_guidelines": "https://jfr.unibo.it/about/submissions",
+      "submission_url": "https://jfr.unibo.it/about/submissions",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Formalized mathematics, algorithms and software systems; appropriate program verification research.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal explicitly states neither submission processing fees nor article processing charges; confirm any other mandatory costs.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://jfr.unibo.it/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal explicitly states neither submission processing fees nor article processing charges; confirm any other mandatory costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://jfr.unibo.it/",
+          "https://jfr.unibo.it/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://jfr.unibo.it/",
+        "https://jfr.unibo.it/about/submissions",
+        "https://jfr.unibo.it/about"
+      ]
+    },
+    {
+      "id": "software-engineering-logical-methods-computer-science",
+      "name": "Logical Methods in Computer Science",
+      "kind": "journal",
+      "publisher": "Logical Methods in Computer Science e.V.",
+      "homepage": "https://lmcs.episciences.org/",
+      "author_guidelines": "https://lmcs.episciences.org/page/authors-information",
+      "submission_url": "https://lmcs.episciences.org/page/authors-submit",
+      "subjects": [
+        "software-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Theoretical and practical computer science involving logic, including formal verification; requires a CoRR preprint.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal says no charges for authors and no page charges; check submission costs specifically.",
+        "other_mandatory_costs": "Not fully verified; review conference presentation and other mandatory charges where applicable.",
+        "fee_evidence": [
+          {
+            "url": "https://lmcs.episciences.org/page/faq",
+            "checked_on": "2026-11-16",
+            "note": "Journal says no charges for authors and no page charges; check submission costs specifically.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://lmcs.episciences.org/",
+          "https://lmcs.episciences.org/page/authors-information"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://lmcs.episciences.org/",
+        "https://lmcs.episciences.org/page/authors-information",
+        "https://lmcs.episciences.org/page/faq"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "subfield": "public-health",
+  "role": "discovery",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_discover_public_health",
+  "records": [
+    {
+      "id": "public-health-bulgarian-journal",
+      "name": "Bulgarian Journal of Public Health",
+      "kind": "journal",
+      "publisher": "National Center of Public Health and Analyses",
+      "homepage": "https://ncpha.government.bg/",
+      "author_guidelines": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Population health and public health research with Bulgaria, Europe and other countries in scope; publishes in Bulgarian and English. Verify current submission instructions.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Electronic journal; no author submission or publication fees stated.",
+        "other_mandatory_costs": "None stated in the cited policy; independent fee audit needed.",
+        "fee_evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Official policy states no submission and publication fees for the indicated route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+        "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+      ]
+    },
+    {
+      "id": "public-health-evidence-public-health",
+      "name": "Evidence Public Health",
+      "kind": "journal",
+      "publisher": "Evidence Journals",
+      "homepage": "https://eph.evidencejournals.com/index.php/j/index",
+      "author_guidelines": "https://eph.evidencejournals.com/index.php/j/about/submissions",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Accepts population-level secondary data analysis, evidence synthesis and statistical methods. Early-stage outlet; AI research and code permission requires independent assessment.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Current free service financed by Global Center for Evidence Synthesis; policy may change.",
+        "other_mandatory_costs": "None stated in the cited policy; independent fee audit needed.",
+        "fee_evidence": [
+          {
+            "url": "https://eph.evidencejournals.com/index.php/j/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Official policy states no submission and publication fees for the indicated route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://eph.evidencejournals.com/index.php/j/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://eph.evidencejournals.com/index.php/j/about",
+        "https://eph.evidencejournals.com/index.php/j/about/submissions"
+      ]
+    },
+    {
+      "id": "public-health-population-health-management",
+      "name": "Population Health Management",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/pop",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/pop",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Population health management, relevant nonclinical population-level research and reviews; disease-management relevance required.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription route is free; optional open access and optional print color have charges.",
+        "other_mandatory_costs": "None stated in the cited policy; independent fee audit needed.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pop",
+            "checked_on": "2026-11-16",
+            "note": "Official policy states no submission and publication fees for the indicated route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/pop"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/pop",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ]
+    }
+  ],
+  "notes": [
+    "Bulgaria policy explicitly covers AI-generated text, data analysis, and other research components with disclosure and author accountability.",
+    "Evidence Public Health permits generated writing with disclosure, but explicit research and analysis/code permission was not found; AI auditor must assess and exclude if unclear. Its copyright statements conflict.",
+    "Sage permits disclosed research assistance, generated text and code, but prohibits AI analysis of experiences and themes; AI auditor should preserve this restriction.",
+    "Excluded Future-Journal of Public Health, Policy and Digital Medicine: mandatory conference registration https://fupress.org/journal/JPHPDM/index.php/journal.",
+    "These are discovery candidates, not verified recommendations; independent geography, fee, AI and editorial audits remain necessary."
+  ]
+}

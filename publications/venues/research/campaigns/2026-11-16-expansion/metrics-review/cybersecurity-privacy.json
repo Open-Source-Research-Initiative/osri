@@ -1,0 +1,155 @@
+{
+  "subfield": "cybersecurity-privacy",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/cyber_review",
+  "patches": [
+    {
+      "id": "cybersecurity-privacy-computer-security",
+      "metrics": [],
+      "audit_note": "Reviewed available fee, geography and AI evidence; retained uncertainty where direct policy does not establish the claim."
+    },
+    {
+      "id": "cybersecurity-privacy-privacy-confidentiality",
+      "metrics": [],
+      "audit_note": "Reviewed available fee, geography and AI evidence; retained uncertainty where direct policy does not establish the claim."
+    },
+    {
+      "id": "cybersecurity-privacy-groups-complexity-cryptology",
+      "metrics": [],
+      "audit_note": "Reviewed available fee, geography and AI evidence; retained uncertainty where direct policy does not establish the claim."
+    },
+    {
+      "id": "cybersecurity-privacy-cybersecurity-intelligence-cybercrime",
+      "metrics": [],
+      "audit_note": "Reviewed available fee, geography and AI evidence; retained uncertainty where direct policy does not establish the claim."
+    },
+    {
+      "id": "cybersecurity-privacy-indonesian-cybersecurity-emerging-risks",
+      "metrics": [],
+      "audit_note": "Reviewed available fee, geography and AI evidence; retained uncertainty where direct policy does not establish the claim."
+    },
+    {
+      "id": "cybersecurity-privacy-security-information-applications",
+      "metrics": [],
+      "audit_note": "Reviewed available fee, geography and AI evidence; retained uncertainty where direct policy does not establish the claim."
+    },
+    {
+      "id": "cybersecurity-privacy-security-privacy-wiley",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.9,
+          "year": null,
+          "population": null,
+          "source_url": "https://onlinelibrary.wiley.com/journal/24756725",
+          "note": "Publisher journal page reports the value without specifying its metric year."
+        },
+        {
+          "name": "Acceptance rate",
+          "value": "19%",
+          "year": null,
+          "population": null,
+          "source_url": "https://onlinelibrary.wiley.com/journal/24756725",
+          "note": "Publisher journal page reports the rate without specifying period or denominator; not an individual acceptance probability."
+        }
+      ],
+      "audit_note": "Reviewed available fee, geography and AI evidence; retained uncertainty where direct policy does not establish the claim."
+    },
+    {
+      "id": "cybersecurity-privacy-computers-security",
+      "metrics": [],
+      "audit_note": "Demoted AI compatibility because the journal-specific policy could not be checked and demoted publication fee because the cited journal-branded domain lacks confirmed official status.",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier journal policy permits human-directed drafting and explicitly does not prevent AI in study design, code development or data analysis; authors must verify outputs and retain intellectual responsibility. The journal-specific author guide was blocked, so stricter journal-specific conditions remain unverified.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Describe AI research design and methods reproducibly in Methods. For manuscript preparation add declaration immediately before references naming tool, purpose, human review and responsibility.",
+          "source_urls": [
+            "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Author policy / frequently asked questions"
+        },
+        "restrictions": [
+          "AI cannot be an author; do not replace intellectual contribution; restrictions apply to primary research images."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Elsevier journals author policy applies to publisher journal.",
+            "note": "Study design, code and analysis plus drafting support and disclosures."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guide.",
+            "note": "Returned 403; no journal-specific conflict could be checked."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "optional_open_access",
+        "conditions": "Journal-branded third-party page reports no publication fee on a subscription route, but its official ownership is unverified. Publisher author guide was inaccessible; submission and publication charges remain unverified.",
+        "other_mandatory_costs": "Mandatory page or length charges and membership are unverified.",
+        "fee_evidence": [
+          {
+            "url": "https://computersandsecurity.org/journal-insights/",
+            "checked_on": "2026-11-16",
+            "note": "Journal-branded page states no publication fee for subscription; ownership of this external domain was not independently established.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Publisher guide inaccessible during audit.",
+            "access": "blocked"
+          }
+        ]
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "cybersecurity-privacy-computers-security",
+      "severity": "material",
+      "issue": "Journal-specific author instructions blocked and cited fee page ownership unconfirmed. Publisher-wide AI policy alone does not eliminate possible journal-specific restrictions.",
+      "resolution": "Set AI compatibility unclear and publication fee unknown pending accessible official journal policy."
+    },
+    {
+      "id": "cybersecurity-privacy-privacy-confidentiality",
+      "severity": "material",
+      "issue": "Current policy states $500 per accepted manuscript, superseding historical no-fee evidence.",
+      "resolution": "Retain not_free route and exclude from free directory."
+    },
+    {
+      "id": "cybersecurity-privacy-computer-security",
+      "severity": "informational",
+      "issue": "Sage permits research code and primary or partial generated content with disclosure, but prohibits qualitative analysis of experiences and themes.",
+      "resolution": "Retain compatible classification for permitted workflows and preserve specific restrictions and disclosure."
+    },
+    {
+      "id": "cybersecurity-privacy-security-privacy-wiley",
+      "severity": "informational",
+      "issue": "Publisher journal page reports undated 2.9 impact factor and 19% acceptance rate without denominator.",
+      "resolution": "Retain as undated reported figures without implying personal acceptance probability."
+    }
+  ],
+  "notes": [
+    "Reviewed all eight discovery IDs, fee, geography and AI role patches. Official publisher metrics located for Wiley journal; absence of a metric does not mean none exists.",
+    "Independent source inspection included Sage and Elsevier AI policies and Wiley journal metrics; other role evidence was critically reviewed. No subjective difficulty bands."
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "subfield": "health-systems",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_review_health_systems",
+  "patches": [
+    {
+      "id": "health-systems-medical-care-research-and-review",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-journal-of-health-services-research-and-policy",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-health-services-management-research",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-health-information-management-journal",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-journal-of-health-organization-and-management",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (Clarivate; publisher-reported)",
+          "value": 2.4,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to the number of citable items published in 2023–2024. Raw numerator and denominator are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/jhom",
+          "note": "The current official journal homepage labels this the 2025 Journal Impact Factor. The older official emeraldgrouppublishing.com page returned conflicting figures in search; the live migrated homepage is used. Citation impact is not acceptance difficulty or an individual paper's quality."
+        },
+        {
+          "name": "CiteScore (Scopus; publisher-reported)",
+          "value": 3.3,
+          "year": 2025,
+          "population": "Scopus CiteScore 2025: citations received in 2022–2025 to eligible documents published in 2022–2025, divided by those eligible documents (articles, reviews, conference papers, book chapters and data papers). Raw counts are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/jhom",
+          "note": "Current official homepage explicitly labels 2025 CiteScore. This is the completed-year citation metric, not a tracker or an acceptance rate."
+        }
+      ],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-international-journal-of-health-governance",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (Clarivate; publisher-reported)",
+          "value": 1.7,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to the number of citable items published in 2023–2024. Raw numerator and denominator are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/ijhg",
+          "note": "The current official migrated homepage explicitly labels 2025 Journal Impact Factor. Older official pages indexed in search display different values; this record uses the current homepage snapshot. Not a selectivity or acceptance measure."
+        },
+        {
+          "name": "CiteScore (Scopus; publisher-reported)",
+          "value": 4.3,
+          "year": 2025,
+          "population": "Scopus CiteScore 2025: citations received in 2022–2025 to eligible documents published in 2022–2025, divided by those eligible documents (articles, reviews, conference papers, book chapters and data papers). Raw counts are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/ijhg",
+          "note": "Current official homepage explicitly labels 2025 CiteScore; completed-year citation metric only."
+        }
+      ],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-health-care-management-science",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (publisher-reported)",
+          "value": 2.8,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to citable items published in 2023–2024. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Official Springer journal metrics explicitly label 2.8 (2025). Citation metric retained separately from contribution-based difficulty."
+        },
+        {
+          "name": "5-year Journal Impact Factor (publisher-reported)",
+          "value": 2.9,
+          "year": 2025,
+          "population": "Journal-level five-year JIF: citations in 2025 to journal content from 2020–2024 relative to citable items in that five-year publication window. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Official homepage explicitly labels 2.9 (2025). Longer citation window; not an acceptance metric."
+        },
+        {
+          "name": "CiteScore (publisher-reported)",
+          "value": 4.3,
+          "year": 2025,
+          "population": "Scopus CiteScore 2025: citations received in 2022–2025 to eligible documents published in 2022–2025, divided by those eligible documents. Eligible types are articles, reviews, conference papers, book chapters and data papers; raw counts not supplied.",
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Official homepage's Scopus update explicitly states CiteScore 4.3 for 2025. Completed-year citation measure."
+        }
+      ],
+      "audit_note": "Corrected an exact-word code requirement: official Springer guidance expressly permits basic analysis and drafting literature reviews or summaries, with human oversight; campaign explicitly treats analysis as sufficient.",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher expressly permits supervised basic data analysis, literature support and drafting literature reviews or summaries. Analysis permission establishes analysis_code under the campaign definition; all uses require human judgment and verification.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an end-of-paper AI Use Declaration with accountability; declare manuscript preparation and AI-assisted copy editing. Policy calls for tool versions, use dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Artificial intelligence policy"
+        },
+        "restrictions": [
+          "Do not delegate original scientific thinking or entire manuscript writing; verify outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy applies to its journals.",
+            "note": "Publisher expressly permits basic data analysis, research literature support and drafting literature reviews or summaries, with oversight and disclosure; analysis establishes analysis_code without requiring literal code permission."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "health-systems-journal-of-medical-systems",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (publisher-reported)",
+          "value": 8.8,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to citable items published in 2023–2024. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10916",
+          "note": "Official homepage explicitly reports 8.8 (2025). This citation statistic does not establish acceptance odds."
+        },
+        {
+          "name": "5-year Journal Impact Factor (publisher-reported)",
+          "value": 6.0,
+          "year": 2025,
+          "population": "Journal-level five-year JIF: citations in 2025 to journal content from 2020–2024 relative to citable items in that five-year publication window. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10916",
+          "note": "Official homepage explicitly reports 6.0 (2025); retained as a separate citation window."
+        }
+      ],
+      "audit_note": "Corrected an exact-word code requirement: official Springer guidance expressly permits basic analysis and drafting literature reviews or summaries, with human oversight; campaign explicitly treats analysis as sufficient.",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher expressly permits supervised basic data analysis, literature support and drafting literature reviews or summaries. Analysis permission establishes analysis_code under the campaign definition; all uses require human judgment and verification.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an end-of-paper AI Use Declaration with accountability; declare manuscript preparation and AI-assisted copy editing. Policy calls for tool versions, use dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Artificial intelligence policy"
+        },
+        "restrictions": [
+          "Do not delegate original scientific thinking or entire manuscript writing; verify outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy applies to its journals.",
+            "note": "Publisher expressly permits basic data analysis, research literature support and drafting literature reviews or summaries, with oversight and disclosure; analysis establishes analysis_code without requiring literal code permission."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      }
+    },
+    {
+      "id": "health-systems-international-journal-of-medical-informatics",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-health-policy",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-q-bulletin",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-journal-of-health-management-malaysia",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-bulletin-of-the-world-health-organization",
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (Clarivate; journal-reported)",
+          "value": 8.4,
+          "year": 2025,
+          "population": "Journal-level 2025 citation impact; raw numerator and denominator not provided on the journal page.",
+          "source_url": "https://www.who.int/publications/journals/bulletin/about",
+          "note": "Current official journal about page; citation metric, not acceptance probability."
+        }
+      ],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-pan-american-journal-of-public-health",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-journal-of-health-systems-and-policies",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-health-systems",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-informatics-for-health-and-social-care",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    },
+    {
+      "id": "health-systems-samsun-journal-of-health-sciences",
+      "metrics": [],
+      "audit_note": "Reviewed candidate and role-file claims; retained baseline metrics and uncertainty. Citation measures do not measure acceptance odds."
+    }
+  ],
+  "findings": [
+    {
+      "id": "health-systems-health-care-management-science",
+      "severity": "material",
+      "issue": "AI audit treated absence of explicit code permission as a barrier despite explicit basic analysis permission.",
+      "resolution": "Replace complete AI policy with compatible conditional permissions under updated semantic contract; retain human oversight and disclosure."
+    },
+    {
+      "id": "health-systems-journal-of-medical-systems",
+      "severity": "material",
+      "issue": "AI audit treated absence of explicit code permission as a barrier despite explicit basic analysis permission.",
+      "resolution": "Replace complete AI policy with compatible conditional permissions under updated semantic contract; retain human oversight and disclosure."
+    }
+  ],
+  "notes": [
+    "Reviewed all 18 helper candidates and all three preceding fee, geography and AI policy files. Independently read Springer and Taylor & Francis AI policies, the Sage journal fee policy, WHO and Springer official journal metric pages; PAHO policy was blocked in web fetch and prior direct-page evidence is retained, not independently reconfirmed. Other role claims were examined for contradictions but not every underlying source was independently fetched.",
+    "Added current WHO Bulletin official 2025 impact factor and retained nine previously recorded Springer/Emerald measures. Empty metrics mean none verified during this review, not no metric exists. No acceptance rate inferred.",
+    "Taylor & Francis explicitly bars AI first drafts of manuscript sections; its prohibited classifications remain. Disclosure alone and silence do not establish substantive permission; unresolved fees and author eligibility remain unresolved. No remote writes or venue contact."
+  ]
+}

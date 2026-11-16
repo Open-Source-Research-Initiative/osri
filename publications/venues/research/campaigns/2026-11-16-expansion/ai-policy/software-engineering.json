@@ -1,0 +1,289 @@
+{
+  "subfield": "software-engineering",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/software_ai",
+  "notes": [
+    "All eight candidates from helper were assessed. No baseline entries were returned separately. Policy silence is uncertainty. ACM policy direct page was blocked; official ACM event reproduces it."
+  ],
+  "patches": [
+    {
+      "id": "software-engineering-journal-object-technology",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The official author instructions reviewed do not establish permission for the requested substantive AI workflow.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable AI disclosure instructions identified in the reviewed guidance.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://submissions.jot.fm/index.php/jot/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Submission instructions inspected; no AI policy identified."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "No journal-specific permission established."
+    },
+    {
+      "id": "software-engineering-art-science-engineering-programming",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Authors may use generative tools for writing with disclosure and human responsibility. The journal aims for consistency with ACM policy, but its own author clause does not explicitly establish research or analysis use.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Fully disclose the tools, tasks and locations in the paper, for example in acknowledgments.",
+          "source_urls": [
+            "https://programming-journal.org/purpose/ai.html"
+          ],
+          "section": "Use of Artificial Intelligence by Authors"
+        },
+        "restrictions": [
+          "AI cannot be an author or substitute for scholarly processes."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://programming-journal.org/purpose/ai.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Explicitly permits author writing assistance, distinguishes generative content from editing, and requires full disclosure; does not explicitly address authors’ research or analysis."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal says it aims for ACM consistency; that alone does not establish adoption of all ACM research permissions."
+    },
+    {
+      "id": "software-engineering-e-informatica",
+      "ai_policy": {
+        "compatibility": "limited",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "The author requirements restrict generative tools to language and readability enhancement; substantive drafting therefore does not qualify. Research and analysis uses are not established.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "When AI is used in writing, identify tool and reason in a declaration immediately before references; authors review and accept responsibility.",
+          "source_urls": [
+            "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/"
+          ],
+          "section": "Paper requirements: Declaration of Generative AI and AI-assisted Technologies in the Writing Process"
+        },
+        "restrictions": [
+          "Use of such tools should be restricted to enhancing language and readability; AI cannot be an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.e-informatyka.pl/einformatica/authors-guide/paper-requirements-and-recommendations/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Writing policy restricts tools to language/readability and requires a declaration."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Disclosure alone does not authorize substantive drafting."
+    },
+    {
+      "id": "software-engineering-journal-statistical-software",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The official author instructions reviewed do not establish permission for the requested substantive AI workflow.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable AI disclosure instructions identified in the reviewed guidance.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.jstatsoft.org/authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Information for authors inspected; no AI policy identified."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Unclear rather than inferring permission from silence."
+    },
+    {
+      "id": "software-engineering-journal-open-source-software",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Broad permission for most submission activities explicitly includes research software creation and code generation and paper drafting; human authors retain design decisions, review and validate all outputs.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Include an AI usage disclosure section even if no AI was used. Identify tools and versions, locations, nature and scope of use, and affirm human review, editing, validation and primary design decisions.",
+          "source_urls": [
+            "https://joss.readthedocs.io/en/latest/policies.html"
+          ],
+          "section": "AI usage policy: Author AI usage"
+        },
+        "restrictions": [
+          "AI conversational interaction with editors or reviewers is prohibited except translation.",
+          "Authors remain responsible for accuracy, originality, licensing and legal/ethical compliance."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://joss.readthedocs.io/en/latest/policies.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Permits most submission activities including software creation and drafting; specifies disclosure and oversight."
+          },
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Author submission policy confirms code generation and drafting examples."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Broad permission covers creation of research software and analytical code, subject to validation; JOSS is a software venue and does not require original research results in its paper."
+    },
+    {
+      "id": "software-engineering-journal-functional-programming",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Journal explicitly follows ACM authorship guidelines. ACM policy as reproduced on its official conference page permits research and writing assistance with human responsibility; research uses including coding and data analysis require methods disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe specific research uses in detail in methods, including relevant code and other artifacts; ACM does not require disclosure of writing assistance alone.",
+          "source_urls": [
+            "https://www.iss.acm.org/2026/authors/papers/"
+          ],
+          "section": "ACM Policy on Authorship; Use of Artificial Intelligence"
+        },
+        "restrictions": [
+          "Authors remain accountable for content; attribution and plagiarism rules apply."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://manager.episciences.org/jfp/page/ethical-charter",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Journal explicitly follows ACM guidelines on authorship, including generative AI."
+          },
+          {
+            "url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Linked ACM policy",
+            "note": "Linked ACM primary policy was blocked by HTTP 403."
+          },
+          {
+            "url": "https://www.iss.acm.org/2026/authors/papers/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "ACM policy followed by journal; official ACM reproduction",
+            "note": "Official ACM conference reproduces updated ACM authorship policy on research and writing AI assistance."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Journal-specific adoption established; direct ACM policy blocked, official ACM conference reproduction read."
+    },
+    {
+      "id": "software-engineering-journal-formalized-reasoning",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The official author instructions reviewed do not establish permission for the requested substantive AI workflow.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable AI disclosure instructions identified in the reviewed guidance.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://jfr.unibo.it/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Submission instructions inspected; no AI policy identified."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "No permission inferred from silence."
+    },
+    {
+      "id": "software-engineering-logical-methods-computer-science",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The official author instructions reviewed do not establish permission for the requested substantive AI workflow.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable AI disclosure instructions identified in the reviewed guidance.",
+          "source_urls": [],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://lmcs.episciences.org/page/authors-information",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author guidance",
+            "note": "Author instructions inspected; no AI policy identified."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "No permission inferred from silence."
+    }
+  ]
+}

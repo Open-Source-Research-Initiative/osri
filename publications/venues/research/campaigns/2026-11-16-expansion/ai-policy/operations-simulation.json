@@ -1,0 +1,780 @@
+{
+  "subfield": "operations-simulation",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_ai_operations_simulation",
+  "patches": [
+    {
+      "id": "operations-simulation-stochastic-systems",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "In the acknowledgements identify the tool and the nature of its assistance for all generative AI use.",
+          "source_urls": [
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf"
+          ],
+          "section": "Ethical violations: Authorship Misrepresentation"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal author instructions identify INFORMS and its publication policies."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal author instructions identify INFORMS and its publication policies."
+    },
+    {
+      "id": "operations-simulation-mathematics-of-operations-research",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Include a short subsection before the acknowledgement paragraph describing how the AI system was used and which model was used; if used to explore mathematical development, briefly summarize general steering rules. INFORMS also requires tool and assistance details in acknowledgements.",
+          "source_urls": [
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "https://pubsonline.informs.org/page/moor/submission-guidelines"
+          ],
+          "section": "Use of Generative Artificial Intelligence (AI) in Manuscript Preparation; INFORMS ethical violations"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Explicitly welcomes generative AI in manuscript preparation; authors must name model and describe use in subsection before acknowledgements, and summarize steering rules when exploring mathematical development."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Explicitly welcomes generative AI in manuscript preparation; authors must name model and describe use in subsection before acknowledgements, and summarize steering rules when exploring mathematical development."
+    },
+    {
+      "id": "operations-simulation-operations-research",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "In the acknowledgements identify the tool and the nature of its assistance for all generative AI use.",
+          "source_urls": [
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf"
+          ],
+          "section": "Ethical violations: Authorship Misrepresentation"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal author instructions identify INFORMS and its publication policies. AI restrictions on the page concern reviewers and editors, not authors."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal author instructions identify INFORMS and its publication policies. AI restrictions on the page concern reviewers and editors, not authors."
+    },
+    {
+      "id": "operations-simulation-informs-journal-on-computing",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "In the acknowledgements identify the tool and the nature of its assistance for all generative AI use.",
+          "source_urls": [
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf"
+          ],
+          "section": "Ethical violations: Authorship Misrepresentation"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal author instructions identify INFORMS and its publication policies. Its AI prohibition concerns reviewers and editors, not authors."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal author instructions identify INFORMS and its publication policies. Its AI prohibition concerns reviewers and editors, not authors."
+    },
+    {
+      "id": "operations-simulation-queueing-systems",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods as a methodological tool; include an AI Use Declaration at the end directing readers to the Methods and confirming author accountability. Declare writing and copy editing use as well.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/11134/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+    },
+    {
+      "id": "operations-simulation-annals-of-operations-research",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods as a methodological tool; include an AI Use Declaration at the end directing readers to the Methods and confirming author accountability. Declare writing and copy editing use as well.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10479/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+    },
+    {
+      "id": "operations-simulation-or-spectrum",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods as a methodological tool; include an AI Use Declaration at the end directing readers to the Methods and confirming author accountability. Declare writing and copy editing use as well.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/291/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+    },
+    {
+      "id": "operations-simulation-simulation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed AI literature support and generated or checked code for further research, and describes disclosed generation of text. Authors must verify outputs and remain responsible. Analytical coding satisfies this workflow, subject to explicit qualitative-analysis restrictions.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative content affecting methodology, analysis, results or conclusions on submission; disclose appropriate research uses in Methods or Acknowledgements. Language, grammar and structure suggestions to author-created work need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated and prohibited use of AI"
+        },
+        "restrictions": [
+          "Generation of research data or submissions using a series of prompts and analysis of experiences and themes are prohibited.",
+          "No fabricated claims, incorrect text, plagiarism, or generated images presented as unique research images.",
+          "AI cannot be an author; human authors verify accuracy and references."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy",
+            "note": "Expressly permits literature assistance and AI-generated or checked research code; generative content requires disclosure; lists prohibited uses."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sim",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal instructions bar AI chatbot authors and link Sage’s generative AI policy."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal instructions bar AI chatbot authors and link Sage’s generative AI policy."
+    },
+    {
+      "id": "operations-simulation-simulation-and-gaming",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed AI literature support and generated or checked code for further research, and describes disclosed generation of text. Authors must verify outputs and remain responsible. Analytical coding satisfies this workflow, subject to explicit qualitative-analysis restrictions.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative content affecting methodology, analysis, results or conclusions on submission; disclose appropriate research uses in Methods or Acknowledgements. Language, grammar and structure suggestions to author-created work need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated and prohibited use of AI"
+        },
+        "restrictions": [
+          "Generation of research data or submissions using a series of prompts and analysis of experiences and themes are prohibited.",
+          "No fabricated claims, incorrect text, plagiarism, or generated images presented as unique research images.",
+          "AI cannot be an author; human authors verify accuracy and references."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy",
+            "note": "Expressly permits literature assistance and AI-generated or checked research code; generative content requires disclosure; lists prohibited uses."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sag",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal instructions bar AI chatbot authors and link Sage’s generative AI policy."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal instructions bar AI chatbot authors and link Sage’s generative AI policy."
+    },
+    {
+      "id": "operations-simulation-journal-of-defense-modeling-and-simulation",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage permits disclosed AI literature support and generated or checked code for further research, and describes disclosed generation of text. Authors must verify outputs and remain responsible. Analytical coding satisfies this workflow, subject to explicit qualitative-analysis restrictions.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generative content affecting methodology, analysis, results or conclusions on submission; disclose appropriate research uses in Methods or Acknowledgements. Language, grammar and structure suggestions to author-created work need no disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated and prohibited use of AI"
+        },
+        "restrictions": [
+          "Generation of research data or submissions using a series of prompts and analysis of experiences and themes are prohibited.",
+          "No fabricated claims, incorrect text, plagiarism, or generated images presented as unique research images.",
+          "AI cannot be an author; human authors verify accuracy and references."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy",
+            "note": "Expressly permits literature assistance and AI-generated or checked research code; generative content requires disclosure; lists prohibited uses."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/dms",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal instructions bar AI chatbot authors and link Sage’s generative AI policy."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal instructions bar AI chatbot authors and link Sage’s generative AI policy."
+    },
+    {
+      "id": "operations-simulation-croatian-operational-research-review",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable, readable AI-specific disclosure requirements establishing this workflow were verified.",
+          "source_urls": [
+            "https://ojs.srce.hr/index.php/crorr/about/submissions"
+          ],
+          "section": "Author instructions"
+        },
+        "restrictions": [
+          "The absence of verified permission is not evidence of an AI ban."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://ojs.srce.hr/index.php/crorr/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+    },
+    {
+      "id": "operations-simulation-sort-statistics-and-operations-research-transactions",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable, readable AI-specific disclosure requirements establishing this workflow were verified.",
+          "source_urls": [
+            "https://segur.idescat.cat/sort/normes.html"
+          ],
+          "section": "Author instructions"
+        },
+        "restrictions": [
+          "The absence of verified permission is not evidence of an AI ban."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://segur.idescat.cat/sort/normes.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+    },
+    {
+      "id": "operations-simulation-operations-research-and-decisions",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable, readable AI-specific disclosure requirements establishing this workflow were verified.",
+          "source_urls": [
+            "https://ord.pwr.edu.pl/Instructions_for_authors"
+          ],
+          "section": "Author instructions"
+        },
+        "restrictions": [
+          "The absence of verified permission is not evidence of an AI ban."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://ord.pwr.edu.pl/Instructions_for_authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+    },
+    {
+      "id": "operations-simulation-orion",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "Official journal author instructions were inspected; a policy expressly allowing all three requested uses was not established. Silence is not permission.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable, readable AI-specific disclosure requirements establishing this workflow were verified.",
+          "source_urls": [
+            "https://orion.journals.ac.za/pub/about/submissions"
+          ],
+          "section": "Author instructions"
+        },
+        "restrictions": [
+          "The absence of verified permission is not evidence of an AI ban."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://orion.journals.ac.za/pub/about/submissions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Read journal author instructions; no explicit qualifying AI workflow policy found on this page."
+    },
+    {
+      "id": "operations-simulation-rairo-operations-research",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "A qualifying AI policy was not verified in the available author guidance and targeted searches; the requested permissions remain uncertain.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable, readable AI-specific disclosure requirements establishing this workflow were verified.",
+          "source_urls": [
+            "https://www.rairo-ro.org/author-information/instructions-for-authors"
+          ],
+          "section": "Author instructions"
+        },
+        "restrictions": [
+          "The absence of verified permission is not evidence of an AI ban."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.rairo-ro.org/author-information/instructions-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal instructions",
+            "note": "The journal author instructions returned HTTP 403; no qualifying policy was established."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. The journal author instructions returned HTTP 403; no qualifying policy was established."
+    },
+    {
+      "id": "operations-simulation-computational-optimization-and-applications",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods as a methodological tool; include an AI Use Declaration at the end directing readers to the Methods and confirming author accountability. Declare writing and copy editing use as well.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10589/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+    },
+    {
+      "id": "operations-simulation-discrete-event-dynamic-systems",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods as a methodological tool; include an AI Use Declaration at the end directing readers to the Methods and confirming author accountability. Declare writing and copy editing use as well.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10626/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+    },
+    {
+      "id": "operations-simulation-journal-of-scheduling",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods as a methodological tool; include an AI Use Declaration at the end directing readers to the Methods and confirming author accountability. Declare writing and copy editing use as well.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+    },
+    {
+      "id": "operations-simulation-journal-of-combinatorial-optimization",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature permits AI support for research, basic statistical analysis and drafting literature reviews or summaries with human validation. This supports analytical assistance and substantive drafting, not autonomous authorship.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research AI use in Methods as a methodological tool; include an AI Use Declaration at the end directing readers to the Methods and confirming author accountability. Declare writing and copy editing use as well.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Guidance for researchers, editors and reviewers on the use of AI in publishing"
+        },
+        "restrictions": [
+          "AI may not write an entire manuscript or replace original scientific thinking or interpretation.",
+          "Human researchers validate results and remain accountable; AI cannot be an author.",
+          "Generative AI images are generally barred subject to limited exceptions."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature journal author policy",
+            "note": "Explicit assistance for statistical analyses and drafting reviews and summaries; methods and end declaration."
+          },
+          {
+            "url": "https://link.springer.com/journal/10878/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Checked journal-specific author instructions and applicable publisher guidance. Journal submission instructions direct authors to Springer policy on generative AI images; journal is hosted and published by Springer Nature. No additional author AI restriction identified in page search."
+    }
+  ],
+  "notes": [
+    "All 19 journal author instruction pages were opened; RAIRO returned HTTP 403 and SORT opened but a follow-up text search timed out. No qualifying policy was established for the five independent journals. Sage explicitly prohibits AI analysis of experiences and themes while allowing AI-generated research code."
+  ]
+}

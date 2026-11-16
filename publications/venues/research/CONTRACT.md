@@ -1,4 +1,6 @@
-# Research contract — 2026-11-16
+# Historical initial research contract — 2026-11-16
+
+This initial contract is retained as historical evidence. The [active expansion contract](campaigns/2026-11-16-expansion/CONTRACT.md) supersedes its difficulty-rating and eligibility rules.
 
 Build a broad, maintainable directory of free submission AND free publication opportunities across OSRI's existing scope. This is a venue catalog, not manuscript-specific matching. Five distinct agents are assigned to each of twelve initial subfield clusters, in five roles: discovery, diamond/open dissemination expansion, fee audit, ranking evidence, and skeptical review. Clusters are navigational coverage, not an exhaustive discipline taxonomy.
 

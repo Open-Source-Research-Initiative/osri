@@ -1,0 +1,690 @@
+{
+  "subfield": "systems-engineering",
+  "role": "ai-policy",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_a/a_ai_systems_engineering",
+  "notes": [
+    "Publisher policies may change; journal-specific overrides remain material. Springer group guidance and journal instructions differ on disclosure of copyediting. Wiley detailed research guidance was blocked."
+  ],
+  "patches": [
+    {
+      "id": "systems-engineering-systems-engineering",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Wiley expressly allows responsible AI to develop manuscript portions under human accountability, but the accessible policy does not explicitly establish substantive research assistance and AI data analysis. The detailed publisher AI guidelines could not be retrieved; permission for the complete workflow therefore remains unverified.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose substantial AI development, editing, or translation in the manuscript, according to publisher disclosure guidance, and declare AI use on submission; spelling, grammar, and general editing alone are excepted.",
+          "source_urls": [
+            "https://authors.wiley.com/ethics-guidelines/index.html"
+          ],
+          "section": "Artificial Intelligence"
+        },
+        "restrictions": [
+          "Human authors remain accountable; journal editors make the final decision on appropriate AI use."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://authors.wiley.com/ethics-guidelines/index.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Publisher permits AI to develop manuscript portions with transparent disclosure and retains human accountability; journal editors decide applicability."
+          },
+          {
+            "url": "https://www.incose.org/publication-policies-and-ethics/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Society journal policy",
+            "note": "INCOSE explicitly applies this policy together with Wiley requirements for the journal."
+          },
+          {
+            "url": "https://www.wiley.com/en-us/publishing/article/ai-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Publisher detailed AI guidelines",
+            "note": "Detailed guidance unavailable in this audit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-reliability-engineering-and-system-safety",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier explicitly permits AI support for drafting as well as formal research design, code development and data analysis. Its drafting language describes assistance rather than merely copyediting; authors must check outputs and retain their own intellectual contribution, interpretation and responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Describe research and AI-assisted code use reproducibly in Methods. Put a separate manuscript-preparation declaration immediately before references naming the tool and purpose and confirming review and author responsibility; basic spelling, grammar and punctuation checks need no declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors / declaration of generative AI"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors verify content and sources, and AI must not replace their intellectual contribution. Research images cannot be fabricated or altered with generative AI."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal author guide could not be retrieved; specific stricter terms cannot be excluded."
+          },
+          {
+            "url": "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Publisher policy for journal authors expressly permits drafting support, research methods, analytical coding and data analysis, subject to human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-safety-science",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier explicitly permits AI support for drafting as well as formal research design, code development and data analysis. Its drafting language describes assistance rather than merely copyediting; authors must check outputs and retain their own intellectual contribution, interpretation and responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Describe research and AI-assisted code use reproducibly in Methods. Put a separate manuscript-preparation declaration immediately before references naming the tool and purpose and confirming review and author responsibility; basic spelling, grammar and punctuation checks need no declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors / declaration of generative AI"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors verify content and sources, and AI must not replace their intellectual contribution. Research images cannot be fabricated or altered with generative AI."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal author guide could not be retrieved; specific stricter terms cannot be excluded."
+          },
+          {
+            "url": "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Publisher policy for journal authors expressly permits drafting support, research methods, analytical coding and data analysis, subject to human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-engineering-management-journal",
+      "ai_policy": {
+        "compatibility": "prohibited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "The publisher permits AI in research methods and data analysis, idea exploration and verified code generation, but expressly prohibits generative AI from creating a first draft of a manuscript or sections. Editing human-written prose and a plain-language summary exception do not establish the requested substantive manuscript-drafting permission.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Fully detail AI research methodology in Methods, including adherence to applicable research ethics and reporting guidance; keep records including prompts. Disclose AI use in the manuscript, including tool and purpose; figure legends identify tool and version.",
+          "source_urls": [
+            "https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/",
+            "https://taylorandfrancis.com/our-policies/ai-policy/"
+          ],
+          "section": "Permitted uses / declaration requirements"
+        },
+        "restrictions": [
+          "No AI-generated first draft of manuscript or sections; AI cannot create or conclude the article argument; authors verify code and sources."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and code, prohibits first drafts of manuscripts and sections."
+          },
+          {
+            "url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=uemj20",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author instructions",
+            "note": "Journal author instruction link; journal-specific conditions may also apply."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-international-journal-of-production-research",
+      "ai_policy": {
+        "compatibility": "prohibited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "The publisher permits AI in research methods and data analysis, idea exploration and verified code generation, but expressly prohibits generative AI from creating a first draft of a manuscript or sections. Editing human-written prose and a plain-language summary exception do not establish the requested substantive manuscript-drafting permission.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Fully detail AI research methodology in Methods, including adherence to applicable research ethics and reporting guidance; keep records including prompts. Disclose AI use in the manuscript, including tool and purpose; figure legends identify tool and version.",
+          "source_urls": [
+            "https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/",
+            "https://taylorandfrancis.com/our-policies/ai-policy/"
+          ],
+          "section": "Permitted uses / declaration requirements"
+        },
+        "restrictions": [
+          "No AI-generated first draft of manuscript or sections; AI cannot create or conclude the article argument; authors verify code and sources."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and code, prohibits first drafts of manuscripts and sections."
+          },
+          {
+            "url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tprs20",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author instructions",
+            "note": "Journal author instruction link; journal-specific conditions may also apply."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-research-in-engineering-design",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/163/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/163/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-requirements-engineering",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/766/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/766/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-software-and-systems-modeling",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/10270/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10270/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-systems-research-and-behavioral-science",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Wiley expressly allows responsible AI to develop manuscript portions under human accountability, but the accessible policy does not explicitly establish substantive research assistance and AI data analysis. The detailed publisher AI guidelines could not be retrieved; permission for the complete workflow therefore remains unverified.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose substantial AI development, editing, or translation in the manuscript, according to publisher disclosure guidance, and declare AI use on submission; spelling, grammar, and general editing alone are excepted.",
+          "source_urls": [
+            "https://authors.wiley.com/ethics-guidelines/index.html"
+          ],
+          "section": "Artificial Intelligence"
+        },
+        "restrictions": [
+          "Human authors remain accountable; journal editors make the final decision on appropriate AI use."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://authors.wiley.com/ethics-guidelines/index.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Publisher permits AI to develop manuscript portions with transparent disclosure and retains human accountability; journal editors decide applicability."
+          },
+          {
+            "url": "https://www.wiley.com/en-us/publishing/article/ai-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Publisher detailed AI guidelines",
+            "note": "Detailed guidance unavailable in this audit."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-journal-of-system-safety",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The accessible author instructions do not establish permission for substantive AI-assisted research, analysis, and drafting. Absence of a policy in the inspected material is uncertainty, not a ban.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable AI-specific disclosure instructions verified in the inspected author instructions.",
+          "source_urls": [
+            "https://jsystemsafety.com/index.php/jss/author-guidelines"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://jsystemsafety.com/index.php/jss/author-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions",
+            "note": "Author guidance inspected; no sufficiently explicit AI permission or disclosure located."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-serbian-journal-of-management",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The accessible author instructions do not establish permission for substantive AI-assisted research, analysis, and drafting. Absence of a policy in the inspected material is uncertainty, not a ban.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable AI-specific disclosure instructions verified in the inspected author instructions.",
+          "source_urls": [
+            "https://www.sjm06.com/instr_auth.html"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://www.sjm06.com/instr_auth.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions",
+            "note": "Author guidance inspected; no sufficiently explicit AI permission or disclosure located."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-journal-of-engineering-management-and-competitiveness",
+      "ai_policy": {
+        "compatibility": "prohibited",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "prohibited"
+        },
+        "summary": "Research AI is allowed when scientifically justified, and code debugging is expressly permitted. The journal bans generating substantial manuscript portions and restricts manuscript AI to linguistic or technical uses, so substantive drafting is excluded even with human oversight.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods or equivalent, giving tool name, provider, access date, prompts, and purpose. Acknowledge AI formatting assistance; disclose manuscript AI use.",
+          "source_urls": [
+            "https://www.tfzr.rs/jemc/JournalPolicy.html"
+          ],
+          "section": "Use of Artificial Intelligence"
+        },
+        "restrictions": [
+          "No substantial AI-generated manuscript content, modification of scientific arguments or interpretations, altered data or generated references; intellectual content remains authors’ own."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.tfzr.rs/jemc/JournalPolicy.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal policy explicitly distinguishes research use from restricted manuscript generation."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-international-journal-of-industrial-engineering-and-management",
+      "ai_policy": {
+        "compatibility": "unclear",
+        "permissions": {
+          "research": "not_stated",
+          "analysis_code": "not_stated",
+          "manuscript_drafting": "not_stated"
+        },
+        "summary": "The accessible author instructions do not establish permission for substantive AI-assisted research, analysis, and drafting. Absence of a policy in the inspected material is uncertainty, not a ban.",
+        "disclosure": {
+          "status": "unclear",
+          "instructions": "No applicable AI-specific disclosure instructions verified in the inspected author instructions.",
+          "source_urls": [
+            "https://ijiemjournal.uns.ac.rs/index.php/ijiem/information/authors"
+          ],
+          "section": null
+        },
+        "restrictions": [],
+        "policy_sources": [
+          {
+            "url": "https://ijiemjournal.uns.ac.rs/index.php/ijiem/information/authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions",
+            "note": "Author guidance inspected; no sufficiently explicit AI permission or disclosure located."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-international-journal-of-system-assurance-engineering-and-management",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/13198/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/13198/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-journal-of-systems-science-and-systems-engineering",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/11518/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/11518/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-engineering-with-computers",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/366/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/366/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    },
+    {
+      "id": "systems-engineering-journal-of-intelligent-manufacturing",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/10845/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10845/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Assessed official journal instructions and applicable publisher guidance semantically; disclosure alone does not establish permission."
+    }
+  ]
+}

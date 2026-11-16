@@ -1,508 +1,1038 @@
 {
   "summary": {
     "checked_on": "2026-11-16",
-    "subfields": 12,
-    "agent_role_files": 60,
-    "source_listings": 173,
-    "unique_venues": 169,
+    "subfields": 24,
+    "agent_role_files": 120,
+    "source_listings": 317,
+    "unique_candidates": 297,
+    "unique_venues": 146,
+    "excluded_candidates": 151,
     "eligibility_counts": {
-      "needs_verification": 51,
-      "verified_free": 114,
-      "conditional": 4
+      "needs_verification": 74,
+      "verified_free": 70,
+      "conditional": 2
     },
     "kind_counts": {
-      "journal": 168,
-      "preprint_server": 1
+      "journal": 146
     },
-    "verified_free_peer_reviewed_open_for_consideration": 112,
-    "venues_with_metrics": 107,
+    "verified_free_peer_reviewed_open_for_consideration": 70,
+    "venues_with_metrics": 98,
     "missing_role_files": [],
     "cross_subfield_fee_conflicts": [],
     "coverage": [
       {
         "subfield": "public-health",
         "name": "Public health and population research",
-        "source_listings": 14,
-        "unique_venues": 14,
-        "verified_free_peer_reviewed": 12,
-        "verified_free_with_difficulty_band": 4,
-        "venues_with_reported_metrics": 8
+        "source_listings": 17,
+        "unique_venues": 8,
+        "verified_free_peer_reviewed": 7,
+        "venues_with_reported_metrics": 2
       },
       {
         "subfield": "health-systems",
         "name": "Health systems, services and health informatics",
-        "source_listings": 14,
-        "unique_venues": 14,
-        "verified_free_peer_reviewed": 10,
-        "verified_free_with_difficulty_band": 0,
-        "venues_with_reported_metrics": 5
+        "source_listings": 18,
+        "unique_venues": 7,
+        "verified_free_peer_reviewed": 5,
+        "venues_with_reported_metrics": 2
       },
       {
         "subfield": "systems-engineering",
         "name": "Systems engineering, reliability and engineering management",
-        "source_listings": 13,
-        "unique_venues": 13,
-        "verified_free_peer_reviewed": 4,
-        "verified_free_with_difficulty_band": 0,
-        "venues_with_reported_metrics": 12
+        "source_listings": 17,
+        "unique_venues": 9,
+        "verified_free_peer_reviewed": 0,
+        "venues_with_reported_metrics": 9
       },
       {
         "subfield": "operations-simulation",
         "name": "Operations research, decision science and simulation",
-        "source_listings": 15,
-        "unique_venues": 15,
-        "verified_free_peer_reviewed": 8,
-        "verified_free_with_difficulty_band": 2,
+        "source_listings": 19,
+        "unique_venues": 14,
+        "verified_free_peer_reviewed": 5,
         "venues_with_reported_metrics": 13
       },
       {
         "subfield": "informatics-computing",
         "name": "Computer science, AI, data and research software",
-        "source_listings": 16,
-        "unique_venues": 16,
-        "verified_free_peer_reviewed": 14,
-        "verified_free_with_difficulty_band": 4,
-        "venues_with_reported_metrics": 4
+        "source_listings": 20,
+        "unique_venues": 3,
+        "verified_free_peer_reviewed": 2,
+        "venues_with_reported_metrics": 1
       },
       {
         "subfield": "computational-biology",
         "name": "Bioinformatics and computational biology",
-        "source_listings": 15,
-        "unique_venues": 15,
-        "verified_free_peer_reviewed": 5,
-        "verified_free_with_difficulty_band": 0,
-        "venues_with_reported_metrics": 11
+        "source_listings": 19,
+        "unique_venues": 11,
+        "verified_free_peer_reviewed": 2,
+        "venues_with_reported_metrics": 9
       },
       {
         "subfield": "computational-physical-sciences",
         "name": "Computational physics, chemistry and materials",
-        "source_listings": 15,
-        "unique_venues": 15,
-        "verified_free_peer_reviewed": 10,
-        "verified_free_with_difficulty_band": 0,
-        "venues_with_reported_metrics": 14
+        "source_listings": 19,
+        "unique_venues": 9,
+        "verified_free_peer_reviewed": 8,
+        "venues_with_reported_metrics": 5
       },
       {
         "subfield": "economics",
         "name": "Economics, econometrics and research economics",
-        "source_listings": 14,
-        "unique_venues": 14,
-        "verified_free_peer_reviewed": 10,
-        "verified_free_with_difficulty_band": 1,
-        "venues_with_reported_metrics": 6
+        "source_listings": 19,
+        "unique_venues": 2,
+        "verified_free_peer_reviewed": 1,
+        "venues_with_reported_metrics": 0
       },
       {
         "subfield": "psychology-behavior",
         "name": "Psychology, judgment and behavioral science",
-        "source_listings": 15,
-        "unique_venues": 15,
-        "verified_free_peer_reviewed": 12,
-        "verified_free_with_difficulty_band": 5,
-        "venues_with_reported_metrics": 10
+        "source_listings": 18,
+        "unique_venues": 11,
+        "verified_free_peer_reviewed": 6,
+        "venues_with_reported_metrics": 8
       },
       {
         "subfield": "sociology-organizations",
         "name": "Sociology, organizations and collaboration",
-        "source_listings": 15,
-        "unique_venues": 15,
-        "verified_free_peer_reviewed": 13,
-        "verified_free_with_difficulty_band": 0,
-        "venues_with_reported_metrics": 6
+        "source_listings": 18,
+        "unique_venues": 8,
+        "verified_free_peer_reviewed": 7,
+        "venues_with_reported_metrics": 4
       },
       {
         "subfield": "public-policy",
         "name": "Public policy, governance and administration",
-        "source_listings": 14,
-        "unique_venues": 14,
-        "verified_free_peer_reviewed": 10,
-        "verified_free_with_difficulty_band": 7,
-        "venues_with_reported_metrics": 10
+        "source_listings": 18,
+        "unique_venues": 11,
+        "verified_free_peer_reviewed": 6,
+        "venues_with_reported_metrics": 11
       },
       {
         "subfield": "meta-research",
         "name": "Meta-research, evidence synthesis and scholarly communication",
-        "source_listings": 13,
-        "unique_venues": 13,
-        "verified_free_peer_reviewed": 7,
-        "verified_free_with_difficulty_band": 3,
-        "venues_with_reported_metrics": 10
+        "source_listings": 17,
+        "unique_venues": 8,
+        "verified_free_peer_reviewed": 4,
+        "venues_with_reported_metrics": 6
+      },
+      {
+        "subfield": "epidemiology-biostatistics",
+        "name": "Epidemiology and biostatistics",
+        "source_listings": 8,
+        "unique_venues": 2,
+        "verified_free_peer_reviewed": 1,
+        "venues_with_reported_metrics": 0
+      },
+      {
+        "subfield": "environmental-public-health",
+        "name": "Environmental and occupational public health",
+        "source_listings": 8,
+        "unique_venues": 8,
+        "verified_free_peer_reviewed": 0,
+        "venues_with_reported_metrics": 7
+      },
+      {
+        "subfield": "health-economics",
+        "name": "Health economics and economic evaluation",
+        "source_listings": 8,
+        "unique_venues": 5,
+        "verified_free_peer_reviewed": 0,
+        "venues_with_reported_metrics": 5
+      },
+      {
+        "subfield": "software-engineering",
+        "name": "Software engineering and formal methods",
+        "source_listings": 8,
+        "unique_venues": 1,
+        "verified_free_peer_reviewed": 1,
+        "venues_with_reported_metrics": 0
+      },
+      {
+        "subfield": "cybersecurity-privacy",
+        "name": "Cybersecurity, privacy and digital trust",
+        "source_listings": 8,
+        "unique_venues": 1,
+        "verified_free_peer_reviewed": 1,
+        "venues_with_reported_metrics": 0
+      },
+      {
+        "subfield": "human-computer-interaction",
+        "name": "Human-computer interaction and human factors",
+        "source_listings": 8,
+        "unique_venues": 2,
+        "verified_free_peer_reviewed": 2,
+        "venues_with_reported_metrics": 0
+      },
+      {
+        "subfield": "robotics-control",
+        "name": "Robotics, control and autonomous systems",
+        "source_listings": 9,
+        "unique_venues": 7,
+        "verified_free_peer_reviewed": 1,
+        "venues_with_reported_metrics": 7
+      },
+      {
+        "subfield": "energy-environmental-engineering",
+        "name": "Energy systems and environmental engineering",
+        "source_listings": 8,
+        "unique_venues": 1,
+        "verified_free_peer_reviewed": 1,
+        "venues_with_reported_metrics": 0
+      },
+      {
+        "subfield": "statistics-applied-mathematics",
+        "name": "Statistics, probability and applied mathematics",
+        "source_listings": 8,
+        "unique_venues": 1,
+        "verified_free_peer_reviewed": 0,
+        "venues_with_reported_metrics": 0
+      },
+      {
+        "subfield": "education-learning-sciences",
+        "name": "Education and learning sciences",
+        "source_listings": 8,
+        "unique_venues": 6,
+        "verified_free_peer_reviewed": 6,
+        "venues_with_reported_metrics": 3
+      },
+      {
+        "subfield": "political-science",
+        "name": "Political science and international relations",
+        "source_listings": 9,
+        "unique_venues": 9,
+        "verified_free_peer_reviewed": 9,
+        "venues_with_reported_metrics": 3
+      },
+      {
+        "subfield": "business-innovation",
+        "name": "Business, innovation and technology management",
+        "source_listings": 8,
+        "unique_venues": 8,
+        "verified_free_peer_reviewed": 0,
+        "venues_with_reported_metrics": 6
       }
     ]
   },
   "inputs": [
     {
-      "path": "research/discovery/public-health.json",
-      "sha256": "687c1bb8e3037ed776c7ccfde6edc186079b5852104d2ebbdefd54ee0ab1dede",
+      "path": "research/campaigns/2026-11-16-expansion/campaign.json",
+      "sha256": "c2ef01fe95de29b61d16e37f5152f2b676e836b1f5ecc2e4c00da6f7ffe80fcc",
+      "role": "campaign",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/CONTRACT.md",
+      "sha256": "8f01809ed9be8f723f5d318e5b770a2ade5baf922a34e7c70a38539c487704c1",
+      "role": "contract",
+      "subfield": null
+    },
+    {
+      "path": "research/CONTRACT.md",
+      "sha256": "0bbdf6a71c34103741860293e9ed21968fb319d27da1dd25863f084570aa7263",
+      "role": "historical_contract",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/release-spotcheck.json",
+      "sha256": "8d560f308ebf3c3f348cb36ce3504f617a12a51b1598752ab04b7b8921dd302b",
+      "role": "release_review",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/baseline/venues.json",
+      "sha256": "71f8e0f111c838080f52f1d0787763c2dd5aecdfbee91bd407bd6d774c4eb6d8",
+      "role": "baseline",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+      "sha256": "1ebe4c7023a7a336d442e587c6aaac07ffd818760147d63ebfe85ecf844d86c8",
+      "role": "baseline",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/public-health.json",
+      "sha256": "1eebe4dacbc99e4295e742f3fdb974f5dd8b377884df946d9a65972c0920a4a7",
       "role": "discovery",
       "subfield": "public-health"
     },
     {
-      "path": "research/diamond/public-health.json",
-      "sha256": "8abc9a2857a4ed8a47961ac7b3820cb81be1bebf75e49a9b6fe2abf209ce711d",
-      "role": "diamond",
-      "subfield": "public-health"
-    },
-    {
-      "path": "research/fees/public-health.json",
-      "sha256": "c0c4ab1bbe91745e413edb7838e72a62ae5681742a60d0af2b08c2ea8a70ecaa",
+      "path": "research/campaigns/2026-11-16-expansion/fees/public-health.json",
+      "sha256": "63eae7ad99f2dde7933e088ee725fc772415c961ea39ec40ce64dd0b421d9879",
       "role": "fees",
       "subfield": "public-health"
     },
     {
-      "path": "research/ranking/public-health.json",
-      "sha256": "540eb67c3d6c4d6fb956b35c8a66cda8d95efdbacd91046f80a42639160f0d7a",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/public-health.json",
+      "sha256": "20986342442c01a3c53bbdef99590eaa8849782817a181a6c43d24246101da71",
+      "role": "geography",
       "subfield": "public-health"
     },
     {
-      "path": "research/review/public-health.json",
-      "sha256": "b8795de0f06452719f8932e4e479400fb203ed114e5f81b80c0b6a18a5e10e72",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/public-health.json",
+      "sha256": "de3a7a8d230fc0a73370fdd7232052ed8ab6be7a8f3a3941298676de4ab9d6f6",
+      "role": "ai-policy",
       "subfield": "public-health"
     },
     {
-      "path": "research/discovery/health-systems.json",
-      "sha256": "29f21eb925a339ecb3bd9d1499c03630cad177ea80f007f461cfb596688e492a",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/public-health.json",
+      "sha256": "b0121988d3739d54488abfa4772958a789076692617d85ae4cf230c6a7293635",
+      "role": "metrics-review",
+      "subfield": "public-health"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/health-systems.json",
+      "sha256": "4cba0a803d4a1da492ee194cc5e4083efaf3ef1280b2ae21d30e109b6e2b19a5",
       "role": "discovery",
       "subfield": "health-systems"
     },
     {
-      "path": "research/diamond/health-systems.json",
-      "sha256": "093a260785ce51d3549bff89a9899241c11bb1e52e2d49ab03be110d16765aaa",
-      "role": "diamond",
-      "subfield": "health-systems"
-    },
-    {
-      "path": "research/fees/health-systems.json",
-      "sha256": "a007dba0aec0327abaa1808e87982e83981efcd5dd39447911d5e36de9b03c37",
+      "path": "research/campaigns/2026-11-16-expansion/fees/health-systems.json",
+      "sha256": "3662c3161e1af0474991fea3d9bd44e28fb6f644741bc7942dddfa546fb76760",
       "role": "fees",
       "subfield": "health-systems"
     },
     {
-      "path": "research/ranking/health-systems.json",
-      "sha256": "933a6d14ddb68cd2e1c7528516a70f9aca9d1de41613e3b8ac46cf220678c9b3",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/health-systems.json",
+      "sha256": "b3797a02bc3bfc34e3c2f175af53faa687394865fa744efe6ced942742f79b98",
+      "role": "geography",
       "subfield": "health-systems"
     },
     {
-      "path": "research/review/health-systems.json",
-      "sha256": "1cea54f2504e82fb22ccc5b59300e03e0d88e60def2dbfad7a200796f6ae1766",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/health-systems.json",
+      "sha256": "7f2ac4fa8a7b3f8a1ad87e4b6c2e12eb16a4c0bd6779955d7cb96b63941fb906",
+      "role": "ai-policy",
       "subfield": "health-systems"
     },
     {
-      "path": "research/discovery/systems-engineering.json",
-      "sha256": "ed13c8d84b338a8d42faba85d4bbce909ccc0c1bb3a16de5d172006132c32230",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/health-systems.json",
+      "sha256": "825db85b0d6d4babdc82ae915ef7590d2100ced6e64381529e46dddf8f21a7f9",
+      "role": "metrics-review",
+      "subfield": "health-systems"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/systems-engineering.json",
+      "sha256": "3b5cf91c310338bec79c6ebbcc01de2f48fb641116f64ed190ca5338b51946c5",
       "role": "discovery",
       "subfield": "systems-engineering"
     },
     {
-      "path": "research/diamond/systems-engineering.json",
-      "sha256": "96fc32b6950672206c76ba01b52b1f940f9811cf5af0bbb869e53609c712cd59",
-      "role": "diamond",
-      "subfield": "systems-engineering"
-    },
-    {
-      "path": "research/fees/systems-engineering.json",
-      "sha256": "b05e43cf501894c7683e1ca12359e542f7b41dd89bc04e99e46ca4cabeb14aaf",
+      "path": "research/campaigns/2026-11-16-expansion/fees/systems-engineering.json",
+      "sha256": "1ad9e54b68f2f9d4cb87d7747c1ad5302678e87879ad438a000a5812ebea3c96",
       "role": "fees",
       "subfield": "systems-engineering"
     },
     {
-      "path": "research/ranking/systems-engineering.json",
-      "sha256": "1b61a0045c1ee4c006ff4db430cda0256ca6aac71766bafe8a4a4f5e13aa6a79",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/systems-engineering.json",
+      "sha256": "e80f018a99fa15d37602177c40f1cfbbefbb0a34dfd86c8d1b75220672791fbb",
+      "role": "geography",
       "subfield": "systems-engineering"
     },
     {
-      "path": "research/review/systems-engineering.json",
-      "sha256": "86795fca90ca5c15176331bcefab27b0165d80ce3ebd99ef8169b855f34c4a03",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/systems-engineering.json",
+      "sha256": "4d7a297c7917c73937e319d55edb9a296e198f0fc21f86842fa08a1ee7f76141",
+      "role": "ai-policy",
       "subfield": "systems-engineering"
     },
     {
-      "path": "research/discovery/operations-simulation.json",
-      "sha256": "9ce33bd88d7381ceece42f951af235db242ff23338dbe3d042fbdf661b212d7a",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/systems-engineering.json",
+      "sha256": "ad9d75c8d1aca7005ab609a865e1e62c0f2db86b463200ed322e3c9cf844c9f3",
+      "role": "metrics-review",
+      "subfield": "systems-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/operations-simulation.json",
+      "sha256": "3aa104956278a6148a6d533e03c947381c33199726a28a45532ce1df087a4ffc",
       "role": "discovery",
       "subfield": "operations-simulation"
     },
     {
-      "path": "research/diamond/operations-simulation.json",
-      "sha256": "5f526649f43277ba4bae44dbac05a2a3fb4b44df65ff1c781909e2e3ed998aee",
-      "role": "diamond",
-      "subfield": "operations-simulation"
-    },
-    {
-      "path": "research/fees/operations-simulation.json",
-      "sha256": "1f16b4bbd59a8af3750f80ef2c2158a4b92d570acba4c857fc1f8d9e411990ad",
+      "path": "research/campaigns/2026-11-16-expansion/fees/operations-simulation.json",
+      "sha256": "42faf6b3154c44f99f0dd2e386426bb1e90c5c3c56927ae77e1fef3c0dc24bfc",
       "role": "fees",
       "subfield": "operations-simulation"
     },
     {
-      "path": "research/ranking/operations-simulation.json",
-      "sha256": "90f204e35e1990db4ae2500d8ef46349cd728ffa3ef5e51120708300919b4243",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/operations-simulation.json",
+      "sha256": "b039bb247b703ca3d2f025d2f09612dd92dee8123bd641e5f12def1b8f1d5a14",
+      "role": "geography",
       "subfield": "operations-simulation"
     },
     {
-      "path": "research/review/operations-simulation.json",
-      "sha256": "d45e6dd89001d6007c90af25f9792cdeaca858aab500e069b13b416d78e47779",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/operations-simulation.json",
+      "sha256": "9e03e75cae4880dcf1f2b2afab8f3d7bb685b651c306bf3c745645dc1265a44e",
+      "role": "ai-policy",
       "subfield": "operations-simulation"
     },
     {
-      "path": "research/discovery/informatics-computing.json",
-      "sha256": "21d4bab83ab1806ae9c5066489acf4abbab2ea86d0521af9499ec36a8b71ca83",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/operations-simulation.json",
+      "sha256": "13076011cbc008c29ad866eb9a749898454e36a7e281a61ff5330b6082d0af40",
+      "role": "metrics-review",
+      "subfield": "operations-simulation"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/informatics-computing.json",
+      "sha256": "b908e4a0c401da89f1f7ec0a443c2f95c2f210a9907abb2657e33fc0dc939989",
       "role": "discovery",
       "subfield": "informatics-computing"
     },
     {
-      "path": "research/diamond/informatics-computing.json",
-      "sha256": "b1c943e01ab8959ca9256fc135b1bdd45cee870c20024c852f6ead3684e5b9e0",
-      "role": "diamond",
-      "subfield": "informatics-computing"
-    },
-    {
-      "path": "research/fees/informatics-computing.json",
-      "sha256": "f7edc62cc3d1a137eba50aad69c130ef3d096c3df51b3408dc6f7590a338c346",
+      "path": "research/campaigns/2026-11-16-expansion/fees/informatics-computing.json",
+      "sha256": "b1a91201c33b81a08ac7f12527a57ab835c44381efc4bf067f5fb4ef45da6e8c",
       "role": "fees",
       "subfield": "informatics-computing"
     },
     {
-      "path": "research/ranking/informatics-computing.json",
-      "sha256": "85973d7d23808599129eed7c44e56d18fd4a3245b6cc8f035efa60c505882461",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/informatics-computing.json",
+      "sha256": "f6cf9258b627bbf7674127bfa424eeb597a7ae7abd791fdf26a0f975cae4439d",
+      "role": "geography",
       "subfield": "informatics-computing"
     },
     {
-      "path": "research/review/informatics-computing.json",
-      "sha256": "4b7584d8717bb9a2b9554d156b45df650826d29bf2a8304ea33c0859a4b4a4b9",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/informatics-computing.json",
+      "sha256": "527ec6269864661a5b7066d21950d47c472ad479f5f1574cfb61fde457287468",
+      "role": "ai-policy",
       "subfield": "informatics-computing"
     },
     {
-      "path": "research/discovery/computational-biology.json",
-      "sha256": "4273009452cc1f25ea74e782e415c2a768cddaa4dd4e332f5bc9d0d2e450b716",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/informatics-computing.json",
+      "sha256": "3507661461337ad448c7d0b7c2a535a1d4daea890d69c09e507656047c40b2d0",
+      "role": "metrics-review",
+      "subfield": "informatics-computing"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/computational-biology.json",
+      "sha256": "8fc84479d4a33eae611332509f101f3313194484a5d021c9be1d1986c3b79770",
       "role": "discovery",
       "subfield": "computational-biology"
     },
     {
-      "path": "research/diamond/computational-biology.json",
-      "sha256": "b455d763651fec67cdd9c0c6c646a5692795b6aa3b36fbc373397317e262a20e",
-      "role": "diamond",
-      "subfield": "computational-biology"
-    },
-    {
-      "path": "research/fees/computational-biology.json",
-      "sha256": "250e297131561e4ce9996c51b238f6a7a0b9d462078b5f142f75f85b6f23438b",
+      "path": "research/campaigns/2026-11-16-expansion/fees/computational-biology.json",
+      "sha256": "1de57ace7c3ced5cd799cbf1bde34c64f12b60f5552bf3eeeaceff7e31d5f351",
       "role": "fees",
       "subfield": "computational-biology"
     },
     {
-      "path": "research/ranking/computational-biology.json",
-      "sha256": "d6a3b3c8e8abb7fe52a5a6c20755ed281b1eb487bde3c9e98d227e49cc3d1c74",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/computational-biology.json",
+      "sha256": "84ae1417638313972e297cc1b3afe4ae63ac050537040fe7d346db6dca0f3c46",
+      "role": "geography",
       "subfield": "computational-biology"
     },
     {
-      "path": "research/review/computational-biology.json",
-      "sha256": "54e453e69d701c0c00b256196e05c23a5246994093c808ee7999d1394d36262c",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/computational-biology.json",
+      "sha256": "910b1439c18c6690df69854d3227149b4b68fca5f674c9e05bd836169845fb5a",
+      "role": "ai-policy",
       "subfield": "computational-biology"
     },
     {
-      "path": "research/discovery/computational-physical-sciences.json",
-      "sha256": "21090b90b291bd8b4e8118dd88062b9158e33a2f52b9f71f5806d2ba467086b1",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/computational-biology.json",
+      "sha256": "a466df32e5dc663a49747c78a178a16af0319f95a1c31afaaa47e60f03a52357",
+      "role": "metrics-review",
+      "subfield": "computational-biology"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/computational-physical-sciences.json",
+      "sha256": "1eb5ce356023a0713d352ad28e4b555e51a19b767eb8e1aced802b4bb9c4584a",
       "role": "discovery",
       "subfield": "computational-physical-sciences"
     },
     {
-      "path": "research/diamond/computational-physical-sciences.json",
-      "sha256": "bc717f026c7acdaaae22ee0dd857d5f714e7703d9133ef6c0775abaefb42fbd4",
-      "role": "diamond",
-      "subfield": "computational-physical-sciences"
-    },
-    {
-      "path": "research/fees/computational-physical-sciences.json",
-      "sha256": "c9066703287d0a6c1aadc90cff033d96cc6e8c0b8bfa900c96d101d9ec97dc3a",
+      "path": "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+      "sha256": "eb3bc5224a1cc609dbda9eae6a95f36ba895f0f145c255323286c926f428c61e",
       "role": "fees",
       "subfield": "computational-physical-sciences"
     },
     {
-      "path": "research/ranking/computational-physical-sciences.json",
-      "sha256": "1e8bef6257a24077006ef3defa638e92a3cb996f2ffb50790b3457c38381e081",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+      "sha256": "c3b95bf7d65598737744d16e660fef03b206bd9530df32a21a27318fcc541688",
+      "role": "geography",
       "subfield": "computational-physical-sciences"
     },
     {
-      "path": "research/review/computational-physical-sciences.json",
-      "sha256": "5ece5122e28476e42495db935408625a7734627a7f9c99e5a5e9f4b34085089d",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json",
+      "sha256": "a2b0807fcb0b7ff9ae3a037798fb2026f32021ff0707e7e548db8771f51a2498",
+      "role": "ai-policy",
       "subfield": "computational-physical-sciences"
     },
     {
-      "path": "research/discovery/economics.json",
-      "sha256": "ad0e6164b07909e65023f351481748fc71e6f50eb39a7162b1b56c4605b79233",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/computational-physical-sciences.json",
+      "sha256": "15e041755676ce50e48b2ce1478aaa53ba6ec5d59f21e8caba77edce5810de6d",
+      "role": "metrics-review",
+      "subfield": "computational-physical-sciences"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/economics.json",
+      "sha256": "713cf6f514aec07060750bf452f6515a1d368c8f38a32c09a323ba03be3090e1",
       "role": "discovery",
       "subfield": "economics"
     },
     {
-      "path": "research/diamond/economics.json",
-      "sha256": "a1eb5dd073166b0be9b2ff9a4b4351646d0fe7b6ce3a5ab6f89e63e9b7a82517",
-      "role": "diamond",
-      "subfield": "economics"
-    },
-    {
-      "path": "research/fees/economics.json",
-      "sha256": "6a846587ea3fff10a0c80a41aee0c9155ffcc7b7e8ce1c62a871be2100278f19",
+      "path": "research/campaigns/2026-11-16-expansion/fees/economics.json",
+      "sha256": "944a35a94fbafac813a7a3a67adc5e06f06da0c01bb0407dc26efdfd359c9c2d",
       "role": "fees",
       "subfield": "economics"
     },
     {
-      "path": "research/ranking/economics.json",
-      "sha256": "b695b6f34dc87413c95f3afab6057ad1dd5ac0ed3c607720d2d807a26b1745d7",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/economics.json",
+      "sha256": "27910a959673898c30529501e19bc0c9ec9f7c71036db70043c5dec720b48ea9",
+      "role": "geography",
       "subfield": "economics"
     },
     {
-      "path": "research/review/economics.json",
-      "sha256": "0eeae4bde0423febf2856763ed4c0b8251a4c81d88808078cad80fcef9153629",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/economics.json",
+      "sha256": "e476e9b2fea68e75e582cd57ed8172d483343d241412fa4483acadd64c158261",
+      "role": "ai-policy",
       "subfield": "economics"
     },
     {
-      "path": "research/discovery/psychology-behavior.json",
-      "sha256": "209306fd359ea76ca9a9bf968354516abcca3f5be755378cffd31afec122edb9",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/economics.json",
+      "sha256": "93ee31dc8e46b03a20d3586b1613fa200e6d716bd50a0f52d7cf6bc6f38479ef",
+      "role": "metrics-review",
+      "subfield": "economics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/psychology-behavior.json",
+      "sha256": "08c1c77f68acc027b20635fab048f60f209165bfe4638ac79cbef895e89a9840",
       "role": "discovery",
       "subfield": "psychology-behavior"
     },
     {
-      "path": "research/diamond/psychology-behavior.json",
-      "sha256": "00643d170b9281a847960510ae240f0382f0724c5cd1ed9983775e6f5a6bf423",
-      "role": "diamond",
-      "subfield": "psychology-behavior"
-    },
-    {
-      "path": "research/fees/psychology-behavior.json",
-      "sha256": "2420d41a461ec34c9a62231fd3712ad66b3ab7980ca6f280bad30451742a68d8",
+      "path": "research/campaigns/2026-11-16-expansion/fees/psychology-behavior.json",
+      "sha256": "d753c9686bf7425c949aaecd71b41c9d3bd5fa50e12ea5fc414143604e911c48",
       "role": "fees",
       "subfield": "psychology-behavior"
     },
     {
-      "path": "research/ranking/psychology-behavior.json",
-      "sha256": "677d41d6ba15099550df394f89c382c520c1313d8699695b1dd748ac4e43af76",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/psychology-behavior.json",
+      "sha256": "569b1095e2b7d36cb13fe4f169d22633a7630ecfab0caac57e650ffa67c3b0cd",
+      "role": "geography",
       "subfield": "psychology-behavior"
     },
     {
-      "path": "research/review/psychology-behavior.json",
-      "sha256": "8bd56747c4e564eb279c12c0a4f25508b56eef0880891392b40682756ae37baa",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/psychology-behavior.json",
+      "sha256": "d0d8180081d4373df85ebb7e00408711e72387c031e6ca8269d388321e50f1e6",
+      "role": "ai-policy",
       "subfield": "psychology-behavior"
     },
     {
-      "path": "research/discovery/sociology-organizations.json",
-      "sha256": "058ea965adf245fee3d72c9dc0aa99bca1ec4619a74467deda7c735868138a34",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/psychology-behavior.json",
+      "sha256": "ad127e2f9538343874694e955835fa790b169dcc7bdcc6f35a4c9eff69d3e8b7",
+      "role": "metrics-review",
+      "subfield": "psychology-behavior"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/sociology-organizations.json",
+      "sha256": "eef1db6257b4746e5d1517bace9f209d21159e22ba7b8a04faf0760d401ab2eb",
       "role": "discovery",
       "subfield": "sociology-organizations"
     },
     {
-      "path": "research/diamond/sociology-organizations.json",
-      "sha256": "16d3e443b6fd38db836834dbde5e0d977a404ae01cf0544a5a08c6c868ffcece",
-      "role": "diamond",
-      "subfield": "sociology-organizations"
-    },
-    {
-      "path": "research/fees/sociology-organizations.json",
-      "sha256": "baddf2b781579d1311e1601ff6b7aa400d743f76fedc10904313e9d7eb68a039",
+      "path": "research/campaigns/2026-11-16-expansion/fees/sociology-organizations.json",
+      "sha256": "91424a3389ebcc20f6b85a8777ab6e0bff01f25d1ad0804db398cb7004b851ff",
       "role": "fees",
       "subfield": "sociology-organizations"
     },
     {
-      "path": "research/ranking/sociology-organizations.json",
-      "sha256": "60996c999ca70f88c1f1ddb1d4a17196232217011f2f3e8c687fe24468e86846",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/sociology-organizations.json",
+      "sha256": "861d7303337f9ee1255ba708c6046e636460ae4bcc517daeb63ddf5a090c72a4",
+      "role": "geography",
       "subfield": "sociology-organizations"
     },
     {
-      "path": "research/review/sociology-organizations.json",
-      "sha256": "1b2b8480e940f3cada0b03c6d599e75f784f765671797cec75a05629ef61d2c1",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/sociology-organizations.json",
+      "sha256": "c83e0099b1c76a72bbe4bd6b1aaaa7c1d041a605039049d5416f27a6c2292b91",
+      "role": "ai-policy",
       "subfield": "sociology-organizations"
     },
     {
-      "path": "research/discovery/public-policy.json",
-      "sha256": "05ad4fbb3930dc6d8a738120950d209754196e8be4829b171ab3a526253927f4",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/sociology-organizations.json",
+      "sha256": "ef83c90a35faf561711d3e5ccbc239a9bda111f2dc39f17d5e96652f414a1c23",
+      "role": "metrics-review",
+      "subfield": "sociology-organizations"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/public-policy.json",
+      "sha256": "23e3cbbd551705e1ff6fbc7ff5ab2297594372b6b0a1aa9190d65ab699827146",
       "role": "discovery",
       "subfield": "public-policy"
     },
     {
-      "path": "research/diamond/public-policy.json",
-      "sha256": "c7754661ef6b8379b2ac5786997b43931fd44d42f433ad680adc7ae23e42c43d",
-      "role": "diamond",
-      "subfield": "public-policy"
-    },
-    {
-      "path": "research/fees/public-policy.json",
-      "sha256": "be76d6ff78556a333f4754523741fa2c1676755cbe3feef06c6c60d9e777f7ba",
+      "path": "research/campaigns/2026-11-16-expansion/fees/public-policy.json",
+      "sha256": "a4bdaab3fd44b5bf07659288dd2284c772c007f81ecbf0492ba6dba55bae6f1e",
       "role": "fees",
       "subfield": "public-policy"
     },
     {
-      "path": "research/ranking/public-policy.json",
-      "sha256": "8c85ae1861fd6d6b978d60853006f612921f4226aa0a302d8965429eef701524",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/public-policy.json",
+      "sha256": "562da1856d4525c563c7aa94b8dc4bdd6cc95dcbb33b6f6f39cc295421bd06ad",
+      "role": "geography",
       "subfield": "public-policy"
     },
     {
-      "path": "research/review/public-policy.json",
-      "sha256": "06fc6af5aa1cf196f9d1f3f827198463322f68bd7501d441a902a6bab4ee8e14",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/public-policy.json",
+      "sha256": "91c11a0c7149863cd492510b9cd547df76e8415e26104e650c01b5dea410c364",
+      "role": "ai-policy",
       "subfield": "public-policy"
     },
     {
-      "path": "research/discovery/meta-research.json",
-      "sha256": "015e365e34811e322f3321004cbcbd76c686680250c3775927484d98ea8e2278",
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/public-policy.json",
+      "sha256": "609015254e9aee2f60a6c01b0aa0a7e7b41652c187e1b0a2f1915e48a009998f",
+      "role": "metrics-review",
+      "subfield": "public-policy"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/meta-research.json",
+      "sha256": "dc2a23500a589e8a2a132a30d9d7d413d09322bbc8284bce6cfc708bce04e92f",
       "role": "discovery",
       "subfield": "meta-research"
     },
     {
-      "path": "research/diamond/meta-research.json",
-      "sha256": "6f8ff9db239998e7dd0962ed6730348549a2c7ae9794ba0f02d99878b0bfd4fa",
-      "role": "diamond",
-      "subfield": "meta-research"
-    },
-    {
-      "path": "research/fees/meta-research.json",
-      "sha256": "db766209a296ceefb8080cbb3efd726a8fa926944398aa00798e0932fdf93df9",
+      "path": "research/campaigns/2026-11-16-expansion/fees/meta-research.json",
+      "sha256": "4e74d4a2e9200a21ce068685d852f20614764ddf469ec6bf0851d9a6ae2a5582",
       "role": "fees",
       "subfield": "meta-research"
     },
     {
-      "path": "research/ranking/meta-research.json",
-      "sha256": "3b7b67a5e01e2236ea10cb41b8cb74bdb8f5ff1f11b961cd62005602283f379d",
-      "role": "ranking",
+      "path": "research/campaigns/2026-11-16-expansion/geography/meta-research.json",
+      "sha256": "593c8993e8553fb1b7adbd15407cfa2bab339a66d3f3a87bf61cf1fb39e60868",
+      "role": "geography",
       "subfield": "meta-research"
     },
     {
-      "path": "research/review/meta-research.json",
-      "sha256": "6ef78d90baa93fc4f4f74432efcf4f8261ed87bedff620dc70150ba47e42e41e",
-      "role": "review",
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/meta-research.json",
+      "sha256": "33de9324eed981d3de38b6a54ca0b559cd2786af1ecefb90fd2001175b958414",
+      "role": "ai-policy",
       "subfield": "meta-research"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/meta-research.json",
+      "sha256": "815fcaa70e1d0a5847b8677f2b3e5112368ee22351b38ad1ddc29fe550ed397d",
+      "role": "metrics-review",
+      "subfield": "meta-research"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/epidemiology-biostatistics.json",
+      "sha256": "47ef1e59e309f1bd532ba09f63bae562cea3b881a4b5a79290318e24749d6d2d",
+      "role": "discovery",
+      "subfield": "epidemiology-biostatistics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/epidemiology-biostatistics.json",
+      "sha256": "9ad1475a89d95f122cfe787bf319dbc280a0aa32675dc674e74125e59c30db78",
+      "role": "fees",
+      "subfield": "epidemiology-biostatistics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/epidemiology-biostatistics.json",
+      "sha256": "dcb6e2cd0d68f8eb99bd3bbf3090abe6b7f9622ee85f8fc2c98e418c8f1a7dd1",
+      "role": "geography",
+      "subfield": "epidemiology-biostatistics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/epidemiology-biostatistics.json",
+      "sha256": "529766f9d682eb8c8b04ab3a94feb88b074b48a4dd7019b1d11b865c1f8f4c59",
+      "role": "ai-policy",
+      "subfield": "epidemiology-biostatistics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/epidemiology-biostatistics.json",
+      "sha256": "25aeb38521320da9cce1ae22390e7d1a1043801a325084af049a6c4e2bb28dd3",
+      "role": "metrics-review",
+      "subfield": "epidemiology-biostatistics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/environmental-public-health.json",
+      "sha256": "8907dfa1bc5c41ad12f4576c901e5ba8b226579cb7ceaf6712a7fc64f7968c45",
+      "role": "discovery",
+      "subfield": "environmental-public-health"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/environmental-public-health.json",
+      "sha256": "207db3401485e152cc08b8b5176da2becc40dc430cfb36839684b2e7c974ca18",
+      "role": "fees",
+      "subfield": "environmental-public-health"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/environmental-public-health.json",
+      "sha256": "6ff84498b6131fcb004ac83986baeac590237b0e246b1faab3183c829e6bff20",
+      "role": "geography",
+      "subfield": "environmental-public-health"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/environmental-public-health.json",
+      "sha256": "8c23282a566e8364aa660d339fbe710da59f0c46131f33161906432264614547",
+      "role": "ai-policy",
+      "subfield": "environmental-public-health"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/environmental-public-health.json",
+      "sha256": "a953814e85a4f857228235388f264fcf763b8195aff0d0b924cc1ab251949ccc",
+      "role": "metrics-review",
+      "subfield": "environmental-public-health"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/health-economics.json",
+      "sha256": "b361d529c89484355c1336a432eaa16fe5f6059c8de3f463e8721eba52888302",
+      "role": "discovery",
+      "subfield": "health-economics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/health-economics.json",
+      "sha256": "aaeca4bcb19e3cb74ee0ccca90381560566abdd0f194bd71a926295aac0f51c4",
+      "role": "fees",
+      "subfield": "health-economics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/health-economics.json",
+      "sha256": "174f9e02156c9f9d056a9d166bee64b387ec0e9b755f9915264a055b3d3716d6",
+      "role": "geography",
+      "subfield": "health-economics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/health-economics.json",
+      "sha256": "7efc485b5515669354e995f9ceca14542adeb4b125a86e67abe3e64f4ea71a82",
+      "role": "ai-policy",
+      "subfield": "health-economics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/health-economics.json",
+      "sha256": "aeecf33ee15f6ad4df9af7ac24713b24e820b9c15eefd99c48fa1da21bf31f5f",
+      "role": "metrics-review",
+      "subfield": "health-economics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/software-engineering.json",
+      "sha256": "5567aefd756fd5e00d783c150097dafc28778a1c871bc244d14a36ef53b2059a",
+      "role": "discovery",
+      "subfield": "software-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/software-engineering.json",
+      "sha256": "dd0c54778ed4910c13c5be8cf32db3a0dd9a0681f95412d23f66bbe5a9d4edb0",
+      "role": "fees",
+      "subfield": "software-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/software-engineering.json",
+      "sha256": "b5f78f4f57d831b6d5ec94ba6fe82c369b4ebecdc14222ac799eafa664ea547b",
+      "role": "geography",
+      "subfield": "software-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/software-engineering.json",
+      "sha256": "d39f609c10c7aac62c71dbec17328744467d16d70c501674ec1f38cfd328650d",
+      "role": "ai-policy",
+      "subfield": "software-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/software-engineering.json",
+      "sha256": "07838c01e69f1be8eee45729fdb350200e6a4921e6f40d897fffffd41c1996b5",
+      "role": "metrics-review",
+      "subfield": "software-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/cybersecurity-privacy.json",
+      "sha256": "4d629273167eae0a712109507e1cccc0d9770d9736b156062194ecbc4d10a3c7",
+      "role": "discovery",
+      "subfield": "cybersecurity-privacy"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/cybersecurity-privacy.json",
+      "sha256": "f6c0ce400af21b1756a944f52f936a693f95a1779f12c171b263f17317e7a34f",
+      "role": "fees",
+      "subfield": "cybersecurity-privacy"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/cybersecurity-privacy.json",
+      "sha256": "3e48171b51083a24272a02a0eac05ea0b822669257856e9e2925ef23b6120266",
+      "role": "geography",
+      "subfield": "cybersecurity-privacy"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/cybersecurity-privacy.json",
+      "sha256": "9d3c290780fbb50d9ea2cd7a263ef8099df985a39e7124466ab6e8142d6e9067",
+      "role": "ai-policy",
+      "subfield": "cybersecurity-privacy"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/cybersecurity-privacy.json",
+      "sha256": "06a94111d1599ce024980242144a126a5cf0fcc08eb7b0616f143da7400a4047",
+      "role": "metrics-review",
+      "subfield": "cybersecurity-privacy"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/human-computer-interaction.json",
+      "sha256": "e91bde42c228592966eaf8980ea0f7f3027d11bdbe433df4d7be286c047b8eee",
+      "role": "discovery",
+      "subfield": "human-computer-interaction"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/human-computer-interaction.json",
+      "sha256": "3882753f4858d60ba5a05df4f023863b1083ea9e982a963cf1c865f8db41c200",
+      "role": "fees",
+      "subfield": "human-computer-interaction"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/human-computer-interaction.json",
+      "sha256": "4e27a099e81b6a927aaa5720a7765da31a406311c3cd9f46ef7ec7afcf4e3345",
+      "role": "geography",
+      "subfield": "human-computer-interaction"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/human-computer-interaction.json",
+      "sha256": "21af4f8e41c7879a0ac8145b861a166654eda7b2c39bafd159993b50350604b7",
+      "role": "ai-policy",
+      "subfield": "human-computer-interaction"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/human-computer-interaction.json",
+      "sha256": "ba555966fbeac173462ab736742aaae07f280a4b5b8ec0087267e24e4e34bd64",
+      "role": "metrics-review",
+      "subfield": "human-computer-interaction"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/robotics-control.json",
+      "sha256": "6ad4a6fbcfe9762a504760beaa4a4c39b0167d6c010e5dc30b76f968c6e1ffbe",
+      "role": "discovery",
+      "subfield": "robotics-control"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/robotics-control.json",
+      "sha256": "88c1f109cbb972565c902ca98dbf831c8de609cc809c8a5a48f8f855065d7c70",
+      "role": "fees",
+      "subfield": "robotics-control"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/robotics-control.json",
+      "sha256": "2c4844f281e5fae56f08e0e0968bda1136d09e92e66a660e3bdf83e4ca9eb079",
+      "role": "geography",
+      "subfield": "robotics-control"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/robotics-control.json",
+      "sha256": "534345a181baf800ec38b7631a18c30855520b5b270157d9bb6bf537938e860b",
+      "role": "ai-policy",
+      "subfield": "robotics-control"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/robotics-control.json",
+      "sha256": "d523f1d84ac15c85fda4d51eaa6273f61ae95c249b360fa50b2a646b26e14966",
+      "role": "metrics-review",
+      "subfield": "robotics-control"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/energy-environmental-engineering.json",
+      "sha256": "6b29a4bca47dc72b904505719bae6efcfa34b1f4c2bf866ea2ca88cf84260254",
+      "role": "discovery",
+      "subfield": "energy-environmental-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/energy-environmental-engineering.json",
+      "sha256": "93cbad373eb584d36540563f52885e13c4fedf271aa79677ecf696657da02e8c",
+      "role": "fees",
+      "subfield": "energy-environmental-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/energy-environmental-engineering.json",
+      "sha256": "e5d5c12a7210b891f39df4d0dfe28a1bd5815905b48fda51e8a0400718b9d38b",
+      "role": "geography",
+      "subfield": "energy-environmental-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/energy-environmental-engineering.json",
+      "sha256": "5212ad72cb36e2927eb8a03824429f75a1ddb678bccf3ad43cf5a6a6ba8c8ec9",
+      "role": "ai-policy",
+      "subfield": "energy-environmental-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/energy-environmental-engineering.json",
+      "sha256": "f8697153bbc7421bec95e8635ccd5fc901fc737f6dd1f3db19b8326a4c66c0af",
+      "role": "metrics-review",
+      "subfield": "energy-environmental-engineering"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/statistics-applied-mathematics.json",
+      "sha256": "abd5f1b80b04d821ecd980bfb5d1f076929087ee95b1552a463252c5b95574cf",
+      "role": "discovery",
+      "subfield": "statistics-applied-mathematics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/statistics-applied-mathematics.json",
+      "sha256": "1eae831358a41695c8a07702ae4a82e4e67ef93038040f60281fa53769f4c736",
+      "role": "fees",
+      "subfield": "statistics-applied-mathematics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/statistics-applied-mathematics.json",
+      "sha256": "936c6680b00c54924ebfa1315fa4e9774f0ad8a9b25314b64919a3bd468c19b5",
+      "role": "geography",
+      "subfield": "statistics-applied-mathematics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/statistics-applied-mathematics.json",
+      "sha256": "b95e89dc3405bddc34deb4e6ab8847c6d41710395383e1ab8ea9544267aa3a5d",
+      "role": "ai-policy",
+      "subfield": "statistics-applied-mathematics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/statistics-applied-mathematics.json",
+      "sha256": "e747a389bab5f9e1e77de51aed5e70bd1fde4c6177bf57781136cdcf2bcc0ade",
+      "role": "metrics-review",
+      "subfield": "statistics-applied-mathematics"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/education-learning-sciences.json",
+      "sha256": "196e4658c1ef76c214f63e12d249f0160588352cd398817e8b8d35fc45c32554",
+      "role": "discovery",
+      "subfield": "education-learning-sciences"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/education-learning-sciences.json",
+      "sha256": "9b20bd8714eb2064eab92068a75ee8530e64896d67d04d72d62d5cb0e16f25fb",
+      "role": "fees",
+      "subfield": "education-learning-sciences"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/education-learning-sciences.json",
+      "sha256": "81ed77f6c5119a96528c386d7c3276d4c7946df172831ae37211bdde39d86de3",
+      "role": "geography",
+      "subfield": "education-learning-sciences"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/education-learning-sciences.json",
+      "sha256": "5490e2a3b36c9e787890d9cae6454693f394c4e16572481eba5f0fcac1d08c5c",
+      "role": "ai-policy",
+      "subfield": "education-learning-sciences"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/education-learning-sciences.json",
+      "sha256": "5a7ad97373e74768a93229672e400bd5648360eb8af6a6fbe6149f1f4493a956",
+      "role": "metrics-review",
+      "subfield": "education-learning-sciences"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/political-science.json",
+      "sha256": "0de4ce3476e73c0d64a67e48eefb082e531f1405aef5ae7d490292856326aa51",
+      "role": "discovery",
+      "subfield": "political-science"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/political-science.json",
+      "sha256": "d47b07f40b050fbc5d53a69f944be825c1f495f9c3b94e976e9980b0c2bed829",
+      "role": "fees",
+      "subfield": "political-science"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/political-science.json",
+      "sha256": "d14fd900729b582a5a01fecec2b82d9eacff10be17fdc4a05f153c5b6999450e",
+      "role": "geography",
+      "subfield": "political-science"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/political-science.json",
+      "sha256": "83041856765196dad2ab976ca79c83e677fbea6a8f17a21e96ec955010d2f188",
+      "role": "ai-policy",
+      "subfield": "political-science"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/political-science.json",
+      "sha256": "0784587b96dce641a6741fe7b4f65f0ffa0d2bed587e0751a80a3324a2267b21",
+      "role": "metrics-review",
+      "subfield": "political-science"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+      "sha256": "e12b0ad2b4b4a6d9f449af96d8830150860538f9ac093ef2a98222c17c1337c5",
+      "role": "discovery",
+      "subfield": "business-innovation"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+      "sha256": "f4ec5c3a19dd28c952f7c65fd192fad3ed65ea647717582351f83568b33041c4",
+      "role": "fees",
+      "subfield": "business-innovation"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+      "sha256": "03654b9c7e9a90c204115c425bba39b019146683782e289cf79987fdc0d0b3ad",
+      "role": "geography",
+      "subfield": "business-innovation"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+      "sha256": "628ff76fff1075e455513b46df26eea61de472d948301545c44d999b5529f352",
+      "role": "ai-policy",
+      "subfield": "business-innovation"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+      "sha256": "dc5708a539d4feb0cda1b8294ff415a240def6de5ff8f554b0e541e8ade0b463",
+      "role": "metrics-review",
+      "subfield": "business-innovation"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-batch-c.json",
+      "sha256": "6ecfd7cf406d853c9c8ef5f2113bd88d1d3e74683a7232221efa0fdb5094036e",
+      "role": "reconciliation_evidence",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-1.json",
+      "sha256": "962cd9392593fb40c265f8e5b4bcb80852987979df3cf6a3705a151260fc438d",
+      "role": "reconciliation_evidence",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-2.json",
+      "sha256": "a5d402eb1e75b05885cfee53b133f17d12c1937adc2e5fd466bd3f350bdba8c8",
+      "role": "reconciliation_evidence",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-3.json",
+      "sha256": "a4662df907525158459ef5ac76798b71d00f54f08be178c6ca793eb38e47e0d2",
+      "role": "reconciliation_evidence",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-4.json",
+      "sha256": "ccea0d01896672b2e4a534eb3ff8f39087232793cb725f9115fe7f5dac67ae23",
+      "role": "reconciliation_evidence",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage-5.json",
+      "sha256": "f6feeedec6ce2eb0f2a07a741284cf1d749628324b900f4d00ff4957e1256535",
+      "role": "reconciliation_evidence",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/reconciliation-sage.json",
+      "sha256": "91caf30510d7e88467c09eea9a5cb17feddb41d9b4dc7f43e1a7380b09f4de5c",
+      "role": "reconciliation_evidence",
+      "subfield": null
+    },
+    {
+      "path": "research/campaigns/2026-11-16-expansion/adjudications.json",
+      "sha256": "169b156304d2f3b973c6fb6d07f925f3c42b84e036989e6cab396fcc0cabadce",
+      "role": "adjudication",
+      "subfield": null
     }
   ],
   "build_sources": [
     {
       "path": "scripts/build.py",
-      "sha256": "2e39e0cdf3f484e256fe9d3a3db7c00f33526cd1552c9247c5f55f27217c303e"
+      "sha256": "2e5c9ac544abf9d8c616351b420506692af2502a450eb50db5ba5aa8682e954e"
     },
     {
       "path": "scripts/directory.html",
-      "sha256": "40738dd2c9c7f1e8df957d8580269461fd41a6ed828edc5967697c8706ea6198"
+      "sha256": "ace311f93d96cc4397084f1e9640cc2feae05cd7351f6403c68d18e1c5e6da57"
     },
     {
       "path": "data/subfields.json",
-      "sha256": "a4c809870da80d6cdc2201f44a35cce9b995a90696075027efdfbdbf0ac8db47"
+      "sha256": "170965011c652e0ef469496f67c1f847cc12f37be980cf20e878bc9e83a67294"
     }
-  ]
+  ],
+  "preview": false
 }

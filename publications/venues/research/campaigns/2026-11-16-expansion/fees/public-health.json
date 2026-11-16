@@ -1,0 +1,458 @@
+{
+  "subfield": "public-health",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_fees_public_health",
+  "patches": [
+    {
+      "id": "public-health-bulletin-who",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "WHO charges no author fees. Research, systematic reviews and policy/practice articles normally have 3000-word limits; there is no paid excess-length route stated. Abstract translation is free. Supplementary material for accepted work must be placed in a DOI-issuing repository; use a free suitable repository. Authors obtain permissions for copyrighted reuse. Apply current affiliation, review-search recency and preprint restrictions.",
+        "other_mandatory_costs": "None for the stated journal route. DOI-repository choice and any third-party reuse permissions can create external costs; free suitable alternatives are needed.",
+        "fee_evidence": [
+          {
+            "url": "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors",
+            "checked_on": "2026-11-16",
+            "note": "Sections 1.1 and 2.5 exclude all author fees; section 2.3 makes abstract translation free. Article limits and DOI-repository requirements are stated on the same full page.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Diamond open access without author/researcher charges or selective fee waiver. English, Portuguese and Spanish manuscripts are accepted. Follow article-specific length and table/reference limits in the full author instructions; no paid excess-page option is stated. Authors obtain permissions for copyrighted reuse and meet data-availability requirements. Regional public-health relevance remains essential.",
+        "other_mandatory_costs": "None stated under the blanket no-researcher-fees policy; no compulsory membership, page charge or editing purchase was found in the full guidance.",
+        "fee_evidence": [
+          {
+            "url": "https://journal.paho.org/en/about-journal",
+            "checked_on": "2026-11-16",
+            "note": "Full official page read with urllib despite browser 403: publication costs authors nothing and the diamond model has no fees for researchers or readers.",
+            "access": "page"
+          },
+          {
+            "url": "https://journal.paho.org/en/instructions-authors",
+            "checked_on": "2026-11-16",
+            "note": "Complete current official instructions read with urllib: identifies a free open-access journal, specifies manuscript limits and permissions duties, and states no compulsory author payment or membership.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Web access to official journal page returned 403; retained prior documented full-page direct retrieval and marked this independent access limitation."
+    },
+    {
+      "id": "public-health-emerging-infectious-diseases",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No author fees for ordinary articles, including submission, pages and corrections. Article-specific limits are enforced; research and synopsis articles normally allow 3500 text words. No required society membership or registration is stated for ordinary research/synopsis articles. Supplement organizers incur separate costs; this route does not cover organizing a supplement.",
+        "other_mandatory_costs": "None for standard individual-article submission/publication. Supplement-organizer costs are excluded.",
+        "fee_evidence": [
+          {
+            "url": "https://wwwnc.cdc.gov/eid/page/eid-advantage",
+            "checked_on": "2026-11-16",
+            "note": "Current official page updated 8 October 2026 expressly excludes submission fees, page charges, correction costs and other author fees; the supplement section separates organizer costs from author fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/eid/page/submit-manuscript",
+            "checked_on": "2026-11-16",
+            "note": "Official submission instructions explicitly exclude submitting and processing fees and enforce article word limits.",
+            "access": "page"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The official 2024 report independently excludes submission, page, correction and other author fees; dated corroboration.",
+            "access": "page"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/eid/article-types",
+            "checked_on": "2026-11-16",
+            "note": "Current article table updated 15 September 2026 specifies length limits; ordinary research and synopsis categories have no membership prerequisite. The network-letter category has a separate network-affiliation condition.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Ordinary journal articles use a diamond route free to authors and readers under ECDC funding. No waiver, institutional payment agreement or paid membership is needed for this stated route. The journal author pages remain blocked; check current article-type length and submission requirements before preparing a manuscript. This record does not establish supplement-organizer terms.",
+        "other_mandatory_costs": "None for the ordinary author route under the publisher blanket free-to-authors statement; special supplement-organizer terms not audited.",
+        "fee_evidence": [
+          {
+            "url": "https://www.ecdc.europa.eu/en/about-us/ecdcs-organisational-structure",
+            "checked_on": "2026-11-16",
+            "note": "Current full publisher page identifies the Eurosurveillance Editorial Office and describes its journal specifically as diamond open access free of charge to readers and authors.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.ecdc.europa.eu/en/about-us/procurement-and-grants/ecdc2025mvp0020-sec250530-editing-services",
+            "checked_on": "2026-11-16",
+            "note": "Official 2025 publisher notice says all Eurosurveillance content is open access free to readers and authors, with ECDC procuring editorial/copyediting support.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.eurosurveillance.org/for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific author page still returns 403; precise article-length guidance was not directly inspected.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Author page blocked on independent read. ECDC official procurement evidence supports free-to-author diamond model; retained limitation on journal-specific length and supplement terms."
+    },
+    {
+      "id": "public-health-journal-of-public-health-oup",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "The standard non-OA licence has no licence charge, and the journal explicitly has no page or colour charges. Optional open access requires an APC or eligible institutional funding. Original papers normally have 2000–3000 words and up to four tables/figures. A submission fee was neither stated nor explicitly excluded in the inspected guidance; confirm that cost before treating the complete route as free.",
+        "other_mandatory_costs": "No page or colour charges and no mandatory membership stated. Submission fee remains unknown; optional OA is paid unless covered.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/jpubhealth/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Full current journal policy expressly excludes standard-licence, page and colour charges and distinguishes paid optional OA; its submission section does not establish no submission fee.",
+            "access": "page"
+          },
+          {
+            "url": "https://academic.oup.com/jpubhealth/pages/why-publish-with-the-journal-of-public-health",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific publisher page was inspected for a general free-author/submission policy; none was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://mc.manuscriptcentral.com/oup/jph",
+            "checked_on": "2026-11-16",
+            "note": "Linked submission-system page returned 403, preventing additional fee confirmation.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://academic.oup.com/jpubhealth/pages/instructions_for_authors",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific page states that authors choosing standard subscription publication are not charged; explicit absence of submission fee remains unverified.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Current Oxford author guidelines exclude page and colour fees; separate journal instructions say non-OA publication is not charged. Submission fee is not expressly excluded, so complete route remains unverified."
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Select standard subscription publication and keep original, review or design articles within five printed pages, counting abstract, tables, figures and references. Above five pages the mandatory charge is GBP 80 or USD 100 per excess page excluding VAT. Word limits alone do not establish free eligibility: reviews may allow 6000 words yet exceed five printed pages. Optional OA and requested print colour cost extra. Sponsored supplements are excluded.",
+        "other_mandatory_costs": "None within the five-printed-page route without optional print colour/OA. Mandatory excess-page charges apply beyond five pages; supplement authors/sponsors fund supplement costs.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sjp",
+            "checked_on": "2026-11-16",
+            "note": "Complete current journal instructions state no submission/publication fees, then impose GBP 80/USD 100 per printed page above five for original/review/design articles, excluding VAT; optional OA, requested print colour and supplements have separate costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription publication is free to submit and publish. Online colour is free; requested print colour and optional OA incur separate charges. Follow article-specific limits rather than assuming a paid excess-length option: the hosted instructions normally set 3000 words for original research and methodology. Some brief reports/commentaries require prior editorial agreement. No mandatory society membership is stated.",
+        "other_mandatory_costs": "None for standard publication without optional print colour or OA. Third-party material permissions are the authors responsibility.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/phr",
+            "checked_on": "2026-11-16",
+            "note": "Current official indexed policy explicitly excludes submitting and publishing fees and distinguishes optional print-colour/OA costs. Direct page fetch timed out; indexed content was available.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Directly read official hosted 32-page instructions, captured 25 June 2025: pages 1–3 exclude submission/publication charges, make online colour free and distinguish optional print colour and OA. Article limits are also specified.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/phr",
+            "checked_on": "2026-11-16",
+            "note": "Current full journal page expressly states no fees to submit or publish; optional open access and requested print colour cost extra.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-perspectives-in-public-health",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription route has no submission or publication fees. Online colour is free; requested print colour and optional OA cost extra. Original research/reviews normally require 2000–4000 words including abstracts, excluding references/tables/figures; no paid excess-length option is stated. A plain-language summary is required for article types needing an abstract. Optional professional author services are not required.",
+        "other_mandatory_costs": "None for standard publication without optional print colour or OA; no compulsory society membership stated.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rsh",
+            "checked_on": "2026-11-16",
+            "note": "Full current journal policy explicitly excludes submission/publication fees and distinguishes optional print-colour/OA costs; article and plain-language-summary requirements are stated on the same page.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-european-journal",
+      "route": {
+        "model": "conditional_agreement",
+        "submission_fee": "unknown",
+        "publication_fee": "charged",
+        "eligibility": "conditional",
+        "oa_status": "open_access",
+        "conditions": "Fully open access with compulsory APC: the inspected policy lists EUR 2956 regular charge and EUR 1408 for short reports. An eligible institutional agreement may pay it; qualifying full waivers are conditional and discretionary waivers are limited. EUPHA membership offers a 20% APC discount, not automatic free publication. No page/colour charges. Submission-fee absence is not explicit. Recheck price and route eligibility before submission.",
+        "other_mandatory_costs": "Publication APC unless qualifying full coverage/waiver applies. No page or colour charges; membership optional. Submission fee unknown.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/eurpub/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Full current journal policy identifies fully OA publication, compulsory APCs, EUR 2956 regular/EUR 1408 short-report charges, conditional institutional coverage/waivers, 20% member discount and no page/colour fees; no explicit no-submission-fee statement.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-annali-istituto-superiore-sanita",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "English-language submissions. Articles normally allow 6000 words and reviews 10000, with references included in those specified limits; supplementary material is limited to two printed pages. No paid excess-length option is stated. ISS-affiliated authors need internal authorization. Printed journal subscriptions are optional reader purchases. Apply the journal AI-use disclosure and permission requirements.",
+        "other_mandatory_costs": "None for the standard author route; optional print subscriptions and any third-party permissions are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://annali.iss.it/index.php/anna/about",
+            "checked_on": "2026-11-16",
+            "note": "Full official policy expressly excludes article/submission processing charges and author publishing fees; separately lists optional reader print-subscription prices.",
+            "access": "page"
+          },
+          {
+            "url": "https://annali.iss.it/index.php/anna/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Full current author guidance establishes article/review and two-printed-page supplementary limits, ISS internal authorization and manuscript requirements; no compulsory author payment is stated.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-epidemiologia-servicos-saude",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Portuguese manuscript and meaningful SUS contribution required. Submission, evaluation and publication are free; English full-text and Spanish-abstract translations are publisher-funded. Original articles, including systematic reviews, normally allow 3000 words; Evidência em contexto 2000. Meet data-availability and applicable ethics requirements and use a suitable free repository where deposit is required.",
+        "other_mandatory_costs": "None for the stated journal route, including its provided translations; no compulsory author membership stated.",
+        "fee_evidence": [
+          {
+            "url": "https://www.scielo.br/journal/ress/about/",
+            "checked_on": "2026-11-16",
+            "note": "Complete current official policy explicitly excludes submission/evaluation/publication fees under diamond access and states that English/Spanish translations are free, funded by the Brazilian Ministry of Health; author language and article limits are on the same page.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-college-community-physicians-sri-lanka",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "English manuscripts from local or international authors; no college membership prerequisite is stated. Original research normally has a 3000-word limit and reviews 4500. Studies normally should be within five years; exceptions are assessed case by case. Authors must provide adequate English, but purchase of editing services is not required. No paid excess-page route is stated.",
+        "other_mandatory_costs": "None for standard submission, processing and publication; no compulsory membership or editing service stated.",
+        "fee_evidence": [
+          {
+            "url": "https://jccpsl.sljol.info/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Full current instructions expressly exclude submission/publication fees and separately processing/publishing fees. They welcome local/international authors and set length/recency requirements; English support is advisory, with no mandated purchase.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-delaware-journal",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Standard article submission, processing and publication are free. Select the relevant upcoming themed issue and deadline and show Delaware/regional public-health relevance. October 2025 instructions normally allow 7500 words for research, 4000 for systematic reviews/analytic essays; references/tables/figures are excluded from text totals. No paid excess-page option stated. Optional reprints/advertisements and sponsor-supported supplements are outside this route.",
+        "other_mandatory_costs": "None for standard articles; no compulsory membership stated. Optional reprints, advertisements and supplement sponsorship are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://djph.org/submissions/submit-an-article/",
+            "checked_on": "2026-11-16",
+            "note": "Current full official page excludes submission/processing costs and explicitly all article submission/publication fees; author reprints and advertising are separate services.",
+            "access": "page"
+          },
+          {
+            "url": "https://djph.org/wp-content/uploads/2025/10/DJPH-Author-Instructions.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Official author instructions revised 1 October 2025 repeat no submission costs and state article-type length limits. Supplement issues have external support; no compulsory author page/membership payment is stated.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Ordinary submission/publication has no journal fees under the blanket author-cost policy. Follow article-specific limits and the two-year data-recency policy. Tools for Public Health Practice requires an editor summary before submission and is an instructional methods format. CDC publication and reuse-permission policies apply. No paid membership or editing prerequisite is stated.",
+        "other_mandatory_costs": "None for the ordinary author route. Costs of obtaining permission for chosen third-party material are external and author dependent.",
+        "fee_evidence": [
+          {
+            "url": "https://www.cdc.gov/pcd/for_authors/general_information.htm",
+            "checked_on": "2026-11-16",
+            "note": "Independent full-page read confirms the blanket exclusion of publishing-related charges, separately free reader access, and current-data guidance. This is author-cost evidence rather than reader access alone.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cdc.gov/pcd/for_authors/submit_manuscript.htm",
+            "checked_on": "2026-11-16",
+            "note": "Fee auditor directly inspected ordinary submission instructions and found no payment prerequisite; retained as the fee auditor's evidence, not a newly independent read in skeptical review.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cdc.gov/pcd/for_authors/types_of_articles.htm",
+            "checked_on": "2026-11-16",
+            "note": "Independent full-page read confirms peer-reviewed research/review formats and the prior editor-summary requirement for instructional Tools for Public Health Practice articles.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official author or fee policy; retained route conditions and previous supporting evidence."
+    },
+    {
+      "id": "public-health-bulgarian-journal",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Official ethics policy states no submission or publication fees; the journal is electronic and open access. Page, length and compulsory membership costs were not explicitly addressed in the policy inspected.",
+        "other_mandatory_costs": "Unresolved: no separate all-cost/page or membership statement was verified.",
+        "fee_evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Official policy states no submission and publication fees for the indicated route.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read official journal ethics PDF. Explicit no submission/publication fee supports these components, but separate compulsory costs remain unverified."
+    },
+    {
+      "id": "public-health-evidence-public-health",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Current submission, processing and publication are free; the journal states it is wholly funded by the Society Global Center for Evidence Synthesis. This funding and fee policy can change. Follow article-specific limits.",
+        "other_mandatory_costs": "No compulsory page or membership charge identified under the current blanket free publication service.",
+        "fee_evidence": [
+          {
+            "url": "https://eph.evidencejournals.com/index.php/j/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Official submissions page expressly states no submission, processing or publication charges and identifies the funding society.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read complete official submissions page including blanket free publication policy; no membership or page payment requirement identified."
+    },
+    {
+      "id": "public-health-population-health-management",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription publication has no submission or publication fees. Optional immediate open access carries a fee or depends on an eligible institutional agreement. Online colour is free; requested print colour costs $800 for the first and $200 for subsequent images. Follow manuscript length rules.",
+        "other_mandatory_costs": "No mandatory membership or page charge identified under the journal no-fees-to-submit-or-publish statement; print colour is optional.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pop",
+            "checked_on": "2026-11-16",
+            "note": "Current full Sage journal instructions expressly state no fees to submit or publish, identify paid optional open access and separate optional print-colour prices.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read official Sage journal submission instructions and separate standard subscription from optional paid reader open access and print colour."
+    }
+  ],
+  "notes": [
+    "All baseline and discovery candidates audited. Prior evidence retained where accurate; policies can change. Author-dependent third-party permission and chosen repository costs are separate from journal fees."
+  ]
+}

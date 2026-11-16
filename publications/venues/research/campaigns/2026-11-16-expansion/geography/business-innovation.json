@@ -1,0 +1,412 @@
+{
+  "subfield": "business-innovation",
+  "role": "geography",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_c/business_geo",
+  "patches": [
+    {
+      "id": "business-innovation-research-policy",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    },
+    {
+      "id": "business-innovation-technovation",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0166497221000845",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    },
+    {
+      "id": "business-innovation-technology-in-society",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0160791X20306357",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    },
+    {
+      "id": "business-innovation-technological-forecasting-and-social-change",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0040162519305220",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    },
+    {
+      "id": "business-innovation-european-management-journal",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0263237325000015",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    },
+    {
+      "id": "business-innovation-journal-of-business-research",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S014829631500185X",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    },
+    {
+      "id": "business-innovation-industrial-marketing-management",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0019850118300385",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    },
+    {
+      "id": "business-innovation-journal-of-engineering-and-technology-management",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0923474826000068",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Do not infer venue location from Elsevier headquarters or author eligibility from international scope."
+    }
+  ],
+  "notes": [
+    "All eight ScienceDirect journal aims/scope and author-guide pages returned HTTP 403. Publisher headquarters is separate from unverified journal bases. Historical journal-hosted articles support the noted broad focus, not current eligibility."
+  ]
+}

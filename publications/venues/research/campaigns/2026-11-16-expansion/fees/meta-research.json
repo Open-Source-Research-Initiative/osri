@@ -1,0 +1,470 @@
+{
+  "subfield": "meta-research",
+  "role": "fees",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_c/meta_fees",
+  "patches": [
+    {
+      "id": "meta-research-scientometrics",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Current journal policy offers subscription publication without an APC. OA is optional and paid. Online colour is free; print colour requires a contribution and can be avoided. The inspected instructions do not explicitly exclude submission or page/overlength fees, so zero total author cost remains unverified. No required membership or affiliation was stated.",
+        "other_mandatory_costs": "Submission and page/overlength charges are unconfirmed. Optional print colour, author services and third-party reproduction permissions can cost extra.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/11192/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific hybrid policy explicitly excludes an APC on the subscription route; optional OA is separately charged.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11192/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Instructions inspected for submission, length, colour, author services and membership conditions. Online colour is free; print colour requires author contribution. No explicit no-submission-fee or no-page-charge declaration was found.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Inspected Springer general costs policy and retained journal-specific baseline evidence; individual submission and page fees remain unconfirmed."
+    },
+    {
+      "id": "meta-research-research-evaluation",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Current author guidelines offer a standard licence without a licence charge and explicitly exclude page and colour charges. Paid OA is optional. Current guidelines describe one annual online issue, while the separate Charges page still quotes print-colour fees; that appears to be legacy print guidance but its status is not expressly explained. Use the ordinary current online route and confirm any requested print treatment. Submission-fee exclusion was not established.",
+        "other_mandatory_costs": "No current page or colour charges for the ordinary online route; submission fees remain unconfirmed. Optional OA and optional editing are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/rev/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current online author guidelines exclude standard-licence, page and colour charges; paid OA and optional language services are separate. Manuscript guidance allows up to 8,000–10,000 words.",
+            "access": "page"
+          },
+          {
+            "url": "https://academic.oup.com/rev/pages/Charges",
+            "checked_on": "2026-11-16",
+            "note": "Separate official page still quotes print-colour costs requiring author approval; conflicts with current no-colour-charge guidance and is retained as an unresolved print-specific policy inconsistency.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Inspected official charges and instructions; paid OA and conflicting print-colour wording are retained, with submission fee unconfirmed."
+    },
+    {
+      "id": "meta-research-science-and-public-policy",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Journal-specific Charges page says ordinary subscription publication is not charged; current guidelines exclude page and colour charges. Paid OA, eligible agreement funding and paid language services are optional alternatives. The charge exclusion is expressed in the post-acceptance publication/licensing context, so it is not treated as explicit confirmation of free submission. No compulsory membership or affiliation was stated.",
+        "other_mandatory_costs": "Standard publication, page and colour charges are excluded. Submission-fee exclusion remains unconfirmed; optional OA and editing cost extra if selected.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/spp/pages/charges",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific publication policy excludes charges when optional OA is not selected; this statement follows acceptance/licensing.",
+            "access": "page"
+          },
+          {
+            "url": "https://academic.oup.com/spp/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current guidelines explicitly exclude page and colour charges. Language services and extra paid technical/language checks are optional; no required society membership was stated.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official instructions: standard licence has no charge, no page or colour charges; separate submission charge remains unconfirmed."
+    },
+    {
+      "id": "meta-research-accountability-in-research",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Current official indexed journal policy identifies a hybrid/Open Select journal and excludes an APC when OA is not selected. OA fees or agreement support are optional. Direct author instructions and journal-information pages returned HTTP 403. Submission fees, page/overlength charges, colour charges and any compulsory membership could not be independently resolved.",
+        "other_mandatory_costs": "Unknown beyond the non-OA APC exclusion; full current author instructions remain inaccessible.",
+        "fee_evidence": [
+          {
+            "url": "https://www.tandfonline.com/action/journalInformation?journalCode=gacr20&show=instructions",
+            "checked_on": "2026-11-16",
+            "note": "Official indexed policy explicitly distinguishes paid optional OA from the subscription route without an APC. The full page was blocked on direct access.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=gacr20",
+            "checked_on": "2026-11-16",
+            "note": "Browser and independent direct HTTP request both returned HTTP 403; no full submission, page/length, colour or membership audit was possible.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Inspected official indexed journal information: subscription has no APC. Separate submission and page fees remain unconfirmed."
+    },
+    {
+      "id": "meta-research-social-studies-of-science",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Journal-specific instructions explicitly exclude fees for submission and publication on the subscription route. Optional Sage Choice OA is paid or separately agreement-funded. Online colour is free; specifically requested print colour can be charged. Research articles are normally limited to 12,000 words; follow editorial length requirements. No mandatory membership or affiliation is imposed in the inspected author route.",
+        "other_mandatory_costs": "None for the standard route within journal instructions; OA and requested print colour are optional.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sss",
+            "checked_on": "2026-11-16",
+            "note": "Current instructions explicitly exclude submission/publication fees, make online colour free and distinguish optional print colour and OA. They state the normal research-article length limit.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected the current official journal instructions. Their fee statement covers submission and publication; optional OA and any page or print-colour caveats remain in the route."
+    },
+    {
+      "id": "meta-research-research-ethics",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Current Community Open Access policy explicitly excludes author costs and an APC after acceptance; support does not require the submitting author's institution to participate. The journal is online-only. Empirical original articles normally permit 7,000 words, theoretical articles 5,000 and reviews 3,000–6,000, excluding references; longer work needs editorial justification. All submissions require an AI-use statement, including when no AI was used. The current official page says no author cost under Community OA, but its post-acceptance boilerplate still discusses paying an APC where applicable, and an older official PDF says an APC is payable. Submission fees and the apparent inconsistency require confirmation.",
+        "other_mandatory_costs": "Unclear: current no-author-cost wording conflicts with generic payment boilerplate and an older official PDF; submission fee not expressly resolved.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/REA",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific Community OA policy excludes author costs without an affiliation condition. Instructions establish online-only publication, article-specific length limits and a mandatory AI statement. Uppercase official URL was accessible after lowercase URL timed out.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Older publisher-hosted instructions describe an APC, conflicting with current Community OA wording; timing and current applicability are uncertain.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Current indexed instructions state no author cost but generic post-acceptance text and an older PDF retain APC language; the current page timed out on direct open."
+    },
+    {
+      "id": "meta-research-journal-of-information-science",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Current instructions explicitly exclude submission and publication fees for the ordinary subscription route. OA through Sage Choice is optional and separately charged or agreement-funded. Online colour is free; requested print colour may be charged. Ordinary papers average 5,000–7,500 words, with brief communications up to 1,500. No compulsory membership or affiliation is imposed in the inspected author route.",
+        "other_mandatory_costs": "None for the standard route; optional OA and requested print colour are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/jis",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific instructions explicitly exclude submission/publication fees, distinguish optional OA and print-colour costs, and provide ordinary-paper and brief-communication length guidance.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected the current official journal instructions. Their fee statement covers submission and publication; optional OA and any page or print-colour caveats remain in the route."
+    },
+    {
+      "id": "meta-research-research-synthesis-methods",
+      "route": {
+        "model": "conditional_waiver",
+        "submission_fee": "unknown",
+        "publication_fee": "charged",
+        "eligibility": "conditional",
+        "oa_status": "open_access",
+        "conditions": "Cambridge publishes accepted articles open access. Authors with grant or institutional OA funding are expected to use it; authors without a funding route may request a discount or full waiver after acceptance. The journal also says authors without agreement or funding are granted waivers. This is a conditional waiver route, not a universal no-fee policy. Submission and other mandatory charges remain unverified.",
+        "other_mandatory_costs": "Submission fee and any page or other mandatory charges not explicitly resolved; funding or waiver depends on circumstances.",
+        "fee_evidence": [
+          {
+            "url": "https://www.cambridge.org/core/journals/research-synthesis-methods/information/author-instructions/fees-and-pricing",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific fee page identifies wholly OA publication and an APC, with funding and waiver alternatives; taxes can apply when an APC is payable.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/research-synthesis-methods/information/journal-policies/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Research-article corresponding authors outside other support routes may request a discount or full APC waiver after acceptance. Cambridge assesses the request; editors/reviewers do not grant it.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/research-synthesis-methods/information/author-instructions/preparing-your-materials",
+            "checked_on": "2026-11-16",
+            "note": "Current research articles have no formal page limit; other formats have their own limits. Language services are voluntary and paid. No explicit submission-fee or universal extra-charge exclusion was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/research-synthesis-methods/information/journal-policies/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Current policy describes agreements, available funding and application for discount or waiver after acceptance.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/research-synthesis-methods/information/about-this-journal/why-choose-this-journal",
+            "checked_on": "2026-11-16",
+            "note": "All accepted articles are OA; authors with eligible funding are expected to pay, while authors without agreement or funding are granted waivers.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Current Cambridge policy supersedes historic Wiley hybrid information. Waiver is conditional on circumstances and submission charges remain unresolved."
+    },
+    {
+      "id": "meta-research-meta-psychology",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Current journal policy describes a completely free diamond OA journal with no processing or publication fees; this blanket policy covers the author route without a selective waiver, membership or affiliation condition. Authors help format accepted papers; the journal has no print edition. Required OSF materials and a DOI-bearing preprint, plus preregistration where applicable, are author responsibilities rather than journal charges. New submissions pause during July. Official no-publishing-fee text does not explicitly resolve submission fees.",
+        "other_mandatory_costs": "Submission and other compulsory charges not explicitly resolved by the inspected no-publishing-fee statement.",
+        "fee_evidence": [
+          {
+            "url": "https://open.lnu.se/index.php/metapsychology/about",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-wide completely-free diamond policy and no-processing/publication-fee declaration establish the author route; there is no print edition and authors share formatting work.",
+            "access": "page"
+          },
+          {
+            "url": "https://open.lnu.se/index.php/metapsychology/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Submission checklist requires an OSF project and a suitable DOI-bearing preprint. Studies collecting primary or secondary data or using confirmatory hypotheses require preregistration; no paid service or membership is required by the checklist.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official About page establishes free publishing; it does not expressly exclude a separate submission fee."
+    },
+    {
+      "id": "meta-research-liber-quarterly",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Current OA policy explicitly excludes APCs, and the About page identifies sponsorship enabling publication without APCs. The current submission page does not contain the previously asserted statement that LIBER covers all publication costs. No explicit submission-fee exclusion or blanket all-author-fees exclusion was verified; no mandatory membership or paid service was stated. Retain the candidate diamond model without certifying zero total author cost.",
+        "other_mandatory_costs": "APCs are excluded; submission fees and compulsory non-APC extras remain unconfirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://liberquarterly.eu/policies",
+            "checked_on": "2026-11-16",
+            "note": "Current OA policy explicitly excludes APCs; it does not separately exclude submission fees or all author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://liberquarterly.eu/about",
+            "checked_on": "2026-11-16",
+            "note": "Current About page identifies sponsorship enabling publication without APCs; this is not an all-author-cost guarantee.",
+            "access": "page"
+          },
+          {
+            "url": "https://liberquarterly.eu/submission-information",
+            "checked_on": "2026-11-16",
+            "note": "Current submission instructions were inspected. No explicit submission-fee or blanket all-author-fees exclusion was located; no all-publication-costs wording was reproduced.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official submission instructions: no APC; separate submission charges remain unconfirmed."
+    },
+    {
+      "id": "meta-research-engaging-science-technology-and-society",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Current OA policy explicitly excludes submission fees and APCs without required membership or affiliation. The current single contribution category permits up to 9,000 words including abstract/footnotes but excluding references; overlong manuscripts are returned for revision. Most genAI use is strongly discouraged, with translation when alternatives are unavailable and AI-focused research identified as exceptions. All uses must be disclosed in the cover letter; data-generation or analysis uses must also be described in manuscript Methods. Human authors remain responsible.",
+        "other_mandatory_costs": "None for the ordinary article route; follow length and applicable ethics/data/AI policies.",
+        "fee_evidence": [
+          {
+            "url": "https://estsjournal.org/index.php/ests/open_access_policy",
+            "checked_on": "2026-11-16",
+            "note": "Current journal policy explicitly excludes submission fees and APCs without waiver eligibility conditions.",
+            "access": "page"
+          },
+          {
+            "url": "https://estsjournal.org/index.php/ests/faq",
+            "checked_on": "2026-11-16",
+            "note": "FAQ explicitly excludes submission/publication charges and says overlong manuscripts are returned for revision.",
+            "access": "page"
+          },
+          {
+            "url": "https://estsjournal.org/index.php/ests/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Current submission checklist sets the 9,000-word limit including abstract/footnotes, excluding references, and supplies ordinary author obligations.",
+            "access": "page"
+          },
+          {
+            "url": "https://estsjournal.org/index.php/ests/genai",
+            "checked_on": "2026-11-16",
+            "note": "Journal strongly discourages most genAI use, identifies limited exceptions, and requires disclosure of all uses in the cover letter.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected the official FAQ, which explicitly excludes APC and submission fees."
+    },
+    {
+      "id": "meta-research-science-editing",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Current author instructions explicitly exclude submission, page and article-processing charges; best-practice policy excludes author-side fees. No required membership or institutional agreement is stated. Original articles have a 2,500-word text limit; reviews normally allow 5,000 words and are described as invited. Follow format limits rather than assume a paid overlength option.",
+        "other_mandatory_costs": "None; submission, page and processing charges and author-side fees are explicitly excluded.",
+        "fee_evidence": [
+          {
+            "url": "https://www.escienceediting.org/authors/authors.php",
+            "checked_on": "2026-11-16",
+            "note": "Current section 8 excludes submission, page and processing charges. Original articles allow 2,500 text words; reviews normally allow 5,000 and are described as invited. Direct HTTP retrieval succeeded despite browser HTTP 403.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.escienceediting.org/about/best_practice.php",
+            "checked_on": "2026-11-16",
+            "note": "Current Author Fees policy explicitly excludes author-side fees, including page, processing and submission fees. Direct HTTP retrieval succeeded despite browser HTTP 403.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Inspected publisher-hosted best-practice document, which explicitly excludes submission, page and processing charges."
+    },
+    {
+      "id": "meta-research-european-science-editing",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Current official submission and ARPHA instructions explicitly exclude submission/publication fees and author charges. No required EASE membership, affiliation or waiver is stated. Original articles and reviews have 4,000-word main-body limits and format-specific reference/illustration limits. The tailored publicity service is optional and paid. Follow current AI disclosure and human-accountability requirements, including disclosure of tool, task and relevant prompts.",
+        "other_mandatory_costs": "None under the explicit no-author-fees policy; optional publicity is a separate paid service.",
+        "fee_evidence": [
+          {
+            "url": "https://europeanscienceediting.org.uk/submit/",
+            "checked_on": "2026-11-16",
+            "note": "Official journal submission page directs authors to the ARPHA platform and explicitly excludes submission and publication fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://ese.arphahub.com/about",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions exclude author fees, set article-specific limits and identify paid publicity as optional. EASE membership only supplies optional guidance access; it is not required to publish. Direct HTTP retrieval succeeded despite browser HTTP 403.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected the official submission page excluding both submission and publication fees."
+    },
+    {
+      "id": "meta-research-science-technology-human-values",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Journal instructions state no submission or publication fees. Optional Sage Choice OA costs extra; confirm any optional production charges.",
+        "other_mandatory_costs": "None stated for the standard route.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sth",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions say there are no fees payable to submit or publish; optional open access is separately priced.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected the current official journal instructions. Their fee statement covers submission and publication; optional OA and any page or print-colour caveats remain in the route."
+    },
+    {
+      "id": "meta-research-public-understanding-of-science",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Journal instructions state no submission or publication fees. Optional Sage Choice OA costs extra; requested print colour may cost extra.",
+        "other_mandatory_costs": "None stated for the standard route.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pus",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions say there are no fees payable to submit or publish; optional open access is separately priced.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected the current official journal instructions. Their fee statement covers submission and publication; optional OA and any page or print-colour caveats remain in the route."
+    },
+    {
+      "id": "meta-research-science-communication",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Journal instructions state no submission or publication fees. Optional Sage Choice OA costs extra; requested print colour may be charged. Instructions also mention page or colour charges without specifying when page charges apply; verify.",
+        "other_mandatory_costs": "Page-charge applicability requires verification.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/scx",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions say there are no fees payable to submit or publish; optional open access is separately priced.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected the current official journal instructions. Their fee statement covers submission and publication; optional OA and any page or print-colour caveats remain in the route."
+    },
+    {
+      "id": "meta-research-information-services-and-use",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Instructions say no submission or publication fees; open-access S2O text explicitly describes 2024 only, so current model and compulsory extras require verification.",
+        "other_mandatory_costs": "Unknown; current S2O period needs checking.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/isu",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions say there are no fees payable to submit or publish; its S2O explanation is limited to 2024.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Inspected official S2O page, which specifies the 2024 period only; present model and compulsory extras remain unconfirmed."
+    }
+  ],
+  "notes": [
+    "Checked each candidate against official venue or publisher material, preserving prior source evidence where still relevant. No inference of free submission from a no-APC statement. Current Research Ethics page was available in official search-indexed text but timed out when opened; historical official PDF conflicts with some boilerplate. Research Synthesis Methods now uses Cambridge OA and conditional funding/waiver, not Wiley hybrid terms."
+  ]
+}

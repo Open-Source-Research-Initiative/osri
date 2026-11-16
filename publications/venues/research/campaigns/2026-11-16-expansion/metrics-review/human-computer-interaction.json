@@ -1,0 +1,90 @@
+{
+  "subfield": "human-computer-interaction",
+  "role": "metrics-review",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/hci_review",
+  "patches": [
+    {
+      "id": "human-computer-interaction-journal-of-human-technology-relations",
+      "metrics": [],
+      "audit_note": "Journal permits responsible research assistance with human-generated ideas, interpretation and conclusions and addresses research data/software analysis; disclose writing use in methods and generative AI contributions in Use of AI section and cover letter. No official numeric metric identified."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-visualization-and-interaction",
+      "metrics": [],
+      "audit_note": "Independently checked official journal policy and searched for reported acceptance or citation metrics; no sufficiently sourced official numerical value identified. Absence is not evidence of selectivity."
+    },
+    {
+      "id": "human-computer-interaction-avances-en-interaccion-humano-computadora",
+      "metrics": [],
+      "audit_note": "Journal permits AI assistance during manuscript preparation and explicitly discusses AI-generated analyses and code included in the manuscript, with verification and disclosure. The broad preparation clause and explicit analyses/code provision jointly support conditional use under the contract, not autonomous authorship. No official numeric metric identified."
+    },
+    {
+      "id": "human-computer-interaction-interaccion",
+      "metrics": [],
+      "audit_note": "Independently checked official journal policy and searched for reported acceptance or citation metrics; no sufficiently sourced official numerical value identified. Absence is not evidence of selectivity."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-human-centered-technology",
+      "metrics": [],
+      "audit_note": "Independently checked official journal policy and searched for reported acceptance or citation metrics; no sufficiently sourced official numerical value identified. Absence is not evidence of selectivity."
+    },
+    {
+      "id": "human-computer-interaction-clei-electronic-journal",
+      "metrics": [],
+      "audit_note": "Society explicitly covers both submission and publication; updated complete route. No suitably sourced numerical metrics found.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The owning society states no fee or economic charge for submitting and publishing papers in the journal.",
+        "other_mandatory_costs": "No author economic charge for submission and publication; distinct from conference registration.",
+        "fee_evidence": [
+          {
+            "url": "https://clei.org/cleiej/index.php/cleiej/about",
+            "checked_on": "2026-11-16",
+            "note": "This is the journal route, distinct from paid CLEI conference registration. The journal says no fees to read or publish. Submission and other compulsory charges are not explicitly addressed.",
+            "access": "page"
+          },
+          {
+            "url": "https://clei.org/en/clei-electronic-journal-en/",
+            "checked_on": "2026-11-16",
+            "note": "Owning society explicitly states no type of fee or economic charge for submitting and publishing journal papers.",
+            "access": "page"
+          }
+        ]
+      }
+    },
+    {
+      "id": "human-computer-interaction-security-and-information-applications",
+      "metrics": [],
+      "audit_note": "Independently checked official journal policy and searched for reported acceptance or citation metrics; no sufficiently sourced official numerical value identified. Absence is not evidence of selectivity."
+    },
+    {
+      "id": "human-computer-interaction-international-journal-of-research-in-computing",
+      "metrics": [],
+      "audit_note": "Independently checked official journal policy and searched for reported acceptance or citation metrics; no sufficiently sourced official numerical value identified. Absence is not evidence of selectivity."
+    }
+  ],
+  "findings": [
+    {
+      "id": "human-computer-interaction-avances-en-interaccion-humano-computadora",
+      "severity": "info",
+      "issue": "Broad AI manuscript preparation and explicit AI-generated analysis/code scope require semantic interpretation.",
+      "resolution": "Retain compatible conditional permissions with tool, role, accuracy and human responsibility disclosures; this does not allow AI authorship."
+    },
+    {
+      "id": "human-computer-interaction-clei-electronic-journal",
+      "severity": "info",
+      "issue": "Fee review did not identify the owning society explicit free-submission statement.",
+      "resolution": "Replace complete route with source-backed verified_free status."
+    }
+  ],
+  "notes": [
+    "Eight discovery candidates and zero baseline records reviewed. No verified numeric acceptance or citation metric located in official material reviewed; empty metrics are not evidence of low selectivity.",
+    "Independently challenged fee, AI disclosure, and geography fields; retained unknowns where the source does not affirm eligibility.",
+    "AI classification evaluates the founder workflow, not independent human scientific or venue acceptance review."
+  ]
+}

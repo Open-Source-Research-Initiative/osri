@@ -1,0 +1,636 @@
+{
+  "subfield": "public-health",
+  "role": "geography",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/e_geo_public_health",
+  "notes": [
+    "Regional remit alone does not establish author residence restrictions. Publisher countries are left empty when not independently established. Eurosurveillance evidence is historical; current author eligibility remains unclear.",
+    "WHO primary-research study-country author-affiliation condition is an actual rule; it does not apply to all authors or all research formats."
+  ],
+  "patches": [
+    {
+      "id": "public-health-bulletin-who",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "CH",
+            "name": "Switzerland",
+            "basis": "WHO editorial/owning organization, Geneva",
+            "source_url": "https://www.who.int/publications/journals/bulletin/about"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "restricted",
+          "description": "At least one study-country affiliation is required for primary research; this is not a residence requirement for all authors.",
+          "source_urls": [
+            "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "International public-health significance, particularly vulnerable populations. For papers reporting primary research at least one author must be affiliated with an institution in the country where the research was conducted; authorship section also states a study-country professional-affiliation condition.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors",
+            "note": "International public-health significance, particularly vulnerable populations. For papers reporting primary research at least one author must be affiliated with an institution in the country where the research was conducted; authorship section also states a study-country professional-affiliation condition.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.who.int/publications/journals/bulletin/about",
+            "note": "WHO editorial/owning organization, Geneva",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "PAHO owning organization headquartered Washington, DC",
+            "source_url": "https://journal.paho.org/en/instructions-authors"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No author-location restriction or express worldwide eligibility found in the inspected instructions.",
+          "source_urls": [
+            "https://journal.paho.org/en/about-journal"
+          ]
+        },
+        "research_focus_regions": [
+          "North America",
+          "South America"
+        ],
+        "scope_notes": "Public health of the Americas and international significance; regional mission is not an author residence rule.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journal.paho.org/en/about-journal",
+            "note": "Public health of the Americas and international significance; regional mission is not an author residence rule.",
+            "access": "page"
+          },
+          {
+            "url": "https://journal.paho.org/en/instructions-authors",
+            "note": "PAHO owning organization headquartered Washington, DC",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-emerging-infectious-diseases",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "CDC journal correspondence, Atlanta",
+            "source_url": "https://wwwnc.cdc.gov/eid/content/29/12/pdfs/v29-n12.pdf"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The journal reports receiving submissions from around the world; no affirmative unrestricted eligibility rule was found.",
+          "source_urls": [
+            "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Emerging infectious diseases worldwide.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf",
+            "note": "Emerging infectious diseases worldwide.",
+            "access": "page"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/eid/content/29/12/pdfs/v29-n12.pdf",
+            "note": "CDC journal correspondence, Atlanta",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "SE",
+            "name": "Sweden",
+            "basis": "ECDC journal host in Stockholm",
+            "source_url": "https://www.eurosurveillance.org/upload/site-assets/imgs/Leaflet%20seminar_2011.pdf"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Current author eligibility could not be confirmed from the accessible material.",
+          "source_urls": [
+            "https://www.eurosurveillance.org/upload/site-assets/imgs/Leaflet%20seminar_2011.pdf"
+          ]
+        },
+        "research_focus_regions": [
+          "Europe"
+        ],
+        "scope_notes": "European surveillance, prevention and control; source is a historical official leaflet, so current scope should be reconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.eurosurveillance.org/upload/site-assets/imgs/Leaflet%20seminar_2011.pdf",
+            "note": "European surveillance, prevention and control; source is a historical official leaflet, so current scope should be reconfirmed.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-journal-of-public-health-oup",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Inspected author guidelines do not affirm a geographic eligibility rule.",
+          "source_urls": [
+            "https://academic.oup.com/jpubhealth/pages/author-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Public-health research and practice with an international practice audience. Journal is owned by the Faculty of Public Health; its country was not independently established here.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://academic.oup.com/jpubhealth/pages/author-guidelines",
+            "note": "Public-health research and practice with an international practice audience. Journal is owned by the Faculty of Public Health; its country was not independently established here.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No express worldwide author eligibility found in the reviewed submission guidelines.",
+          "source_urls": [
+            "https://in.sagepub.com/en-in/sas/journal/scandinavian-journal-public-health"
+          ]
+        },
+        "research_focus_regions": [
+          "Europe",
+          "International"
+        ],
+        "scope_notes": "Forum for Nordic and international public health research and policy; owning/editorial base not verified.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://in.sagepub.com/en-in/sas/journal/scandinavian-journal-public-health",
+            "note": "Forum for Nordic and international public health research and policy; owning/editorial base not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Official journal of US Surgeon General and US Public Health Service",
+            "source_url": "https://journals.sagepub.com/cms/asset/3ad57fbd-77e6-4c63-8475-4ef959e6b01a/phrg_137_2.ed_board.pdf"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No geographic restriction or express worldwide eligibility found in reviewed instructions.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/phr"
+          ]
+        },
+        "research_focus_regions": [
+          "North America",
+          "International"
+        ],
+        "scope_notes": "Public health practice and education; examples include United States and other countries.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/phr",
+            "note": "Public health practice and education; examples include United States and other countries.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/cms/asset/3ad57fbd-77e6-4c63-8475-4ef959e6b01a/phrg_137_2.ed_board.pdf",
+            "note": "Official journal of US Surgeon General and US Public Health Service",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-perspectives-in-public-health",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No geographic author eligibility rule found in the reviewed guidelines.",
+          "source_urls": [
+            "https://journals.sagepub.com/home/rsh"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Practice-oriented public health; the geographic extent of research scope and journal base were not established by the inspected page.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/rsh",
+            "note": "Practice-oriented public health; the geographic extent of research scope and journal base were not established by the inspected page.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-european-journal",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "A Europe-focused remit does not establish an author residence restriction.",
+          "source_urls": [
+            "https://academic.oup.com/eurpub/pages/About"
+          ]
+        },
+        "research_focus_regions": [
+          "Europe",
+          "International"
+        ],
+        "scope_notes": "Europe-focused forum that also welcomes relevant global health contributions. EUPHA ownership established, but its base was not independently verified.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://academic.oup.com/eurpub/pages/About",
+            "note": "Europe-focused forum that also welcomes relevant global health contributions. EUPHA ownership established, but its base was not independently verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-annali-istituto-superiore-sanita",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "IT",
+            "name": "Italy",
+            "basis": "Editorial office Rome, Istituto Superiore di Sanità",
+            "source_url": "https://annali.iss.it/index.php/anna/about/submissions"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No geographic author eligibility rule located in submissions instructions.",
+          "source_urls": [
+            "https://annali.iss.it/index.php/anna/about"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "When reporting only Italian or regional data, authors must compare with European or international data.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://annali.iss.it/index.php/anna/about",
+            "note": "When reporting only Italian or regional data, authors must compare with European or international data.",
+            "access": "page"
+          },
+          {
+            "url": "https://annali.iss.it/index.php/anna/about/submissions",
+            "note": "Editorial office Rome, Istituto Superiore di Sanità",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-epidemiologia-servicos-saude",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "BR",
+            "name": "Brazil",
+            "basis": "Brazil Ministry of Health edits and publishes the journal",
+            "source_url": "https://www.scielo.br/journal/ress/about/"
+          }
+        ],
+        "venue_regions": [
+          "South America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Author geographic eligibility not expressly established in the inspected policy.",
+          "source_urls": [
+            "https://www.scielo.br/journal/ress/about/"
+          ]
+        },
+        "research_focus_regions": [
+          "South America"
+        ],
+        "scope_notes": "Requires evidence relevant to the Brazilian unified health system (SUS); a research relevance condition, not an author location rule.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.scielo.br/journal/ress/about/",
+            "note": "Requires evidence relevant to the Brazilian unified health system (SUS); a research relevance condition, not an author location rule.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-college-community-physicians-sri-lanka",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "LK",
+            "name": "Sri Lanka",
+            "basis": "Official publication of College of Community Physicians of Sri Lanka",
+            "source_url": "https://jccpsl.sljol.info/about/submissions"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Instructions expressly accept submissions from local and international authors.",
+          "source_urls": [
+            "https://jccpsl.sljol.info/articles/8864/files/6870ae337d926.pdf"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "The journal describes research of local and global public-health importance; cover stories specifically concern Sri Lanka.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://jccpsl.sljol.info/articles/8864/files/6870ae337d926.pdf",
+            "note": "The journal describes research of local and global public-health importance; cover stories specifically concern Sri Lanka.",
+            "access": "page"
+          },
+          {
+            "url": "https://jccpsl.sljol.info/about/submissions",
+            "note": "Official publication of College of Community Physicians of Sri Lanka",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-delaware-journal",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Regional subject focus is not an author-location restriction.",
+          "source_urls": [
+            "https://djph.org/djph-aim-and-scope/"
+          ]
+        },
+        "research_focus_regions": [
+          "North America",
+          "International"
+        ],
+        "scope_notes": "Delaware and surrounding states are the geographic focus; national and international articles may be included at editorial discretion. Journal country not separately verified through a contact address.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://djph.org/djph-aim-and-scope/",
+            "note": "Delaware and surrounding states are the geographic focus; national and international articles may be included at editorial discretion. Journal country not separately verified through a contact address.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "CDC-sponsored journal of the United States public health agency",
+            "source_url": "https://www.cdc.gov/pcd/about_the_journal/index.htm"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal describes itself as authored by experts worldwide and states a worldwide mission; confirm any article-specific eligibility.",
+          "source_urls": [
+            "https://www.cdc.gov/pcd/about_the_journal/index.htm"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Population health and chronic disease prevention, with worldwide dialogue.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.cdc.gov/pcd/about_the_journal/index.htm",
+            "note": "Population health and chronic disease prevention, with worldwide dialogue.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-bulgarian-journal",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "BG",
+            "name": "Bulgaria",
+            "basis": "Editorial office and national public-health center, Sofia",
+            "source_url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The issue does not establish geographic eligibility for authors.",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+          ]
+        },
+        "research_focus_regions": [
+          "Europe",
+          "North America",
+          "International"
+        ],
+        "scope_notes": "Official 2025 issue names Bulgaria, Europe, USA and other countries in scope.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+            "note": "Official 2025 issue names Bulgaria, Europe, USA and other countries in scope.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-evidence-public-health",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "IN",
+            "name": "India",
+            "basis": "Journal principal contact in New Chandigarh",
+            "source_url": "https://eph.evidencejournals.com/index.php/j/about"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Inspected author guidance does not affirm an author-location eligibility rule.",
+          "source_urls": [
+            "https://eph.evidencejournals.com/index.php/j/about"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Regional and global health outcomes and public-health evidence.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://eph.evidencejournals.com/index.php/j/about",
+            "note": "Regional and global health outcomes and public-health evidence.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    },
+    {
+      "id": "public-health-population-health-management",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "International description of the journal is not an explicit worldwide author eligibility rule.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pop"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "International publication covering population health management; publisher office is not proof of journal editorial base.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pop",
+            "note": "International publication covering population health management; publisher office is not proof of journal editorial base.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Official journal scope and available submission/ownership evidence checked; location, research remit and author eligibility treated separately. Empty publisher countries indicate unverified publisher office, not absence."
+    }
+  ]
+}

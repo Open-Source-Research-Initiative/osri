@@ -1,0 +1,565 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b",
+  "scope": "Publisher policy and representative journal instructions; not a title-by-title policy clearance. IDs are identified from AI role files before metrics-review adjudication.",
+  "recommendation": "On balance, Sage current policy supports a conditional interpretation permitting human-led partial generated text: it explicitly contemplates primary or partial generated text in research content, requires disclosure, and states disclosed use alone is not grounds for rejection; the listed appropriate uses are examples, not expressly exhaustive. The older official page reinforces that interpretation by explicitly contemplating partially generated submissions. This is an inference from combined clauses, not an express permission to draft paragraphs. The prohibition on generation of a submission using a series of prompts reasonably excludes prompt-generated submissions, but its application to partial, human-led drafting is not defined; retain that ambiguity prominently. Research/code uses and disclosure are conditional; analysis of experiences and themes is expressly inappropriate. For JTD, CYE and TRE, current instructions point to Sage AI policy and no stronger restriction was identified in their instructions; recommend conditional inclusion subject to the stated ambiguity. JME refers to Sage publication ethics but does not explicitly link AI guidance in its author instructions; title-specific applicability remains weaker. Do not extend this assessment to unreviewed titles; specific title restrictions override it. The primary should adjudicate the ambiguity and title applicability.",
+  "evidence": [
+    {
+      "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+      "access": "page",
+      "observations": [
+        "AI assistance for authors own language, grammar and structure does not require disclosure.",
+        "Generated text affecting research methodology, analysis, results or conclusions must be disclosed; disclosed AI use alone is not grounds for rejection.",
+        "Appropriate examples include literature-review support, generated research code and code checking; the list does not explicitly include substantive manuscript drafting.",
+        "Inappropriate uses include generation of a submission using a series of prompts and analysis of experiences and themes. The text does not define whether partial human-led draft generation is covered."
+      ]
+    },
+    {
+      "url": "https://us.sagepub.com/en-us/nam/artificial-intelligence-policy",
+      "access": "page",
+      "observations": [
+        "Older-looking but undated Sage page welcomes research and writing assistance, and says primarily or partially generated submissions must be disclosed for evaluation. It does not establish precedence over the current journals-specific policy."
+      ]
+    },
+    {
+      "url": "https://journals.sagepub.com/author-instructions/jtd",
+      "access": "page",
+      "observations": [
+        "Journal of Transformative Education explicitly points authors to Sage AI disclosure and prohibited uses."
+      ]
+    },
+    {
+      "url": "https://journals.sagepub.com/author-instructions/cye",
+      "access": "page",
+      "observations": [
+        "Culture and Education points to Sage AI disclosure and prohibited uses."
+      ]
+    },
+    {
+      "url": "https://journals.sagepub.com/author-instructions/tre",
+      "access": "page",
+      "observations": [
+        "Theory and Research in Education points to Sage AI disclosure and prohibited uses."
+      ]
+    },
+    {
+      "url": "https://journals.sagepub.com/author-instructions/jme",
+      "access": "page",
+      "observations": [
+        "Journal of Management Education instructions read; check journal-specific rules in addition to general publication ethics."
+      ]
+    },
+    {
+      "url": "https://journals.sagepub.com/author-instructions/orm",
+      "access": "page",
+      "observations": [
+        "Organizational Research Methods refers to Sage publication ethics; no blanket inference is made for other titles."
+      ]
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/10596011261415739",
+      "access": "page",
+      "observations": [
+        "Group & Organization Management editorial forbids AI-generated text sections and analysis, and makes a narrower editing allowance; it also discusses qualitative coding as an evolving area. Journal-specific restrictions must override generic inference."
+      ]
+    },
+    {
+      "url": "https://journals.sagepub.com/pb-assets/cmscontent/ASQ/ASQ%20Guidance%20for%20AI%20Use%20for%20Authors%20and%20Reviewers%20Feb%202026%20final-1770827734057.pdf",
+      "access": "page",
+      "observations": [
+        "Administrative Science Quarterly guidance supports code refinement and human-led analysis while warning against letting AI write paragraphs or generate whole arguments; do not apply it to other Sage titles."
+      ]
+    }
+  ],
+  "campaign_sage_policy_records": [
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-organizational-research-methods",
+      "classification": "unclear"
+    },
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-social-science-computer-review",
+      "classification": "unclear"
+    },
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-organization-studies",
+      "classification": "unclear"
+    },
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-current-sociology",
+      "classification": "unclear"
+    },
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-acta-sociologica",
+      "classification": "unclear"
+    },
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-rationality-and-society",
+      "classification": "unclear"
+    },
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-organization",
+      "classification": "unclear"
+    },
+    {
+      "field": "sociology-organizations",
+      "id": "sociology-organizations-the-sociological-review",
+      "classification": "unclear"
+    },
+    {
+      "field": "psychology-behavior",
+      "id": "psychology-behavior-applied-psychological-measurement",
+      "classification": "compatible"
+    },
+    {
+      "field": "psychology-behavior",
+      "id": "psychology-behavior-personality-social-psychology-bulletin",
+      "classification": "compatible"
+    },
+    {
+      "field": "psychology-behavior",
+      "id": "psychology-behavior-group-processes-intergroup-relations",
+      "classification": "compatible"
+    },
+    {
+      "field": "psychology-behavior",
+      "id": "psychology-behavior-culture-psychology",
+      "classification": "compatible"
+    },
+    {
+      "field": "psychology-behavior",
+      "id": "psychology-behavior-feminism-psychology",
+      "classification": "compatible"
+    },
+    {
+      "field": "psychology-behavior",
+      "id": "psychology-behavior-theory-psychology",
+      "classification": "compatible"
+    },
+    {
+      "field": "psychology-behavior",
+      "id": "psychology-behavior-european-journal-personality",
+      "classification": "compatible"
+    },
+    {
+      "field": "public-policy",
+      "id": "public-policy-public-policy-and-administration",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-policy",
+      "id": "public-policy-administration-and-society",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-policy",
+      "id": "public-policy-evaluation",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-policy",
+      "id": "public-policy-american-review-of-public-administration",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-policy",
+      "id": "public-policy-public-works-management-and-policy",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-policy",
+      "id": "public-policy-science-technology-and-human-values",
+      "classification": "unclear"
+    },
+    {
+      "field": "epidemiology-biostatistics",
+      "id": "epidemiology-biostatistics-research-methods-medicine-health-sciences",
+      "classification": "compatible"
+    },
+    {
+      "field": "epidemiology-biostatistics",
+      "id": "epidemiology-biostatistics-statistical-methods-medical-research",
+      "classification": "compatible"
+    },
+    {
+      "field": "public-health",
+      "id": "public-health-scandinavian-journal",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-health",
+      "id": "public-health-public-health-reports",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-health",
+      "id": "public-health-perspectives-in-public-health",
+      "classification": "unclear"
+    },
+    {
+      "field": "public-health",
+      "id": "public-health-population-health-management",
+      "classification": "unclear"
+    },
+    {
+      "field": "cybersecurity-privacy",
+      "id": "cybersecurity-privacy-computer-security",
+      "classification": "compatible"
+    },
+    {
+      "field": "education-learning-sciences",
+      "id": "education-learning-sciences-journal-management-education",
+      "classification": "compatible"
+    },
+    {
+      "field": "education-learning-sciences",
+      "id": "education-learning-sciences-journal-transformative-education",
+      "classification": "compatible"
+    },
+    {
+      "field": "education-learning-sciences",
+      "id": "education-learning-sciences-culture-and-education",
+      "classification": "compatible"
+    },
+    {
+      "field": "education-learning-sciences",
+      "id": "education-learning-sciences-theory-research-education",
+      "classification": "compatible"
+    },
+    {
+      "field": "operations-simulation",
+      "id": "operations-simulation-simulation",
+      "classification": "compatible"
+    },
+    {
+      "field": "operations-simulation",
+      "id": "operations-simulation-simulation-and-gaming",
+      "classification": "compatible"
+    },
+    {
+      "field": "operations-simulation",
+      "id": "operations-simulation-journal-of-defense-modeling-and-simulation",
+      "classification": "compatible"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-political-studies",
+      "classification": "limited"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-international-relations",
+      "classification": "limited"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-politics",
+      "classification": "limited"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-comparative-political-studies",
+      "classification": "limited"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-studies-in-indian-politics",
+      "classification": "limited"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-european-union-politics",
+      "classification": "limited"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-international-studies",
+      "classification": "unclear"
+    },
+    {
+      "field": "political-science",
+      "id": "political-science-the-british-journal-of-politics-and-international-relations",
+      "classification": "limited"
+    },
+    {
+      "field": "meta-research",
+      "id": "meta-research-social-studies-of-science",
+      "classification": "unclear"
+    },
+    {
+      "field": "meta-research",
+      "id": "meta-research-research-ethics",
+      "classification": "unclear"
+    },
+    {
+      "field": "meta-research",
+      "id": "meta-research-journal-of-information-science",
+      "classification": "unclear"
+    },
+    {
+      "field": "meta-research",
+      "id": "meta-research-science-technology-human-values",
+      "classification": "unclear"
+    },
+    {
+      "field": "meta-research",
+      "id": "meta-research-public-understanding-of-science",
+      "classification": "unclear"
+    },
+    {
+      "field": "meta-research",
+      "id": "meta-research-science-communication",
+      "classification": "unclear"
+    },
+    {
+      "field": "meta-research",
+      "id": "meta-research-information-services-and-use",
+      "classification": "unclear"
+    },
+    {
+      "field": "health-systems",
+      "id": "health-systems-medical-care-research-and-review",
+      "classification": "prohibited"
+    },
+    {
+      "field": "health-systems",
+      "id": "health-systems-journal-of-health-services-research-and-policy",
+      "classification": "prohibited"
+    },
+    {
+      "field": "health-systems",
+      "id": "health-systems-health-services-management-research",
+      "classification": "prohibited"
+    },
+    {
+      "field": "health-systems",
+      "id": "health-systems-health-information-management-journal",
+      "classification": "prohibited"
+    }
+  ],
+  "proposed_patches": [
+    {
+      "id": "education-learning-sciences-journal-management-education",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage explicitly lists literature assistance and AI-generated or checked research code as appropriate subject to disclosure and verification. Its current journal policy contemplates primary or partial AI-generated text in research content, requires disclosure, and says disclosed use alone is not grounds for rejection. Together with its older broad policy, this supports conditional human-led partial drafting by inference, although it does not explicitly define the boundary with its prohibition on generating a submission through prompts. Authors remain responsible for verification and content.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions upon submission; appropriate research uses are disclosed in methods or acknowledgements. Routine language, grammar and structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/jme",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); Prohibited use of AI"
+        },
+        "restrictions": [
+          "AI analysis of experiences and themes is listed as inappropriate; avoid this specific qualitative analysis use.",
+          "No fabricated data or references, incorrect content, or interviews with GenAI in lieu of participants.",
+          "AI tools cannot be authors; authors verify outputs and original sources.",
+          "Generation of a submission using a series of prompts is listed as inappropriate; the boundary for partial AI drafting is not defined.",
+          "Analysis of experiences and themes is listed as inappropriate."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/jme",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal instructions direct authors to Sage AI or publication ethics policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Appropriate literature and coding assistance, disclosure of generated text, and explicit restrictions."
+          },
+          {
+            "url": "https://us.sagepub.com/en-us/nam/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Legacy Sage policy page; relationship to current journals policy not established",
+            "note": "Describes disclosure for primary or partial AI-generated submissions and recognizes research and writing assistance; timing and precedence relative to current policy unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Proposed conditional interpretation of combined current clauses; partial drafting is an inference and the boundary with the prompt-generated submission prohibition remains unresolved. Title-specific restrictions override; JME applicability evidence is weaker."
+    },
+    {
+      "id": "education-learning-sciences-journal-transformative-education",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage explicitly lists literature assistance and AI-generated or checked research code as appropriate subject to disclosure and verification. Its current journal policy contemplates primary or partial AI-generated text in research content, requires disclosure, and says disclosed use alone is not grounds for rejection. Together with its older broad policy, this supports conditional human-led partial drafting by inference, although it does not explicitly define the boundary with its prohibition on generating a submission through prompts. Authors remain responsible for verification and content.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions upon submission; appropriate research uses are disclosed in methods or acknowledgements. Routine language, grammar and structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/jtd",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); Prohibited use of AI"
+        },
+        "restrictions": [
+          "AI analysis of experiences and themes is listed as inappropriate; avoid this specific qualitative analysis use.",
+          "No fabricated data or references, incorrect content, or interviews with GenAI in lieu of participants.",
+          "AI tools cannot be authors; authors verify outputs and original sources.",
+          "Generation of a submission using a series of prompts is listed as inappropriate; the boundary for partial AI drafting is not defined.",
+          "Analysis of experiences and themes is listed as inappropriate."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/jtd",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal instructions direct authors to Sage AI or publication ethics policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Appropriate literature and coding assistance, disclosure of generated text, and explicit restrictions."
+          },
+          {
+            "url": "https://us.sagepub.com/en-us/nam/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Legacy Sage policy page; relationship to current journals policy not established",
+            "note": "Describes disclosure for primary or partial AI-generated submissions and recognizes research and writing assistance; timing and precedence relative to current policy unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Proposed conditional interpretation of combined current clauses; partial drafting is an inference and the boundary with the prompt-generated submission prohibition remains unresolved. Title-specific restrictions override; JME applicability evidence is weaker."
+    },
+    {
+      "id": "education-learning-sciences-culture-and-education",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage explicitly lists literature assistance and AI-generated or checked research code as appropriate subject to disclosure and verification. Its current journal policy contemplates primary or partial AI-generated text in research content, requires disclosure, and says disclosed use alone is not grounds for rejection. Together with its older broad policy, this supports conditional human-led partial drafting by inference, although it does not explicitly define the boundary with its prohibition on generating a submission through prompts. Authors remain responsible for verification and content.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions upon submission; appropriate research uses are disclosed in methods or acknowledgements. Routine language, grammar and structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/cye",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); Prohibited use of AI"
+        },
+        "restrictions": [
+          "AI analysis of experiences and themes is listed as inappropriate; avoid this specific qualitative analysis use.",
+          "No fabricated data or references, incorrect content, or interviews with GenAI in lieu of participants.",
+          "AI tools cannot be authors; authors verify outputs and original sources.",
+          "Generation of a submission using a series of prompts is listed as inappropriate; the boundary for partial AI drafting is not defined.",
+          "Analysis of experiences and themes is listed as inappropriate."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cye",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal instructions direct authors to Sage AI or publication ethics policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Appropriate literature and coding assistance, disclosure of generated text, and explicit restrictions."
+          },
+          {
+            "url": "https://us.sagepub.com/en-us/nam/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Legacy Sage policy page; relationship to current journals policy not established",
+            "note": "Describes disclosure for primary or partial AI-generated submissions and recognizes research and writing assistance; timing and precedence relative to current policy unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Proposed conditional interpretation of combined current clauses; partial drafting is an inference and the boundary with the prompt-generated submission prohibition remains unresolved. Title-specific restrictions override; JME applicability evidence is weaker."
+    },
+    {
+      "id": "education-learning-sciences-theory-research-education",
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage explicitly lists literature assistance and AI-generated or checked research code as appropriate subject to disclosure and verification. Its current journal policy contemplates primary or partial AI-generated text in research content, requires disclosure, and says disclosed use alone is not grounds for rejection. Together with its older broad policy, this supports conditional human-led partial drafting by inference, although it does not explicitly define the boundary with its prohibition on generating a submission through prompts. Authors remain responsible for verification and content.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions upon submission; appropriate research uses are disclosed in methods or acknowledgements. Routine language, grammar and structure suggestions do not require disclosure.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/tre",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); Prohibited use of AI"
+        },
+        "restrictions": [
+          "AI analysis of experiences and themes is listed as inappropriate; avoid this specific qualitative analysis use.",
+          "No fabricated data or references, incorrect content, or interviews with GenAI in lieu of participants.",
+          "AI tools cannot be authors; authors verify outputs and original sources.",
+          "Generation of a submission using a series of prompts is listed as inappropriate; the boundary for partial AI drafting is not defined.",
+          "Analysis of experiences and themes is listed as inappropriate."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/tre",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal instructions direct authors to Sage AI or publication ethics policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal",
+            "note": "Appropriate literature and coding assistance, disclosure of generated text, and explicit restrictions."
+          },
+          {
+            "url": "https://us.sagepub.com/en-us/nam/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Legacy Sage policy page; relationship to current journals policy not established",
+            "note": "Describes disclosure for primary or partial AI-generated submissions and recognizes research and writing assistance; timing and precedence relative to current policy unclear."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "audit_note": "Proposed conditional interpretation of combined current clauses; partial drafting is an inference and the boundary with the prompt-generated submission prohibition remains unresolved. Title-specific restrictions override; JME applicability evidence is weaker."
+    }
+  ],
+  "limitations": [
+    "The conditional drafting interpretation combines policy clauses and is not express permission for paragraph drafting; the exact scope of the prohibition on a submission generated using prompts remains ambiguous.",
+    "Review did not exhaustively search title-specific policies. Cross-field matches identify candidates for targeted review, not automatic replacements.",
+    "The older official page is undated and its precedence relative to the current journals policy is unverified."
+  ]
+}

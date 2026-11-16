@@ -1,0 +1,381 @@
+{
+  "subfield": "human-computer-interaction",
+  "role": "geography",
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/expand_batch_b/hci_geo",
+  "notes": [
+    "All eight unique candidate IDs from the helper were reviewed. Journal base, publisher location, research remit and author eligibility are distinct. Empty country arrays indicate unestablished location."
+  ],
+  "patches": [
+    {
+      "id": "human-computer-interaction-journal-of-human-technology-relations",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "journal contact address",
+            "source_url": "https://journals.open.tudelft.nl/jhtr/about/contact"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Reviewed scope and submission material does not affirm author geographic eligibility.",
+          "source_urls": [
+            "https://journals.open.tudelft.nl/jhtr/about"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Broad human-technology research; no geographic remit stated.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.open.tudelft.nl/jhtr/about/contact",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.open.tudelft.nl/jhtr/about",
+            "note": "Journal scope or submission guidance inspected; no affirmative geographic author eligibility established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-visualization-and-interaction",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "DK",
+            "name": "Denmark",
+            "basis": "publisher address",
+            "source_url": "https://www.journalovi.org/people.html"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Reviewed scope and submission material does not affirm author geographic eligibility.",
+          "source_urls": [
+            "https://www.journalovi.org/author-guide.html"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "International HCI and visualization community; no geographic restriction stated. The publisher is in Denmark; an independent venue base is not established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.journalovi.org/people.html",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.journalovi.org/author-guide.html",
+            "note": "Journal scope or submission guidance inspected; no affirmative geographic author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.journalovi.org/",
+            "note": "International HCI and visualization subject remit.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    },
+    {
+      "id": "human-computer-interaction-avances-en-interaccion-humano-computadora",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "MX",
+            "name": "Mexico",
+            "basis": "journal contact address",
+            "source_url": "https://revistaaihc.mx/index.php/aihc/about/contact"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "MX",
+            "name": "Mexico",
+            "basis": "publishing association journal contact address",
+            "source_url": "https://revistaaihc.mx/index.php/aihc/about/contact"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Reviewed scope and submission material does not affirm author geographic eligibility.",
+          "source_urls": [
+            "https://www.revistaaihc.mx/index.php/aihc/about/submissions"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "International forum; strengthens HCI community in Mexico and Ibero-America and beyond.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/about/contact",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.revistaaihc.mx/index.php/aihc/about/submissions",
+            "note": "Journal scope or submission guidance inspected; no affirmative geographic author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/about",
+            "note": "Association publisher and international forum including Mexico and Ibero-America.",
+            "access": "page"
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/about",
+            "note": "Publisher identity and location.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    },
+    {
+      "id": "human-computer-interaction-interaccion",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "ES",
+            "name": "Spain",
+            "basis": "owning association secretariat address",
+            "source_url": "https://aipo.es/contacto/"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [
+          {
+            "code": "ES",
+            "name": "Spain",
+            "basis": "publishing association secretariat address",
+            "source_url": "https://aipo.es/contacto/"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Reviewed scope and submission material does not affirm author geographic eligibility.",
+          "source_urls": [
+            "https://aipo.es/en/research/interaccion-journal/"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Spanish-language HCI journal aimed at Spanish-speaking researchers, especially Spain and Latin America; this is audience and language, not an author-location restriction.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://aipo.es/contacto/",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://aipo.es/en/research/interaccion-journal/",
+            "note": "Journal scope or submission guidance inspected; no affirmative geographic author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://aipo.es/investigacion/revista-interaccion/",
+            "note": "Association publication serves Spanish-speaking community especially Spain and Ibero-America.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    },
+    {
+      "id": "human-computer-interaction-journal-of-human-centered-technology",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "MY",
+            "name": "Malaysia",
+            "basis": "journal contact at Universiti Teknologi Malaysia",
+            "source_url": "https://humentech.utm.my/index.php/humentech/about/contact"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Reviewed scope and submission material does not affirm author geographic eligibility.",
+          "source_urls": [
+            "https://humentech.utm.my/index.php/humentech/about"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "International journal on human-centered technology; no regional research restriction stated.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://humentech.utm.my/index.php/humentech/about/contact",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://humentech.utm.my/index.php/humentech/about",
+            "note": "Journal scope or submission guidance inspected; no affirmative geographic author eligibility established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    },
+    {
+      "id": "human-computer-interaction-clei-electronic-journal",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal explicitly welcomes submissions from around the world.",
+          "source_urls": [
+            "https://www.clei.org/cleiej/index.php/cleiej/about"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Promotes computer science research in Latin America while accepting research from around the world; editor-in-chief affiliation alone does not establish journal base.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.clei.org/cleiej/index.php/cleiej/about/contact",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.clei.org/cleiej/index.php/cleiej/about",
+            "note": "Journal explicitly welcomes submissions from authors worldwide.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    },
+    {
+      "id": "human-computer-interaction-security-and-information-applications",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "MY",
+            "name": "Malaysia",
+            "basis": "publisher and editorial host address",
+            "source_url": "https://mojes.um.edu.my/index.php/JSIA/about/contact"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [
+          {
+            "code": "MY",
+            "name": "Malaysia",
+            "basis": "publisher research centre address",
+            "source_url": "https://mojes.um.edu.my/index.php/JSIA/about/contact"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Reviewed scope and submission material does not affirm author geographic eligibility.",
+          "source_urls": [
+            "https://mojes.um.edu.my/index.php/JSIA/about/submissions"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Security and information applications; no regional research restriction stated.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://mojes.um.edu.my/index.php/JSIA/about/contact",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://mojes.um.edu.my/index.php/JSIA/about/submissions",
+            "note": "Journal scope or submission guidance inspected; no affirmative geographic author eligibility established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    },
+    {
+      "id": "human-computer-interaction-international-journal-of-research-in-computing",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "LK",
+            "name": "Sri Lanka",
+            "basis": "journal faculty contact address",
+            "source_url": "https://ijrcom.org/index.php/ijrc/about/contact"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [
+          {
+            "code": "LK",
+            "name": "Sri Lanka",
+            "basis": "publishing faculty address",
+            "source_url": "https://www.ijrcom.org/download/issues/v3i1/IJRC31.pdf"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal explicitly welcomes submissions from around the world.",
+          "source_urls": [
+            "https://ijrcom.org/index.php/ijrc/gateway/plugin/WebFeedGatewayPlugin/rss"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Broad computing research; FAQ welcomes scholars worldwide.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://ijrcom.org/index.php/ijrc/about/contact",
+            "note": "Journal contact, editorial host, or owning association location inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://ijrcom.org/index.php/ijrc/gateway/plugin/WebFeedGatewayPlugin/rss",
+            "note": "Journal explicitly welcomes submissions from authors worldwide.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.ijrcom.org/download/issues/v3i1/IJRC31.pdf",
+            "note": "Publisher identity and location.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Geography independently checked against official venue or publisher materials; unspecified author location remains unverified."
+    }
+  ]
+}
