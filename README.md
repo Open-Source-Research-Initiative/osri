@@ -8,6 +8,8 @@ OSRI brings people across fields together to conduct human-driven Agentic-Powere
 
 OSRI prioritizes research submitted to credible venues that offer free submission and a free publication route. Use the [free publication directory](publications/venues/README.md) to compare options and the [publication guide](publications/free-publication.md) to choose a suitable route.
 
+New to the directory? Try the [90-second walkthrough](docs/venue-directory-demo.md), then [choose a small contributor task](community/venue-starter-tasks.md). You can help with a short source note or use report; no code is required.
+
 ## Start here
 
 1. Follow the [research guide](START_HERE.md), from a first question to a public output.

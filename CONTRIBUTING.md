@@ -1,5 +1,15 @@
 # Contribute to OSRI
 
+## Help with the venue directory
+
+Start with a [10–30 minute task](community/venue-starter-tasks.md), [report a source or correction](https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/new?template=venue-evidence.yml), or [share what happened when you tried a shortlist](https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/new?template=directory-use.yml). No coding, installation or pull request is required. Comment on a starter issue to volunteer and wait for a maintainer to confirm the claim; a small correction can be submitted directly.
+
+For a source check, give the venue, observation, official URL, date checked and any uncertainty. A use report can describe a public research topic; no manuscript upload is needed. Without a GitHub account, [email Cole](mailto:cole.lyons@pennmedicine.upenn.edu?subject=OSRI%20venue%20directory%20contribution). We will ask before creating a public record from an email or quoting your experience.
+
+Cole / @ajhcs reviews acceptance; maintainers handle data-file changes. Record material agent assistance. Public credit is optional, and accepted work is counted once per agreed task under the [contribution-register rules](community/README.md). See the [90-second walkthrough](docs/venue-directory-demo.md) to try the directory first.
+
+## Join other research work
+
 Start with the [short research guide](START_HERE.md). Ask questions and request public resources in [Q&A](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=q-a). Share topic proposals in [Ideas](https://github.com/Open-Source-Research-Initiative/.github/discussions/new?category=ideas).
 
 Use your preferred language. The [browser guide](docs/browser-setup.md) explains sign-in, a first submission, and project setup. You can ask a maintainer to add a source note or table to the repository.

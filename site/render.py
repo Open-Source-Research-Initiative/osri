@@ -52,6 +52,12 @@ def home(site):
 <section class="collaboration-banner" data-reveal><div><p class="eyebrow">Bring your perspective</p><h2 id="invitation-title">Good research takes many kinds of expertise.</h2><p>Review a source, contribute code, improve a draft or help translate. Choose a bounded task with a human lead. Use Discussions or email Cole to agree a next step.</p></div>{link('Find your contribution ↗', '/contribute/', class_='button primary')}</section>'''
 
 
+def venue_demo(site, title, guide):
+    body = site.heading('Directory walkthrough', title, 'Choose a field, inspect costs and AI disclosure, then save a comparison.')
+    body += '<video controls preload="metadata" playsinline width="1280" style="max-width:100%;height:auto" poster="/assets/demos/venue-directory-poster.jpg" aria-label="Captioned OSRI venue-directory walkthrough"><source src="/assets/demos/venue-directory-demo.webm" type="video/webm"><track kind="captions" src="/assets/demos/venue-directory-demo.vtt" srclang="en" label="English">Your browser cannot play this video. Follow the written walkthrough below.</video>'
+    return body + site.markdown(guide, 'docs/venue-directory-demo.md')
+
+
 def collaborate(site):
     routes = [
         ('01', 'Domain review', 'Check the interpretation and limits of a research claim.', site.docs['docs/find-help.md'] + '#request-review', 'Request or offer review'),
@@ -61,6 +67,7 @@ def collaborate(site):
         ('05', 'Translation', 'Help review a draft translation or propose another language.', site.docs['governance/translation.md'], 'Read the translation guide')
     ]
     body = site.heading('Collaborate', 'Bring what you know.', 'Choose a route, agree a bounded task and keep a person responsible. A browser is enough to begin.')
+    body += '<section class="contact-panel" id="venue-tasks"><h2>Help improve the venue directory</h2><p>Try a shortlist, check an author-cost or AI policy, or trace one source. Six starter tasks take about 10–30 minutes for a first attempt. Submit a short note; maintainers handle data-file changes. No code or installation is required.</p><div class="text-actions">' + link('Choose a starter task', site.docs['community/venue-starter-tasks.md'], class_='button primary') + link('Report a source or correction ↗', 'https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/new?template=venue-evidence.yml') + link('Try the walkthrough', site.docs['docs/venue-directory-demo.md']) + '</div><p class="small">Comment to volunteer; Cole / @ajhcs confirms the claim and reviews acceptance. Public credit is optional. Without a GitHub account, ' + link('email Cole', 'mailto:cole.lyons@pennmedicine.upenn.edu?subject=OSRI%20venue%20directory%20task') + '.</p></section>'
     body += '<div class="collaboration-grid">' + ''.join(f'<article><span class="eyebrow">{number}</span><h2>{escape(title)}</h2><p>{escape(text)}</p>{link(action + " ↗", url)}</article>' for number, title, text, url, action in routes) + '</div>'
     body += '<section class="home-section"><h2>Research tasks</h2>'
     for project in site.projects:
