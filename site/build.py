@@ -4,6 +4,7 @@
 
 import argparse
 import csv
+import hashlib
 from datetime import datetime
 from html import escape
 from html.parser import HTMLParser
@@ -28,7 +29,7 @@ ORIGIN = "https://open-source-research-initiative.github.io"
 GITHUB = "https://github.com/Open-Source-Research-Initiative"
 FORUM = "https://github.com/orgs/Open-Source-Research-Initiative/discussions"
 ALIASES = {"START_HERE.md": "/start/", "CONTRIBUTING.md": "/guides/contributing/", "community/ACTIVITY.md": "/activity/", "README.md": "/guides/osri/"}
-NAV = [("Research", "/research/"), ("Simulation Lab", "/simulation-lab/"), ("Resources", "/resources/"), ("Guides", "/guides/"), ("About", "/about/")]
+NAV = [("Research", "/research/"), ("Publication venues", "/venues/"), ("Simulation Lab", "/simulation-lab/"), ("Resources", "/resources/"), ("Guides", "/guides/"), ("About", "/about/")]
 AREAS = [("healthcare", "Healthcare", "Nonclinical public health and health systems research."), ("engineering", "Engineering", "Systems Engineering, Engineering Management, Operations Research, and Decision Science. Initial work excludes physical laboratory experiments."), ("informatics", "Informatics", "Bioinformatics, information systems, and Computational Natural Sciences. Initial work excludes physical laboratory experiments."), ("economics", "Economics", "Resources, incentives, public economics, research, and innovation."), ("social-behavioral-sciences", "Social and Behavioral Sciences", "Judgment, collaboration, organizations, and behavior."), ("public-policy", "Public Policy", "Policy analysis, evaluation, institutions, and governance.")]
 
 
@@ -214,7 +215,33 @@ class Website:
         return f'<form class="filters" role="search">{field}<p class="filter-count" role="status" aria-live="polite"></p></form>'
 
     def render_home(self):
-        self.write('/', self.layout('Open Source Research Initiative', render.home(self), home=True, description='Explore OSRI research, meet the people directing it and find a bounded contribution across six research areas.'))
+        self.write('/', self.layout('Open Source Research Initiative', render.home(self), home=True, description='Human-driven research across disciplines, with free publication routes, source-checked venue comparisons and open research records.'))
+
+    def render_venue_directory(self):
+        directory = HUB / 'publications/venues'
+        snapshot = json.loads((directory / 'snapshot.json').read_text())
+        browser = directory / 'browser.html'
+        expected = next(row['sha256'] for row in snapshot['files'] if row['path'] == 'browser.html')
+        if hashlib.sha256(browser.read_bytes()).hexdigest() != expected:
+            raise ValueError('Venue browser differs from its reviewed snapshot')
+        text = browser.read_text()
+        replacements = {
+            'href="DIRECTORY.md"': 'href="' + self.docs['publications/venues/README.md'] + '"',
+            'href="docs/methodology.md"': 'href="' + self.docs['publications/venues/methodology.md'] + '"',
+            'href="data/venues.csv"': 'href="/data/publications-venues-venues.csv"',
+            'href="data/venues.json"': 'href="/data/publications-venues-venues.json"',
+            'href="LICENSE.md"': 'href="' + self.docs['LICENSE.md'] + '"',
+            'href="https://github.com/Open-Source-Research-Initiative"': 'href="/"',
+            'href="${escapeText(p)}"': 'href="' + GITHUB + '/free-publication-directory/blob/' + snapshot['source_commit'] + '/${escapeText(p)}"',
+        }
+        for old, new in replacements.items():
+            text = text.replace(old, new)
+        description = 'Compare free research submission and publication routes by subfield, fee conditions, editorial demands and source-linked metrics.'
+        text = text.replace('</head>', '<meta name="description" content="' + description + '"><meta property="og:title" content="Free publication directory · OSRI"><meta property="og:description" content="' + description + '"><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"></head>')
+        source = link('Website source', self.source_url('publications/venues/snapshot.json'))
+        source += ' · ' + link('Directory repository', GITHUB + '/free-publication-directory')
+        text = text.replace('</footer>', '<p>' + source + '</p></footer>')
+        self.write('/venues/', text)
 
     def render_project_pages(self):
         for row in self.projects:
@@ -323,7 +350,7 @@ class Website:
     def render_publications(self):
         body = self.heading("Publications", "Share and build on the work", "Journal articles, full conference papers, preprints, and substantive research blogs or technical essays. Output type and peer-review status are recorded separately.")
         body += '<p>OSRI prioritizes research submitted to credible venues that offer free submission and a free publication route.</p>'
-        body += '<div class="text-actions">' + link("Find a free publication route", self.docs["publications/free-publication.md"]) + link("Venue directory", self.docs["publications/venues/README.md"]) + link("Publish and record your research", self.docs["publications/publish.md"]) + link("Counting rules", self.docs["publications/README.md"]) + link("Recorded totals", "/activity/#publication-outputs") + link("Share an output ↗", FORUM + "/categories/show-and-tell") + "</div>"
+        body += '<div class="text-actions">' + link("Find a free publication route", self.docs["publications/free-publication.md"]) + link("Venue directory", "/venues/") + link("Publish and record your research", self.docs["publications/publish.md"]) + link("Counting rules", self.docs["publications/README.md"]) + link("Recorded totals", "/activity/#publication-outputs") + link("Share an output ↗", FORUM + "/categories/show-and-tell") + "</div>"
         rows = [row for row in read_csv("publications/publications.csv") if row["status"] == "published"]
         if rows:
             body += '<div class="record-list">' + "".join(f'<article id="{escape(row["publication_id"].lower())}"><p class="eyebrow">{escape(row["publication_type"])} · {escape(row["peer_review_status"])}</p><h2>{link(row["title"], row["url"])}</h2><p>{escape(row["authors"])}</p><p>{escape(row["first_published_date"])} · Work {escape(row["work_id"])}</p></article>' for row in rows) + "</div>"
@@ -356,7 +383,7 @@ class Website:
         data_paths = ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv", "simulation-lab/tools.csv", "simulation-lab/papers.csv", "simulation-lab/examples.csv", "simulation-lab/research/routes.csv"]
         data_paths += [path.relative_to(HUB).as_posix() for path in sorted((HUB / "simulation-lab/research/verification").glob("*.csv"))]
         data_paths += [path.relative_to(HUB).as_posix() for path in sorted((HUB / "simulation-lab/reproductions").rglob("*.csv"))]
-        data_paths += ["publications/venues/venues.csv"]
+        data_paths += ["publications/venues/venues.csv", "publications/venues/venues.json"]
         for path in data_paths:
             destination = self.output / "data" / path.replace("/", "-")
             destination.parent.mkdir(exist_ok=True)
@@ -431,6 +458,7 @@ class Website:
         self.render_simulation()
         self.render_tools()
         self.render_publications()
+        self.render_venue_directory()
         self.render_guides()
         self.render_search()
         self.write("404.html", self.layout("Page not found", self.heading("404", "Page not found", "Use the guides or return to the home page.") + '<div class="text-actions">' + link("Home", "/") + link("Find a guide", "/guides/") + "</div>"))

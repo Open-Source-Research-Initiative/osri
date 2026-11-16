@@ -141,6 +141,23 @@ class Rendering(unittest.TestCase):
             self.assertIn('No venue candidates', second)
             self.assertNotIn('Candidate—under review', second)
             self.assertEqual(len([r for r in site.search_records.values() if r['type'] == 'project']), 2)
+            browser = (output / 'venues/index.html').read_text()
+            self.assertIn('href="/data/publications-venues-venues.csv"', browser)
+            self.assertIn('href="/data/publications-venues-venues.json"', browser)
+            self.assertNotIn('href="${escapeText(p)}"', browser)
+            self.assertIn('/free-publication-directory/blob/', browser)
+            self.assertEqual((output / 'data/publications-venues-venues.json').read_bytes(), (ROOT / 'publications/venues/venues.json').read_bytes())
+
+    def test_tampered_venue_browser_rejected(self):
+        with tempfile.TemporaryDirectory() as temp:
+            directory = Path(temp) / 'publications/venues'
+            directory.mkdir(parents=True)
+            shutil.copy2(ROOT / 'publications/venues/snapshot.json', directory / 'snapshot.json')
+            (directory / 'browser.html').write_text('<html>unreviewed replacement</html>')
+            site = object.__new__(build.Website)
+            with patch.object(build, 'HUB', Path(temp)):
+                with self.assertRaisesRegex(ValueError, 'reviewed snapshot'):
+                    site.render_venue_directory()
 
     def test_empty_projects_end_to_end(self):
         with self.fixture(empty=True) as (site, output):
