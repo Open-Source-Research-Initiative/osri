@@ -10,15 +10,19 @@ def project_url(key):
     return '/research/' + key.lower() + '/'
 
 
+def status_badge(summary):
+    return '<span class="status" data-activity="' + escape(summary['activity']) + '">' + escape(project_status(summary)) + '</span>'
+
+
 def project_card(site, project):
     key = project['project_id']
     summary = site.summaries.get(key)
     title = summary.get('short_title', project['title']) if summary else project['title']
-    status = project_status(summary) if summary else 'Summary pending'
+    status = status_badge(summary) if summary else '<span class="status">Summary pending</span>'
     text = summary['summary'] if summary else 'Read the project’s public repository for its question and current research state.'
     note = '<p class="small">' + escape(summary['hold_reason']) + '</p>' if summary and summary['activity'] == 'on_hold' else ''
     destination = project_url(key) if summary else project['repository_url']
-    return f'''<article class="project-card"><div class="project-meta"><span>{escape(key)}</span><span class="status">{escape(status)}</span></div><h3>{link(title, destination)}</h3><p>{escape(text)}</p>{note}<div class="card-bottom"><span>Human lead: {escape(project['human_lead'])}</span>{link('Explore project →', destination)}</div></article>'''
+    return f'''<article class="project-card"><div class="project-meta"><span>{escape(key)}</span>{status}</div><h3>{link(title, destination)}</h3><p>{escape(text)}</p>{note}<div class="card-bottom"><span>Human lead: {escape(project['human_lead'])}</span>{link('Explore project →', destination)}</div></article>'''
 
 
 def home(site):
@@ -104,7 +108,9 @@ def project(site, row):
     body = '<nav class="breadcrumbs" aria-label="Breadcrumb">' + link('Research', '/research/') + ' / ' + escape(key) + '</nav>'
     body += site.heading(key + ' · ' + row['areas'].replace(';', ' / '), row['title'], record['summary'])
     body += '<div class="text-actions">' + link('View materials ↓', '#materials') + link('Find a contribution task ↗', record['contribution']['url']) + '</div>'
-    body += '<div class="project-facts"><p><strong>Human lead</strong> ' + escape(row['human_lead']) + '</p><p><strong>Research status</strong> <span class="status">' + escape(project_status(record)) + '</span></p><p><strong>Status updated</strong> ' + escape(record['status_decision']['on']) + '</p></div>'
+    body += '<div class="project-facts"><p><strong>Human lead</strong> ' + escape(row['human_lead']) + '</p><p><strong>Research status</strong> ' + status_badge(record) + '</p><p><strong>Status updated</strong> ' + escape(record['status_decision']['on']) + '</p></div>'
+    if record['activity'] == 'on_hold':
+        body += '<p class="notice">' + escape(record['hold_reason']) + '</p>'
     body += '<ol class="project-stages" aria-label="Project stages">' + ''.join('<li' + (' aria-current="step"' if stage == record['stage'] else '') + '>' + escape(label) + '</li>' for stage, label in STAGES.items()) + '</ol>'
     body += '<div class="project-layout"><div><section id="question"><h2>The question</h2><blockquote>' + escape(record['question']) + '</blockquote></section><details id="current-status"><summary>Research checkpoint · source checked ' + escape(record['verified_on']) + '</summary><p>' + escape(record['status_detail']) + '</p></details><section id="methods"><h2>Methods and limits</h2><p>' + escape(record['methods']) + '</p></section></div><aside class="materials-panel" id="materials"><h2>Available materials</h2><ul>' + ''.join('<li>' + link(material['title'] + ' ↗', material['url']) + '</li>' for material in record['materials']) + '</ul>' + link('Open research repository ↗', row['repository_url']) + '<section id="contribution-task"><h3>One way to help</h3><p>' + escape(record['contribution']['summary']) + '</p>' + link(record['contribution']['title'] + ' ↗', record['contribution']['url']) + '</section></aside></div>'
     body += targets(site, key)

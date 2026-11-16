@@ -73,16 +73,18 @@ function renderComparison(){
  $('shortlist-count').textContent=`${selected.length} of 3 venues selected`;
  $('comparison-summary').textContent=`Compare selected venues (${selected.length}/3)`;
  if(!selected.length){$('comparison-content').replaceChildren();$('comparison').open=false;return;}
+ const fold=(title,preview,full)=>`<p>${preview}</p><details><summary>${title}</summary>${full}</details>`;
  const rows=[
-  ['Scope and article types',v=>`<p>${escapeText(scope(v))}</p><p>${escapeText(v.formats.map(label).join(', '))}</p>`],
   ['Submission cost',v=>escapeText(cost(v.route.submission_fee,v.route.eligibility))],
   ['Publication cost',v=>escapeText(cost(v.route.publication_fee,v.route.eligibility))],
-  ['Cost conditions',v=>`<p>${escapeText(v.route.conditions)}</p><p>${escapeText(v.route.other_mandatory_costs)}</p>${sources(v.route.fee_evidence.map(e=>e.url))}`],
-  ['AI use and disclosure',v=>`<p>${escapeText(v.ai_policy.summary)}</p><p>${escapeText(v.ai_policy.disclosure.instructions)}</p>${sources(v.ai_policy.disclosure.source_urls)}<ul>${v.ai_policy.restrictions.map(x=>`<li>${escapeText(x)}</li>`).join('')}</ul>`],
-  ['Location and eligibility',v=>`<p>${escapeText((v.geography.venue_countries||[]).map(c=>c.name).join(', ')||'Venue location not reported')}</p><p>${escapeText(v.geography.author_eligibility.description)}</p>${sources(v.geography.author_eligibility.source_urls)}`],
-  ['Peer review and standards',v=>`<p><strong>${escapeText(qualityLabels[v.quality.status])}</strong></p><p>${escapeText(v.quality.peer_review.summary)}</p>${warning(v)}${sources(v.quality.peer_review.source_urls)}`],
-  ['Indexing evidence',v=>`<ul>${v.quality.indexing.map(i=>`<li>${escapeText(i.name)} · ${escapeText(label(i.category))} · ${escapeText(label(i.verification))}${i.coverage?' · '+escapeText(i.coverage):''} ${sources(i.source_urls)}</li>`).join('')}</ul><p>DOI registration is not selective index inclusion.</p>`],
-  ['Reported metrics',v=>v.metrics.map(metricItem).join('<br>')||'Not reported'],
+  ['Editorial evidence',v=>`<strong>${escapeText(qualityLabels[v.quality.status])}</strong>${warning(v)}`],
+  ['Scope and article types',v=>fold('Full scope and article types',brief(scope(v),190),`<p>${escapeText(scope(v))}</p><p>${escapeText(v.formats.map(label).join(', '))}</p>`)],
+  ['Cost conditions',v=>fold('Full cost conditions and sources',brief(v.route.conditions,170),`<p>${escapeText(v.route.conditions)}</p><p>${escapeText(v.route.other_mandatory_costs)}</p>${sources(v.route.fee_evidence.map(e=>e.url))}`)],
+  ['AI use and disclosure',v=>fold('Disclosure instructions and restrictions',`Disclosure: ${escapeText(label(v.ai_policy.disclosure.status))}. ${brief(v.ai_policy.summary,150)}`,`<p>${escapeText(v.ai_policy.summary)}</p><p>${escapeText(v.ai_policy.disclosure.instructions)}</p>${sources(v.ai_policy.disclosure.source_urls)}<ul>${v.ai_policy.restrictions.map(x=>`<li>${escapeText(x)}</li>`).join('')}</ul>`)],
+  ['Location and eligibility',v=>fold('Full eligibility and sources',escapeText((v.geography.venue_countries||[]).map(c=>c.name).join(', ')||'Venue location not reported')+'. '+brief(v.geography.author_eligibility.description,150),`<p>${escapeText(v.geography.author_eligibility.description)}</p>${sources(v.geography.author_eligibility.source_urls)}`)],
+  ['Peer review policy',v=>fold('Full review policy and sources',brief(v.quality.peer_review.summary,170),`<p>${escapeText(v.quality.peer_review.summary)}</p>${sources(v.quality.peer_review.source_urls)}`)],
+  ['Indexing evidence',v=>fold('All index checks and sources',v.quality.indexing.slice(0,3).map(i=>escapeText(i.name)+' · '+escapeText(label(i.verification))).join('<br>'),`<ul>${v.quality.indexing.map(i=>`<li>${escapeText(i.name)} · ${escapeText(label(i.category))} · ${escapeText(label(i.verification))}${i.coverage?' · '+escapeText(i.coverage):''} ${sources(i.source_urls)}</li>`).join('')}</ul><p>DOI registration is not selective index inclusion.</p>`)],
+  ['Reported metrics',v=>v.metrics.length?fold('All metrics, periods and populations',['acceptance','jif','citescore'].map(t=>metric(v,t)).filter(Boolean).map(metricHeadline).join('<br>')||'Not reported',v.metrics.map(metricItem).join('<br>')):'Not reported'],
   ['Author guidance',v=>link(v.author_guidelines,'Read current instructions')]
  ];
  $('comparison-content').innerHTML=`<div class="comparison-scroll" role="region" aria-label="Venue comparison table; scroll horizontally on small screens" tabindex="0"><table><caption>Selected publication venues</caption><thead><tr><th scope="col">Compare</th>${selected.map(id=>{const v=byId.get(id);return `<th scope="col">${link(v.homepage,v.name)}<p><button type="button" data-remove="${escapeText(id)}" aria-label="Remove ${escapeText(v.name)} from comparison">Remove</button></p></th>`;}).join('')}</tr></thead><tbody>${rows.map(([name,render])=>`<tr><th scope="row">${name}</th>${selected.map(id=>`<td>${render(byId.get(id))}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;

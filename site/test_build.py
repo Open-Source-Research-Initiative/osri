@@ -191,6 +191,15 @@ class Rendering(unittest.TestCase):
                 with patch.object(build,'HUB',Path(temp)):
                     with self.assertRaisesRegex(ValueError,'reviewed snapshot'):site.venue_snapshot()
 
+    def test_explicit_project_hold_shows_reason_on_project_page(self):
+        with self.fixture() as (site, output):
+            record=site.summaries['OSRI-0001']
+            record.update(activity='on_hold',hold_reason='Whole-project hold requested by the human lead.')
+            text=render.project(site,site.projects[0])
+            self.assertIn('On hold · Research',text)
+            self.assertIn(record['hold_reason'],text)
+            self.assertIn('data-activity="on_hold"',text)
+
     def test_tampered_venue_browser_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             directory = Path(temp) / 'publications/venues'
