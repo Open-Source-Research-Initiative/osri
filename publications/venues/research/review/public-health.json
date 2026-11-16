@@ -1,0 +1,158 @@
+{
+  "subfield": "public-health",
+  "role": "review",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "public-health-bulletin-who",
+      "scope_notes": "International public-health research, systematic reviews and policy analysis; local findings need international significance. For primary research, at least one author must have an institutional affiliation in the country where the research took place. Systematic reviews require multilingual searches performed within six months of submission; guidance also calls for protocol registration. The journal normally excludes work published elsewhere, with a preprint exception specifically for research in a public-health emergency of international concern. These conditions materially limit independent-author and ordinary preprinted-work fit.",
+      "audit_note": "Independent skeptical review read the full current official contributor policy at https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors and About page. Fee audit and unknown difficulty retained. Scope replacement makes the primary-research affiliation and narrow preprint exception explicit, rather than implying generic preprint acceptance. The country-affiliation rule does not automatically apply to every secondary analysis; the policy names primary research. This is a journal-policy check, not an ethics determination."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "scope_notes": "Communicable-disease epidemiology, surveillance, prevention and control with European relevance, including relevant work conducted outside Europe. ECDC expressly lists regular research, surveillance and outbreak articles, reviews, rapid communications and perspectives. Existing surveillance-data analyses and syntheses can fit. Exact current article-length and submission requirements still need journal-author-guidance confirmation because that page returned HTTP 403.",
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.ecdc.europa.eu/en/about-us/procurement-and-grants/ecdc2025mvp0020-sec250530-editing-services",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811709/"
+        ]
+      },
+      "audit_note": "Independent review retrieved both current journal-specific ECDC publisher pages cited by the fee auditor. The organisational page explicitly identifies a diamond journal free to authors/readers; the 2025 editing-services notice confirms the article taxonomy and independent peer review. Retain verified_free for ordinary articles and replace historical review evidence with this stronger publisher source. The 2025 retrospective independently confirms 1050 submissions and one in five accepted; it does not establish a finalized submission cohort or exact accepted numerator. Author guidance remains blocked; no length limit was invented."
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "scope_notes": "Public-health practice, epidemiologic research, evaluation, methodology, meta-analysis and topical synthesis with practical implications. The methodology category asks for applications and examples using original data; a purely conceptual method description is not an established fit. For work involving human participants or human data, guidance requires an institutional IRB, nonresearch or exemption basis; authors should not independently declare themselves exempt. Original research, methodology and topical reviews are peer reviewed; some other categories are editor assessed or need prior agreement. Recent data, preferably under five years old, are favored.",
+      "audit_note": "Independent review read the official 32-page hosted instructions captured 25 June 2025 at https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf and independently retrieved the current official indexed HTML fee and ethics text at https://journals.sagepub.com/author-instructions/phr ; direct HTML timed out. The scope replacement exposes consequential methodology and institutional-ethics conditions for OSRI's existing-data work. The fee route is retained. Independently retrieved the full editors' 2023 report at https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/ and confirmed that the 15.2% rate uses 656 final decisions, with mixed peer/editor-reviewed content; it is historical and not research-article-specific."
+    },
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "scope_notes": "Chronic-disease prevention and population-health practice, including surveillance/survey and GIS analyses, evaluation and systematic reviews. Scoping reviews are excluded from the systematic-review category. The methods label maps to practical instructional Tools for Public Health Practice articles, which require a one-paragraph summary to the editor before manuscript submission; it does not establish a generic algorithm-paper format. Current guidance says submitted data should be the most current and no older than two years.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Ordinary submission/publication has no journal fees under the blanket author-cost policy. Follow article-specific limits and the two-year data-recency policy. Tools for Public Health Practice requires an editor summary before submission and is an instructional methods format. CDC publication and reuse-permission policies apply. No paid membership or editing prerequisite is stated.",
+        "other_mandatory_costs": "None for the ordinary author route. Costs of obtaining permission for chosen third-party material are external and author dependent.",
+        "fee_evidence": [
+          {
+            "url": "https://www.cdc.gov/pcd/for_authors/general_information.htm",
+            "checked_on": "2026-11-16",
+            "note": "Independent full-page read confirms the blanket exclusion of publishing-related charges, separately free reader access, and current-data guidance. This is author-cost evidence rather than reader access alone.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cdc.gov/pcd/for_authors/submit_manuscript.htm",
+            "checked_on": "2026-11-16",
+            "note": "Fee auditor directly inspected ordinary submission instructions and found no payment prerequisite; retained as the fee auditor's evidence, not a newly independent read in skeptical review.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cdc.gov/pcd/for_authors/types_of_articles.htm",
+            "checked_on": "2026-11-16",
+            "note": "Independent full-page read confirms peer-reviewed research/review formats and the prior editor-summary requirement for instructional Tools for Public Health Practice articles.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independent review supports verified_free: the full general-author policy excludes all publishing-associated author fees, and no contradictory charge was found. No artificial separate-sentence submission-fee uncertainty is introduced. Corrected methods fit and its prior-summary condition. Independently read current editorial and article-type policies plus the official announcement at https://www.cdc.gov/PCD/announcements.htm ; the announcement explicitly assigns 14.2% acceptance and JIF 5.6 to 2025. Denominator/article mix remain unknown and high remains a provisional agent judgment. No venue contact was made."
+    }
+  ],
+  "findings": [
+    {
+      "id": "public-health-bulletin-who",
+      "severity": "medium",
+      "issue": "The original scope summarizes author-affiliation and preprint rules too vaguely for independent researchers or projects already posted as ordinary preprints.",
+      "resolution": "Patched the complete scope_notes field with the precise primary-research country-affiliation and public-health-emergency preprint conditions. Direct current WHO policy supports the free route; the 2025 JIF label is independently confirmed and does not establish difficulty."
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "severity": "info",
+      "issue": "Discovery was blocked in the browser, while the fee audit promoted the route using direct HTTPS retrieval; that access and blanket-fee interpretation required independent verification.",
+      "resolution": "Independently obtained HTTP 200 and complete text from both https://journal.paho.org/en/about-journal and https://journal.paho.org/en/instructions-authors using ordinary Python urllib. The publisher expressly describes diamond access without researcher fees. Peer review, Americas relevance and English/Portuguese/Spanish submissions are supported. Retain verified_free and unknown difficulty."
+    },
+    {
+      "id": "public-health-emerging-infectious-diseases",
+      "severity": "info",
+      "issue": "Current 23.7% and typical approximately 25% acceptance summaries have different precision and undefined cohorts; supplement-organizer charges could also be confused with article-author charges.",
+      "resolution": "Independently read current https://wwwnc.cdc.gov/eid/page/eid-advantage and https://wwwnc.cdc.gov/eid/about/general . Both fee and acceptance distinctions are correctly preserved. The free route excludes organizer costs; acceptance periods remain null and high is a provisional judgment. The 2025 CiteScore label 9.5 is confirmed. The 2024 report PDF was not independently reread in this review."
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "severity": "low",
+      "issue": "The merged review field still relies on historical reports even though current journal-specific publisher evidence establishes taxonomy and peer review; exact journal length guidance is blocked.",
+      "resolution": "Patched full review and scope_notes fields with directly retrieved ECDC evidence. Independently verified free-to-authors wording on the current organisational page and 2025 procurement notice. Retain verified_free; blocked length guidance is still identified. Independently confirmed the 2025 retrospective's acceptance summary without converting it into exact individual odds."
+    },
+    {
+      "id": "public-health-journal-of-public-health-oup",
+      "severity": "info",
+      "issue": "A free standard licence plus no page/colour charges does not by itself explicitly exclude a submission fee. Fast OUP decisions could also be mistaken for rapid peer review.",
+      "resolution": "Independently read current https://academic.oup.com/jpubhealth/pages/author-guidelines , https://academic.oup.com/jpubhealth/pages/About and OUP metric definitions. Retain needs_verification for submission cost and unknown difficulty. All retained 2025 values match the publisher table; decision medians correctly include desk rejections. No positive evidence of a charged submission fee was found."
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "severity": "info",
+      "issue": "The headline no-fees statement has compulsory excess-page exceptions, especially important for the 6000-word review format.",
+      "resolution": "Independently read the full current https://journals.sagepub.com/author-instructions/sjp . Original, review and design papers exceed the free route after five printed pages counting references and graphics; GBP 80/USD 100 per extra page excluding VAT is confirmed. The merged route already states this correctly. Retain verified_free only within that format boundary and unknown difficulty."
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "severity": "medium",
+      "issue": "Broad existing-data/methods fit omits meaningful institutional ethics and demonstrated-methodology requirements. Historical acceptance must not be presented as a current research-paper rate.",
+      "resolution": "Patched the complete scope_notes field. Retained the correctly bounded standard free route, mixed-content 2023 metric definitions and explicitly historical provisional high judgment. Direct PDF, current indexed HTML and full primary editorial were independently checked; no newer official annual rate was found in the bounded search."
+    },
+    {
+      "id": "public-health-perspectives-in-public-health",
+      "severity": "info",
+      "issue": "Original/review articles and editorial opinion/practice/features have different review processes; the generic Sage sentence about additional page charges is not a journal-specific tariff.",
+      "resolution": "Independently read the full current https://journals.sagepub.com/author-instructions/rsh . Free standard subscription publication, optional paid OA/print colour, peer-reviewed research/reviews, editorial-only special sections and mandatory plain-language summaries are correctly qualified. No compulsory excess-page schedule was established. Retain the fee audit and unknown difficulty."
+    },
+    {
+      "id": "public-health-european-journal",
+      "severity": "info",
+      "issue": "A historical free subscription assumption would be false under current full-OA guidance; an old approximate acceptance statement cannot establish a current rate.",
+      "resolution": "Independently read the full current OUP guidance, About metrics, OUP definitions and 2020 primary editorial archived at https://pmc.ncbi.nlm.nih.gov/articles/PMC7536247/ . Confirmed compulsory APC, EUR 2956 regular/EUR 1408 short-report prices and 20% optional membership discount. Retain conditional status and unknown difficulty; 2020 publication date is not assigned as an unstated rate year."
+    },
+    {
+      "id": "public-health-annali-istituto-superiore-sanita",
+      "severity": "info",
+      "issue": "The live impact-factor announcement has a 2021 metadata date but updated 2025 text; optional reader subscriptions and ISS-only internal approval could be confused with author costs or universal eligibility restrictions.",
+      "resolution": "Independently retrieved complete https://annali.iss.it/index.php/anna/about , its submissions page and announcement/view/8 . Explicit submission/publication fee exclusion and current limits are confirmed. Preserve the publisher's 2025 metric label with the metadata caveat, verified_free and unknown difficulty. ISS authorization applies to ISS-affiliated authors."
+    },
+    {
+      "id": "public-health-epidemiologia-servicos-saude",
+      "severity": "info",
+      "issue": "Portuguese submission, SUS relevance and article-type limits are substantive fit conditions; publisher-funded translation must not become a hidden mandatory author purchase.",
+      "resolution": "Independently retrieved the full current Portuguese policy at https://www.scielo.br/journal/ress/about/ . Submission/evaluation/publication and provided translation fees are explicitly zero. Portuguese submission and the 3000-word original/systematic-review and 2000-word Evidência em contexto limits are confirmed. Retain verified_free and unknown difficulty."
+    },
+    {
+      "id": "public-health-college-community-physicians-sri-lanka",
+      "severity": "info",
+      "issue": "A society title does not establish compulsory membership or easy acceptance; study recency and English-language advice need correct treatment.",
+      "resolution": "Independently retrieved full current submissions and editorial-policy pages at https://jccpsl.sljol.info/ . They explicitly exclude submission/publication fees, accept local/international authors and describe two independent reviewers. Five-year recency with case-specific exceptions and 4500-word reviews are supported. Editing support is advisory. Retain verified_free and unknown difficulty."
+    },
+    {
+      "id": "public-health-delaware-journal",
+      "severity": "info",
+      "issue": "Regional/theme fit and review policy require verification; an accessible browser policy need not be accessible by every direct HTTP client.",
+      "resolution": "Independently read full official submission and peer-review pages through the web tool after urllib returned HTTP 403. They expressly exclude submission/processing/publication fees, establish single-blind peer review, emphasize regional relevance and direct authors to select an upcoming issue. Retain verified_free and unknown difficulty. The October 2025 PDF's numeric length limits were not independently reread in this review."
+    },
+    {
+      "id": "public-health-preventing-chronic-disease",
+      "severity": "medium",
+      "issue": "The broad methods label omits a required editor summary and could imply a generic methods-paper category. The broad no-publishing-fees statement and 2025 acceptance year also needed independent confirmation.",
+      "resolution": "Patched complete scope_notes and route fields to expose the instructional Tools category and prior summary. Direct current author and article-type policies support verified_free and peer review. The official announcement explicitly supplies 2025 for the 14.2% acceptance figure, but supplies no denominator. The provisional high judgment and metric qualifications are retained."
+    }
+  ],
+  "notes": [
+    "All 14 merged records were read by this fifth distinct agent after reading discovery, diamond, fees and ranking files and the research contract. Official policy evidence was independently retrieved for every venue, with the access limitations identified above. This is independent agent review, not human scientific review or manuscript-specific acceptance advice.",
+    "Final merged fee implication remains 12 verified_free for stated routes, one needs_verification (Journal of Public Health submission fee) and one conditional (European Journal of Public Health APC coverage/waiver). Four corrective patches improve fit detail or review evidence; no fee status is changed. Blanket author-cost exclusions are adequate for ordinary routes when no contradictory mandatory charge is found; reader-free access alone is not.",
+    "Independent ranking checks covered WHO's current JIF page; current EID acceptance/CiteScore pages; Eurosurveillance's 2025 primary retrospective; both OUP journal metric tables and common definitions; PHR's full 2023 report; Annali's current announcement; PCD's current official announcement; and EJPH's 2020 primary editorial. Retain the historical-versus-current and decision-versus-submission distinctions already in the ranking file. A bounded search found no newer PHR annual acceptance report; this is not proof none exists.",
+    "Every retained difficulty label remains an agent judgment. The four provisional high labels have explicit aggregate acceptance evidence and limitations; the ten unknown labels are not inferred easy. Citation metrics, reviewer counts, region, word limits and decision speed do not measure a particular manuscript's acceptance probability. PHR's 2023 high basis is explicitly historical, EID's acceptance period remains unknown, and EJPH's approximate 20% is an undated rate mentioned in a 2020 editorial.",
+    "Sources were checked live on 16 November 2026. For PAHO, Annali, RESS, JCCPSL and PMC articles ordinary urllib retrieved official full text. The web tool independently supplied WHO, ECDC, CDC, OUP, SJPH, Perspectives, Delaware and the publisher-hosted PHR PDF. PHR current HTML was independently obtained as official indexed text after direct timeout. Eurosurveillance author guidance stayed blocked. These access differences are not resolved by pretending a snippet or another agent's read is this agent's full-page inspection.",
+    "Bounded coverage does not constitute exhaustive revalidation of every limit in every cited PDF: the discovery/fee agents' Delaware October 2025 numeric limits, the EID 2024 report and the PCD submission-step page were retained as attributed prior-agent evidence rather than falsely claimed as independent rereads. Core fee claims for those journals were independently supported by other current official sources.",
+    "No venue was contacted, manuscript submitted, human ethics determination made, software installed or remote state changed. Only research/review/public-health.json is owned and written by this role."
+  ]
+}

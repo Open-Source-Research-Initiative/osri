@@ -6,6 +6,8 @@ Use this guide when a draft is ready for human review. Keep the project's eviden
 
 Choose an audience and an output type. Check the destination's current instructions before preparing files.
 
+OSRI prioritizes [free submission and a free publication route](free-publication.md). Start with the [venue directory](venues/README.md), then confirm scope, article type, submission availability, author eligibility, and the conditions that keep the chosen route free. Check submission fees, publication fees, page charges, compulsory membership, and conference registration separately. Keep waivers and institutional agreements conditional until eligibility is established.
+
 | Output | Next action |
 | --- | --- |
 | Research blog or technical essay | Choose a public site or repository page. Include the question, sources or methods, findings, and limits. |

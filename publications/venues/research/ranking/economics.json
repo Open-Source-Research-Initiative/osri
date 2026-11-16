@@ -1,0 +1,294 @@
+{
+  "subfield": "economics",
+  "role": "ranking",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "economics-review-of-economic-analysis",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. The official policy screens submissions for quality before external review, but supplies no quantified selectivity or sufficiently specific contribution threshold for a defensible comparative band. Its 12-week first-decision objective is a target for papers sent to referees, not an acceptance rate.",
+        "source_urls": [
+          "https://openjournals.uwaterloo.ca/index.php/rofea/about"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Official About page read; no current year-qualified citation or acceptance metric located there. A 2020 anniversary editorial makes an older RePEc positioning claim without a reproducible metric period/denominator; it was not converted into a current JIF or difficulty rank."
+    },
+    {
+      "id": "economics-erasmus-journal-for-philosophy-and-economics",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. Research articles require editorial assessment of relevance, coherence, scholarship and significance, followed by at least two expert double-blind reviews. Support for young scholars and a constructive process does not establish easy acceptance; book reviews, interviews and thesis summaries have distinct review status.",
+        "source_urls": [
+          "https://ejpe.org/journal/about",
+          "https://ejpe.org/journal/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Official About and submission policies inspected. No year-qualified journal-level citation metric or acceptance statistic located in these policies. Review-time objectives are not measured selectivity, and the existing AI-text restriction remains applicable."
+    },
+    {
+      "id": "economics-economics-and-business-letters",
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment within short economics/business research letters, as historical context only: the journal reports a cumulative 13.57% acceptance proportion for 2012–2025 and pre-screens papers before at least two expert reviews; its policy excludes major revisions. The cumulative incomplete cohort is not a current individual acceptance probability. New submissions are closed from 19 October 2026 until further notice.",
+        "source_urls": [
+          "https://reunido.uniovi.es/index.php/EBL/about",
+          "https://reunido.uniovi.es/index.php/EBL/announcement/view/150",
+          "https://reunido.uniovi.es/index.php/EBL/announcement"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.0,
+          "year": 2025,
+          "population": "Citations in 2025 to journal content from 2023–2024 divided by its eligible scholarly items from 2023–2024; raw counts not supplied on the venue page.",
+          "source_url": "https://reunido.uniovi.es/index.php/EBL/announcement/view/189",
+          "note": "Official venue/publisher value for the stated metric year. Citation impact is not selectivity. Definition reference: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        },
+        {
+          "name": "CiteScore",
+          "value": 1.5,
+          "year": 2025,
+          "population": "Citations during 2022–2025 to eligible journal documents published in 2022–2025 divided by eligible documents from the same four years; raw counts not supplied on the venue page.",
+          "source_url": "https://reunido.uniovi.es/index.php/EBL/announcement/view/189",
+          "note": "Official venue/publisher value for the stated metric year, not an acceptance statistic. Definition reference: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "value": 13.57,
+          "year": "2012–2025 (provisional; updated January 2026)",
+          "population": "371 accepted out of 2,737 received manuscripts as reported; the journal also lists 2,334 rejected and 29 under review. The disposition counts sum to 2,734, leaving 3 received manuscripts unreconciled.",
+          "source_url": "https://reunido.uniovi.es/index.php/EBL/announcement/view/150",
+          "note": "Retained as the official cumulative received-manuscript proportion. It includes unresolved submissions and is not a final-decision cohort. Do not substitute the stale 2012–2023 About-page rate or reinterpret this as a current annual rate."
+        }
+      ],
+      "audit_note": "Official metric and statistics announcements and About page independently read; current announcement also confirms closure. Use the newer, explicitly dated 2025 citation announcement instead of the About page’s 2024 citation figures. Preserve submission_status=closed and its evidence; this ranking patch does not make the venue an active recommendation."
+    },
+    {
+      "id": "economics-ekoist-journal-of-econometrics-and-statistics",
+      "difficulty": {
+        "band": "moderate",
+        "basis": "Provisional agent judgment within applied econometrics/statistics: the official 2025 outcome table reports 36 accepted and 35 rejected articles, rounded to 51% acceptance. Together with an editor’s originality/methodology/significance screen and at least two referees, this supports a moderate rather than an easy label for well-matched quantitative economic work. The outcome table does not estimate an individual manuscript’s odds.",
+        "source_urls": [
+          "https://dergipark.org.tr/en/pub/ekoist/aim-and-scope",
+          "https://dergipark.org.tr/en/pub/ekoist/page/8959",
+          "https://dergipark.org.tr/en/pub/ekoist/rejection-statistics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance ratio (%)",
+          "value": 51,
+          "year": 2025,
+          "population": "2025 table: 36 accepted and 35 rejected articles, implying 71 tabulated accept/reject outcomes. Withdrawn, returned, pending manuscripts and submission-year cohort rules are not defined as part of this denominator.",
+          "source_url": "https://dergipark.org.tr/en/pub/ekoist/rejection-statistics",
+          "note": "Official rounded percentage, not recomputed precision: 36/(36+35) is approximately 50.70%. Use only the EKOIST table; the separate predecessor-title rows of zeros are not this journal’s acceptance rate. The unselected time-statistics panel was not assigned a guessed year."
+        }
+      ],
+      "audit_note": "Official aims, review policy and acceptance/rejection table read. Regional location and missing JIF were not used to assign difficulty. No year-qualified official citation metric was located in the reviewed journal material."
+    },
+    {
+      "id": "economics-journal-of-mechanism-and-institution-design",
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional qualitative agent judgment within mechanism/institution design: editors may desk-reject relevant work for insufficient priority, and reviewers assess originality and significance as well as correctness. Empirical, experimental and computational results must be replicable with underlying data supplied. This priority threshold supports high difficulty qualitatively; no numerical acceptance odds are established.",
+        "source_urls": [
+          "https://www.mechanism-design.org/dox/PeerReviewPolicies.pdf",
+          "https://www.mechanism-design.org/dox/GuideForAuthors.pdf"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Official homepage and both one-page policy PDFs read. No official year-qualified citation or acceptance metric located in this bounded search. Editorial-board affiliations, claimed prestige and journal sponsorship were not substituted for selectivity data."
+    },
+    {
+      "id": "economics-comparative-economic-studies",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. The official scope requires original political-economy analysis and a comparative perspective while allowing single-country/region cases, but discloses no acceptance statistic or specific selectivity threshold sufficient to stratify difficulty. Citation impact and rapid first decisions do not supply that missing evidence.",
+        "source_urls": [
+          "https://link.springer.com/journal/41294/aims-and-scope",
+          "https://link.springer.com/journal/41294"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.9,
+          "year": 2025,
+          "population": "Citations in 2025 to journal content from 2023–2024 divided by its eligible scholarly items from 2023–2024; raw counts not supplied on the venue page.",
+          "source_url": "https://link.springer.com/journal/41294",
+          "note": "Official venue/publisher value for the stated metric year. Citation impact is not selectivity. Definition reference: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.7,
+          "year": 2025,
+          "population": "Citations in 2025 to journal content from 2020–2024 divided by its eligible scholarly items from 2020–2024; raw counts not supplied on the venue page.",
+          "source_url": "https://link.springer.com/journal/41294",
+          "note": "Official venue/publisher value for the stated metric year. Citation impact is not selectivity. Definition reference: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        }
+      ],
+      "audit_note": "Official homepage and aims read. The homepage’s 16-day median first decision has no displayed measurement year/population, so no year-qualified turnaround metric was created. Its 2025 downloads measure readership, not acceptance."
+    },
+    {
+      "id": "economics-journal-of-comparative-economics",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No current comparative difficulty band established. OUP’s call for outstanding political-economy work describes the new chapter beginning in 2027, and does not supply an annual acceptance denominator. It cannot establish current November 2026 availability or override the fee audit’s staged-portal finding.",
+        "source_urls": [
+          "https://academic.oup.com/jce/pages/about",
+          "https://academic.oup.com/jce/pages/why-publish"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Official OUP About/Why Publish pages read. OUP homepage initially timed out, legacy ScienceDirect insights returned 403, and an independent portal fetch was inaccessible. No legacy citation/acceptance value was imported or treated as a prospective OUP metric. Preserve needs_verification, the unresolved live route and the prohibition on using the staged portal for live submissions; no active recommendation is created."
+    },
+    {
+      "id": "economics-swiss-journal-of-economics-and-statistics",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. The official journal welcomes contributions across economics and early-career researchers, but neither that welcome nor an efficient review target establishes acceptance probability. Pure statistics is out of scope; no year-defined selectivity statistic was located.",
+        "source_urls": [
+          "https://link.springer.com/journal/41937",
+          "https://link.springer.com/journal/41937/aims-and-scope"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Official homepage and scope read. The 9-day median first-decision figure has no displayed period or defined manuscript population, and 2025 downloads are usage rather than citation/selectivity. No missing JIF was interpreted as evidence of easier acceptance."
+    },
+    {
+      "id": "economics-public-sector-economics",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. The journal reports 15% acceptance for 2025 but does not define the denominator, cohort or counts; the number is retained with that explicit limitation and is not directly compared with Wiley’s final-decision rate. Original public-sector analysis faces editorial screening and at least two external reviews.",
+        "source_urls": [
+          "https://www.pse-journal.hr/en/about-pse/",
+          "https://www.pse-journal.hr/en/for-authors/"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate (%)",
+          "value": 15,
+          "year": 2025,
+          "population": "Unknown denominator: official About page does not state whether this covers all submissions, final decisions or externally reviewed manuscripts, and gives no accepted/submitted counts.",
+          "source_url": "https://www.pse-journal.hr/en/about-pse/",
+          "note": "Official year-defined value only. Denominator and cohort definition were not invented; insufficient for an apples-to-apples numerical selectivity comparison or a manuscript-specific acceptance estimate."
+        }
+      ],
+      "audit_note": "Official About and For Authors pages read directly; initial incorrect/inaccessible homepage paths were replaced with the actual About PSE link. Fee audit’s unresolved publication costs remain unchanged."
+    },
+    {
+      "id": "economics-health-economics",
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment within health economics: the official 2025 final-decision acceptance rate is 10%, including rejections without review. Author criteria require an original, innovative and significant contribution and normally exclude routine cost-effectiveness, discrete-choice and costing applications. These explicit contribution/selectivity demands support high difficulty independently of citation impact. Clinical systematic reviews are outside the stated literature-review scope.",
+        "source_urls": [
+          "https://onlinelibrary.wiley.com/page/journal/10991050/homepage/forauthors.html",
+          "https://onlinelibrary.wiley.com/journal/10991050/journal-metrics",
+          "https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.0,
+          "year": 2025,
+          "population": "Citations in 2025 to journal content from 2023–2024 divided by its eligible scholarly items from 2023–2024; raw counts not supplied on the venue page.",
+          "source_url": "https://onlinelibrary.wiley.com/journal/10991050/journal-metrics",
+          "note": "Official venue/publisher value for the stated metric year. Citation impact is not selectivity. Definition reference: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.9,
+          "year": 2025,
+          "population": "Citations during 2022–2025 to eligible journal documents published in 2022–2025 divided by eligible documents from the same four years; raw counts not supplied on the venue page.",
+          "source_url": "https://onlinelibrary.wiley.com/journal/10991050/journal-metrics",
+          "note": "Official venue/publisher value for the stated metric year, not an acceptance statistic. Definition reference: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "value": 10,
+          "year": 2025,
+          "population": "Papers accepted among all papers reaching a final decision during 2025, using final-decision date rather than submission year; includes rejections without external review. Raw counts are not displayed.",
+          "source_url": "https://onlinelibrary.wiley.com/journal/10991050/journal-metrics",
+          "note": "Wiley’s official journal metric. Denominator definition: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html . A journal-wide historical rate is not an individual manuscript probability."
+        }
+      ],
+      "audit_note": "Official year-labelled metrics, author criteria and publisher metric definitions read. Fee status remains needs_verification; a high-difficulty band does not certify a free submission/publication route."
+    },
+    {
+      "id": "economics-review-of-economic-perspectives",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. Current university instructions require original economics/economic-policy work and double-blind review, but no year-defined selectivity statistic was located. A regional policy emphasis and journal-level citation impact cannot establish ease of acceptance.",
+        "source_urls": [
+          "https://roep.mendelu.cz/artkey/inf-990000-0300_about-the-journal.php",
+          "https://roep.mendelu.cz/artkey/inf-990000-0500_submission-guidelines.php"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Current owner About/guidelines and official hosting-platform metrics inspected. Owner calls its current impact factor 0.8; platform says 0.4 and CiteScore 2.3. None is assigned an explicit metric year, and the impact-factor values conflict. Excluded these from the year-qualified metrics array instead of guessing a year or silently choosing one."
+    },
+    {
+      "id": "economics-european-journal-of-government-and-economics",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. Official criteria require substantively relevant and original government/economics questions, editorial screening and normally at least two independent double-blind reviews. Applying existing models to new datasets is expressly eligible, but that does not quantify acceptance selectivity. Regional interests or citation position do not justify an easy label.",
+        "source_urls": [
+          "https://revistas.udc.es/index.php/ejge/about",
+          "https://revistas.udc.es/index.php/ejge/editorialstatistics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "CiteScore",
+          "value": 1.2,
+          "year": 2025,
+          "population": "Citations during 2022–2025 to eligible journal documents published in 2022–2025 divided by eligible documents from the same four years; raw counts not supplied on the venue page.",
+          "source_url": "https://revistas.udc.es/index.php/ejge/about",
+          "note": "Official venue/publisher value for the stated metric year, not an acceptance statistic. Definition reference: https://authors.wiley.com/author-resources/Journal-Authors/find-a-journal/journal-metrics.html"
+        }
+      ],
+      "audit_note": "Official About page and editorial statistics inspected. The About page explicitly labels CiteScore as 2025; its percentile lacks a displayed category denominator and was omitted. Editorial-statistics tables exposed headings but no numerical rows in the fetched page; no acceptance rate was invented."
+    },
+    {
+      "id": "economics-central-european-economic-journal",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. Official scope requires original theoretical/empirical research or reviews that advance the field, with findings relevant beyond a single country and clear international-literature contributions where applicable. These are substantive fit requirements but do not disclose a comparative selectivity level; Central/Eastern European relevance does not imply easy acceptance.",
+        "source_urls": [
+          "https://reference-global.com/journal/CEEJ",
+          "https://reference-global.com/download/document/journal/CEEJ/Submission_and_Formatting_Instructions.pdf"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Official scope, four-page instructions and metrics tab read. Platform lists CiteScore 1.4, SJR 0.209, SNIP 0.439 and h5 measures without a stated metric year/window; all were omitted from the year-qualified metrics array. No acceptance figure located in the inspected policies."
+    },
+    {
+      "id": "economics-economia-pucp",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No comparative difficulty band established. Official search-indexed policies describe originality/relevance screening and double-blind external review, but a current year-defined selectivity statistic was not verified. Latin American emphasis and open access supply no basis to infer easy acceptance.",
+        "source_urls": [
+          "https://revistas.pucp.edu.pe/index.php/economia/about",
+          "https://revistas.pucp.edu.pe/index.php/economia/normas_evaluacion"
+        ]
+      },
+      "metrics": [],
+      "audit_note": "Direct About/author/evaluation-page retrieval remained restricted, and ordinary HTTP retrieval returned a challenge page. Official search-indexed policy text was available but is weaker than direct page evidence; no unverified metric was imported. A 2024 accepted-to-publication timing claim in an official call is neither review duration nor acceptance probability and was not used for ranking."
+    }
+  ],
+  "notes": [
+    "All 14 discovery/diamond candidates were reviewed in this ranking pass. Only this assigned ranking file is written; every route and fee exclusion remains owned by the fee audit. Citation reach, acceptance selectivity, manuscript fit, current availability and fee eligibility are separate claims.",
+    "Difficulty bands are provisional agent judgments within the stated economics niche, never measured manuscript-specific odds or a cross-disciplinary prestige ladder. Three high bands (including historical closed EBL), one moderate band and ten unknown bands are retained. No venue was labelled easy from geographic focus, community sponsorship, absent metrics or absent JIF.",
+    "Eleven metric objects across six venues retain official values and exact years/periods: 7 citation metrics plus 4 acceptance metrics. PSE explicitly lacks a denominator definition; EKOIST’s 71 is the sum of tabulated accept/reject outcomes; EBL’s cumulative dispositions leave 3 received manuscripts unreconciled; Wiley’s denominator is the 2025 final-decision cohort. These rates are not directly interchangeable.",
+    "Year-qualified citation metrics use 2025 citation windows. The displayed venue pages do not supply raw citation/item counts, so population fields provide the metric definition rather than fabricate counts. Definitions were checked against the publisher’s official metrics guide. JIF, CiteScore, downloads and decision times did not determine difficulty.",
+    "Undated or conflicting RoEP figures and undated CEEJ citation figures were excluded from metrics rather than assigned guessed years. Missing metrics mean not verified in this bounded official-source search, not zero impact, no indexing or easy acceptance.",
+    "EBL remains closed from 2026-10-19 until further notice despite its documented fee-free policy and historical metrics. JCE’s prospective 2027 OUP description and staging portal remain unsuitable for an active November 2026 recommendation. Ranking patches do not override these availability/route restrictions.",
+    "Limitations: some official pages were blocked, restricted or timed out; PUCP policy evidence was search-indexed rather than a successful full-page retrieval. No third-party impact-factor aggregator, inferred fee, venue contact, account creation or manuscript submission was used. This is documentary agent research, not human scientific review."
+  ]
+}

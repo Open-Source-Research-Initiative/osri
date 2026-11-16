@@ -1,0 +1,233 @@
+{
+  "subfield": "health-systems",
+  "role": "ranking",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "health-systems-medical-care-research-and-review",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment about the contribution required within health-services research, not acceptance odds. Empirical articles must significantly advance knowledge; the instructions require an explicit account of the new contribution and theoretical framing. Even descriptive brief reports must establish a new contribution and rigor. These are stronger contribution demands than a scope match alone.",
+        "source_urls": ["https://journals.sagepub.com/author-instructions/mcr"]
+      },
+      "metrics": [],
+      "audit_note": "Read official article-type and contribution requirements. Sage journal metrics/overview endpoints were inaccessible or timed out, including an ordinary HTTPS attempt. No current dated citation value or acceptance cohort was verified; third-party figures were excluded."
+    },
+    {
+      "id": "health-systems-journal-of-health-services-research-and-policy",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official publication criteria include originality and importance of the question, appropriate methods, critical engagement with evidence, justified policy implications, and intelligibility to international readers. These identify editorial expectations, but no current selectivity cohort or sufficiently distinctive threshold was verified to establish a comparative difficulty band. International relevance is a fit condition.",
+        "source_urls": ["https://journals.sagepub.com/author-instructions/HSR"]
+      },
+      "metrics": [],
+      "audit_note": "Read official author criteria and homepage. The homepage advertises decision speed without a reporting period; this is not acceptance-rate evidence. Sage metrics endpoints were inaccessible. Official issue front matter found in search reports a 2023 impact factor, which is historical and was not substituted for a current verified value."
+    },
+    {
+      "id": "health-systems-health-services-management-research",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within health-services management research, not acceptance odds. Theoretical/methodological submissions must make a substantive advance rather than repeat existing methods or theory. The editorial policy explicitly allows rejection before review for insufficient originality or importance given the quarterly journal's space constraints; practical contributions also require rigorous impact assessment and potentially generalizable learning.",
+        "source_urls": ["https://journals.sagepub.com/author-instructions/hsm"]
+      },
+      "metrics": [],
+      "audit_note": "Read current official article types and peer-review criteria. No current official acceptance rate with a verified period/population was retrieved. Sage metrics endpoints were inaccessible; third-party acceptance and impact figures were excluded. The judgment concerns research contributions; perspectives and nonscientific article types have different review requirements."
+    },
+    {
+      "id": "health-systems-health-information-management-journal",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official instructions require original work that advances health-information-management knowledge or practice, critical literature reviews and appropriate methods. They also accommodate smaller professional-practice and innovation reports. These article-specific criteria and the review procedure do not establish relative selectivity or acceptance probability; no comparative band is justified by the evidence inspected.",
+        "source_urls": ["https://journals.sagepub.com/author-instructions/him"]
+      },
+      "metrics": [],
+      "audit_note": "Read official article-type and review requirements. No current dated citation metric or acceptance cohort was verified from Sage because journal metrics endpoints were inaccessible. International readership and association ownership were not treated as difficulty indicators."
+    },
+    {
+      "id": "health-systems-journal-of-health-organization-and-management",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within health-organization/management research, not acceptance odds. The official scope explicitly discourages superficial description and expects justified, meaningful theoretical engagement across aims, design, analysis, results and contribution. Original empirical insights, novel frameworks or critical challenges to established thinking support a demanding contribution threshold independently of citation metrics.",
+        "source_urls": ["https://www.emerald.com/jhom/pages/about"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (Clarivate; publisher-reported)",
+          "value": 2.4,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to the number of citable items published in 2023–2024. Raw numerator and denominator are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/jhom",
+          "note": "The current official journal homepage labels this the 2025 Journal Impact Factor. The older official emeraldgrouppublishing.com page returned conflicting figures in search; the live migrated homepage is used. Citation impact is not acceptance difficulty or an individual paper's quality."
+        },
+        {
+          "name": "CiteScore (Scopus; publisher-reported)",
+          "value": 3.3,
+          "year": 2025,
+          "population": "Scopus CiteScore 2025: citations received in 2022–2025 to eligible documents published in 2022–2025, divided by those eligible documents (articles, reviews, conference papers, book chapters and data papers). Raw counts are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/jhom",
+          "note": "Current official homepage explicitly labels 2025 CiteScore. This is the completed-year citation metric, not a tracker or an acceptance rate."
+        }
+      ],
+      "audit_note": "Read current official scope, homepage and indexing page. The current homepage shows a 15.3% acceptance snapshot without a cohort period or denominator definition. Older official pages indexed in search show 32.3% for an earlier submission cohort. Neither value is retained as a comparable current acceptance metric, and neither drives the difficulty judgment."
+    },
+    {
+      "id": "health-systems-international-journal-of-health-governance",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "The official scope calls for innovative empirical/conceptual research and actionable governance insights. These contribution aims and two-reviewer policy do not establish comparative selectivity. No current acceptance cohort with an attributable period was verified; a band is therefore withheld.",
+        "source_urls": ["https://www.emerald.com/ijhg/pages/about", "https://www.emerald.com/ijhg"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (Clarivate; publisher-reported)",
+          "value": 1.7,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to the number of citable items published in 2023–2024. Raw numerator and denominator are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/ijhg",
+          "note": "The current official migrated homepage explicitly labels 2025 Journal Impact Factor. Older official pages indexed in search display different values; this record uses the current homepage snapshot. Not a selectivity or acceptance measure."
+        },
+        {
+          "name": "CiteScore (Scopus; publisher-reported)",
+          "value": 4.3,
+          "year": 2025,
+          "population": "Scopus CiteScore 2025: citations received in 2022–2025 to eligible documents published in 2022–2025, divided by those eligible documents (articles, reviews, conference papers, book chapters and data papers). Raw counts are not disclosed on the journal page.",
+          "source_url": "https://www.emerald.com/ijhg",
+          "note": "Current official homepage explicitly labels 2025 CiteScore; completed-year citation metric only."
+        }
+      ],
+      "audit_note": "Read official scope, homepage and indexing page. The current homepage shows 16.7% acceptance without a reporting period or population definition; older official pages/search material show 35.5% for an earlier cohort. No current acceptance statistic is retained. An acceptance percentage for an unqualified cohort is not a manuscript-specific probability."
+    },
+    {
+      "id": "health-systems-health-care-management-science",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within quantitative health-care operations/management science, not acceptance odds. The official scope discourages routine uses of known methods. Method-oriented work must establish practical relevance; application-oriented work must demonstrate improvement over existing practice or available approaches through rigorous analysis. The practice department also requires originality, substantial contribution and practical validity.",
+        "source_urls": ["https://link.springer.com/journal/10729/aims-and-scope"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (publisher-reported)",
+          "value": 2.8,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to citable items published in 2023–2024. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Official Springer journal metrics explicitly label 2.8 (2025). Citation metric retained separately from contribution-based difficulty."
+        },
+        {
+          "name": "5-year Journal Impact Factor (publisher-reported)",
+          "value": 2.9,
+          "year": 2025,
+          "population": "Journal-level five-year JIF: citations in 2025 to journal content from 2020–2024 relative to citable items in that five-year publication window. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Official homepage explicitly labels 2.9 (2025). Longer citation window; not an acceptance metric."
+        },
+        {
+          "name": "CiteScore (publisher-reported)",
+          "value": 4.3,
+          "year": 2025,
+          "population": "Scopus CiteScore 2025: citations received in 2022–2025 to eligible documents published in 2022–2025, divided by those eligible documents. Eligible types are articles, reviews, conference papers, book chapters and data papers; raw counts not supplied.",
+          "source_url": "https://link.springer.com/journal/10729",
+          "note": "Official homepage's Scopus update explicitly states CiteScore 4.3 for 2025. Completed-year citation measure."
+        }
+      ],
+      "audit_note": "Read official homepage and detailed departmental contribution criteria. No official acceptance-rate value was found. First-decision speed was not used as evidence of acceptance difficulty. Fee-audit needs_verification status is preserved by omitting route changes."
+    },
+    {
+      "id": "health-systems-journal-of-medical-systems",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within evaluated health-informatics systems research, not acceptance odds. Current instructions explicitly identify narrow algorithm comparisons, nongeneralizable QI anecdotes, weak conceptual surveys and irreproducible reviews as desk-rejection risks. They require meaningful systems contributions, reproducible review searches and detailed validation/reproducibility reporting for AI work. The judgment is independent of the publisher's Q1 label or citation value.",
+        "source_urls": ["https://link.springer.com/journal/10916/submission-guidelines"]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (publisher-reported)",
+          "value": 8.8,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to citable items published in 2023–2024. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10916",
+          "note": "Official homepage explicitly reports 8.8 (2025). This citation statistic does not establish acceptance odds."
+        },
+        {
+          "name": "5-year Journal Impact Factor (publisher-reported)",
+          "value": 6.0,
+          "year": 2025,
+          "population": "Journal-level five-year JIF: citations in 2025 to journal content from 2020–2024 relative to citable items in that five-year publication window. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10916",
+          "note": "Official homepage explicitly reports 6.0 (2025); retained as a separate citation window."
+        }
+      ],
+      "audit_note": "Read current homepage and submission instructions, including explicit desk-rejection criteria. No acceptance rate with a defined cohort was found. Reported submission/decision speeds were excluded from difficulty reasoning. Fee-audit uncertainty remains untouched."
+    },
+    {
+      "id": "health-systems-international-journal-of-medical-informatics",
+      "difficulty": {
+        "band": "high",
+        "basis": "Agent judgment within applied medical-informatics systems research, not acceptance odds. The official publisher description prioritizes evaluated implementation and measurable impact over algorithmic novelty. It excludes unevaluated architectures and routine technical-performance studies without an implementation or translation basis; AI-focused studies face external-validation and outcome-evaluation demands. This is a substantive contribution barrier for OSRI's nonclinical scope, independently of citation impact.",
+        "source_urls": ["https://shop.elsevier.com/journals/international-journal-of-medical-informatics/1386-5056"]
+      },
+      "metrics": [],
+      "audit_note": "Read the complete official publisher shop scope. ScienceDirect journal/insights pages returned HTTP 403. The shop displays impact and five-year figures without metric years; those values are not retained because their periods cannot be verified. No official acceptance cohort was established. This judgment does not make clinical deployment eligible within OSRI's nonclinical program, and it does not resolve the fee audit."
+    },
+    {
+      "id": "health-systems-health-policy",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "The official publisher scope requires clear policy questions, adequate quantitative/qualitative methods, direct policy implications and relevance across countries. These are fit and contribution criteria; the high-income-country focus is a geographical fit restriction. No current selectivity evidence or distinctive comparative threshold was verified to justify a difficulty band.",
+        "source_urls": ["https://shop.elsevier.com/journals/health-policy/0168-8510"]
+      },
+      "metrics": [],
+      "audit_note": "Read the official publisher's full journal description. ScienceDirect insights and journal pages returned HTTP 403. Publisher shop and issue pages display citation numbers without a metric period; no year was inferred from an issue's publication date. No acceptance-rate cohort was verified. Unresolved author-fee status is preserved."
+    },
+    {
+      "id": "health-systems-q-bulletin",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Completed QA/QI projects from the past five years with at least two improvement cycles are an eligibility requirement, not a prestige score. The official policy describes editorial screening and two independent reviewers, but provides no observed acceptance cohort or contribution-selectivity threshold that supports relative difficulty. No assumption of easy acceptance follows from its regional or institutional identity.",
+        "source_urls": ["https://journal.nih.gov.my/index.php/qbulletin/about/submissions", "https://journal.nih.gov.my/index.php/qbulletin/peer-review"]
+      },
+      "metrics": [],
+      "audit_note": "Read official homepage, submission criteria and peer-review process. No official citation metric or acceptance-rate cohort was found on those pages. The published screening/review schedules describe the intended workflow rather than measured decision or acceptance statistics."
+    },
+    {
+      "id": "health-systems-journal-of-health-management-malaysia",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "The official policy describes an initial quality/scope screen and at least two expert reviewers. It does not disclose acceptance counts, a decision cohort or a comparative selectivity standard. The publication schedule and stated number of articles per issue cannot establish acceptance difficulty without submission counts.",
+        "source_urls": ["https://journal.nih.gov.my/index.php/johm/about", "https://journal.nih.gov.my/index.php/johm/peer-review"]
+      },
+      "metrics": [],
+      "audit_note": "Read official About and peer-review pages. No official citation metric or measured acceptance rate was found. This record is the Malaysian NIH/IHM journal; no Sage Journal of Health Management metrics were transferred to it."
+    },
+    {
+      "id": "health-systems-bulletin-of-the-world-health-organization",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "The official policy screens for originality, scientific rigor and international public-health relevance before external review. It requires explicit new-knowledge statements and rigorous, current systematic reviews. International relevance, lower-income-setting emphasis and study-country affiliation are fit/eligibility conditions. WHO identity and citation impact alone do not establish a comparative difficulty band; no acceptance cohort was verified.",
+        "source_urls": ["https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors"]
+      },
+      "metrics": [],
+      "audit_note": "Read current official contributor instructions, homepage and About page. No acceptance-rate cohort was verified. The About page at https://www.who.int/publications/journals/bulletin/about explicitly labels an impact factor of 8.4 as 2025; the homepage repeats 8.4 without a year. The underlying JCR release/citation period and denominator could not be independently established, so this qualified publisher claim is recorded here rather than entered as a period-validated metric or silently relabeled using third-party data."
+    },
+    {
+      "id": "health-systems-pan-american-journal-of-public-health",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official selection criteria include scientific soundness, originality, salience, timeliness and applicability beyond the study setting across the Americas. An editorial merit screen precedes at least three external reviewers. Regional relevance is a fit requirement, and review count is not selectivity. No current acceptance cohort or adequate comparative evidence was verified to establish a difficulty band.",
+        "source_urls": ["https://journal.paho.org/en/instructions-authors", "https://journal.paho.org/en/about-journal"]
+      },
+      "metrics": [],
+      "audit_note": "Read full current official author instructions and About HTML through ordinary HTTPS after web-tool 403. The official impact-factor page embeds an external chart and gives an undated Q2 statement; no current value with an exact year/window was verified. Older PAHO reports provide historic submission/publication counts, which were not converted into acceptance probabilities or treated as current statistics."
+    }
+  ],
+  "notes": [
+    "Independently assessed all 14 discovery/diamond candidates and read the fee audit. This file changes difficulty and metrics only; no fee route, eligibility, format or scope field is replaced.",
+    "Six high bands are explicitly agent judgments about demanding contribution criteria within the relevant health-systems specialty: Medical Care Research and Review; Health Services Management Research; Journal of Health Organization and Management; Health Care Management Science; Journal of Medical Systems; International Journal of Medical Informatics. Eight remain unknown. Unknown does not mean easy, less rigorous or low quality; these bands do not estimate manuscript-specific acceptance probabilities or rank unrelated disciplines.",
+    "Nine dated, completed-year citation metrics were verified on current official Emerald/Springer journal pages for four journals. WHO's explicit 2025 impact-factor label is documented in its audit note, but excluded from metrics because the underlying JCR period could not be independently established. Raw citation/document counts were not published on the inspected pages; no counts were invented.",
+    "Standard JIF windows are interpreted using the official publisher definition at https://www.sagepub.com/journals/understanding-journal-metrics (JCR-year citations, preceding two or five publication years). CiteScore's four-year eligible-document framework is described on the official Emerald journal page https://www.emeraldgrouppublishing.com/journal/jhom?id=jhom; the eligible types/window were verified in its indexed official text. Definitions are distinct from venue-specific numerical evidence. Citation impact is never used alone to set difficulty.",
+    "The current migrated Emerald homepages show acceptance percentages without a cohort period, whereas older official journal/finder pages indexed in search show different values associated with earlier material. No acceptance statistic was retained or used for a band because an exact current period/population could not be established. The old pages' values were not assigned to the new page's cohort.",
+    "Sage author instructions were readable, but journal metrics/overview endpoints were inaccessible or timed out and ordinary direct HTTPS returned 403. ScienceDirect insights pages for the two Elsevier journals returned 403; their readable official shops supplied contribution criteria but undated citation values. Missing current metrics remain empty instead of being filled from third-party aggregators.",
+    "Q Bulletin's completed-project/two-cycle rule and WHO/PAHO geographical and public-health relevance are fit conditions. They neither raise prestige automatically nor justify easy-acceptance claims. Regional/institutional journals have no invented acceptance rates.",
+    "No venue was contacted, no manuscript submitted, and no fee claim altered. This is independent agent evidence collection and judgment, not human scientific review, an exhaustive search of every editorial report, or manuscript-specific assessment. Recheck official metrics and editorial policies before submission."
+  ]
+}

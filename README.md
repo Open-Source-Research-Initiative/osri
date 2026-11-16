@@ -6,6 +6,8 @@ English | [简体中文（待审核）](translations/zh-Hans/README.md) | [Trans
 
 OSRI brings people across fields together to conduct human-driven Agentic-Powered-Research. People choose the questions, check the evidence, and decide what is ready to share.
 
+OSRI prioritizes research submitted to credible venues that offer free submission and a free publication route. Use the [free publication directory](publications/venues/README.md) to compare options and the [publication guide](publications/free-publication.md) to choose a suitable route.
+
 ## Start here
 
 1. Follow the [research guide](START_HERE.md), from a first question to a public output.
@@ -41,6 +43,7 @@ The [Simulation Lab guide](simulation-lab/README.md) supports computational expe
 
 - [Choose a topic](topics/README.md): twelve candidate ideas and verified example papers.
 - [Find resources](resources/README.md): public data, application programming interfaces (APIs) for finding literature, research software, and administrator access requests.
+- [Find a free publication route](publications/free-publication.md): source-checked venue lists, fee conditions, and comparisons within a research subfield.
 - [Use tools consistently](tooling/workflows.md): inputs, outputs, and checks for common tasks. The [tool catalog](tooling/README.md) is optional.
 - [Read the rules](governance/contribution-standards.md), [find a research repository](projects/README.md), or [record a publication](publications/README.md).
 - Follow the guides for [writing](governance/writing-style.md), [translation](governance/translation.md), and [visual identity](governance/visual-identity.md).

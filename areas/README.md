@@ -48,6 +48,8 @@ The contribution could be a new finding, a method, a justified replication, a be
 
 ## Publications and research communication
 
+OSRI prioritizes research submitted to credible venues with free submission and a free publication route. The [free publication guide](../publications/free-publication.md) and [venue directory](../publications/venues/README.md) support that choice across these areas. Waivers and institutional funding remain conditional; missing fee evidence remains unverified.
+
 OSRI's goal is to produce and share research through several forms of publication:
 
 - Journal articles.

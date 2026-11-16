@@ -1,0 +1,964 @@
+{
+  "subfield": "public-policy",
+  "role": "review",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "public-policy-public-policy-and-administration",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal-specific guide explicitly excludes submission and publication fees. Standard subscription publication is the verified free route; paid Sage Choice OA and institutional OA agreements are optional. Maximum manuscript length is 8,000 words. Online colour is free; author-requested print colour is charged. The guide also contains generic wording that OA fees exclude page/colour charges. Sage’s current publisher policy lists active journals with submission, page or publication charges; this journal is absent, and its guide supplies no page-price or charge trigger. This supports the stated standard route; it does not establish a free overlength allowance or cover optional production requests.",
+        "other_mandatory_costs": "No compulsory cost established for the stated standard route. The generic OA warning is retained as a policy caveat; optional print colour where offered, paid author services and third-party permissions are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ppa",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific no-submission/no-publication-fee statement inspected alongside artwork, manuscript requirements and generic separate-charge wording; no page amount or trigger is specified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher policy identifies active charging journals, requires transparent page pricing in author guides, and describes OA charges as additional only where journal charges apply. This journal is absent from the inspected list. The list corroborates, rather than replaces, the journal-specific no-fee statement.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "very_high",
+        "basis": "Provisional agent judgment within public-policy venues: the official aggregate acceptance rate is 7.3%; editors screen scope and quality before double-anonymized review, and two independent reviews are required for revision/acceptance. Original research must contribute to public policy/administration. The aggregate covers all article types and is not a manuscript-specific acceptance probability.",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/ppa",
+          "https://journals.sagepub.com/overview-metric/PPA",
+          "https://www.sagepub.com/journals/understanding-journal-metrics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "7.3%",
+          "year": 2025,
+          "population": "All article types with final accept/reject decisions in the previous calendar year.",
+          "source_url": "https://journals.sagepub.com/overview-metric/PPA",
+          "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/ppa"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Public policy, government, public management, administrative theory, history and politics. Existing-data and comparative policy analyses can fit when they make an original contribution. The current limit is 8,000 words.",
+      "audit_note": "Independent skeptical fee/review pass inspected the journal guide and Sage’s current active charge list. Restoration is a bounded reading of affirmative journal-specific evidence, corroborated by the list, rather than a conclusion from absence alone. Independently reproduced the reported acceptance value on the journal’s official metrics page and checked Sage’s previous-calendar-year/all-final-decisions definition."
+    },
+    {
+      "id": "public-policy-administration-and-society",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal explicitly excludes submission and publication fees for its subscription route. Sage Choice OA is optional and paid; institutional OA coverage is conditional. Research manuscripts may not exceed 35 double-spaced pages excluding references/tables/charts/notes; Perspectives may not exceed 25 inclusive pages. Online colour is free; requested print colour is charged.",
+        "other_mandatory_costs": "No mandatory membership, paid registration or standard page fee is stated in the inspected journal-specific guide. Paid preparation services and third-party reuse permissions are outside the ordinary author route.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/aas",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific instructions expressly rule out submission/publication fees and describe optional OA.  Length and artwork conditions were inspected.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment within public-policy venues: the official aggregate acceptance rate is 17.1%. Research must be grounded in relevant theory or develop/extend normative or positive theory; editors can decline unsuitable work before review. This band covers the main research route; Perspectives have a distinct remit and at least one external reviewer. Aggregate acceptance is not a research-only or individual probability.",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/aas",
+          "https://journals.sagepub.com/overview-metric/AAS",
+          "https://www.sagepub.com/journals/understanding-journal-metrics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "17.1%",
+          "year": 2025,
+          "population": "All article types with final accept/reject decisions in the previous calendar year.",
+          "source_url": "https://journals.sagepub.com/overview-metric/AAS",
+          "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/aas"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Theory-grounded empirical public administration research and work developing normative or positive theory. Existing-data studies and conceptual or methodological Perspectives can fit; follow the different research/Perspectives length limits.",
+      "audit_note": "Rechecked the explicit no-submission/no-publication-fee statement, manuscript-length rules, optional print colour, and distinct Perspectives review. Independently reproduced 17.1% on the official metrics page and the publisher’s prior-calendar-year denominator; no research-only rate is asserted."
+    },
+    {
+      "id": "public-policy-evaluation",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal-specific guide explicitly excludes submission and publication fees. Standard subscription publication is the verified free route; paid Sage Choice OA and institutional OA agreements are optional. Normal articles are 5,000–8,000 words excluding figures, tables and references. The journal is online-only; online colour is free. The guide also contains generic wording that OA fees exclude page/colour charges. Sage’s current publisher policy lists active journals with submission, page or publication charges; this journal is absent, and its guide supplies no page-price or charge trigger. This supports the stated standard route; it does not establish a free overlength allowance or cover optional production requests.",
+        "other_mandatory_costs": "No compulsory cost established for the stated standard route. The generic OA warning is retained as a policy caveat; optional print colour where offered, paid author services and third-party permissions are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/EVI",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific no-submission/no-publication-fee statement inspected alongside artwork, manuscript requirements and generic separate-charge wording; no page amount or trigger is specified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher policy identifies active charging journals, requires transparent page pricing in author guides, and describes OA charges as additional only where journal charges apply. This journal is absent from the inspected list. The list corroborates, rather than replaces, the journal-specific no-fee statement.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment within evaluation-policy research: the official aggregate acceptance rate is 23.4%. The official journal description favours contributions connecting evaluation theory and practice through generalizable cases or theoretical/methodological innovation. Refereeing and a substantive evaluation contribution are required; aggregate acceptance does not establish a particular manuscript's odds.",
+        "source_urls": [
+          "https://journals.sagepub.com/home/evi",
+          "https://journals.sagepub.com/overview-metric/EVI",
+          "https://www.sagepub.com/journals/understanding-journal-metrics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "23.4%",
+          "year": 2025,
+          "population": "All article types with final accept/reject decisions in the previous calendar year.",
+          "source_url": "https://journals.sagepub.com/overview-metric/EVI",
+          "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/evi"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Evaluation theory, methods and practice, including policy/programme evaluation and evidence synthesis with an evaluation contribution. This record covers peer-reviewed research articles; news, speeches and debates are different formats.",
+      "audit_note": "Independent skeptical fee/review pass inspected the journal guide and Sage’s current active charge list. Restoration is a bounded reading of affirmative journal-specific evidence, corroborated by the list, rather than a conclusion from absence alone. Independently reproduced the reported acceptance value on the journal’s official metrics page and checked Sage’s previous-calendar-year/all-final-decisions definition."
+    },
+    {
+      "id": "public-policy-american-review-of-public-administration",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal-specific guide explicitly excludes submission and publication fees. Standard subscription publication is the verified free route; paid Sage Choice OA and institutional OA agreements are optional. Manuscripts of 20–30 pages are welcomed; this is a preference, not a fee threshold. Online colour is free; author-requested print colour is charged. The guide also contains generic wording that OA fees exclude page/colour charges. Sage’s current publisher policy lists active journals with submission, page or publication charges; this journal is absent, and its guide supplies no page-price or charge trigger. This supports the stated standard route; it does not establish a free overlength allowance or cover optional production requests.",
+        "other_mandatory_costs": "No compulsory cost established for the stated standard route. The generic OA warning is retained as a policy caveat; optional print colour where offered, paid author services and third-party permissions are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/arp",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific no-submission/no-publication-fee statement inspected alongside artwork, manuscript requirements and generic separate-charge wording; no page amount or trigger is specified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher policy identifies active charging journals, requires transparent page pricing in author guides, and describes OA charges as additional only where journal charges apply. This journal is absent from the inspected list. The list corroborates, rather than replaces, the journal-specific no-fee statement.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "very_high",
+        "basis": "Provisional agent judgment within public-administration research: the official aggregate acceptance rate is 7.5%. Initial screening may reject unsuitable work; original, sufficiently strong public-administration research must pass two independent reviews to obtain a revision or acceptance decision. This judgment uses selectivity evidence rather than the homepage's prestige language. The aggregate includes all article types and is not individual acceptance odds.",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/arp",
+          "https://journals.sagepub.com/overview-metric/ARP",
+          "https://www.sagepub.com/journals/understanding-journal-metrics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "7.5%",
+          "year": 2025,
+          "population": "All article types with final accept/reject decisions in the previous calendar year.",
+          "source_url": "https://journals.sagepub.com/overview-metric/ARP",
+          "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/arp"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Public administration and public affairs research. Candidate route for existing-data analysis of public institutions, management and governance; manuscript-specific fit still requires consulting the journal scope.",
+      "audit_note": "Independent skeptical fee/review pass inspected the journal guide and Sage’s current active charge list. Restoration is a bounded reading of affirmative journal-specific evidence, corroborated by the list, rather than a conclusion from absence alone. Independently reproduced the reported acceptance value on the journal’s official metrics page and checked Sage’s previous-calendar-year/all-final-decisions definition."
+    },
+    {
+      "id": "public-policy-public-works-management-and-policy",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal-specific guide explicitly excludes submission and publication fees. Standard subscription publication is the verified free route; paid Sage Choice OA and institutional OA agreements are optional. The guide gives formatting requirements without a general research-article length ceiling. Online colour is free; author-requested print colour is charged. The guide also contains generic wording that OA fees exclude page/colour charges. Sage’s current publisher policy lists active journals with submission, page or publication charges; this journal is absent, and its guide supplies no page-price or charge trigger. This supports the stated standard route; it does not establish a free overlength allowance or cover optional production requests.",
+        "other_mandatory_costs": "No compulsory cost established for the stated standard route. The generic OA warning is retained as a policy caveat; optional print colour where offered, paid author services and third-party permissions are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pwm",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific no-submission/no-publication-fee statement inspected alongside artwork, manuscript requirements and generic separate-charge wording; no page amount or trigger is specified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher policy identifies active charging journals, requires transparent page pricing in author guides, and describes OA charges as additional only where journal charges apply. This journal is absent from the inspected list. The list corroborates, rather than replaces, the journal-specific no-fee statement.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment for infrastructure/public-works policy research: the official aggregate acceptance rate is 21.6%. Research Articles require clear conceptual foundations, positioning in the literature, empirical hypothesis testing, and practical policy/management implications; editors and reviewers assess contribution, reliability and validity. Viewpoints undergo a lighter process, so the mixed-type aggregate must not be treated as a research-article rate.",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/pwm",
+          "https://journals.sagepub.com/overview-metric/PWM",
+          "https://www.sagepub.com/journals/understanding-journal-metrics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "21.6%",
+          "year": 2025,
+          "population": "All article types with final accept/reject decisions in the previous calendar year.",
+          "source_url": "https://journals.sagepub.com/overview-metric/PWM",
+          "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/pwm"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Empirical public works and infrastructure policy/management research with practical implications. Existing datasets, agency evaluations and computational policy analysis may fit if theoretically grounded. Research Articles are the primary route; Viewpoints have lighter review.",
+      "audit_note": "Independent skeptical fee/review pass inspected the journal guide and Sage’s current active charge list. Restoration is a bounded reading of affirmative journal-specific evidence, corroborated by the list, rather than a conclusion from absence alone. The ranking role’s 21.6% value is retained from its official-page inspection; this reviewer obtained metrics metadata but repeated body fetches timed out. Its previous-calendar-year definition was independently inspected."
+    },
+    {
+      "id": "public-policy-science-technology-and-human-values",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal explicitly excludes submission and publication fees for its subscription route. Sage Choice OA is optional and paid; institutional OA coverage is conditional. Original articles may contain up to 8,000 words excluding abstract/endnotes/references; review essays have a 5,000-word limit. Colour reproduction is expressly free in both online and print editions.",
+        "other_mandatory_costs": "No mandatory membership, paid registration or standard page fee is stated in the inspected journal-specific guide. Paid preparation services and third-party reuse permissions are outside the ordinary author route.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sth",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific instructions expressly rule out submission/publication fees and describe optional OA.  Length and artwork conditions were inspected.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "very_high",
+        "basis": "Provisional agent judgment for STS/governance work in this public-policy cluster: the official aggregate acceptance rate is 9.2%. The author guide requires original in-scope work and allows desk rejection for insufficient quality or fit before double-anonymized review. The rate supports a demanding venue-level band, without making citation impact a difficulty proxy or implying an individual manuscript's odds.",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/sth",
+          "https://journals.sagepub.com/overview-metric/STH?tabActivePane=view-aims-scope&",
+          "https://www.sagepub.com/journals/understanding-journal-metrics"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "9.2%",
+          "year": 2025,
+          "population": "All article types with final accept/reject decisions in the previous calendar year.",
+          "source_url": "https://journals.sagepub.com/overview-metric/STH",
+          "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/sth"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Science and technology studies, including relationships to governance, politics and society. Existing documentary/data research or conceptual analysis needs a substantive STS contribution. A generic technology application paper is insufficient.",
+      "audit_note": "Rechecked journal-specific no-fee policy and expressly free print as well as online colour. The ranking role’s 9.2% official acceptance value is retained, but this reviewer could retrieve only the metrics page metadata before repeated timeouts, so did not independently reproduce its body value. The prior-calendar-year definition was independently inspected."
+    },
+    {
+      "id": "public-policy-policy-sciences",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal-specific publishing options expressly offer subscription publication without an APC; optional Open Choice OA is paid. Submission fees are not expressly excluded in the inspected journal policies. Research papers have a strict 10,000-word all-inclusive ceiling and excess-length manuscripts are returned at initial screening. Online colour is free; print colour requires a contribution. No mandatory membership or registration was stated.",
+        "other_mandatory_costs": "Submission fee and any standard page charge remain unconfirmed. Avoid optional print colour and paid author services; third-party permissions may carry separate costs.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/11077/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific options establish the subscription route with no APC, not a general exclusion of every author cost.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11077/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Inspected manuscript submission, word limits, artwork, author services and after-acceptance sections. Online colour is free, print colour costs extra; no explicit no-submission-fee or no-page-charge policy was located.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher support says most subscription journals are free but some impose colour, overlength or page charges; this generic policy does not establish this journal's complete cost route.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official aims establish a distinctive contextual, problem-oriented and applied contribution requirement. They provide no official acceptance rate or comparative selectivity evidence sufficient for a difficulty band. Citation metrics and methodological scope restrictions do not establish acceptance difficulty.",
+        "source_urls": [
+          "https://link.springer.com/journal/11077/aims-and-scope"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 4.5,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable content in the preceding 2 years.",
+          "source_url": "https://link.springer.com/journal/11077",
+          "note": "Official publisher-reported citation metric; not acceptance difficulty or an individual article-quality measure."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 5.8,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable content in the preceding 5 years.",
+          "source_url": "https://link.springer.com/journal/11077",
+          "note": "Official publisher-reported citation metric; not acceptance difficulty or an individual article-quality measure."
+        },
+        {
+          "name": "Downloads",
+          "value": "501.5k",
+          "year": 2025,
+          "population": "Journal downloads reported by Springer Nature for 2025; rounded figure.",
+          "source_url": "https://link.springer.com/journal/11077",
+          "note": "Usage volume only. The inspected page does not specify a finer download definition; no acceptance inference."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://link.springer.com/journal/11077/submission-guidelines"
+        ]
+      },
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Problem-oriented, contextual and multi-method policy research with explicit applied policy lessons. Existing-data studies, documentary analysis and scholarly or bibliometric reviews can fit when they engage this policy-sciences approach. The official aims direct top-down deductive large-sample or primarily theoretical work toward other journals. Research, Analysis and Review receive peer review; Comments normally receive internal review.",
+      "audit_note": "Independently checked subscription/no-APC publication, the unresolved submission-fee boundary, strict length screening, and current aims. Corrected discovery’s broad large-N fit claim. Verified 2025 JIF 4.5, five-year JIF 5.8 and 501.5k downloads directly; omitted the undated six-day first-decision display."
+    },
+    {
+      "id": "public-policy-science-and-public-policy",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The current journal-specific author guide provides a subscription standard licence with no licence charge and explicitly excludes page and colour charges. Its separate charges page says authors who decline OA are not charged for publication. No explicit exclusion of submission fees was located. Paid OA and institutional Read and Publish coverage are separate options. Older manuscript-instructions text still mentions charged colour; current author-guidelines explicitly say colour is free.",
+        "other_mandatory_costs": "Submission fee remains unconfirmed. Current instructions explicitly exclude page and colour charges; no compulsory membership or paid registration was identified.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/spp/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author guide excludes standard-licence, page and colour charges. It does not expressly address submission fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://academic.oup.com/spp/pages/charges",
+            "checked_on": "2026-11-16",
+            "note": "Journal charges page says standard subscription publication carries no charge; OA is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://academic.oup.com/spp/pages/manuscript_instructions",
+            "checked_on": "2026-11-16",
+            "note": "Older parallel manuscript page says print colour is charged and online colour is free; retained as a policy inconsistency rather than overriding current explicit no-colour-charge instructions.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official instructions establish original in-scope science/technology/innovation-policy work, Editor-in-Chief screening, and normally two reviewers for full articles. They do not provide sufficient comparative selectivity evidence to assign an acceptance-difficulty band. Perspectives and Letters can receive editorial-only review and must not be substituted for the full research-article route. Official citation metrics measure citation impact only.",
+        "source_urls": [
+          "https://academic.oup.com/spp/pages/author-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.8,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable content in the preceding 2 years.",
+          "source_url": "https://academic.oup.com/spp/pages/about",
+          "note": "Official publisher-reported citation metric; not acceptance difficulty or an individual article-quality measure."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 3.5,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable content in the preceding 5 years.",
+          "source_url": "https://academic.oup.com/spp/pages/about",
+          "note": "Official publisher-reported citation metric; not acceptance difficulty or an individual article-quality measure."
+        },
+        {
+          "name": "CiteScore",
+          "value": 5.2,
+          "year": 2025,
+          "population": "Journal documents and citations in Scopus's 2025 CiteScore calculation.",
+          "source_url": "https://academic.oup.com/spp/pages/about",
+          "note": "Official OUP-reported Scopus metric. Citation performance only; not submission selectivity."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://academic.oup.com/spp/pages/author-guidelines"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Public policies for science, technology and innovation in developed and developing countries. Existing-data, comparative and conceptual policy research can fit. This record covers full Articles; Perspectives and Letters may receive editorial review without independent referees.",
+      "audit_note": "Rechecked current no-standard-licence/no-page/no-colour-charge policy and full-article external review. The inspected guide does not expressly exclude submission fees, so needs_verification remains. Independently verified all three retained citation values and their explicit 2025 labels on the current lowercase /about page. Older colour-charge text is not promoted over current guidance."
+    },
+    {
+      "id": "public-policy-journal-of-european-public-policy",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The official search-indexed journal page identifies hybrid Open Select publication and no APC when OA is declined. Direct publisher author instructions and journal information returned HTTP 403. A complete submission/page/length/production-cost policy could not be inspected. The official journal blog links those instructions but does not replace a current fee policy. Optional OA institutional coverage is conditional.",
+        "other_mandatory_costs": "Submission, page/length, colour and other compulsory production charges remain unconfirmed; mandatory membership or registration could not be conclusively ruled out.",
+        "fee_evidence": [
+          {
+            "url": "https://www.tandfonline.com/journals/rjpp20/about-this-journal",
+            "checked_on": "2026-11-16",
+            "note": "Official indexed content confirms no non-OA APC; direct page access was blocked, and this does not rule out all author charges.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=rjpp20",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions returned HTTP 403; fee and length conditions could not be inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.jepp-online.com/submit-to-the-journal/",
+            "checked_on": "2026-11-16",
+            "note": "Official journal blog directs authors to publisher instructions. Its dated submission page contains no general no-fee guarantee.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment within European public-policy research: official indexed publisher content reports a 19% aggregate acceptance rate and editor screening followed by at least two anonymous referees. The official journal blog seeks innovative analytical, theoretical and methodological contributions to European public policy. Direct publisher access was blocked, so evidence is weaker than a fully inspected page. The rate is a final-decision aggregate, not a manuscript-specific probability.",
+        "source_urls": [
+          "https://www.jepp-online.com/about-the-journal/",
+          "https://www.tandfonline.com/action/journalInformation?journalCode=rjpp20&show=instructions"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "19%",
+          "year": 2025,
+          "population": "Accepted articles as a percentage of all papers receiving a final decision in the previous calendar year.",
+          "source_url": "https://www.tandfonline.com/action/journalInformation?journalCode=rjpp20&show=instructions",
+          "note": "Official publisher search-indexed content only; direct page returned HTTP 403. Year follows its last-full-calendar-year definition, checked 2026-11-16."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 5.6,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable content in the preceding 2 years.",
+          "source_url": "https://www.tandfonline.com/action/journalInformation?journalCode=rjpp20&show=instructions",
+          "note": "Official publisher-reported citation metric; not acceptance difficulty or an individual article-quality measure."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 5.6,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable content in the preceding 5 years.",
+          "source_url": "https://www.tandfonline.com/action/journalInformation?journalCode=rjpp20&show=instructions",
+          "note": "Official publisher-reported citation metric; not acceptance difficulty or an individual article-quality measure."
+        },
+        {
+          "name": "CiteScore",
+          "value": 10.7,
+          "year": 2025,
+          "population": "Journal documents and citations in Scopus's 2025 CiteScore calculation.",
+          "source_url": "https://www.tandfonline.com/action/journalInformation?journalCode=rjpp20&show=instructions",
+          "note": "Official publisher search-indexed value; direct page blocked. Citation metric only."
+        },
+        {
+          "name": "SNIP",
+          "value": 2.678,
+          "year": 2025,
+          "population": "Journal citations normalized for its subject field; Scopus/SNIP 2025.",
+          "source_url": "https://www.tandfonline.com/action/journalInformation?journalCode=rjpp20&show=instructions",
+          "note": "Official publisher search-indexed value; direct page blocked. Citation metric only."
+        },
+        {
+          "name": "SJR",
+          "value": 2.219,
+          "year": 2025,
+          "population": "Journal weighted citation influence in the 2025 SJR calculation.",
+          "source_url": "https://www.tandfonline.com/action/journalInformation?journalCode=rjpp20&show=instructions",
+          "note": "Official publisher search-indexed value; direct page blocked. Citation metric only."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.tandfonline.com/journals/rjpp20/about-this-journal"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "European public policy, politics and the EU, including comparative and theoretical/methodological work. Existing-data and computational policy studies need a public-policy contribution and appropriate European or comparative relevance. Research articles have editor screening and anonymous external refereeing.",
+      "audit_note": "Author instructions independently returned HTTP 403. Official search-indexed publisher content independently reproduced 19% acceptance and the last-calendar-year definition, plus the five explicitly 2025 citation metrics. These remain search-indexed evidence; fee completion remains needs_verification. No speed-period endpoints or submission-fee exclusions were inferred."
+    },
+    {
+      "id": "public-policy-journal-of-public-policy",
+      "route": {
+        "model": "conditional_waiver",
+        "submission_fee": "unknown",
+        "publication_fee": "charged",
+        "eligibility": "conditional",
+        "oa_status": "open_access",
+        "conditions": "Current journal policy is wholly Gold OA. The stated APC is GBP 2,610 or USD 3,655, with possible additional taxes. Institutional agreements, Cambridge Open Equity and Research4Life can cover eligible authors. Corresponding authors of research articles without those routes may request a discount/full waiver after acceptance, assessed by Cambridge. This is a conditional research-article route. Submission fees are not expressly addressed in the inspected instructions. Research manuscripts normally have 5,000–8,000 body words and a 45-page maximum.",
+        "other_mandatory_costs": "APC and applicable tax unless covered or waived; submission and any other compulsory charges remain unconfirmed. Language-editing services are expressly voluntary.",
+        "fee_evidence": [
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/fees-and-pricing",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific policy establishes wholly OA publication and lists GBP 2,610/USD 3,655 APCs plus possible tax when an APC is required.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Lists conditional funding routes and post-acceptance discount/full-waiver requests. It also states a financial-barrier assurance; Cambridge assesses and provides waivers.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials",
+            "checked_on": "2026-11-16",
+            "note": "Article-type section treats Research Articles, Reviews and Field Essays as APC-funded research types; Letters require no APC. It specifies length limits and voluntary language services.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/submitting-your-materials",
+            "checked_on": "2026-11-16",
+            "note": "Submission instructions inspected; no explicit submission-fee statement located.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official scope requires social-science theory/concepts applied to significant public-policy issues with relevance to scholars internationally, and analytic rigour with national/policy-context accuracy. This establishes a substantive contribution bar but no usable official acceptance statistic or comparative selectivity threshold was found. Publication counts and undated citation metrics cannot establish acceptance difficulty.",
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Published research-type articles",
+          "value": 29,
+          "year": 2024,
+          "population": "Research-type articles published in the journal's 2024 volume(s), rather than first-online dates.",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal/journal-metrics",
+          "note": "Official table explicitly says 2024 although row labels say last year. Definitions: https://www.cambridge.org/core/services/authors/journal-publishing-statistics. Publication volume only, not acceptance odds."
+        },
+        {
+          "name": "Published Gold OA research-type articles",
+          "value": 25,
+          "year": 2024,
+          "population": "Research-type articles in 2024 volume(s) published as Gold Open Access.",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal/journal-metrics",
+          "note": "Official table explicitly says 2024 although row labels say last year. Definitions: https://www.cambridge.org/core/services/authors/journal-publishing-statistics. Publication volume only, not acceptance odds."
+        },
+        {
+          "name": "Research-type articles supported by subscription revenue",
+          "value": 5,
+          "year": 2024,
+          "population": "Research-type articles in 2024 volume(s) not supported by an APC; can include OA articles with waived APCs.",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal/journal-metrics",
+          "note": "Official table explicitly says 2024 although row labels say last year. Definitions: https://www.cambridge.org/core/services/authors/journal-publishing-statistics. Publication volume only, not acceptance odds."
+        }
+      ],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Social-science theories and concepts applied to political, economic and social issues and policymaking. Comparative existing-data research and policy analysis can fit. Statistical papers must provide replication materials, subject to justified legal/ethical exceptions.",
+      "audit_note": "Independently confirmed current wholly Gold OA and GBP 2610/USD 3655 APC plus possible tax. The no-financial-barrier assurance coexists with assessed waiver requests, so retained conditional research-article eligibility. Confirmed Letters’ no-APC exception separately and the historical 2024 article-count table, including potentially overlapping OA/subscription-supported categories. Undated citation values remain excluded."
+    },
+    {
+      "id": "public-policy-internet-policy-review",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The official author policy excludes submission fees and APCs. Research submissions remain invited; the 5 October 2026 notice warns of delayed desk screening. Op-ed proposals are closed through 2026. Initial research papers should be about 6,000 words; final papers at most 8,000, excluding abstract/references. Human authors retain intellectual accountability. The webpage’s short prohibition on AI authoring articles coexists with the linked September 2026 policy: language/readability editing needs no disclosure if substantive content originates with authors; generated, drafted or substantially restructured text requires acknowledgement naming the tool and use. AI visuals must be labelled and cannot represent empirical data or simulate results. Editors may seek clarification; undisclosed integrity-affecting use may lead to rejection/retraction.",
+        "other_mandatory_costs": "No mandatory membership, paid registration or standard page charge stated in the inspected author policy. Eligibility does not depend on a selective fee waiver.",
+        "fee_evidence": [
+          {
+            "url": "https://policyreview.info/authors",
+            "checked_on": "2026-11-16",
+            "note": "Explicit no-submission-fee/no-APC policy, research length limits and current screening-delay/op-ed-closure notices inspected. Research papers have external peer review.",
+            "access": "page"
+          },
+          {
+            "url": "https://policyreview.info/sites/default/files/assets/documents/editor/AI%20Policy%20Internet%20Policy%20Review.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Linked September 2026 policy details permitted language editing, disclosure for substantial generated text, human responsibility and restrictions on AI visuals; this is a manuscript condition, not a fee.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "The author guide and desk criteria require European/pan-European relevance, original analytical scholarship and transparent evidence; purely descriptive work generally does not proceed. This establishes fit and a review threshold, but no official acceptance rate or comparative selectivity evidence sufficient for a difficulty band was found. The October 2026 backlog notice concerns screening time rather than acceptance probability.",
+        "source_urls": [
+          "https://policyreview.info/authors",
+          "https://policyreview.info/sites/default/files/deskrejectioncriteria_v1.pdf"
+        ]
+      },
+      "metrics": [],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://policyreview.info/authors"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Internet regulation, technology governance and socio-technical change. Empirical, legal, theoretical and documentary analysis can fit; research papers must engage European policy and contribute original critical analysis. This record covers externally peer-reviewed research papers.",
+      "audit_note": "Independently inspected the current author webpage, both pages of the linked September 2026 AI policy and desk criteria. Preserved research-screening delay separately from op-ed closure; neither closes research submissions. The webpage’s broad AI-authoring sentence and detailed permitted/disclosed uses are both represented. Changed high to unknown because desk standards/backlog alone do not measure comparative acceptance difficulty."
+    },
+    {
+      "id": "public-policy-journal-of-deliberative-democracy",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The journal says sponsors and University of Westminster Press cover APCs; authors pay no publication fee. The editors' July 2026 official Digest statement excludes author fees at every stage. Institutional/library support is encouraged, not required. Research articles are 6,000–8,000 words inclusive; Reflections are 2,000–4,000. Special Features are solicited under author guidelines, while the submissions table also marks that section publicly open: verify that format before proposing it. Special issues/book reviews are no longer considered. Authors obtain third-party permissions.",
+        "other_mandatory_costs": "No required author fee, membership or paid registration under the inspected policies. Third-party permissions can create manuscript-dependent costs; no charge is required for an original compliant article.",
+        "fee_evidence": [
+          {
+            "url": "https://delibdemjournal.org/submissions/",
+            "checked_on": "2026-11-16",
+            "note": "Publication Fees says press/sponsors pay APCs and authors owe no publication fee; support is encouraged rather than mandatory. Public research and Reflections submissions are enabled.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.publicdeliberation.net/ask-the-editors-journal-of-deliberative-democracy-x-re_dem/",
+            "checked_on": "2026-11-16",
+            "note": "July 2026 statement by journal editors describes diamond OA and no author charges at any stage.",
+            "access": "page"
+          },
+          {
+            "url": "https://delibdemjournal.org/site/author-guidelines/",
+            "checked_on": "2026-11-16",
+            "note": "Author guide supplies inclusive length limits, permissions requirements and format restrictions; no additional charge schedule was located.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "high",
+        "basis": "Provisional agent judgment within deliberative-democracy research: the official review policy explicitly states that annual article capacity is limited and asks reviewers to be selective. Editors screen suitability before at least two experts assess theoretical/methodological/empirical rigour, engagement with debates, and implications for theory/practice. Research papers must make an original contribution. No official acceptance rate was located; the band does not infer ease or odds from diamond funding or citation quartile.",
+        "source_urls": [
+          "https://delibdemjournal.org/site/review-process/",
+          "https://delibdemjournal.org/site/author-guidelines/"
+        ]
+      },
+      "metrics": [],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://delibdemjournal.org/submissions/",
+          "https://delibdemjournal.org/site/author-guidelines/"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Deliberative and participatory democracy, citizen engagement and democratic governance. Existing-data studies, comparative analysis and theory can fit when they advance deliberative-democracy scholarship. Research articles and Reflections from the Field receive peer review; the associated Digest is a separate non-peer-reviewed publication.",
+      "audit_note": "Independently checked the current author-facing no-publication-fee policy, editors’ July 2026 no-author-fees-at-any-stage statement and explicit reviewer selectivity/limited capacity. Retained high only as a qualitative agent judgment, with no acceptance probability. Confirmed that undated citation/quartile values do not support a dated metric; preserved public-table versus solicited-Special-Feature inconsistency."
+    },
+    {
+      "id": "public-policy-commonwealth-journal-of-local-governance",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The journal's submission instructions explicitly exclude every type of APC and article-submission charge. The peer-reviewed route normally has 6,000–8,000 words including references/notes; shorter edited/practitioner formats are distinct. Its linked 2026 author/style guide was inspected for additional charges. Submission uses a journal account; no paid account or membership requirement is stated.",
+        "other_mandatory_costs": "No standard page, colour, mandatory membership or paid registration charge stated in the inspected journal instructions and linked 2026 guide.",
+        "fee_evidence": [
+          {
+            "url": "https://epress.lib.uts.edu.au/journals/index.php/cjlg/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Explicit journal-specific exclusion of any APC or submission charge; distinguishes peer-reviewed 6,000–8,000-word submissions from edited content.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.clgf.org.uk/default/assets/File/2026%20CJLG%20Author%20Guideline.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Linked current 2026 author/style guide inspected, including manuscript, figures and references requirements; no additional compulsory charge schedule located.",
+            "access": "page"
+          },
+          {
+            "url": "https://epress.lib.uts.edu.au/journals/index.php/cjlg/about/editorialPolicies",
+            "checked_on": "2026-11-16",
+            "note": "Section policies mark Research and Evaluation as open to submissions and peer reviewed. The retrieved editorial-policy page was not used as the explicit fee-exclusion source.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Official submissions policy distinguishes peer-reviewed scholarly enquiries, analytical case studies and critical literature reviews from short edited practitioner material. The Research and Evaluation route uses at least two independent expert readers with anonymous authors/reviewers. These establish review and local-governance fit, but no acceptance statistics or comparative selectivity evidence sufficient for a difficulty band was located. No citation metric is used as a substitute.",
+        "source_urls": [
+          "https://epress.lib.uts.edu.au/journals/index.php/cjlg/about/submissions",
+          "https://epress.lib.uts.edu.au/journals/index.php/cjlg/about/editorialPolicies"
+        ]
+      },
+      "metrics": [],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://epress.lib.uts.edu.au/journals/index.php/cjlg/about/submissions",
+          "https://epress.lib.uts.edu.au/journals/index.php/cjlg/about/editorialPolicies"
+        ]
+      },
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Local governance, decentralisation, municipal finance, citizen participation, intergovernmental relations and public-service performance, especially Commonwealth contexts. Existing-data evaluation, comparative case analysis and critical literature reviews can fit. This record covers the peer-reviewed Research and Evaluation route; shorter edited/practitioner content has a different review status.",
+      "audit_note": "Independently inspected explicit no-APC/no-submission-charge wording, subject/format coverage and the section-policy table. The research/evaluation route is peer reviewed; shorter practice/commentary content is edited. The linked 2026 style guide was independently followed by the fee role but was not reread in this skeptical pass; no broader inspection claim is made."
+    },
+    {
+      "id": "public-policy-policy-quarterly",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The official ethics policy excludes manuscript-processing, submission and publication charges, without an affiliation or waiver condition. The submission page welcomes articles of about 4,000 words concerning governance, public policy and management. Ordinary submitted articles receive peer review; some major speeches are an editorial exception. No submission closure was present in the inspected pages.",
+        "other_mandatory_costs": "No mandatory membership, paid account/registration, page or colour charge is stated under the journal's no-manuscript-processing/no-author-fee policy.",
+        "fee_evidence": [
+          {
+            "url": "https://ojs.wgtn.ac.nz/pq/ethics",
+            "checked_on": "2026-11-16",
+            "note": "Explicit journal-specific exclusion of manuscript processing, submission and publication charges. It also states the usual review procedure and speech exception.",
+            "access": "page"
+          },
+          {
+            "url": "https://ojs.wgtn.ac.nz/pq/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Submission route and approximately 4,000-word guidance inspected; no additional author charges or closure notice located.",
+            "access": "page"
+          }
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "The official ethics policy bases decisions on importance, originality, clarity and relevance; editors may reject out-of-scope or manifestly weak work before normally sending suitable articles to two experts. The accessible policy-writing remit and roughly 4,000-word format do not establish easier acceptance. No official acceptance statistics or comparative selectivity evidence sufficient for a difficulty band was located. Major speeches are an explicit editorial exception.",
+        "source_urls": [
+          "https://ojs.wgtn.ac.nz/pq/ethics",
+          "https://ojs.wgtn.ac.nz/pq/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://ojs.wgtn.ac.nz/pq/about/submissions",
+          "https://ojs.wgtn.ac.nz/pq/ethics"
+        ]
+      },
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Governance, public policy and public management, written for public-sector practitioners and other policy readers. Concise existing-data analysis, evaluations and policy arguments can fit; New Zealand relevance is prominent in published content. Submitted articles receive peer review, while occasional published major speeches can bypass it.",
+      "audit_note": "Independently checked explicit submission/processing/publication fee exclusions, roughly 4,000-word research route and ordinary two-expert review with occasional speech exception. No closure found in the inspected current pages; no paid registration or affiliation condition was stated."
+    }
+  ],
+  "findings": [
+    {
+      "id": "public-policy-public-policy-and-administration",
+      "severity": "medium",
+      "issue": "The fee audit withheld the standard route on generic separate page/colour-charge wording without checking the current publisher list of charging journals.",
+      "resolution": "Restored verified_free using the explicit journal-specific no-fee statement together with Sage’s active charge list. No applicable mandatory page-charge schedule or trigger was found. Kept the generic wording, optional costs and manuscript limits visible; no overlength exemption is inferred."
+    },
+    {
+      "id": "public-policy-evaluation",
+      "severity": "medium",
+      "issue": "The fee audit withheld the standard route on generic separate page/colour-charge wording without checking the current publisher list of charging journals.",
+      "resolution": "Restored verified_free using the explicit journal-specific no-fee statement together with Sage’s active charge list. No applicable mandatory page-charge schedule or trigger was found. Kept the generic wording, optional costs and manuscript limits visible; no overlength exemption is inferred."
+    },
+    {
+      "id": "public-policy-american-review-of-public-administration",
+      "severity": "medium",
+      "issue": "The fee audit withheld the standard route on generic separate page/colour-charge wording without checking the current publisher list of charging journals.",
+      "resolution": "Restored verified_free using the explicit journal-specific no-fee statement together with Sage’s active charge list. No applicable mandatory page-charge schedule or trigger was found. Kept the generic wording, optional costs and manuscript limits visible; no overlength exemption is inferred."
+    },
+    {
+      "id": "public-policy-public-works-management-and-policy",
+      "severity": "medium",
+      "issue": "The fee audit withheld the standard route on generic separate page/colour-charge wording without checking the current publisher list of charging journals.",
+      "resolution": "Restored verified_free using the explicit journal-specific no-fee statement together with Sage’s active charge list. No applicable mandatory page-charge schedule or trigger was found. Kept the generic wording, optional costs and manuscript limits visible; no overlength exemption is inferred."
+    },
+    {
+      "id": "public-policy-administration-and-society",
+      "severity": "info",
+      "issue": "Perspectives and regular research articles have different length and reviewer requirements.",
+      "resolution": "Retained verified_free and high as a provisional judgment supported by the official 17.1% final-decision aggregate. Preserved external review for Perspectives, without treating its one-reviewer exception as the regular research process."
+    },
+    {
+      "id": "public-policy-science-technology-and-human-values",
+      "severity": "info",
+      "issue": "A blanket avoid-print-colour caveat would misstate this journal; independent reproduction of the acceptance value was limited by timeouts.",
+      "resolution": "Retained the fee auditor’s corrected free-colour policy. Kept the ranking role’s cited official 9.2% aggregate and its provisional band with an explicit reviewer access limitation; no new rate or date is invented."
+    },
+    {
+      "id": "public-policy-policy-sciences",
+      "severity": "medium",
+      "issue": "The high difficulty band rests on contribution/scope requirements rather than comparative selectivity, and the discovery note overstates fit of large-N policy analysis.",
+      "resolution": "Changed difficulty to unknown and narrowed scope to the actual contextual/multi-method remit. Retained needs_verification for submission/other compulsory-cost uncertainty and retained only explicitly dated 2025 publisher metrics."
+    },
+    {
+      "id": "public-policy-science-and-public-policy",
+      "severity": "info",
+      "issue": "Current and older colour policies differ; no-submission-fee coverage remains incomplete. Citation performance does not give acceptance odds.",
+      "resolution": "Retained current free standard-licence/page/colour publication evidence with needs_verification for submission costs. Kept difficulty unknown and verified dated 2025 citation metrics; corrected metrics URLs to the currently retrievable official page."
+    },
+    {
+      "id": "public-policy-journal-of-european-public-policy",
+      "severity": "medium",
+      "issue": "Fee evidence is incomplete because direct author instructions are blocked; official metrics are search-indexed rather than fully inspected.",
+      "resolution": "Retained needs_verification and unknown submission/publication charges. Retained high as a provisional judgment using the reproduced official 19% aggregate, with 2025 derived from the publisher’s previous-calendar-year definition; preserved explicit evidence-access limits."
+    },
+    {
+      "id": "public-policy-journal-of-public-policy",
+      "severity": "high",
+      "issue": "Historical subscription-supported publication counts can be mistaken for a current free subscription route; waiver assurances and Letters’ no-APC exception do not establish an unconditional full research-article route.",
+      "resolution": "Retained the current conditional_waiver research route and current APC amounts. Kept 29 total/25 OA/5 subscription-supported counts explicitly in 2024 with non-disjoint definitions, and kept difficulty unknown. No acceptance rate is reconstructed from publication volume."
+    },
+    {
+      "id": "public-policy-internet-policy-review",
+      "severity": "medium",
+      "issue": "The high difficulty band is inferred from generic desk standards, and the short webpage AI sentence can be overread as either a total-assistance ban or unrestricted AI drafting permission.",
+      "resolution": "Changed difficulty to unknown. Preserved the human-authorship requirement alongside the full policy’s editing, disclosure, verification and AI-visual conditions; kept verified_free research eligibility, current screening delay and separate op-ed closure."
+    },
+    {
+      "id": "public-policy-journal-of-deliberative-democracy",
+      "severity": "info",
+      "issue": "Solicited Special Features conflict with the public-submission table, and citation quartile is described imprecisely as selectivity on the metrics page.",
+      "resolution": "Retained verified_free for ordinary research/Reflections and the format caveat. Retained high as a provisional qualitative judgment grounded in explicit limited-capacity/selective-review guidance, without using quartile or inventing an acceptance rate. Undated metrics remain excluded."
+    },
+    {
+      "id": "public-policy-commonwealth-journal-of-local-governance",
+      "severity": "info",
+      "issue": "Broad all-articles review wording could incorrectly label practitioner/editorial sections as peer reviewed; fee-statement attribution was inaccurate in expansion.",
+      "resolution": "Retained the explicit submissions-page fee evidence and restricted the peer-reviewed record to the research/evaluation route. Preserved unknown difficulty and omitted unsupported metrics; review status is not generalized to all sections."
+    },
+    {
+      "id": "public-policy-policy-quarterly",
+      "severity": "info",
+      "issue": "Published major speeches are an explicit exception to the normal research peer-review process.",
+      "resolution": "Retained verified_free for ordinary submitted articles, made no easier-acceptance inference from practitioner readership or article length, and preserved unknown difficulty plus the speech exception."
+    }
+  ],
+  "notes": [
+    "Read discovery, diamond, fees and ranking public-policy role files and reviewed merged implications for all 14 records. This skeptical review supplies 14 complete field replacements (route, difficulty, metrics, review, formats and scope_notes) and 14 findings. Source role files are unchanged.",
+    "Coverage: live official author/fee policies were independently retrieved for 13 venues and attempted for JEPP. JEPP direct instructions remained blocked; official indexed publisher text was used with its weaker access status preserved. Sage’s current submission/page/publication charge list was inspected end-to-end; the four disputed titles are absent. Journal-specific explicit no-fee statements are the affirmative basis of their restored standard routes, corroborated by the list, rather than silence alone.",
+    "Eligibility after review: 10 verified_free, 3 needs_verification (Policy Sciences, Science and Public Policy, JEPP), 1 conditional (Cambridge Journal of Public Policy). The four Sage restorations do not assert a free overlength allowance or erase optional colour/OA/service costs.",
+    "Metric coverage: independently reproduced four Sage acceptance values (PPA 7.3%, AAS 17.1%, Evaluation 23.4%, ARPA 7.5%), Sage’s all-final-decisions/previous-calendar-year definition, the dated Policy Sciences and OUP citation/usage evidence, official indexed JEPP metrics, and Cambridge’s historical 2024 article counts. STH 9.2% and PWMP 21.6% remain ranking-role official-page observations; this reviewer obtained their page metadata but repeated body fetches timed out. This limitation is explicit in their audit notes rather than reported as an independently reproduced value.",
+    "Acceptance metric year 2025 for Sage/JEPP is derived from the publisher-defined previous full calendar year at the 2026-11-16 check, not a year printed beside each rate. Citation metric years 2025 and Cambridge publication-count year 2024 are printed explicitly. Undated Cambridge/JDD citation metrics and period-ambiguous speed displays remain excluded.",
+    "Difficulty is a provisional agent judgment within the relevant specialty, never an acceptance probability or a cross-discipline prestige ranking. Policy Sciences and Internet Policy Review were changed from high to unknown because detailed fit/desk standards alone did not establish comparative selectivity. JDD’s qualitative high judgment retains the explicit selective-review/limited-capacity basis and its absence of an official acceptance rate.",
+    "IPR: independently read its current author page, September 2026 AI policy and desk criteria; retained both the webpage prohibition on AI article authorship and the detailed permitted/disclosed uses. Research screening delay and op-ed closure are separate. JDD format inconsistencies, CJLG edited-section exceptions and Policy Quarterly speech exceptions remain visible.",
+    "No venue was contacted, no manuscript submitted, and no account, membership or paid service purchased. Independent agent review is policy verification, not human scientific review, manuscript acceptance assurance or a guarantee against later policy changes."
+  ]
+}

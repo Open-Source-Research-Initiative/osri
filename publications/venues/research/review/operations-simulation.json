@@ -1,0 +1,153 @@
+{
+  "subfield": "operations-simulation",
+  "role": "review",
+  "checked_on": "2026-11-16",
+  "patches": [
+    {
+      "id": "operations-simulation-operations-research-and-decisions",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Current author instructions explicitly exclude both APCs and submission charges; the homepage also excludes publication fees and the aims page describes an institution-funded free journal. No selective waiver or affiliation agreement is required. Non-survey manuscripts may have at most 35 references. Revised manuscripts must use the journal LaTeX template and EPS figures; converted Word source or converted raster figures are not accepted. No compulsory membership, registration payment or page tariff is stated.",
+        "other_mandatory_costs": "None stated in the explicit no-APC/no-submission-charge policy and current author instructions; no compulsory membership, paid provider or conference registration is listed.",
+        "fee_evidence": [
+          {
+            "url": "https://ord.pwr.edu.pl/Instructions_for_authors",
+            "checked_on": "2026-11-16",
+            "note": "The final policy paragraph explicitly excludes APCs and submission charges. The page also specifies the 35-reference limit for non-survey papers and the LaTeX/EPS revision requirements. Independently read through the web tool and confirmed in a separate live HTML request.",
+            "access": "page"
+          },
+          {
+            "url": "https://ord.pwr.edu.pl/",
+            "checked_on": "2026-11-16",
+            "note": "The official homepage explicitly identifies open access without a publication fee.",
+            "access": "page"
+          },
+          {
+            "url": "https://ord.pwr.edu.pl/Aims_and_scope",
+            "checked_on": "2026-11-16",
+            "note": "The university journal describes itself as free of charge and financed by the Faculty of Management, corroborating the author-instruction fee statement.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Skeptical review corrects the earlier fee audit: the current author instructions expressly exclude submission charges as well as APCs. The prior needs_verification decision missed that final paragraph. Upgrade to verified_free on journal-specific evidence, preserving formatting constraints and leaving the incomplete acceptance-rate period and denominator unchanged."
+    },
+    {
+      "id": "operations-simulation-informs-journal-on-computing",
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Skeptical-review judgment: original computational OR contributions, usefulness to researchers or practitioners and editorial screening are explicit requirements. The substantial-extension rule cited in the earlier high assessment applies specifically to papers previously published in refereed proceedings. These contribution and originality conditions do not establish comparative selectivity for all journal submissions; no official acceptance-rate evidence was located. Unknown does not imply easy acceptance, and the retained citation metrics do not determine difficulty.",
+        "source_urls": [
+          "https://pubsonline.informs.org/page/ijoc/submission-guidelines"
+        ]
+      },
+      "audit_note": "Changed the provisional high band to unknown because the proceedings-extension requirement has a narrower population than all submissions and routine screening does not calibrate comparative acceptance difficulty. Retain the 25-page main-paper limit plus up to ten appendix pages, software/data expectations, journal-reported citation metrics and needs_verification fee route."
+    }
+  ],
+  "findings": [
+    {
+      "id": "operations-simulation-operations-research-and-decisions",
+      "severity": "medium",
+      "issue": "The discovery and fee files say submission fees are unresolved, but the current author instructions expressly exclude both APCs and submission charges in their final policy paragraph.",
+      "resolution": "Supplied a complete route replacement upgrading to verified_free, supported by journal-specific instructions and corroborating home/aims pages. Independently reconfirmed the sentence with a separate live HTML request. Preserved the 35-reference and LaTeX/EPS conditions; the 6.68% statistic still has only a since-2025-01-01 interval and no denominator or end date."
+    },
+    {
+      "id": "operations-simulation-informs-journal-on-computing",
+      "severity": "medium",
+      "issue": "The high difficulty rationale generalizes a proceedings-extension condition and ordinary contribution/screening standards into a comparative judgment across all submissions.",
+      "resolution": "Replaced the full difficulty object with unknown. The 25-page main-paper limit and ten appendix pages were independently confirmed, as was the journal homepage's explicitly labeled 2025 impact factor; fee uncertainty remains."
+    },
+    {
+      "id": "operations-simulation-stochastic-systems",
+      "severity": "low",
+      "issue": "A free open-access label alone would not establish free submission or comparative difficulty.",
+      "resolution": "No correction required: current journal instructions explicitly exclude both submission fees and APCs, confirm 35 pages including references and eight-page correspondences, and explicitly permit rejection of correct work for insufficient contribution. Retain verified_free and the clearly labeled provisional high judgment, with no invented acceptance metric."
+    },
+    {
+      "id": "operations-simulation-mathematics-of-operations-research",
+      "severity": "low",
+      "issue": "Optional Open Option and citation metrics cannot establish an entirely free route or acceptance odds.",
+      "resolution": "Retain needs_verification and the separate fee categories. Independently confirmed the normal 40-page limit excluding references, justified consideration up to 45 pages, foundational mathematical contribution threshold beyond correctness, and explicitly labeled 2025 impact factor. The high band remains a provisional contribution-based judgment; 2024 category ranks are not current acceptance rates."
+    },
+    {
+      "id": "operations-simulation-operations-research",
+      "severity": "low",
+      "issue": "The 2025 dashboard could be mistaken for a completed annual cohort or its rate recomputed from unrelated submission/acceptance counts.",
+      "resolution": "Independently opened the four-page official 2025 annual report and its dashboard. Retain 17.3% for 2025 Q1-Q3 and 19.9% for 2024 with undefined acceptance denominators. Do not divide the adjacent 102 acceptances by 741 submissions. Submission instructions independently confirm 30 pages for regular papers and generally 40 for longer papers, excluding references; fee route remains unverified."
+    },
+    {
+      "id": "operations-simulation-queueing-systems",
+      "severity": "low",
+      "issue": "Hybrid status and an APC-free subscription choice do not exclude submission, page or overlength charges.",
+      "resolution": "Independently confirmed this journal's hybrid status and the applicable publisher no-APC subscription policy, alongside the publisher's explicit page/overlength exceptions. Retain needs_verification and unknown difficulty; no fee policy was transferred from another journal."
+    },
+    {
+      "id": "operations-simulation-annals-of-operations-research",
+      "severity": "low",
+      "issue": "A special volume or subscription choice could be mistaken for a guaranteed free or easier publication route.",
+      "resolution": "Independently confirmed the journal-specific hybrid choice and applicable publisher APC policy. Preserve unresolved submission/ancillary costs and unknown difficulty. Neither special-volume availability nor citation impact supplies acceptance probability."
+    },
+    {
+      "id": "operations-simulation-or-spectrum",
+      "severity": "low",
+      "issue": "Rigorous review and citation metrics could be conflated with a calibrated difficulty band or a comprehensive free route.",
+      "resolution": "Independently confirmed hybrid status, scope, two-reviewer assessment and the homepage's explicitly labeled 2025 citation metrics. Retain needs_verification and unknown difficulty; publisher page/overlength exceptions remain unresolved."
+    },
+    {
+      "id": "operations-simulation-simulation",
+      "severity": "low",
+      "issue": "The official 3.6% acceptance figure has no reporting period or denominator in the readable overview and could be presented as an annual or manuscript-specific rate.",
+      "resolution": "Independently recovered the official overview via lowercase description navigation and confirmed 3.6% without an exposed year/window or denominator. Retain null year and explicit uncertainty, not an invented date. Current author instructions separately establish no submission/publication fees and optional OA/print-color costs. Unknown difficulty remains appropriate."
+    },
+    {
+      "id": "operations-simulation-simulation-and-gaming",
+      "severity": "low",
+      "issue": "An undated 11.1% statistic and the journal's narrower gaming/educational scope could be overgeneralized to ordinary OR submissions.",
+      "resolution": "Independently confirmed the official undated 11.1% figure, no-submit/publish-fee policy and 7000/3000/5000-word article-type limits excluding references. Preserve the simulation/gaming scope restriction, unknown denominator/year and unknown difficulty. Optional paid print color and OA remain distinct."
+    },
+    {
+      "id": "operations-simulation-journal-of-defense-modeling-and-simulation",
+      "severity": "low",
+      "issue": "This defense-specific venue is not general health-system/OR coverage, and its 28.8% rate lacks period and denominator definitions.",
+      "resolution": "Preserve the explicit defense-domain fit condition and the statement that inclusion does not adopt defense research as an OSRI priority. Independently confirmed free submission/publication, optional paid print color/OA, ideal 10-20 pages without a fixed submission cap, and the official undated 28.8% rate. Retain unknown difficulty."
+    },
+    {
+      "id": "operations-simulation-croatian-operational-research-review",
+      "severity": "low",
+      "issue": "Historical 2020 statistics or required proofreading confirmation could be mistaken for current selectivity or a compulsory paid provider.",
+      "resolution": "Independently confirmed the official 48% acceptance and separately reported 52% rejection are explicitly 2020, and CiteScore 1.4 is 2023. Official society instructions explicitly exclude submission/publication fees; current OJS instructions require 10-12 pages, at most 30 references, final LaTeX and proofreading confirmation without mandating a paid provider. Retain verified_free, historical labels and unknown difficulty."
+    },
+    {
+      "id": "operations-simulation-sort-statistics-and-operations-research-transactions",
+      "severity": "low",
+      "issue": "SORT publishes rejection percentages, not acceptance percentages; their complements cannot be assumed to represent accepted submission cohorts.",
+      "resolution": "Independently confirmed official rejection 83.3% for 2025 and 91.0% for 2024, labeled relative to total articles submitted. Retain those rejection labels and unspecified pending/cohort handling. The no-submission/publication-fee statement and approximate 25-PDF/40-template-page limits were also confirmed. No acceptance rate is derived."
+    },
+    {
+      "id": "operations-simulation-orion",
+      "severity": "low",
+      "issue": "The Submission Fees heading introduces a sentence excluding APCs and page fees, but does not separately settle literal submission charges.",
+      "resolution": "Independently read the about and submission pages. Retain needs_verification rather than interpreting the heading as an unconditional fee guarantee. Preserve research-article double-blind review, Southern African/comparable-context fit and unknown difficulty; no numeric metric was invented."
+    },
+    {
+      "id": "operations-simulation-rairo-operations-research",
+      "severity": "low",
+      "issue": "Confirmed 2026 Subscribe to Open publication could be misread as a perpetual open-access guarantee, while journal-specific instructions remain blocked.",
+      "resolution": "Independently verified the publisher's no-submission-fee policy, mathematics-programme no-author-payment policy, RAIRO inclusion and 11 June 2026 confirmation. Retain verified_free for 2026 with annual publication-year recheck, no author-institution subscription requirement and the unresolved journal-specific length/production limitation. The author-instructions URL again returned HTTP 403. Publisher metrics remain explicitly 2024."
+    }
+  ],
+  "notes": [
+    "Fifth distinct role: skeptical review of all 15 merged records after reading discovery, diamond, fees and ranking. Reopened key official sources for every venue on 2026-11-16. This is a bounded venue-policy and evidence review, not human scientific review, manuscript matching or usability review.",
+    "Full-field patches correct ORD's missed explicit no-submission-charge policy and demote IJOC's insufficiently calibrated difficulty assessment. After these two patches the merged implications are eight verified_free and seven needs_verification, with four high and eleven unknown difficulty bands. Unknown does not imply easy acceptance; high bands remain identified agent judgments, never measured individual odds.",
+    "Independently checked all seven previously verified free routes plus ORD, ORiON's ambiguous submission wording, all three INFORMS subscription instructions, the three Springer journal hybrid-route pages and applicable publisher APC/ancillary-charge policies. No membership, conference registration, selective waiver or institutional agreement was silently treated as an unconditional free route.",
+    "Metric checks focused on every suspicious acceptance/rejection claim: OPRE's official PDF dashboard, SORT's official statistics table, CRORR's historical homepage figures, ORD's incomplete since-2025 interval and all three Sage overview rates. Also spot-checked current INFORMS homepage impact factors, OR Spectrum citation metrics and the EDP 2024 publisher announcement. This review did not independently reconstruct every citation/category calculation or repeat every Springer/INFORMS category-table value.",
+    "SORT has no rejection-to-acceptance inversion. OPRE 17.3% remains 2025 Q1-Q3 with no defined acceptance denominator, and its adjacent counts are not divided. CRORR 48%/52% remain explicitly historical 2020. Sage 3.6%/11.1%/28.8% remain undated with unknown denominators. ORD 6.68% remains since 2025-01-01 with no stated end or denominator. The review access date is never promoted to a metric year.",
+    "All merged metric arrays were inspected. No null-value metric placeholders were present, so no metric was removed. Sage's null year fields describe an unknown reporting period for an actual officially displayed value and were deliberately preserved. Empty metric arrays remain empty rather than receiving fabricated missing-value objects.",
+    "RAIRO's current 2026 S2O condition and future-year recheck remain intact. Journal instructions again returned HTTP 403. Sage direct uppercase metric URLs sometimes failed, while official author-guideline aims links or lowercase description navigation exposed the reported figures. Access failures are not interpreted as fee evidence.",
+    "Only research/review/operations-simulation.json was created by this review. Source discovery, diamond, fee and ranking files were preserved. No venue was contacted, no research was submitted and no remote write was made."
+  ]
+}

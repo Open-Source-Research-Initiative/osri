@@ -1,0 +1,501 @@
+{
+  "subfield": "public-health",
+  "role": "discovery",
+  "checked_on": "2026-11-16",
+  "records": [
+    {
+      "id": "public-health-bulletin-who",
+      "name": "Bulletin of the World Health Organization",
+      "kind": "journal",
+      "publisher": "World Health Organization",
+      "homepage": "https://www.who.int/publications/journals/bulletin",
+      "author_guidelines": "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors",
+      "submission_url": "http://submit.bwho.org",
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "policy_analysis"
+      ],
+      "scope_notes": "International public health analyses, rigorous secondary-data research, systematic reviews and policy analysis. Local work must demonstrate international relevance. Current guidance requires systematic-review searches within six months of submission and reports an affiliation requirement for primary research.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No author fees; research and systematic-review articles have 3000-word limits. Supplementary material must be placed in a DOI-issuing repository; choose a free repository. Copyright permissions for reused material remain the authors responsibility. Review/preprint and country-affiliation rules require manuscript-specific checking.",
+        "other_mandatory_costs": "No mandatory journal author charges stated. External copyright-permission or repository expenses depend on author choices.",
+        "fee_evidence": [
+          {
+            "url": "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors",
+            "checked_on": "2026-11-16",
+            "note": "Contributor guidelines state that the fully open-access journal charges no author fees; the same page describes review and article conditions.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.who.int/publications/journals/bulletin/contributors/guidelines-for-contributors",
+        "https://www.who.int/publications/journals/bulletin"
+      ]
+    },
+    {
+      "id": "public-health-pan-american-journal",
+      "name": "Revista Panamericana de Salud Pública / Pan American Journal of Public Health",
+      "kind": "journal",
+      "publisher": "Pan American Health Organization",
+      "homepage": "https://journal.paho.org/en",
+      "author_guidelines": "https://journal.paho.org/en/instructions-authors",
+      "submission_url": "https://mc.manuscriptcentral.com/rpsp",
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods",
+        "policy_analysis"
+      ],
+      "scope_notes": "Public health in the Americas, including population analyses, methodology, health systems and systematic reviews. Relevance beyond the study locality and across the region matters; noncritical descriptive literature reviews and clinical case reports are normally excluded.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Official indexed policy describes diamond access without fees for researchers or readers and no cost for publication. Direct access to policy and author-guidance pages returned HTTP 403, so explicit current submission and ancillary-charge confirmation remains pending. Accepts English, Portuguese and Spanish.",
+        "other_mandatory_costs": "Unknown beyond the official indexed no-author-cost statement; verify current full policy.",
+        "fee_evidence": [
+          {
+            "url": "https://journal.paho.org/en/about-journal",
+            "checked_on": "2026-11-16",
+            "note": "Official indexed policy says publication has no author cost and describes diamond open access without fees for researchers or readers. Direct page fetch was blocked.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://journal.paho.org/en/instructions-authors",
+            "checked_on": "2026-11-16",
+            "note": "Direct author-guidelines fetch returned HTTP 403; indexed text confirms scope and article types but is not a complete fee audit.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journal.paho.org/en/about-journal",
+          "https://journal.paho.org/en/instructions-authors"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journal.paho.org/en/about-journal",
+        "https://journal.paho.org/en/instructions-authors"
+      ]
+    },
+    {
+      "id": "public-health-emerging-infectious-diseases",
+      "name": "Emerging Infectious Diseases",
+      "kind": "journal",
+      "publisher": "US Centers for Disease Control and Prevention",
+      "homepage": "https://wwwnc.cdc.gov/eid/",
+      "author_guidelines": "https://wwwnc.cdc.gov/eid/page/submit-manuscript",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Epidemiology and prevention of emerging or reemerging infectious diseases worldwide. OSRI fit includes existing surveillance-data analyses, modeling and syntheses with an explicit public health contribution; laboratory and clinical portions of journal scope are outside this catalog intended initial research use.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Standard journal submissions are free. This record does not cover organizing a sponsored supplement: the separate EID Advantage page reports costs to supplement organizers. Strict article-specific word limits apply.",
+        "other_mandatory_costs": "None for standard individual articles according to the official journal report; sponsored-supplement organization is excluded.",
+        "fee_evidence": [
+          {
+            "url": "https://wwwnc.cdc.gov/eid/page/submit-manuscript",
+            "checked_on": "2026-11-16",
+            "note": "The submission policy explicitly says there are no fees for submitting or processing articles.",
+            "access": "page"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The 2024 journal report expressly excludes submission fees, page charges, correction costs and other author fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://wwwnc.cdc.gov/eid/about/general",
+          "https://wwwnc.cdc.gov/eid/article-types"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://wwwnc.cdc.gov/eid/page/submit-manuscript",
+        "https://wwwnc.cdc.gov/eid/pdfs/JournalReport_2024-Final.pdf",
+        "https://wwwnc.cdc.gov/eid/about/general",
+        "https://wwwnc.cdc.gov/eid/article-types",
+        "https://wwwnc.cdc.gov/eid/page/eid-advantage"
+      ]
+    },
+    {
+      "id": "public-health-eurosurveillance",
+      "name": "Eurosurveillance",
+      "kind": "journal",
+      "publisher": "European Centre for Disease Prevention and Control",
+      "homepage": "https://www.eurosurveillance.org/",
+      "author_guidelines": "https://www.eurosurveillance.org/for-authors",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Communicable-disease surveillance, epidemiology, prevention and control with European public health relevance. Secondary surveillance-data studies and synthesis are plausible fits; verify the current article taxonomy and requirements because direct author guidance could not be read.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "ECDC current 2026-2028 programming document describes the journal as diamond open access, and its 2019 annual report explicitly states no author fees. Current journal policy and author pages returned HTTP 403; current submission, length and ancillary-cost details remain unverified.",
+        "other_mandatory_costs": "Unknown until the current complete author policy can be inspected.",
+        "fee_evidence": [
+          {
+            "url": "https://www.ecdc.europa.eu/sites/default/files/documents/single-programming-document-2026-2028.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The official 2026-2028 programming document describes continued publication of an independent diamond open-access journal; only indexed text was accessible.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://www.ecdc.europa.eu/sites/default/files/documents/Annual-Report-Director-2019.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Historical official report says there are no author fees; this is corroboration, not a current detailed cost schedule.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://www.eurosurveillance.org/for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Current author page returned HTTP 403, preventing a direct submission-fee and ancillary-cost audit.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.ecdc.europa.eu/sites/default/files/documents/Annual-Report-Director-2019.pdf",
+          "https://www.ecdc.europa.eu/sites/default/files/documents/single-programming-document-2026-2028.pdf"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.eurosurveillance.org/about",
+        "https://www.eurosurveillance.org/for-authors",
+        "https://www.ecdc.europa.eu/sites/default/files/documents/single-programming-document-2026-2028.pdf",
+        "https://www.ecdc.europa.eu/sites/default/files/documents/Annual-Report-Director-2019.pdf"
+      ]
+    },
+    {
+      "id": "public-health-journal-of-public-health-oup",
+      "name": "Journal of Public Health",
+      "kind": "journal",
+      "publisher": "Oxford University Press for the Faculty of Public Health",
+      "homepage": "https://academic.oup.com/jpubhealth",
+      "author_guidelines": "https://academic.oup.com/jpubhealth/pages/author-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "policy_analysis"
+      ],
+      "scope_notes": "Broad public health research, health improvement/protection, healthcare public health, ethics and law, with translation into practice. Secondary-data papers fit the broad original-work remit; reporting guidance addresses systematic reviews, although a dedicated review format is not separately listed.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Choose the standard licence: current journal guidelines say there is no licence charge, no page charges and no colour charges. Optional open access incurs an APC unless an eligible agreement pays it. The inspected current guidelines did not explicitly confirm absence of a submission fee.",
+        "other_mandatory_costs": "No page or colour charges; submission fee remains unconfirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/jpubhealth/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific guidelines state no standard-licence charge and no colour or page charges; they distinguish paid optional open access. Submission-fee absence was not explicit.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://academic.oup.com/jpubhealth/pages/author-guidelines"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://academic.oup.com/jpubhealth/pages/author-guidelines"
+      ]
+    },
+    {
+      "id": "public-health-scandinavian-journal",
+      "name": "Scandinavian Journal of Public Health",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/sjp",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/sjp",
+      "submission_url": "https://mc.manuscriptcentral.com/spub",
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Public health original research, literature reviews and study-design papers. Existing-data population research and synthesis are relevant. The free route can substantially constrain review length because the printed-page threshold includes references, tables and figures.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Free standard publication only within five printed pages, including abstract, tables, figures and references. Above five pages, original, review and design articles incur GBP 80 or USD 100 per excess page excluding VAT. Optional OA and requested print colour cost extra. Supplements require author/sponsor funding and are excluded.",
+        "other_mandatory_costs": "None within the specified standard five-page route; mandatory excess-page charges apply beyond it.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sjp",
+            "checked_on": "2026-11-16",
+            "note": "Guidelines explicitly say no submission or publication fees, then specify excess-page charges after five printed pages for original, review and design articles. Requested print colour and sponsored supplements have separate costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/sjp"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/sjp"
+      ]
+    },
+    {
+      "id": "public-health-public-health-reports",
+      "name": "Public Health Reports",
+      "kind": "journal",
+      "publisher": "Sage for the Association of Schools and Programs of Public Health",
+      "homepage": "https://journals.sagepub.com/home/phr",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/phr",
+      "submission_url": "https://mc.manuscriptcentral.com/PHR",
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Public health practice, epidemiologic research, evaluation and methodology, including meta-analysis and topical synthesis. Existing-data work must establish practical public health implications. Research, methods and topical-review categories are peer reviewed; commentary and other special categories have different review rules.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription route has no submission or publication fee. Online colour is free; requested print colour and optional open access have separate charges. The publisher-hosted PDF includes article-specific limits and review rules; some brief reports and commentaries require prior editorial agreement.",
+        "other_mandatory_costs": "None for the standard route without optional print colour or optional open access.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/phr",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific Publishing fees and open access section explicitly states no fees to submit or publish, free online colour, and separate optional print-colour and OA costs.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/phr",
+          "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/phr",
+        "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf"
+      ]
+    },
+    {
+      "id": "public-health-perspectives-in-public-health",
+      "name": "Perspectives in Public Health",
+      "kind": "journal",
+      "publisher": "Sage for the Royal Society for Public Health",
+      "homepage": "https://journals.sagepub.com/home/rsh",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/rsh",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Applied public health and health promotion research, reviews and short reports. Secondary-data research and review methods can fit. Original research and reviews are subject to peer review; Current Topics and Opinions, In Practice and Features are editorial categories rather than equivalent peer-reviewed research.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription publication is free. Online colour is free; specially requested print colour and optional open access are charged. Original research and reviews are normally 2000-4000 words; abstract-bearing articles require a plain-language summary. Tobacco-company-supported submissions are not considered.",
+        "other_mandatory_costs": "None for standard publication without requested print colour or optional open access.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rsh",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific policy explicitly states no fees to submit or publish and distinguishes free online colour from optional charged print colour and open access.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/rsh"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/rsh"
+      ]
+    },
+    {
+      "id": "public-health-european-journal",
+      "name": "European Journal of Public Health",
+      "kind": "journal",
+      "publisher": "Oxford University Press for the European Public Health Association",
+      "homepage": "https://academic.oup.com/eurpub",
+      "author_guidelines": "https://academic.oup.com/eurpub/pages/author-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "policy_analysis"
+      ],
+      "scope_notes": "Multidisciplinary population health, epidemiology, health services and policy, with European focus and relevant global health contributions. Original articles expressly include systematic reviews and meta-analyses. Retained as an important conditional-cost counterexample, not an unconditional free recommendation.",
+      "route": {
+        "model": "conditional_agreement",
+        "submission_fee": "unknown",
+        "publication_fee": "charged",
+        "eligibility": "conditional",
+        "oa_status": "open_access",
+        "conditions": "Current official guidance says fully open access with a compulsory APC. An eligible institutional agreement may pay it; country-based or discretionary waivers are separate conditional options. Membership gives a discount rather than an automatic free route. Submission-fee absence was not explicit; no standard subscription route is stated.",
+        "other_mandatory_costs": "No colour or page charges; APC remains mandatory unless a qualifying agreement or full waiver applies. Submission fee unconfirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/eurpub/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current guidelines state fully OA publication requires payment or an institutional agreement and describe limited waivers; they state no page or colour charges. This is not free standard subscription publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://academic.oup.com/eurpub/pages/author-guidelines"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "No difficulty ranking established in discovery; independent ranking review pending.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://academic.oup.com/eurpub/pages/author-guidelines"
+      ]
+    }
+  ],
+  "notes": [
+    "Nine journal records; five scoped routes marked verified_free, three require fee verification, and one is conditional. No acceptance odds or citation metrics were inferred.",
+    "Verified free means author charges for the stated route, not automatic immediate open access or acceptance. Scandinavian Journal of Public Health is free only within the stated printed-page limit; this is a format condition, not a selective waiver.",
+    "Pan American Journal of Public Health and Eurosurveillance had blocked direct policy access. Indexed official statements were retained with access limitations; the fee auditor should obtain complete current policy before promoting their routes.",
+    "Journal of Public Health standard licence, page and colour costs were directly checked; no explicit no-submission-fee statement was located, so the complete free-submission-and-publication claim remains unverified.",
+    "European Journal of Public Health currently declares full open access and compulsory APCs. Older assumptions of a free subscription route must not be carried into the directory.",
+    "Public Health and Annals of Epidemiology were explored but omitted because their current ScienceDirect policy pages were blocked and more directly evidenced venues were available. Preventing Chronic Disease was left for expansion: official open-reader access was clear, but explicit author-fee evidence was not located in this discovery pass.",
+    "No venue was contacted and no submission was made. Research and review judgments here are agent discovery work, not human scientific review or a manuscript-specific eligibility determination."
+  ]
+}

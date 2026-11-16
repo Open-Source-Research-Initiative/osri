@@ -1,0 +1,536 @@
+{
+  "subfield": "informatics-computing",
+  "role": "discovery",
+  "checked_on": "2026-11-16",
+  "records": [
+    {
+      "id": "informatics-computing-jmlr",
+      "name": "Journal of Machine Learning Research",
+      "kind": "journal",
+      "publisher": "JMLR, Inc.",
+      "homepage": "https://jmlr.org/",
+      "author_guidelines": "https://jmlr.org/author-info.html",
+      "submission_url": "https://jmlr.csail.mit.edu/manudb/",
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "methods",
+        "software"
+      ],
+      "scope_notes": "Machine learning theory, algorithms, analysis and methodological insight. Routine applications of ML to other domains are excluded. Unsolicited surveys are not considered; separate open-source-software guidance applies.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "The author page explicitly rules out publication fees. It describes the submission workflow but does not explicitly rule out a submission fee; retain pending independent fee audit. Surveys are invitation-only and current originality guidance also states that review articles are not published.",
+        "other_mandatory_costs": "No publication fees stated; a separate explicit submission-fee statement was not located.",
+        "fee_evidence": [
+          {
+            "url": "https://jmlr.org/author-info.html",
+            "checked_on": "2026-11-16",
+            "note": "The journal explicitly states that there are no publication fees and published papers are freely available. Submission-fee absence is not separately explicit on this page.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://jmlr.org/author-info.html"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://jmlr.org/author-info.html"
+      ]
+    },
+    {
+      "id": "informatics-computing-jair",
+      "name": "Journal of Artificial Intelligence Research",
+      "kind": "journal",
+      "publisher": "AI Access Foundation",
+      "homepage": "https://www.jair.org/",
+      "author_guidelines": "https://www.jair.org/index.php/jair/about/submissions",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "AI methods, reasoning, knowledge representation, agents, NLP, planning, vision and learning. Research articles, analytical surveys and technical notes must advance understanding beyond a narrow application.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No submission or publication charges. Surveys have separate guidelines. Standard journal submission does not require conference participation.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jair.org/index.php/jair/faq",
+            "checked_on": "2026-11-16",
+            "note": "The FAQ explicitly states that authors are not charged for submitting or publishing articles.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.jair.org/index.php/jair/about"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.jair.org/index.php/jair/about",
+        "https://www.jair.org/index.php/jair/faq"
+      ]
+    },
+    {
+      "id": "informatics-computing-tmlr",
+      "name": "Transactions on Machine Learning Research",
+      "kind": "journal",
+      "publisher": "Transactions on Machine Learning Research (self-published; part of Journal of Machine Learning Research Inc.)",
+      "homepage": "https://jmlr.org/tmlr/",
+      "author_guidelines": "https://jmlr.org/tmlr/editorial-policies.html",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Original ML research, theoretical or empirical studies, reproducibility studies, and applications that reveal strengths or weaknesses of methods. The current FAQ excludes survey papers as of September 1, 2026.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No fees or payments imposed on authors. Per-author annual submission quotas apply. Expanded archival conference papers are excluded. Journal-to-conference presentation opportunities are separate from journal publication and any attendance costs.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://jmlr.org/tmlr/editorial-policies.html",
+            "checked_on": "2026-11-16",
+            "note": "The open-access policy says published content is immediately free and TMLR imposes no fees or payments on authors.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://jmlr.org/tmlr/editorial-policies.html"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://jmlr.org/tmlr/editorial-policies.html",
+        "https://jmlr.org/tmlr/faq.html",
+        "https://jmlr.org/tmlr/contact.html"
+      ]
+    },
+    {
+      "id": "informatics-computing-joss",
+      "name": "Journal of Open Source Software",
+      "kind": "journal",
+      "publisher": "Open Journals",
+      "homepage": "https://joss.theoj.org/",
+      "author_guidelines": "https://joss.readthedocs.io/en/latest/submitting.html",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "software"
+      ],
+      "scope_notes": "Peer-reviewed papers about mature open research software across disciplines. Excludes pre-trained ML models, notebooks, thin API clients and one-off analysis tools; does not publish a research-results article in place of a software paper.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No submission or publication fees. Software needs an OSI-approved license, demonstrated research use, tests and documentation, and more than six months of public iterative development. Review and required archive release are public. AI assistance requires disclosure and human responsibility.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "checked_on": "2026-11-16",
+            "note": "The current submission guide explicitly states that submitting and publishing in JOSS carry no fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://joss.theoj.org/about",
+          "https://joss.readthedocs.io/en/latest/submitting.html"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://joss.theoj.org/about",
+        "https://joss.readthedocs.io/en/latest/submitting.html"
+      ]
+    },
+    {
+      "id": "informatics-computing-jstatsoft",
+      "name": "Journal of Statistical Software",
+      "kind": "journal",
+      "publisher": "Foundation for Open Access Statistics",
+      "homepage": "https://www.jstatsoft.org/",
+      "author_guidelines": "https://www.jstatsoft.org/authors",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "software"
+      ],
+      "scope_notes": "Substantial open-source statistical software and reproducible articles, including smaller code snippets. Methods innovations should be published elsewhere first; a JSS implementation needs its own substantial software contribution.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Free submission and no author fees. Requires GPL or GPL-compatible software, manuscript source, and replication material reproducing all results. Authors prepare the final publishable files. No page or figure limit is stated, although long articles can take longer to review.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jstatsoft.org/authors",
+            "checked_on": "2026-11-16",
+            "note": "The journal explicitly describes free submission and states that it charges no author fees or subscription fees; manuscript preparation has no page or figure limit.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.jstatsoft.org/authors"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.jstatsoft.org/authors",
+        "https://www.jstatsoft.org/mission",
+        "https://www.jstatsoft.org/about/editorialTeam"
+      ]
+    },
+    {
+      "id": "informatics-computing-lmcs",
+      "name": "Logical Methods in Computer Science",
+      "kind": "journal",
+      "publisher": "Logical Methods in Computer Science e.V.",
+      "homepage": "https://lmcs.episciences.org/",
+      "author_guidelines": "https://lmcs.episciences.org/page/authors-information",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Theoretical and practical computer science involving logical methods, including formal reasoning, proof, semantics and verification. Original research and surveys are in scope.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Free Episciences overlay-journal route. Authors must first deposit the paper and TeX source in arXiv/CoRR with cs.LO included, then submit through Episciences. Normally at most 50 pages unless justified to the handling editor. Repository moderation remains distinct from journal peer review.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "The platform policy applies to all Episciences journals and says submission and publication are not conditional on payment; there are no access or publication fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://lmcs.episciences.org/page/authors-information",
+            "checked_on": "2026-11-16",
+            "note": "LMCS identifies itself as a free open-access overlay journal and documents its arXiv deposit plus Episciences submission workflow, establishing policy applicability.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://lmcs.episciences.org/page/purpose",
+          "https://lmcs.episciences.org/page/authors-information"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://lmcs.episciences.org/page/purpose",
+        "https://lmcs.episciences.org/page/authors-information",
+        "https://www.episciences.org/publishing-model/"
+      ]
+    },
+    {
+      "id": "informatics-computing-jot",
+      "name": "Journal of Object Technology",
+      "kind": "journal",
+      "publisher": "Association Internationale pour les Technologies Objets (AITO)",
+      "homepage": "https://www.jot.fm/",
+      "author_guidelines": "https://submissions.jot.fm/index.php/jot/about/submissions",
+      "submission_url": "https://submissions.jot.fm/index.php/jot/about/submissions",
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods",
+        "software"
+      ],
+      "scope_notes": "Software and language engineering, model-driven engineering, architecture, verification, maintenance, analytics, and software tools. Generic domain applications without a software-engineering contribution are outside scope.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The journal says all contributions are completely free for authors and readers, with no APC. Use the regular journal route; conference-linked special issues may have separate event participation conditions. JOT LaTeX is mandatory; no fixed page limit is stated. A distinct Software Section has artifact requirements.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.jot.fm/",
+            "checked_on": "2026-11-16",
+            "note": "The journal identifies its model as diamond open access, says it is completely free for authors and readers, and explicitly applies that model to all contributions.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.jot.fm/authors.html"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.jot.fm/",
+        "https://submissions.jot.fm/index.php/jot/about/submissions",
+        "https://www.jot.fm/software"
+      ]
+    },
+    {
+      "id": "informatics-computing-tgdk",
+      "name": "Transactions on Graph Data and Knowledge",
+      "kind": "journal",
+      "publisher": "Schloss Dagstuhl - Leibniz-Zentrum für Informatik",
+      "homepage": "https://www.dagstuhl.de/en/publishing/series/details/TGDK",
+      "author_guidelines": "https://www.dagstuhl.de/en/publishing/series/details/TGDK",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "data",
+        "software"
+      ],
+      "scope_notes": "Graph algorithms and databases, knowledge graphs, graph representation learning, semantic web, querying, reasoning and related data-science methods. Publishes research, resource and survey articles; resources may include data or software.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No fees for authors or readers; support is supplied through the Semantic Web Science Association. Research and resource articles require a Supplementary Material Statement, including when no relevant resources exist. Authors provide ORCID and use the journal template.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.dagstuhl.de/en/publishing/series/details/TGDK",
+            "checked_on": "2026-11-16",
+            "note": "The journal-specific processing-charge section states that no fees are charged for authors or readers, funded by SWSA.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.dagstuhl.de/en/publishing/series/details/TGDK"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.dagstuhl.de/en/publishing/series/details/TGDK"
+      ]
+    },
+    {
+      "id": "informatics-computing-jdmdh",
+      "name": "Journal of Data Mining and Digital Humanities",
+      "kind": "journal",
+      "publisher": "CNRS, INRAE and INRIA joint journal project; Episciences platform",
+      "homepage": "https://jdmdh.episciences.org/",
+      "author_guidelines": "https://jdmdh.episciences.org/page/submissions/lang/en",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods",
+        "software",
+        "data"
+      ],
+      "scope_notes": "Computational research on human-produced humanities and social data, including text mining, NLP, information retrieval, data quality, visualization, corpora and reproducible data analysis. Also accepts peer-reviewed short papers describing useful tools, datasets and community resources.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No submission or publication fees. Deposit the manuscript as a preprint in a supported open repository (HAL, arXiv or Zenodo), then submit its identifier through Episciences. English manuscripts and reproducible experiments are expected.",
+        "other_mandatory_costs": "None stated in the no-author-fee policy for the standard journal route.",
+        "fee_evidence": [
+          {
+            "url": "https://jdmdh.episciences.org/page/editorial-policies",
+            "checked_on": "2026-11-16",
+            "note": "The journal-specific cost policy explicitly says no author or reader fees, no publication fee and no submission fee.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://jdmdh.episciences.org/page/editorial-policies"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://jdmdh.episciences.org/",
+        "https://jdmdh.episciences.org/page/editorial-policies",
+        "https://jdmdh.episciences.org/page/submissions/lang/en"
+      ]
+    },
+    {
+      "id": "informatics-computing-ajis",
+      "name": "Australasian Journal of Information Systems",
+      "kind": "journal",
+      "publisher": "Australasian Chapter of the Association for Information Systems (AAIS)",
+      "homepage": "https://ajis.aaisnet.org/index.php/ajis/index",
+      "author_guidelines": "https://ajis.aaisnet.org/index.php/ajis/about/submissions",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Information-systems theory and practice, conceptual development and diverse research methods. Particularly interested in knowledge drawn from or applied to Australasia, while its stated disciplinary scope is global.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No submission fees, APCs, access fees or other charges. Standard research requires a clear contribution to the IS discipline and conceptual and methodological rigor. No regional-affiliation or paid membership requirement is stated in the journal policy.",
+        "other_mandatory_costs": "None: the journal explicitly rules out any other form of fees or charges.",
+        "fee_evidence": [
+          {
+            "url": "https://ajis.aaisnet.org/index.php/ajis/about",
+            "checked_on": "2026-11-16",
+            "note": "The journal explicitly states that it levies no article-submission fees, article-processing charges, access fees or any other fees or charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://ajis.aaisnet.org/index.php/ajis/about"
+        ]
+      },
+      "difficulty": {
+        "band": "unknown",
+        "basis": "Discovery has not established an acceptance-difficulty ranking; fee-free status does not imply easy acceptance.",
+        "source_urls": []
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://ajis.aaisnet.org/index.php/ajis/about",
+        "https://aisel.aisnet.org/ajis/about.html",
+        "https://ajis.aaisnet.org/index.php/ajis/about/submissions"
+      ]
+    }
+  ],
+  "notes": [
+    "Ten credible journal candidates span AI/ML, formal computer science, software engineering, research software, graph/data research and information systems. Nine have verified free standard routes at discovery; JMLR remains needs_verification solely because no separate explicit submission-fee statement was located.",
+    "Official journal or publisher policy pages were opened live. Search snippets were used to find leads, not as the sole basis for a verified-free fee conclusion. The JOT author page intermittently timed out; its live submission-system page supplied current scope and its accessible homepage supplied fees.",
+    "No ACM venue is assumed free after the 2026 open-access transition; no IEEE venue is inferred free from optional OA alone. Conference registration and presentation are not included in these journal-route conclusions.",
+    "Information Research was considered but omitted because key current policy pages returned an anti-bot access-denied page; it may be worth a separate expansion audit.",
+    "Current restrictions retained: TMLR FAQ excludes surveys from 2026-09-01; JOSS current documentation requires more than six months of public iterative development and demonstrated research use. Older Open Journals documentation is not the controlling JOSS scope source.",
+    "Ranking evidence lead for the ranking role: JAIR's official transparent-publishing page reports 2025-01-01 to 2026-01-01 evaluation statistics released on 2026-04-16, including modeled acceptance quantities whose denominators and resubmission treatment need careful interpretation. No metrics were copied into discovery records.",
+    "Independent agent fee/ranking/reviewer work remains separate from this discovery pass and from human scientific review. A zero-fee route does not waive scope, originality, artifact, ethical, licensing, or peer-review requirements."
+  ]
+}
