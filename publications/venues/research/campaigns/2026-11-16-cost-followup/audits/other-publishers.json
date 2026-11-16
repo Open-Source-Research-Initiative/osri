@@ -1,0 +1,440 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "other-publishers",
+  "agent_task": "/root/cost_other_publishers",
+  "notes": "Official pages reviewed; prior evidence and contradictory or historic wording retained. No contact or bypass.",
+  "patches": [
+    {
+      "id": "lithuanian-journal-of-statistics",
+      "source_record_ids": [
+        "statistics-applied-mathematics-lithuanian-journal-of-statistics"
+      ],
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Journal policy states no submission or article processing fees; up to 15 pages normally.",
+        "other_mandatory_costs": "Page or length charges and mandatory membership not independently excluded by the inspected statement.",
+        "fee_evidence": [
+          {
+            "url": "https://www.journals.vu.lt/statisticsjournal/en/journalpolicy",
+            "checked_on": "2026-11-16",
+            "note": "Official journal policy says no article processing or submission fees. It does not explicitly address all other possible mandatory charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://zurnalai.vu.lt/statisticsjournal/en/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Submission guidelines normally limit papers to 15 pages; account registration or email submission, without stated membership requirement.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Policy excludes submission and processing fees, but does not establish absence of page or membership charges.",
+      "cost_checks": {
+        "submission": {
+          "status": "free",
+          "source_urls": [
+            "https://www.journals.vu.lt/statisticsjournal/en/journalpolicy",
+            "https://zurnalai.vu.lt/statisticsjournal/en/about/submissions"
+          ],
+          "rationale": "Policy excludes submission and processing fees, but does not establish absence of page or membership charges."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://www.journals.vu.lt/statisticsjournal/en/journalpolicy",
+            "https://zurnalai.vu.lt/statisticsjournal/en/about/submissions"
+          ],
+          "rationale": "Policy excludes submission and processing fees, but does not establish absence of page or membership charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.journals.vu.lt/statisticsjournal/en/journalpolicy",
+            "https://zurnalai.vu.lt/statisticsjournal/en/about/submissions"
+          ],
+          "rationale": "Policy excludes submission and processing fees, but does not establish absence of page or membership charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.journals.vu.lt/statisticsjournal/en/journalpolicy",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Official journal policy says no article processing or submission fees. It does not explicitly address all other possible mandatory charges."
+        },
+        {
+          "url": "https://zurnalai.vu.lt/statisticsjournal/en/about/submissions",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Submission guidelines normally limit papers to 15 pages; account registration or email submission, without stated membership requirement."
+        }
+      ]
+    },
+    {
+      "id": "research-ethics",
+      "source_record_ids": [
+        "meta-research-research-ethics"
+      ],
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "Current Community Open Access policy explicitly excludes author costs and an APC after acceptance; support does not require the submitting author's institution to participate. The journal is online-only. Empirical original articles normally permit 7,000 words, theoretical articles 5,000 and reviews 3,000–6,000, excluding references; longer work needs editorial justification. All submissions require an AI-use statement, including when no AI was used. The current official page says no author cost under Community OA, but its post-acceptance boilerplate still discusses paying an APC where applicable, and an older official PDF says an APC is payable. Submission fees and the apparent inconsistency require confirmation. The current broad no-author-cost Community OA policy supports the route; sponsorship or policy may change.",
+        "other_mandatory_costs": "None for current Community OA under the broad no-author-cost statement; optional third-party permissions or services may cost extra.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/REA",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific Community OA policy excludes author costs without an affiliation condition. Instructions establish online-only publication, article-specific length limits and a mandatory AI statement. Uppercase official URL was accessible after lowercase URL timed out.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Older publisher-hosted instructions describe an APC, conflicting with current Community OA wording; timing and current applicability are uncertain.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Current journal-specific Community OA states no cost to authors broadly, including no APC upon acceptance; older PDF and generic payment boilerplate are retained as inconsistent historical context.",
+      "cost_checks": {
+        "submission": {
+          "status": "free",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/REA",
+            "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf"
+          ],
+          "rationale": "Current journal-specific Community OA states no cost to authors broadly, including no APC upon acceptance; older PDF and generic payment boilerplate are retained as inconsistent historical context."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/REA",
+            "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf"
+          ],
+          "rationale": "Current journal-specific Community OA states no cost to authors broadly, including no APC upon acceptance; older PDF and generic payment boilerplate are retained as inconsistent historical context."
+        },
+        "mandatory_costs": {
+          "status": "none_for_route",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/REA",
+            "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf"
+          ],
+          "rationale": "Current journal-specific Community OA states no cost to authors broadly, including no APC upon acceptance; older PDF and generic payment boilerplate are retained as inconsistent historical context."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://journals.sagepub.com/author-instructions/REA",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Current journal-specific Community OA policy excludes author costs without an affiliation condition. Instructions establish online-only publication, article-specific length limits and a mandatory AI statement. Uppercase official URL was accessible after lowercase URL timed out."
+        },
+        {
+          "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Older publisher-hosted instructions describe an APC, conflicting with current Community OA wording; timing and current applicability are uncertain."
+        }
+      ]
+    },
+    {
+      "id": "research-evaluation",
+      "source_record_ids": [
+        "meta-research-research-evaluation"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Current author guidelines offer a standard licence without a licence charge and explicitly exclude page and colour charges. Paid OA is optional. Current guidelines describe one annual online issue, while the separate Charges page still quotes print-colour fees; that appears to be legacy print guidance but its status is not expressly explained. Use the ordinary current online route and confirm any requested print treatment. Submission-fee exclusion was not established.",
+        "other_mandatory_costs": "No current page or colour charges for the ordinary online route; submission fees remain unconfirmed. Optional OA and optional editing are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://academic.oup.com/rev/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current online author guidelines exclude standard-licence, page and colour charges; paid OA and optional language services are separate. Manuscript guidance allows up to 8,000–10,000 words.",
+            "access": "page"
+          },
+          {
+            "url": "https://academic.oup.com/rev/pages/Charges",
+            "checked_on": "2026-11-16",
+            "note": "Separate official page still quotes print-colour costs requiring author approval; conflicts with current no-colour-charge guidance and is retained as an unresolved print-specific policy inconsistency.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Current instructions exclude standard licence, page and colour charges, but do not explicitly exclude submission or all other mandatory fees. Separate Charges page quotes optional print colour rates.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://academic.oup.com/rev/pages/author-guidelines",
+            "https://academic.oup.com/rev/pages/Charges"
+          ],
+          "rationale": "Current instructions exclude standard licence, page and colour charges, but do not explicitly exclude submission or all other mandatory fees. Separate Charges page quotes optional print colour rates."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://academic.oup.com/rev/pages/author-guidelines",
+            "https://academic.oup.com/rev/pages/Charges"
+          ],
+          "rationale": "Current instructions exclude standard licence, page and colour charges, but do not explicitly exclude submission or all other mandatory fees. Separate Charges page quotes optional print colour rates."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://academic.oup.com/rev/pages/author-guidelines",
+            "https://academic.oup.com/rev/pages/Charges"
+          ],
+          "rationale": "Current instructions exclude standard licence, page and colour charges, but do not explicitly exclude submission or all other mandatory fees. Separate Charges page quotes optional print colour rates."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://academic.oup.com/rev/pages/author-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Current online author guidelines exclude standard-licence, page and colour charges; paid OA and optional language services are separate. Manuscript guidance allows up to 8,000–10,000 words."
+        },
+        {
+          "url": "https://academic.oup.com/rev/pages/Charges",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Separate official page still quotes print-colour costs requiring author approval; conflicts with current no-colour-charge guidance and is retained as an unresolved print-specific policy inconsistency."
+        }
+      ]
+    },
+    {
+      "id": "research-methods-in-medicine-and-health-sciences",
+      "source_record_ids": [
+        "epidemiology-biostatistics-research-methods-medicine-health-sciences"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Journal says no article processing fees and content is free to view; same instructions label access subscription and describe optional paid OA. No explicit submission fee statement located.",
+        "other_mandatory_costs": "Page, membership and other mandatory costs not confirmed.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rmm",
+            "checked_on": "2026-11-16",
+            "note": "Journal author instructions state no APC; subscription label and optional OA description leave access model ambiguous.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/26320843241301608",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "note": "2025 editorial describes no publication fees and calls the journal open access."
+          }
+        ]
+      },
+      "audit_note": "Current journal instructions exclude APCs, but not submission or other mandatory charges. A 2025 editorial states no publication fees and describes open access, while current instructions label the journal subscription and offer optional paid OA.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rmm",
+            "https://journals.sagepub.com/doi/pdf/10.1177/26320843241301608"
+          ],
+          "rationale": "Current journal instructions exclude APCs, but not submission or other mandatory charges. A 2025 editorial states no publication fees and describes open access, while current instructions label the journal subscription and offer optional paid OA."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rmm",
+            "https://journals.sagepub.com/doi/pdf/10.1177/26320843241301608"
+          ],
+          "rationale": "Current journal instructions exclude APCs, but not submission or other mandatory charges. A 2025 editorial states no publication fees and describes open access, while current instructions label the journal subscription and offer optional paid OA."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rmm",
+            "https://journals.sagepub.com/doi/pdf/10.1177/26320843241301608"
+          ],
+          "rationale": "Current journal instructions exclude APCs, but not submission or other mandatory charges. A 2025 editorial states no publication fees and describes open access, while current instructions label the journal subscription and offer optional paid OA."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://journals.sagepub.com/author-instructions/rmm",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Journal author instructions state no APC; subscription label and optional OA description leave access model ambiguous."
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/26320843241301608",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "2025 editorial describes no publication fees and calls the journal open access."
+        }
+      ]
+    },
+    {
+      "id": "science-communication",
+      "source_record_ids": [
+        "meta-research-science-communication"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Journal instructions state no submission or publication fees. Optional Sage Choice OA costs extra; requested print colour may be charged. Instructions also mention page or colour charges without specifying when page charges apply; verify. The blanket no-fees statement supports standard subscription publication despite generic OA page-charge wording; no page-fee trigger is specified.",
+        "other_mandatory_costs": "None for the standard subscription route under the blanket no-fees statement; avoid optional paid OA and print colour.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/scx",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions say there are no fees payable to submit or publish; optional open access is separately priced.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Journal-specific instructions state no fees to submit or publish. Generic wording says OA fees do not cover page or colour charges but specifies no page-charge trigger. The broad statement supports the standard subscription route; avoid optional paid OA and print colour.",
+      "cost_checks": {
+        "submission": {
+          "status": "free",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/scx"
+          ],
+          "rationale": "Journal-specific instructions state no fees to submit or publish. Generic wording says OA fees do not cover page or colour charges but specifies no page-charge trigger. The broad statement supports the standard subscription route; avoid optional paid OA and print colour."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/scx"
+          ],
+          "rationale": "Journal-specific instructions state no fees to submit or publish. Generic wording says OA fees do not cover page or colour charges but specifies no page-charge trigger. The broad statement supports the standard subscription route; avoid optional paid OA and print colour."
+        },
+        "mandatory_costs": {
+          "status": "none_for_route",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/scx"
+          ],
+          "rationale": "Journal-specific instructions state no fees to submit or publish. Generic wording says OA fees do not cover page or colour charges but specifies no page-charge trigger. The broad statement supports the standard subscription route; avoid optional paid OA and print colour."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://journals.sagepub.com/author-instructions/scx",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Journal instructions say there are no fees payable to submit or publish; optional open access is separately priced."
+        }
+      ]
+    },
+    {
+      "id": "scientometrics",
+      "source_record_ids": [
+        "meta-research-scientometrics"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Current journal policy offers subscription publication without an APC. OA is optional and paid. Online colour is free; print colour requires a contribution and can be avoided. The inspected instructions do not explicitly exclude submission or page/overlength fees, so zero total author cost remains unverified. No required membership or affiliation was stated.",
+        "other_mandatory_costs": "Submission and page/overlength charges are unconfirmed. Optional print colour, author services and third-party reproduction permissions can cost extra.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/11192/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific hybrid policy explicitly excludes an APC on the subscription route; optional OA is separately charged.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11192/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Instructions inspected for submission, length, colour, author services and membership conditions. Online colour is free; print colour requires author contribution. No explicit no-submission-fee or no-page-charge declaration was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "note": "Publisher support, modified 21 July 2025, notes that some subscription journals impose page, overlength or colour charges."
+          }
+        ]
+      },
+      "audit_note": "The subscription route has no APC but this does not establish no submission or other charges. Publisher support notes some journals charge for page or overlength.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11192/how-to-publish-with-us",
+            "https://link.springer.com/journal/11192/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "The subscription route has no APC but this does not establish no submission or other charges. Publisher support notes some journals charge for page or overlength."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://link.springer.com/journal/11192/how-to-publish-with-us",
+            "https://link.springer.com/journal/11192/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "The subscription route has no APC but this does not establish no submission or other charges. Publisher support notes some journals charge for page or overlength."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11192/how-to-publish-with-us",
+            "https://link.springer.com/journal/11192/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "The subscription route has no APC but this does not establish no submission or other charges. Publisher support notes some journals charge for page or overlength."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/11192/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Journal-specific hybrid policy explicitly excludes an APC on the subscription route; optional OA is separately charged."
+        },
+        {
+          "url": "https://link.springer.com/journal/11192/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Instructions inspected for submission, length, colour, author services and membership conditions. Online colour is free; print colour requires author contribution. No explicit no-submission-fee or no-page-charge declaration was found."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific or publisher-wide as described",
+          "note": "Publisher support, modified 21 July 2025, notes that some subscription journals impose page, overlength or colour charges."
+        }
+      ]
+    }
+  ]
+}

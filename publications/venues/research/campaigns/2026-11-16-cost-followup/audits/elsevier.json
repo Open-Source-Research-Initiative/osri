@@ -1,0 +1,1218 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "elsevier",
+  "agent_task": "/root/cost_elsevier",
+  "notes": "Independently checked official Elsevier general fee policy and ISPOR author pages; ten ScienceDirect author guides returned HTTP 403 on direct HTTPS recheck. Search results and absence of fee mention are not evidence of a free route. No eligible free route could be fully verified. Prior evidence retained.",
+  "patches": [
+    {
+      "id": "european-management-journal",
+      "source_record_ids": [
+        "business-innovation-european-management-journal"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/european-management-journal",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "industrial-marketing-management",
+      "source_record_ids": [
+        "business-innovation-industrial-marketing-management"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/industrial-marketing-management",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-business-research",
+      "source_record_ids": [
+        "business-innovation-journal-of-business-research"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/journal-of-business-research",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-engineering-and-technology-management",
+      "source_record_ids": [
+        "business-innovation-journal-of-engineering-and-technology-management"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "reliability-engineering-and-system-safety",
+      "source_record_ids": [
+        "systems-engineering-reliability-engineering-and-system-safety"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The official shop establishes a subscription title. Elsevier’s directly inspected author guide supports no base fee for subscription publication; paid OA is a separate choice. Journal-specific author instructions and publishing-options pages returned 403, leaving submission fees, page/overlength charges, membership requirements, and exceptions unresolved.",
+        "other_mandatory_costs": "Unknown: title-specific submission, page/length, and any compulsory membership or other author charges could not be inspected. No selective waiver or institutional agreement is assumed.",
+        "fee_evidence": [
+          {
+            "url": "https://shop.elsevier.com/journals/reliability-engineering-and-system-safety/0951-8320",
+            "checked_on": "2026-11-16",
+            "note": "Official journal-specific page establishes identity, scope, formats, and subscription availability; it does not establish author fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://researcheracademy.elsevier.com/uploads/2024-09/4768%20Get%20published%20and%20noticed%20A5_WEB.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The September 2024 publisher guide was directly retrieved in this audit; its printed page 18 says subscription publishing costs are covered by library subscriptions. This establishes the base subscription-publication fee, not journal-specific submission or page-charge exceptions.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Direct retrieval failed with HTTP 403; submission/page/publication-charge details were not inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher FAQ also excludes publication fees for the subscription option when discussing hybrid special-issue articles; it does not independently resolve this title’s regular-article submission or page charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/about/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Direct journal-specific publishing-options retrieval also returned HTTP 403; no complete fee schedule was inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://shop.elsevier.com/journals/reliability-engineering-and-system-safety/0951-8320",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Official journal-specific page establishes identity, scope, formats, and subscription availability; it does not establish author fees."
+        },
+        {
+          "url": "https://researcheracademy.elsevier.com/uploads/2024-09/4768%20Get%20published%20and%20noticed%20A5_WEB.pdf",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "The September 2024 publisher guide was directly retrieved in this audit; its printed page 18 says subscription publishing costs are covered by library subscriptions. This establishes the base subscription-publication fee, not journal-specific submission or page-charge exceptions."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Direct retrieval failed with HTTP 403; submission/page/publication-charge details were not inspected."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Current publisher FAQ also excludes publication fees for the subscription option when discussing hybrid special-issue articles; it does not independently resolve this title’s regular-article submission or page charges."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/about/open-access-options",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Direct journal-specific publishing-options retrieval also returned HTTP 403; no complete fee schedule was inspected."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "research-policy",
+      "source_record_ids": [
+        "business-innovation-research-policy"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/research-policy",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "safety-science",
+      "source_record_ids": [
+        "systems-engineering-safety-science"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The official shop establishes a subscription title. Elsevier’s directly inspected author guide supports no base fee for subscription publication; paid OA is a separate choice. Journal-specific author instructions and publishing-options pages returned 403, leaving submission fees, page/overlength charges, membership requirements, and exceptions unresolved.",
+        "other_mandatory_costs": "Unknown: title-specific submission, page/length, and any compulsory membership or other author charges could not be inspected. No selective waiver or institutional agreement is assumed.",
+        "fee_evidence": [
+          {
+            "url": "https://shop.elsevier.com/journals/safety-science/0925-7535",
+            "checked_on": "2026-11-16",
+            "note": "Official journal-specific page establishes identity, scope, formats, and subscription availability; it does not establish author fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://researcheracademy.elsevier.com/uploads/2024-09/4768%20Get%20published%20and%20noticed%20A5_WEB.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The September 2024 publisher guide was directly retrieved in this audit; its printed page 18 says subscription publishing costs are covered by library subscriptions. This establishes the base subscription-publication fee, not journal-specific submission or page-charge exceptions.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Direct retrieval failed with HTTP 403; submission/page/publication-charge details were not inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher FAQ also excludes publication fees for the subscription option when discussing hybrid special-issue articles; it does not independently resolve this title’s regular-article submission or page charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/about/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Direct journal-specific publishing-options retrieval also returned HTTP 403; no complete fee schedule was inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://shop.elsevier.com/journals/safety-science/0925-7535",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Official journal-specific page establishes identity, scope, formats, and subscription availability; it does not establish author fees."
+        },
+        {
+          "url": "https://researcheracademy.elsevier.com/uploads/2024-09/4768%20Get%20published%20and%20noticed%20A5_WEB.pdf",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "The September 2024 publisher guide was directly retrieved in this audit; its printed page 18 says subscription publishing costs are covered by library subscriptions. This establishes the base subscription-publication fee, not journal-specific submission or page-charge exceptions."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Direct retrieval failed with HTTP 403; submission/page/publication-charge details were not inspected."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Current publisher FAQ also excludes publication fees for the subscription option when discussing hybrid special-issue articles; it does not independently resolve this title’s regular-article submission or page charges."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/safety-science/about/open-access-options",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Direct journal-specific publishing-options retrieval also returned HTTP 403; no complete fee schedule was inspected."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "technological-forecasting-and-social-change",
+      "source_record_ids": [
+        "business-innovation-technological-forecasting-and-social-change"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "technology-in-society",
+      "source_record_ids": [
+        "business-innovation-technology-in-society"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/technology-in-society",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "technovation",
+      "source_record_ids": [
+        "business-innovation-technovation"
+      ],
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "Title-specific author guide blocked; Elsevier states submission fees vary by journal and recommends checking the guide."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues"
+          ],
+          "rationale": "Publisher general hybrid subscription statement does not establish the current subscription option for this title or any title-specific charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors"
+          ],
+          "rationale": "Blocked guide prevents confirmation of page, length, membership and other mandatory charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/journal/technovation",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific",
+          "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked."
+        },
+        {
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge."
+        },
+        {
+          "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Elsevier general policy; journal applicability depends on title and its guide",
+          "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified."
+        },
+        {
+          "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "blocked",
+          "applicability": "Journal-specific author guide",
+          "note": "Independent ordinary HTTPS recheck returned HTTP 403."
+        }
+      ]
+    },
+    {
+      "id": "value-in-health",
+      "source_record_ids": [
+        "health-economics-value-in-health"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Current society instructions provide a subscription option with no open access publication fee; optional gold OA incurs an APC. No general absence of all publication or submission charges is established. Society states some articles require no fee, but does not identify a complete fee-free submission and publication route; online colour is free and paper offprints are optional.",
+        "other_mandatory_costs": "Unknown; society instructions do not establish absence of mandatory submission, page, length or membership costs for the selected route.",
+        "fee_evidence": [
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Society compares subscription with paid gold OA and says no OA publication fee applies to subscription.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Instructions state not all articles require a fee, and subscription articles become open archive after one year.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "ISPOR instructions say not all articles require a fee, subscription articles become open archive after one year, online colour and electronic offprint are free; gold OA and paper offprints are optional. This does not establish absence of submission or other mandatory costs for a defined article type.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Evidence does not clear all three cost checks; retain needs_verification. No mandatory charge was established from the official accessible material.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees"
+          ],
+          "rationale": "No explicit submission-fee exemption located in accessible society instructions; Elsevier says journal policies vary."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors"
+          ],
+          "rationale": "Society describes subscription publishing and says some articles do not require a fee, but the specific conditions and complete absence of mandatory publication charges remain unclear."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors"
+          ],
+          "rationale": "Optional member OA discount, online colour and paper offprints do not establish absence of all required charges."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Society compares subscription with paid gold OA and says no OA publication fee applies to subscription."
+        },
+        {
+          "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Instructions state not all articles require a fee, and subscription articles become open archive after one year."
+        },
+        {
+          "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Value in Health society instructions",
+          "note": "ISPOR instructions say not all articles require a fee, subscription articles become open archive after one year, online colour and electronic offprint are free; gold OA and paper offprints are optional. This does not establish absence of submission or other mandatory costs for a defined article type."
+        }
+      ]
+    }
+  ]
+}

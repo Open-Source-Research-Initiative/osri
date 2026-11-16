@@ -1,6 +1,6 @@
 {
   "source_repository": "free-publication-directory",
-  "source_commit": "50935c0430b5f101e67d4bbb9fc37d95feba5f41",
+  "source_commit": "6f5fcb8ffb0f95320b894572c8d8743f2d816f90",
   "checked_on": "2026-11-16",
   "files": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "1357e271e1368b43336ee540b1f9270c5acd70cdfc0b7d38c8bc0c71385def00"
+      "sha256": "ec9f15ed216365ea820bcd3a9f519e932fbf7c1e22eb38a86f657dd2751a0d58"
     },
     {
       "path": "RESEARCH_NOTES.md",
@@ -21,19 +21,23 @@
     },
     {
       "path": "browser.html",
-      "sha256": "ca3c66b2fd69466896365a0692f91f0f6bca744a2a83126df66b5e854a8a5cc8"
+      "sha256": "e5657c445f80825897770e8ec07c8371a10681e223413e839124edf3a8cf000d"
     },
     {
       "path": "build-receipt.json",
-      "sha256": "e70692f22cd56f5e2e42e696b74f9c344f5fb0e970a87ac5c9585f50ad4be68a"
+      "sha256": "a44c1b2c4de11f9e625d3f5c8782e4e2b45b25cb4f0663a96ba5747b1a6dcc48"
     },
     {
       "path": "candidates.json",
-      "sha256": "d087a9ce2782fcad768ddc2de8e458215e58034c97502daf36011cbf65ed77cb"
+      "sha256": "c8c3afbe4b3d320d00f3c6034503dd051a214d268649bd204d7e6531ead51609"
+    },
+    {
+      "path": "cost-verification.md",
+      "sha256": "1cc0d0340cc924c27a565a15b2fc814b736e6314bd3d6c5029b269ed58d2294a"
     },
     {
       "path": "coverage.json",
-      "sha256": "eb051a6c66cacf8cf4a20d56aa7bcc176bd6c56cb9c61241a452462bab8de0db"
+      "sha256": "39ec685f4b881fa2a5c275dc967011ecd22065a2890e3b7e687cb803f8cdadf3"
     },
     {
       "path": "excluded-venues.json",
@@ -41,7 +45,7 @@
     },
     {
       "path": "memberships.json",
-      "sha256": "ff2d00b94568b23d8f2b25af94209c245dbdbb017d3721ea73ba19ca4130b038"
+      "sha256": "6f4925a771a4b4ad4b9f1199dca51349c35bd753600b779c4a7a904235182d29"
     },
     {
       "path": "methodology.md",
@@ -50,6 +54,102 @@
     {
       "path": "research/CONTRACT.md",
       "sha256": "0bbdf6a71c34103741860293e9ed21968fb319d27da1dd25863f084570aa7263"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/CONTRACT.md",
+      "sha256": "53b6a25f2f673091935d828113cb95e3d050b7dd758344d7e62cc66071532805"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/elsevier.json",
+      "sha256": "49a4d156b16c1f72594f024fc0eee4a7ab36f773f8f11edad0c6653cd1c422e9"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/other-publishers.json",
+      "sha256": "e40f49763714babad577438d967f8285811c611281ad24650374c9066d8ce373"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/societies-independent.json",
+      "sha256": "e223b71f707cd9239faaab2d9e99fb175e7e341a4648c654ebede51305245993"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/springer-1.json",
+      "sha256": "7ba2600193211a72d67d2cb99e74e76e2b784a16d9e41b71ee6c93ee52f5b9b5"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/springer-2.json",
+      "sha256": "dbd34d26a0bae62e908e5431caa2d650ebc3e9ed254c7bc30d1fe285d2cc58ef"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/springer-3.json",
+      "sha256": "43ab107443321262baaa82943e788ebc83758af6fda849730edf3e593ea5b71c"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/springer-4.json",
+      "sha256": "fee72ff8bcceb70920569f9ef77b4d6d931f843319af2ca6a262aa89c544a307"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/assignments/springer-5.json",
+      "sha256": "ce0c2f3629ab69988c6a2f0682169bef2231c60bcef13fcaca7284e7be72d0c8"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/elsevier.json",
+      "sha256": "a8bf1127288da5d3e40c5a0b5f7c97303716407549b00beddfe9dd2426e50f70"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/other-publishers.json",
+      "sha256": "adb452f4c707af5a44389918fbafefdad10194cbc517db2f7b44b3f80a1d7ac9"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/societies-independent.json",
+      "sha256": "e94a8637fbb64bbb46761e50ad84715c6f1ec5f6946d8da502132e27415cafe6"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/springer-1.json",
+      "sha256": "78fe06675b9b4d40c8ae57b42978edd6ef47eced553d4cbdd7c7feb070372bed"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/springer-2.json",
+      "sha256": "0ca2879c1a9e20d9358e8c1af91c44e70b20fc57420897b20a4c720ffa122cb5"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/springer-3.json",
+      "sha256": "0d23e2a467b219979e4e6b5fe51bdce070033a4c083ce9b92d80db161669e27f"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/springer-4.json",
+      "sha256": "2d72b6548b9bc1e4315abd776ec4de342a7cb22dd2785de2e33bd4d7a8af96ef"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/audits/springer-5.json",
+      "sha256": "8791020149b9f9dbc6cefc0561207bde848d01dfc805e8420e37598338b45eb0"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/baseline.json",
+      "sha256": "61cd9a602ec1662802d5b97fbb0249fcf96c63596cd3f2d6877720b9f2c1ac1f"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/campaign.json",
+      "sha256": "a5010588ad237498559e0331e7e37c762f17dfaf465911b24868aab182fb9138"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/decisions.json",
+      "sha256": "e441e918d9659f32986ad27cb3b70b1ee037706b87eb0093414bcbfa5c08b5df"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/policy-bulgarian-review.json",
+      "sha256": "3e12dc8c839828b44d59418a707065f55841a07aff2c4a40514e8286cf94828f"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/policy-springer.json",
+      "sha256": "c5633b44712e34b74384d202001dcf342be8e429ab1b7a400b5a6b633134782b"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+      "sha256": "fb0d84b77d63d7023921fa156986f38da1d065547e8c2f39531e9012ac0a66fd"
+    },
+    {
+      "path": "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+      "sha256": "10d71750718581e5e6b2d65675b006f40c1ec0398ff6bc3ac8c5c6b44829f503"
     },
     {
       "path": "research/campaigns/2026-11-16-expansion/CONTRACT.md",
@@ -841,7 +941,7 @@
     },
     {
       "path": "subfields/economics.md",
-      "sha256": "d4f6d80c1adcf5771bf1278348848847d7b18c0e83c1ceb7b4eb3aa455a3f88c"
+      "sha256": "d2167e2ae6908e96c89303d69e53b8dab036fe52e6b2cf50850cf52668f35c4b"
     },
     {
       "path": "subfields/education-learning-sciences.md",
@@ -877,7 +977,7 @@
     },
     {
       "path": "subfields/meta-research.md",
-      "sha256": "73c554ae34e4152d3a5b3c8091f55b5a9052a83cfdee08ee5cbe1f0c9207111e"
+      "sha256": "90e7add07768eb9144dddb2a33efb7224443b663498b3f90ac348fb8d4a3f225"
     },
     {
       "path": "subfields/operations-simulation.md",
@@ -893,7 +993,7 @@
     },
     {
       "path": "subfields/public-health.md",
-      "sha256": "7d77787b3fe1b40336d8cec443a2402a97186554b52904e363dfb3aacddd9a95"
+      "sha256": "4ec45caf02af4a36c558e66c55f4194463c0a16af517cf074ab2812321ec2b9b"
     },
     {
       "path": "subfields/public-policy.md",
@@ -921,15 +1021,15 @@
     },
     {
       "path": "validation.json",
-      "sha256": "53df17dd50f106e0d9421dfa9d69259e718c0258e2f14b70d50713528617007f"
+      "sha256": "83a0b36471ec0259f660cbd6d01573d67994c4796f4ea7f5da2f058b00bbb870"
     },
     {
       "path": "venues.csv",
-      "sha256": "57248bc787ca2b7ad540e0673714fda5e02ba2454e972fa977e5562666830c2f"
+      "sha256": "07a120842f158179d1ed10825a181e6eae5d3825479ae9204b7e52b3cb2ec74b"
     },
     {
       "path": "venues.json",
-      "sha256": "607d5636ecdaab84e7c74d92afe2c5fc2177495d73c0d44a0472405c483dd897"
+      "sha256": "2f103f3569507076f9d5ce51dab6d540bb823abd3aec9581f15291fd4b54c6ac"
     }
   ]
 }

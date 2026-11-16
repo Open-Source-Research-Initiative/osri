@@ -1,0 +1,1039 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "springer-4",
+  "agent_task": "/root/cost_springer_4",
+  "notes": "Audited all ten assigned titles using journal-specific author and publishing pages via ordinary HTTPS and publisher-wide cost guidance; all pages returned HTTP 200. Broad publisher statement is qualified by explicit page and overlength exceptions. No title-specific complete no-submission/no-mandatory-charge assurance found; silence is not proof. Memory & Cognition society special-issue policy also checked.",
+  "patches": [
+    {
+      "id": "journal-of-mathematical-biology",
+      "source_record_ids": [
+        "computational-biology-journal-of-mathematical-biology"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Select the subscription route: its standard APC is explicitly zero. Optional open access is charged. Submission fees and complete page/excess-length or other compulsory-cost assurance remain unverified. Online colour is free; printed colour incurs an optional contribution. Check funder licensing compatibility.",
+        "other_mandatory_costs": "Unknown: no journal-wide all-author-cost assurance found for submission, pages, excess length or required membership. No mandatory membership or registration requirement was stated in the inspected instructions. Online colour is free; printed colour incurs an optional contribution. Optional reprints/editing do not establish a required cost. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/285/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200): the named hybrid journal explicitly offers subscription publication without an APC; paid OA is optional.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/285/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200). Online colour is free; printed colour incurs an optional contribution. No explicit zero-submission/all-compulsory-cost policy found; silence does not prove absence.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Subscription journals may impose colour, page or excess-length charges; consult journal instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/285/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/285/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/285/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/285/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/285/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/285/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/285/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/285/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-medical-systems",
+      "source_record_ids": [
+        "health-systems-journal-of-medical-systems"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Journal-specific options confirm subscription publication without an APC; paid OA is optional. Submission fees and complete standard publication/page/overlength costs remain unconfirmed. Color illustrations are free. Research allows 4,000 main-text words; reviews 5,500; brief reports 2,000.",
+        "other_mandatory_costs": "Unresolved: no compulsory membership, page or registration cost was found, but the inspected journal pages do not explicitly establish their absence. Publisher support warns that some subscription journals impose page/overlength charges. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10916/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription route has no APC; optional OA is charged. This statement does not address all author costs.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Inspected article limits and color policy; no explicit submission-fee or complete no-page/overlength-cost statement found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says subscription publication usually has no charge but some journals impose page, color or overlength costs; directs authors to journal-specific policies.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10916/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10916/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/10916/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10916/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/10916/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/10916/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-molecular-modeling",
+      "source_record_ids": [
+        "computational-biology-journal-of-molecular-modeling"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Select the subscription route: its standard APC is explicitly zero. Optional open access is charged. Submission fees and complete page/excess-length or other compulsory-cost assurance remain unverified. Colour illustrations are explicitly free. Check funder licensing compatibility.",
+        "other_mandatory_costs": "Unknown: no journal-wide all-author-cost assurance found for submission, pages, excess length or required membership. No mandatory membership or registration requirement was stated in the inspected instructions. Colour illustrations are explicitly free. Optional reprints/editing do not establish a required cost. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/894/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200): the named hybrid journal explicitly offers subscription publication without an APC; paid OA is optional.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/894/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200). Colour illustrations are explicitly free. No explicit zero-submission/all-compulsory-cost policy found; silence does not prove absence.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Subscription journals may impose colour, page or excess-length charges; consult journal instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/894/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/894/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/894/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/894/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/894/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/894/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/894/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/894/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-scheduling",
+      "source_record_ids": [
+        "operations-simulation-journal-of-scheduling"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Subscription route has no APC; optional open access has an APC. Submission, compulsory page and membership costs remain unverified. Online color is free; confirm any print-color costs. Print colour incurs an optional contribution; use free online colour.",
+        "other_mandatory_costs": "Unknown; no explicit exclusion of submission, page or membership charges located. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10951/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Subscription option has no APC; OA is a separately paid choice.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Submission instructions reviewed; absence of an explicit submission or page fee is not proof of no charge. Online color is free.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10951/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10951/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/10951/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10951/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/10951/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/10951/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-systems-science-and-systems-engineering",
+      "source_record_ids": [
+        "systems-engineering-journal-of-systems-science-and-systems-engineering"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "optional_open_access",
+        "conditions": "The official title-specific publishing page confirms no APC for subscription publication; optional open access has an APC. No conclusion about submission, page, overlength, membership, or other mandatory charges follows from the APC statement.",
+        "other_mandatory_costs": "Submission, page/overlength and any compulsory membership or other fees remain unverified. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/11518/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal offers subscription publication without an APC and paid optional open access; this alone does not establish absence of all author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11518/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11518/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11518/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11518/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/11518/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11518/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/11518/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/11518/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "memory-and-cognition",
+      "source_record_ids": [
+        "psychology-behavior-memory-cognition"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Journal offers subscription publication without an APC; optional open access carries an APC. This does not rule out submission or other mandatory charges. Springer Nature notes that some subscription journals have page, overlength or colour fees. Prior journal evidence reports optional print colour at USD 1,100 per article and online colour subject to editorial approval.",
+        "other_mandatory_costs": "Unknown: submission and possible journal-specific page, overlength or print-colour charges require verification. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/13421/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific policy identifies the hybrid model and explicitly exempts the subscription route from APCs; this does not establish a blanket exclusion of author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13421/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current instructions make online color free with editorial approval and list optional author-funded print color at USD 1100 per article; no blanket submission-fee or compulsory page-charge exclusion was located.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher support says most subscription journals have no publishing charge but some charge for color, excess length or pages; it directs authors to individual journal policies. The qualified statement does not resolve this journal’s submission charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "note": "Reviewer checked the editorial-policy link from this journal: preprints are permitted; current AI policy requires human accountability and applicable disclosure. This source does not resolve author fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription publication is free, but some journals impose page, overlength or colour charges; check individual journal.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13421/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13421/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13421/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13421/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/13421/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13421/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/13421/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/13421/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        },
+        {
+          "url": "https://www.psychonomic.org/page/specialissues",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Psychonomic Society special-issue publication policy naming this journal",
+          "note": "Society says subscription journals can optionally publish OA for an APC; this is not a general submission or page-fee exclusion."
+        }
+      ]
+    },
+    {
+      "id": "network-modeling-analysis-in-health-informatics-and-bioinformatics",
+      "source_record_ids": [
+        "computational-biology-network-modeling-analysis-health-informatics-bioinformatics"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Select the subscription route: its standard APC is explicitly zero. Optional open access is charged. Submission fees and complete page/excess-length or other compulsory-cost assurance remain unverified. Online colour is explicitly free; no print-colour assurance established. Check funder licensing compatibility.",
+        "other_mandatory_costs": "Unknown: no journal-wide all-author-cost assurance found for submission, pages, excess length or required membership. No mandatory membership or registration requirement was stated in the inspected instructions. Online colour is explicitly free; no print-colour assurance established. Optional reprints/editing do not establish a required cost. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/13721/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200): the named hybrid journal explicitly offers subscription publication without an APC; paid OA is optional.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13721/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200). Online colour is explicitly free; no print-colour assurance established. No explicit zero-submission/all-compulsory-cost policy found; silence does not prove absence.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Subscription journals may impose colour, page or excess-length charges; consult journal instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13721/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13721/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13721/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13721/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/13721/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13721/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/13721/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/13721/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "or-spectrum",
+      "source_record_ids": [
+        "operations-simulation-or-spectrum"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal identifies itself as hybrid; Springer Nature explicitly excludes APCs when authors select subscription publication. Online color is free; requested print color, offprints and elective OA can cost money. No explicit submission, page/overlength or compulsory membership assurance was located. Subscription licensing may not meet an immediate-OA funder mandate.",
+        "other_mandatory_costs": "unknown; submission and page/overlength costs are not explicitly excluded; no compulsory membership or conference registration payment is listed; print color and offprints are optional No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/291/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific page establishes the hybrid subscription/OA choice and licensing conditions. It does not itself give a comprehensive no-author-cost guarantee.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000211135-article-processing-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy explicitly states that hybrid-journal subscription publication carries no APC; applicable because this journal identifies as hybrid.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/291/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Instructions provide free online color, paid print color and optional offprints; no explicit submission or page/overlength fee exclusion was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher warns that subscription journals can have color, overlength or page charges; a no-APC statement does not settle those costs.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/291/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/291/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/291/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/291/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/291/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/291/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/291/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/291/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "pharmacoeconomics",
+      "source_record_ids": [
+        "health-economics-pharmacoeconomics"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Subscription route carries no APC; optional immediate open access carries an APC. Submission and other mandatory charges remain unverified. Funder open access requirements can restrict route choice. Journal instructions say colour illustrations are free.",
+        "other_mandatory_costs": "Unknown: publisher notes some journals charge page, length or print-colour fees; membership not established. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/40273/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies hybrid route and no APC for subscription publication.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000257336-subscription-publishing",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says no APC for subscription publication but some journals apply page and colour charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40273/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40273/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/40273/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/40273/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/40273/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/40273/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/40273/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/40273/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    },
+    {
+      "id": "policy-sciences",
+      "source_record_ids": [
+        "public-policy-policy-sciences"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal-specific publishing options expressly offer subscription publication without an APC; optional Open Choice OA is paid. Submission fees are not expressly excluded in the inspected journal policies. Research papers have a strict 10,000-word all-inclusive ceiling and excess-length manuscripts are returned at initial screening. Online colour is free; print colour requires a contribution. No mandatory membership or registration was stated.",
+        "other_mandatory_costs": "Submission fee and any standard page charge remain unconfirmed. Avoid optional print colour and paid author services; third-party permissions may carry separate costs. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/11077/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific options establish the subscription route with no APC, not a general exclusion of every author cost.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11077/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Inspected manuscript submission, word limits, artwork, author services and after-acceptance sections. Online colour is free, print colour costs extra; no explicit no-submission-fee or no-page-charge policy was located.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher support says most subscription journals are free but some impose colour, overlength or page charges; this generic policy does not establish this journal's complete cost route.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11077/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/11077/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Independently inspected current official journal submission guidelines and publishing options by HTTPS and publisher cost guidance. Subscription no-APC is established, but no verified complete free submission and publication route was established. Retain needs_verification; publication_fee is unknown because the no-APC claim does not rule out page or length charges. Prior evidence and limits preserved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11077/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions were inspected, but neither they nor identified publisher statements expressly establish the absence of a submission charge."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11077/how-to-publish-with-us",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "https://link.springer.com/journal/11077/submission-guidelines"
+          ],
+          "rationale": "The journal subscription route has no APC, but publisher guidance allows journal-specific page and overlength charges; a complete publication-fee exclusion was not established."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/11077/submission-guidelines",
+            "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal"
+          ],
+          "rationale": "Instructions and publisher guidance do not establish absence of all compulsory page, excess-length, membership, registration or service costs. Optional paid OA, print colour and author services can be avoided where applicable."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/11077/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific author guidance",
+          "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found."
+        },
+        {
+          "url": "https://link.springer.com/journal/11077/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific publishing options",
+          "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid."
+        },
+        {
+          "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Publisher-wide qualified subscription publication policy",
+          "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge."
+        }
+      ]
+    }
+  ]
+}
