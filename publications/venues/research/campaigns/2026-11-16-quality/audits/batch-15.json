@@ -1,0 +1,1447 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-15",
+  "agent_task": "/root/quality_audit_15",
+  "notes": "Nine exact-ID records; blocked and inconclusive checks are explicitly retained.",
+  "records": [
+    {
+      "id": "social-studies-of-science",
+      "source_record_ids": [
+        "meta-research-social-studies-of-science"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documented policy, named editorial leadership and sample traceable; indexing and other standards retain limits.",
+        "identity": {
+          "issns": [
+            "0306-3127",
+            "1460-3659"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/sss",
+            "https://journals.sagepub.com/author-instructions/sss",
+            "https://journals.sagepub.com/cms/asset/75b0fb8b-f83a-4bf9-a269-bdcfb3c93106/sssb_55_4.ed_board.pdf"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0306-3127?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Initial desk screening, followed by anonymized peer review and an editor decision; submissions by editors handled by other board members. Two independent reviewers required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sss"
+          ],
+          "notes": "Policy evidence does not independently prove review of any individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Sergio Sismondo",
+                "role": "Editor",
+                "affiliation": "Queen’s University"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/sss"
+            ],
+            "note": "Named editorial leadership and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/sss",
+              "https://journals.sagepub.com/author-instructions/sss"
+            ],
+            "note": "Sage identified as publisher; legal ownership and any society arrangement not separately confirmed."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sss",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Guide directs authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sss",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Linked Sage ethics overview states that published articles may be corrected or retracted."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sss"
+            ],
+            "note": "Guide calls for conflict declarations and recusal of submitting editors."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sss"
+            ],
+            "note": "Journal guide links to complaints and appeals procedure."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sss"
+            ],
+            "note": "Guide links author archiving and preprint reuse policy; independent long-term preservation not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sss"
+            ],
+            "note": "Contributor agreement and optional open access licensing are described; exact terms vary by article."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Good Boy: The GB Virus and the Symbiotic Possibilities of Infectious Disease Research",
+            "url": "https://journals.sagepub.com/doi/10.1177/03063127261496250",
+            "doi": "10.1177/03063127261496250",
+            "published_on": "2026-11-10",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher-hosted article, title, author and publication metadata inspected; this does not establish the conduct of peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/03063127261496250"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0306-3127?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/sss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal title and current publication listings."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific review, ethics and contributor agreement."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/sss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics overview includes corrections and retractions."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/03063127261496250",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Published article and metadata inspected."
+          },
+          {
+            "url": "https://journals.sagepub.com/cms/asset/75b0fb8b-f83a-4bf9-a269-bdcfb3c93106/sssb_55_4.ed_board.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Issue identifies title, ISSNs and publisher."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. One article sampled; broader scholarly validity and every published article were not assessed."
+      }
+    },
+    {
+      "id": "software-and-systems-modeling",
+      "source_record_ids": [
+        "systems-engineering-software-and-systems-modeling"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Core editorial evidence or a readable publication sample remains unresolved; this is not evidence of misconduct.",
+        "identity": {
+          "issns": [
+            "1619-1366",
+            "1619-1374"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10270"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A1619-1366?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          },
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10270",
+            "matched_issns": [
+              "1619-1366",
+              "1619-1374"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10270"
+            ],
+            "note": "Springer lists Scopus; authoritative active coverage not checked."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Publisher policy linked; journal-specific external review process not sufficiently resolved.",
+          "source_urls": [
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Review conduct and exemptions not independently established."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Marsha Chechik",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Toronto"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10270/editorial-board"
+            ],
+            "note": "Named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10270"
+            ],
+            "note": "Springer-Verlag GmbH Germany identified as publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10270/ethics-and-disclosures",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal links Springer ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10270/ethics-and-disclosures"
+            ],
+            "note": "Ethics and disclosure guidance is linked."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "BLAST: a tool for bidirectional logics to SQL translation",
+            "url": "https://link.springer.com/article/10.1007/s10270-026-01436-z",
+            "doi": "10.1007/s10270-026-01436-z",
+            "published_on": "2026-11-07",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher-hosted article, title, author and publication metadata inspected; this does not establish the conduct of peer review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10270-026-01436-z"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A1619-1366?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://link.springer.com/journal/10270",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal title, ISSNs, publisher and index claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked publisher journal policies."
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/ethics-and-disclosures",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal links ethics disclosures."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10270-026-01436-z",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Published article and metadata inspected."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. One article sampled; broader scholarly validity and every published article were not assessed."
+      }
+    },
+    {
+      "id": "statistical-methods-in-medical-research",
+      "source_record_ids": [
+        "epidemiology-biostatistics-statistical-methods-medical-research"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documented policy, named editorial leadership and sample traceable; indexing and other standards retain limits.",
+        "identity": {
+          "issns": [
+            "0962-2802",
+            "1477-0334"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/SMM",
+            "https://journals.sagepub.com/author-instructions/smm",
+            "https://journals.sagepub.com/cms/asset/e53ef61b-ae84-42bf-a801-49075292176f/smma_35_1.ed_board.pdf"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0962-2802?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Initial desk screening, followed by anonymized peer review and an editor decision; submissions by editors handled by other board members. Two independent reviewers required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/smm"
+          ],
+          "notes": "Policy evidence does not independently prove review of any individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Marta Garcia-Finana",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Liverpool"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/smm"
+            ],
+            "note": "Named editorial leadership and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/SMM",
+              "https://journals.sagepub.com/author-instructions/smm"
+            ],
+            "note": "Sage identified as publisher; legal ownership and any society arrangement not separately confirmed."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/smm",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Guide directs authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/smm",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Linked Sage ethics overview states that published articles may be corrected or retracted."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/smm"
+            ],
+            "note": "Guide calls for conflict declarations and recusal of submitting editors."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/smm"
+            ],
+            "note": "Journal guide links to complaints and appeals procedure."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/smm"
+            ],
+            "note": "Guide links author archiving and preprint reuse policy; independent long-term preservation not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/smm"
+            ],
+            "note": "Contributor agreement and optional open access licensing are described; exact terms vary by article."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Sample size estimation for pre- and post-intervention design with incomplete observations of count outcomes",
+            "url": "https://journals.sagepub.com/doi/10.1177/09622802261506993",
+            "doi": "10.1177/09622802261506993",
+            "published_on": "2026-11-12",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher-hosted article, title, author and publication metadata inspected; this does not establish the conduct of peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/09622802261506993"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0962-2802?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/SMM",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal title and current publication listings."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/smm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific review, ethics and contributor agreement."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/smm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics overview includes corrections and retractions."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/09622802261506993",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Published article and metadata inspected."
+          },
+          {
+            "url": "https://journals.sagepub.com/cms/asset/e53ef61b-ae84-42bf-a801-49075292176f/smma_35_1.ed_board.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Issue identifies title, ISSNs and publisher."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. One article sampled; broader scholarly validity and every published article were not assessed."
+      }
+    },
+    {
+      "id": "stochastic-systems",
+      "source_record_ids": [
+        "operations-simulation-stochastic-systems"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documented policy, named editorial leadership and sample traceable; indexing and other standards retain limits.",
+        "identity": {
+          "issns": [
+            "1946-5238"
+          ],
+          "publisher": "INFORMS",
+          "source_urls": [
+            "https://pubsonline.informs.org/journal/stsy"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A1946-5238?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal home announces soft double-anonymous review for submissions from February 16, 2026; older submissions are grandfathered. Ethical page still describes single blind. Editors and associate editors manage review.",
+          "source_urls": [
+            "https://pubsonline.informs.org/journal/stsy",
+            "https://pubsonline.informs.org/page/stsy/submission-guidelines",
+            "https://pubsonline.informs.org/page/stsy/contact-journal-staff"
+          ],
+          "notes": "Policy transition and stale language are recorded; individual review not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Rami Atar",
+                "role": "Editor-in-Chief",
+                "affiliation": "Technion"
+              }
+            ],
+            "source_urls": [
+              "https://pubsonline.informs.org/page/stsy/editorial-board"
+            ],
+            "note": "Named leadership."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/stsy/contact-journal-staff"
+            ],
+            "note": "Ultimate authority rests with the INFORMS Board."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/stsy/contact-journal-staff"
+            ],
+            "note": "Journal sets author, reviewer and editor ethical duties."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/stsy/contact-journal-staff"
+            ],
+            "note": "Publisher responsible for corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/stsy/contact-journal-staff"
+            ],
+            "note": "Reviewers disclose conflicts and may be excused."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/stsy/contact-journal-staff"
+            ],
+            "note": "Concerns about editor conduct can be directed to named INFORMS officers; appeals procedure not verified."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Asymptotically Optimal Scheduling of Multiple Parallelizable Job Classes",
+            "url": "https://pubsonline.informs.org/doi/10.1287/stsy.2024.0084",
+            "doi": "10.1287/stsy.2024.0084",
+            "published_on": "2026-10-05",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher-hosted article, title, author and publication metadata inspected; this does not establish the conduct of peer review.",
+            "source_urls": [
+              "https://pubsonline.informs.org/doi/10.1287/stsy.2024.0084"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A1946-5238?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://pubsonline.informs.org/journal/stsy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "ISSN and announcement of transition to double anonymous review."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Submission and review workflow."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/contact-journal-staff",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Ethical guidelines and correction/retraction responsibilities."
+          },
+          {
+            "url": "https://pubsonline.informs.org/doi/10.1287/stsy.2024.0084",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Published article and metadata inspected."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. One article sampled; broader scholarly validity and every published article were not assessed."
+      }
+    },
+    {
+      "id": "studies-in-indian-politics",
+      "source_record_ids": [
+        "political-science-studies-in-indian-politics"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documented policy, named editorial leadership and sample traceable; indexing and other standards retain limits.",
+        "identity": {
+          "issns": [
+            "2321-0230",
+            "2321-7472"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/inp",
+            "https://journals.sagepub.com/author-instructions/inp"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A2321-0230?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Initial desk screening, followed by anonymized peer review and an editor decision; submissions by editors handled by other board members.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/inp"
+          ],
+          "notes": "Policy evidence does not independently prove review of any individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Suhas Vasant Palshikar",
+                "role": "Editor",
+                "affiliation": "Former Professor, Savitribai Phule Pune University"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/inp"
+            ],
+            "note": "Named editorial leadership and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/inp",
+              "https://journals.sagepub.com/author-instructions/inp"
+            ],
+            "note": "Published by Sage; Indian Politics article identifies Lokniti, Centre for the Study of Developing Societies as copyright holder."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/inp",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Guide directs authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/inp",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Linked Sage ethics overview states that published articles may be corrected or retracted."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/inp"
+            ],
+            "note": "Guide calls for conflict declarations and recusal of submitting editors."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/inp"
+            ],
+            "note": "Journal guide links to complaints and appeals procedure."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/inp"
+            ],
+            "note": "Guide links author archiving and preprint reuse policy; independent long-term preservation not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/inp"
+            ],
+            "note": "Contributor agreement and optional open access licensing are described; exact terms vary by article."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Data Governance in the EU and in India: Some Observations",
+            "url": "https://journals.sagepub.com/doi/10.1177/23210230261483360",
+            "doi": "10.1177/23210230261483360",
+            "published_on": "2026-09-23",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher-hosted article, title, author and publication metadata inspected; this does not establish the conduct of peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/23210230261483360"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A2321-0230?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/inp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal title and current publication listings."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/inp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific review, ethics and contributor agreement."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/inp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics overview includes corrections and retractions."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/23210230261483360",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Published article and metadata inspected."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. One article sampled; broader scholarly validity and every published article were not assessed."
+      }
+    },
+    {
+      "id": "technological-forecasting-and-social-change",
+      "source_record_ids": [
+        "business-innovation-technological-forecasting-and-social-change"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Core editorial evidence or a readable publication sample remains unresolved; this is not evidence of misconduct.",
+        "identity": {
+          "issns": [
+            "0040-1625"
+          ],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0040-1625?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "2019 editorial search excerpt describes external review; current policy and exceptions could not be read.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+            "https://www.sciencedirect.com/science/article/pii/S0040162519308777"
+          ],
+          "notes": "No inference of absence of peer review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change"
+            ],
+            "note": "Current journal board inaccessible."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0040-1625?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal homepage could not be read."
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0040162519308777",
+            "checked_on": "2026-11-16",
+            "access": "search_snippet",
+            "source_type": "journal",
+            "note": "2019 editorial explains preliminary screening and external peer review."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. Journal homepage and article pages blocked; board, current policy and sample require accessible official confirmation."
+      }
+    },
+    {
+      "id": "technology-in-society",
+      "source_record_ids": [
+        "business-innovation-technology-in-society"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Core editorial evidence or a readable publication sample remains unresolved; this is not evidence of misconduct.",
+        "identity": {
+          "issns": [
+            "0160-791X"
+          ],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0160-791X?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Current journal-specific external review policy inaccessible.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society"
+          ],
+          "notes": "No inference of absence of peer review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/technology-in-society"
+            ],
+            "note": "Current journal board inaccessible."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0160-791X?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal homepage could not be read."
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0160791X26001922",
+            "checked_on": "2026-11-16",
+            "access": "search_snippet",
+            "source_type": "journal",
+            "note": "Retraction notice available as search excerpt; full page not independently read."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. Journal homepage and article pages blocked; board, current policy and sample require accessible official confirmation."
+      }
+    },
+    {
+      "id": "technovation",
+      "source_record_ids": [
+        "business-innovation-technovation"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Core editorial evidence or a readable publication sample remains unresolved; this is not evidence of misconduct.",
+        "identity": {
+          "issns": [
+            "0166-4972"
+          ],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0166-4972?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Current journal-specific external review policy inaccessible.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation"
+          ],
+          "notes": "No inference of absence of peer review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/technovation"
+            ],
+            "note": "Current journal board inaccessible."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0166-4972?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal homepage could not be read."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. Journal homepage and article pages blocked; board, current policy and sample require accessible official confirmation."
+      }
+    },
+    {
+      "id": "the-american-review-of-public-administration",
+      "source_record_ids": [
+        "public-policy-american-review-of-public-administration"
+      ],
+      "audit_note": "Exact canonical assignment identity used; evidence gaps retained.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documented policy, named editorial leadership and sample traceable; indexing and other standards retain limits.",
+        "identity": {
+          "issns": [
+            "0275-0740",
+            "1552-3357"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/arp",
+            "https://journals.sagepub.com/author-instructions/arp"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0275-0740?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Initial desk screening, followed by anonymized peer review and an editor decision; submissions by editors handled by other board members. Two independent reviewers required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/arp"
+          ],
+          "notes": "Policy evidence does not independently prove review of any individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Stephanie P. Newbold",
+                "role": "Editor",
+                "affiliation": "Wichita State University"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/arp"
+            ],
+            "note": "Named editorial leadership and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/arp",
+              "https://journals.sagepub.com/author-instructions/arp"
+            ],
+            "note": "Sage identified as publisher; legal ownership and any society arrangement not separately confirmed."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/arp",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Guide directs authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/arp",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Linked Sage ethics overview states that published articles may be corrected or retracted."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/arp"
+            ],
+            "note": "Guide calls for conflict declarations and recusal of submitting editors."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/arp"
+            ],
+            "note": "Journal guide links to complaints and appeals procedure."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/arp"
+            ],
+            "note": "Guide links author archiving and preprint reuse policy; independent long-term preservation not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/arp"
+            ],
+            "note": "Contributor agreement and optional open access licensing are described; exact terms vary by article."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Understanding AI Adoption in Local Government: Capacity Constraints or Political Caution?",
+            "url": "https://journals.sagepub.com/doi/10.1177/02750740261506489",
+            "doi": "10.1177/02750740261506489",
+            "published_on": "2026-11-11",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher-hosted article, title, author and publication metadata inspected; this does not establish the conduct of peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/02750740261506489"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0275-0740?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/arp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal title and current publication listings."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/arp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific review, ethics and contributor agreement."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/arp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics overview includes corrections and retractions."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/02750740261506489",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Published article and metadata inspected."
+          }
+        ],
+        "audit_limits": "Independent citation-index coverage and actual review conduct were not verified. One article sampled; broader scholarly validity and every published article were not assessed."
+      }
+    }
+  ]
+}

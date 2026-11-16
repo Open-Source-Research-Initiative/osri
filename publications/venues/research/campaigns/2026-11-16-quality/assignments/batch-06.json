@@ -1,0 +1,1564 @@
+{
+  "batch": "batch-06",
+  "venues": [
+    {
+      "id": "international-journal-of-dynamics-and-control",
+      "name": "International Journal of Dynamics and Control",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/40435",
+      "author_guidelines": "https://link.springer.com/journal/40435/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "robotics-control"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Linear and nonlinear dynamics, control theory and computational algorithms; simulation and analytical studies.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Subscription route has no APC; optional open access incurs an APC. Online color is free, while print color incurs an extra contribution. Submission, page/length and compulsory membership charges remain unverified. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/40435/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies a subscription route with no APC; this does not establish absence of submission, page or other charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions specify free online color and an extra author contribution for print color; submission, page/length and compulsory membership charges remain unverified.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://link.springer.com/journal/40435"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.7,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40435",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        },
+        {
+          "name": "CiteScore",
+          "value": 3.9,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/40435",
+          "note": "Publisher-reported citation metric; not an acceptance rate."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/40435",
+        "https://link.springer.com/journal/40435/submission-guidelines"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/fees/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/geography/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/robotics-control.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-3.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The examined submission instructions do not affirm author eligibility by geography.",
+          "source_urls": [
+            "https://link.springer.com/journal/40435/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Topical research scope; no regional research remit established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/40435/contact-the-journal",
+            "note": "Journal contact page examined for an office address.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/submission-guidelines",
+            "note": "Submission instructions examined for geographic author restrictions; no affirmative worldwide eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/aims-and-scope",
+            "note": "Journal scope page examined for a geographic research remit.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/40435/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/40435/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "robotics-control-international-journal-dynamics-control"
+      ],
+      "subfields": [
+        "robotics-control"
+      ],
+      "scope_by_subfield": {
+        "robotics-control": "Linear and nonlinear dynamics, control theory and computational algorithms; simulation and analytical studies."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "international-journal-of-intelligent-robotics-and-applications",
+      "name": "International Journal of Intelligent Robotics and Applications",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/41315",
+      "author_guidelines": "https://link.springer.com/journal/41315/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "robotics-control"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Robotics, automation and mechatronics, including path-planning methods; assess application and validation expectations.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Subscription route has no APC; optional open access incurs an APC. Online color is free, while print color incurs an extra contribution. Submission, page/length and compulsory membership charges remain unverified. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/41315/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies a subscription route with no APC; this does not establish absence of submission, page or other charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions specify free online color and an extra author contribution for print color; submission, page/length and compulsory membership charges remain unverified.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://link.springer.com/journal/41315"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.0,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/41315",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/41315",
+        "https://link.springer.com/journal/41315/submission-guidelines"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/fees/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/geography/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/robotics-control.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-3.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The examined submission instructions do not affirm author eligibility by geography.",
+          "source_urls": [
+            "https://link.springer.com/journal/41315/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Topical research scope; no regional research remit established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/41315/contact-the-journal",
+            "note": "Journal contact page examined for an office address.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/submission-guidelines",
+            "note": "Submission instructions examined for geographic author restrictions; no affirmative worldwide eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/aims-and-scope",
+            "note": "Journal scope page examined for a geographic research remit.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/41315/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/41315/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "robotics-control-international-journal-intelligent-robotics-applications"
+      ],
+      "subfields": [
+        "robotics-control"
+      ],
+      "scope_by_subfield": {
+        "robotics-control": "Robotics, automation and mechatronics, including path-planning methods; assess application and validation expectations."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "international-journal-of-social-robotics",
+      "name": "International Journal of Social Robotics",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/12369",
+      "author_guidelines": "https://link.springer.com/journal/12369/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "robotics-control"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Social robotics and human-robot interaction, including computational methods and synthesis; assess whether a submission requires human participant or robot validation.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Subscription route has no APC; optional open access incurs an APC. Online color is free, while print color incurs an extra contribution. Submission, page/length and compulsory membership charges remain unverified. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/12369/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies a subscription route with no APC; this does not establish absence of submission, page or other charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions specify free online color and an extra author contribution for print color; submission, page/length and compulsory membership charges remain unverified.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://link.springer.com/journal/12369"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 4.6,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/12369",
+          "note": "Publisher-reported journal-level citation metric; not an acceptance rate or individual-paper quality measure."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/12369",
+        "https://link.springer.com/journal/12369/submission-guidelines"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/fees/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/geography/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/robotics-control.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/robotics-control.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-3.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The examined submission instructions do not affirm author eligibility by geography.",
+          "source_urls": [
+            "https://link.springer.com/journal/12369/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Topical research scope; no regional research remit established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/12369/contact-the-journal",
+            "note": "Journal contact page examined for an office address.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/submission-guidelines",
+            "note": "Submission instructions examined for geographic author restrictions; no affirmative worldwide eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/aims-and-scope",
+            "note": "Journal scope page examined for a geographic research remit.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits literature support, basic statistical analysis and drafting literature reviews or summaries under human oversight and verification. The requested human-led workflow qualifies; the journal-specific LLM guidance requires documentation and human accountability.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or an appropriate alternative. Springer Nature additionally calls for an AI Use Declaration at the end of the paper, covering manuscript preparation, pointing to Methods for research use and confirming accountability; it specifies versions, dates, prompts and contribution. Journal guidelines exempt copy editing alone, while publisher guidance calls for its declaration; follow the stricter publisher guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/12369/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Title Page / AI authorship guidance"
+        },
+        "restrictions": [
+          "AI cannot be an author or replace human scientific judgment; authors must validate analysis and verify generated text and references.",
+          "Do not use AI to write an entire manuscript or independently interpret data. Image use is restricted.",
+          "Journal copy-editing disclosure exemption conflicts with publisher guidance requiring disclosure."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/12369/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific submission guidelines.",
+            "note": "Requires LLM-use documentation, author accountability and exempts copy editing from declaration."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher AI guidance applies to its journals; journal-specific guidelines do not prohibit human-supervised drafting.",
+            "note": "Explicitly permits literature support, basic analysis and drafting literature reviews or summaries with oversight; specifies disclosure and limitations."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "robotics-control-international-journal-social-robotics"
+      ],
+      "subfields": [
+        "robotics-control"
+      ],
+      "scope_by_subfield": {
+        "robotics-control": "Social robotics and human-robot interaction, including computational methods and synthesis; assess whether a submission requires human participant or robot validation."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "international-journal-of-system-assurance-engineering-and-management",
+      "name": "International Journal of System Assurance Engineering and Management",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/13198",
+      "author_guidelines": "https://link.springer.com/journal/13198/submission-guidelines",
+      "submission_url": "https://www.editorialmanager.com/ijsa/default.aspx",
+      "subjects": [
+        "systems-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Engineering system assurance, reliability modeling and analysis, and management methodologies; theoretical and computational work fits.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "optional_open_access",
+        "conditions": "The official title-specific publishing page confirms no APC for subscription publication; optional open access has an APC. No conclusion about submission, page, overlength, membership, or other mandatory charges follows from the APC statement. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/13198/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal offers subscription publication without an APC and paid optional open access; this alone does not establish absence of all author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13198/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13198/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://link.springer.com/journal/13198/submission-guidelines",
+          "https://link.springer.com/journal/13198"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.5,
+          "year": 2025,
+          "population": "Journal citable items, 2023–2024",
+          "source_url": "https://link.springer.com/journal/13198",
+          "note": "Publisher homepage reports 2025 value; citation metric is not an acceptance rate."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.7,
+          "year": 2025,
+          "population": "Journal citable items, 2020–2024",
+          "source_url": "https://link.springer.com/journal/13198",
+          "note": "Publisher homepage reports 2025 value; citation metric is not an acceptance rate."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/13198",
+        "https://link.springer.com/journal/13198/submission-guidelines",
+        "https://link.springer.com/journal/13198/how-to-publish-with-us",
+        "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+        "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/fees/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/geography/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/systems-engineering.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-3.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The inspected submission material does not affirm geographic eligibility; no worldwide eligibility is inferred.",
+          "source_urls": [
+            "https://link.springer.com/journal/13198/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "No geographic research restriction established in the inspected material; an unrestricted or international remit is not inferred from silence.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/13198",
+            "note": "Journal homepage inspected for journal identity and geographic remit.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13198/submission-guidelines",
+            "note": "Submission instructions inspected for geographic author restrictions.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/13198/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/13198/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "systems-engineering-international-journal-of-system-assurance-engineering-and-management"
+      ],
+      "subfields": [
+        "systems-engineering"
+      ],
+      "scope_by_subfield": {
+        "systems-engineering": "Engineering system assurance, reliability modeling and analysis, and management methodologies; theoretical and computational work fits."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "international-relations",
+      "name": "International Relations",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/ire",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/ire",
+      "submission_url": null,
+      "subjects": [
+        "political-science"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "International relations theory, policy analysis, law, economics, ethics, and strategy.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "optional_open_access",
+        "conditions": "The journal instructions explicitly say there is no fee to submit or publish; optional open access carries a fee. Requested print colour may cost extra where offered.",
+        "other_mandatory_costs": "No mandatory membership or conference registration identified in the author instructions. Sage lists journals with known submission or page/publication charges; this title is absent.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ire",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific instructions explicitly say no fees to submit or publish and describe optional open access.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher lists active journals with submission, page, and publication charges; this title is not listed. Print-colour charges may apply to some journals.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/ire"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/ire",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/political-science.json",
+        "research/campaigns/2026-11-16-expansion/fees/political-science.json",
+        "research/campaigns/2026-11-16-expansion/geography/political-science.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/political-science.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/political-science.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "editorial office at Aberystwyth University",
+            "source_url": "https://journals.sagepub.com/author-instructions/ire"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Sage explicitly identified Los Angeles office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "Sage explicitly identified London office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "IN",
+            "name": "India",
+            "basis": "Sage explicitly identified India office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal instructions encourage submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/ire"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "International relations, theory and global affairs.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ire",
+            "note": "Editorial office at Aberystwyth University, United Kingdom; broad international relations scope.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ire",
+            "note": "Journal instructions encourage submissions from authors across all countries and backgrounds.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/about/locations",
+            "note": "Publisher offices identified separately from venue base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/ire"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ire",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "political-science-international-relations"
+      ],
+      "subfields": [
+        "political-science"
+      ],
+      "scope_by_subfield": {
+        "political-science": "International relations theory, policy analysis, law, economics, ethics, and strategy."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "international-studies",
+      "name": "International Studies",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/isq",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/isq",
+      "submission_url": null,
+      "subjects": [
+        "political-science"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "International politics and organization, economics, strategic studies and political geography.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "optional_open_access",
+        "conditions": "The journal instructions explicitly say there is no fee to submit or publish; optional open access carries a fee. Requested print colour may cost extra where offered.",
+        "other_mandatory_costs": "No mandatory membership or conference registration identified in the author instructions. Sage lists journals with known submission or page/publication charges; this title is absent.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/isq",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific instructions explicitly say no fees to submit or publish and describe optional open access.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher lists active journals with submission, page, and publication charges; this title is not listed. Print-colour charges may apply to some journals.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/isq"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/isq",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/political-science.json",
+        "research/campaigns/2026-11-16-expansion/fees/political-science.json",
+        "research/campaigns/2026-11-16-expansion/geography/political-science.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/political-science.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/political-science.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "IN",
+            "name": "India",
+            "basis": "publishing School of International Studies, Jawaharlal Nehru University, New Delhi",
+            "source_url": "https://jnu.ac.in/sis"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Sage explicitly identified Los Angeles office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "Sage explicitly identified London office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "IN",
+            "name": "India",
+            "basis": "Sage explicitly identified India office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "School reports contributions from scholars all over the world.",
+          "source_urls": [
+            "https://jnu.ac.in/sis"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "International affairs and area studies.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://jnu.ac.in/sis",
+            "note": "publishing School of International Studies, Jawaharlal Nehru University, New Delhi",
+            "access": "page"
+          },
+          {
+            "url": "https://jnu.ac.in/sis",
+            "note": "School reports contributions from scholars all over the world.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/about/locations",
+            "note": "Publisher offices identified separately from venue base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage identifies literature assistance and generated or checked code for research as appropriate with disclosure and verification. Its discussion of primary or partial generated text, its statement that disclosed GenAI alone is not grounds for rejection, and non-exhaustive appropriate-use examples together support conditional human-led partial drafting by inference; the prompt-generated submission boundary remains ambiguous. Authors retain intellectual responsibility. The title guide uses an older format and links AI policy in its authorship section; title applicability is less direct than a current explicit policy adoption.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in methods or acknowledgements. Suggestions for language, grammar or structure alone do not require disclosure under Sage policy.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/isq",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); Prohibited use of AI"
+        },
+        "restrictions": [
+          "Sage lists generation of data or a submission using a series of prompts as inappropriate; exact boundary for human-led partial drafting is not defined.",
+          "Sage lists AI analysis of experiences and themes as inappropriate; use other analytical code within policy.",
+          "No fabricated references or claims, incorrect content, or GenAI interviews in lieu of participants; authors verify outputs and original sources.",
+          "AI cannot be an author; humans retain responsibility."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/isq",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Journal-specific guide refers authors to generative AI policy in authorship section, but an older-format page without the newer explicit introductory ethics link; applicability supported but weaker."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage publisher policy referenced by title instructions",
+            "note": "Explicit research literature and code support, disclosure of partial generated research content, and inappropriate uses; partial drafting is a conditional inference from combined clauses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "political-science-international-studies"
+      ],
+      "subfields": [
+        "political-science"
+      ],
+      "scope_by_subfield": {
+        "political-science": "International politics and organization, economics, strategic studies and political geography."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "international-tax-and-public-finance",
+      "name": "International Tax and Public Finance",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/10797",
+      "author_guidelines": "https://link.springer.com/journal/10797/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "public-policy"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Theoretical or empirical fiscal policy, taxation and interjurisdictional public finance.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Journal-specific publishing page explicitly offers a subscription route with no APC and an optional paid open-access route; institutional open-access agreements are conditional. No APC is not proof of no submission, page, overlength, or other required charges. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route. The separate 2026 IIPF congress has a nonmember submission charge; its call distinguishes the congress from journal submission and does not establish a general journal fee.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10797/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific page explicitly states subscription publication has no APC and open access has a paid APC; it does not establish no submission or other mandatory charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says subscription charges are absent in most cases, but page and overlength charges may apply; the journal page must be checked. This does not establish zero fees here.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10797/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10797/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://link.springer.com/journal/10797/editorial-policies"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.5,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable items in the preceding 2 years.",
+          "source_url": "https://link.springer.com/journal/10797",
+          "note": "Publisher reports the figure; citation impact is not acceptance probability or an individual article quality measure."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.6,
+          "year": 2025,
+          "population": "Journal-level citations in 2025 relative to citable items in the preceding 5 years.",
+          "source_url": "https://link.springer.com/journal/10797",
+          "note": "Publisher reports the figure; citation impact is not acceptance probability or an individual article quality measure."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/10797",
+        "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+        "https://www.springernature.com/gp/policies/editorial-policies/using-ai-in-research",
+        "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/fees/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/geography/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-3.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No affirmative author-location eligibility statement established in sources inspected.",
+          "source_urls": [
+            "https://link.springer.com/journal/10797/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "No geographical author restriction established by the scope examined; research focus and venue base are separate.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10797",
+            "note": "Journal-specific homepage and stated scope examined; research remit does not establish author eligibility or venue location.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature guidance permits supervised literature support, basic analysis, exploratory pattern identification and drafting literature reviews or summaries, with verification, disclosure and human intellectual responsibility. It also says AI should not interpret data, while its framework permits human-controlled interpretive assistance; retain this ambiguity and do not delegate interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods; add an end-of-paper AI Use Declaration detailing manuscript preparation and human accountability. Guidance requests tool versions, dates, prompts and extent.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "How can authors use AIGC? Core principles"
+        },
+        "restrictions": [
+          "Human authors must verify outputs, retain scientific judgement and accountability, and disclose use; AI cannot be an author or write the entire manuscript.",
+          "The publisher guidance says AI should not interpret data, although its risk framework also describes human-controlled interpretive assistance; do not delegate interpretation and check current journal requirements.",
+          "Protect confidential, sensitive and copyright-protected information; AI-generated images are generally restricted."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature guidance for journal authors; journal is identified on its official Springer Nature Link submission guidelines.",
+            "note": "Guidance explicitly permits literature assistance, basic analysis, and literature-review or summary drafting with oversight."
+          },
+          {
+            "url": "https://link.springer.com/journal/10797/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Official journal-specific submission guidelines identify the journal and Springer Nature platform.",
+            "note": "Journal identity and author guidelines checked; no AI-specific provision located in the retrieved guidelines."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "public-policy-international-tax-and-public-finance"
+      ],
+      "subfields": [
+        "public-policy"
+      ],
+      "scope_by_subfield": {
+        "public-policy": "Theoretical or empirical fiscal policy, taxation and interjurisdictional public finance."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-biological-physics",
+      "name": "Journal of Biological Physics",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/10867",
+      "author_guidelines": "https://link.springer.com/journal/10867/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "computational-biology"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Physics-based explanation of biological systems, including nucleic acids/proteins, omics data and genetic networks. Computational biophysics and simulation can fit when physical content and biological relevance are substantial. Restrict OSRI work to existing data and computation. AI-assisted research/text use must follow the journal instructions: substantive LLM use is documented in Methods or a suitable section, AI cannot be an author, and human authors retain accountability; ordinary AI copy editing has a disclosure exemption.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Select the subscription route: its standard APC is explicitly zero. Optional open access is charged. Submission fees and complete page/excess-length or other compulsory-cost assurance remain unverified. Online colour is free; printed colour incurs an optional contribution. Check funder licensing compatibility. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10867/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200): the named hybrid journal explicitly offers subscription publication without an APC; paid OA is optional.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10867/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200). Online colour is free; printed colour incurs an optional contribution. No explicit zero-submission/all-compulsory-cost policy found; silence does not prove absence.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Subscription journals may impose colour, page or excess-length charges; consult journal instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10867/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10867/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://link.springer.com/brands/springer/journal-policies",
+          "https://link.springer.com/journal/10867/submission-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.0,
+          "year": 2025,
+          "population": "Citations in 2025 to journal articles from the preceding two calendar years (2023-2024); the journal page does not disclose its raw citation or citable-item denominator count.",
+          "source_url": "https://link.springer.com/journal/10867",
+          "note": "Official journal value/year, read 2026-11-16. Standard metric window definition checked in OUP publisher documentation at https://academic.oup.com/pages/using-the-content/metrics. Citation context only; not acceptance probability. Exact underlying counts/document-type coverage are not supplied by the journal page."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 1.8,
+          "year": 2025,
+          "population": "Citations in 2025 to journal articles from the preceding five calendar years (2020-2024); the journal page does not disclose its raw numerator or denominator count.",
+          "source_url": "https://link.springer.com/journal/10867",
+          "note": "Official journal value/year, read 2026-11-16. Standard metric window definition checked in OUP publisher documentation at https://academic.oup.com/pages/using-the-content/metrics. Citation context only; not acceptance probability. Exact underlying counts/document-type coverage are not supplied by the journal page."
+        },
+        {
+          "name": "Submission to first decision (median)",
+          "value": "11 days",
+          "year": null,
+          "population": "Journal submissions receiving a first decision; exact reporting period, count and inclusion/exclusion of editorial rejections are not defined on the journal page.",
+          "source_url": "https://link.springer.com/journal/10867",
+          "note": "Displayed without a metric year; checked 2026-11-16 is a retrieval date, not a measurement year. First decision is not acceptance or a completed external review. No acceptance odds inferred."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/10867/aims-and-scope",
+        "https://link.springer.com/journal/10867/submission-guidelines",
+        "https://link.springer.com/journal/10867/how-to-publish-with-us"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/computational-biology.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-3.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "audit_note": "Review independently read the official aims/scope, homepage metrics and submission guidelines on 2026-11-16. Retained needs_verification: the no-APC subscription route does not resolve submission and all compulsory page/length costs. The publisher support page confirms journal-specific exceptions. The eight 2025 JIF/five-year values and undated first-decision medians match current homepages; no metric year was invented. Added the journal-specific LLM disclosure/accountability requirements. Sources: https://link.springer.com/journal/10867 ; https://link.springer.com/journal/10867/aims-and-scope ; https://link.springer.com/journal/10867/submission-guidelines ; https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal .",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred.",
+          "source_urls": [
+            "https://link.springer.com/journal/10867/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Subject-based scope; no specific geographic research remit established from inspected material.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10867",
+            "note": "Official journal scope and identity inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10867/submission-guidelines",
+            "note": "Submission guidance reviewed; author location eligibility not explicitly affirmed.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/10867/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10867/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-biology-journal-of-biological-physics"
+      ],
+      "subfields": [
+        "computational-biology"
+      ],
+      "scope_by_subfield": {
+        "computational-biology": "Physics-based explanation of biological systems, including nucleic acids/proteins, omics data and genetic networks. Computational biophysics and simulation can fit when physical content and biological relevance are substantial. Restrict OSRI work to existing data and computation. AI-assisted research/text use must follow the journal instructions: substantive LLM use is documented in Methods or a suitable section, AI cannot be an author, and human authors retain accountability; ordinary AI copy editing has a disclosure exemption."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-business-research",
+      "name": "Journal of Business Research",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/journal-of-business-research",
+      "author_guidelines": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Business and organizational research, including existing-data analysis of business models and venture performance. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/journal-of-business-research"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 11.1,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 22.9,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0148296325004837",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/elsevier.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/first-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S014829631500185X",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-journal-of-business-research"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Business and organizational research, including existing-data analysis of business models and venture performance. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    }
+  ]
+}

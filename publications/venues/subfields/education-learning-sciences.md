@@ -1,6 +1,6 @@
 # Education and learning sciences
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Culture and Education
 
@@ -15,6 +15,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in Methods or Acknowledgements. Suggestions to improve the author’s own language, grammar or structure do not require disclosure.
 
 [Author guidance](https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-culture-and-education_-sage-journals.pdf) · [Venue](https://journals.sagepub.com/home/cye)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 10969, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://api.crossref.org/journals/1135-6405)
 
 - Venue base: [Spain](https://www.tandfonline.com/doi/full/10.1080/11356405.2020.1711595) — Foundation publisher based in Madrid, as identified by journal editorial.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Thousand Oaks office.
@@ -40,6 +44,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required):** Add a Declaration of AI Use immediately before references specifying tools, purposes and scope and extent of assistance.
 
 [Author guidance](https://jurnal.uns.ac.id/ijie/about/editorialPolicies) · [Venue](https://jurnal.uns.ac.id/ijie)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- DOAJ: registry confirmed — Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable. [source](https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e), [source](https://jurnal.uns.ac.id/ijie)
 
 - Venue base: [Indonesia](https://jurnal.uns.ac.id/ijie/article/viewFile/58691/pdf) — University department publisher; university address in Surakarta.
 - Publisher base: [Indonesia](https://uns.ac.id/id/profil-universitas-2) — Universitas Sebelas Maret publisher in Surakarta.
@@ -67,6 +75,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-journal-of-management-education_-sage-journals88822042-9ac8-41a9-855c-bc95bea3a177.pdf) · [Venue](https://journals.sagepub.com/home/jme)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 27242, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Thousand Oaks office.
 - Publisher base: [United Kingdom](https://www.sagepub.com/about/locations) — Sage explicitly identified London office.
 - Author eligibility (not_stated): Reviewed submission guidelines do not explicitly state author country eligibility.
@@ -93,6 +105,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-journal-of-transformative-education_-sage-journals.pdf) · [Venue](https://journals.sagepub.com/home/jtd)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 29942; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Thousand Oaks office.
 - Publisher base: [United Kingdom](https://www.sagepub.com/about/locations) — Sage explicitly identified London office.
 - Author eligibility (international): Submission instructions encourage authors from across all countries and backgrounds.
@@ -117,6 +133,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose tool, version, purpose and human oversight in methods or AI declaration; fully describe AI in research design in methods. Report tool name, version, date and settings for methods; include prompts and relevant outputs when reproduced or discussed.
 
 [Author guidance](https://alumnijournals.org/raie/guidelines) · [Venue](https://alumnijournals.org/raie)
+
+**Quality evidence (supported):** Core policies and named editorial leadership documented. Low-severity accuracy warning: ethics-page ISSN differs from the journal’s verified identifier.
+
+- Scopus: not verified — Index authority result not established; no conclusion of absence. [source](https://www.scopus.com/sources)
 
 - Venue base: [Brazil](https://alumnijournals.org/raie/about/contact) — Journal contact lists Guarulhos editorial contact address.
 - Venue base: [United States](https://alumnijournals.org/raie/about/contact) — Journal contact also lists Orlando address.
@@ -144,6 +164,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.
 
 [Author guidance](https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-theory-and-research-in-education_-sage-journals.pdf) · [Venue](https://journals.sagepub.com/home/tre)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 46164; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
 
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Thousand Oaks office.
 - Publisher base: [United Kingdom](https://www.sagepub.com/about/locations) — Sage explicitly identified London office.

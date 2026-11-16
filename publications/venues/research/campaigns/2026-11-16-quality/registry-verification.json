@@ -1,0 +1,4063 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/quality_registry_crosscheck",
+  "notes": "Independent exact-title DOAJ API search; matched exact title plus audited ISSN required for confirmation. Stable record URLs are identifiers; readable evidence is the API response. Access failures and zero hits are inconclusive.",
+  "records": [
+    {
+      "id": "acta-biotheoretica",
+      "identity": {
+        "title": "Acta Biotheoretica",
+        "issns": [
+          "0001-5342",
+          "1572-8358"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10441"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Acta%20Biotheoretica%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "administration-and-society",
+      "identity": {
+        "title": "Administration & Society",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/aas"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Administration%20%26%20Society%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "afyon-kocatepe-university-journal-of-economics-and-administrative-sciences",
+      "identity": {
+        "title": "Afyon Kocatepe University Journal of Economics and Administrative Sciences",
+        "issns": [
+          "1302-1966",
+          "2651-4117"
+        ],
+        "source_urls": [
+          "https://dergipark.org.tr/en/pub/akuiibfd"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "not_verified",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d",
+          "registry_record_id": "378d019fa19e49a7a522d0c4def4a07d",
+          "publisher_url": null,
+          "matched_issns": [
+            "1302-1966",
+            "2651-4117"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d"
+          ],
+          "note": "DOAJ record title: Afyon Kocatepe Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi; ISSNs: 1302-1966, 2651-4117. Exact title and audited ISSN match not both established; confirmation withheld."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Afyon%20Kocatepe%20University%20Journal%20of%20Economics%20and%20Administrative%20Sciences%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Afyon Kocatepe Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi; ISSNs 1302-1966, 2651-4117."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "ai-law-politics",
+      "identity": {
+        "title": "AI, Law, Politics",
+        "issns": [
+          "3072-1229"
+        ],
+        "source_urls": [
+          "https://alp-journal.com/index.php/journal"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22AI%2C%20Law%2C%20Politics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "air-quality-atmosphere-and-health",
+      "identity": {
+        "title": "Air Quality, Atmosphere & Health",
+        "issns": [
+          "1873-9318",
+          "1873-9326"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11869"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Air%20Quality%2C%20Atmosphere%20%26%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "annals-of-operations-research",
+      "identity": {
+        "title": "Annals of Operations Research",
+        "issns": [
+          "0254-5330",
+          "1572-9338"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10479"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Annals%20of%20Operations%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "applied-health-economics-and-health-policy",
+      "identity": {
+        "title": "Applied Health Economics and Health Policy",
+        "issns": [
+          "1175-5652",
+          "1179-1896"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/40258"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Applied%20Health%20Economics%20and%20Health%20Policy%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "applied-psychological-measurement",
+      "identity": {
+        "title": "Applied Psychological Measurement",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/apm"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Applied%20Psychological%20Measurement%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "autonomous-intelligent-systems",
+      "identity": {
+        "title": "Autonomous Intelligent Systems",
+        "issns": [
+          "2730-616X"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/43684"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/42051d2d48124bc3b58849f4d224f8d4",
+          "registry_record_id": "42051d2d48124bc3b58849f4d224f8d4",
+          "publisher_url": null,
+          "matched_issns": [
+            "2730-616X"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/42051d2d48124bc3b58849f4d224f8d4"
+          ],
+          "note": "DOAJ record title: Autonomous Intelligent Systems; ISSNs: 2730-616X. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Autonomous%20Intelligent%20Systems%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/42051d2d48124bc3b58849f4d224f8d4",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Autonomous Intelligent Systems; ISSNs 2730-616X."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "autonomous-robots",
+      "identity": {
+        "title": "Autonomous Robots",
+        "issns": [
+          "0929-5593",
+          "1573-7527"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10514"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Autonomous%20Robots%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "avances-en-interacci-n-humano-computadora",
+      "identity": {
+        "title": "Avances en Interacción Humano-Computadora",
+        "issns": [
+          "2594-2352"
+        ],
+        "source_urls": [
+          "https://revistaaihc.mx/index.php/aihc/about"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Avances%20en%20Interacci%C3%B3n%20Humano-Computadora%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "bulgarian-journal-of-public-health",
+      "identity": {
+        "title": "Bulgarian Journal of Public Health",
+        "issns": [
+          "1313-860X"
+        ],
+        "source_urls": [
+          "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Bulgarian%20Journal%20of%20Public%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "bulletin-of-mathematical-biology",
+      "identity": {
+        "title": "Bulletin of Mathematical Biology",
+        "issns": [
+          "0092-8240",
+          "1522-9602"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11538"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Bulletin%20of%20Mathematical%20Biology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "classical-and-quantum-gravity",
+      "identity": {
+        "title": "Classical and Quantum Gravity",
+        "issns": [],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/0264-9381"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Classical%20and%20Quantum%20Gravity%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "comparative-political-studies",
+      "identity": {
+        "title": "Comparative Political Studies",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/cps"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Comparative%20Political%20Studies%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "computational-and-mathematical-organization-theory",
+      "identity": {
+        "title": "Computational and Mathematical Organization Theory",
+        "issns": [
+          "1381-298X",
+          "1572-9346"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10588"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Computational%20and%20Mathematical%20Organization%20Theory%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "computational-brain-and-behavior",
+      "identity": {
+        "title": "Computational Brain & Behavior",
+        "issns": [
+          "2522-0861",
+          "2522-087X"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/42113"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Computational%20Brain%20%26%20Behavior%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "computational-optimization-and-applications",
+      "identity": {
+        "title": "Computational Optimization and Applications",
+        "issns": [
+          "0926-6003",
+          "1573-2894"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10589"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Computational%20Optimization%20and%20Applications%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "contextus-contemporary-journal-of-economics-and-management",
+      "identity": {
+        "title": "Contextus: Contemporary Journal of Economics and Management",
+        "issns": [
+          "1678-2089",
+          "2178-9258"
+        ],
+        "source_urls": [
+          "https://periodicos.ufc.br/contextus/about"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Contextus%3A%20Contemporary%20Journal%20of%20Economics%20and%20Management%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "culture-and-psychology",
+      "identity": {
+        "title": "Culture & Psychology",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/cap"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Culture%20%26%20Psychology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "culture-and-education",
+      "identity": {
+        "title": "Culture and Education",
+        "issns": [
+          "1135-6405",
+          "1578-4118"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/cye",
+          "https://www.portico.org/publishers/sage/"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Culture%20and%20Education%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 3 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "current-environmental-health-reports",
+      "identity": {
+        "title": "Current Environmental Health Reports",
+        "issns": [
+          "2196-5412"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/40572"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Current%20Environmental%20Health%20Reports%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "current-psychology",
+      "identity": {
+        "title": "Current Psychology",
+        "issns": [
+          "1936-4733",
+          "1046-1310"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/12144"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Current%20Psychology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "current-sociology",
+      "identity": {
+        "title": "Current Sociology",
+        "issns": [
+          "0011-3921",
+          "1461-7064"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/csi",
+          "https://journals.sagepub.com/cms/asset/cf535d22-8f08-4b4c-bde2-a84fc223bb0e/csia_72_5.ed_board.pdf"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Current%20Sociology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "discrete-event-dynamic-systems",
+      "identity": {
+        "title": "Discrete Event Dynamic Systems",
+        "issns": [
+          "1573-7594",
+          "0924-6703"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10626"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Discrete%20Event%20Dynamic%20Systems%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "ecohealth",
+      "identity": {
+        "title": "EcoHealth",
+        "issns": [
+          "1612-9210",
+          "1612-9202"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10393"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22EcoHealth%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "engineering-with-computers",
+      "identity": {
+        "title": "Engineering with Computers",
+        "issns": [
+          "1435-5663",
+          "0177-0667"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/366"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Engineering%20with%20Computers%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "environmental-geochemistry-and-health",
+      "identity": {
+        "title": "Environmental Geochemistry and Health",
+        "issns": [
+          "1573-2983",
+          "0269-4042"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10653"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Environmental%20Geochemistry%20and%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "environmental-monitoring-and-assessment",
+      "identity": {
+        "title": "Environmental Monitoring and Assessment",
+        "issns": [
+          "1573-2959"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10661"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Environmental%20Monitoring%20and%20Assessment%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "environmental-science-and-pollution-research",
+      "identity": {
+        "title": "Environmental Science and Pollution Research",
+        "issns": [
+          "1614-7499"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11356"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Environmental%20Science%20and%20Pollution%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "epidemiologia-e-servi-os-de-sa-de-revista-do-sus",
+      "identity": {
+        "title": "Epidemiologia e Serviços de Saúde: revista do SUS",
+        "issns": [
+          "1679-4974",
+          "2237-9622"
+        ],
+        "source_urls": [
+          "https://www.scielo.br/journal/ress/about/?ilang=en"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Epidemiologia%20e%20Servi%C3%A7os%20de%20Sa%C3%BAde%3A%20revista%20do%20SUS%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "european-journal-of-personality",
+      "identity": {
+        "title": "European Journal of Personality",
+        "issns": [
+          "0890-2070",
+          "1099-0984"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/erp"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22European%20Journal%20of%20Personality%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "european-management-journal",
+      "identity": {
+        "title": "European Management Journal",
+        "issns": [
+          "0263-2373"
+        ],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/european-management-journal"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22European%20Management%20Journal%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "european-union-politics",
+      "identity": {
+        "title": "European Union Politics",
+        "issns": [
+          "1465-1165",
+          "1741-2757"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/eup"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22European%20Union%20Politics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "evaluation",
+      "identity": {
+        "title": "Evaluation",
+        "issns": [
+          "1356-3890",
+          "1461-7153"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/evi"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Evaluation%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 18 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "exposure-and-health",
+      "identity": {
+        "title": "Exposure and Health",
+        "issns": [
+          "2451-9685",
+          "2451-9766"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/12403"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Exposure%20and%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "feminism-and-psychology",
+      "identity": {
+        "title": "Feminism & Psychology",
+        "issns": [
+          "0959-3535"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/fap"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Feminism%20%26%20Psychology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "group-processes-and-intergroup-relations",
+      "identity": {
+        "title": "Group Processes & Intergroup Relations",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/gpi"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Group%20Processes%20%26%20Intergroup%20Relations%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "health-care-management-science",
+      "identity": {
+        "title": "Health Care Management Science",
+        "issns": [
+          "1386-9620",
+          "1572-9389"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10729"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Health%20Care%20Management%20Science%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "health-information-management-journal",
+      "identity": {
+        "title": "Health Information Management Journal",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/him"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Health%20Information%20Management%20Journal%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "health-services-management-research",
+      "identity": {
+        "title": "Health Services Management Research",
+        "issns": [
+          "0951-4848"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/hsm"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Health%20Services%20Management%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "indonesian-journal-of-informatics-education",
+      "identity": {
+        "title": "Indonesian Journal of Informatics Education",
+        "issns": [
+          "2549-0389"
+        ],
+        "source_urls": [
+          "https://jurnal.uns.ac.id/ijie"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "not_verified",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e",
+          "registry_record_id": "838a0d3297ff4fe7960f88f6ed54d43e",
+          "publisher_url": null,
+          "matched_issns": [
+            "2549-0389"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e"
+          ],
+          "note": "DOAJ record title: IJIE (Indonesian Journal of Informatics Education); ISSNs: 2549-0389. Exact title and audited ISSN match not both established; confirmation withheld."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Indonesian%20Journal%20of%20Informatics%20Education%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title IJIE (Indonesian Journal of Informatics Education); ISSNs 2549-0389."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "industrial-marketing-management",
+      "identity": {
+        "title": "Industrial Marketing Management",
+        "issns": [
+          "0019-8501"
+        ],
+        "source_urls": [
+          "https://shop.elsevier.com/journals/industrial-marketing-management/0019-8501"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Industrial%20Marketing%20Management%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "informs-journal-on-computing",
+      "identity": {
+        "title": "INFORMS Journal on Computing",
+        "issns": [
+          "1091-9856",
+          "1526-5528"
+        ],
+        "source_urls": [
+          "https://pubsonline.informs.org/journal/ijoc"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22INFORMS%20Journal%20on%20Computing%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "interdisciplinary-sciences-computational-life-sciences",
+      "identity": {
+        "title": "Interdisciplinary Sciences: Computational Life Sciences",
+        "issns": [
+          "1913-2751",
+          "1867-1462"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/12539"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Interdisciplinary%20Sciences%3A%20Computational%20Life%20Sciences%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-archives-of-occupational-and-environmental-health",
+      "identity": {
+        "title": "International Archives of Occupational and Environmental Health",
+        "issns": [
+          "0340-0131",
+          "1432-1246"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/420"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Archives%20of%20Occupational%20and%20Environmental%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-journal-of-control-automation-and-systems",
+      "identity": {
+        "title": "International Journal of Control, Automation, and Systems",
+        "issns": [
+          "1598-6446",
+          "2005-4092"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/12555"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Journal%20of%20Control%2C%20Automation%2C%20and%20Systems%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-journal-of-dynamics-and-control",
+      "identity": {
+        "title": "International Journal of Dynamics and Control",
+        "issns": [
+          "2195-268X",
+          "2195-2698"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/40435"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Journal%20of%20Dynamics%20and%20Control%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-journal-of-intelligent-robotics-and-applications",
+      "identity": {
+        "title": "International Journal of Intelligent Robotics and Applications",
+        "issns": [
+          "2366-5971",
+          "2366-598X"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/41315"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Journal%20of%20Intelligent%20Robotics%20and%20Applications%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-journal-of-social-robotics",
+      "identity": {
+        "title": "International Journal of Social Robotics",
+        "issns": [
+          "1875-4791",
+          "1875-4805"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/12369"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Journal%20of%20Social%20Robotics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-journal-of-system-assurance-engineering-and-management",
+      "identity": {
+        "title": "International Journal of System Assurance Engineering and Management",
+        "issns": [
+          "0975-6809",
+          "0976-4348"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/13198"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Journal%20of%20System%20Assurance%20Engineering%20and%20Management%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-relations",
+      "identity": {
+        "title": "International Relations",
+        "issns": [],
+        "source_urls": [
+          "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-international-relations_-sage-journals.pdf"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Relations%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 24 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-studies",
+      "identity": {
+        "title": "International Studies",
+        "issns": [
+          "0020-8817",
+          "0973-0702"
+        ],
+        "source_urls": [
+          "https://in.sagepub.com/en-in/ind/international-studies/journal200842"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Studies%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 11 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "international-tax-and-public-finance",
+      "identity": {
+        "title": "International Tax and Public Finance",
+        "issns": [
+          "0927-5940",
+          "1573-6970"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10797"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22International%20Tax%20and%20Public%20Finance%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-biological-physics",
+      "identity": {
+        "title": "Journal of Biological Physics",
+        "issns": [
+          "0092-0606",
+          "1573-0689"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10867"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Biological%20Physics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-business-research",
+      "identity": {
+        "title": "Journal of Business Research",
+        "issns": [
+          "0148-2963"
+        ],
+        "source_urls": [
+          "https://shop.elsevier.com/journals/journal-of-business-research/0148-2963"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Business%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-combinatorial-optimization",
+      "identity": {
+        "title": "Journal of Combinatorial Optimization",
+        "issns": [
+          "1382-6905",
+          "1573-2886"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10878"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Combinatorial%20Optimization%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-computer-security",
+      "identity": {
+        "title": "Journal of Computer Security",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/jcu"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Computer%20Security%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-engineering-and-technology-management",
+      "identity": {
+        "title": "Journal of Engineering and Technology Management",
+        "issns": [],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Engineering%20and%20Technology%20Management%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-health-services-research-and-policy",
+      "identity": {
+        "title": "Journal of Health Services Research & Policy",
+        "issns": [
+          "1355-8196",
+          "1758-1060"
+        ],
+        "source_urls": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/9604936"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Health%20Services%20Research%20%26%20Policy%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-human-technology-relations",
+      "identity": {
+        "title": "Journal of Human-Technology Relations",
+        "issns": [
+          "2773-2266"
+        ],
+        "source_urls": [
+          "https://journals.open.tudelft.nl/jhtr/about"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/a68ea320d6ff4c53ac03caa05aca0316",
+          "registry_record_id": "a68ea320d6ff4c53ac03caa05aca0316",
+          "publisher_url": null,
+          "matched_issns": [
+            "2773-2266"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/a68ea320d6ff4c53ac03caa05aca0316"
+          ],
+          "note": "DOAJ record title: Journal of Human-Technology Relations; ISSNs: 2773-2266. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Human-Technology%20Relations%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/a68ea320d6ff4c53ac03caa05aca0316",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Journal of Human-Technology Relations; ISSNs 2773-2266."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-information-science",
+      "identity": {
+        "title": "Journal of Information Science",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/jis"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Information%20Science%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 3 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-intelligent-manufacturing",
+      "identity": {
+        "title": "Journal of Intelligent Manufacturing",
+        "issns": [
+          "0956-5515",
+          "1572-8145"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10845"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Intelligent%20Manufacturing%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-management-education",
+      "identity": {
+        "title": "Journal of Management Education",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/jme"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Management%20Education%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-mathematical-biology",
+      "identity": {
+        "title": "Journal of Mathematical Biology",
+        "issns": [
+          "0303-6812",
+          "1432-1416"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/285"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Mathematical%20Biology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-medical-systems",
+      "identity": {
+        "title": "Journal of Medical Systems",
+        "issns": [
+          "0148-5598",
+          "1573-689X"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10916",
+          "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Medical%20Systems%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-micromechanics-and-microengineering",
+      "identity": {
+        "title": "Journal of Micromechanics and Microengineering",
+        "issns": [
+          "0960-1317",
+          "1361-6439"
+        ],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/0960-1317",
+          "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Micromechanics%20and%20Microengineering%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-molecular-modeling",
+      "identity": {
+        "title": "Journal of Molecular Modeling",
+        "issns": [
+          "1610-2940",
+          "0948-5023",
+          "0949-183X"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/894",
+          "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Molecular%20Modeling%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-open-source-software",
+      "identity": {
+        "title": "Journal of Open Source Software",
+        "issns": [],
+        "source_urls": [
+          "https://joss.theoj.org/",
+          "https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "not_verified",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a",
+          "registry_record_id": "543105344edb4e509ce7c54115efb88a",
+          "publisher_url": null,
+          "matched_issns": [],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a"
+          ],
+          "note": "DOAJ record title: Journal of Open Source Software; ISSNs: 2475-9066. Exact title and audited ISSN match not both established; confirmation withheld."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Open%20Source%20Software%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Journal of Open Source Software; ISSNs 2475-9066."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-physics-a-mathematical-and-theoretical",
+      "identity": {
+        "title": "Journal of Physics A: Mathematical and Theoretical",
+        "issns": [],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/1751-8121",
+          "https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-physics-b-atomic-molecular-and-optical-physics",
+      "identity": {
+        "title": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+        "issns": [],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/0953-4075",
+          "https://api.crossref.org/journals?query=Journal%20of%20Physics%20B%3A%20Atomic%2C%20Molecular%20and%20Optical%20Physics&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Physics%20B%3A%20Atomic%2C%20Molecular%20and%20Optical%20Physics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-physics-d-applied-physics",
+      "identity": {
+        "title": "Journal of Physics D: Applied Physics",
+        "issns": [],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/0022-3727",
+          "https://api.crossref.org/journals?query=Journal%20of%20Physics%20D%3A%20Applied%20Physics&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Physics%20D%3A%20Applied%20Physics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-physics-condensed-matter",
+      "identity": {
+        "title": "Journal of Physics: Condensed Matter",
+        "issns": [],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/0953-8984",
+          "https://api.crossref.org/journals?query=Journal%20of%20Physics%3A%20Condensed%20Matter&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Physics%3A%20Condensed%20Matter%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-public-policy",
+      "identity": {
+        "title": "Journal of Public Policy",
+        "issns": [
+          "0143-814X",
+          "1469-7815"
+        ],
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/journal-of-public-policy",
+          "https://api.crossref.org/journals?query=Journal%20of%20Public%20Policy&rows=20"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/91a1376dc73549be837beceb2192c10c",
+          "registry_record_id": "91a1376dc73549be837beceb2192c10c",
+          "publisher_url": null,
+          "matched_issns": [
+            "1469-7815"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/91a1376dc73549be837beceb2192c10c"
+          ],
+          "note": "DOAJ record title: Journal of Public Policy; ISSNs: 1469-7815. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Public%20Policy%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 2 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/91a1376dc73549be837beceb2192c10c",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Journal of Public Policy; ISSNs 1469-7815."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-scheduling",
+      "identity": {
+        "title": "Journal of Scheduling",
+        "issns": [
+          "1094-6136",
+          "1099-1425"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10951"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Scheduling%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-systems-science-and-systems-engineering",
+      "identity": {
+        "title": "Journal of Systems Science and Systems Engineering",
+        "issns": [
+          "1004-3756",
+          "1861-9576"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11518"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Systems%20Science%20and%20Systems%20Engineering%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "journal-of-transformative-education",
+      "identity": {
+        "title": "Journal of Transformative Education",
+        "issns": [
+          "1552-7840"
+        ],
+        "source_urls": [
+          "https://portal.issn.org/resource/issn/1552-7840"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Journal%20of%20Transformative%20Education%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "lithuanian-journal-of-statistics",
+      "identity": {
+        "title": "Lithuanian Journal of Statistics",
+        "issns": [
+          "1392-642X",
+          "2029-7262"
+        ],
+        "source_urls": [
+          "https://www.journals.vu.lt/statisticsjournal/en/about/index"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/ffaae1f762994a4991362ffc2fb46979",
+          "registry_record_id": "ffaae1f762994a4991362ffc2fb46979",
+          "publisher_url": null,
+          "matched_issns": [
+            "2029-7262"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/ffaae1f762994a4991362ffc2fb46979"
+          ],
+          "note": "DOAJ record title: Lithuanian Journal of Statistics; ISSNs: 2029-7262. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Lithuanian%20Journal%20of%20Statistics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/ffaae1f762994a4991362ffc2fb46979",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Lithuanian Journal of Statistics; ISSNs 2029-7262."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "materials-futures",
+      "identity": {
+        "title": "Materials Futures",
+        "issns": [
+          "2752-5724"
+        ],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/2752-5724"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/a531e43238b3437d87d7c795996715d2",
+          "registry_record_id": "a531e43238b3437d87d7c795996715d2",
+          "publisher_url": null,
+          "matched_issns": [
+            "2752-5724"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/a531e43238b3437d87d7c795996715d2"
+          ],
+          "note": "DOAJ record title: Materials Futures; ISSNs: 2752-5724. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Materials%20Futures%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/a531e43238b3437d87d7c795996715d2",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Materials Futures; ISSNs 2752-5724."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "mathematics-of-operations-research",
+      "identity": {
+        "title": "Mathematics of Operations Research",
+        "issns": [
+          "0364-765X",
+          "1526-5471"
+        ],
+        "source_urls": [
+          "https://publishers.issn.org/resource/ISSN/1526-5471"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Mathematics%20of%20Operations%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "medical-care-research-and-review",
+      "identity": {
+        "title": "Medical Care Research and Review",
+        "issns": [
+          "1077-5587",
+          "1552-6801"
+        ],
+        "source_urls": [
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/9506850"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Medical%20Care%20Research%20and%20Review%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "memory-and-cognition",
+      "identity": {
+        "title": "Memory & Cognition",
+        "issns": [
+          "0090-502X",
+          "1532-5946"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/13421"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Memory%20%26%20Cognition%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "modelling-and-simulation-in-materials-science-and-engineering",
+      "identity": {
+        "title": "Modelling and Simulation in Materials Science and Engineering",
+        "issns": [
+          "0965-0393",
+          "1361-651X"
+        ],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/0965-0393"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Modelling%20and%20Simulation%20in%20Materials%20Science%20and%20Engineering%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "network-modeling-analysis-in-health-informatics-and-bioinformatics",
+      "identity": {
+        "title": "Network Modeling Analysis in Health Informatics and Bioinformatics",
+        "issns": [
+          "2192-6662",
+          "2192-6670"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/2192-6662",
+          "https://link.springer.com/journal/13721"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Network%20Modeling%20Analysis%20in%20Health%20Informatics%20and%20Bioinformatics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "operations-research",
+      "identity": {
+        "title": "Operations Research",
+        "issns": [
+          "0030-364X",
+          "1526-5463"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/0030-364X",
+          "https://pubsonline.informs.org/journal/opre"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Operations%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 4 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "or-spectrum",
+      "identity": {
+        "title": "OR Spectrum",
+        "issns": [
+          "0171-6468",
+          "1436-6304"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/0171-6468",
+          "https://link.springer.com/journal/291"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22OR%20Spectrum%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "organization",
+      "identity": {
+        "title": "Organization",
+        "issns": [
+          "1350-5084",
+          "1461-7323"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1350-5084",
+          "https://journals.sagepub.com/home/org"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Organization%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 15 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "organization-studies",
+      "identity": {
+        "title": "Organization Studies",
+        "issns": [
+          "0170-8406",
+          "1741-3044"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/0170-8406",
+          "https://journals.sagepub.com/home/oss"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Organization%20Studies%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "organizational-research-methods",
+      "identity": {
+        "title": "Organizational Research Methods",
+        "issns": [
+          "1094-4281",
+          "1552-7425"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1094-4281",
+          "https://journals.sagepub.com/home/orm"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Organizational%20Research%20Methods%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "peer-community-journal",
+      "identity": {
+        "title": "Peer Community Journal",
+        "issns": [
+          "2804-3871"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/2804-3871",
+          "https://peercommunityjournal.org/"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/798d4f21a22d43579cea322bed8a560e",
+          "registry_record_id": "798d4f21a22d43579cea322bed8a560e",
+          "publisher_url": null,
+          "matched_issns": [
+            "2804-3871"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/798d4f21a22d43579cea322bed8a560e"
+          ],
+          "note": "DOAJ record title: Peer Community Journal; ISSNs: 2804-3871. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Peer%20Community%20Journal%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/798d4f21a22d43579cea322bed8a560e",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Peer Community Journal; ISSNs 2804-3871."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "personality-and-social-psychology-bulletin",
+      "identity": {
+        "title": "Personality and Social Psychology Bulletin",
+        "issns": [
+          "0146-1672",
+          "1552-7433"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/0146-1672",
+          "https://journals.sagepub.com/home/psp"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Personality%20and%20Social%20Psychology%20Bulletin%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "perspectives-in-public-health",
+      "identity": {
+        "title": "Perspectives in Public Health",
+        "issns": [
+          "1757-9139",
+          "1757-9147"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1757-9139",
+          "https://journals.sagepub.com/home/rsh"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Perspectives%20in%20Public%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "pharmacoeconomics",
+      "identity": {
+        "title": "PharmacoEconomics",
+        "issns": [
+          "1170-7690",
+          "1179-2027"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/40273",
+          "https://api.crossref.org/journals/1179-2027"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22PharmacoEconomics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 2 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "physical-review-e",
+      "identity": {
+        "title": "Physical Review E",
+        "issns": [
+          "2470-0045",
+          "2470-0053"
+        ],
+        "source_urls": [
+          "https://journals.aps.org/pre/",
+          "https://api.crossref.org/journals/2470-0053"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Physical%20Review%20E%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "plos-computational-biology",
+      "identity": {
+        "title": "PLOS Computational Biology",
+        "issns": [
+          "1553-734X",
+          "1553-7358"
+        ],
+        "source_urls": [
+          "https://journals.plos.org/ploscompbiol/",
+          "https://api.crossref.org/journals/1553-7358"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/b4c52c82a9b146df8c348fbce28ec158",
+          "registry_record_id": "b4c52c82a9b146df8c348fbce28ec158",
+          "publisher_url": null,
+          "matched_issns": [
+            "1553-734X",
+            "1553-7358"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/b4c52c82a9b146df8c348fbce28ec158"
+          ],
+          "note": "DOAJ record title: PLoS Computational Biology; ISSNs: 1553-734X, 1553-7358. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22PLOS%20Computational%20Biology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/b4c52c82a9b146df8c348fbce28ec158",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title PLoS Computational Biology; ISSNs 1553-734X, 1553-7358."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "policy-sciences",
+      "identity": {
+        "title": "Policy Sciences",
+        "issns": [
+          "0032-2687",
+          "1573-0891"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11077",
+          "https://api.crossref.org/journals/1573-0891"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Policy%20Sciences%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "political-studies",
+      "identity": {
+        "title": "Political Studies",
+        "issns": [
+          "0032-3217",
+          "1467-9248"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/psx",
+          "https://api.crossref.org/journals/1467-9248"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Political%20Studies%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 7 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "politics",
+      "identity": {
+        "title": "Politics",
+        "issns": [
+          "0263-3957",
+          "1467-9256"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/pol",
+          "https://api.crossref.org/journals/1467-9256"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Politics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 64 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "population-health-management",
+      "identity": {
+        "title": "Population Health Management",
+        "issns": [
+          "1942-7891",
+          "1942-7905"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/pop",
+          "https://api.crossref.org/journals/1942-7905"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Population%20Health%20Management%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "preventing-chronic-disease",
+      "identity": {
+        "title": "Preventing Chronic Disease",
+        "issns": [
+          "1545-1151"
+        ],
+        "source_urls": [
+          "https://www.cdc.gov/pcd/",
+          "https://api.crossref.org/journals/1545-1151"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/af78c4d11e114089ae3f2582b444ad42",
+          "registry_record_id": "af78c4d11e114089ae3f2582b444ad42",
+          "publisher_url": null,
+          "matched_issns": [
+            "1545-1151"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/af78c4d11e114089ae3f2582b444ad42"
+          ],
+          "note": "DOAJ record title: Preventing Chronic Disease; ISSNs: 1545-1151. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Preventing%20Chronic%20Disease%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/af78c4d11e114089ae3f2582b444ad42",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Preventing Chronic Disease; ISSNs 1545-1151."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "progress-in-energy",
+      "identity": {
+        "title": "Progress in Energy",
+        "issns": [
+          "2516-1083"
+        ],
+        "source_urls": [
+          "https://iopscience.iop.org/journal/2516-1083",
+          "https://api.crossref.org/journals/2516-1083"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Progress%20in%20Energy%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "psychological-research",
+      "identity": {
+        "title": "Psychological Research",
+        "issns": [
+          "0340-0727",
+          "1430-2772"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/426"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Psychological%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 6 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "psychonomic-bulletin-and-review",
+      "identity": {
+        "title": "Psychonomic Bulletin & Review",
+        "issns": [
+          "1069-9384",
+          "1531-5320"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/13423"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Psychonomic%20Bulletin%20%26%20Review%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "public-choice",
+      "identity": {
+        "title": "Public Choice",
+        "issns": [
+          "0048-5829",
+          "1573-7101"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11127"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Public%20Choice%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "public-health-reports",
+      "identity": {
+        "title": "Public Health Reports",
+        "issns": [
+          "0033-3549",
+          "1468-2877"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/phr",
+          "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Public%20Health%20Reports%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "public-organization-review",
+      "identity": {
+        "title": "Public Organization Review",
+        "issns": [
+          "1566-7170",
+          "1573-7098"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11115"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Public%20Organization%20Review%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "public-policy-and-administration",
+      "identity": {
+        "title": "Public Policy and Administration",
+        "issns": [
+          "0952-0767",
+          "1749-4192"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/ppa",
+          "https://portal.issn.org/custom-search/print/1749-4192/public"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Public%20Policy%20and%20Administration%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "public-understanding-of-science",
+      "identity": {
+        "title": "Public Understanding of Science",
+        "issns": [
+          "0963-6625",
+          "1361-6609"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/pus"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Public%20Understanding%20of%20Science%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "public-works-management-and-policy",
+      "identity": {
+        "title": "Public Works Management & Policy",
+        "issns": [
+          "1087-724X",
+          "1552-7549"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/pwm",
+          "https://portal.issn.org/resource/ISSN/1552-7549"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Public%20Works%20Management%20%26%20Policy%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "queueing-systems",
+      "identity": {
+        "title": "Queueing Systems",
+        "issns": [
+          "0257-0130",
+          "1572-9443"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11134"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Queueing%20Systems%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "rationality-and-society",
+      "identity": {
+        "title": "Rationality and Society",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/rss"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Rationality%20and%20Society%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "reliability-engineering-and-system-safety",
+      "identity": {
+        "title": "Reliability Engineering & System Safety",
+        "issns": [],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Reliability%20Engineering%20%26%20System%20Safety%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "requirements-engineering",
+      "identity": {
+        "title": "Requirements Engineering",
+        "issns": [
+          "0947-3602",
+          "1432-010X"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/766"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Requirements%20Engineering%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "research-ethics",
+      "identity": {
+        "title": "Research Ethics",
+        "issns": [
+          "1747-0161",
+          "2047-6094"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/rea",
+          "https://api.crossref.org/journals/2047-6094"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "not_verified",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/25a2419761e1412d8d9a504398d0deb8",
+          "registry_record_id": "25a2419761e1412d8d9a504398d0deb8",
+          "publisher_url": null,
+          "matched_issns": [
+            "1747-0161",
+            "2047-6094"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/25a2419761e1412d8d9a504398d0deb8"
+          ],
+          "note": "DOAJ record title: Research Ethics Review; ISSNs: 1747-0161, 2047-6094. Exact title and audited ISSN match not both established; confirmation withheld."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Research%20Ethics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/25a2419761e1412d8d9a504398d0deb8",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Research Ethics Review; ISSNs 1747-0161, 2047-6094."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "research-evaluation",
+      "identity": {
+        "title": "Research Evaluation",
+        "issns": [
+          "0958-2029",
+          "1471-5449"
+        ],
+        "source_urls": [
+          "https://academic.oup.com/rev"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Research%20Evaluation%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "research-in-engineering-design",
+      "identity": {
+        "title": "Research in Engineering Design",
+        "issns": [
+          "0934-9839",
+          "1435-6066"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/163"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Research%20in%20Engineering%20Design%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "research-methods-in-medicine-and-health-sciences",
+      "identity": {
+        "title": "Research Methods in Medicine & Health Sciences",
+        "issns": [],
+        "source_urls": [
+          "https://journals.sagepub.com/home/rmm"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Research%20Methods%20in%20Medicine%20%26%20Health%20Sciences%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "research-policy",
+      "identity": {
+        "title": "Research Policy",
+        "issns": [],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/research-policy"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Research%20Policy%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 2 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "review-of-artificial-intelligence-in-education",
+      "identity": {
+        "title": "Review of Artificial Intelligence in Education",
+        "issns": [
+          "2965-4688"
+        ],
+        "source_urls": [
+          "https://alumnijournals.org/raie/guidelines",
+          "https://alumnijournals.org/raie/Publishing-Ethics"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Review%20of%20Artificial%20Intelligence%20in%20Education%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "revista-panamericana-de-salud-p-blica-pan-american-journal-of-public-health",
+      "identity": {
+        "title": "Revista Panamericana de Salud Pública / Pan American Journal of Public Health",
+        "issns": [
+          "1680-5348",
+          "1020-4989"
+        ],
+        "source_urls": [
+          "https://journal.paho.org/en/about-journal"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Revista%20Panamericana%20de%20Salud%20P%C3%BAblica%20%2F%20Pan%20American%20Journal%20of%20Public%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "safety-science",
+      "identity": {
+        "title": "Safety Science",
+        "issns": [
+          "0925-7535",
+          "1879-1042"
+        ],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/safety-science/vol/110/part/PB"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Safety%20Science%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 2 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "scandinavian-journal-of-public-health",
+      "identity": {
+        "title": "Scandinavian Journal of Public Health",
+        "issns": [
+          "1403-4948",
+          "1651-1905"
+        ],
+        "source_urls": [
+          "https://in.sagepub.com/en-in/sas/journal/scandinavian-journal-public-health"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Scandinavian%20Journal%20of%20Public%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "science-communication",
+      "identity": {
+        "title": "Science Communication",
+        "issns": [
+          "1075-5470",
+          "1552-8545"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1075-5470"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Science%20Communication%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "science-technology-and-human-values",
+      "identity": {
+        "title": "Science, Technology, & Human Values",
+        "issns": [
+          "0162-2439",
+          "1552-8251"
+        ],
+        "source_urls": [
+          "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Science%2C%20Technology%2C%20%26%20Human%20Values%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "scientometrics",
+      "identity": {
+        "title": "Scientometrics",
+        "issns": [
+          "0138-9130",
+          "1588-2861"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/11192"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Scientometrics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 2 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "simulation",
+      "identity": {
+        "title": "SIMULATION",
+        "issns": [
+          "0037-5497",
+          "1741-3133"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/0037-5497"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22SIMULATION%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 10 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "simulation-and-gaming",
+      "identity": {
+        "title": "Simulation & Gaming",
+        "issns": [
+          "1046-8781",
+          "1552-826X"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1046-8781"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Simulation%20%26%20Gaming%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "social-science-computer-review",
+      "identity": {
+        "title": "Social Science Computer Review",
+        "issns": [
+          "0894-4393",
+          "1552-8286"
+        ],
+        "source_urls": [
+          "https://in.sagepub.com/en-in/ind/journal/social-science-computer-review"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Social%20Science%20Computer%20Review%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "social-studies-of-science",
+      "identity": {
+        "title": "Social Studies of Science",
+        "issns": [
+          "0306-3127",
+          "1460-3659"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/sss",
+          "https://journals.sagepub.com/author-instructions/sss",
+          "https://journals.sagepub.com/cms/asset/75b0fb8b-f83a-4bf9-a269-bdcfb3c93106/sssb_55_4.ed_board.pdf"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Social%20Studies%20of%20Science%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "software-and-systems-modeling",
+      "identity": {
+        "title": "Software and Systems Modeling",
+        "issns": [
+          "1619-1366",
+          "1619-1374"
+        ],
+        "source_urls": [
+          "https://link.springer.com/journal/10270"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Software%20and%20Systems%20Modeling%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "statistical-methods-in-medical-research",
+      "identity": {
+        "title": "Statistical Methods in Medical Research",
+        "issns": [
+          "0962-2802",
+          "1477-0334"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/SMM",
+          "https://journals.sagepub.com/author-instructions/smm",
+          "https://journals.sagepub.com/cms/asset/e53ef61b-ae84-42bf-a801-49075292176f/smma_35_1.ed_board.pdf"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Statistical%20Methods%20in%20Medical%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "stochastic-systems",
+      "identity": {
+        "title": "Stochastic Systems",
+        "issns": [
+          "1946-5238"
+        ],
+        "source_urls": [
+          "https://pubsonline.informs.org/journal/stsy"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/7e86eba49f714c2290e032ef39ae7c7b",
+          "registry_record_id": "7e86eba49f714c2290e032ef39ae7c7b",
+          "publisher_url": null,
+          "matched_issns": [
+            "1946-5238"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/7e86eba49f714c2290e032ef39ae7c7b"
+          ],
+          "note": "DOAJ record title: Stochastic Systems; ISSNs: 1946-5238. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Stochastic%20Systems%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/7e86eba49f714c2290e032ef39ae7c7b",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Stochastic Systems; ISSNs 1946-5238."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "studies-in-indian-politics",
+      "identity": {
+        "title": "Studies in Indian Politics",
+        "issns": [
+          "2321-0230",
+          "2321-7472"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/inp",
+          "https://journals.sagepub.com/author-instructions/inp"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Studies%20in%20Indian%20Politics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "technological-forecasting-and-social-change",
+      "identity": {
+        "title": "Technological Forecasting and Social Change",
+        "issns": [
+          "0040-1625"
+        ],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Technological%20Forecasting%20and%20Social%20Change%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "technology-in-society",
+      "identity": {
+        "title": "Technology in Society",
+        "issns": [
+          "0160-791X"
+        ],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technology-in-society"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Technology%20in%20Society%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "technovation",
+      "identity": {
+        "title": "Technovation",
+        "issns": [
+          "0166-4972"
+        ],
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technovation"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Technovation%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "the-american-review-of-public-administration",
+      "identity": {
+        "title": "The American Review of Public Administration",
+        "issns": [
+          "0275-0740",
+          "1552-3357"
+        ],
+        "source_urls": [
+          "https://journals.sagepub.com/home/arp",
+          "https://journals.sagepub.com/author-instructions/arp"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22The%20American%20Review%20of%20Public%20Administration%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "the-british-journal-of-politics-and-international-relations",
+      "identity": {
+        "title": "The British Journal of Politics and International Relations",
+        "issns": [
+          "1369-1481",
+          "1467-856X"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1369-1481",
+          "https://journals.sagepub.com/home/bpi"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22The%20British%20Journal%20of%20Politics%20and%20International%20Relations%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "the-european-journal-of-health-economics",
+      "identity": {
+        "title": "The European Journal of Health Economics",
+        "issns": [
+          "1618-7598",
+          "1618-7601"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1618-7598",
+          "https://link.springer.com/journal/10198"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "MEDLINE",
+          "category": "bibliographic_database",
+          "verification": "registry_confirmed",
+          "coverage": "v5n1, 2004-",
+          "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml",
+          "registry_record_id": "101134867",
+          "publisher_url": null,
+          "matched_issns": [
+            "1618-7598",
+            "1618-7601"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml"
+          ],
+          "note": "NLM Catalog states MEDLINE currently indexed, full indexing, v5n1, 2004-. NLM title includes historical subtitle; catalog says subtitle dropped in 2004."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22The%20European%20Journal%20of%20Health%20Economics%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "NLM Catalog XML identity and MEDLINE indexing source read. NLM title includes historical subtitle; catalog says subtitle dropped in 2004."
+        }
+      ],
+      "audit_limits": "DOAJ title search and specified NLM Catalog record only. Other indexing services and coverage not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "the-journal-of-defense-modeling-and-simulation-applications-methodology-technology",
+      "identity": {
+        "title": "The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology",
+        "issns": [
+          "1548-5129",
+          "1557-380X"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1548-5129",
+          "https://journals.sagepub.com/home/dms"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22The%20Journal%20of%20Defense%20Modeling%20and%20Simulation%3A%20Applications%2C%20Methodology%2C%20Technology%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "the-sociological-review",
+      "identity": {
+        "title": "The Sociological Review",
+        "issns": [
+          "0038-0261",
+          "1467-954X"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/0038-0261",
+          "https://journals.sagepub.com/home/sor"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22The%20Sociological%20Review%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "theoretics",
+      "identity": {
+        "title": "TheoretiCS",
+        "issns": [
+          "2751-4838"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/2751-4838",
+          "https://theoretics.episciences.org/"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/9171c6a32f6a4df795259fe5b19d7772",
+          "registry_record_id": "9171c6a32f6a4df795259fe5b19d7772",
+          "publisher_url": null,
+          "matched_issns": [
+            "2751-4838"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/9171c6a32f6a4df795259fe5b19d7772"
+          ],
+          "note": "DOAJ record title: TheoretiCS; ISSNs: 2751-4838. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22TheoretiCS%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/9171c6a32f6a4df795259fe5b19d7772",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title TheoretiCS; ISSNs 2751-4838."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "theory-and-research-in-education",
+      "identity": {
+        "title": "Theory and Research in Education",
+        "issns": [
+          "1477-8785",
+          "1741-3192"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1477-8785",
+          "https://journals.sagepub.com/home/tre"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Theory%20and%20Research%20in%20Education%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "theory-in-biosciences",
+      "identity": {
+        "title": "Theory in Biosciences",
+        "issns": [
+          "1431-7613",
+          "1611-7530"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1431-7613",
+          "https://link.springer.com/journal/12064"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "MEDLINE",
+          "category": "bibliographic_database",
+          "verification": "registry_confirmed",
+          "coverage": "v124n1, Aug. 2005-",
+          "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml",
+          "registry_record_id": "9708216",
+          "publisher_url": null,
+          "matched_issns": [
+            "1431-7613",
+            "1611-7530"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml"
+          ],
+          "note": "NLM Catalog states MEDLINE currently indexed, full indexing, v124n1, Aug. 2005-. NLM title gives English title and German equivalent."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Theory%20in%20Biosciences%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 0 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "NLM Catalog XML identity and MEDLINE indexing source read. NLM title gives English title and German equivalent."
+        }
+      ],
+      "audit_limits": "DOAJ title search and specified NLM Catalog record only. Other indexing services and coverage not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "transactions-on-machine-learning-research",
+      "identity": {
+        "title": "Transactions on Machine Learning Research",
+        "issns": [
+          "2835-8856"
+        ],
+        "source_urls": [
+          "https://jmlr.org/tmlr/faq.html",
+          "https://jmlr.org/tmlr/"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [
+        {
+          "name": "DOAJ",
+          "category": "open_access_directory",
+          "verification": "registry_confirmed",
+          "coverage": null,
+          "registry_url": "https://doaj.org/api/journals/58beff6068ce48679722d20e5b288dfc",
+          "registry_record_id": "58beff6068ce48679722d20e5b288dfc",
+          "publisher_url": null,
+          "matched_issns": [
+            "2835-8856"
+          ],
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_urls": [
+            "https://doaj.org/api/journals/58beff6068ce48679722d20e5b288dfc"
+          ],
+          "note": "DOAJ record title: Transactions on Machine Learning Research; ISSNs: 2835-8856. Exact title and audited ISSN match."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Transactions%20on%20Machine%20Learning%20Research%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        },
+        {
+          "url": "https://doaj.org/api/journals/58beff6068ce48679722d20e5b288dfc",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read DOAJ record; title Transactions on Machine Learning Research; ISSNs 2835-8856."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    },
+    {
+      "id": "value-in-health",
+      "identity": {
+        "title": "Value in Health",
+        "issns": [
+          "1098-3015",
+          "1524-4733"
+        ],
+        "source_urls": [
+          "https://api.crossref.org/journals/1098-3015",
+          "https://www.ispor.org/publications/journals/value-in-health"
+        ],
+        "notes": "ISSNs from completed campaign audit."
+      },
+      "indexing": [],
+      "evidence": [
+        {
+          "url": "https://doaj.org/api/search/journals/title%3A%22Value%20in%20Health%22?pageSize=20",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "DOAJ API returned 1 total results. Search absence is not proof of non-indexing."
+        }
+      ],
+      "audit_limits": "DOAJ title search only. Other indices, coverage and journal identity beyond available audit ISSNs not independently checked. A zero-result search is inconclusive."
+    }
+  ]
+}

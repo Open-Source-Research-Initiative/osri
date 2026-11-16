@@ -1,0 +1,1570 @@
+{
+  "batch": "batch-08",
+  "venues": [
+    {
+      "id": "journal-of-medical-systems",
+      "name": "Journal of Medical Systems",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/10916",
+      "author_guidelines": "https://link.springer.com/journal/10916/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "health-systems"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods",
+        "software",
+        "data"
+      ],
+      "scope_notes": "Fits existing-data research on health-information systems, workflows/simulation, implementation, operations and governance. Brief Reports may describe validated tools, datasets or pipelines; reviews need reproducible searches. Narrow algorithm comparisons and weak informatics contributions risk desk rejection. AI/ML work requires validation and reproducibility reporting; substantive AI use needs tool/version/date, prompts/settings and human QA disclosure. Copyediting alone is exempt; LLMs cannot be authors. Clinical interventions remain outside OSRI scope.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Journal-specific options confirm subscription publication without an APC; paid OA is optional. Submission fees and complete standard publication/page/overlength costs remain unconfirmed. Color illustrations are free. Research allows 4,000 main-text words; reviews 5,500; brief reports 2,000.",
+        "other_mandatory_costs": "Unresolved: no compulsory membership, page or registration cost was found, but the inspected journal pages do not explicitly establish their absence. Publisher support warns that some subscription journals impose page/overlength charges. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10916/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription route has no APC; optional OA is charged. This statement does not address all author costs.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Inspected article limits and color policy; no explicit submission-fee or complete no-page/overlength-cost statement found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says subscription publication usually has no charge but some journals impose page, color or overlength costs; directs authors to journal-specific policies.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://link.springer.com/journal/10916/submission-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor (publisher-reported)",
+          "value": 8.8,
+          "year": 2025,
+          "population": "Journal-level JIF: citations in 2025 to journal content published in 2023–2024, relative to citable items published in 2023–2024. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10916",
+          "note": "Official homepage explicitly reports 8.8 (2025). This citation statistic does not establish acceptance odds."
+        },
+        {
+          "name": "5-year Journal Impact Factor (publisher-reported)",
+          "value": 6.0,
+          "year": 2025,
+          "population": "Journal-level five-year JIF: citations in 2025 to journal content from 2020–2024 relative to citable items in that five-year publication window. Raw counts not supplied by the journal homepage.",
+          "source_url": "https://link.springer.com/journal/10916",
+          "note": "Official homepage explicitly reports 6.0 (2025); retained as a separate citation window."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/10916/aims-and-scope",
+        "https://link.springer.com/journal/10916/submission-guidelines",
+        "https://link.springer.com/journal/10916/how-to-publish-with-us"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/health-systems.json",
+        "research/campaigns/2026-11-16-expansion/geography/health-systems.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/health-systems.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/health-systems.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-4.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "audit_note": "Read current homepage and submission instructions, including explicit desk-rejection criteria. No acceptance rate with a defined cohort was found. Reported submission/decision speeds were excluded from difficulty reasoning. Fee-audit uncertainty remains untouched. Skeptical review: Read detailed type, desk-rejection, data/code/AI, author and publishing-option sections plus the dated homepage citation display. Brief Report tools/data are supported formats, not generic acceptance of unevaluated artifacts. No-APC does not settle all compulsory author costs; needs_verification remains. Explicit AI reporting conditions are now visible in scope_notes.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No affirmative author-country eligibility statement verified in the reviewed journal instructions.",
+          "source_urls": [
+            "https://link.springer.com/journal/10916/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "No specific geographic research limitation verified in the reviewed journal material.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10916",
+            "note": "Journal identity and scope page; location is not inferred from a multinational publisher address.",
+            "access": "search_snippet"
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/submission-guidelines",
+            "note": "Submission and author instructions consulted for geography and scope; absent affirmative eligibility evidence is not proof of a restriction.",
+            "access": "search_snippet"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher expressly permits supervised basic data analysis, literature support and drafting literature reviews or summaries. Analysis permission establishes analysis_code under the campaign definition; all uses require human judgment and verification.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe research use in Methods and include an end-of-paper AI Use Declaration with accountability; declare manuscript preparation and AI-assisted copy editing. Policy calls for tool versions, use dates, prompts and extent of contribution.",
+          "source_urls": [
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "Artificial intelligence policy"
+        },
+        "restrictions": [
+          "Do not delegate original scientific thinking or entire manuscript writing; verify outputs."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy applies to its journals.",
+            "note": "Publisher expressly permits basic data analysis, research literature support and drafting literature reviews or summaries, with oversight and disclosure; analysis establishes analysis_code without requiring literal code permission."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "health-systems-journal-of-medical-systems"
+      ],
+      "subfields": [
+        "health-systems"
+      ],
+      "scope_by_subfield": {
+        "health-systems": "Fits existing-data research on health-information systems, workflows/simulation, implementation, operations and governance. Brief Reports may describe validated tools, datasets or pipelines; reviews need reproducible searches. Narrow algorithm comparisons and weak informatics contributions risk desk rejection. AI/ML work requires validation and reproducibility reporting; substantive AI use needs tool/version/date, prompts/settings and human QA disclosure. Copyediting alone is exempt; LLMs cannot be authors. Clinical interventions remain outside OSRI scope."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-micromechanics-and-microengineering",
+      "name": "Journal of Micromechanics and Microengineering",
+      "kind": "journal",
+      "publisher": "IOP Publishing",
+      "homepage": "https://iopscience.iop.org/journal/0960-1317",
+      "author_guidelines": "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/",
+      "submission_url": null,
+      "subjects": [
+        "computational-physical-sciences"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Micromechanics and microengineering accepts simulation-only work; compare with published experimental data when available and support reproducibility.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription route is free; paid gold open access is optional. Article type eligibility varies.",
+        "other_mandatory_costs": "Journal states no other publishing charges.",
+        "fee_evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no submission charges, free subscription publication, and no other publishing charges; gold OA is optional.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/",
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/",
+        "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "IOP Publishing headquarters, Bristol",
+            "source_url": "https://ioppublishing.org/about-us/contact-us/"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Journal editorial or owning-society base was not established separately from IOP Publishing headquarters. Author location eligibility and regional scope remain unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/",
+            "note": "Journal author/scope source; no affirmative worldwide author-eligibility statement established from the material reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://ioppublishing.org/about-us/contact-us/",
+            "note": "Identifies publisher headquarters, which alone does not prove journal editorial base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+          ],
+          "section": "Acceptable Uses; Disclosure"
+        },
+        "restrictions": [
+          "Authors retain interpretation, reasoning and conclusions; do not fabricate data, manipulate results or generate reviewer responses. AI explanatory images and data-based plots subject to stated conditions.",
+          "IOP prohibits generating or modifying reference lists. Literature discovery, citation management, formatting and checking are permitted only with verification of every cited original source. Routine language editing is exempt from separate disclosure only when it makes no material contribution."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "IOP Publishing journals; applies to Journal of Micromechanics and Microengineering",
+            "note": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-micromechanics-and-microengineering"
+      ],
+      "subfields": [
+        "computational-physical-sciences"
+      ],
+      "scope_by_subfield": {
+        "computational-physical-sciences": "Micromechanics and microengineering accepts simulation-only work; compare with published experimental data when available and support reproducibility."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-molecular-modeling",
+      "name": "Journal of Molecular Modeling",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/894",
+      "author_guidelines": "https://link.springer.com/journal/894/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "computational-biology"
+      ],
+      "formats": [
+        "original_research",
+        "methods",
+        "software"
+      ],
+      "scope_notes": "Specialized 3D molecular modelling, biomolecular simulations and computational methods require substantial validation, sampling convergence or mechanistic insight; routine docking/ADMET exercises are discouraged. Existing structures/data and simulation can fit OSRI. Software Reports are a stated contribution type. Review submissions have been unavailable from 2026-01-01 for an indefinite period, despite the generic peer-review article-type list still mentioning Reviews. Modelling alone is not clinical efficacy evidence. AI-assisted research/text use must follow the journal instructions: substantive LLM use is documented in Methods or a suitable section, AI cannot be an author, and human authors retain accountability; ordinary AI copy editing has a disclosure exemption.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Select the subscription route: its standard APC is explicitly zero. Optional open access is charged. Submission fees and complete page/excess-length or other compulsory-cost assurance remain unverified. Colour illustrations are explicitly free. Check funder licensing compatibility.",
+        "other_mandatory_costs": "Unknown: no journal-wide all-author-cost assurance found for submission, pages, excess length or required membership. No mandatory membership or registration requirement was stated in the inspected instructions. Colour illustrations are explicitly free. Optional reprints/editing do not establish a required cost. No complete official exclusion of required services, membership or registration was established.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/894/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200): the named hybrid journal explicitly offers subscription publication without an APC; paid OA is optional.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/894/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200). Colour illustrations are explicitly free. No explicit zero-submission/all-compulsory-cost policy found; silence does not prove absence.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Subscription journals may impose colour, page or excess-length charges; consult journal instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/894/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current journal instructions read by direct HTTPS (HTTP 200); no explicit comprehensive submission, page or compulsory-cost exclusion found.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/894/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Current journal-specific publishing options read by direct HTTPS (HTTP 200); subscription has no APC and open access is optional and paid.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says most subscription journals are free to publish but some charge for pages, overlength or colour; does not prove this journal has no such charge.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://link.springer.com/brands/springer/journal-policies",
+          "https://link.springer.com/journal/894/submission-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.9,
+          "year": 2025,
+          "population": "Citations in 2025 to journal articles from the preceding two calendar years (2023-2024); the journal page does not disclose its raw citation or citable-item denominator count.",
+          "source_url": "https://link.springer.com/journal/894",
+          "note": "Official journal value/year, read 2026-11-16. Standard metric window definition checked in OUP publisher documentation at https://academic.oup.com/pages/using-the-content/metrics. Citation context only; not acceptance probability. Exact underlying counts/document-type coverage are not supplied by the journal page."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 2.5,
+          "year": 2025,
+          "population": "Citations in 2025 to journal articles from the preceding five calendar years (2020-2024); the journal page does not disclose its raw numerator or denominator count.",
+          "source_url": "https://link.springer.com/journal/894",
+          "note": "Official journal value/year, read 2026-11-16. Standard metric window definition checked in OUP publisher documentation at https://academic.oup.com/pages/using-the-content/metrics. Citation context only; not acceptance probability. Exact underlying counts/document-type coverage are not supplied by the journal page."
+        },
+        {
+          "name": "Submission to first decision (median)",
+          "value": "4 days",
+          "year": null,
+          "population": "Journal submissions receiving a first decision; exact reporting period, count and inclusion/exclusion of editorial rejections are not defined on the journal page.",
+          "source_url": "https://link.springer.com/journal/894",
+          "note": "Displayed without a metric year; checked 2026-11-16 is a retrieval date, not a measurement year. First decision is not acceptance or a completed external review. No acceptance odds inferred."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/894/aims-and-scope",
+        "https://link.springer.com/journal/894/submission-guidelines",
+        "https://link.springer.com/journal/894/how-to-publish-with-us"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/computational-biology.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-4.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "audit_note": "Review independently read the official aims/scope, homepage metrics and submission guidelines on 2026-11-16. Retained needs_verification: the no-APC subscription route does not resolve submission and all compulsory page/length costs. The publisher support page confirms journal-specific exceptions. The eight 2025 JIF/five-year values and undated first-decision medians match current homepages; no metric year was invented. Added the journal-specific LLM disclosure/accountability requirements. Sources: https://link.springer.com/journal/894 ; https://link.springer.com/journal/894/aims-and-scope ; https://link.springer.com/journal/894/submission-guidelines ; https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal . Retained the explicitly identified high agent judgment because both aims/scope and author instructions warn of a high rejection rate and impose concrete validation gates; no numerical rate is asserted. The discovery formats already omitted review when read; confirmed that choice and added the explicit current restriction and Software Reports format.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred.",
+          "source_urls": [
+            "https://link.springer.com/journal/894/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Subject-based scope; no specific geographic research remit established from inspected material.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/894",
+            "note": "Official journal scope and identity inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/894/submission-guidelines",
+            "note": "Submission guidance reviewed; author location eligibility not explicitly affirmed.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Publisher permits literature assistance, basic analysis and drafting literature reviews or summaries with human validation; entire manuscripts and final data interpretation must remain human-led. Journal-specific instructions and current publisher guidance differ on copyediting disclosure.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Document LLM use in Methods or suitable alternative; publisher guidance additionally calls for an end-of-paper AI Use Declaration, and research methods detail; publisher requests tool versions, dates, prompts and extent. Journal exempts copyediting but newer publisher guidance says declare it; follow the more complete declaration and check current guidance.",
+          "source_urls": [
+            "https://link.springer.com/journal/894/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "LLM disclosure / AI guidance"
+        },
+        "restrictions": [
+          "No AI authorship; authors retain responsibility.",
+          "Do not use AI to write entire manuscripts or make final data interpretations.",
+          "Do not generate opaque unverifiable visual content."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/894/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Direct HTTPS 200: journal requires LLM documentation in Methods or equivalent, with copyediting exemption. Journal identifies Springer Nature publisher."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Springer Nature publisher policy applicable to its named journal.",
+            "note": "Publisher allows literature assistance, basic analysis and drafting reviews/summaries under human control; recommends research Methods and AI Use Declaration, including copyediting."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-biology-journal-of-molecular-modeling"
+      ],
+      "subfields": [
+        "computational-biology"
+      ],
+      "scope_by_subfield": {
+        "computational-biology": "Specialized 3D molecular modelling, biomolecular simulations and computational methods require substantial validation, sampling convergence or mechanistic insight; routine docking/ADMET exercises are discouraged. Existing structures/data and simulation can fit OSRI. Software Reports are a stated contribution type. Review submissions have been unavailable from 2026-01-01 for an indefinite period, despite the generic peer-review article-type list still mentioning Reviews. Modelling alone is not clinical efficacy evidence. AI-assisted research/text use must follow the journal instructions: substantive LLM use is documented in Methods or a suitable section, AI cannot be an author, and human authors retain accountability; ordinary AI copy editing has a disclosure exemption."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-open-source-software",
+      "name": "Journal of Open Source Software",
+      "kind": "journal",
+      "publisher": "Open Journals",
+      "homepage": "https://joss.theoj.org/",
+      "author_guidelines": "https://joss.readthedocs.io/en/latest/submitting.html",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing",
+        "computational-biology",
+        "software-engineering"
+      ],
+      "formats": [
+        "software"
+      ],
+      "scope_notes": "Peer-reviewed papers about mature research software; requires more than six months of active public development and demonstrated research use, which may be by the developers. External community adoption is a positive signal, not mandatory. Pre-trained models, notebooks, thin API clients and one-off tools are outside scope. Humans must make core design decisions and validate AI-assisted work.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No fees to submit or publish. Requires mature, research-used software under an OSI-approved license, tests, documentation and more than six months of active public development. A major contributor submits, participates in public review and archives a tagged release with a DOI. AI assistance requires disclosure and human validation; AI-mediated author/editor or reviewer conversation is prohibited except translation. Models, notebooks, thin API clients and one-off analysis tools are outside scope.\nNo submission or publication fees. Software must meet research-impact, feature-completeness and open-development gates, including more than six months of active public development under current pre-review criteria. Major-contributor authors participate through GitHub; archive the reviewed release with a DOI using a free archive. Disclose AI tools, use and human validation. AI use in conversational interactions between authors and editors/reviewers is prohibited except translation. Human authors must make core design decisions and take responsibility.\nJournal states no fees for manuscript processing or publishing and zero publication fees. Research software must satisfy submission requirements.",
+        "other_mandatory_costs": "None in the journal submission/publication policy. Repository hosting must permit free public access; free supported archive choices exist. Existing software development expenses are not journal charges.",
+        "fee_evidence": [
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "checked_on": "2026-11-16",
+            "note": "Explicitly excludes submission and publication fees and documents public-development maturity, research impact, AI limits, open hosting, public review and archived-release requirements.",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "checked_on": "2026-11-16",
+            "note": "Direct HTTPS readback (HTTP 200) explicitly excludes submission/publication fees and requires DOI archiving after review; browser text extraction omitted the fee subsection.",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.theoj.org/about",
+            "checked_on": "2026-11-16",
+            "note": "Direct HTTPS readback (HTTP 200) excludes all manuscript-processing/publication fees and describes free author service; listed publisher operating costs are not author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.theoj.org/about",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no fees for manuscript processing or publishing materials and zero publication fees.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://joss.theoj.org/about",
+          "https://joss.readthedocs.io/en/latest/submitting.html"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://joss.theoj.org/about",
+        "https://joss.readthedocs.io/en/latest/submitting.html"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/informatics-computing.json",
+        "research/campaigns/2026-11-16-expansion/geography/informatics-computing.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/informatics-computing.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/informatics-computing.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/computational-biology.json",
+        "research/campaigns/2026-11-16-expansion/discovery/software-engineering.json",
+        "research/campaigns/2026-11-16-expansion/fees/software-engineering.json",
+        "research/campaigns/2026-11-16-expansion/geography/software-engineering.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/software-engineering.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/software-engineering.json"
+      ],
+      "audit_note": "Independent review confirmed current maturity, research-use and AI conditions. The existing route correctly prohibits AI-mediated author/editor/reviewer conversation except translation. Old stage-rejection estimates lack precise periods/denominators and predate current criteria; they remain excluded. Source: https://joss.readthedocs.io/en/latest/submitting.html .",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No affirmative geographic author eligibility rule identified in inspected instructions. | Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred. | The reviewed instructions do not affirm a geographic author eligibility rule; unrestricted worldwide eligibility is not established.",
+          "source_urls": [
+            "https://joss.readthedocs.io/en/latest/submitting.html"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "No geographic research restriction identified in the inspected venue scope; a geographic author eligibility rule is not inferred from this. The United States address belongs to NumFOCUS, a fiscal host, and does not establish the online-only Open Journals publisher location. Publisher country remains unverified. | Subject-based scope; no specific geographic research remit established from inspected material. | Research scope is topical and no particular geographic research remit was stated in the reviewed scope. online publisher; fiscal host in United States is correspondence address only.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://joss.theoj.org/about",
+            "note": "Online-only publisher; US address is its fiscal host, not a journal office.",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "note": "Author instructions or submission page reviewed for geographic eligibility and research scope; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.theoj.org/",
+            "note": "Official journal scope and identity inspected.",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "note": "Submission guidance reviewed; author location eligibility not explicitly affirmed.",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.theoj.org/about",
+            "note": "online publisher; fiscal host in United States is correspondence address only",
+            "access": "page"
+          },
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "note": "Scope and author instructions checked; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Most aspects of submission including software creation, review, and paper authoring may use generative AI; humans review and validate outputs and make core design decisions.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Include an AI usage disclosure statement identifying tools/models and versions, where used, nature and scope of assistance, and confirmation that humans reviewed, edited and validated outputs and made core design decisions.",
+          "source_urls": [
+            "https://joss.readthedocs.io/en/latest/submitting.html"
+          ],
+          "section": "AI Usage Policy"
+        },
+        "restrictions": [
+          "No AI in author-editor or author-reviewer conversations except translation; authors remain accountable for accuracy, originality, licensing and compliance."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Most aspects of submission including software creation, review, and paper authoring may use generative AI; humans review and validate outputs and make core design decisions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "informatics-computing-joss",
+        "computational-biology-journal-of-open-source-software",
+        "software-engineering-journal-open-source-software"
+      ],
+      "subfields": [
+        "informatics-computing",
+        "computational-biology",
+        "software-engineering"
+      ],
+      "scope_by_subfield": {
+        "informatics-computing": "Peer-reviewed papers about mature research software; requires more than six months of active public development and demonstrated research use, which may be by the developers. External community adoption is a positive signal, not mandatory. Pre-trained models, notebooks, thin API clients and one-off tools are outside scope. Humans must make core design decisions and validate AI-assisted work.",
+        "computational-biology": "A cross-disciplinary research-software journal explicitly covering biology and scientific modelling/data analysis. A substantive, reusable computational-biology package can fit. Papers describe software and its research purpose rather than presenting new biological research results. Standalone notebooks, pretrained models and minor utility packages are outside the stated scope. Both software and the accompanying paper receive open external peer review. Current pre-review gates require more than six months of active public history and demonstrated research use; prospective usefulness alone is insufficient. AI-assisted code/paper work needs disclosure and human validation, and AI use in conversational interactions with editors/reviewers is prohibited except translation.",
+        "software-engineering": "Research software packages; public development history of at least six months and substantive research application required."
+      },
+      "submission_status": "unknown",
+      "ai_policy_variants": [
+        {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Most aspects of submission including software creation, review, and paper authoring may use generative AI; humans review and validate outputs and make core design decisions.",
+          "disclosure": {
+            "status": "required",
+            "instructions": "Include an AI usage disclosure statement identifying tools/models and versions, where used, nature and scope of assistance, and confirmation that humans reviewed, edited and validated outputs and made core design decisions.",
+            "source_urls": [
+              "https://joss.readthedocs.io/en/latest/submitting.html"
+            ],
+            "section": "AI Usage Policy"
+          },
+          "restrictions": [
+            "No AI in author-editor or author-reviewer conversations except translation; authors remain accountable for accuracy, originality, licensing and compliance."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal-specific author information or applicable publisher policy as described.",
+              "note": "Most aspects of submission including software creation, review, and paper authoring may use generative AI; humans review and validate outputs and make core design decisions."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Permits AI support for research software creation, code and paper drafting within the software submission; humans make core design decisions and validate outputs.",
+          "disclosure": {
+            "status": "required",
+            "instructions": "All submissions include AI usage disclosure in paper, stating whether AI was used; identify tools and versions, locations, scope and human review and validation.",
+            "source_urls": [
+              "https://joss.readthedocs.io/en/latest/policies.html"
+            ],
+            "section": "AI usage policy"
+          },
+          "restrictions": [
+            "Authors remain responsible for originality, accuracy, licensing and compliance.",
+            "No AI in author-editor/reviewer conversations except translation."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://joss.readthedocs.io/en/latest/policies.html",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal-specific policy",
+              "note": "Explicit permission for software creation, documentation and paper drafting with required disclosure and human validation."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Broad permission for most submission activities explicitly includes research software creation and code generation and paper drafting; human authors retain design decisions, review and validate all outputs.",
+          "disclosure": {
+            "status": "required",
+            "instructions": "Include an AI usage disclosure section even if no AI was used. Identify tools and versions, locations, nature and scope of use, and affirm human review, editing, validation and primary design decisions.",
+            "source_urls": [
+              "https://joss.readthedocs.io/en/latest/policies.html"
+            ],
+            "section": "AI usage policy: Author AI usage"
+          },
+          "restrictions": [
+            "AI conversational interaction with editors or reviewers is prohibited except translation.",
+            "Authors remain responsible for accuracy, originality, licensing and legal/ethical compliance."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://joss.readthedocs.io/en/latest/policies.html",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal author guidance",
+              "note": "Permits most submission activities including software creation and drafting; specifies disclosure and oversight."
+            },
+            {
+              "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal author guidance",
+              "note": "Author submission policy confirms code generation and drafting examples."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        }
+      ],
+      "geography_variants": [
+        {
+          "venue_countries": [],
+          "venue_regions": [],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "No affirmative geographic author eligibility rule identified in inspected instructions.",
+            "source_urls": [
+              "https://joss.readthedocs.io/en/latest/submitting.html"
+            ]
+          },
+          "research_focus_regions": [],
+          "scope_notes": "No geographic research restriction identified in the inspected venue scope; a geographic author eligibility rule is not inferred from this. The United States address belongs to NumFOCUS, a fiscal host, and does not establish the online-only Open Journals publisher location. Publisher country remains unverified.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://joss.theoj.org/about",
+              "note": "Online-only publisher; US address is its fiscal host, not a journal office.",
+              "access": "page"
+            },
+            {
+              "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+              "note": "Author instructions or submission page reviewed for geographic eligibility and research scope; no affirmative worldwide author eligibility established.",
+              "access": "page"
+            }
+          ]
+        },
+        {
+          "venue_countries": [],
+          "venue_regions": [],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred.",
+            "source_urls": [
+              "https://joss.readthedocs.io/en/latest/submitting.html"
+            ]
+          },
+          "research_focus_regions": [],
+          "scope_notes": "Subject-based scope; no specific geographic research remit established from inspected material.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://joss.theoj.org/",
+              "note": "Official journal scope and identity inspected.",
+              "access": "page"
+            },
+            {
+              "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+              "note": "Submission guidance reviewed; author location eligibility not explicitly affirmed.",
+              "access": "page"
+            }
+          ]
+        },
+        {
+          "venue_countries": [],
+          "venue_regions": [
+            "Unknown"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "The reviewed instructions do not affirm a geographic author eligibility rule; unrestricted worldwide eligibility is not established.",
+            "source_urls": [
+              "https://joss.readthedocs.io/en/latest/submitting.html"
+            ]
+          },
+          "research_focus_regions": [
+            "International"
+          ],
+          "scope_notes": "Research scope is topical and no particular geographic research remit was stated in the reviewed scope. online publisher; fiscal host in United States is correspondence address only.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://joss.theoj.org/about",
+              "note": "online publisher; fiscal host in United States is correspondence address only",
+              "access": "page"
+            },
+            {
+              "url": "https://joss.readthedocs.io/en/latest/submitting.html",
+              "note": "Scope and author instructions checked; no affirmative worldwide author eligibility established.",
+              "access": "page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "journal-of-physics-a-mathematical-and-theoretical",
+      "name": "Journal of Physics A: Mathematical and Theoretical",
+      "kind": "journal",
+      "publisher": "IOP Publishing",
+      "homepage": "https://iopscience.iop.org/journal/1751-8121",
+      "author_guidelines": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/",
+      "submission_url": null,
+      "subjects": [
+        "computational-physical-sciences"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Theoretical and mathematical physics, statistical mechanics, nonlinear dynamics, numerical algorithms, quantum information and field theory. Mathematical or algorithmic work needs an explicit physical motivation; a generic algorithm demonstration is insufficient.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Choose subscription access; paid gold open access is optional. Research papers are usually about 10,000 words; letters have a nine-page/6,500-word limit. Reviews and perspectives are normally invited. The subscription route does not require a waiver, institutional agreement or paid membership. The stated article-length rules are editorial limits, not a paid overlength option.",
+        "other_mandatory_costs": "None for standard subscription publication: this journal explicitly excludes all other publishing charges, including any separate page or colour charge.",
+        "fee_evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/",
+            "checked_on": "2026-11-16",
+            "note": "Independently read the named journal policy: subscription publication is free, submission carries no charge, and there are no other publishing charges. Gold open access and its APC are optional; institutional agreements apply to that optional route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.1,
+          "year": 2024,
+          "population": "Citations in 2024 to journal items published in 2022-2023, divided by the citable-item count for those two publication years.",
+          "source_url": "https://china.ioppublishing.org/news/iop-chu-ban-she-wu-li-ke-xue-lei-qi-kan-ying-xiang-yin-zi-3/",
+          "note": "Reviewer retrieved the full official IOP China report on 2026-11-16 and confirmed its explicit 2024 metric year and value. Access: page; the earlier ranking pass had only indexed access. Historical metric, not asserted latest; the 2025 report publication date is not the metric year."
+        }
+      ],
+      "discovery_sources": [
+        "https://iopscience.iop.org/journal/1751-8121",
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/",
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Read official current scope. Journal metrics page was robots-restricted. An official older highlights brochure reports 27% acceptance in 2013, but its denominator is undefined and it is too old for current selection guidance; retained here as historical context only, not a metric or a basis for the band. Brochure: https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/bfda52fa-db36-11e3-801f-29411a5deefe/J%20JPhysA%20BK%200114-highlights%20A5-web.pdf Independent skeptical review (2026-11-16): Independently reopened journal scope, article types, peer review and charges; confirmed ordinary-paper approximate length and Letter limits. Retrieved the full official 2025 regional report confirming the 2024 JIF. High contribution requirements are retained as criteria, not a calibrated difficulty band.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "IOP Publishing headquarters, Bristol",
+            "source_url": "https://ioppublishing.org/about-us/contact-us/"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Journal editorial or owning-society base was not established separately from IOP Publishing headquarters. Author location eligibility and regional scope remain unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/",
+            "note": "Journal author/scope source; no affirmative worldwide author-eligibility statement established from the material reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://ioppublishing.org/about-us/contact-us/",
+            "note": "Identifies publisher headquarters, which alone does not prove journal editorial base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+          ],
+          "section": "Acceptable Uses; Disclosure"
+        },
+        "restrictions": [
+          "Authors retain interpretation, reasoning and conclusions; do not fabricate data, manipulate results or generate reviewer responses. AI explanatory images and data-based plots subject to stated conditions.",
+          "IOP prohibits generating or modifying reference lists. Literature discovery, citation management, formatting and checking are permitted only with verification of every cited original source. Routine language editing is exempt from separate disclosure only when it makes no material contribution."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "IOP Publishing journals; applies to Journal of Physics A: Mathematical and Theoretical",
+            "note": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-a-mathematical-and-theoretical"
+      ],
+      "subfields": [
+        "computational-physical-sciences"
+      ],
+      "scope_by_subfield": {
+        "computational-physical-sciences": "Theoretical and mathematical physics, statistical mechanics, nonlinear dynamics, numerical algorithms, quantum information and field theory. Mathematical or algorithmic work needs an explicit physical motivation; a generic algorithm demonstration is insufficient."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-physics-b-atomic-molecular-and-optical-physics",
+      "name": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+      "kind": "journal",
+      "publisher": "IOP Publishing",
+      "homepage": "https://iopscience.iop.org/journal/0953-4075",
+      "author_guidelines": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/",
+      "submission_url": null,
+      "subjects": [
+        "computational-physical-sciences"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Theoretical and numerical atomic, molecular and optical physics, including quantum science; physics advances must meet journal scope.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription route is free; paid gold open access is optional. Article type eligibility varies.",
+        "other_mandatory_costs": "Journal states no other publishing charges.",
+        "fee_evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/about-journal-physics-b-atomic-molecular-optical-physics/",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no submission charges, free subscription publication, and no other publishing charges; gold OA is optional.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/about-journal-physics-b-atomic-molecular-optical-physics/"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/about-journal-physics-b-atomic-molecular-optical-physics/",
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/",
+        "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "IOP Publishing headquarters, Bristol",
+            "source_url": "https://ioppublishing.org/about-us/contact-us/"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Journal editorial or owning-society base was not established separately from IOP Publishing headquarters. Author location eligibility and regional scope remain unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/",
+            "note": "Journal author/scope source; no affirmative worldwide author-eligibility statement established from the material reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://ioppublishing.org/about-us/contact-us/",
+            "note": "Identifies publisher headquarters, which alone does not prove journal editorial base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+          ],
+          "section": "Acceptable Uses; Disclosure"
+        },
+        "restrictions": [
+          "Authors retain interpretation, reasoning and conclusions; do not fabricate data, manipulate results or generate reviewer responses. AI explanatory images and data-based plots subject to stated conditions.",
+          "IOP prohibits generating or modifying reference lists. Literature discovery, citation management, formatting and checking are permitted only with verification of every cited original source. Routine language editing is exempt from separate disclosure only when it makes no material contribution."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "IOP Publishing journals; applies to Journal of Physics B: Atomic, Molecular and Optical Physics",
+            "note": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-b-atomic-molecular-and-optical-physics"
+      ],
+      "subfields": [
+        "computational-physical-sciences"
+      ],
+      "scope_by_subfield": {
+        "computational-physical-sciences": "Theoretical and numerical atomic, molecular and optical physics, including quantum science; physics advances must meet journal scope."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-physics-d-applied-physics",
+      "name": "Journal of Physics D: Applied Physics",
+      "kind": "journal",
+      "publisher": "IOP Publishing",
+      "homepage": "https://iopscience.iop.org/journal/0022-3727",
+      "author_guidelines": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/",
+      "submission_url": null,
+      "subjects": [
+        "computational-physical-sciences"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Computational and theoretical applied physics and energy materials; work must advance applied physics rather than solely optimize existing technology.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Standard subscription route is free; paid gold open access is optional. Article type eligibility varies.",
+        "other_mandatory_costs": "Journal states no other publishing charges.",
+        "fee_evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/about-journal-physics-d-applied-physics/",
+            "checked_on": "2026-11-16",
+            "note": "Journal states no submission charges, free subscription publication, and no other publishing charges; gold OA is optional.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/about-journal-physics-d-applied-physics/"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/about-journal-physics-d-applied-physics/",
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/",
+        "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "IOP Publishing headquarters, Bristol",
+            "source_url": "https://ioppublishing.org/about-us/contact-us/"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Journal editorial or owning-society base was not established separately from IOP Publishing headquarters. Author location eligibility and regional scope remain unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/",
+            "note": "Journal author/scope source; no affirmative worldwide author-eligibility statement established from the material reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://ioppublishing.org/about-us/contact-us/",
+            "note": "Identifies publisher headquarters, which alone does not prove journal editorial base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+          ],
+          "section": "Acceptable Uses; Disclosure"
+        },
+        "restrictions": [
+          "Authors retain interpretation, reasoning and conclusions; do not fabricate data, manipulate results or generate reviewer responses. AI explanatory images and data-based plots subject to stated conditions.",
+          "IOP prohibits generating or modifying reference lists. Literature discovery, citation management, formatting and checking are permitted only with verification of every cited original source. Routine language editing is exempt from separate disclosure only when it makes no material contribution."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "IOP Publishing journals; applies to Journal of Physics D: Applied Physics",
+            "note": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-d-applied-physics"
+      ],
+      "subfields": [
+        "computational-physical-sciences"
+      ],
+      "scope_by_subfield": {
+        "computational-physical-sciences": "Computational and theoretical applied physics and energy materials; work must advance applied physics rather than solely optimize existing technology."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-physics-condensed-matter",
+      "name": "Journal of Physics: Condensed Matter",
+      "kind": "journal",
+      "publisher": "IOP Publishing",
+      "homepage": "https://iopscience.iop.org/journal/0953-8984",
+      "author_guidelines": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/",
+      "submission_url": null,
+      "subjects": [
+        "computational-physical-sciences"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Theoretical and simulation studies in condensed matter, electronic structure, phase transitions, surfaces, soft matter and physics of materials. Papers must contain new fundamental condensed-matter science; routine property calculations without new physics do not meet the stated scope.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Choose subscription access; paid gold open access is optional. Papers are normally at most 8,500 words; letters have a six-page/4,500-word limit. Reviews are mainly commissioned, although submitted reviews can be considered. The subscription route does not require a waiver, institutional agreement or paid membership. The stated article-length rules are editorial limits, not a paid overlength option.",
+        "other_mandatory_costs": "None for standard subscription publication: this journal explicitly excludes all other publishing charges, including any separate page or colour charge.",
+        "fee_evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/about-journal-physics-condensed-matter/",
+            "checked_on": "2026-11-16",
+            "note": "Independently read the named journal policy: subscription publication is free, submission carries no charge, and there are no other publishing charges. Gold open access and its APC are optional; institutional agreements apply to that optional route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/about-journal-physics-condensed-matter/"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.9,
+          "year": 2025,
+          "population": "Citations in 2025 to journal items published in 2023-2024, divided by the citable-item count for those two publication years.",
+          "source_url": "https://china.ioppublishing.org/news/iop-chu-ban-she-cai-liao-lei-yu-gong-cheng-lei-qi-kan-ying/",
+          "note": "Official IOP China report dated 2026-07-10 explicitly gives the 2025 JIF as 2.9 in indexed official text. Access: search_snippet. Reviewer could retrieve the report header and introductory text, but the numeric journal block was not present in the directly parsed body. Metric year remains 2025; no newer value is inferred."
+        }
+      ],
+      "discovery_sources": [
+        "https://iopscience.iop.org/journal/0953-8984",
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/",
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/about-journal-physics-condensed-matter/"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Read official scope and article requirements. Linked journal metrics page was robots-restricted. The regional publisher report provides a dated 2025 JIF. No acceptance rate or submission denominator verified. Independent skeptical review (2026-11-16): Independently reopened journal scope, article types, peer review and charges. Confirmed the fundamental-physics restriction and free subscription route without other publishing charges. The 2025 JIF remains official indexed evidence; direct report parsing omitted the numerical journal block.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "IOP Publishing headquarters, Bristol",
+            "source_url": "https://ioppublishing.org/about-us/contact-us/"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Journal editorial or owning-society base was not established separately from IOP Publishing headquarters. Author location eligibility and regional scope remain unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/",
+            "note": "Journal author/scope source; no affirmative worldwide author-eligibility statement established from the material reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://ioppublishing.org/about-us/contact-us/",
+            "note": "Identifies publisher headquarters, which alone does not prove journal editorial base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/"
+          ],
+          "section": "Acceptable Uses; Disclosure"
+        },
+        "restrictions": [
+          "Authors retain interpretation, reasoning and conclusions; do not fabricate data, manipulate results or generate reviewer responses. AI explanatory images and data-based plots subject to stated conditions.",
+          "IOP prohibits generating or modifying reference lists. Literature discovery, citation management, formatting and checking are permitted only with verification of every cited original source. Routine language editing is exempt from separate disclosure only when it makes no material contribution."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/generative-ai-tools/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "IOP Publishing journals; applies to Journal of Physics: Condensed Matter",
+            "note": "IOP Publishing explicitly permits ideation, simulation, code generation, analysis and generated text with validation and human responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-condensed-matter"
+      ],
+      "subfields": [
+        "computational-physical-sciences"
+      ],
+      "scope_by_subfield": {
+        "computational-physical-sciences": "Theoretical and simulation studies in condensed matter, electronic structure, phase transitions, surfaces, soft matter and physics of materials. Papers must contain new fundamental condensed-matter science; routine property calculations without new physics do not meet the stated scope."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-public-policy",
+      "name": "Journal of Public Policy",
+      "kind": "journal",
+      "publisher": "Cambridge University Press",
+      "homepage": "https://www.cambridge.org/core/journals/journal-of-public-policy",
+      "author_guidelines": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials",
+      "submission_url": null,
+      "subjects": [
+        "public-policy"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Social-science theories and concepts applied to political, economic and social issues and policymaking. Comparative existing-data research and policy analysis can fit. Statistical papers must provide replication materials, subject to justified legal/ethical exceptions.",
+      "route": {
+        "model": "conditional_waiver",
+        "submission_fee": "unknown",
+        "publication_fee": "charged",
+        "eligibility": "conditional",
+        "oa_status": "open_access",
+        "conditions": "Current journal policy is wholly Gold OA. The stated APC is GBP 2,610 or USD 3,655, with possible additional taxes. Institutional agreements, Cambridge Open Equity and Research4Life can cover eligible authors. Corresponding authors of research articles without those routes may request a discount/full waiver after acceptance, assessed by Cambridge. This is a conditional research-article route. Submission fees are not expressly addressed in the inspected instructions. Research manuscripts normally have 5,000–8,000 body words and a 45-page maximum.",
+        "other_mandatory_costs": "APC and applicable tax unless covered or waived; submission and any other compulsory charges remain unconfirmed. Language-editing services are expressly voluntary.",
+        "fee_evidence": [
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/fees-and-pricing",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific policy establishes wholly OA publication and lists GBP 2,610/USD 3,655 APCs plus possible tax when an APC is required.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Lists conditional funding routes and post-acceptance discount/full-waiver requests. It also states a financial-barrier assurance; Cambridge assesses and provides waivers.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials",
+            "checked_on": "2026-11-16",
+            "note": "Article-type section treats Research Articles, Reviews and Field Essays as APC-funded research types; Letters require no APC. It specifies length limits and voluntary language services.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/submitting-your-materials",
+            "checked_on": "2026-11-16",
+            "note": "Submission instructions inspected; no explicit submission-fee statement located.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Published research-type articles",
+          "value": 29,
+          "year": 2024,
+          "population": "Research-type articles published in the journal's 2024 volume(s), rather than first-online dates.",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal/journal-metrics",
+          "note": "Official table explicitly says 2024 although row labels say last year. Definitions: https://www.cambridge.org/core/services/authors/journal-publishing-statistics. Publication volume only, not acceptance odds."
+        },
+        {
+          "name": "Published Gold OA research-type articles",
+          "value": 25,
+          "year": 2024,
+          "population": "Research-type articles in 2024 volume(s) published as Gold Open Access.",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal/journal-metrics",
+          "note": "Official table explicitly says 2024 although row labels say last year. Definitions: https://www.cambridge.org/core/services/authors/journal-publishing-statistics. Publication volume only, not acceptance odds."
+        },
+        {
+          "name": "Research-type articles supported by subscription revenue",
+          "value": 5,
+          "year": 2024,
+          "population": "Research-type articles in 2024 volume(s) not supported by an APC; can include OA articles with waived APCs.",
+          "source_url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal/journal-metrics",
+          "note": "Official table explicitly says 2024 although row labels say last year. Definitions: https://www.cambridge.org/core/services/authors/journal-publishing-statistics. Publication volume only, not acceptance odds."
+        }
+      ],
+      "discovery_sources": [
+        "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials",
+        "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/fees-and-pricing",
+        "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/open-access-options"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/geography/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/public-policy.json"
+      ],
+      "audit_note": "Independently confirmed current wholly Gold OA and GBP 2610/USD 3655 APC plus possible tax. The no-financial-barrier assurance coexists with assessed waiver requests, so retained conditional research-article eligibility. Confirmed Letters’ no-APC exception separately and the historical 2024 article-count table, including potentially overlapping OA/subscription-supported categories. Undated citation values remain excluded.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No affirmative author-location eligibility statement established in sources inspected.",
+          "source_urls": [
+            "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "No geographical author restriction established by the scope examined; research focus and venue base are separate.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy",
+            "note": "Journal-specific homepage and stated scope examined; research remit does not establish author eligibility or venue location.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Journal instructions contemplate generated manuscript text and research data analysis under disclosure and human accountability; explicit analysis permission covers analytical code in this workflow.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Declare generated text in acknowledgements or footnote, data collection or analysis in Methods, generated visuals in captions; describe tool name/version, use, dates and access as reasonably possible, and third-party citations. The journal additionally requires assistance in drafting manuscripts to be noted in both the cover letter and acknowledgements, with authors declaring full responsibility for scientific content.",
+          "source_urls": [
+            "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials"
+          ],
+          "section": "Use of Artificial Intelligence (AI) Tools"
+        },
+        "restrictions": [
+          "Authors remain accountable, verify outputs and references, and must not list AI as an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/author-instructions/preparing-your-materials",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions",
+            "note": "Journal author instructions cover generated text and collecting or analyzing data with disclosure."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "public-policy-journal-of-public-policy"
+      ],
+      "subfields": [
+        "public-policy"
+      ],
+      "scope_by_subfield": {
+        "public-policy": "Social-science theories and concepts applied to political, economic and social issues and policymaking. Comparative existing-data research and policy analysis can fit. Statistical papers must provide replication materials, subject to justified legal/ethical exceptions."
+      },
+      "submission_status": "unknown"
+    }
+  ]
+}

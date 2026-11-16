@@ -1,0 +1,1524 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-16",
+  "agent_task": "/root/quality_audit_16",
+  "notes": "Bounded source review; no misconduct allegations; selective index authorities and several policy areas require further checks.",
+  "records": [
+    {
+      "id": "the-british-journal-of-politics-and-international-relations",
+      "source_record_ids": [
+        "political-science-the-british-journal-of-politics-and-international-relations"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1369-1481",
+            "1467-856X"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/1369-1481",
+            "https://journals.sagepub.com/home/bpi"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/bpi"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/bpi"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/bpi"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Kingsley Edney",
+                "role": "Editor",
+                "affiliation": "University of Leeds"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/bpi"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "‘The party of workers’? The class politics of Reform UK candidates",
+            "url": "https://journals.sagepub.com/doi/10.1177/13691481261503443",
+            "doi": "10.1177/13691481261503443",
+            "published_on": "2026-11-09",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/13691481261503443"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/bpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/bpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/bpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1369-1481",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/13691481261503443",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "the-european-journal-of-health-economics",
+      "source_record_ids": [
+        "health-economics-european-journal-of-health-economics"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1618-7598",
+            "1618-7601"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://api.crossref.org/journals/1618-7598",
+            "https://link.springer.com/journal/10198"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10198",
+            "matched_issns": [
+              "1618-7598",
+              "1618-7601"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10198"
+            ],
+            "note": "Journal homepage reports inclusion; authority coverage and current status not independently established."
+          },
+          {
+            "name": "Web of Science SSCI",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10198",
+            "matched_issns": [
+              "1618-7598",
+              "1618-7601"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10198"
+            ],
+            "note": "Journal homepage reports inclusion; authority coverage and current status not independently established."
+          },
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10198",
+            "matched_issns": [
+              "1618-7598",
+              "1618-7601"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10198"
+            ],
+            "note": "Journal homepage reports inclusion; authority coverage and current status not independently established."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Publisher policy is linked by the journal; journal-specific external review model not established in this check.",
+          "source_urls": [
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10198"
+            ],
+            "note": "Publisher or sponsoring organization identified as Springer Nature by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal links to Springer journal ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal links to publisher policies addressing changes to the scholarly record."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher policy linked from journal addresses disclosures."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Arndt Reichert",
+                "role": "Editor-in-Chief",
+                "affiliation": "Leibniz University Hannover"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10198/editorial-board"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A consistency criterion for EQ-5D-5L bolt-on valuation",
+            "url": "https://link.springer.com/article/10.1007/s10198-026-02009-z",
+            "doi": "10.1007/s10198-026-02009-z",
+            "published_on": "2026-10-29",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10198-026-02009-z"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10198",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://link.springer.com/journal/10198/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1618-7598",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10198-026-02009-z",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "the-journal-of-defense-modeling-and-simulation-applications-methodology-technology",
+      "source_record_ids": [
+        "operations-simulation-journal-of-defense-modeling-and-simulation"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1548-5129",
+            "1557-380X"
+          ],
+          "publisher": "Sage; The Society for Modeling and Simulation International",
+          "source_urls": [
+            "https://api.crossref.org/journals/1548-5129",
+            "https://journals.sagepub.com/home/dms"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/dms"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/dms"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/dms"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage; The Society for Modeling and Simulation International by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Tag Gon Kim",
+                "role": "Asia-Pacific Editor",
+                "affiliation": "KAIST"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/dms"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Variable-fidelity sensors and observer uncertainty using touring multi-body periodic orbits to conduct cislunar SSA: preliminary study",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15485129231225270",
+            "doi": "10.1177/15485129231225270",
+            "published_on": "2024-02-23",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history. Issue July 2026; first online 2024.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/abs/10.1177/15485129231225270"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/dms",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/dms",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/dms",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1548-5129",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15485129231225270",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "the-sociological-review",
+      "source_record_ids": [
+        "sociology-organizations-the-sociological-review"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "0038-0261",
+            "1467-954X"
+          ],
+          "publisher": "Sage on behalf of The Sociological Review Foundation",
+          "source_urls": [
+            "https://api.crossref.org/journals/0038-0261",
+            "https://journals.sagepub.com/home/sor"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/sor"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sor"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/sor"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage on behalf of The Sociological Review Foundation by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Carin Runciman",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Edinburgh"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/sor"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Digital hate, health and safety, and the labour politics of public academia: ‘Universities don’t value this sort of work at all’",
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/00380261261420671",
+            "doi": "10.1177/00380261261420671",
+            "published_on": null,
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/pdf/10.1177/00380261261420671"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/sor",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sor",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/sor",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/0038-0261",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/00380261261420671",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "theoretics",
+      "source_record_ids": [
+        "informatics-computing-theoretics"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "2751-4838"
+          ],
+          "publisher": "TheoretiCS Foundation e.V.",
+          "source_urls": [
+            "https://api.crossref.org/journals/2751-4838",
+            "https://theoretics.episciences.org/"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://theoretics.episciences.org/"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Two-stage external expert review, collective editorial-board decisions, editors-in-chief implement final decision.",
+          "source_urls": [
+            "https://theoretics.episciences.org/page/review-process"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://theoretics.episciences.org/page/theoretics-foundation"
+            ],
+            "note": "Foundation identifies itself as publisher and journal title owner."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://theoretics.episciences.org/page/policies"
+            ],
+            "note": "Originality and plagiarism policy is stated."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://theoretics.episciences.org/page/copyright-info",
+              "https://theoretics.episciences.org/17288"
+            ],
+            "note": "Copyright information and article specify CC BY 4.0."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Shuchi Chawla",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Texas at Austin"
+              }
+            ],
+            "source_urls": [
+              "https://theoretics.episciences.org/page/editorial-board"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Deterministic approximate counting of colorings with fewer than 2Δ colors via absence of zeros",
+            "url": "https://theoretics.episciences.org/17288",
+            "doi": "10.46298/theoretics.26.1",
+            "published_on": "2026-01-13",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history. The article records submission and acceptance dates and licence.",
+            "source_urls": [
+              "https://theoretics.episciences.org/17288"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://theoretics.episciences.org/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://theoretics.episciences.org/page/review-process",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://theoretics.episciences.org/page/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/2751-4838",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://theoretics.episciences.org/17288",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "theory-and-research-in-education",
+      "source_record_ids": [
+        "education-learning-sciences-theory-research-education"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1477-8785",
+            "1741-3192"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/1477-8785",
+            "https://journals.sagepub.com/home/tre"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/tre"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/tre"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/tre"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Ben Kotzee",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Birmingham"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/tre"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "In search of learning for all in Botswana: The role of conceptions of educational equity",
+            "url": "https://journals.sagepub.com/toc/tre/current",
+            "doi": "10.1177/14778785261492652",
+            "published_on": "2026-10-17",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://journals.sagepub.com/toc/tre/current"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/tre",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/tre",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/tre",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1477-8785",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/toc/tre/current",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "theory-in-biosciences",
+      "source_record_ids": [
+        "computational-biology-theory-in-biosciences"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1431-7613",
+            "1611-7530"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://api.crossref.org/journals/1431-7613",
+            "https://link.springer.com/journal/12064"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/12064",
+            "matched_issns": [
+              "1431-7613",
+              "1611-7530"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/12064"
+            ],
+            "note": "Journal homepage reports inclusion; authority coverage and current status not independently established."
+          },
+          {
+            "name": "Web of Science SCIE",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/12064",
+            "matched_issns": [
+              "1431-7613",
+              "1611-7530"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/12064"
+            ],
+            "note": "Journal homepage reports inclusion; authority coverage and current status not independently established."
+          },
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/12064",
+            "matched_issns": [
+              "1431-7613",
+              "1611-7530"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/12064"
+            ],
+            "note": "Journal homepage reports inclusion; authority coverage and current status not independently established."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Publisher policy is linked by the journal; journal-specific external review model not established in this check.",
+          "source_urls": [
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12064"
+            ],
+            "note": "Publisher or sponsoring organization identified as Springer Nature by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal links to Springer journal ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal links to publisher policies addressing changes to the scholarly record."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher policy linked from journal addresses disclosures."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Guillermo Restrepo",
+                "role": "Editor-in-Chief",
+                "affiliation": "Max Planck Institute for Mathematics in the Sciences"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/12064/editorial-board"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Technology placebo: co-evolution modeling of belief and effectiveness",
+            "url": "https://link.springer.com/article/10.1007/s12064-026-00503-9",
+            "doi": "10.1007/s12064-026-00503-9",
+            "published_on": "2026-11-14",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s12064-026-00503-9"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/12064",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://link.springer.com/journal/12064/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1431-7613",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s12064-026-00503-9",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "transactions-on-machine-learning-research",
+      "source_record_ids": [
+        "informatics-computing-tmlr"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "2835-8856"
+          ],
+          "publisher": "Transactions on Machine Learning Research (self-published; part of Journal of Machine Learning Research Inc.)",
+          "source_urls": [
+            "https://jmlr.org/tmlr/faq.html",
+            "https://jmlr.org/tmlr/"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://jmlr.org/tmlr/"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Open public review with anonymized identities; action editor assigns at least three reviewers and decides; initial desk rejection possible.",
+          "source_urls": [
+            "https://jmlr.org/tmlr/editorial-policies.html"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://jmlr.org/tmlr/"
+            ],
+            "note": "Publisher or sponsoring organization identified as Transactions on Machine Learning Research (self-published; part of Journal of Machine Learning Research Inc.) by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://jmlr.org/tmlr/editorial-policies.html"
+            ],
+            "note": "Misconduct allegations are considered by editors using COPE guidelines."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://jmlr.org/tmlr/editorial-policies.html"
+            ],
+            "note": "Retraction notices and post-publication change histories are described."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://jmlr.org/tmlr/editorial-policies.html"
+            ],
+            "note": "Author and editorial conflicts are described."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://jmlr.org/tmlr/faq.html"
+            ],
+            "note": "OpenReview intends to preserve publicly available submissions indefinitely; desk rejections excluded."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://jmlr.org/tmlr/author-guide.html"
+            ],
+            "note": "Submissions and publications use CC BY 4.0."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Laurent Charlin",
+                "role": "Editor-in-Chief",
+                "affiliation": "HEC Montréal"
+              }
+            ],
+            "source_urls": [
+              "https://jmlr.org/tmlr/editorial-board.html"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://jmlr.org/tmlr/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://jmlr.org/tmlr/editorial-policies.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://jmlr.org/tmlr/editorial-board.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://jmlr.org/tmlr/faq.html",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. A current TMLR research article could not be inspected in time. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "id": "value-in-health",
+      "source_record_ids": [
+        "health-economics-value-in-health"
+      ],
+      "audit_note": "Identity checked using exact title and ISSNs. Source-specific gaps retained without adverse inference.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1098-3015",
+            "1524-4733"
+          ],
+          "publisher": "Elsevier for ISPOR",
+          "source_urls": [
+            "https://api.crossref.org/journals/1098-3015",
+            "https://www.ispor.org/publications/journals/value-in-health"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://www.ispor.org/publications/journals/value-in-health"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Double anonymized external review after screening; editorials and letters are internally reviewed.",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.ispor.org/publications/journals/value-in-health"
+            ],
+            "note": "Publisher or sponsoring organization identified as Elsevier for ISPOR by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors"
+            ],
+            "note": "Instructions describe publication ethics and disclosures."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors"
+            ],
+            "note": "Author guidance asks for conflict and funder disclosures."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Nancy J. Devlin",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Melbourne"
+              }
+            ],
+            "source_urls": [
+              "https://www.ispor.org/publications/journals/value-in-health/vih-about-the-editors"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/vih-about-the-editors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1098-3015",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42710709/",
+            "checked_on": "2026-11-16",
+            "access": "search_snippet",
+            "source_type": "institution",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. PubMed sample was discoverable but full record access was limited; do not infer MEDLINE from PubMed. Fields marked unclear require follow-up."
+      }
+    }
+  ]
+}

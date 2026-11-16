@@ -1,6 +1,6 @@
 # Bioinformatics and computational biology
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Journal of Open Source Software
 
@@ -17,6 +17,11 @@ Journal states no fees for manuscript processing or publishing and zero publicat
 **Disclosure (required):** Include an AI usage disclosure statement identifying tools/models and versions, where used, nature and scope of assistance, and confirmation that humans reviewed, edited and validated outputs and made core design decisions.
 
 [Author guidance](https://joss.readthedocs.io/en/latest/submitting.html) · [Venue](https://joss.theoj.org/)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Crossref: not verified — Exact-title authority match not established; no conclusion about inclusion elsewhere. [source](https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20)
+- DOAJ: registry confirmed — Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable. [source](https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a), [source](https://joss.theoj.org/about)
 
 - Author eligibility (not_stated): No affirmative geographic author eligibility rule identified in inspected instructions. | Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred. | The reviewed instructions do not affirm a geographic author eligibility rule; unrestricted worldwide eligibility is not established.
 - [Author eligibility source](https://joss.readthedocs.io/en/latest/submitting.html)
@@ -40,6 +45,12 @@ Journal states no fees for manuscript processing or publishing and zero publicat
 **Disclosure (required):** Disclose how AI generated text and code in Methods or Acknowledgements; document and cite analytical methods sufficiently.
 
 [Author guidance](https://peercommunityjournal.org/page/about/) · [Venue](https://peercommunityjournal.org/)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 36971; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion. [source](https://api.crossref.org/journals/2804-3871)
+- DOAJ: registry confirmed — DOAJ record title: Peer Community Journal; ISSNs: 2804-3871. Exact title and audited ISSN match. [source](https://doaj.org/api/journals/798d4f21a22d43579cea322bed8a560e)
 
 - Venue base: [France](https://peercommunityjournal.org/page/legal-notices/) — publisher association registered in France; journal hosted at Centre Mersenne in Grenoble.
 - Author eligibility (not_stated): Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred.

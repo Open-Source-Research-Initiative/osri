@@ -1,6 +1,6 @@
 # Energy systems and environmental engineering
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Progress in Energy
 
@@ -15,6 +15,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** For material research or manuscript contributions include an AI disclosure in Acknowledgements identifying tool or model, use and extent of verification, validation and critical review. Research use also requires details in Methods. Routine nonmaterial spelling, grammar and language editing is exempt; prompts and settings may be required where central to methods.
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/progress-in-energy/) · [Venue](https://iopscience.iop.org/journal/2516-1083)
+
+**Quality evidence (needs_verification):** Verification incomplete: a traceable publication sample. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 38928; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSN match; DOI registration is not selective citation indexing. [source](https://api.crossref.org/journals/2516-1083)
 
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The journal welcomes proposals from all authors whose work fits its scope, but this statement does not explicitly address author location.

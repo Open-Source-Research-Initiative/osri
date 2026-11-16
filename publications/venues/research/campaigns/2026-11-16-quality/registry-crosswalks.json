@@ -1,0 +1,2051 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/quality_registry_crosscheck",
+  "notes": "Separate crosswalks for all 34 Scopus and four DOAJ candidate rows. NLM XML batch was read directly; Crossref journal metadata is identity evidence only, not evidence of indexing. Historic predecessor records are kept separate.",
+  "records": [
+    {
+      "id": "air-quality-atmosphere-and-health",
+      "service": "Scopus",
+      "baseline_title": "Air Quality, Atmosphere & Health",
+      "baseline_issns": [
+        "1873-9318",
+        "1873-9326"
+      ],
+      "registry_title": "Air Quality, Atmosphere and Health",
+      "registry_issns": [
+        "18739318",
+        "18739326"
+      ],
+      "source_record_id": "14500154732",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 1991,
+      "coverage": "2008-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101317801",
+          "title": "Air quality, atmosphere, & health.",
+          "issns": [
+            "1873-9318",
+            "1873-9326"
+          ]
+        }
+      ],
+      "identity_source_title": "Air quality, atmosphere, & health.",
+      "identity_source_id": "101317801",
+      "matched_issns": [
+        "1873-9318",
+        "1873-9326"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2008-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "14500154732",
+        "publisher_url": null,
+        "matched_issns": [
+          "1873-9318",
+          "1873-9326"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 1991, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "applied-psychological-measurement",
+      "service": "Scopus",
+      "baseline_title": "Applied Psychological Measurement",
+      "baseline_issns": [],
+      "registry_title": "Applied Psychological Measurement",
+      "registry_issns": [
+        "01466216",
+        "15523497"
+      ],
+      "source_record_id": "12028",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 3711,
+      "coverage": "1977-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "7905715",
+          "title": "Applied psychological measurement.",
+          "issns": [
+            "0146-6216",
+            "1552-3497"
+          ]
+        }
+      ],
+      "identity_source_title": "Applied psychological measurement.",
+      "identity_source_id": "7905715",
+      "matched_issns": [
+        "0146-6216",
+        "1552-3497"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1977-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "12028",
+        "publisher_url": null,
+        "matched_issns": [
+          "0146-6216",
+          "1552-3497"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 3711, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "classical-and-quantum-gravity",
+      "service": "Scopus",
+      "baseline_title": "Classical and Quantum Gravity",
+      "baseline_issns": [],
+      "registry_title": "Classical and Quantum Gravity",
+      "registry_issns": [
+        "02649381",
+        "13616382"
+      ],
+      "source_record_id": "27433",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 9040,
+      "coverage": "1984-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101725215",
+          "title": "Classical and quantum gravity.",
+          "issns": [
+            "1361-6382",
+            "0264-9381"
+          ]
+        }
+      ],
+      "identity_source_title": "Classical and quantum gravity.",
+      "identity_source_id": "101725215",
+      "matched_issns": [
+        "1361-6382",
+        "0264-9381"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1984-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "27433",
+        "publisher_url": null,
+        "matched_issns": [
+          "1361-6382",
+          "0264-9381"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 9040, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "comparative-political-studies",
+      "service": "Scopus",
+      "baseline_title": "Comparative Political Studies",
+      "baseline_issns": [],
+      "registry_title": "Comparative Political Studies",
+      "registry_issns": [
+        "00104140",
+        "15523829"
+      ],
+      "source_record_id": "13447",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 9907,
+      "coverage": "1968-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101085909",
+          "title": "Comparative political studies.",
+          "issns": [
+            "0010-4140"
+          ]
+        }
+      ],
+      "identity_source_title": "Comparative political studies.",
+      "identity_source_id": "101085909",
+      "matched_issns": [
+        "0010-4140"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1968-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "13447",
+        "publisher_url": null,
+        "matched_issns": [
+          "0010-4140"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 9907, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "computational-brain-and-behavior",
+      "service": "Scopus",
+      "baseline_title": "Computational Brain & Behavior",
+      "baseline_issns": [
+        "2522-0861",
+        "2522-087X"
+      ],
+      "registry_title": "Computational Brain and Behavior",
+      "registry_issns": [
+        "2522087X"
+      ],
+      "source_record_id": "21101055723",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 10050,
+      "coverage": "2018-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101728813",
+          "title": "Computational brain & behavior.",
+          "issns": [
+            "2522-087X"
+          ]
+        }
+      ],
+      "identity_source_title": "Computational brain & behavior.",
+      "identity_source_id": "101728813",
+      "matched_issns": [
+        "2522-087X"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2018-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "21101055723",
+        "publisher_url": null,
+        "matched_issns": [
+          "2522-087X"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 10050, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "culture-and-education",
+      "service": "Scopus",
+      "baseline_title": "Culture and Education",
+      "baseline_issns": [
+        "1135-6405",
+        "1578-4118"
+      ],
+      "registry_title": "Cultura y Educacion",
+      "registry_issns": [
+        "11356405",
+        "15784118"
+      ],
+      "source_record_id": "19700174629",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 10969,
+      "coverage": "2008-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://api.crossref.org/journals/1135-6405"
+      ],
+      "status": "confirmed",
+      "reason": "Crossref journal metadata matches the canonical title and the workbook ISSN. The Scopus row uses a variant title; Crossref establishes identity only, not Scopus inclusion.",
+      "identity_source_title": "Culture and Education",
+      "matched_issns": [
+        "1135-6405"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2008-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "19700174629",
+        "publisher_url": null,
+        "matched_issns": [
+          "1135-6405"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://api.crossref.org/journals/1135-6405"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 10969, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "discrete-event-dynamic-systems",
+      "service": "Scopus",
+      "baseline_title": "Discrete Event Dynamic Systems",
+      "baseline_issns": [
+        "1573-7594",
+        "0924-6703"
+      ],
+      "registry_title": "Discrete Event Dynamic Systems: Theory and Applications",
+      "registry_issns": [
+        "09246703",
+        "15737594"
+      ],
+      "source_record_id": "28967",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 12220,
+      "coverage": "1991-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101763959",
+          "title": "Discrete event dynamic systems.",
+          "issns": [
+            "1573-7594",
+            "0924-6703"
+          ]
+        }
+      ],
+      "identity_source_title": "Discrete event dynamic systems.",
+      "identity_source_id": "101763959",
+      "matched_issns": [
+        "1573-7594",
+        "0924-6703"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1991-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "28967",
+        "publisher_url": null,
+        "matched_issns": [
+          "1573-7594",
+          "0924-6703"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 12220, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "epidemiologia-e-servi-os-de-sa-de-revista-do-sus",
+      "service": "Scopus",
+      "baseline_title": "Epidemiologia e Serviços de Saúde: revista do SUS",
+      "baseline_issns": [
+        "1679-4974",
+        "2237-9622"
+      ],
+      "registry_title": "Epidemiologia e Servicos de Saude",
+      "registry_issns": [
+        "16794974",
+        "22379622"
+      ],
+      "source_record_id": "21100872043",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 13917,
+      "coverage": "2016-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101248287",
+          "title": "Epidemiologia e serviços de saúde : revista do Sistema Unico de Saúde do Brasil.",
+          "issns": [
+            "1679-4974",
+            "2237-9622"
+          ]
+        }
+      ],
+      "identity_source_title": "Epidemiologia e serviços de saúde : revista do Sistema Unico de Saúde do Brasil.",
+      "identity_source_id": "101248287",
+      "matched_issns": [
+        "1679-4974",
+        "2237-9622"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2016-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "21100872043",
+        "publisher_url": null,
+        "matched_issns": [
+          "1679-4974",
+          "2237-9622"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 13917, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "feminism-and-psychology",
+      "service": "Scopus",
+      "baseline_title": "Feminism & Psychology",
+      "baseline_issns": [
+        "0959-3535"
+      ],
+      "registry_title": "Feminism and Psychology",
+      "registry_issns": [
+        "09593535",
+        "14617161"
+      ],
+      "source_record_id": "14172",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 15245,
+      "coverage": "1991-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9425963",
+          "title": "Feminism & psychology.",
+          "issns": [
+            "0959-3535",
+            "1461-7161"
+          ]
+        }
+      ],
+      "identity_source_title": "Feminism & psychology.",
+      "identity_source_id": "9425963",
+      "matched_issns": [
+        "0959-3535",
+        "1461-7161"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1991-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "14172",
+        "publisher_url": null,
+        "matched_issns": [
+          "0959-3535",
+          "1461-7161"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 15245, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "health-information-management-journal",
+      "service": "Scopus",
+      "baseline_title": "Health Information Management Journal",
+      "baseline_issns": [],
+      "registry_title": "Health Information Management Journal",
+      "registry_issns": [
+        "18333583",
+        "18333575"
+      ],
+      "source_record_id": "4700152879",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 17768,
+      "coverage": "2002-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://api.crossref.org/journals/1833-3583"
+      ],
+      "status": "confirmed",
+      "reason": "Crossref journal metadata matches the canonical title and the workbook ISSN. The Scopus row uses a variant title; Crossref establishes identity only, not Scopus inclusion.",
+      "identity_source_title": "Health Information Management Journal",
+      "matched_issns": [
+        "1833-3583"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2002-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "4700152879",
+        "publisher_url": null,
+        "matched_issns": [
+          "1833-3583"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://api.crossref.org/journals/1833-3583"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 17768, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "international-relations",
+      "service": "Scopus",
+      "baseline_title": "International Relations",
+      "baseline_issns": [],
+      "registry_title": "International Relations",
+      "registry_issns": [
+        "00471178",
+        "17412862"
+      ],
+      "source_record_id": "5700164218",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 22469,
+      "coverage": "1975-2026; 1967-1972; 1957-1965",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101774768",
+          "title": "International relations.",
+          "issns": [
+            "1741-2862",
+            "0047-1178"
+          ]
+        }
+      ],
+      "identity_source_title": "International relations.",
+      "identity_source_id": "101774768",
+      "matched_issns": [
+        "1741-2862",
+        "0047-1178"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1975-2026; 1967-1972; 1957-1965",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "5700164218",
+        "publisher_url": null,
+        "matched_issns": [
+          "1741-2862",
+          "0047-1178"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 22469, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-computer-security",
+      "service": "Scopus",
+      "baseline_title": "Journal of Computer Security",
+      "baseline_issns": [],
+      "registry_title": "Journal of Computer Security",
+      "registry_issns": [
+        "0926227X",
+        "18758924"
+      ],
+      "source_record_id": "28931",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 25178,
+      "coverage": "1995-2026; 1992-1993",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101758974",
+          "title": "Journal of computer security.",
+          "issns": [
+            "1875-8924",
+            "0926-227X"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of computer security.",
+      "identity_source_id": "101758974",
+      "matched_issns": [
+        "1875-8924",
+        "0926-227X"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1995-2026; 1992-1993",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "28931",
+        "publisher_url": null,
+        "matched_issns": [
+          "1875-8924",
+          "0926-227X"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 25178, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-health-services-research-and-policy",
+      "service": "Scopus",
+      "baseline_title": "Journal of Health Services Research & Policy",
+      "baseline_issns": [
+        "1355-8196",
+        "1758-1060"
+      ],
+      "registry_title": "Journal of Health Services Research and Policy",
+      "registry_issns": [
+        "13558196",
+        "17581060"
+      ],
+      "source_record_id": "15932",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 26427,
+      "coverage": "1995-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9604936",
+          "title": "Journal of health services research & policy.",
+          "issns": [
+            "1355-8196",
+            "1758-1060"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of health services research & policy.",
+      "identity_source_id": "9604936",
+      "matched_issns": [
+        "1355-8196",
+        "1758-1060"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1995-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "15932",
+        "publisher_url": null,
+        "matched_issns": [
+          "1355-8196",
+          "1758-1060"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 26427, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-information-science",
+      "service": "Scopus",
+      "baseline_title": "Journal of Information Science",
+      "baseline_issns": [],
+      "registry_title": "Journal of Information Science",
+      "registry_issns": [
+        "01655515",
+        "17416485"
+      ],
+      "source_record_id": "12813",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 26719,
+      "coverage": "1979-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9878466",
+          "title": "Journal of information science.",
+          "issns": [
+            "0165-5515",
+            "1741-6485"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of information science.",
+      "identity_source_id": "9878466",
+      "matched_issns": [
+        "0165-5515",
+        "1741-6485"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1979-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "12813",
+        "publisher_url": null,
+        "matched_issns": [
+          "0165-5515",
+          "1741-6485"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 26719, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-management-education",
+      "service": "Scopus",
+      "baseline_title": "Journal of Management Education",
+      "baseline_issns": [],
+      "registry_title": "Journal of Management Education",
+      "registry_issns": [
+        "10525629",
+        "15526658"
+      ],
+      "source_record_id": "5700185131",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 27242,
+      "coverage": "1986-2026; 1975-1984",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9891787",
+          "title": "Journal of management education : a publication of the Organizational Behavior Teaching Society.",
+          "issns": [
+            "1052-5629",
+            "1552-6658"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of management education : a publication of the Organizational Behavior Teaching Society.",
+      "identity_source_id": "9891787",
+      "matched_issns": [
+        "1052-5629",
+        "1552-6658"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1986-2026; 1975-1984",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "5700185131",
+        "publisher_url": null,
+        "matched_issns": [
+          "1052-5629",
+          "1552-6658"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 27242, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-molecular-modeling",
+      "service": "Scopus",
+      "baseline_title": "Journal of Molecular Modeling",
+      "baseline_issns": [
+        "1610-2940",
+        "0948-5023",
+        "0949-183X"
+      ],
+      "registry_title": "Molecular modeling annual",
+      "registry_issns": [
+        "0949183X"
+      ],
+      "source_record_id": "21100902952",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 33703,
+      "coverage": "1995",
+      "activity": "Inactive",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "historical_predecessor",
+      "reason": "This inactive 1995 row explicitly says continued as Journal of Molecular Modeling. Current title separately matched to source record 57844; do not apply this row as current coverage.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9610926",
+          "title": "Molecular modeling annual.",
+          "issns": [
+            "0949-183X"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "journal-of-physics-a-mathematical-and-theoretical",
+      "service": "Scopus",
+      "baseline_title": "Journal of Physics A: Mathematical and Theoretical",
+      "baseline_issns": [],
+      "registry_title": "Journal of Physics A: Mathematical and Theoretical",
+      "registry_issns": [
+        "17518113",
+        "17518121"
+      ],
+      "source_record_id": "5700165208",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 28277,
+      "coverage": "2007-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101596451",
+          "title": "Journal of physics. A, Mathematical and theoretical.",
+          "issns": [
+            "1751-8113",
+            "1751-8121"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of physics. A, Mathematical and theoretical.",
+      "identity_source_id": "101596451",
+      "matched_issns": [
+        "1751-8113",
+        "1751-8121"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2007-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "5700165208",
+        "publisher_url": null,
+        "matched_issns": [
+          "1751-8113",
+          "1751-8121"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 28277, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-physics-b-atomic-molecular-and-optical-physics",
+      "service": "Scopus",
+      "baseline_title": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+      "baseline_issns": [],
+      "registry_title": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+      "registry_issns": [
+        "09534075",
+        "13616455"
+      ],
+      "source_record_id": "28565",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 28281,
+      "coverage": "1988-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "8901658",
+          "title": "Journal of physics. B, Atomic, molecular, and optical physics : an Institute of Physics journal.",
+          "issns": [
+            "0953-4075",
+            "1361-6455"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of physics. B, Atomic, molecular, and optical physics : an Institute of Physics journal.",
+      "identity_source_id": "8901658",
+      "matched_issns": [
+        "0953-4075",
+        "1361-6455"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1988-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "28565",
+        "publisher_url": null,
+        "matched_issns": [
+          "0953-4075",
+          "1361-6455"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 28281, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-physics-d-applied-physics",
+      "service": "Scopus",
+      "baseline_title": "Journal of Physics D: Applied Physics",
+      "baseline_issns": [],
+      "registry_title": "Journal of Physics D: Applied Physics",
+      "registry_issns": [
+        "00223727",
+        "13616463"
+      ],
+      "source_record_id": "28570",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 28285,
+      "coverage": "1967-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "1256300",
+          "title": "Journal of physics D: Applied physics.",
+          "issns": [
+            "0022-3727"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of physics D: Applied physics.",
+      "identity_source_id": "1256300",
+      "matched_issns": [
+        "0022-3727"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1967-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "28570",
+        "publisher_url": null,
+        "matched_issns": [
+          "0022-3727"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 28285, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "journal-of-physics-condensed-matter",
+      "service": "Scopus",
+      "baseline_title": "Journal of Physics: Condensed Matter",
+      "baseline_issns": [],
+      "registry_title": "Journal of Physics Condensed Matter",
+      "registry_issns": [
+        "09538984",
+        "1361648X"
+      ],
+      "source_record_id": "28567",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 28284,
+      "coverage": "1989-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101165248",
+          "title": "Journal of physics. Condensed matter : an Institute of Physics journal.",
+          "issns": [
+            "0953-8984",
+            "1361-648X"
+          ]
+        }
+      ],
+      "identity_source_title": "Journal of physics. Condensed matter : an Institute of Physics journal.",
+      "identity_source_id": "101165248",
+      "matched_issns": [
+        "0953-8984",
+        "1361-648X"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1989-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "28567",
+        "publisher_url": null,
+        "matched_issns": [
+          "0953-8984",
+          "1361-648X"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 28284, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "memory-and-cognition",
+      "service": "Scopus",
+      "baseline_title": "Memory & Cognition",
+      "baseline_issns": [
+        "0090-502X",
+        "1532-5946"
+      ],
+      "registry_title": "Memory and Cognition",
+      "registry_issns": [
+        "0090502X",
+        "15325946"
+      ],
+      "source_record_id": "12061",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 32889,
+      "coverage": "1973-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "0357443",
+          "title": "Memory & cognition.",
+          "issns": [
+            "0090-502X",
+            "1532-5946"
+          ]
+        }
+      ],
+      "identity_source_title": "Memory & cognition.",
+      "identity_source_id": "0357443",
+      "matched_issns": [
+        "0090-502X",
+        "1532-5946"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1973-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "12061",
+        "publisher_url": null,
+        "matched_issns": [
+          "0090-502X",
+          "1532-5946"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 32889, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "psychonomic-bulletin-and-review",
+      "service": "Scopus",
+      "baseline_title": "Psychonomic Bulletin & Review",
+      "baseline_issns": [
+        "1069-9384",
+        "1531-5320"
+      ],
+      "registry_title": "Psychonomic Bulletin and Review",
+      "registry_issns": [
+        "10699384",
+        "15315320"
+      ],
+      "source_record_id": "14062",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 39322,
+      "coverage": "1994-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9502924",
+          "title": "Psychonomic bulletin & review.",
+          "issns": [
+            "1069-9384",
+            "1531-5320"
+          ]
+        }
+      ],
+      "identity_source_title": "Psychonomic bulletin & review.",
+      "identity_source_id": "9502924",
+      "matched_issns": [
+        "1069-9384",
+        "1531-5320"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1994-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "14062",
+        "publisher_url": null,
+        "matched_issns": [
+          "1069-9384",
+          "1531-5320"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 39322, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "public-policy-and-administration",
+      "service": "Scopus",
+      "baseline_title": "Public Policy and Administration",
+      "baseline_issns": [
+        "0952-0767",
+        "1749-4192"
+      ],
+      "registry_title": "Public Policy and Administration",
+      "registry_issns": [
+        "16482603",
+        "20292872"
+      ],
+      "source_record_id": "21100855843",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 39413,
+      "coverage": "2011-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx"
+      ],
+      "status": "different_venue",
+      "reason": "Identical title but ISSNs and publisher differ. Correct SAGE journal is already matched to source record 5600157642; this row is a different journal."
+    },
+    {
+      "id": "public-works-management-and-policy",
+      "service": "Scopus",
+      "baseline_title": "Public Works Management & Policy",
+      "baseline_issns": [
+        "1087-724X",
+        "1552-7549"
+      ],
+      "registry_title": "Public Works Management and Policy",
+      "registry_issns": [
+        "1087724X",
+        "15527549"
+      ],
+      "source_record_id": "5800169158",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 39428,
+      "coverage": "1996-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9918591686306676",
+          "title": "Public works management & policy.",
+          "issns": [
+            "1552-7549",
+            "1087-724X"
+          ]
+        }
+      ],
+      "identity_source_title": "Public works management & policy.",
+      "identity_source_id": "9918591686306676",
+      "matched_issns": [
+        "1552-7549",
+        "1087-724X"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1996-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "5800169158",
+        "publisher_url": null,
+        "matched_issns": [
+          "1552-7549",
+          "1087-724X"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 39428, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "rationality-and-society",
+      "service": "Scopus",
+      "baseline_title": "Rationality and Society",
+      "baseline_issns": [],
+      "registry_title": "Rationality and Society",
+      "registry_issns": [
+        "10434631",
+        "14617358"
+      ],
+      "source_record_id": "25330",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 39899,
+      "coverage": "1989-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9918487341506676",
+          "title": "Rationality and society.",
+          "issns": [
+            "1461-7358",
+            "1043-4631"
+          ]
+        }
+      ],
+      "identity_source_title": "Rationality and society.",
+      "identity_source_id": "9918487341506676",
+      "matched_issns": [
+        "1461-7358",
+        "1043-4631"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1989-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "25330",
+        "publisher_url": null,
+        "matched_issns": [
+          "1461-7358",
+          "1043-4631"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 39899, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "research-in-engineering-design",
+      "service": "Scopus",
+      "baseline_title": "Research in Engineering Design",
+      "baseline_issns": [
+        "0934-9839",
+        "1435-6066"
+      ],
+      "registry_title": "Research in Engineering Design - Theory, Applications, and Concurrent Engineering",
+      "registry_issns": [
+        "09349839",
+        "14356066"
+      ],
+      "source_record_id": "13858",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 40374,
+      "coverage": "1989-2027",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101574574",
+          "title": "Research in engineering design.",
+          "issns": [
+            "0934-9839",
+            "1435-6066"
+          ]
+        }
+      ],
+      "identity_source_title": "Research in engineering design.",
+      "identity_source_id": "101574574",
+      "matched_issns": [
+        "0934-9839",
+        "1435-6066"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1989-2027",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "13858",
+        "publisher_url": null,
+        "matched_issns": [
+          "0934-9839",
+          "1435-6066"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 40374, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "research-policy",
+      "service": "Scopus",
+      "baseline_title": "Research Policy",
+      "baseline_issns": [],
+      "registry_title": "Research Policy",
+      "registry_issns": [
+        "00487333"
+      ],
+      "source_record_id": "22900",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 40502,
+      "coverage": "1971-2027",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "0333524",
+          "title": "Research policy.",
+          "issns": [
+            "0048-7333",
+            "1873-7625"
+          ]
+        }
+      ],
+      "identity_source_title": "Research policy.",
+      "identity_source_id": "0333524",
+      "matched_issns": [
+        "0048-7333"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1971-2027",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "22900",
+        "publisher_url": null,
+        "matched_issns": [
+          "0048-7333"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 40502, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "science-technology-and-human-values",
+      "service": "Scopus",
+      "baseline_title": "Science, Technology, & Human Values",
+      "baseline_issns": [
+        "0162-2439",
+        "1552-8251"
+      ],
+      "registry_title": "Science Technology and Human Values",
+      "registry_issns": [
+        "01622439",
+        "15528251"
+      ],
+      "source_record_id": "23715",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 42729,
+      "coverage": "1976-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9440757",
+          "title": "Science, technology & human values.",
+          "issns": [
+            "0162-2439",
+            "1552-8251"
+          ]
+        }
+      ],
+      "identity_source_title": "Science, technology & human values.",
+      "identity_source_id": "9440757",
+      "matched_issns": [
+        "0162-2439",
+        "1552-8251"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1976-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "23715",
+        "publisher_url": null,
+        "matched_issns": [
+          "0162-2439",
+          "1552-8251"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 42729, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "simulation-and-gaming",
+      "service": "Scopus",
+      "baseline_title": "Simulation & Gaming",
+      "baseline_issns": [
+        "1046-8781",
+        "1552-826X"
+      ],
+      "registry_title": "Simulation and Gaming",
+      "registry_issns": [
+        "10468781",
+        "1552826X"
+      ],
+      "source_record_id": "12188",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 43349,
+      "coverage": "1987-2026; 1985; 1978-1983; 1970-1976",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "9885136",
+          "title": "Simulation & gaming.",
+          "issns": [
+            "1046-8781"
+          ]
+        }
+      ],
+      "identity_source_title": "Simulation & gaming.",
+      "identity_source_id": "9885136",
+      "matched_issns": [
+        "1046-8781"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1987-2026; 1985; 1978-1983; 1970-1976",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "12188",
+        "publisher_url": null,
+        "matched_issns": [
+          "1046-8781"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 43349, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "the-american-review-of-public-administration",
+      "service": "Scopus",
+      "baseline_title": "The American Review of Public Administration",
+      "baseline_issns": [
+        "0275-0740",
+        "1552-3357"
+      ],
+      "registry_title": "American Review of Public Administration",
+      "registry_issns": [
+        "02750740",
+        "15523357"
+      ],
+      "source_record_id": "16051",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 2548,
+      "coverage": "1987-2026; 1967-1983",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101747588",
+          "title": "American review of public administration.",
+          "issns": [
+            "1552-3357",
+            "0275-0740"
+          ]
+        }
+      ],
+      "identity_source_title": "American review of public administration.",
+      "identity_source_id": "101747588",
+      "matched_issns": [
+        "1552-3357",
+        "0275-0740"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1987-2026; 1967-1983",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "16051",
+        "publisher_url": null,
+        "matched_issns": [
+          "1552-3357",
+          "0275-0740"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 2548, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "the-british-journal-of-politics-and-international-relations",
+      "service": "Scopus",
+      "baseline_title": "The British Journal of Politics and International Relations",
+      "baseline_issns": [
+        "1369-1481",
+        "1467-856X"
+      ],
+      "registry_title": "British Journal of Politics and International Relations",
+      "registry_issns": [
+        "13691481",
+        "1467856X"
+      ],
+      "source_record_id": "130158",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 6807,
+      "coverage": "2005-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101681502",
+          "title": "British journal of politics & international relations.",
+          "issns": [
+            "1369-1481",
+            "1467-856X"
+          ]
+        }
+      ],
+      "identity_source_title": "British journal of politics & international relations.",
+      "identity_source_id": "101681502",
+      "matched_issns": [
+        "1369-1481",
+        "1467-856X"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2005-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "130158",
+        "publisher_url": null,
+        "matched_issns": [
+          "1369-1481",
+          "1467-856X"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 6807, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "the-european-journal-of-health-economics",
+      "service": "Scopus",
+      "baseline_title": "The European Journal of Health Economics",
+      "baseline_issns": [
+        "1618-7598",
+        "1618-7601"
+      ],
+      "registry_title": "European Journal of Health Economics",
+      "registry_issns": [
+        "16187598",
+        "16187601"
+      ],
+      "source_record_id": "13217",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 14526,
+      "coverage": "2002-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "101134867",
+          "title": "The European journal of health economics : HEPAC : health economics in prevention and care.",
+          "issns": [
+            "1618-7598",
+            "1618-7601"
+          ]
+        }
+      ],
+      "identity_source_title": "The European journal of health economics : HEPAC : health economics in prevention and care.",
+      "identity_source_id": "101134867",
+      "matched_issns": [
+        "1618-7598",
+        "1618-7601"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2002-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "13217",
+        "publisher_url": null,
+        "matched_issns": [
+          "1618-7598",
+          "1618-7601"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 14526, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "the-journal-of-defense-modeling-and-simulation-applications-methodology-technology",
+      "service": "Scopus",
+      "baseline_title": "The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology",
+      "baseline_issns": [
+        "1548-5129",
+        "1557-380X"
+      ],
+      "registry_title": "Journal of Defense Modeling and Simulation",
+      "registry_issns": [
+        "15485129",
+        "1557380X"
+      ],
+      "source_record_id": "21100199755",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 25409,
+      "coverage": "2004-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://api.crossref.org/journals/1548-5129"
+      ],
+      "status": "confirmed",
+      "reason": "Crossref journal metadata matches the canonical title and the workbook ISSN. The Scopus row uses a variant title; Crossref establishes identity only, not Scopus inclusion.",
+      "identity_source_title": "The Journal of Defense Modeling and Simulation Applications Methodology Technology",
+      "matched_issns": [
+        "1548-5129"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "2004-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "21100199755",
+        "publisher_url": null,
+        "matched_issns": [
+          "1548-5129"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://api.crossref.org/journals/1548-5129"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 25409, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "the-sociological-review",
+      "service": "Scopus",
+      "baseline_title": "The Sociological Review",
+      "baseline_issns": [
+        "0038-0261",
+        "1467-954X"
+      ],
+      "registry_title": "Sociological Review",
+      "registry_issns": [
+        "00380261",
+        "1467954X"
+      ],
+      "source_record_id": "18106",
+      "sheet": "Scopus Sources Oct. 2026",
+      "row": 43687,
+      "coverage": "1908-2026",
+      "activity": "Active",
+      "source_urls": [
+        "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+      ],
+      "status": "confirmed",
+      "reason": "NLM Catalog title corresponds to the canonical journal and shares the workbook ISSN. Differences are punctuation, conjunction, article, expansion, translation or an NLM subtitle; source identity is distinct from an indexing claim.",
+      "nlm_identity_candidates": [
+        {
+          "id": "0357344",
+          "title": "The Sociological review.",
+          "issns": [
+            "0038-0261",
+            "1467-954X"
+          ]
+        }
+      ],
+      "identity_source_title": "The Sociological review.",
+      "identity_source_id": "0357344",
+      "matched_issns": [
+        "0038-0261",
+        "1467-954X"
+      ],
+      "proposed_indexing": {
+        "name": "Scopus",
+        "category": "citation_index",
+        "verification": "registry_confirmed",
+        "coverage": "1908-2026",
+        "registry_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+        "registry_record_id": "18106",
+        "publisher_url": null,
+        "matched_issns": [
+          "0038-0261",
+          "1467-954X"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml"
+        ],
+        "note": "Scopus Sources Oct. 2026 row 43687, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID."
+      }
+    },
+    {
+      "id": "afyon-kocatepe-university-journal-of-economics-and-administrative-sciences",
+      "service": "DOAJ",
+      "baseline_title": "Afyon Kocatepe University Journal of Economics and Administrative Sciences",
+      "baseline_issns": [
+        "1302-1966",
+        "2651-4117"
+      ],
+      "registry_title": "Afyon Kocatepe Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi",
+      "source_record_id": "378d019fa19e49a7a522d0c4def4a07d",
+      "source_urls": [
+        "https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d",
+        "https://dergipark.org.tr/en/pub/akuiibfd"
+      ],
+      "status": "confirmed",
+      "matched_issns": [
+        "1302-1966",
+        "2651-4117"
+      ],
+      "reason": "Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable.",
+      "proposed_indexing": {
+        "name": "DOAJ",
+        "category": "open_access_directory",
+        "verification": "registry_confirmed",
+        "coverage": null,
+        "registry_url": "https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d",
+        "registry_record_id": "378d019fa19e49a7a522d0c4def4a07d",
+        "publisher_url": null,
+        "matched_issns": [
+          "1302-1966",
+          "2651-4117"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d",
+          "https://dergipark.org.tr/en/pub/akuiibfd"
+        ],
+        "note": "Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable."
+      }
+    },
+    {
+      "id": "indonesian-journal-of-informatics-education",
+      "service": "DOAJ",
+      "baseline_title": "Indonesian Journal of Informatics Education",
+      "baseline_issns": [
+        "2549-0389"
+      ],
+      "registry_title": "IJIE (Indonesian Journal of Informatics Education)",
+      "source_record_id": "838a0d3297ff4fe7960f88f6ed54d43e",
+      "source_urls": [
+        "https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e",
+        "https://jurnal.uns.ac.id/ijie"
+      ],
+      "status": "confirmed",
+      "matched_issns": [
+        "2549-0389"
+      ],
+      "reason": "Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable.",
+      "proposed_indexing": {
+        "name": "DOAJ",
+        "category": "open_access_directory",
+        "verification": "registry_confirmed",
+        "coverage": null,
+        "registry_url": "https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e",
+        "registry_record_id": "838a0d3297ff4fe7960f88f6ed54d43e",
+        "publisher_url": null,
+        "matched_issns": [
+          "2549-0389"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e",
+          "https://jurnal.uns.ac.id/ijie"
+        ],
+        "note": "Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable."
+      }
+    },
+    {
+      "id": "journal-of-open-source-software",
+      "service": "DOAJ",
+      "baseline_title": "Journal of Open Source Software",
+      "baseline_issns": [],
+      "registry_title": "Journal of Open Source Software",
+      "source_record_id": "543105344edb4e509ce7c54115efb88a",
+      "source_urls": [
+        "https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a",
+        "https://joss.theoj.org/about"
+      ],
+      "status": "confirmed",
+      "matched_issns": [
+        "2475-9066"
+      ],
+      "reason": "Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable.",
+      "proposed_indexing": {
+        "name": "DOAJ",
+        "category": "open_access_directory",
+        "verification": "registry_confirmed",
+        "coverage": null,
+        "registry_url": "https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a",
+        "registry_record_id": "543105344edb4e509ce7c54115efb88a",
+        "publisher_url": null,
+        "matched_issns": [
+          "2475-9066"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a",
+          "https://joss.theoj.org/about"
+        ],
+        "note": "Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable."
+      }
+    },
+    {
+      "id": "research-ethics",
+      "service": "DOAJ",
+      "baseline_title": "Research Ethics",
+      "baseline_issns": [
+        "1747-0161",
+        "2047-6094"
+      ],
+      "registry_title": "Research Ethics Review",
+      "source_record_id": "25a2419761e1412d8d9a504398d0deb8",
+      "source_urls": [
+        "https://doaj.org/api/journals/25a2419761e1412d8d9a504398d0deb8",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101598510,101295992&retmode=xml"
+      ],
+      "status": "historical_predecessor",
+      "reason": "NLM 101598510 explicitly identifies Research Ethics Review as the preceding title of Research Ethics (began 2011). The DOAJ record uses the historical title; current inclusion and coverage are not established by this crosswalk."
+    }
+  ]
+}

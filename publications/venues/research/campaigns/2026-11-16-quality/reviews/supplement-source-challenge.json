@@ -1,0 +1,108 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/quality_release_challenge",
+  "scope": "Independent targeted source challenge of 10 completion records. This is not a full re-audit, index verification, verification of article-level review conduct, or scientific assessment. Official policies were read selectively; Crossref API supplied metadata only where indicated. A source access failure is not a finding of noncompliance.",
+  "records": [
+    {
+      "id": "current-psychology",
+      "outcome": "no_concrete_mismatch_found",
+      "observations": "Journal board names F. Richard Ferraro and affiliation; its Editorial policies menu directly resolves to the Springer journal policy. Springer states research articles normally receive two independent reviews, with stated exceptions. Publisher contents lists the sampled original paper and date. Did not independently check every standard.",
+      "sources": [
+        "https://link.springer.com/journal/12144/editorial-board",
+        "https://link.springer.com/brands/springer/journal-policies",
+        "https://link.springer.com/journal/12144/articles"
+      ]
+    },
+    {
+      "id": "journal-of-medical-systems",
+      "outcome": "no_concrete_mismatch_found",
+      "observations": "Board names Allan F. Simpao and affiliation; journal Editorial policies menu directly resolves to Springer journal policy, which describes independent review, ethics and corrections. Crossref metadata matches article title, journal and both ISSNs. Full article and review conduct not examined.",
+      "sources": [
+        "https://link.springer.com/journal/10916/editorial-board",
+        "https://link.springer.com/brands/springer/journal-policies",
+        "https://api.crossref.org/works/10.1007/s10916-022-01804-4"
+      ]
+    },
+    {
+      "id": "scientometrics",
+      "outcome": "no_concrete_mismatch_found",
+      "observations": "Journal instructions specify single-blind review and research ethics; journal Editorial policies menu resolves directly to Springer policy specifying independent reviews and corrections. Publisher article landing page matches the sampled title and journal. Board not separately rechecked in this targeted pass.",
+      "sources": [
+        "https://link.springer.com/journal/11192/submission-guidelines",
+        "https://link.springer.com/brands/springer/journal-policies",
+        "https://link.springer.com/article/10.1007/s11192-026-05563-8"
+      ]
+    },
+    {
+      "id": "software-and-systems-modeling",
+      "outcome": "no_concrete_mismatch_found",
+      "observations": "Journal instructions explicitly adopt Springer peer review policy, specify single blind review and editor conflict procedures; publisher landing page matches BLAST article and journal. Board not separately rechecked in this targeted pass.",
+      "sources": [
+        "https://link.springer.com/journal/10270/submission-guidelines",
+        "https://link.springer.com/brands/springer/journal-policies",
+        "https://link.springer.com/article/10.1007/s10270-026-01436-z"
+      ]
+    },
+    {
+      "id": "research-ethics",
+      "outcome": "no_concrete_mismatch_found",
+      "observations": "Journal instructions explicitly require two independent reviews for revise/accept, double anonymization and additional reviewers beyond its advisory board; journal links Sage ethics policies. Crossref metadata matches sampled title, journal and ISSNs. Publisher article page could not be accessed in this pass; board not separately rechecked.",
+      "sources": [
+        "https://journals.sagepub.com/author-instructions/rea",
+        "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+        "https://api.crossref.org/works/10.1177/17470161261505139"
+      ]
+    },
+    {
+      "id": "public-health-reports",
+      "outcome": "no_concrete_mismatch_found",
+      "observations": "Journal requires two or more independent reviews for revise/accept and links Sage ethics policy. Sage formal correction policy does not equate to routine proof changes; recorded distinction is reasonable. Crossref metadata matches sampled title and journal. Board not independently rechecked.",
+      "sources": [
+        "https://journals.sagepub.com/author-instructions/phr",
+        "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+        "https://api.crossref.org/works/10.1177/00333549261497276"
+      ]
+    },
+    {
+      "id": "administration-and-society",
+      "outcome": "clarification",
+      "observations": "Journal explicitly requires two independent reviews for revise/accept, except Perspectives can require only one independent reviewer plus desk review; editorials and letters may not require two. Completion says some types excepted but could name these conditions. Publisher contents sample could not be opened in this pass; board not independently rechecked.",
+      "sources": [
+        "https://journals.sagepub.com/author-instructions/aas",
+        "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+        "https://journals.sagepub.com/toc/aas/58/10"
+      ]
+    },
+    {
+      "id": "journal-of-micromechanics-and-microengineering",
+      "outcome": "core_evidence_gap",
+      "observations": "Journal page documents anonymous review options and links IOP general process. General process says two independent reviewers for a majority of IOP journals, without identifying this title among that majority; it does not on its own establish external reviewers for this specific title. Ethics applicability list names this journal. Crossref metadata matches sample and ISSNs, but DOI landing page could not be opened. Seek direct journal-specific external-review evidence or classify needs_verification under the contract. This is an evidence gap, not evidence that external review is absent.",
+      "sources": [
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/",
+        "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/",
+        "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+        "https://api.crossref.org/works/10.1088/1361-6439/aec1eb"
+      ]
+    },
+    {
+      "id": "journal-of-physics-a-mathematical-and-theoretical",
+      "outcome": "core_evidence_gap",
+      "observations": "Journal page documents anonymous review options; IOP general procedure states independent review for a majority of journals, not that this particular journal is within that majority. Ethics applicability list names the journal. Crossref metadata matches sample and ISSNs. Seek direct external-review evidence or classify needs_verification under the contract; this is not evidence external review is absent. Board not separately rechecked.",
+      "sources": [
+        "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/",
+        "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/",
+        "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+        "https://api.crossref.org/works/10.1088/1751-8121/aec20c"
+      ]
+    },
+    {
+      "id": "journal-of-business-research",
+      "outcome": "access_limit_consistent_with_needs_verification",
+      "observations": "Elsevier shop confirms exact journal and ISSN but contains no peer review process. Crossref metadata matches sampled article and journal; this is not independent evidence of review. Current completion appropriately leaves the core checks unresolved. No inference of misconduct; board and specific review procedure remain unverified in this pass.",
+      "sources": [
+        "https://shop.elsevier.com/journals/journal-of-business-research/0148-2963",
+        "https://api.crossref.org/works/10.1016/j.jbusres.2026.116647"
+      ]
+    }
+  ]
+}

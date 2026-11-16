@@ -230,6 +230,8 @@ class Website:
             'href="README.md"': 'href="' + self.docs['publications/venues/README.md'] + '"',
             'href="docs/methodology.md"': 'href="' + self.docs['publications/venues/methodology.md'] + '"',
             'href="methodology.md"': 'href="' + self.docs['publications/venues/methodology.md'] + '"',
+            'href="docs/quality-review.md"': 'href="' + self.docs['publications/venues/quality-review.md'] + '"',
+            'href="quality-review.md"': 'href="' + self.docs['publications/venues/quality-review.md'] + '"',
             'href="data/venues.csv"': 'href="/data/publications-venues-venues.csv"',
             'href="venues.csv"': 'href="/data/publications-venues-venues.csv"',
             'href="data/venues.json"': 'href="/data/publications-venues-venues.json"',
@@ -240,7 +242,7 @@ class Website:
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
-        description = 'Compare research venues by submission and publication costs, AI policies and disclosure, geography, and reported metrics.'
+        description = 'Compare research venues by submission and publication costs, AI disclosure, indexing, peer review, editorial standards, geography, and reported metrics.'
         text = text.replace('</head>', '<meta name="description" content="' + description + '"><meta property="og:title" content="Free publication directory · OSRI"><meta property="og:description" content="' + description + '"><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"></head>')
         source = link('Website source', self.source_url('publications/venues/snapshot.json'))
         source += ' · ' + link('Directory repository', GITHUB + '/free-publication-directory')

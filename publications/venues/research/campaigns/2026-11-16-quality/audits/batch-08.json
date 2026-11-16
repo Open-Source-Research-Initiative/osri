@@ -1,0 +1,1263 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-08",
+  "agent_task": "/root/quality_audit_08",
+  "notes": "Bounded official-source audit; preserve all existing fee, AI, metrics and geography evidence.",
+  "records": [
+    {
+      "id": "journal-of-medical-systems",
+      "source_record_ids": [
+        "health-systems-journal-of-medical-systems"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [
+            "0148-5598",
+            "1573-689X"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10916",
+            "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20"
+          ],
+          "notes": "Exact title matched in Crossref journal metadata."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20",
+            "registry_record_id": "0148-5598",
+            "publisher_url": null,
+            "matched_issns": [
+              "0148-5598",
+              "1573-689X"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20"
+            ],
+            "note": "Exact-title identifier metadata; not selective index coverage."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Existing peer-reviewed classification retained; detailed current policy not resolved in this audit.",
+          "source_urls": [
+            "https://link.springer.com/journal/10916/submission-guidelines"
+          ],
+          "notes": "Policy and individual conduct are distinct."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [],
+            "note": "Current named editor and affiliation not resolved from readable source."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10916",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. No article landing page could be verified."
+      }
+    },
+    {
+      "id": "journal-of-micromechanics-and-microengineering",
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-micromechanics-and-microengineering"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [
+            "0960-1317",
+            "1361-6439"
+          ],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/0960-1317",
+            "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20"
+          ],
+          "notes": "Exact title matched in Crossref journal metadata."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20",
+            "registry_record_id": "0960-1317",
+            "publisher_url": null,
+            "matched_issns": [
+              "0960-1317",
+              "1361-6439"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20"
+            ],
+            "note": "Exact-title identifier metadata; not selective index coverage."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal policy offers single- or double-anonymous review by author choice; reviewers interact with editor and reporting may be published by opt-in.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/"
+          ],
+          "notes": "Individual reports and article-type exemptions not fully checked."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Weileun Fang",
+                "role": "Editor-in-Chief",
+                "affiliation": "National Tsing Hua University"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/editorial-board/"
+            ],
+            "note": "Journal board names accountable editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/"
+            ],
+            "note": "IOP describes itself as society owned and its proceeds supporting Institute of Physics."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Microplasma glow discharge chip for open-air atomic emission spectroscopy",
+            "url": "https://doi.org/10.1088/1361-6439/aec1eb",
+            "doi": "10.1088/1361-6439/aec1eb",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "DOI and article landing page provide publication traceability; review reports and scientific validity were not independently examined.",
+            "source_urls": [
+              "https://doi.org/10.1088/1361-6439/aec1eb"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/0960-1317",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal editorial board and affiliations."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review policy."
+          },
+          {
+            "url": "https://doi.org/10.1088/1361-6439/aec1eb",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page checked for traceability."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. Review reports and research validity not assessed."
+      }
+    },
+    {
+      "id": "journal-of-molecular-modeling",
+      "source_record_ids": [
+        "computational-biology-journal-of-molecular-modeling"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [
+            "1610-2940",
+            "0948-5023",
+            "0949-183X"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/894",
+            "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20"
+          ],
+          "notes": "Exact title matched in Crossref journal metadata."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20",
+            "registry_record_id": "1610-2940",
+            "publisher_url": null,
+            "matched_issns": [
+              "1610-2940",
+              "0948-5023",
+              "0949-183X"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20"
+            ],
+            "note": "Exact-title identifier metadata; not selective index coverage."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Existing peer-reviewed classification retained; detailed current policy not resolved in this audit.",
+          "source_urls": [
+            "https://link.springer.com/brands/springer/journal-policies",
+            "https://link.springer.com/journal/894/submission-guidelines"
+          ],
+          "notes": "Policy and individual conduct are distinct."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [],
+            "note": "Current named editor and affiliation not resolved from readable source."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "From QSAR-guided fragment design to 500 ns dynamics: multiscale mechanistic dissection of novel MNK2 inhibitors",
+            "url": "https://doi.org/10.1007/s00894-026-07056-0",
+            "doi": "10.1007/s00894-026-07056-0",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "DOI and article landing page provide publication traceability; review reports and scientific validity were not independently examined.",
+            "source_urls": [
+              "https://doi.org/10.1007/s00894-026-07056-0"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/894",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://doi.org/10.1007/s00894-026-07056-0",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page checked for traceability."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. Review reports and research validity not assessed."
+      }
+    },
+    {
+      "id": "journal-of-open-source-software",
+      "source_record_ids": [
+        "informatics-computing-joss",
+        "computational-biology-journal-of-open-source-software",
+        "software-engineering-journal-open-source-software"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [],
+          "publisher": "Open Journals",
+          "source_urls": [
+            "https://joss.theoj.org/",
+            "https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20"
+          ],
+          "notes": "Exact title and ISSN authority match remains unverified."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20"
+            ],
+            "note": "Exact-title authority match not established; no conclusion about inclusion elsewhere."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "open",
+          "summary": "External independent volunteer reviewers review software and paper through public GitHub issues.",
+          "source_urls": [
+            "https://joss.theoj.org/about"
+          ],
+          "notes": "Actual review conduct requires checking an individual review thread."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [],
+            "note": "Current named editor and affiliation not resolved from readable source."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Published by Open Journals."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Misconduct reports are handled by ethics team."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Correction and retraction process described."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Reviewers and editors disclose conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Complaints to governance team."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Portico archives articles, metadata and reviews."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Journal states copyright and licensing information."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://joss.theoj.org/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://joss.theoj.org/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Publisher, peer review, editorial policies, preservation."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. No article landing page could be verified."
+      }
+    },
+    {
+      "id": "journal-of-physics-a-mathematical-and-theoretical",
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-a-mathematical-and-theoretical"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/1751-8121",
+            "https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20"
+          ],
+          "notes": "Exact title and ISSN authority match remains unverified."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20"
+            ],
+            "note": "Exact-title authority match not established; no conclusion about inclusion elsewhere."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal policy offers single- or double-anonymous review by author choice; reviewers interact with editor and reporting may be published by opt-in.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/"
+          ],
+          "notes": "Individual reports and article-type exemptions not fully checked."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Aditi Sen De",
+                "role": "Editor-in-Chief",
+                "affiliation": "Harish-Chandra Research Institute"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/editorial-board/"
+            ],
+            "note": "Journal board names accountable editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/"
+            ],
+            "note": "IOP describes itself as society owned and its proceeds supporting Institute of Physics."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/1751-8121",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal editorial board and affiliations."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review policy."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. No article landing page could be verified."
+      }
+    },
+    {
+      "id": "journal-of-physics-b-atomic-molecular-and-optical-physics",
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-b-atomic-molecular-and-optical-physics"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/0953-4075",
+            "https://api.crossref.org/journals?query=Journal%20of%20Physics%20B%3A%20Atomic%2C%20Molecular%20and%20Optical%20Physics&rows=20"
+          ],
+          "notes": "Exact title and ISSN authority match remains unverified."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Physics%20B%3A%20Atomic%2C%20Molecular%20and%20Optical%20Physics&rows=20"
+            ],
+            "note": "Exact-title authority match not established; no conclusion about inclusion elsewhere."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal policy offers single- or double-anonymous review by author choice; reviewers interact with editor and reporting may be published by opt-in.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/about-journal-physics-b-atomic-molecular-optical-physics/"
+          ],
+          "notes": "Individual reports and article-type exemptions not fully checked."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Marc Vrakking",
+                "role": "Editor-in-Chief",
+                "affiliation": "Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/editorial-board/"
+            ],
+            "note": "Journal board names accountable editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/about-journal-physics-b-atomic-molecular-optical-physics/"
+            ],
+            "note": "IOP describes itself as society owned and its proceeds supporting Institute of Physics."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/0953-4075",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Physics%20B%3A%20Atomic%2C%20Molecular%20and%20Optical%20Physics&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal editorial board and affiliations."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/about-journal-physics-b-atomic-molecular-optical-physics/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review policy."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. No article landing page could be verified."
+      }
+    },
+    {
+      "id": "journal-of-physics-d-applied-physics",
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-d-applied-physics"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/0022-3727",
+            "https://api.crossref.org/journals?query=Journal%20of%20Physics%20D%3A%20Applied%20Physics&rows=20"
+          ],
+          "notes": "Exact title and ISSN authority match remains unverified."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Physics%20D%3A%20Applied%20Physics&rows=20"
+            ],
+            "note": "Exact-title authority match not established; no conclusion about inclusion elsewhere."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal policy offers single- or double-anonymous review by author choice; reviewers interact with editor and reporting may be published by opt-in.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/about-journal-physics-d-applied-physics/"
+          ],
+          "notes": "Individual reports and article-type exemptions not fully checked."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Anthony Murphy",
+                "role": "Editor-in-Chief",
+                "affiliation": "Commonwealth Scientific and Industrial Research Organisation"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/editorial-board/"
+            ],
+            "note": "Journal board names accountable editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/about-journal-physics-d-applied-physics/"
+            ],
+            "note": "IOP describes itself as society owned and its proceeds supporting Institute of Physics."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/0022-3727",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Physics%20D%3A%20Applied%20Physics&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal editorial board and affiliations."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/about-journal-physics-d-applied-physics/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review policy."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. No article landing page could be verified."
+      }
+    },
+    {
+      "id": "journal-of-physics-condensed-matter",
+      "source_record_ids": [
+        "computational-physical-sciences-journal-of-physics-condensed-matter"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/0953-8984",
+            "https://api.crossref.org/journals?query=Journal%20of%20Physics%3A%20Condensed%20Matter&rows=20"
+          ],
+          "notes": "Exact title and ISSN authority match remains unverified."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Physics%3A%20Condensed%20Matter&rows=20"
+            ],
+            "note": "Exact-title authority match not established; no conclusion about inclusion elsewhere."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal policy offers single- or double-anonymous review by author choice; reviewers interact with editor and reporting may be published by opt-in.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/about-journal-physics-condensed-matter/"
+          ],
+          "notes": "Individual reports and article-type exemptions not fully checked."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Peter A Dowben",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Nebraska at Lincoln"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/editorial-board/"
+            ],
+            "note": "Journal board names accountable editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/about-journal-physics-condensed-matter/"
+            ],
+            "note": "IOP describes itself as society owned and its proceeds supporting Institute of Physics."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/0953-8984",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Physics%3A%20Condensed%20Matter&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal editorial board and affiliations."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/about-journal-physics-condensed-matter/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review policy."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. No article landing page could be verified."
+      }
+    },
+    {
+      "id": "journal-of-public-policy",
+      "source_record_ids": [
+        "public-policy-journal-of-public-policy"
+      ],
+      "audit_note": "Official journal and publisher pages checked; unresolved evidence is identified as an audit limitation.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial practices are documented; unresolved core checks require verification. No misconduct inference follows from missing evidence.",
+        "identity": {
+          "issns": [
+            "0143-814X",
+            "1469-7815"
+          ],
+          "publisher": "Cambridge University Press",
+          "source_urls": [
+            "https://www.cambridge.org/core/journals/journal-of-public-policy",
+            "https://api.crossref.org/journals?query=Journal%20of%20Public%20Policy&rows=20"
+          ],
+          "notes": "Exact title matched in Crossref journal metadata."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals?query=Journal%20of%20Public%20Policy&rows=20",
+            "registry_record_id": "0143-814X",
+            "publisher_url": null,
+            "matched_issns": [
+              "0143-814X",
+              "1469-7815"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Public%20Policy&rows=20"
+            ],
+            "note": "Exact-title identifier metadata; not selective index coverage."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Cambridge states external academic editors consider independent peer review reports, consistent with each journal policy.",
+          "source_urls": [
+            "https://www.cambridge.org/core/services/publishing-ethics/core-editorial-policies-journals"
+          ],
+          "notes": "Exceptions and actual review conduct remain unverified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [],
+            "note": "Current named editor and affiliation not resolved from readable source."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.cambridge.org/core/journals/journal-of-public-policy"
+            ],
+            "note": "Cambridge University Press is identified as publisher; separate ownership not established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/publishing-ethics"
+            ],
+            "note": "Journal publishing ethics policy addresses ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/publishing-ethics"
+            ],
+            "note": "Journal publishing ethics policy addresses corrections retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/publishing-ethics"
+            ],
+            "note": "Journal publishing ethics policy addresses conflicts of interest."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/publishing-ethics"
+            ],
+            "note": "Journal publishing ethics policy addresses complaints appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Redefining influence: how a feminist advocacy group reformed paternity leave in Spain through insider women’s alliances – CORRIGENDUM",
+            "url": "https://doi.org/10.1017/s0143814x26101391",
+            "doi": "10.1017/s0143814x26101391",
+            "published_on": "2026-11-09",
+            "checked_on": "2026-11-16",
+            "observations": "DOI and article landing page provide publication traceability; review reports and scientific validity were not independently examined.",
+            "source_urls": [
+              "https://doi.org/10.1017/s0143814x26101391"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Public%20Policy&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/about-this-journal/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Editorial board with affiliations."
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies/publishing-ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal publishing ethics."
+          },
+          {
+            "url": "https://www.cambridge.org/core/journals/journal-of-public-policy/information/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal policy and preservation."
+          },
+          {
+            "url": "https://www.cambridge.org/core/services/publishing-ethics/core-editorial-policies-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Applicable Cambridge journals editorial process."
+          },
+          {
+            "url": "https://doi.org/10.1017/s0143814x26101391",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page checked for traceability."
+          }
+        ],
+        "audit_limits": "Selective index coverage and any unclear editorial standards remain unresolved; inaccessible sources do not prove absence. Review reports and research validity not assessed."
+      }
+    }
+  ]
+}

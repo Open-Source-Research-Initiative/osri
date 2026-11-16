@@ -1,6 +1,6 @@
 # Health systems, services and health informatics
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Health Information Management Journal
 
@@ -15,6 +15,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/him) · [Venue](https://journals.sagepub.com/home/him)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- MEDLINE: not verified — NLM journal authority record not read; absence is not established.
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 17768, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://api.crossref.org/journals/1833-3583)
 
 - Venue base: [Australia](https://journals.sagepub.com/author-instructions/him) — Official journal of Health Information Management Association of Australia.
 - Author eligibility (international): Authors worldwide are invited; instructions also state academic affiliations are required for all coauthors.
@@ -39,6 +44,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/hsm) · [Venue](https://journals.sagepub.com/home/hsm)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- MEDLINE: not verified — NLM journal authority record not read; absence is not established.
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 17820; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+
 - Author eligibility (not_stated): No affirmative author-country eligibility statement verified in the reviewed journal instructions.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/hsm)
 - [Fee evidence](https://journals.sagepub.com/author-instructions/hsm): Journal-specific instructions explicitly cover free submission and publication and identify optional open access and print color charges.
@@ -61,6 +71,12 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/HSR) · [Venue](https://journals.sagepub.com/home/hsr)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- MEDLINE: registry confirmed — NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence. [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9604936&retmode=xml)
+- PubMed: registry confirmed — NLM explicitly states PubMed coverage. [source](https://www.ncbi.nlm.nih.gov/nlmcatalog/9604936)
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 26427, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+
 - Author eligibility (not_stated): No affirmative author-country eligibility statement verified in the reviewed journal instructions.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/HSR)
 - [Fee evidence](https://journals.sagepub.com/author-instructions/HSR): The journal expressly makes both submission and publication free and separates optional open access and print color.
@@ -82,6 +98,12 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/mcr) · [Venue](https://journals.sagepub.com/home/mcr)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- MEDLINE: registry confirmed — NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence. [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9506850&retmode=xml)
+- PubMed: registry confirmed — NLM catalog separately identifies PubMed coverage. [source](https://www.ncbi.nlm.nih.gov/nlmcatalog/9506850)
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 32535; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
 
 - Venue base: [United States](https://journals.sagepub.com/author-instructions/mcr) — Editorial contact at University of Chicago.
 - Author eligibility (not_stated): No affirmative author-country eligibility statement verified in the reviewed journal instructions.
@@ -106,6 +128,11 @@ Diamond OA policy excludes fees for researchers and readers and says publication
 **Disclosure (required_except_editing):** Methods or appropriate alternative: describe how and extent used, tools and versions, and prompts where needed for reproducibility; add end-of-manuscript AI declaration confirming independent validation and responsibility. Human-participant protocols have additional ethics disclosure.
 
 [Author guidance](https://journal.paho.org/en/instructions-authors) · [Venue](https://journal.paho.org/en)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 41510; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- DOAJ: registry confirmed — DOAJ API exact title and journal identifiers match; directory listing is not a selective citation-index claim. [source](https://doaj.org/api/search/journals/issn%3A1680-5348?pageSize=2)
 
 - Venue base: [United States](https://journal.paho.org/en/instructions-authors) — PAHO owning organization headquartered Washington, DC.
 - Venue base: [United States](https://journal.paho.org/sites/default/files/2025-08/Instructions_authors_EN_250827.pdf) — PAHO flagship journal; organization headquartered in Washington DC.

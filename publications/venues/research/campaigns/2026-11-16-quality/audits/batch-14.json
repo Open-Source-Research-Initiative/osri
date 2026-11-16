@@ -1,0 +1,1690 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-14",
+  "agent_task": "/root/quality_audit_14",
+  "notes": "No conclusions from blocked registries. Individual article peer review not independently verified.",
+  "records": [
+    {
+      "id": "revista-panamericana-de-salud-p-blica-pan-american-journal-of-public-health",
+      "source_record_ids": [
+        "public-health-pan-american-journal",
+        "health-systems-pan-american-journal-of-public-health"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Identity and available leadership or sample evidence recorded; core policy checks remain incomplete.",
+        "identity": {
+          "issns": [
+            "1680-5348",
+            "1020-4989"
+          ],
+          "publisher": "Pan American Health Organization",
+          "source_urls": [
+            "https://journal.paho.org/en/about-journal"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Exact current coverage was not confirmed from a readable authority record; no absence is inferred."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A1680-5348?pageSize=2",
+            "registry_record_id": "107a7d081ddf4e128db74b340317ff42",
+            "publisher_url": "https://journal.paho.org/en/about-journal",
+            "matched_issns": [
+              "1680-5348",
+              "1020-4989"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A1680-5348?pageSize=2"
+            ],
+            "note": "DOAJ API exact title and journal identifiers match; directory listing is not a selective citation-index claim."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "PAHO describes editorial screening and associate editors managing peer review under the editor-in-chief; article types and exemptions require further verification.",
+          "source_urls": [
+            "https://journal.paho.org/en/about-journal",
+            "https://journal.paho.org/en/instructions-authors"
+          ],
+          "notes": "Published policy is not proof of individual review."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journal.paho.org/en/about-journal"
+            ],
+            "note": "Publisher or co-publisher identified on official page."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journal.paho.org/en/instructions-authors"
+            ],
+            "note": "Ethics policy requires detailed recheck."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://journal.paho.org/en/editorial-committee"
+            ],
+            "note": "Named editor identified.",
+            "names": [
+              {
+                "name": "Ludovic Reveiz",
+                "role": "Editor-in-chief, a.i.",
+                "affiliation": "Pan American Health Organization"
+              }
+            ]
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Understanding implementation of HEARTS for hypertension and diabetes in Guatemala: qualitative and mixed-methods pilot results",
+            "url": "https://journal.paho.org/en/articles/understanding-implementation-hearts-hypertension-and-diabetes-guatemala-qualitative-and",
+            "doi": null,
+            "published_on": null,
+            "checked_on": "2026-11-16",
+            "observations": "Article page linked in current journal issue; date and review history not extracted.",
+            "source_urls": [
+              "https://journal.paho.org/en/articles/understanding-implementation-hearts-hypertension-and-diabetes-guatemala-qualitative-and"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journal.paho.org/en/about-journal",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://journal.paho.org/en/editorial-committee",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://journal.paho.org/en/instructions-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Author instructions."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A1680-5348?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact-title ISSN record retrieved through official API."
+          },
+          {
+            "url": "https://journal.paho.org/en/articles/understanding-implementation-hearts-hypertension-and-diabetes-guatemala-qualitative-and",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article page title checked."
+          }
+        ],
+        "audit_limits": "Core editorial policy details and/or accessible journal board need further verification; indexing authority coverage is limited. No misconduct inferred."
+      }
+    },
+    {
+      "id": "safety-science",
+      "source_record_ids": [
+        "systems-engineering-safety-science"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Identity and available leadership or sample evidence recorded; core policy checks remain incomplete.",
+        "identity": {
+          "issns": [
+            "0925-7535",
+            "1879-1042"
+          ],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/safety-science/vol/110/part/PB"
+          ],
+          "notes": "Exact title and identifiers checked against official publisher or Crossref; the electronic ISSN for Safety Science needs independent recheck."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Exact current coverage was not confirmed from a readable authority record; no absence is inferred."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "The review process and exemptions remain to be checked.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors"
+          ],
+          "notes": "No conduct inferred."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/safety-science/vol/110/part/PB"
+            ],
+            "note": "Publisher or co-publisher identified on official page."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Current board was inaccessible.",
+            "names": []
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/vol/110/part/PB",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal guide blocked; earlier baseline evidence preserved."
+          }
+        ],
+        "audit_limits": "Core editorial policy details and/or accessible journal board need further verification; indexing authority coverage is limited. No misconduct inferred."
+      }
+    },
+    {
+      "id": "scandinavian-journal-of-public-health",
+      "source_record_ids": [
+        "public-health-scandinavian-journal"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Editorial policy, named leadership and traceable sample documented; index authority coverage remains unverified.",
+        "identity": {
+          "issns": [
+            "1403-4948",
+            "1651-1905"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://in.sagepub.com/en-in/sas/journal/scandinavian-journal-public-health"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Exact current coverage was not confirmed from a readable authority record; no absence is inferred."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Editors screen submissions; full-length original contributions generally receive at least two external reviews, and editors decide; letters are editor-decided.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sjp"
+          ],
+          "notes": "Policy describes process; the article sample does not independently verify an individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/sjp"
+            ],
+            "note": "Publisher names accountable editors and affiliations.",
+            "names": [
+              {
+                "name": "Terje Andreas Eikemo",
+                "role": "Editor-in-Chief",
+                "affiliation": "Norwegian University of Science and Technology"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://in.sagepub.com/en-in/sas/journal/scandinavian-journal-public-health",
+              "https://journals.sagepub.com/home/sjp"
+            ],
+            "note": "Sage is identified as journal publisher. Legal or society ownership is not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sjp",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions direct authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sjp",
+              "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy"
+            ],
+            "note": "Journal instructions link publisher ethics framework and corrections policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sjp",
+              "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests"
+            ],
+            "note": "Instructions and publisher policy require relevant conflict disclosures."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sjp",
+              "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Long-term preservation arrangements not independently established."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Article-level reuse and subscription rights vary; exact terms not checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Temporal patterns and variations of depression-related online search behavior: A longitudinal analysis of Google search data",
+            "url": "https://journals.sagepub.com/doi/10.1177/14034948261497119",
+            "doi": "10.1177/14034948261497119",
+            "published_on": "2026-11-08",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page and recent dated research or review item identify authors, journal and DOI. Article visibility does not establish individual peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/14034948261497119"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://in.sagepub.com/en-in/sas/journal/scandinavian-journal-public-health",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/sjp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sjp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions link Sage publication ethics and describe review."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics policy directory linked from journal instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Correction and retraction policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Conflict disclosure policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Complaints and appeals procedure."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/14034948261497119",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Recent article title, date and DOI read."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/sjp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage read; Sage journal platform identifies the journal and publisher. Society ownership is not inferred."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not established; article checks do not prove individual review. Preservation and licensing remain unchecked."
+      }
+    },
+    {
+      "id": "science-communication",
+      "source_record_ids": [
+        "meta-research-science-communication"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Editorial policy, named leadership and traceable sample documented; index authority coverage remains unverified.",
+        "identity": {
+          "issns": [
+            "1075-5470",
+            "1552-8545"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/1075-5470"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Exact current coverage was not confirmed from a readable authority record; no absence is inferred."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Editorial screening precedes independent review and the editor decides. Two independent reviews for revise/accept are stated; exceptions include commentary and research notes. Summary says double-anonymized but detailed section says single-anonymized, so exact model remains unresolved.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/scx"
+          ],
+          "notes": "Policy describes process; the article sample does not independently verify an individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/scx"
+            ],
+            "note": "Publisher names accountable editors and affiliations.",
+            "names": [
+              {
+                "name": "Janet Z. Yang",
+                "role": "Editor",
+                "affiliation": "State University of New York at Buffalo"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://api.crossref.org/journals/1075-5470",
+              "https://journals.sagepub.com/home/scx"
+            ],
+            "note": "Sage is identified as journal publisher. Legal or society ownership is not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/scx",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions direct authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/scx",
+              "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy"
+            ],
+            "note": "Journal instructions link publisher ethics framework and corrections policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/scx",
+              "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests"
+            ],
+            "note": "Instructions and publisher policy require relevant conflict disclosures."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/scx",
+              "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Long-term preservation arrangements not independently established."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Article-level reuse and subscription rights vary; exact terms not checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A Job Demands-Resources Perspective on Science Communication: How Public Engagement Shapes Scientist Communicators’ Well-Being",
+            "url": "https://journals.sagepub.com/doi/10.1177/10755470261489537",
+            "doi": "10.1177/10755470261489537",
+            "published_on": "2026-10-08",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page and recent dated research or review item identify authors, journal and DOI. Article visibility does not establish individual peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/10755470261489537"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/1075-5470",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/scx",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/scx",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions link Sage publication ethics and describe review."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics policy directory linked from journal instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Correction and retraction policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Conflict disclosure policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Complaints and appeals procedure."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/10755470261489537",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Recent article title, date and DOI read."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/scx",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage read; Sage journal platform identifies the journal and publisher. Society ownership is not inferred."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not established; article checks do not prove individual review. Preservation and licensing remain unchecked."
+      }
+    },
+    {
+      "id": "science-technology-and-human-values",
+      "source_record_ids": [
+        "public-policy-science-technology-and-human-values",
+        "meta-research-science-technology-human-values"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Editorial policy, named leadership and traceable sample documented; index authority coverage remains unverified.",
+        "identity": {
+          "issns": [
+            "0162-2439",
+            "1552-8251"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources",
+              "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values"
+            ],
+            "note": "Sage lists Scopus; independent current exact-title registry coverage was not read."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Editorial screening precedes independent review and the editor decides. Two independent reviews for revise/accept are stated",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sth"
+          ],
+          "notes": "Policy describes process; the article sample does not independently verify an individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values"
+            ],
+            "note": "Publisher names accountable editors and affiliations.",
+            "names": [
+              {
+                "name": "Courtney Addison",
+                "role": "Editor",
+                "affiliation": "Victoria University of Wellington"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values",
+              "https://journals.sagepub.com/home/sth"
+            ],
+            "note": "Sage is identified as journal publisher. Legal or society ownership is not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sth",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions direct authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sth",
+              "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy"
+            ],
+            "note": "Journal instructions link publisher ethics framework and corrections policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sth",
+              "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests"
+            ],
+            "note": "Instructions and publisher policy require relevant conflict disclosures."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sth",
+              "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Long-term preservation arrangements not independently established."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Article-level reuse and subscription rights vary; exact terms not checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "When Infrastructure is Happening: The Standards Story of SAP",
+            "url": "https://journals.sagepub.com/doi/10.1177/01622439261502525",
+            "doi": "10.1177/01622439261502525",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page and recent dated research or review item identify authors, journal and DOI. Article visibility does not establish individual peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/01622439261502525"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://in.sagepub.com/en-in/ind/journal/science-technology-human-values",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sth",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions link Sage publication ethics and describe review."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics policy directory linked from journal instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Correction and retraction policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Conflict disclosure policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Complaints and appeals procedure."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/01622439261502525",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Recent article title, date and DOI read."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/sth",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage read; Sage journal platform identifies the journal and publisher. Society ownership is not inferred."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not established; article checks do not prove individual review. Preservation and licensing remain unchecked."
+      }
+    },
+    {
+      "id": "scientometrics",
+      "source_record_ids": [
+        "meta-research-scientometrics"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Identity and available leadership or sample evidence recorded; core policy checks remain incomplete.",
+        "identity": {
+          "issns": [
+            "0138-9130",
+            "1588-2861"
+          ],
+          "publisher": "Springer Nature and Akadémiai Kiadó",
+          "source_urls": [
+            "https://link.springer.com/journal/11192"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/11192",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources",
+              "https://link.springer.com/journal/11192"
+            ],
+            "note": "Publisher lists abstracting and indexing services; Scopus registry not independently checked."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Publisher identifies this as a peer-reviewed journal; detailed external review and editorial exceptions remain unchecked.",
+          "source_urls": [
+            "https://link.springer.com/journal/11192"
+          ],
+          "notes": "No conduct inferred."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11192"
+            ],
+            "note": "Publisher or co-publisher identified on official page."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established during this bounded review."
+          },
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11192/editorial-board"
+            ],
+            "note": "Named editor identified.",
+            "names": [
+              {
+                "name": "Wolfgang Glänzel",
+                "role": "Co-editor-in-chief",
+                "affiliation": "KU Leuven"
+              }
+            ]
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "The complex ecosystem of hyperprolific authors",
+            "url": "https://link.springer.com/article/10.1007/s11192-026-05563-8",
+            "doi": "10.1007/s11192-026-05563-8",
+            "published_on": "2026-03-02",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page and recent dated research or review item identify authors, journal and DOI. Article visibility does not establish individual peer review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s11192-026-05563-8"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/11192",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://link.springer.com/journal/11192/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11192-026-05563-8",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Recent article title, date and DOI read."
+          },
+          {
+            "url": "https://link.springer.com/journal/11192",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal reports peer review and publisher identity."
+          }
+        ],
+        "audit_limits": "Core editorial policy details and/or accessible journal board need further verification; indexing authority coverage is limited. No misconduct inferred."
+      }
+    },
+    {
+      "id": "simulation",
+      "source_record_ids": [
+        "operations-simulation-simulation"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Editorial policy, named leadership and traceable sample documented; index authority coverage remains unverified.",
+        "identity": {
+          "issns": [
+            "0037-5497",
+            "1741-3133"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/0037-5497"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Exact current coverage was not confirmed from a readable authority record; no absence is inferred."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Editorial screening precedes independent review and the editor decides. Two independent reviews for revise/accept are stated",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sim"
+          ],
+          "notes": "Policy describes process; the article sample does not independently verify an individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/sim"
+            ],
+            "note": "Publisher names accountable editors and affiliations.",
+            "names": [
+              {
+                "name": "Gabriel Wainer",
+                "role": "Editor in Chief",
+                "affiliation": "Carleton University"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://api.crossref.org/journals/0037-5497",
+              "https://journals.sagepub.com/home/sim"
+            ],
+            "note": "Sage is identified as journal publisher. Legal or society ownership is not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sim",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions direct authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sim",
+              "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy"
+            ],
+            "note": "Journal instructions link publisher ethics framework and corrections policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sim",
+              "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests"
+            ],
+            "note": "Instructions and publisher policy require relevant conflict disclosures."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sim",
+              "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Long-term preservation arrangements not independently established."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Article-level reuse and subscription rights vary; exact terms not checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A simulation-based approach: Optimizing printed circuit board assembly lines with ARENA",
+            "url": "https://journals.sagepub.com/doi/10.1177/00375497261503568",
+            "doi": "10.1177/00375497261503568",
+            "published_on": "2026-11-08",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page and recent dated research or review item identify authors, journal and DOI. Article visibility does not establish individual peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/00375497261503568"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/0037-5497",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/sim",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sim",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions link Sage publication ethics and describe review."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics policy directory linked from journal instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Correction and retraction policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Conflict disclosure policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Complaints and appeals procedure."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/00375497261503568",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Recent article title, date and DOI read."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/sim",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage read; Sage journal platform identifies the journal and publisher. Society ownership is not inferred."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not established; article checks do not prove individual review. Preservation and licensing remain unchecked."
+      }
+    },
+    {
+      "id": "simulation-and-gaming",
+      "source_record_ids": [
+        "operations-simulation-simulation-and-gaming"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Editorial policy, named leadership and traceable sample documented; index authority coverage remains unverified.",
+        "identity": {
+          "issns": [
+            "1046-8781",
+            "1552-826X"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/1046-8781"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Exact current coverage was not confirmed from a readable authority record; no absence is inferred."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Editorial screening precedes independent review and the editor decides. Two independent reviews for revise/accept are stated",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sag"
+          ],
+          "notes": "Policy describes process; the article sample does not independently verify an individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/sag"
+            ],
+            "note": "Publisher names accountable editors and affiliations.",
+            "names": [
+              {
+                "name": "Toshiko Kikkawa",
+                "role": "Co-editor",
+                "affiliation": "Keio University; Waseda University"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://api.crossref.org/journals/1046-8781",
+              "https://journals.sagepub.com/home/sag"
+            ],
+            "note": "Sage is identified as journal publisher. Legal or society ownership is not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sag",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions direct authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sag",
+              "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy"
+            ],
+            "note": "Journal instructions link publisher ethics framework and corrections policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sag",
+              "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests"
+            ],
+            "note": "Instructions and publisher policy require relevant conflict disclosures."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sag",
+              "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Long-term preservation arrangements not independently established."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Article-level reuse and subscription rights vary; exact terms not checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Virtual Simulation for Dementia Care: Bridging Disciplines, Building Interprofessional Collaborations",
+            "url": "https://journals.sagepub.com/doi/10.1177/10468781261492599",
+            "doi": "10.1177/10468781261492599",
+            "published_on": "2026-09-29",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page and recent dated research or review item identify authors, journal and DOI. Article visibility does not establish individual peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/10468781261492599"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/1046-8781",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/sag",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sag",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions link Sage publication ethics and describe review."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics policy directory linked from journal instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Correction and retraction policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Conflict disclosure policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Complaints and appeals procedure."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/10468781261492599",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Recent article title, date and DOI read."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/sag",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage read; Sage journal platform identifies the journal and publisher. Society ownership is not inferred."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not established; article checks do not prove individual review. Preservation and licensing remain unchecked."
+      }
+    },
+    {
+      "id": "social-science-computer-review",
+      "source_record_ids": [
+        "sociology-organizations-social-science-computer-review"
+      ],
+      "audit_note": "Bounded official-source evidence review; baseline classification preserved.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Editorial policy, named leadership and traceable sample documented; index authority coverage remains unverified.",
+        "identity": {
+          "issns": [
+            "0894-4393",
+            "1552-8286"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://in.sagepub.com/en-in/ind/journal/social-science-computer-review"
+          ],
+          "notes": "Exact title and identifiers matched to official source."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Exact current coverage was not confirmed from a readable authority record; no absence is inferred."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Editorial screening precedes independent review and the editor decides. Two independent reviews for revise/accept are stated; key summary says single-anonymized while detailed section says double-anonymized, so exact model remains unresolved.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/ssc"
+          ],
+          "notes": "Policy describes process; the article sample does not independently verify an individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/ssc"
+            ],
+            "note": "Publisher names accountable editors and affiliations.",
+            "names": [
+              {
+                "name": "Deana Rohlinger",
+                "role": "Editor",
+                "affiliation": "Florida State University"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://in.sagepub.com/en-in/ind/journal/social-science-computer-review",
+              "https://journals.sagepub.com/home/ssc"
+            ],
+            "note": "Sage is identified as journal publisher. Legal or society ownership is not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ssc",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions direct authors to Sage publication ethics."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ssc",
+              "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy"
+            ],
+            "note": "Journal instructions link publisher ethics framework and corrections policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ssc",
+              "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests"
+            ],
+            "note": "Instructions and publisher policy require relevant conflict disclosures."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ssc",
+              "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Long-term preservation arrangements not independently established."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Article-level reuse and subscription rights vary; exact terms not checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Who Goes Toxic? Understanding Political Toxicity on Social Media Across Individuals and Contexts",
+            "url": "https://journals.sagepub.com/doi/10.1177/08944393261506316",
+            "doi": "10.1177/08944393261506316",
+            "published_on": "2026-11-05",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page and recent dated research or review item identify authors, journal and DOI. Article visibility does not establish individual peer review.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/08944393261506316"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://in.sagepub.com/en-in/ind/journal/social-science-computer-review",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact title and ISSN identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/ssc",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial leadership and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ssc",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions link Sage publication ethics and describe review."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher ethics policy directory linked from journal instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/sage-corrections-and-retractions-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Correction and retraction policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/declaration-of-conflicting-interests",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Conflict disclosure policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/complaints-and-appeals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Complaints and appeals procedure."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Registry exact-title coverage not read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/08944393261506316",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Recent article title, date and DOI read."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/ssc",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage read; Sage journal platform identifies the journal and publisher. Society ownership is not inferred."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not established; article checks do not prove individual review. Preservation and licensing remain unchecked."
+      }
+    }
+  ]
+}

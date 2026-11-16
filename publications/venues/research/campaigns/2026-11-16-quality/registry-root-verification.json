@@ -1,0 +1,2656 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root",
+  "notes": "Primary agent independently reparsed all proposed Scopus workbook rows, checked identity, active status, coverage and discontinued worksheet; independently fetched public NLM/Crossref/DOAJ metadata with access outcomes retained. Registry inclusion is separate from scientific quality. Workbook is an October 2026 snapshot, not a live per-article coverage guarantee.",
+  "workbook_url": "https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx",
+  "workbook_sha256": "1956c0d73b61459d634ae1a1a33fc118cba1e9ef60a1a715aebaa64c2a0dccce",
+  "records": [
+    {
+      "id": "acta-biotheoretica",
+      "scopus": {
+        "row": 371,
+        "source_record_id": "12456",
+        "title": "Acta Biotheoretica",
+        "issns": [
+          "00015342",
+          "15728358"
+        ],
+        "activity": "Active",
+        "coverage": "1990-2026; 1967-1988; 1955-1965; 1951-1953; 1946-1949; 1935-1943",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "administration-and-society",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "afyon-kocatepe-university-journal-of-economics-and-administrative-sciences",
+      "scopus": null,
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d",
+          "http_status": 200,
+          "title": "Afyon Kocatepe Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi",
+          "matched_issns": [
+            "1302-1966",
+            "2651-4117"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "ai-law-politics",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "air-quality-atmosphere-and-health",
+      "scopus": {
+        "row": 1991,
+        "source_record_id": "14500154732",
+        "title": "Air Quality, Atmosphere and Health",
+        "issns": [
+          "18739318",
+          "18739326"
+        ],
+        "activity": "Active",
+        "coverage": "2008-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Air quality, atmosphere, & health.",
+          "matched_issns": [
+            "1873-9318",
+            "1873-9326"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "annals-of-operations-research",
+      "scopus": {
+        "row": 3172,
+        "source_record_id": "23090",
+        "title": "Annals of Operations Research",
+        "issns": [
+          "02545330",
+          "15729338"
+        ],
+        "activity": "Active",
+        "coverage": "1984-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "applied-health-economics-and-health-policy",
+      "scopus": {
+        "row": 3638,
+        "source_record_id": "27516",
+        "title": "Applied Health Economics and Health Policy",
+        "issns": [
+          "11755652",
+          "11791896"
+        ],
+        "activity": "Active",
+        "coverage": "2008-2026; 2002-2006",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "applied-psychological-measurement",
+      "scopus": {
+        "row": 3711,
+        "source_record_id": "12028",
+        "title": "Applied Psychological Measurement",
+        "issns": [
+          "01466216",
+          "15523497"
+        ],
+        "activity": "Active",
+        "coverage": "1977-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Applied psychological measurement.",
+          "matched_issns": [
+            "0146-6216",
+            "1552-3497"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-intelligent-systems",
+      "scopus": {
+        "row": 5254,
+        "source_record_id": "21101142746",
+        "title": "Autonomous Intelligent Systems",
+        "issns": [
+          "2730616X"
+        ],
+        "activity": "Active",
+        "coverage": "2021-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/42051d2d48124bc3b58849f4d224f8d4",
+          "http_status": 200,
+          "title": "Autonomous Intelligent Systems",
+          "matched_issns": [
+            "2730-616X"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-robots",
+      "scopus": {
+        "row": 5255,
+        "source_record_id": "18016",
+        "title": "Autonomous Robots",
+        "issns": [
+          "09295593",
+          "15737527"
+        ],
+        "activity": "Active",
+        "coverage": "1994-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "avances-en-interacci-n-humano-computadora",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "bulgarian-journal-of-public-health",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "bulletin-of-mathematical-biology",
+      "scopus": {
+        "row": 7066,
+        "source_record_id": "13845",
+        "title": "Bulletin of Mathematical Biology",
+        "issns": [
+          "00928240",
+          "15229602"
+        ],
+        "activity": "Active",
+        "coverage": "1973-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "classical-and-quantum-gravity",
+      "scopus": {
+        "row": 9040,
+        "source_record_id": "27433",
+        "title": "Classical and Quantum Gravity",
+        "issns": [
+          "02649381",
+          "13616382"
+        ],
+        "activity": "Active",
+        "coverage": "1984-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Classical and quantum gravity.",
+          "matched_issns": [
+            "0264-9381",
+            "1361-6382"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "comparative-political-studies",
+      "scopus": {
+        "row": 9907,
+        "source_record_id": "13447",
+        "title": "Comparative Political Studies",
+        "issns": [
+          "00104140",
+          "15523829"
+        ],
+        "activity": "Active",
+        "coverage": "1968-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Comparative political studies.",
+          "matched_issns": [
+            "0010-4140"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "computational-and-mathematical-organization-theory",
+      "scopus": {
+        "row": 10044,
+        "source_record_id": "145592",
+        "title": "Computational and Mathematical Organization Theory",
+        "issns": [
+          "1381298X",
+          "15729346"
+        ],
+        "activity": "Active",
+        "coverage": "2005-2026; 1995",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "computational-brain-and-behavior",
+      "scopus": {
+        "row": 10050,
+        "source_record_id": "21101055723",
+        "title": "Computational Brain and Behavior",
+        "issns": [
+          "2522087X"
+        ],
+        "activity": "Active",
+        "coverage": "2018-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Computational brain & behavior.",
+          "matched_issns": [
+            "2522-087X"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "computational-optimization-and-applications",
+      "scopus": {
+        "row": 10075,
+        "source_record_id": "28459",
+        "title": "Computational Optimization and Applications",
+        "issns": [
+          "09266003",
+          "15732894"
+        ],
+        "activity": "Active",
+        "coverage": "1992-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "contextus-contemporary-journal-of-economics-and-management",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "culture-and-psychology",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "culture-and-education",
+      "scopus": {
+        "row": 10969,
+        "source_record_id": "19700174629",
+        "title": "Cultura y Educacion",
+        "issns": [
+          "11356405",
+          "15784118"
+        ],
+        "activity": "Active",
+        "coverage": "2008-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://api.crossref.org/journals/1135-6405",
+          "http_status": 200,
+          "title": "Culture and Education",
+          "matched_issns": [
+            "1135-6405"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "current-environmental-health-reports",
+      "scopus": {
+        "row": 11098,
+        "source_record_id": "21100440607",
+        "title": "Current Environmental Health Reports",
+        "issns": [
+          "21965412"
+        ],
+        "activity": "Active",
+        "coverage": "2014-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "current-psychology",
+      "scopus": {
+        "row": 11300,
+        "source_record_id": "13479",
+        "title": "Current Psychology",
+        "issns": [
+          "10461310",
+          "19364733"
+        ],
+        "activity": "Active",
+        "coverage": "1984-2026; 1981-1982",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "current-sociology",
+      "scopus": {
+        "row": 11342,
+        "source_record_id": "100147030",
+        "title": "Current Sociology",
+        "issns": [
+          "00113921",
+          "14617064"
+        ],
+        "activity": "Active",
+        "coverage": "1986-2026; 1972-1984; 1967-1969; 1952-1965",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "discrete-event-dynamic-systems",
+      "scopus": {
+        "row": 12220,
+        "source_record_id": "28967",
+        "title": "Discrete Event Dynamic Systems: Theory and Applications",
+        "issns": [
+          "09246703",
+          "15737594"
+        ],
+        "activity": "Active",
+        "coverage": "1991-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Discrete event dynamic systems.",
+          "matched_issns": [
+            "0924-6703",
+            "1573-7594"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "ecohealth",
+      "scopus": {
+        "row": 12691,
+        "source_record_id": "145404",
+        "title": "EcoHealth",
+        "issns": [
+          "16129202",
+          "16129210"
+        ],
+        "activity": "Active",
+        "coverage": "2004-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "engineering-with-computers",
+      "scopus": {
+        "row": 13629,
+        "source_record_id": "18186",
+        "title": "Engineering with Computers",
+        "issns": [
+          "01770667",
+          "14355663"
+        ],
+        "activity": "Active",
+        "coverage": "1985-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "environmental-geochemistry-and-health",
+      "scopus": {
+        "row": 13793,
+        "source_record_id": "20992",
+        "title": "Environmental Geochemistry and Health",
+        "issns": [
+          "02694042",
+          "15732983"
+        ],
+        "activity": "Active",
+        "coverage": "1983-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "environmental-monitoring-and-assessment",
+      "scopus": {
+        "row": 13823,
+        "source_record_id": "21482",
+        "title": "Environmental Monitoring and Assessment",
+        "issns": [
+          "01676369",
+          "15732959"
+        ],
+        "activity": "Active",
+        "coverage": "1981-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "environmental-science-and-pollution-research",
+      "scopus": {
+        "row": 13862,
+        "source_record_id": "23918",
+        "title": "Environmental Science and Pollution Research",
+        "issns": [
+          "09441344",
+          "16147499"
+        ],
+        "activity": "Active",
+        "coverage": "1994-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "epidemiologia-e-servi-os-de-sa-de-revista-do-sus",
+      "scopus": {
+        "row": 13917,
+        "source_record_id": "21100872043",
+        "title": "Epidemiologia e Servicos de Saude",
+        "issns": [
+          "16794974",
+          "22379622"
+        ],
+        "activity": "Active",
+        "coverage": "2016-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Epidemiologia e serviços de saúde : revista do Sistema Unico de Saúde do Brasil.",
+          "matched_issns": [
+            "1679-4974",
+            "2237-9622"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "european-journal-of-personality",
+      "scopus": {
+        "row": 14623,
+        "source_record_id": "14105",
+        "title": "European Journal of Personality",
+        "issns": [
+          "08902070",
+          "10990984"
+        ],
+        "activity": "Active",
+        "coverage": "1987-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "european-management-journal",
+      "scopus": {
+        "row": 14724,
+        "source_record_id": "22491",
+        "title": "European Management Journal",
+        "issns": [
+          "02632373"
+        ],
+        "activity": "Active",
+        "coverage": "1982-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "european-union-politics",
+      "scopus": {
+        "row": 14828,
+        "source_record_id": "1000147124",
+        "title": "European Union Politics",
+        "issns": [
+          "14651165",
+          "17412757"
+        ],
+        "activity": "Active",
+        "coverage": "2000-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "evaluation",
+      "scopus": {
+        "row": 14853,
+        "source_record_id": "70397",
+        "title": "Evaluation",
+        "issns": [
+          "13563890",
+          "14617153"
+        ],
+        "activity": "Active",
+        "coverage": "1995-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "exposure-and-health",
+      "scopus": {
+        "row": 15071,
+        "source_record_id": "21100464956",
+        "title": "Exposure and Health",
+        "issns": [
+          "24519766",
+          "24519685"
+        ],
+        "activity": "Active",
+        "coverage": "2015-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "feminism-and-psychology",
+      "scopus": {
+        "row": 15245,
+        "source_record_id": "14172",
+        "title": "Feminism and Psychology",
+        "issns": [
+          "09593535",
+          "14617161"
+        ],
+        "activity": "Active",
+        "coverage": "1991-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Feminism & psychology.",
+          "matched_issns": [
+            "0959-3535",
+            "1461-7161"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "group-processes-and-intergroup-relations",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "health-care-management-science",
+      "scopus": {
+        "row": 17731,
+        "source_record_id": "13383",
+        "title": "Health Care Management Science",
+        "issns": [
+          "13869620",
+          "15729389"
+        ],
+        "activity": "Active",
+        "coverage": "1998-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "health-information-management-journal",
+      "scopus": {
+        "row": 17768,
+        "source_record_id": "4700152879",
+        "title": "Health Information Management Journal",
+        "issns": [
+          "18333583",
+          "18333575"
+        ],
+        "activity": "Active",
+        "coverage": "2002-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://api.crossref.org/journals/1833-3583",
+          "http_status": null,
+          "limit": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": "health-services-management-research",
+      "scopus": {
+        "row": 17820,
+        "source_record_id": "13380",
+        "title": "Health Services Management Research",
+        "issns": [
+          "09514848",
+          "17581044"
+        ],
+        "activity": "Active",
+        "coverage": "1988-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "indonesian-journal-of-informatics-education",
+      "scopus": null,
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/838a0d3297ff4fe7960f88f6ed54d43e",
+          "http_status": 200,
+          "title": "IJIE (Indonesian Journal of Informatics Education)",
+          "matched_issns": [
+            "2549-0389"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "industrial-marketing-management",
+      "scopus": {
+        "row": 19781,
+        "source_record_id": "22792",
+        "title": "Industrial Marketing Management",
+        "issns": [
+          "00198501"
+        ],
+        "activity": "Active",
+        "coverage": "1971-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "informs-journal-on-computing",
+      "scopus": {
+        "row": 19982,
+        "source_record_id": "25040",
+        "title": "INFORMS Journal on Computing",
+        "issns": [
+          "10919856",
+          "15265528"
+        ],
+        "activity": "Active",
+        "coverage": "2003-2026; 1996-2001",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "interdisciplinary-sciences-computational-life-sciences",
+      "scopus": {
+        "row": 20263,
+        "source_record_id": "19700180534",
+        "title": "Interdisciplinary Sciences - Computational Life Sciences",
+        "issns": [
+          "19132751",
+          "18671462"
+        ],
+        "activity": "Active",
+        "coverage": "2009-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-archives-of-occupational-and-environmental-health",
+      "scopus": {
+        "row": 20320,
+        "source_record_id": "29224",
+        "title": "International Archives of Occupational and Environmental Health",
+        "issns": [
+          "03400131",
+          "14321246"
+        ],
+        "activity": "Active",
+        "coverage": "1975-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-journal-of-control-automation-and-systems",
+      "scopus": {
+        "row": 20936,
+        "source_record_id": "25479",
+        "title": "International Journal of Control, Automation and Systems",
+        "issns": [
+          "15986446",
+          "20054092"
+        ],
+        "activity": "Active",
+        "coverage": "2003-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-journal-of-dynamics-and-control",
+      "scopus": {
+        "row": 21042,
+        "source_record_id": "21100463102",
+        "title": "International Journal of Dynamics and Control",
+        "issns": [
+          "2195268X",
+          "21952698"
+        ],
+        "activity": "Active",
+        "coverage": "2013-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-journal-of-intelligent-robotics-and-applications",
+      "scopus": {
+        "row": 21468,
+        "source_record_id": "21100935977",
+        "title": "International Journal of Intelligent Robotics and Applications",
+        "issns": [
+          "23665971",
+          "2366598X"
+        ],
+        "activity": "Active",
+        "coverage": "2017-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-journal-of-social-robotics",
+      "scopus": {
+        "row": 22095,
+        "source_record_id": "19500157063",
+        "title": "International Journal of Social Robotics",
+        "issns": [
+          "18754791",
+          "18754805"
+        ],
+        "activity": "Active",
+        "coverage": "2009-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-journal-of-system-assurance-engineering-and-management",
+      "scopus": {
+        "row": 22192,
+        "source_record_id": "19700177002",
+        "title": "International Journal of System Assurance Engineering and Management",
+        "issns": [
+          "09756809",
+          "09764348"
+        ],
+        "activity": "Active",
+        "coverage": "2010-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-relations",
+      "scopus": {
+        "row": 22469,
+        "source_record_id": "5700164218",
+        "title": "International Relations",
+        "issns": [
+          "00471178",
+          "17412862"
+        ],
+        "activity": "Active",
+        "coverage": "1975-2026; 1967-1972; 1957-1965",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "International relations.",
+          "matched_issns": [
+            "0047-1178",
+            "1741-2862"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "international-studies",
+      "scopus": {
+        "row": 22559,
+        "source_record_id": "25845",
+        "title": "International Studies",
+        "issns": [
+          "00208817",
+          "09730702"
+        ],
+        "activity": "Active",
+        "coverage": "1985-2025; 1973-1982; 1959-1969",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "international-tax-and-public-finance",
+      "scopus": {
+        "row": 22583,
+        "source_record_id": "28062",
+        "title": "International Tax and Public Finance",
+        "issns": [
+          "09275940",
+          "15736970"
+        ],
+        "activity": "Active",
+        "coverage": "1994-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-biological-physics",
+      "scopus": {
+        "row": 24529,
+        "source_record_id": "14894",
+        "title": "Journal of Biological Physics",
+        "issns": [
+          "00920606",
+          "15730689"
+        ],
+        "activity": "Active",
+        "coverage": "1999-2026; 1995-1997; 1973-1993",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-business-research",
+      "scopus": {
+        "row": 24657,
+        "source_record_id": "20550",
+        "title": "Journal of Business Research",
+        "issns": [
+          "01482963"
+        ],
+        "activity": "Active",
+        "coverage": "1973-2027",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-combinatorial-optimization",
+      "scopus": {
+        "row": 25063,
+        "source_record_id": "28499",
+        "title": "Journal of Combinatorial Optimization",
+        "issns": [
+          "13826905",
+          "15732886"
+        ],
+        "activity": "Active",
+        "coverage": "1997-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-computer-security",
+      "scopus": {
+        "row": 25178,
+        "source_record_id": "28931",
+        "title": "Journal of Computer Security",
+        "issns": [
+          "0926227X",
+          "18758924"
+        ],
+        "activity": "Active",
+        "coverage": "1995-2026; 1992-1993",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of computer security.",
+          "matched_issns": [
+            "0926-227X",
+            "1875-8924"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-engineering-and-technology-management",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-health-services-research-and-policy",
+      "scopus": {
+        "row": 26427,
+        "source_record_id": "15932",
+        "title": "Journal of Health Services Research and Policy",
+        "issns": [
+          "13558196",
+          "17581060"
+        ],
+        "activity": "Active",
+        "coverage": "1995-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of health services research & policy.",
+          "matched_issns": [
+            "1355-8196",
+            "1758-1060"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-human-technology-relations",
+      "scopus": null,
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/a68ea320d6ff4c53ac03caa05aca0316",
+          "http_status": 200,
+          "title": "Journal of Human-Technology Relations",
+          "matched_issns": [
+            "2773-2266"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-information-science",
+      "scopus": {
+        "row": 26719,
+        "source_record_id": "12813",
+        "title": "Journal of Information Science",
+        "issns": [
+          "01655515",
+          "17416485"
+        ],
+        "activity": "Active",
+        "coverage": "1979-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of information science.",
+          "matched_issns": [
+            "0165-5515",
+            "1741-6485"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-intelligent-manufacturing",
+      "scopus": {
+        "row": 26832,
+        "source_record_id": "24363",
+        "title": "Journal of Intelligent Manufacturing",
+        "issns": [
+          "09565515",
+          "15728145"
+        ],
+        "activity": "Active",
+        "coverage": "1990-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-management-education",
+      "scopus": {
+        "row": 27242,
+        "source_record_id": "5700185131",
+        "title": "Journal of Management Education",
+        "issns": [
+          "10525629",
+          "15526658"
+        ],
+        "activity": "Active",
+        "coverage": "1986-2026; 1975-1984",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of management education : a publication of the Organizational Behavior Teaching Society.",
+          "matched_issns": [
+            "1052-5629",
+            "1552-6658"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-mathematical-biology",
+      "scopus": {
+        "row": 27337,
+        "source_record_id": "29610",
+        "title": "Journal of Mathematical Biology",
+        "issns": [
+          "03036812",
+          "14321416"
+        ],
+        "activity": "Active",
+        "coverage": "1974-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-medical-systems",
+      "scopus": {
+        "row": 27442,
+        "source_record_id": "23710",
+        "title": "Journal of Medical Systems",
+        "issns": [
+          "01485598",
+          "1573689X"
+        ],
+        "activity": "Active",
+        "coverage": "1977-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-micromechanics-and-microengineering",
+      "scopus": {
+        "row": 27520,
+        "source_record_id": "20983",
+        "title": "Journal of Micromechanics and Microengineering",
+        "issns": [
+          "09601317",
+          "13616439"
+        ],
+        "activity": "Active",
+        "coverage": "1991-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-molecular-modeling",
+      "scopus": {
+        "row": 27603,
+        "source_record_id": "57844",
+        "title": "Journal of Molecular Modeling",
+        "issns": [
+          "16102940",
+          "09485023"
+        ],
+        "activity": "Active",
+        "coverage": "1996-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-open-source-software",
+      "scopus": null,
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a",
+          "http_status": 200,
+          "title": "Journal of Open Source Software",
+          "matched_issns": [
+            "2475-9066"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-physics-a-mathematical-and-theoretical",
+      "scopus": {
+        "row": 28277,
+        "source_record_id": "5700165208",
+        "title": "Journal of Physics A: Mathematical and Theoretical",
+        "issns": [
+          "17518113",
+          "17518121"
+        ],
+        "activity": "Active",
+        "coverage": "2007-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of physics. A, Mathematical and theoretical.",
+          "matched_issns": [
+            "1751-8113",
+            "1751-8121"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-physics-b-atomic-molecular-and-optical-physics",
+      "scopus": {
+        "row": 28281,
+        "source_record_id": "28565",
+        "title": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+        "issns": [
+          "09534075",
+          "13616455"
+        ],
+        "activity": "Active",
+        "coverage": "1988-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of physics. B, Atomic, molecular, and optical physics : an Institute of Physics journal.",
+          "matched_issns": [
+            "0953-4075",
+            "1361-6455"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-physics-d-applied-physics",
+      "scopus": {
+        "row": 28285,
+        "source_record_id": "28570",
+        "title": "Journal of Physics D: Applied Physics",
+        "issns": [
+          "00223727",
+          "13616463"
+        ],
+        "activity": "Active",
+        "coverage": "1967-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of physics D: Applied physics.",
+          "matched_issns": [
+            "0022-3727"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-physics-condensed-matter",
+      "scopus": {
+        "row": 28284,
+        "source_record_id": "28567",
+        "title": "Journal of Physics Condensed Matter",
+        "issns": [
+          "09538984",
+          "1361648X"
+        ],
+        "activity": "Active",
+        "coverage": "1989-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Journal of physics. Condensed matter : an Institute of Physics journal.",
+          "matched_issns": [
+            "0953-8984",
+            "1361-648X"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-public-policy",
+      "scopus": {
+        "row": 28557,
+        "source_record_id": "27691",
+        "title": "Journal of Public Policy",
+        "issns": [
+          "0143814X",
+          "14697815"
+        ],
+        "activity": "Active",
+        "coverage": "1981-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/91a1376dc73549be837beceb2192c10c",
+          "http_status": 200,
+          "title": "Journal of Public Policy",
+          "matched_issns": [
+            "1469-7815"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "journal-of-scheduling",
+      "scopus": {
+        "row": 28792,
+        "source_record_id": "19294",
+        "title": "Journal of Scheduling",
+        "issns": [
+          "10946136",
+          "10991425"
+        ],
+        "activity": "Active",
+        "coverage": "1998-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-systems-science-and-systems-engineering",
+      "scopus": {
+        "row": 29186,
+        "source_record_id": "4700152484",
+        "title": "Journal of Systems Science and Systems Engineering",
+        "issns": [
+          "10043756",
+          "18619576"
+        ],
+        "activity": "Active",
+        "coverage": "2005-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "journal-of-transformative-education",
+      "scopus": {
+        "row": 29942,
+        "source_record_id": "6400153174",
+        "title": "Journal of Transformative Education",
+        "issns": [
+          "15413446",
+          "15527840"
+        ],
+        "activity": "Active",
+        "coverage": "2003-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "lithuanian-journal-of-statistics",
+      "scopus": null,
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/ffaae1f762994a4991362ffc2fb46979",
+          "http_status": 200,
+          "title": "Lithuanian Journal of Statistics",
+          "matched_issns": [
+            "2029-7262"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "materials-futures",
+      "scopus": {
+        "row": 32205,
+        "source_record_id": "21101160754",
+        "title": "Materials Futures",
+        "issns": [
+          "27525724"
+        ],
+        "activity": "Active",
+        "coverage": "2022-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/a531e43238b3437d87d7c795996715d2",
+          "http_status": 200,
+          "title": "Materials Futures",
+          "matched_issns": [
+            "2752-5724"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "mathematics-of-operations-research",
+      "scopus": {
+        "row": 32347,
+        "source_record_id": "22140",
+        "title": "Mathematics of Operations Research",
+        "issns": [
+          "0364765X",
+          "15265471"
+        ],
+        "activity": "Active",
+        "coverage": "1995-2026; 1976-1989",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "medical-care-research-and-review",
+      "scopus": {
+        "row": 32535,
+        "source_record_id": "20052",
+        "title": "Medical Care Research and Review",
+        "issns": [
+          "10775587",
+          "15526801"
+        ],
+        "activity": "Active",
+        "coverage": "1993-2026; 1978-1990; 1974-1975; 1963-1971; 1944-1954",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "memory-and-cognition",
+      "scopus": {
+        "row": 32889,
+        "source_record_id": "12061",
+        "title": "Memory and Cognition",
+        "issns": [
+          "0090502X",
+          "15325946"
+        ],
+        "activity": "Active",
+        "coverage": "1973-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Memory & cognition.",
+          "matched_issns": [
+            "0090-502X",
+            "1532-5946"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "modelling-and-simulation-in-materials-science-and-engineering",
+      "scopus": {
+        "row": 33546,
+        "source_record_id": "28704",
+        "title": "Modelling and Simulation in Materials Science and Engineering",
+        "issns": [
+          "09650393",
+          "1361651X"
+        ],
+        "activity": "Active",
+        "coverage": "1992-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "network-modeling-analysis-in-health-informatics-and-bioinformatics",
+      "scopus": {
+        "row": 34504,
+        "source_record_id": "21100781975",
+        "title": "Network Modeling Analysis in Health Informatics and Bioinformatics",
+        "issns": [
+          "21926662",
+          "21926670"
+        ],
+        "activity": "Active",
+        "coverage": "2012-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "operations-research",
+      "scopus": {
+        "row": 36018,
+        "source_record_id": "22238",
+        "title": "Operations Research",
+        "issns": [
+          "0030364X",
+          "15265463"
+        ],
+        "activity": "Active",
+        "coverage": "1969-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "or-spectrum",
+      "scopus": {
+        "row": 36121,
+        "source_record_id": "56494",
+        "title": "OR Spectrum",
+        "issns": [
+          "01716468",
+          "14366304"
+        ],
+        "activity": "Active",
+        "coverage": "1979-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "organization",
+      "scopus": {
+        "row": 36189,
+        "source_record_id": "22322",
+        "title": "Organization",
+        "issns": [
+          "13505084",
+          "14617323"
+        ],
+        "activity": "Active",
+        "coverage": "1994-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "organization-studies",
+      "scopus": {
+        "row": 36194,
+        "source_record_id": "28312",
+        "title": "Organization Studies",
+        "issns": [
+          "01708406",
+          "17413044"
+        ],
+        "activity": "Active",
+        "coverage": "1980-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "organizational-research-methods",
+      "scopus": {
+        "row": 36204,
+        "source_record_id": "22330",
+        "title": "Organizational Research Methods",
+        "issns": [
+          "10944281",
+          "15527425"
+        ],
+        "activity": "Active",
+        "coverage": "1998-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "peer-community-journal",
+      "scopus": {
+        "row": 36971,
+        "source_record_id": "21101230650",
+        "title": "Peer Community Journal",
+        "issns": [
+          "28043871"
+        ],
+        "activity": "Active",
+        "coverage": "2021-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/798d4f21a22d43579cea322bed8a560e",
+          "http_status": 200,
+          "title": "Peer Community Journal",
+          "matched_issns": [
+            "2804-3871"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "personality-and-social-psychology-bulletin",
+      "scopus": {
+        "row": 37083,
+        "source_record_id": "12811",
+        "title": "Personality and Social Psychology Bulletin",
+        "issns": [
+          "01461672",
+          "15527433"
+        ],
+        "activity": "Active",
+        "coverage": "1995-2026; 1988; 1976",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "perspectives-in-public-health",
+      "scopus": {
+        "row": 37114,
+        "source_record_id": "17600155039",
+        "title": "Perspectives in Public Health",
+        "issns": [
+          "17579139",
+          "17579147"
+        ],
+        "activity": "Active",
+        "coverage": "2009-2026; 1951",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "pharmacoeconomics",
+      "scopus": {
+        "row": 37271,
+        "source_record_id": "21165",
+        "title": "PharmacoEconomics",
+        "issns": [
+          "11707690",
+          "11792027"
+        ],
+        "activity": "Active",
+        "coverage": "1992-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "physical-review-e",
+      "scopus": {
+        "row": 37556,
+        "source_record_id": "21100855841",
+        "title": "Physical Review E",
+        "issns": [
+          "24700045",
+          "24700053"
+        ],
+        "activity": "Active",
+        "coverage": "2016-2026; 2012; 2009; 1993-2004",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "plos-computational-biology",
+      "scopus": {
+        "row": 37876,
+        "source_record_id": "4000151810",
+        "title": "PLOS Computational Biology",
+        "issns": [
+          "1553734X",
+          "15537358"
+        ],
+        "activity": "Active",
+        "coverage": "2005-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/b4c52c82a9b146df8c348fbce28ec158",
+          "http_status": 200,
+          "title": "PLoS Computational Biology",
+          "matched_issns": [
+            "1553-734X",
+            "1553-7358"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "policy-sciences",
+      "scopus": {
+        "row": 37965,
+        "source_record_id": "22773",
+        "title": "Policy Sciences",
+        "issns": [
+          "00322687",
+          "15730891"
+        ],
+        "activity": "Active",
+        "coverage": "1970-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "political-studies",
+      "scopus": {
+        "row": 38047,
+        "source_record_id": "22890",
+        "title": "Political Studies",
+        "issns": [
+          "00323217",
+          "14679248"
+        ],
+        "activity": "Active",
+        "coverage": "1953-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "politics",
+      "scopus": {
+        "row": 38055,
+        "source_record_id": "4000149610",
+        "title": "Politics",
+        "issns": [
+          "02633957",
+          "14679256"
+        ],
+        "activity": "Active",
+        "coverage": "2006-2026; 1997; 1966-1995",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "population-health-management",
+      "scopus": {
+        "row": 38166,
+        "source_record_id": "12400154748",
+        "title": "Population Health Management",
+        "issns": [
+          "19427891",
+          "19427905"
+        ],
+        "activity": "Active",
+        "coverage": "2008-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "preventing-chronic-disease",
+      "scopus": {
+        "row": 38431,
+        "source_record_id": "4000148311",
+        "title": "Preventing Chronic Disease",
+        "issns": [
+          "15451151",
+          "21665435"
+        ],
+        "activity": "Active",
+        "coverage": "2004-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/af78c4d11e114089ae3f2582b444ad42",
+          "http_status": 200,
+          "title": "Preventing Chronic Disease",
+          "matched_issns": [
+            "1545-1151"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "progress-in-energy",
+      "scopus": {
+        "row": 38928,
+        "source_record_id": "21101107944",
+        "title": "Progress in Energy",
+        "issns": [
+          "25161083"
+        ],
+        "activity": "Active",
+        "coverage": "2019-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "psychological-research",
+      "scopus": {
+        "row": 39262,
+        "source_record_id": "13466",
+        "title": "Psychological Research",
+        "issns": [
+          "03400727",
+          "14302772"
+        ],
+        "activity": "Active",
+        "coverage": "1974-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "psychonomic-bulletin-and-review",
+      "scopus": {
+        "row": 39322,
+        "source_record_id": "14062",
+        "title": "Psychonomic Bulletin and Review",
+        "issns": [
+          "10699384",
+          "15315320"
+        ],
+        "activity": "Active",
+        "coverage": "1994-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Psychonomic bulletin & review.",
+          "matched_issns": [
+            "1069-9384",
+            "1531-5320"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "public-choice",
+      "scopus": {
+        "row": 39377,
+        "source_record_id": "23611",
+        "title": "Public Choice",
+        "issns": [
+          "00485829",
+          "15737101"
+        ],
+        "activity": "Active",
+        "coverage": "1966-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "public-health-reports",
+      "scopus": {
+        "row": 39397,
+        "source_record_id": "22538",
+        "title": "Public Health Reports",
+        "issns": [
+          "00333549",
+          "14682877"
+        ],
+        "activity": "Active",
+        "coverage": "1974-2026; 1945-1970",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "public-organization-review",
+      "scopus": {
+        "row": 39409,
+        "source_record_id": "130055",
+        "title": "Public Organization Review",
+        "issns": [
+          "15667170",
+          "15737098"
+        ],
+        "activity": "Active",
+        "coverage": "2005-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "public-policy-and-administration",
+      "scopus": {
+        "row": 39412,
+        "source_record_id": "5600157642",
+        "title": "Public Policy and Administration",
+        "issns": [
+          "09520767",
+          "17494192"
+        ],
+        "activity": "Active",
+        "coverage": "1986-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "public-understanding-of-science",
+      "scopus": {
+        "row": 39426,
+        "source_record_id": "22370",
+        "title": "Public Understanding of Science",
+        "issns": [
+          "09636625",
+          "13616609"
+        ],
+        "activity": "Active",
+        "coverage": "1992-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "public-works-management-and-policy",
+      "scopus": {
+        "row": 39428,
+        "source_record_id": "5800169158",
+        "title": "Public Works Management and Policy",
+        "issns": [
+          "1087724X",
+          "15527549"
+        ],
+        "activity": "Active",
+        "coverage": "1996-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Public works management & policy.",
+          "matched_issns": [
+            "1087-724X",
+            "1552-7549"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "queueing-systems",
+      "scopus": {
+        "row": 39711,
+        "source_record_id": "19124",
+        "title": "Queueing Systems",
+        "issns": [
+          "02570130",
+          "15729443"
+        ],
+        "activity": "Active",
+        "coverage": "1986-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "rationality-and-society",
+      "scopus": {
+        "row": 39899,
+        "source_record_id": "25330",
+        "title": "Rationality and Society",
+        "issns": [
+          "10434631",
+          "14617358"
+        ],
+        "activity": "Active",
+        "coverage": "1989-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Rationality and society.",
+          "matched_issns": [
+            "1043-4631",
+            "1461-7358"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "reliability-engineering-and-system-safety",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "requirements-engineering",
+      "scopus": {
+        "row": 40302,
+        "source_record_id": "18660",
+        "title": "Requirements Engineering",
+        "issns": [
+          "09473602",
+          "1432010X"
+        ],
+        "activity": "Active",
+        "coverage": "2005-2026; 1998-2002; 1996",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "research-ethics",
+      "scopus": {
+        "row": 40340,
+        "source_record_id": "21100344997",
+        "title": "Research Ethics",
+        "issns": [
+          "17470161",
+          "20476094"
+        ],
+        "activity": "Active",
+        "coverage": "2014-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "research-evaluation",
+      "scopus": {
+        "row": 40342,
+        "source_record_id": "22894",
+        "title": "Research Evaluation",
+        "issns": [
+          "09582029",
+          "14715449"
+        ],
+        "activity": "Active",
+        "coverage": "1998-2026; 1991-1996",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "research-in-engineering-design",
+      "scopus": {
+        "row": 40374,
+        "source_record_id": "13858",
+        "title": "Research in Engineering Design - Theory, Applications, and Concurrent Engineering",
+        "issns": [
+          "09349839",
+          "14356066"
+        ],
+        "activity": "Active",
+        "coverage": "1989-2027",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Research in engineering design.",
+          "matched_issns": [
+            "0934-9839",
+            "1435-6066"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "research-methods-in-medicine-and-health-sciences",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "research-policy",
+      "scopus": {
+        "row": 40502,
+        "source_record_id": "22900",
+        "title": "Research Policy",
+        "issns": [
+          "00487333"
+        ],
+        "activity": "Active",
+        "coverage": "1971-2027",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Research policy.",
+          "matched_issns": [
+            "0048-7333"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "review-of-artificial-intelligence-in-education",
+      "scopus": null,
+      "api_checks": []
+    },
+    {
+      "id": "revista-panamericana-de-salud-p-blica-pan-american-journal-of-public-health",
+      "scopus": {
+        "row": 41510,
+        "source_record_id": "22604",
+        "title": "Revista Panamericana de Salud Publica/Pan American Journal of Public Health",
+        "issns": [
+          "10204989",
+          "16805348"
+        ],
+        "activity": "Active",
+        "coverage": "1997-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "safety-science",
+      "scopus": {
+        "row": 42345,
+        "source_record_id": "12332",
+        "title": "Safety Science",
+        "issns": [
+          "09257535",
+          "18791042"
+        ],
+        "activity": "Active",
+        "coverage": "1991-2027",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "scandinavian-journal-of-public-health",
+      "scopus": {
+        "row": 42519,
+        "source_record_id": "18842",
+        "title": "Scandinavian Journal of Public Health",
+        "issns": [
+          "14034948",
+          "16511905"
+        ],
+        "activity": "Active",
+        "coverage": "1988-2026; 1984-1986; 1973-1982",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "science-communication",
+      "scopus": {
+        "row": 42677,
+        "source_record_id": "17449",
+        "title": "Science Communication",
+        "issns": [
+          "10755470",
+          "15528545"
+        ],
+        "activity": "Active",
+        "coverage": "1979-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "science-technology-and-human-values",
+      "scopus": {
+        "row": 42729,
+        "source_record_id": "23715",
+        "title": "Science Technology and Human Values",
+        "issns": [
+          "01622439",
+          "15528251"
+        ],
+        "activity": "Active",
+        "coverage": "1976-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Science, technology & human values.",
+          "matched_issns": [
+            "0162-2439",
+            "1552-8251"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "scientometrics",
+      "scopus": {
+        "row": 42816,
+        "source_record_id": "24222",
+        "title": "Scientometrics",
+        "issns": [
+          "01389130",
+          "15882861"
+        ],
+        "activity": "Active",
+        "coverage": "1978-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "simulation",
+      "scopus": {
+        "row": 43348,
+        "source_record_id": "14452",
+        "title": "Simulation",
+        "issns": [
+          "00375497",
+          "17413133"
+        ],
+        "activity": "Active",
+        "coverage": "1963-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "simulation-and-gaming",
+      "scopus": {
+        "row": 43349,
+        "source_record_id": "12188",
+        "title": "Simulation and Gaming",
+        "issns": [
+          "10468781",
+          "1552826X"
+        ],
+        "activity": "Active",
+        "coverage": "1987-2026; 1985; 1978-1983; 1970-1976",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "Simulation & gaming.",
+          "matched_issns": [
+            "1046-8781"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "social-science-computer-review",
+      "scopus": {
+        "row": 43591,
+        "source_record_id": "18916",
+        "title": "Social Science Computer Review",
+        "issns": [
+          "08944393",
+          "15528286"
+        ],
+        "activity": "Active",
+        "coverage": "1983-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "social-studies-of-science",
+      "scopus": {
+        "row": 43613,
+        "source_record_id": "24377",
+        "title": "Social Studies of Science",
+        "issns": [
+          "03063127",
+          "14603659"
+        ],
+        "activity": "Active",
+        "coverage": "1971-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "software-and-systems-modeling",
+      "scopus": {
+        "row": 43722,
+        "source_record_id": "144641",
+        "title": "Software and Systems Modeling",
+        "issns": [
+          "16191366",
+          "16191374"
+        ],
+        "activity": "Active",
+        "coverage": "2005-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "statistical-methods-in-medical-research",
+      "scopus": {
+        "row": 44406,
+        "source_record_id": "14231",
+        "title": "Statistical Methods in Medical Research",
+        "issns": [
+          "09622802",
+          "14770334"
+        ],
+        "activity": "Active",
+        "coverage": "1992-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "stochastic-systems",
+      "scopus": {
+        "row": 44482,
+        "source_record_id": "21101021638",
+        "title": "Stochastic Systems",
+        "issns": [
+          "19465238"
+        ],
+        "activity": "Active",
+        "coverage": "2019-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/7e86eba49f714c2290e032ef39ae7c7b",
+          "http_status": 200,
+          "title": "Stochastic Systems",
+          "matched_issns": [
+            "1946-5238"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "studies-in-indian-politics",
+      "scopus": {
+        "row": 44839,
+        "source_record_id": "21100805792",
+        "title": "Studies in Indian Politics",
+        "issns": [
+          "23210230",
+          "23217472"
+        ],
+        "activity": "Active",
+        "coverage": "2013-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "technological-forecasting-and-social-change",
+      "scopus": {
+        "row": 45543,
+        "source_record_id": "14704",
+        "title": "Technological Forecasting and Social Change",
+        "issns": [
+          "00401625"
+        ],
+        "activity": "Active",
+        "coverage": "1970-2027",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "technology-in-society",
+      "scopus": {
+        "row": 45559,
+        "source_record_id": "18676",
+        "title": "Technology in Society",
+        "issns": [
+          "0160791X"
+        ],
+        "activity": "Active",
+        "coverage": "1979-2027",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "technovation",
+      "scopus": {
+        "row": 45570,
+        "source_record_id": "14726",
+        "title": "Technovation",
+        "issns": [
+          "01664972"
+        ],
+        "activity": "Active",
+        "coverage": "1981-2027",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "the-american-review-of-public-administration",
+      "scopus": {
+        "row": 2548,
+        "source_record_id": "16051",
+        "title": "American Review of Public Administration",
+        "issns": [
+          "02750740",
+          "15523357"
+        ],
+        "activity": "Active",
+        "coverage": "1987-2026; 1967-1983",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "American review of public administration.",
+          "matched_issns": [
+            "0275-0740",
+            "1552-3357"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "the-british-journal-of-politics-and-international-relations",
+      "scopus": {
+        "row": 6807,
+        "source_record_id": "130158",
+        "title": "British Journal of Politics and International Relations",
+        "issns": [
+          "13691481",
+          "1467856X"
+        ],
+        "activity": "Active",
+        "coverage": "2005-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "British journal of politics & international relations.",
+          "matched_issns": [
+            "1369-1481",
+            "1467-856X"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "the-european-journal-of-health-economics",
+      "scopus": {
+        "row": 14526,
+        "source_record_id": "13217",
+        "title": "European Journal of Health Economics",
+        "issns": [
+          "16187598",
+          "16187601"
+        ],
+        "activity": "Active",
+        "coverage": "2002-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "The European journal of health economics : HEPAC : health economics in prevention and care.",
+          "matched_issns": [
+            "1618-7598",
+            "1618-7601"
+          ],
+          "result": "identity_confirmed"
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml",
+          "http_status": 200,
+          "matched_issns": [
+            "1618-7598",
+            "1618-7601"
+          ],
+          "current_indexing_status": null,
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "the-journal-of-defense-modeling-and-simulation-applications-methodology-technology",
+      "scopus": {
+        "row": 25409,
+        "source_record_id": "21100199755",
+        "title": "Journal of Defense Modeling and Simulation",
+        "issns": [
+          "15485129",
+          "1557380X"
+        ],
+        "activity": "Active",
+        "coverage": "2004-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://api.crossref.org/journals/1548-5129",
+          "http_status": 200,
+          "title": "The Journal of Defense Modeling and Simulation Applications Methodology Technology",
+          "matched_issns": [
+            "1548-5129"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "the-sociological-review",
+      "scopus": {
+        "row": 43687,
+        "source_record_id": "18106",
+        "title": "Sociological Review",
+        "issns": [
+          "00380261",
+          "1467954X"
+        ],
+        "activity": "Active",
+        "coverage": "1908-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml",
+          "http_status": 200,
+          "title": "The Sociological review.",
+          "matched_issns": [
+            "0038-0261",
+            "1467-954X"
+          ],
+          "result": "identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "theoretics",
+      "scopus": {
+        "row": 46142,
+        "source_record_id": "21101393106",
+        "title": "TheoretiCS",
+        "issns": [
+          "27514838"
+        ],
+        "activity": "Active",
+        "coverage": "2022-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/9171c6a32f6a4df795259fe5b19d7772",
+          "http_status": 200,
+          "title": "TheoretiCS",
+          "matched_issns": [
+            "2751-4838"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "theory-and-research-in-education",
+      "scopus": {
+        "row": 46164,
+        "source_record_id": "5700164234",
+        "title": "Theory and Research in Education",
+        "issns": [
+          "14778785",
+          "17413192"
+        ],
+        "activity": "Active",
+        "coverage": "2003-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    },
+    {
+      "id": "theory-in-biosciences",
+      "scopus": {
+        "row": 46168,
+        "source_record_id": "14345",
+        "title": "Theory in Biosciences",
+        "issns": [
+          "14317613",
+          "16117530"
+        ],
+        "activity": "Active",
+        "coverage": "1997-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml",
+          "http_status": 200,
+          "matched_issns": [
+            "1431-7613",
+            "1611-7530"
+          ],
+          "current_indexing_status": null,
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "transactions-on-machine-learning-research",
+      "scopus": {
+        "row": 46681,
+        "source_record_id": "21101278441",
+        "title": "Transactions on Machine Learning Research",
+        "issns": [
+          "28358856"
+        ],
+        "activity": "Active",
+        "coverage": "2022-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": [
+        {
+          "url": "https://doaj.org/api/journals/58beff6068ce48679722d20e5b288dfc",
+          "http_status": 200,
+          "title": "Transactions on Machine Learning Research",
+          "matched_issns": [
+            "2835-8856"
+          ],
+          "result": "registry_identity_confirmed"
+        }
+      ]
+    },
+    {
+      "id": "value-in-health",
+      "scopus": {
+        "row": 47562,
+        "source_record_id": "22377",
+        "title": "Value in Health",
+        "issns": [
+          "10983015",
+          "15244733"
+        ],
+        "activity": "Active",
+        "coverage": "1998-2026",
+        "on_discontinued_sheet": false
+      },
+      "api_checks": []
+    }
+  ]
+}

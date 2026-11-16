@@ -1,6 +1,6 @@
 # Epidemiology and biostatistics
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Statistical Methods in Medical Research
 
@@ -15,6 +15,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/smm) · [Venue](https://journals.sagepub.com/home/SMM)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 44406; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- DOAJ: not verified — Exact ISSN API attempt; no matching record established. This is not a finding of absence. [source](https://doaj.org/api/search/journals/issn%3A0962-2802?pageSize=2)
 
 - Author eligibility (international): Journal encourages submissions from authors across all countries and backgrounds.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/smm)

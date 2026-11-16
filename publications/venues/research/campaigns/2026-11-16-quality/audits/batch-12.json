@@ -1,0 +1,1551 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-12",
+  "agent_task": "/root/quality_audit_12",
+  "notes": "Bounded audit; selective index authority records not resolved; sample or publisher access gaps recorded.",
+  "records": [
+    {
+      "id": "psychological-research",
+      "source_record_ids": [
+        "psychology-behavior-psychological-research"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0340-0727",
+            "1430-2772"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/426"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://link.springer.com/journal/426"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Springer policy: research articles normally receive independent expert peer review, usually two; editors decide, with exceptional one-reviewer cases and editorial exemptions. Journal-specific model not established.",
+          "source_urls": [
+            "https://link.springer.com/journal/426/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Tilo Strobach",
+                "role": "Editor-in-Chief",
+                "affiliation": "MSH Medical School Hamburg"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/426/editorial-board"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/426"
+            ],
+            "note": "Publisher identified on journal site; formal ownership details may differ."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/426/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Springer policy provides linked corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/426/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/426"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/426/submission-guidelines"
+            ],
+            "note": "Journal describes subscription and open access publishing options."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A concurrent working memory task disrupts motor performance but preserves adaptation during dexterous object manipulation",
+            "url": "https://link.springer.com/article/10.1007/s00426-026-02426-y",
+            "doi": "10.1007/s00426-026-02426-y",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s00426-026-02426-y"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/426",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://link.springer.com/journal/426/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/426/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00426-026-02426-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "id": "psychonomic-bulletin-and-review",
+      "source_record_ids": [
+        "psychology-behavior-psychonomic-bulletin-review"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "1069-9384",
+            "1531-5320"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/13423"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://link.springer.com/journal/13423"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Springer policy: research articles normally receive independent expert peer review, usually two; editors decide, with exceptional one-reviewer cases and editorial exemptions. Journal-specific model not established.",
+          "source_urls": [
+            "https://link.springer.com/journal/13423/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Daniel Mirman",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Edinburgh"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/13423/editorial-board"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13423"
+            ],
+            "note": "Publisher identified on journal site; formal ownership details may differ."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13423/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Springer policy provides linked corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13423/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/13423"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13423/submission-guidelines"
+            ],
+            "note": "Journal describes subscription and open access publishing options."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Understanding verbal and numerical probability information and decision making among individuals with and without autism spectrum disorder",
+            "url": "https://link.springer.com/article/10.3758/s13423-026-03032-0",
+            "doi": "10.3758/s13423-026-03032-0",
+            "published_on": "2026-11-12",
+            "checked_on": "2026-11-16",
+            "observations": "Brief report; author and abstract metadata accessible; full text subscription restricted.",
+            "source_urls": [
+              "https://link.springer.com/article/10.3758/s13423-026-03032-0"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/13423",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://link.springer.com/journal/13423/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/13423/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://link.springer.com/article/10.3758/s13423-026-03032-0",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article abstract, authors and date independently read."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample abstract inspected; review reports not checked."
+      }
+    },
+    {
+      "id": "public-choice",
+      "source_record_ids": [
+        "public-policy-public-choice"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0048-5829",
+            "1573-7101"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/11127"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://link.springer.com/journal/11127"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Springer policy: research articles normally receive independent expert peer review, usually two; editors decide, with exceptional one-reviewer cases and editorial exemptions. Journal-specific model not established.",
+          "source_urls": [
+            "https://link.springer.com/journal/11127/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Peter T. Leeson",
+                "role": "Editor-in-Chief",
+                "affiliation": "George Mason University"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/11127/editorial-board"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11127"
+            ],
+            "note": "Publisher identified on journal site; formal ownership details may differ."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11127/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Springer policy provides linked corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11127/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/11127"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11127/submission-guidelines"
+            ],
+            "note": "Journal describes subscription and open access publishing options."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Nonviolent protest and ideological change in education: a public choice approach",
+            "url": "https://link.springer.com/article/10.1007/s11127-026-01485-4",
+            "doi": "10.1007/s11127-026-01485-4",
+            "published_on": "2026-10-25",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s11127-026-01485-4"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/11127",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://link.springer.com/journal/11127/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/11127/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11127-026-01485-4",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "id": "public-health-reports",
+      "source_record_ids": [
+        "public-health-public-health-reports"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0033-3549",
+            "1468-2877"
+          ],
+          "publisher": "Sage for the Association of Schools and Programs of Public Health",
+          "source_urls": [
+            "https://journals.sagepub.com/home/phr",
+            "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844"
+          ],
+          "notes": "NLM catalog matches exact 1974 title, publisher, print and electronic ISSNs."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/phr"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          },
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v89n4, Jul./Aug. 1974–; currently indexed",
+            "registry_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844",
+            "registry_record_id": "9716844",
+            "publisher_url": null,
+            "matched_issns": [
+              "0033-3549",
+              "1468-2877"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844"
+            ],
+            "note": "NLM exact catalog record explicitly states currently indexed for MEDLINE; separate PubMed coverage also shown."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/phr"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Zygmunt F. Dembek",
+                "role": "Editor in Chief",
+                "affiliation": "Office of the Surgeon General, U.S. Department of Health and Human Services"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/phr"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/phr"
+            ],
+            "note": "Sage is identified as publisher; legal ownership beyond publisher was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/phr"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/phr",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/phr",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/phr",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/00333549261497276",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "journal",
+            "note": "Article identity obtained from journal homepage or Crossref; article page not independently read."
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact title, both ISSNs and current MEDLINE status and coverage verified."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. Sample article page not independently read, so sample omitted."
+      }
+    },
+    {
+      "id": "public-organization-review",
+      "source_record_ids": [
+        "public-policy-public-organization-review"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "1566-7170",
+            "1573-7098"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/11115"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/11115",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/11115"
+            ],
+            "note": "Journal homepage claims Scopus; exact authority coverage and status not verified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Springer policy: research articles normally receive independent expert peer review, usually two; editors decide, with exceptional one-reviewer cases and editorial exemptions. Journal-specific model not established. Journal describes anonymous referees.",
+          "source_urls": [
+            "https://link.springer.com/journal/11115/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Ali Farazmand",
+                "role": "Editor-in-Chief",
+                "affiliation": "Florida Atlantic University"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/11115/editorial-board"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11115"
+            ],
+            "note": "Publisher identified on journal site; formal ownership details may differ."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11115/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Springer policy provides linked corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11115/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/11115"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11115/submission-guidelines"
+            ],
+            "note": "Journal describes subscription and open access publishing options."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Artificial Intelligence Enabled Traffic Management: Organizational Determinants and Technology Performance",
+            "url": "https://link.springer.com/article/10.1007/s11115-026-01065-6",
+            "doi": "10.1007/s11115-026-01065-6",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s11115-026-01065-6"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/11115",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://link.springer.com/journal/11115/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/11115/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11115-026-01065-6",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "id": "public-policy-and-administration",
+      "source_record_ids": [
+        "public-policy-public-policy-and-administration"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0952-0767",
+            "1749-4192"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/ppa",
+            "https://portal.issn.org/custom-search/print/1749-4192/public"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Web of Science SSCI",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://journals.sagepub.com/home/ppa",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://journals.sagepub.com/home/ppa"
+            ],
+            "note": "Journal homepage claims SSCI; Clarivate authority record not independently verified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment. Editorials may not require two reviews.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/ppa"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Francesca Calo",
+                "role": "Editor",
+                "affiliation": "The Open University"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/cms/asset/adf46c12-aff7-4e72-b577-876ce0c3fe04/ppaa_41_1.ed_board.pdf"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/ppa"
+            ],
+            "note": "Journal identifies itself as UK Association for Public Administration journal."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/ppa"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Under pressure: A systematic review of the pressures shaping street-level work",
+            "url": "https://journals.sagepub.com/doi/10.1177/09520767261499589",
+            "doi": "10.1177/09520767261499589",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/09520767261499589"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/ppa",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/cms/asset/adf46c12-aff7-4e72-b577-876ce0c3fe04/ppaa_41_1.ed_board.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ppa",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/09520767261499589",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "id": "public-understanding-of-science",
+      "source_record_ids": [
+        "meta-research-public-understanding-of-science"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0963-6625",
+            "1361-6609"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/pus"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pus"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pus"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Hans Peter Peters",
+                "role": "Editor",
+                "affiliation": "Free University of Berlin"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/pus"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pus"
+            ],
+            "note": "Sage is identified as publisher; legal ownership beyond publisher was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pus"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Discursive constructions of epistemic authority and boundary-work in a state-sponsored Turkish popular science magazine",
+            "url": "https://journals.sagepub.com/doi/10.1177/09636625261496488",
+            "doi": "10.1177/09636625261496488",
+            "published_on": "2026-11-04",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/09636625261496488"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/pus",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/pus",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pus",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/09636625261496488",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "id": "public-works-management-and-policy",
+      "source_record_ids": [
+        "public-policy-public-works-management-and-policy"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "1087-724X",
+            "1552-7549"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/pwm",
+            "https://portal.issn.org/resource/ISSN/1552-7549"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pwm"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment. Viewpoints receive lighter review; research articles and viewpoints are distinguished.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pwm"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Jeremy Hall",
+                "role": "Editor",
+                "affiliation": "University of Central Florida"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/pwm"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pwm"
+            ],
+            "note": "Sage is identified as publisher; legal ownership beyond publisher was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pwm"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Monitoring, Evaluation and Public Project Success: THE Role of Professional Ethics",
+            "url": "https://journals.sagepub.com/doi/10.1177/1087724X261494569",
+            "doi": "10.1177/1087724X261494569",
+            "published_on": "2026-10-15",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/1087724X261494569"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/pwm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/pwm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pwm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/1087724X261494569",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "id": "queueing-systems",
+      "source_record_ids": [
+        "operations-simulation-queueing-systems"
+      ],
+      "audit_note": "Exact canonical ID and title matched; conservative status pending unresolved core or article checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0257-0130",
+            "1572-9443"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/11134"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/11134",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/11134"
+            ],
+            "note": "Journal homepage claims Scopus; exact authority coverage and status not verified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Springer policy: research articles normally receive independent expert peer review, usually two; editors decide, with exceptional one-reviewer cases and editorial exemptions. Journal-specific model not established.",
+          "source_urls": [
+            "https://link.springer.com/journal/11134/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Michel Mandjes",
+                "role": "Editor-in-Chief",
+                "affiliation": "Leiden University and University of Amsterdam"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/11134/editorial-board"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11134"
+            ],
+            "note": "Publisher identified on journal site; formal ownership details may differ."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11134/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Springer policy provides linked corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11134/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/11134"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11134/submission-guidelines"
+            ],
+            "note": "Journal describes subscription and open access publishing options."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "The restricted Erlang-R queue: finite-size effects in service systems with returning customers",
+            "url": "https://link.springer.com/article/10.1007/s11134-026-10008-3",
+            "doi": "10.1007/s11134-026-10008-3",
+            "published_on": "2026-10-25",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s11134-026-10008-3"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/11134",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://link.springer.com/journal/11134/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/11134/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11134-026-10008-3",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    }
+  ]
+}

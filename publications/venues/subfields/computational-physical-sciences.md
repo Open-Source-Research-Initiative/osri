@@ -1,6 +1,6 @@
 # Computational physics, chemistry and materials
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Classical and Quantum Gravity
 
@@ -15,6 +15,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/) · [Venue](https://iopscience.iop.org/journal/0264-9381)
+
+**Quality evidence (needs_verification):** Verification incomplete: publishing responsibility. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 9040, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+- Web of Science: not verified — No readable exact-title authority record returned. [source](https://mjl.clarivate.com/search-results)
 
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
@@ -38,6 +43,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/) · [Venue](https://iopscience.iop.org/journal/0960-1317)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 27520; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact-title identifier metadata; not selective index coverage. [source](https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20)
+
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
 - [Author eligibility source](https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/)
@@ -58,6 +68,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/) · [Venue](https://iopscience.iop.org/journal/1751-8121)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 28277, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+- Crossref: not verified — Exact-title authority match not established; no conclusion about inclusion elsewhere. [source](https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20)
 
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
@@ -81,6 +96,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/) · [Venue](https://iopscience.iop.org/journal/0953-4075)
 
+**Quality evidence (needs_verification):** Verification incomplete: a traceable publication sample. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 28281, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+- Crossref: not verified — Exact-title authority match not established; no conclusion about inclusion elsewhere. [source](https://api.crossref.org/journals?query=Journal%20of%20Physics%20B%3A%20Atomic%2C%20Molecular%20and%20Optical%20Physics&rows=20)
+
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
 - [Author eligibility source](https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-b-atomic-molecular-and-optical-physics/)
@@ -102,6 +122,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/) · [Venue](https://iopscience.iop.org/journal/0022-3727)
 
+**Quality evidence (needs_verification):** Verification incomplete: a traceable publication sample. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 28285, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+- Crossref: not verified — Exact-title authority match not established; no conclusion about inclusion elsewhere. [source](https://api.crossref.org/journals?query=Journal%20of%20Physics%20D%3A%20Applied%20Physics&rows=20)
+
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
 - [Author eligibility source](https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-d-applied-physics/)
@@ -122,6 +147,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-condensed-matter/) · [Venue](https://iopscience.iop.org/journal/0953-8984)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 28284, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+- Crossref: not verified — Exact-title authority match not established; no conclusion about inclusion elsewhere. [source](https://api.crossref.org/journals?query=Journal%20of%20Physics%3A%20Condensed%20Matter&rows=20)
 
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
@@ -145,6 +175,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/materials-futures/) · [Venue](https://iopscience.iop.org/journal/2752-5724)
 
+**Quality evidence (needs_verification):** Verification incomplete: a traceable publication sample. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 32205; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- DOAJ: registry confirmed — DOAJ record title: Materials Futures; ISSNs: 2752-5724. Exact title and audited ISSN match. [source](https://doaj.org/api/journals/a531e43238b3437d87d7c795996715d2)
+
 - Venue base: [China](https://www.materialsfutures.org/en/article/pdf/preview/10.1088/2752-5724/ac28f6.pdf) — Co-publishing host Songshan Lake Materials Laboratory, Dongguan.
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
@@ -167,6 +202,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** For material use, separate AI statement in Acknowledgements identifying tool/model, use and human verification; research use also described in Methods. Routine language editing excepted.
 
 [Author guidance](https://publishingsupport.iopscience.iop.org/journals/modelling-and-simulation-in-materials-science-and-engineering/) · [Venue](https://iopscience.iop.org/journal/0965-0393)
+
+**Quality evidence (needs_verification):** Verification incomplete: external peer-review details, current named editorial leadership, a traceable publication sample. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 33546; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
 
 - Publisher base: [United Kingdom](https://ioppublishing.org/about-us/contact-us/) — IOP Publishing headquarters, Bristol.
 - Author eligibility (not_stated): The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.
