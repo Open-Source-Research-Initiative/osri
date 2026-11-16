@@ -1,0 +1,94 @@
+{
+  "checked_on": "2026-11-16",
+  "status": "published_and_verified",
+  "directory": {
+    "pr": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/pull/11",
+    "reviewed_commit": "1ca703cb71f8664350b03c1fb3f1586f5ad75391",
+    "merged_main_commit": "38dba92939b28e6413d485e47b6ddc5c696d7da6",
+    "pr_ci": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/actions/runs/43944321752",
+    "main_ci": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/actions/runs/43944464895"
+  },
+  "hub": {
+    "pr": "https://github.com/Open-Source-Research-Initiative/osri/pull/19",
+    "reviewed_commit": "03b88f70d997ad0eed28ef9f956d3a0a10012eb5",
+    "reviewed_tree": "0b78a28c06fe900d55834846f3c5651a5e3e6c8d",
+    "merged_main_commit": "0b1ce3fe76e02b42475dc86df91af09d96aeb757",
+    "pr_ci": "https://github.com/Open-Source-Research-Initiative/osri/actions/runs/43945657564",
+    "main_ci": "https://github.com/Open-Source-Research-Initiative/osri/actions/runs/43946008417"
+  },
+  "issues": [
+    {
+      "packet": "issues/01-shortlist-trial.md",
+      "title": "First task: try a publication shortlist for one research topic",
+      "url": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/5",
+      "number": 5
+    },
+    {
+      "packet": "issues/02-research-ethics-costs.md",
+      "title": "First task: independently check Research Ethics submission and publication costs",
+      "url": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/6",
+      "number": 6
+    },
+    {
+      "packet": "issues/03-joss-ai-disclosure.md",
+      "title": "First task: verify JOSS AI-use and disclosure instructions",
+      "url": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/7",
+      "number": 7
+    },
+    {
+      "packet": "issues/04-international-relations-board.md",
+      "title": "First task: document International Relations editorial-board evidence",
+      "url": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/8",
+      "number": 8
+    },
+    {
+      "packet": "issues/05-physics-d-publication.md",
+      "title": "First task: trace one Journal of Physics D research article",
+      "url": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/9",
+      "number": 9
+    },
+    {
+      "packet": "issues/06-scope-comparison.md",
+      "title": "First task: check the scope and article types of a three-venue shortlist",
+      "url": "https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/10",
+      "number": 10
+    }
+  ],
+  "demo": {
+    "seconds": 89.92,
+    "codec": "VP8/WebM",
+    "bytes": 7760533,
+    "sha256": "dcba3aee71611fee8f15273689759d17c53823709139646e82f56ba8d0b0f960",
+    "captions": "on-screen plus optional WebVTT",
+    "transcript": "https://open-source-research-initiative.github.io/guides/docs/venue-directory-demo/"
+  },
+  "validation": {
+    "site_tests": 21,
+    "simulation_record_tests": 11,
+    "pages": 158,
+    "local_links": 7632,
+    "browser_preview": "qa-preview/browser-check.json",
+    "source_preservation": "baseline-preservation.json",
+    "issue_readback": "issues-readback.json",
+    "limits": "Agent checks; Chromium only; no external human trial; no test issue submitted",
+    "browser_live": "qa-live/browser-check.json",
+    "served_assets": "served-asset-checks.json"
+  },
+  "outreach": {
+    "drafts": "OUTREACH-DRAFTS.md",
+    "sent": false
+  },
+  "pilot": {
+    "external_users_recorded": 0,
+    "external_contributions_accepted": 0
+  },
+  "pages": {
+    "workflow_run": "https://github.com/Open-Source-Research-Initiative/open-source-research-initiative.github.io/actions/runs/43946299471",
+    "workflow_commit": "645df03a593d5bc86e080f7d6783e5d2098c178f",
+    "expected_hub_commit": "0b1ce3fe76e02b42475dc86df91af09d96aeb757",
+    "live_url": "https://open-source-research-initiative.github.io/venues/",
+    "status": "completed",
+    "conclusion": "success",
+    "served_hub_commit": "0b1ce3fe76e02b42475dc86df91af09d96aeb757"
+  }
+}
