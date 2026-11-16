@@ -46,6 +46,52 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 - [Disclosure source](https://journals.sagepub.com/author-instructions/pus) — AI generated (disclosure required); AI assistance (no disclosure required)
 - [Disclosure source](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy) — AI generated (disclosure required); AI assistance (no disclosure required)
 
+## Research Ethics
+
+**Fit:** Research ethics, scientific integrity, research regulation and ethics-review processes. Theoretical original articles and critical reviews allow work based on existing evidence; new clinical studies are unnecessary. Original empirical articles normally have a 7,000-word limit, theoretical articles 5,000, and reviews 3,000–6,000. Letters receive editorial review and are not automatically peer-reviewed research articles. An AI statement is mandatory in every submission, including an explicit statement of no AI use where applicable. Preprints are accepted but must not be updated during review; accepted work requires a final-publication link. The journal-specific AI statement requirement is stricter than Sage's general assistive-editing disclosure exemption.
+
+**Submission fee:** none. **Publication fee:** none.
+
+**Conditions and other costs:** The current journal-specific Community Open Access policy states no cost to authors or readers and no APC after acceptance, without an institutional-affiliation condition. The journal is online-only. Original empirical articles normally permit 7,000 words, theoretical articles 5,000, and reviews 3,000–6,000, excluding references; justify longer work to the editors. All submissions require an AI-use or no-use statement before references. An older official PDF still quotes an APC; the current named Community OA policy controls this recorded route. Recheck the current sponsorship/policy before submission. None for current Community OA under the broad no-author-cost statement; optional third-party permissions or services may cost extra.
+
+**AI policy:** Sage identifies literature assistance and generated or checked code for research as appropriate with disclosure and verification. Its discussion of primary or partial generated text, its statement that disclosed GenAI alone is not grounds for rejection, and non-exhaustive appropriate-use examples together support conditional human-led partial drafting by inference; the prompt-generated submission boundary remains ambiguous. Authors retain intellectual responsibility.
+
+**Disclosure (required):** Every submission must include an AI statement at the end of the manuscript before references: state no AI use or identify programs and their uses. Also disclose research-affecting generated content on submission and relevant research uses in methods or acknowledgements per Sage.
+
+[Author guidance](https://journals.sagepub.com/author-instructions/rea) · [Venue](https://journals.sagepub.com/home/rea)
+
+- Author eligibility (international): Journal submission guidelines encourage submissions from authors across all countries and backgrounds.
+- [Author eligibility source](https://journals.sagepub.com/author-instructions/rea)
+- [Fee evidence](https://journals.sagepub.com/author-instructions/REA): Current journal-specific Community OA policy excludes author costs without an affiliation condition. Instructions establish online-only publication, article-specific length limits and a mandatory AI statement. Uppercase official URL was accessible after lowercase URL timed out.
+- [Fee evidence](https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf): Older publisher-hosted instructions describe an APC, conflicting with current Community OA wording; timing and current applicability are uncertain.
+- [AI policy](https://journals.sagepub.com/author-instructions/rea): Indexed complete text includes Sage AI policy link and journal-specific AI statement required in every submission, placed before references.
+- [AI policy](https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf): Refers to publisher ethics and AI policy; predates indexed statement; current direct page could not be fetched.
+- [AI policy](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy): Explicit research literature and code support, disclosure of partial generated research content, and inappropriate uses; partial drafting is a conditional inference from combined clauses.
+- [Disclosure source](https://journals.sagepub.com/author-instructions/rea) — Journal AI Statement; Sage AI generated (disclosure required)
+- [Disclosure source](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy) — Journal AI Statement; Sage AI generated (disclosure required)
+- [Acceptance rate](https://journals.sagepub.com/overview-metric/REA): 21.9%; period: 2025; population: All journal submissions receiving a final accept/reject decision in the previous calendar year, including all article types; not the submission cohort and not only externally reviewed manuscripts.. The journal page reports this value without printing its year. The 2025 period is identified from Sage's previous-calendar-year definition at the live 2026-11-16 check; underlying decision counts are undisclosed. Definition: https://www.sagepub.com/journals/understanding-journal-metrics
+
+## Science Communication
+
+**Fit:** Research on communication of scientific knowledge and relationships among science, media and publics; analysis of existing communication data may fit.
+
+**Submission fee:** none. **Publication fee:** none.
+
+**Conditions and other costs:** The journal-specific instructions state no fees to submit or publish for the standard subscription route. Optional Sage Choice open access, requested colour in print and reprints can cost extra. Generic open-access agreement boilerplate mentions page or colour charges but specifies no journal-specific page-charge trigger; the recorded route relies on the explicit journal no-fee statement and excludes paid options. None for the standard subscription route under the blanket no-fees statement; avoid optional paid OA and print colour.
+
+**AI policy:** Human-led literature assistance and AI-generated or checked research code are appropriate with disclosure. Conditional partial drafting is inferred from Sage’s treatment of partial generated text and disclosed use, subject to editorial interpretation of its prohibition on generating a submission through prompts. Authors are responsible for accuracy and checking original sources.
+
+**Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in Methods or Acknowledgements. Suggestions to improve the author’s own language, grammar or structure do not require disclosure.
+
+[Author guidance](https://journals.sagepub.com/author-instructions/scx) · [Venue](https://journals.sagepub.com/home/scx)
+
+- Author eligibility (international): Journal submission guidelines encourage submissions from authors across all countries and backgrounds.
+- [Author eligibility source](https://journals.sagepub.com/author-instructions/scx)
+- [Fee evidence](https://journals.sagepub.com/author-instructions/scx): Journal instructions say there are no fees payable to submit or publish; optional open access is separately priced.
+- [AI policy](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy): Literature assistance and generated or checked research code are appropriate with disclosure; partial generated content affecting research is disclosed, and disclosed use alone does not lead to rejection. The prompt-generated submission restriction does not define partial drafting.
+- [AI policy](https://journals.sagepub.com/author-instructions/scx): Instructions explicitly direct authors to Sage AI disclosure and prohibited uses; no stronger title-specific restriction found in inspected instructions.
+- [Disclosure source](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy) — AI generated (disclosure required)
+
 ## Science, Technology, & Human Values
 
 **Fit:** Social studies of science and technology, including research institutions, knowledge production and research practices; a substantive STS contribution is necessary.

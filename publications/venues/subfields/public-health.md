@@ -2,6 +2,29 @@
 
 Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
 
+## Bulgarian Journal of Public Health
+
+**Fit:** Population health and public health research with Bulgaria, Europe and other countries in scope; publishes in Bulgarian and English. Verify current submission instructions.
+
+**Submission fee:** none. **Publication fee:** none.
+
+**Conditions and other costs:** The journal states that authors pay no submission or publication fees. Select an original research or review article within the stated 12-page limit and submit by email; foreign authors submit in English. The publisher provides technical editing, formatting and proofreading. The author instructions also require Bulgarian and English manuscripts for Bulgarian authors. The PDF instructions are undated; page and language rules should be checked at submission. No mandatory author payment identified for the documented email submission and standard publication route. The journal states there are no submission or publication fees and the publisher provides technical editing, formatting and proofreading. The instructions do not state a paid membership or paid translation requirement.
+
+**AI policy:** AI use for generating text, data analysis and other research components is expressly contemplated; code-assisted analysis falls within data analysis. Authors remain accountable.
+
+**Disclosure (required):** Disclose AI assistance transparently in the manuscript; a specific section, tool/version details are not stipulated.
+
+[Author guidance](https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf) · [Venue](https://ncpha.government.bg/)
+
+- Venue base: [Bulgaria](https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf) — Editorial office and national public-health center, Sofia.
+- Author eligibility (not_stated): The issue does not establish geographic eligibility for authors.
+- [Author eligibility source](https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf)
+- [Fee evidence](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf): Official policy states no submission and publication fees for the indicated route.
+- [Fee evidence](https://ncpha.government.bg/uploads/magazines/_AutorsInstr_en.pdf): Author instructions set a 12-page maximum for original articles and reviews, permit email submission, and specify English for foreign authors; the document is undated. No paid membership or translation service requirement is stated.
+- [Fee evidence](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf): Journal policy states no submission or publication fees and assigns technical editing, formatting and proofreading to the publisher.
+- [AI policy](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf): Explicit text, data analysis and other research uses with disclosure and author responsibility.
+- [Disclosure source](https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf) — Use of Artificial Intelligence (AI) Tools
+
 ## Epidemiologia e Serviços de Saúde: revista do SUS
 
 **Fit:** Population-health, epidemiology, management and policy evidence relevant to Brazil's Unified Health System (SUS). Existing-data analyses and systematic reviews fit; the Evidência em contexto category also accepts evidence synthesis, methods and policy interpretation. A concrete SUS contribution is required.

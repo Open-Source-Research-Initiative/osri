@@ -1,0 +1,1284 @@
+{
+  "batch": "societies-independent",
+  "venues": [
+    {
+      "id": "bulgarian-journal-of-public-health",
+      "name": "Bulgarian Journal of Public Health",
+      "kind": "journal",
+      "publisher": "National Center of Public Health and Analyses",
+      "homepage": "https://ncpha.government.bg/",
+      "author_guidelines": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+      "submission_url": null,
+      "subjects": [
+        "public-health"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Population health and public health research with Bulgaria, Europe and other countries in scope; publishes in Bulgarian and English. Verify current submission instructions.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Official ethics policy states no submission or publication fees; the journal is electronic and open access. Page, length and compulsory membership costs were not explicitly addressed in the policy inspected.",
+        "other_mandatory_costs": "Unresolved: no separate all-cost/page or membership statement was verified.",
+        "fee_evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Official policy states no submission and publication fees for the indicated route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+        "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/public-health.json",
+        "research/campaigns/2026-11-16-expansion/fees/public-health.json",
+        "research/campaigns/2026-11-16-expansion/geography/public-health.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/public-health.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/public-health.json"
+      ],
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "BG",
+            "name": "Bulgaria",
+            "basis": "Editorial office and national public-health center, Sofia",
+            "source_url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The issue does not establish geographic eligibility for authors.",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+          ]
+        },
+        "research_focus_regions": [
+          "Europe",
+          "North America",
+          "International"
+        ],
+        "scope_notes": "Official 2025 issue names Bulgaria, Europe, USA and other countries in scope.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+            "note": "Official 2025 issue names Bulgaria, Europe, USA and other countries in scope.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "AI use for generating text, data analysis and other research components is expressly contemplated; code-assisted analysis falls within data analysis. Authors remain accountable.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Disclose AI assistance transparently in the manuscript; a specific section, tool/version details are not stipulated.",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf"
+          ],
+          "section": "Use of Artificial Intelligence (AI) Tools"
+        },
+        "restrictions": [
+          "AI tools cannot be authors."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal policy",
+            "note": "Explicit text, data analysis and other research uses with disclosure and author responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "public-health-bulgarian-journal"
+      ],
+      "subfields": [
+        "public-health"
+      ],
+      "scope_by_subfield": {
+        "public-health": "Population health and public health research with Bulgaria, Europe and other countries in scope; publishes in Bulgarian and English. Verify current submission instructions."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "contextus-contemporary-journal-of-economics-and-management",
+      "name": "Contextus: Contemporary Journal of Economics and Management",
+      "kind": "journal",
+      "publisher": "Federal University of Ceará",
+      "homepage": "https://periodicos.ufc.br/contextus/",
+      "author_guidelines": "https://periodicos.ufc.br/contextus/about/submissions",
+      "submission_url": "https://periodicos.ufc.br/contextus/about/submissions",
+      "subjects": [
+        "economics"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Economics and management research including analysis, modeling, and technological articles.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "No fees at any editorial stage; substantive AI analysis, literature review and text generation require disclosure. Confirm code-specific interpretation.",
+        "other_mandatory_costs": "Current author guidelines and potential language or page costs require confirmation.",
+        "fee_evidence": [
+          {
+            "url": "https://periodicos.ufc.br/contextus/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Journal states authors are not charged for submission and publication.",
+            "access": "page"
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/article/download/41897/99200/",
+            "checked_on": "2026-11-16",
+            "note": "2019 editorial said editorial process had no author fees; historical evidence alone is insufficient for current policy.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://periodicos.ufc.br/contextus/about/submissions"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://periodicos.ufc.br/contextus/about/submissions",
+        "https://periodicos.ufc.br/contextus/politica"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/economics.json",
+        "research/campaigns/2026-11-16-expansion/fees/economics.json",
+        "research/campaigns/2026-11-16-expansion/geography/economics.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/economics.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/economics.json"
+      ],
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "BR",
+            "name": "Brazil",
+            "basis": "Editorial address at Federal University of Ceará, Fortaleza",
+            "source_url": "https://periodicos.ufc.br/contextus/contact"
+          }
+        ],
+        "venue_regions": [
+          "South America"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Geographic author eligibility was not affirmatively established from the sources checked.",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/contact"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Economics and management; no geographic restriction established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://periodicos.ufc.br/contextus/contact",
+            "note": "Editorial address at Federal University of Ceará, Fortaleza",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Journal policy explicitly covers AI use in literature review, analysis, text generation and modeling with human scientific responsibility.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe substantive use in the manuscript including tool name, version and purpose.",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/politica"
+          ],
+          "section": "8. Use of Artificial Intelligence Tools, especially 8.1–8.4"
+        },
+        "restrictions": [
+          "AI cannot be an author; fabrication, manipulation and reliance entirely on AI for decisions are prohibited."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://periodicos.ufc.br/contextus/politica",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions or policy.",
+            "note": "Journal policy explicitly covers AI use in literature review, analysis, text generation and modeling with human scientific responsibility."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "economics-contextus"
+      ],
+      "subfields": [
+        "economics"
+      ],
+      "scope_by_subfield": {
+        "economics": "Economics and management research including analysis, modeling, and technological articles."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "informs-journal-on-computing",
+      "name": "INFORMS Journal on Computing",
+      "kind": "journal",
+      "publisher": "INFORMS",
+      "homepage": "https://pubsonline.informs.org/journal/ijoc",
+      "author_guidelines": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "operations-simulation"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods",
+        "software"
+      ],
+      "scope_notes": "Theories, computational experiments, systems, methods and applications at the intersection of computing and OR; surveys, tutorials and useful software tools are welcome. Computational-experiment contributions require software and data sufficient to reproduce results.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Ordinary subscription publication remains available beside optional paid INFORMS Open Option. Main papers may contain 25 pages including references, tables and graphs, plus up to ten appendix pages; editorial permission is needed for exceptions. Print color is elective and charged. Explicit confirmation of submission, standard publication and page/member costs remains absent.",
+        "other_mandatory_costs": "unknown; submission, standard publication, page and membership costs need explicit confirmation",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions distinguish subscription from elective paid Open Option and state that authors may elect paid print color. They do not explicitly confirm zero costs for all aspects of the standard route.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy establishes that the Open Option fee is optional and unrelated to editorial decisions; it is not a complete standard-route fee statement.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://pubsonline.informs.org/page/ijoc/submission-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.5,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://pubsonline.informs.org/journal/ijoc",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "JCR category rank: Operations Research & Management Science (SCIE)",
+          "value": "52 / 106 (Q2)",
+          "year": 2024,
+          "population": "106 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/informs-journal-on-computing",
+          "note": "Citation-based category position, not acceptance selectivity."
+        },
+        {
+          "name": "JCR category rank: Computer Science, Interdisciplinary Applications (SCIE)",
+          "value": "115 / 175 (Q3)",
+          "year": 2024,
+          "population": "175 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/informs-journal-on-computing",
+          "note": "A separate category denominator; not comparable acceptance odds."
+        }
+      ],
+      "discovery_sources": [
+        "https://pubsonline.informs.org/page/ijoc/submission-guidelines"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/geography/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Changed the provisional high band to unknown because the proceedings-extension requirement has a narrower population than all submissions and routine screening does not calibrate comparative acceptance difficulty. Retain the 25-page main-paper limit plus up to ten appendix pages, software/data expectations, journal-reported citation metrics and needs_verification fee route.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Instructions inspected do not affirm worldwide author eligibility; absence of a geographic restriction is not proof of eligibility.",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/ijoc/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Research remit is topical rather than limited to a named region; author-location eligibility is not established by international scope.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://pubsonline.informs.org/journal/ijoc",
+            "note": "Journal identity and research remit reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "note": "Submission instructions checked for geographic eligibility; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal",
+            "note": "INFORMS identifies these as its scholarly journals.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.informs.org/About-INFORMS/Privacy-Policy",
+            "note": "Society and publisher contact address in the United States.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "In the acknowledgements identify the tool and the nature of its assistance for all generative AI use.",
+          "source_urls": [
+            "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf"
+          ],
+          "section": "Ethical violations: Authorship Misrepresentation"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publisher-wide policy, reproduced in its official author portal",
+            "note": "Current publication ethics expressly permits generative AI in manuscript preparation, naming drafting, summarization and data analysis, and requires tool and assistance details in acknowledgements."
+          },
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal author instructions identify INFORMS and its publication policies. Its AI prohibition concerns reviewers and editors, not authors."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "operations-simulation-informs-journal-on-computing"
+      ],
+      "subfields": [
+        "operations-simulation"
+      ],
+      "scope_by_subfield": {
+        "operations-simulation": "Theories, computational experiments, systems, methods and applications at the intersection of computing and OR; surveys, tutorials and useful software tools are welcome. Computational-experiment contributions require software and data sufficient to reproduce results."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "mathematics-of-operations-research",
+      "name": "Mathematics of Operations Research",
+      "kind": "journal",
+      "publisher": "INFORMS",
+      "homepage": "https://pubsonline.informs.org/journal/moor",
+      "author_guidelines": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "operations-simulation"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Foundational mathematical work in optimization, stochastic processes, queues, simulation methodology, networks, control, games and decision theory. The instructions require originality, quality and significance; correctness alone is insufficient.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Standard subscription publication exists alongside optional paid INFORMS Open Option. The reviewed pages do not explicitly exclude submission, page or membership charges. Normally at most 40 manuscript pages excluding references; up to 45 may be considered with justification. Print color is optional and charged.",
+        "other_mandatory_costs": "unknown; explicit confirmation of submission, standard publication, page and membership costs still required",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "The After Acceptance section identifies paid open access as an alternative to subscription publication and print color as an author-elected expense, but does not expressly say standard submission/publication is free.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy makes Open Option elective, with no effect on consideration or publication eligibility. This establishes optional OA, not absence of all other author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://pubsonline.informs.org/page/moor/submission-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 1.5,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://pubsonline.informs.org/journal/moor",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "JCR category rank: Operations Research & Management Science (SCIE)",
+          "value": "58 / 106 (Q3)",
+          "year": 2024,
+          "population": "106 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/mathematics-of-operations-research",
+          "note": "Citation-based category position for the stated year, not a selectivity ranking."
+        },
+        {
+          "name": "JCR category rank: Mathematics, Applied (SCIE)",
+          "value": "70 / 343 (Q1)",
+          "year": 2024,
+          "population": "343 journals in the publisher-reported JCR category table.",
+          "source_url": "https://pubsonline.informs.org/authorportal/journal-metrics/mathematics-of-operations-research",
+          "note": "Different citation category and denominator; not evidence of manuscript acceptance odds."
+        }
+      ],
+      "discovery_sources": [
+        "https://pubsonline.informs.org/page/moor/submission-guidelines"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/geography/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Independently read the journal submission, length and production sections and INFORMS Open Option policy. Elective OA and requested print color are separate expenses. No applicable explicit exclusion of submission, standard publication, page or required-member costs was found; retain needs_verification rather than transferring another INFORMS journal policy.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Instructions inspected do not affirm worldwide author eligibility; absence of a geographic restriction is not proof of eligibility.",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/moor/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Research remit is topical rather than limited to a named region; author-location eligibility is not established by international scope.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://pubsonline.informs.org/journal/moor",
+            "note": "Journal identity and research remit reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "note": "Submission instructions checked for geographic eligibility; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal",
+            "note": "INFORMS identifies these as its scholarly journals.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.informs.org/About-INFORMS/Privacy-Policy",
+            "note": "Society and publisher contact address in the United States.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Include a short subsection before the acknowledgement paragraph describing how the AI system was used and which model was used; if used to explore mathematical development, briefly summarize general steering rules. INFORMS also requires tool and assistance details in acknowledgements.",
+          "source_urls": [
+            "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "https://pubsonline.informs.org/page/moor/submission-guidelines"
+          ],
+          "section": "Use of Generative Artificial Intelligence (AI) in Manuscript Preparation; INFORMS ethical violations"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publisher-wide policy, reproduced in its official author portal",
+            "note": "Current publication ethics expressly permits generative AI in manuscript preparation, naming drafting, summarization and data analysis, and requires tool and assistance details in acknowledgements."
+          },
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Explicitly welcomes generative AI in manuscript preparation; authors must name model and describe use in subsection before acknowledgements, and summarize steering rules when exploring mathematical development."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "operations-simulation-mathematics-of-operations-research"
+      ],
+      "subfields": [
+        "operations-simulation"
+      ],
+      "scope_by_subfield": {
+        "operations-simulation": "Foundational mathematical work in optimization, stochastic processes, queues, simulation methodology, networks, control, games and decision theory. The instructions require originality, quality and significance; correctness alone is insufficient."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "operations-research",
+      "name": "Operations Research",
+      "kind": "journal",
+      "publisher": "INFORMS",
+      "homepage": "https://pubsonline.informs.org/journal/opre",
+      "author_guidelines": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "operations-simulation"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Analytical methods that advance decision-making, including theoretical and computational operations research. Offers focused technical and regular manuscripts; context-and-challenge papers are usually invited. Computational experiments require attention to journal data/software disclosure rules.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Optional paid OA is documented, but no explicit no-fee standard-route statement was found. Regular manuscripts are limited to 30 pages excluding references; longer manuscripts are generally at most 40. Print color incurs a cost only if elected. Journal fees must not be inferred from other INFORMS journals.",
+        "other_mandatory_costs": "unknown; submission, standard publication, page and membership costs need explicit confirmation",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "The journal offers subscription publication and optional paid Open Option, and makes print color an optional additional expense. It does not explicitly rule out standard submission/publication charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Open Option is elective and does not affect editorial consideration or publication eligibility; that does not independently prove every other cost is absent.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://pubsonline.informs.org/page/opre/submission-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.0,
+          "year": 2025,
+          "population": "Journal citation metric; underlying citation and citable-item counts are not supplied on this page.",
+          "source_url": "https://pubsonline.informs.org/journal/opre",
+          "note": "Official publisher-reported value. Citation impact is not an acceptance rate and does not determine the difficulty band."
+        },
+        {
+          "name": "Acceptance rate",
+          "value": "17.3%",
+          "year": "2025 Q1-Q3",
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://pubsonline.informs.org/pb-assets/filesopre/Ward-OPRE-report-2025-1761064466643.pdf",
+          "note": "Official dashboard on PDF page 4, in the report dated 2025-10-07. Denominator is not defined. The adjacent 102 acceptances and 741 original submissions are calendar-period counts, not a demonstrated submission cohort; do not divide them to replace the reported rate."
+        },
+        {
+          "name": "Acceptance rate",
+          "value": "19.9%",
+          "year": 2024,
+          "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+          "source_url": "https://pubsonline.informs.org/pb-assets/filesopre/Ward-OPRE-report-2025-1761064466643.pdf",
+          "note": "Official annual acceptance-rate series on PDF page 4. The dashboard does not define the rate population; do not assume it matches submissions received in 2024."
+        }
+      ],
+      "discovery_sources": [
+        "https://pubsonline.informs.org/page/opre/submission-guidelines"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/geography/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Independently read the journal submission, length and production sections and INFORMS Open Option policy. Elective OA and requested print color are separate expenses. No applicable explicit exclusion of submission, standard publication, page or required-member costs was found; retain needs_verification rather than transferring another INFORMS journal policy.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Instructions inspected do not affirm worldwide author eligibility; absence of a geographic restriction is not proof of eligibility.",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/opre/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Research remit is topical rather than limited to a named region; author-location eligibility is not established by international scope.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://pubsonline.informs.org/journal/opre",
+            "note": "Journal identity and research remit reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "note": "Submission instructions checked for geographic eligibility; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal",
+            "note": "INFORMS identifies these as its scholarly journals.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.informs.org/About-INFORMS/Privacy-Policy",
+            "note": "Society and publisher contact address in the United States.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "In the acknowledgements identify the tool and the nature of its assistance for all generative AI use.",
+          "source_urls": [
+            "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf"
+          ],
+          "section": "Ethical violations: Authorship Misrepresentation"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publisher-wide policy, reproduced in its official author portal",
+            "note": "Current publication ethics expressly permits generative AI in manuscript preparation, naming drafting, summarization and data analysis, and requires tool and assistance details in acknowledgements."
+          },
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal author instructions identify INFORMS and its publication policies. AI restrictions on the page concern reviewers and editors, not authors."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "operations-simulation-operations-research"
+      ],
+      "subfields": [
+        "operations-simulation"
+      ],
+      "scope_by_subfield": {
+        "operations-simulation": "Analytical methods that advance decision-making, including theoretical and computational operations research. Offers focused technical and regular manuscripts; context-and-challenge papers are usually invited. Computational experiments require attention to journal data/software disclosure rules."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "physical-review-e",
+      "name": "Physical Review E",
+      "kind": "journal",
+      "publisher": "American Physical Society",
+      "homepage": "https://journals.aps.org/pre/",
+      "author_guidelines": "https://journals.aps.org/pre/authors",
+      "submission_url": "https://authors.aps.org/Submissions/",
+      "subjects": [
+        "computational-physical-sciences"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Statistical, nonlinear, complex-systems, soft-matter, fluid, plasma and computational physics, including physically relevant machine learning. Significant and substantive additions to the literature are required; purely computational or existing-data studies can fit.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Choose standard subscription publication; APS explicitly names Physical Review E among journals without publication fees. Regular articles have no length limit; Letters are limited to 4500 words. Gold open access, print colour and reprints are optional; online colour is free. The author guide, journal submission FAQ and APS fee policy did not explicitly resolve a separate submission fee, so eligibility remains needs_verification.",
+        "other_mandatory_costs": "No standard publication charge identified; separate submission fee remains unknown. Electing paid print colour is avoidable: otherwise figures are published in colour online. No mandatory society membership or conference registration was stated.",
+        "fee_evidence": [
+          {
+            "url": "https://americanphysicalsociety.zendesk.com/hc/en-us/articles/41078385024027-Article-Processing-Charges-APCs",
+            "checked_on": "2026-11-16",
+            "note": "APS Help Center names Physical Review E among journals with no fees for traditional subscription publication; institutional open-access arrangements are separate.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.aps.org/pre/authors",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific guide: Regular Articles have no length limit; Letters have a 4500-word limit. Online colour is free; print colour and reprints are elective paid products. No distinct no-submission-fee statement located.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.aps.org/pre/authors/submission-faq",
+            "checked_on": "2026-11-16",
+            "note": "Journal submission FAQ confirms no required fee for standard hybrid publication, but does not separately state that initial submission is free.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.aps.org/authors/apcs",
+            "checked_on": "2026-11-16",
+            "note": "Publisher identifies Physical Review E as hybrid and limits the quoted APC to gold open access; this is not a compulsory charge for the subscription route.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.aps.org/pre/authors",
+          "https://journals.aps.org/pre/about"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 2.5,
+          "year": 2025,
+          "population": "Citations in 2025 to journal items published in 2023-2024, divided by the citable-item count for those two publication years.",
+          "source_url": "https://journals.aps.org/metrics",
+          "note": "Official APS table labels all values 2025 and supplies the two-year definition. Citation impact is separate from acceptance difficulty."
+        },
+        {
+          "name": "CiteScore",
+          "value": 4.1,
+          "year": 2025,
+          "population": "Citations in 2022-2025 to journal documents published in that same four-calendar-year period, divided by those documents.",
+          "source_url": "https://journals.aps.org/metrics",
+          "note": "Official APS 2025 table and CiteScore definition. No acceptance inference."
+        },
+        {
+          "name": "Total citations",
+          "value": 106524,
+          "year": 2025,
+          "population": "All citations received by Physical Review E in calendar year 2025, as counted by Clarivate.",
+          "source_url": "https://journals.aps.org/metrics",
+          "note": "Official APS 2025 table; annual count, not a per-article measure or acceptance statistic."
+        },
+        {
+          "name": "Published research papers",
+          "value": 1947,
+          "year": 2025,
+          "population": "Research papers, including regular articles, letters, reviews and perspectives, published in calendar year 2025.",
+          "source_url": "https://journals.aps.org/metrics",
+          "note": "Official APS 2025 table and published-papers definition. Published papers are not the denominator for an acceptance rate."
+        }
+      ],
+      "discovery_sources": [
+        "https://journals.aps.org/pre/",
+        "https://journals.aps.org/pre/authors",
+        "https://americanphysicalsociety.zendesk.com/hc/en-us/articles/41078385024027-Article-Processing-Charges-APCs",
+        "https://journals.aps.org/authors/apcs",
+        "https://journals.aps.org/pre/about"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/geography/computational-physical-sciences.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/computational-physical-sciences.json"
+      ],
+      "audit_note": "Read official acceptance criteria and the APS metrics table and definitions. No acceptance percentage was reported in those pages. The reported submission-to-acceptance median of 126 days covers direct submissions, not rejected papers, and is not an acceptance probability. Independent skeptical review (2026-11-16): Independently read author categories, the current submission FAQ, APS fee help, about page and 2025 metric table. Free standard publication and the Regular Article/Letter limits are supported; a separate no-submission-fee statement remains unresolved. Some repeated author-page retrievals timed out. Retained needs_verification and all four dated metrics.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "APS journal publisher and editorial operations, Hauppauge, New York",
+            "source_url": "https://journals.aps.org/pre/issues/114/4/deliverables/masthead/print/2"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "APS journal publisher and editorial operations, Hauppauge, New York",
+            "source_url": "https://journals.aps.org/pre/issues/114/4/deliverables/masthead/print/2"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The reviewed material did not affirm an author-location eligibility rule; international eligibility is not inferred.",
+          "source_urls": [
+            "https://journals.aps.org/pre/authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "The stated subject scope has no verified geographic limitation; author location eligibility is separately unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.aps.org/pre/authors",
+            "note": "Journal author/scope source; no affirmative worldwide author-eligibility statement established from the material reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.aps.org/pre/issues/114/4/deliverables/masthead/print/2",
+            "note": "Journal masthead names APS and its New York address.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "APS permits substantive reasoning, code, analysis and manuscript preparation with human oversight.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose tool name/version, assistance, direction and verification: research in Methods, AI figures in captions, other substantive use in Acknowledgments; light editing excepted.",
+          "source_urls": [
+            "https://journals.aps.org/authors/appropriate-use-ai-tools"
+          ],
+          "section": "Authors; FAQ"
+        },
+        "restrictions": [
+          "Authors verify content, retain responsibility and ensure rights and accurate figures."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.aps.org/authors/appropriate-use-ai-tools",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "APS Journals policy applies to Physical Review E",
+            "note": "APS permits substantive reasoning, code, analysis and manuscript preparation with human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "computational-physical-sciences-physical-review-e"
+      ],
+      "subfields": [
+        "computational-physical-sciences"
+      ],
+      "scope_by_subfield": {
+        "computational-physical-sciences": "Statistical, nonlinear, complex-systems, soft-matter, fluid, plasma and computational physics, including physically relevant machine learning. Significant and substantive additions to the literature are required; purely computational or existing-data studies can fit."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "theoretics",
+      "name": "TheoretiCS",
+      "kind": "journal",
+      "publisher": "TheoretiCS Foundation e.V.",
+      "homepage": "https://theoretics.episciences.org/",
+      "author_guidelines": "https://theoretics.episciences.org/page/submission-information",
+      "submission_url": null,
+      "subjects": [
+        "informatics-computing"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Original research across theoretical computer science, including full versions of conference papers. Articles need complete proofs and a contribution of lasting significance. Review articles are not a stated article type.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Free diamond Episciences journal. First post the article and LaTeX source on arXiv/CoRR, then submit the correct version through an Episciences account. No page limit applies. Only original research articles are accepted. Authors must be natural persons and disclose contributions by category of AI use. Conference versions are permitted; conference registration is not required for this journal route.",
+        "other_mandatory_costs": "No publication charge; separate submission fee and compulsory membership or other charges are not explicitly ruled out by the platform policy. Repository deposit and registration are nonmonetary conditions.",
+        "fee_evidence": [
+          {
+            "url": "https://theoretics.episciences.org/page/submission-information",
+            "checked_on": "2026-11-16",
+            "note": "Specifies no publication charges, arXiv/CoRR deposit, no page limit, original-research scope and AI disclosure.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "All Episciences journals have no publication fees; submission and publication are not conditional on a per-unit publication fee. This does not explicitly rule out a separate submission fee.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://theoretics.episciences.org/page/review-process"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Submissions received",
+          "value": 61,
+          "year": 2025,
+          "population": "Manuscripts submitted during 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Snapshot April 2026; count, not acceptance denominator for acceptance-year output."
+        },
+        {
+          "name": "Accepted submissions by acceptance year",
+          "value": 28,
+          "year": 2025,
+          "population": "Manuscripts accepted during 2025, including earlier submission years",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Snapshot April 2026; do not divide by 61 submissions from a different cohort."
+        },
+        {
+          "name": "Accepted submissions by submission year",
+          "value": 7,
+          "year": 2025,
+          "population": "2025 submission cohort, accepted by April 2026",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Incomplete cohort; later decisions can change count."
+        },
+        {
+          "name": "Submissions awaiting decision by submission year",
+          "value": 19,
+          "year": 2025,
+          "population": "2025 submission cohort still pending in April 2026",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Most pending 2024/2025 papers were in Phase 2."
+        },
+        {
+          "name": "Mean submission-to-Phase-1-decision time (days)",
+          "value": 61,
+          "year": 2025,
+          "population": "Papers reaching Phase 1 decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; milestone-year population."
+        },
+        {
+          "name": "Mean submission-to-final-decision time (days)",
+          "value": 201,
+          "year": 2025,
+          "population": "All papers reaching final decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; includes rejected and accepted papers."
+        },
+        {
+          "name": "Mean submission-to-final-decision time for accepted papers (days)",
+          "value": 359,
+          "year": 2025,
+          "population": "Accepted papers reaching final decision in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; excludes rejections."
+        },
+        {
+          "name": "Mean submission-to-publication time (days)",
+          "value": 436,
+          "year": 2025,
+          "population": "Papers published in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "April 2026 snapshot; different milestone population."
+        },
+        {
+          "name": "Review requests sent",
+          "value": 290,
+          "year": 2025,
+          "population": "Review requests issued in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Approximate; repeated requests can occur."
+        },
+        {
+          "name": "Completed reviews received",
+          "value": 174,
+          "year": 2025,
+          "population": "Reviews received in 2025",
+          "source_url": "https://theoretics.episciences.org/page/statistics",
+          "note": "Approximate; not a submission acceptance metric."
+        }
+      ],
+      "discovery_sources": [
+        "https://theoretics.episciences.org/",
+        "https://theoretics.episciences.org/page/submission-information",
+        "https://theoretics.episciences.org/page/review-process",
+        "https://www.episciences.org/publishing-model/"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/informatics-computing.json",
+        "research/campaigns/2026-11-16-expansion/geography/informatics-computing.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/informatics-computing.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/informatics-computing.json"
+      ],
+      "audit_note": "Statistics are an April 2026 snapshot, not live November counts. Preserved the latest complete calendar-year columns and separate submission-year, acceptance-year and milestone-year populations. No derived acceptance rate.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "DE",
+            "name": "Germany",
+            "basis": "owning TheoretiCS Foundation registered in Dortmund",
+            "source_url": "https://theoretics.episciences.org/page/theoretics-foundation"
+          }
+        ],
+        "venue_regions": [
+          "Europe"
+        ],
+        "publisher_countries": [
+          {
+            "code": "DE",
+            "name": "Germany",
+            "basis": "Identified journal publisher or owning organization, as specified in venue evidence",
+            "source_url": "https://theoretics.episciences.org/page/theoretics-foundation"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "No affirmative geographic author eligibility rule identified in inspected instructions.",
+          "source_urls": [
+            "https://theoretics.episciences.org/page/submission-information"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "No geographic research restriction identified in the inspected venue scope; a geographic author eligibility rule is not inferred from this.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://theoretics.episciences.org/page/theoretics-foundation",
+            "note": "The journal owner and publisher is a German association registered in Dortmund.",
+            "access": "page"
+          },
+          {
+            "url": "https://theoretics.episciences.org/page/submission-information",
+            "note": "Author instructions or submission page reviewed for geographic eligibility and research scope; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Current live author policy addresses any application of AI under human supervision, requires understanding and responsibility for all aspects, and permits AI-assisted writing. A search snippet reflected an older, more restrictive writing rule; the current page was read directly.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Include an AI disclosure statement in both the manuscript and cover letter describing use relevant to editorial assessment.",
+          "source_urls": [
+            "https://theoretics.episciences.org/page/policies"
+          ],
+          "section": "Use of artificial intelligence by authors"
+        },
+        "restrictions": [
+          "All authors must understand and take responsibility for proofs, experimental results, figures and citations; AI cannot be an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://theoretics.episciences.org/page/policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author information or applicable publisher policy as described.",
+            "note": "Current live author policy addresses any application of AI under human supervision, requires understanding and responsibility for all aspects, and permits AI-assisted writing. A search snippet reflected an older, more restrictive writing rule; the current page was read directly."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "informatics-computing-theoretics"
+      ],
+      "subfields": [
+        "informatics-computing"
+      ],
+      "scope_by_subfield": {
+        "informatics-computing": "Original research across theoretical computer science, including full versions of conference papers. Articles need complete proofs and a contribution of lasting significance. Review articles are not a stated article type."
+      },
+      "submission_status": "unknown"
+    }
+  ]
+}

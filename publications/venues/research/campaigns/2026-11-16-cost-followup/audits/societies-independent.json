@@ -1,0 +1,608 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "societies-independent",
+  "agent_task": "/root/cost_societies",
+  "notes": "Official publisher and journal sources reviewed; absence of fees cannot be inferred from paid optional OA.",
+  "patches": [
+    {
+      "id": "bulgarian-journal-of-public-health",
+      "source_record_ids": [
+        "public-health-bulgarian-journal"
+      ],
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Official ethics policy states no submission or publication fees; the journal is electronic and open access. Page, length and compulsory membership costs were not explicitly addressed in the policy inspected.",
+        "other_mandatory_costs": "Unresolved: no separate all-cost/page or membership statement was verified.",
+        "fee_evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+            "checked_on": "2026-11-16",
+            "note": "Official policy states no submission and publication fees for the indicated route.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Separate mandatory costs remain unresolved.",
+      "cost_checks": {
+        "submission": {
+          "status": "free",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf"
+          ],
+          "rationale": "Official ethics policy excludes submission fees."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf"
+          ],
+          "rationale": "Official ethics policy excludes publication fees."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf"
+          ],
+          "rationale": "Separate compulsory service, page-specific and membership costs not affirmatively resolved."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+          "checked_on": "2026-11-16",
+          "note": "Official policy states no submission and publication fees for the indicated route.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        }
+      ]
+    },
+    {
+      "id": "contextus-contemporary-journal-of-economics-and-management",
+      "source_record_ids": [
+        "economics-contextus"
+      ],
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "No fees at any editorial stage; substantive AI analysis, literature review and text generation require disclosure. Confirm code-specific interpretation. Submit in English, published in English only. Portuguese or Spanish submissions require author-paid professional English translation after acceptance. Journal recommends 10–20 pages including references; multilingual titles and abstracts required.",
+        "other_mandatory_costs": "No mandatory payment identified for English submissions under the journal’s no-fee policy. Paid professional translation applies to Portuguese or Spanish submissions; doctoral authors undertake to join reviewer pool if accepted.",
+        "fee_evidence": [
+          {
+            "url": "https://periodicos.ufc.br/contextus/about/submissions",
+            "checked_on": "2026-11-16",
+            "note": "Journal states authors are not charged for submission and publication.",
+            "access": "page"
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/article/download/41897/99200/",
+            "checked_on": "2026-11-16",
+            "note": "2019 editorial said editorial process had no author fees; historical evidence alone is insufficient for current policy.",
+            "access": "page"
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/information/authors",
+            "checked_on": "2026-11-16",
+            "note": "English submissions published in English only; 10–20 pages recommended including references; multilingual titles and abstracts required.",
+            "access": "page"
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/condicoesparasubmissao",
+            "checked_on": "2026-11-16",
+            "note": "Accepted Portuguese and Spanish submissions require author-paid professional translation into English; doctoral authors undertake to join reviewer pool.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "English submission qualifies; other languages have a paid translation requirement.",
+      "cost_checks": {
+        "submission": {
+          "status": "free",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/about/submissions",
+            "https://periodicos.ufc.br/contextus/article/download/41897/99200/",
+            "https://periodicos.ufc.br/contextus/information/authors",
+            "https://periodicos.ufc.br/contextus/condicoesparasubmissao"
+          ],
+          "rationale": "Journal states submission and all editorial stages free."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/about/submissions",
+            "https://periodicos.ufc.br/contextus/article/download/41897/99200/",
+            "https://periodicos.ufc.br/contextus/information/authors",
+            "https://periodicos.ufc.br/contextus/condicoesparasubmissao"
+          ],
+          "rationale": "Journal states publication free; English submissions published in English."
+        },
+        "mandatory_costs": {
+          "status": "none_for_route",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/about/submissions",
+            "https://periodicos.ufc.br/contextus/article/download/41897/99200/",
+            "https://periodicos.ufc.br/contextus/information/authors",
+            "https://periodicos.ufc.br/contextus/condicoesparasubmissao"
+          ],
+          "rationale": "All-stage no-fee policy applies to English submission. Required paid professional translation applies to Portuguese or Spanish submissions; multilingual titles and abstracts remain required."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://periodicos.ufc.br/contextus/about/submissions",
+          "checked_on": "2026-11-16",
+          "note": "Journal states authors are not charged for submission and publication.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://periodicos.ufc.br/contextus/article/download/41897/99200/",
+          "checked_on": "2026-11-16",
+          "note": "2019 editorial said editorial process had no author fees; historical evidence alone is insufficient for current policy.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://periodicos.ufc.br/contextus/information/authors",
+          "checked_on": "2026-11-16",
+          "note": "English submissions published in English only; 10–20 pages recommended including references; multilingual titles and abstracts required.",
+          "access": "page",
+          "applicability": "Journal instructions"
+        },
+        {
+          "url": "https://periodicos.ufc.br/contextus/condicoesparasubmissao",
+          "checked_on": "2026-11-16",
+          "note": "Accepted Portuguese and Spanish submissions require author-paid professional translation into English; doctoral authors undertake to join reviewer pool.",
+          "access": "page",
+          "applicability": "Journal instructions"
+        }
+      ]
+    },
+    {
+      "id": "informs-journal-on-computing",
+      "source_record_ids": [
+        "operations-simulation-informs-journal-on-computing"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Ordinary subscription publication remains available beside optional paid INFORMS Open Option. Main papers may contain 25 pages including references, tables and graphs, plus up to ten appendix pages; editorial permission is needed for exceptions. Print color is elective and charged. Explicit confirmation of submission, standard publication and page/member costs remains absent.",
+        "other_mandatory_costs": "unknown; submission, standard publication, page and membership costs need explicit confirmation",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions distinguish subscription from elective paid Open Option and state that authors may elect paid print color. They do not explicitly confirm zero costs for all aspects of the standard route.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy establishes that the Open Option fee is optional and unrelated to editorial decisions; it is not a complete standard-route fee statement.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Optional OA does not establish all standard route costs.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "No affirmative no-submission-fee statement found."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "Optional paid OA does not establish that subscription publication has no fees."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "Page, membership and required service costs not affirmatively resolved; print colour is optional."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/page/ijoc/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "note": "Journal instructions distinguish subscription from elective paid Open Option and state that authors may elect paid print color. They do not explicitly confirm zero costs for all aspects of the standard route.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+          "checked_on": "2026-11-16",
+          "note": "Publisher policy establishes that the Open Option fee is optional and unrelated to editorial decisions; it is not a complete standard-route fee statement.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        }
+      ]
+    },
+    {
+      "id": "mathematics-of-operations-research",
+      "source_record_ids": [
+        "operations-simulation-mathematics-of-operations-research"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Standard subscription publication exists alongside optional paid INFORMS Open Option. The reviewed pages do not explicitly exclude submission, page or membership charges. Normally at most 40 manuscript pages excluding references; up to 45 may be considered with justification. Print color is optional and charged.",
+        "other_mandatory_costs": "unknown; explicit confirmation of submission, standard publication, page and membership costs still required",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "The After Acceptance section identifies paid open access as an alternative to subscription publication and print color as an author-elected expense, but does not expressly say standard submission/publication is free.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Publisher policy makes Open Option elective, with no effect on consideration or publication eligibility. This establishes optional OA, not absence of all other author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Optional OA does not establish all standard route costs.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "No affirmative no-submission-fee statement found."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "Optional paid OA does not establish that subscription publication has no fees."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/moor/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "Page, membership and required service costs not affirmatively resolved; print colour is optional."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/page/moor/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "note": "The After Acceptance section identifies paid open access as an alternative to subscription publication and print color as an author-elected expense, but does not expressly say standard submission/publication is free.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+          "checked_on": "2026-11-16",
+          "note": "Publisher policy makes Open Option elective, with no effect on consideration or publication eligibility. This establishes optional OA, not absence of all other author charges.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        }
+      ]
+    },
+    {
+      "id": "operations-research",
+      "source_record_ids": [
+        "operations-simulation-operations-research"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Optional paid OA is documented, but no explicit no-fee standard-route statement was found. Regular manuscripts are limited to 30 pages excluding references; longer manuscripts are generally at most 40. Print color incurs a cost only if elected. Journal fees must not be inferred from other INFORMS journals.",
+        "other_mandatory_costs": "unknown; submission, standard publication, page and membership costs need explicit confirmation",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "The journal offers subscription publication and optional paid Open Option, and makes print color an optional additional expense. It does not explicitly rule out standard submission/publication charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "checked_on": "2026-11-16",
+            "note": "Open Option is elective and does not affect editorial consideration or publication eligibility; that does not independently prove every other cost is absent.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Optional OA does not establish all standard route costs.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "No affirmative no-submission-fee statement found."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "Optional paid OA does not establish that subscription publication has no fees."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+            "https://pubsonline.informs.org/authorportal/submission-guidelines"
+          ],
+          "rationale": "Page, membership and required service costs not affirmatively resolved; print colour is optional."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "note": "The journal offers subscription publication and optional paid Open Option, and makes print color an optional additional expense. It does not explicitly rule out standard submission/publication charges.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://pubsonline.informs.org/authorportal/INFORMS-open-option",
+          "checked_on": "2026-11-16",
+          "note": "Open Option is elective and does not affect editorial consideration or publication eligibility; that does not independently prove every other cost is absent.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://pubsonline.informs.org/authorportal/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "note": "Publisher general submission instructions do not supply a publisher-wide assurance of free submission or standard publication.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        }
+      ]
+    },
+    {
+      "id": "physical-review-e",
+      "source_record_ids": [
+        "computational-physical-sciences-physical-review-e"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Choose standard subscription publication; APS explicitly names Physical Review E among journals without publication fees. Regular articles have no length limit; Letters are limited to 4500 words. Gold open access, print colour and reprints are optional; online colour is free. The author guide, journal submission FAQ and APS fee policy did not explicitly resolve a separate submission fee, so eligibility remains needs_verification.",
+        "other_mandatory_costs": "No standard publication charge identified; separate submission fee remains unknown. Electing paid print colour is avoidable: otherwise figures are published in colour online. No mandatory society membership or conference registration was stated.",
+        "fee_evidence": [
+          {
+            "url": "https://americanphysicalsociety.zendesk.com/hc/en-us/articles/41078385024027-Article-Processing-Charges-APCs",
+            "checked_on": "2026-11-16",
+            "note": "APS Help Center names Physical Review E among journals with no fees for traditional subscription publication; institutional open-access arrangements are separate.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.aps.org/pre/authors",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific guide: Regular Articles have no length limit; Letters have a 4500-word limit. Online colour is free; print colour and reprints are elective paid products. No distinct no-submission-fee statement located.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.aps.org/pre/authors/submission-faq",
+            "checked_on": "2026-11-16",
+            "note": "Journal submission FAQ confirms no required fee for standard hybrid publication, but does not separately state that initial submission is free.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.aps.org/authors/apcs",
+            "checked_on": "2026-11-16",
+            "note": "Publisher identifies Physical Review E as hybrid and limits the quoted APC to gold open access; this is not a compulsory charge for the subscription route.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Standard publication is free; separate submission fee remains unverified.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://americanphysicalsociety.zendesk.com/hc/en-us/articles/41078385024027-Article-Processing-Charges-APCs",
+            "https://journals.aps.org/pre/authors",
+            "https://journals.aps.org/pre/authors/submission-faq",
+            "https://journals.aps.org/authors/apcs"
+          ],
+          "rationale": "Separate submission fee not explicitly resolved."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://americanphysicalsociety.zendesk.com/hc/en-us/articles/41078385024027-Article-Processing-Charges-APCs",
+            "https://journals.aps.org/pre/authors",
+            "https://journals.aps.org/pre/authors/submission-faq",
+            "https://journals.aps.org/authors/apcs"
+          ],
+          "rationale": "APS states no fees for standard subscription publication of this journal."
+        },
+        "mandatory_costs": {
+          "status": "none_for_route",
+          "source_urls": [
+            "https://americanphysicalsociety.zendesk.com/hc/en-us/articles/41078385024027-Article-Processing-Charges-APCs",
+            "https://journals.aps.org/pre/authors",
+            "https://journals.aps.org/pre/authors/submission-faq",
+            "https://journals.aps.org/authors/apcs"
+          ],
+          "rationale": "APS no-publication-fee policy applies to subscription publication; colour in print and reprints are optional."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://americanphysicalsociety.zendesk.com/hc/en-us/articles/41078385024027-Article-Processing-Charges-APCs",
+          "checked_on": "2026-11-16",
+          "note": "APS Help Center names Physical Review E among journals with no fees for traditional subscription publication; institutional open-access arrangements are separate.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://journals.aps.org/pre/authors",
+          "checked_on": "2026-11-16",
+          "note": "Journal-specific guide: Regular Articles have no length limit; Letters have a 4500-word limit. Online colour is free; print colour and reprints are elective paid products. No distinct no-submission-fee statement located.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://journals.aps.org/pre/authors/submission-faq",
+          "checked_on": "2026-11-16",
+          "note": "Journal submission FAQ confirms no required fee for standard hybrid publication, but does not separately state that initial submission is free.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://journals.aps.org/authors/apcs",
+          "checked_on": "2026-11-16",
+          "note": "Publisher identifies Physical Review E as hybrid and limits the quoted APC to gold open access; this is not a compulsory charge for the subscription route.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        }
+      ]
+    },
+    {
+      "id": "theoretics",
+      "source_record_ids": [
+        "informatics-computing-theoretics"
+      ],
+      "route": {
+        "model": "diamond",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "open_access",
+        "conditions": "Free diamond Episciences journal. First post the article and LaTeX source on arXiv/CoRR, then submit the correct version through an Episciences account. No page limit applies. Only original research articles are accepted. Authors must be natural persons and disclose contributions by category of AI use. Conference versions are permitted; conference registration is not required for this journal route.",
+        "other_mandatory_costs": "No publication charge; separate submission fee and compulsory membership or other charges are not explicitly ruled out by the platform policy. Repository deposit and registration are nonmonetary conditions.",
+        "fee_evidence": [
+          {
+            "url": "https://theoretics.episciences.org/page/submission-information",
+            "checked_on": "2026-11-16",
+            "note": "Specifies no publication charges, arXiv/CoRR deposit, no page limit, original-research scope and AI disclosure.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.episciences.org/publishing-model/",
+            "checked_on": "2026-11-16",
+            "note": "All Episciences journals have no publication fees; submission and publication are not conditional on a per-unit publication fee. This does not explicitly rule out a separate submission fee.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Publication is free; submission and separate mandatory costs remain unresolved.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://theoretics.episciences.org/page/submission-information",
+            "https://www.episciences.org/publishing-model/"
+          ],
+          "rationale": "No independent statement excludes submission fees; no APC is narrower."
+        },
+        "publication": {
+          "status": "free",
+          "source_urls": [
+            "https://theoretics.episciences.org/page/submission-information",
+            "https://www.episciences.org/publishing-model/"
+          ],
+          "rationale": "Journal and Episciences say no publication fees."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://theoretics.episciences.org/page/submission-information",
+            "https://www.episciences.org/publishing-model/"
+          ],
+          "rationale": "Separate membership or compulsory service costs not affirmatively resolved; arXiv deposit and account are required, no page limit."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://theoretics.episciences.org/page/submission-information",
+          "checked_on": "2026-11-16",
+          "note": "Specifies no publication charges, arXiv/CoRR deposit, no page limit, original-research scope and AI disclosure.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        },
+        {
+          "url": "https://www.episciences.org/publishing-model/",
+          "checked_on": "2026-11-16",
+          "note": "All Episciences journals have no publication fees; submission and publication are not conditional on a per-unit publication fee. This does not explicitly rule out a separate submission fee.",
+          "access": "page",
+          "applicability": "Journal or publisher policy as described"
+        }
+      ]
+    }
+  ]
+}

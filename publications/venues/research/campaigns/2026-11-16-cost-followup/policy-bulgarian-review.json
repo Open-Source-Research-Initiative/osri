@@ -1,0 +1,74 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/cost_review_first",
+  "id": "bulgarian-journal-of-public-health",
+  "verdict": "correct",
+  "rationale": "Reconsidered my earlier unresolved verdict: no actual compulsory paid membership, translation, or other service requirement is identified in the journal policy or its author instructions. Its unqualified no-submission-or-publication-fee statement encompasses normal publication page charges, and its publisher undertakes technical editing, formatting and proofreading. The documented email and in-limit article route therefore qualifies; lack of a separate statement about every hypothetical charge is not contrary evidence. The author instruction PDF is undated and gives separate language conditions for Bulgarian and foreign authors.",
+  "officialsources": [
+    {
+      "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+      "access": "page",
+      "note": "Official publication policy, page 3: no submission or publication fees; electronic open access; publisher performs technical editing, formatting and proofreading."
+    },
+    {
+      "url": "https://ncpha.government.bg/uploads/magazines/_AutorsInstr_en.pdf",
+      "access": "page",
+      "note": "Official undated author instructions: email submission; original research and reviews up to 12 pages; foreign authors submit in English, Bulgarian authors in Bulgarian and English; no paid service or membership requirement stated."
+    }
+  ],
+  "proposedroute": {
+    "model": "diamond",
+    "submission_fee": "none",
+    "publication_fee": "none",
+    "eligibility": "verified_free",
+    "oa_status": "open_access",
+    "conditions": "The journal states that authors pay no submission or publication fees. Select an original research or review article within the stated 12-page limit and submit by email; foreign authors submit in English. The publisher provides technical editing, formatting and proofreading. The author instructions also require Bulgarian and English manuscripts for Bulgarian authors. The PDF instructions are undated; page and language rules should be checked at submission.",
+    "other_mandatory_costs": "No mandatory author payment identified for the documented email submission and standard publication route. The journal states there are no submission or publication fees and the publisher provides technical editing, formatting and proofreading. The instructions do not state a paid membership or paid translation requirement.",
+    "fee_evidence": [
+      {
+        "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+        "checked_on": "2026-11-16",
+        "note": "Official policy states no submission and publication fees for the indicated route.",
+        "access": "page"
+      },
+      {
+        "url": "https://ncpha.government.bg/uploads/magazines/_AutorsInstr_en.pdf",
+        "checked_on": "2026-11-16",
+        "note": "Author instructions set a 12-page maximum for original articles and reviews, permit email submission, and specify English for foreign authors; the document is undated. No paid membership or translation service requirement is stated.",
+        "access": "page"
+      },
+      {
+        "url": "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+        "checked_on": "2026-11-16",
+        "note": "Journal policy states no submission or publication fees and assigns technical editing, formatting and proofreading to the publisher.",
+        "access": "page"
+      }
+    ]
+  },
+  "cost_checks": {
+    "submission": {
+      "status": "free",
+      "source_urls": [
+        "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+        "https://ncpha.government.bg/uploads/magazines/_AutorsInstr_en.pdf"
+      ],
+      "rationale": "Journal explicitly states authors are not charged submission fees; email submission is an identified route."
+    },
+    "publication": {
+      "status": "free",
+      "source_urls": [
+        "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+        "https://ncpha.government.bg/uploads/magazines/_AutorsInstr_en.pdf"
+      ],
+      "rationale": "Journal explicitly states authors are not charged publication fees, which semantically includes ordinary page charges; original and review articles are limited to 12 pages."
+    },
+    "mandatory_costs": {
+      "status": "none_for_route",
+      "source_urls": [
+        "https://ncpha.government.bg/uploads/magazines/Publication_Ethics_Policy.pdf",
+        "https://ncpha.government.bg/uploads/magazines/_AutorsInstr_en.pdf"
+      ],
+      "rationale": "Publisher handles technical editing, formatting and proofreading; the documented standard workflow states no compulsory paid membership or service. Email submission avoids physical delivery costs. This is evidence for the documented route, not a guarantee against any possible future policy change."
+    }
+  }
+}

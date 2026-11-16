@@ -1,0 +1,1989 @@
+{
+  "batch": "elsevier",
+  "venues": [
+    {
+      "id": "european-management-journal",
+      "name": "European Management Journal",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/european-management-journal",
+      "author_guidelines": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Management and organization research, including innovation and social entrepreneurship; contribution to management scholarship is necessary. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/european-management-journal"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0263237325000015",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-european-management-journal"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Management and organization research, including innovation and social entrepreneurship; contribution to management scholarship is necessary. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "industrial-marketing-management",
+      "name": "Industrial Marketing Management",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/industrial-marketing-management",
+      "author_guidelines": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Business-to-business and industrial marketing, including research synthesis on data-related ecosystem challenges. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/industrial-marketing-management"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 7.3,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 15.7,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/author/56785594200/g-h-s-mendes",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0019850118300385",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-industrial-marketing-management"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Business-to-business and industrial marketing, including research synthesis on data-related ecosystem challenges. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-business-research",
+      "name": "Journal of Business Research",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/journal-of-business-research",
+      "author_guidelines": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Business and organizational research, including existing-data analysis of business models and venture performance. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/journal-of-business-research"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 11.1,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 22.9,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0148296325004837",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S014829631500185X",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-journal-of-business-research"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Business and organizational research, including existing-data analysis of business models and venture performance. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "journal-of-engineering-and-technology-management",
+      "name": "Journal of Engineering and Technology Management",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management",
+      "author_guidelines": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Engineering and technology management, with potential relevance to research and innovation organizations. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 4.3,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 6.8,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/author/53464344800/nathalie-sick",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0923474826000068",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-journal-of-engineering-and-technology-management"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Engineering and technology management, with potential relevance to research and innovation organizations. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "reliability-engineering-and-system-safety",
+      "name": "Reliability Engineering & System Safety",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety",
+      "author_guidelines": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "systems-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Reliability, probabilistic safety assessment, uncertainty, human/software reliability, decision support, and complex-system failure analysis. Existing-data analysis, computational methods, and reviews can fit when addressing substantive real-system problems. Fuzzy/non-probabilistic methods need a significant demonstrable contribution to real-system analysis.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The official shop establishes a subscription title. Elsevier’s directly inspected author guide supports no base fee for subscription publication; paid OA is a separate choice. Journal-specific author instructions and publishing-options pages returned 403, leaving submission fees, page/overlength charges, membership requirements, and exceptions unresolved.",
+        "other_mandatory_costs": "Unknown: title-specific submission, page/length, and any compulsory membership or other author charges could not be inspected. No selective waiver or institutional agreement is assumed.",
+        "fee_evidence": [
+          {
+            "url": "https://shop.elsevier.com/journals/reliability-engineering-and-system-safety/0951-8320",
+            "checked_on": "2026-11-16",
+            "note": "Official journal-specific page establishes identity, scope, formats, and subscription availability; it does not establish author fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://researcheracademy.elsevier.com/uploads/2024-09/4768%20Get%20published%20and%20noticed%20A5_WEB.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The September 2024 publisher guide was directly retrieved in this audit; its printed page 18 says subscription publishing costs are covered by library subscriptions. This establishes the base subscription-publication fee, not journal-specific submission or page-charge exceptions.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Direct retrieval failed with HTTP 403; submission/page/publication-charge details were not inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher FAQ also excludes publication fees for the subscription option when discussing hybrid special-issue articles; it does not independently resolve this title’s regular-article submission or page charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/about/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Direct journal-specific publishing-options retrieval also returned HTTP 403; no complete fee schedule was inspected.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": []
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 13.7,
+          "year": null,
+          "population": null,
+          "source_url": "https://shop.elsevier.com/journals/reliability-engineering-and-system-safety/0951-8320",
+          "note": "Official current shop display; metric year is unstated and must not be inferred from access date."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 11.6,
+          "year": null,
+          "population": null,
+          "source_url": "https://shop.elsevier.com/journals/reliability-engineering-and-system-safety/0951-8320",
+          "note": "Official current shop display; metric year is unstated."
+        },
+        {
+          "name": "CiteScore",
+          "value": 21.9,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR",
+          "note": "Official indexed listing; metric year is unstated; direct journal Insights returned 403."
+        }
+      ],
+      "discovery_sources": [
+        "https://shop.elsevier.com/journals/reliability-engineering-and-system-safety/0951-8320",
+        "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/geography/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/systems-engineering.json"
+      ],
+      "audit_note": "Independently reopened the official journal shop and attempted title-specific instructions/options. Updated the base subscription publication fee to none from directly inspected publisher evidence, but kept needs_verification because compulsory submission and page/length costs remain unresolved. No citation number was used to infer difficulty. Undated publisher numbers are retained with null year/population, not assigned to 2025. Review: removed 1 null-valued metric placeholder(s) (Acceptance rate (%)); no missing statistic is represented as a canonical observation. No official defined acceptance rate was verified; missing data does not imply easy acceptance. Review independently read the official journal shop scope/metrics. The high difficulty band is replaced by unknown; submission/page exceptions remain unresolved, so needs_verification is retained.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Geographic author eligibility could not be established from the accessible material.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "No geographic research restriction established in the inspected material; an unrestricted or international remit is not inferred from silence.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety",
+            "note": "Direct journal homepage returned HTTP 403; geographic location remains unestablished.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "note": "Instructions returned HTTP 403; geographic author eligibility remains unclear.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier explicitly permits AI support for drafting as well as formal research design, code development and data analysis. Its drafting language describes assistance rather than merely copyediting; authors must check outputs and retain their own intellectual contribution, interpretation and responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Describe research and AI-assisted code use reproducibly in Methods. Put a separate manuscript-preparation declaration immediately before references naming the tool and purpose and confirming review and author responsibility; basic spelling, grammar and punctuation checks need no declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors / declaration of generative AI"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors verify content and sources, and AI must not replace their intellectual contribution. Research images cannot be fabricated or altered with generative AI."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal author guide could not be retrieved; specific stricter terms cannot be excluded."
+          },
+          {
+            "url": "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Publisher policy for journal authors expressly permits drafting support, research methods, analytical coding and data analysis, subject to human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "systems-engineering-reliability-engineering-and-system-safety"
+      ],
+      "subfields": [
+        "systems-engineering"
+      ],
+      "scope_by_subfield": {
+        "systems-engineering": "Reliability, probabilistic safety assessment, uncertainty, human/software reliability, decision support, and complex-system failure analysis. Existing-data analysis, computational methods, and reviews can fit when addressing substantive real-system problems. Fuzzy/non-probabilistic methods need a significant demonstrable contribution to real-system analysis."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "research-policy",
+      "name": "Research Policy",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/research-policy",
+      "author_guidelines": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Science, technology and innovation economics, management, and policy; existing-data and theory are suitable topics. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/research-policy"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0048733311001065",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-research-policy"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Science, technology and innovation economics, management, and policy; existing-data and theory are suitable topics. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "safety-science",
+      "name": "Safety Science",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/safety-science",
+      "author_guidelines": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "systems-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods"
+      ],
+      "scope_notes": "Human and industrial safety across technology, people, and organizations. Existing-data safety analyses, risk communication/management methods, computational studies, and state-of-the-art reviews can fit. Avoid conflating this Elsevier journal with the separate Safety.Science journal.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "none",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The official shop establishes a subscription title. Elsevier’s directly inspected author guide supports no base fee for subscription publication; paid OA is a separate choice. Journal-specific author instructions and publishing-options pages returned 403, leaving submission fees, page/overlength charges, membership requirements, and exceptions unresolved.",
+        "other_mandatory_costs": "Unknown: title-specific submission, page/length, and any compulsory membership or other author charges could not be inspected. No selective waiver or institutional agreement is assumed.",
+        "fee_evidence": [
+          {
+            "url": "https://shop.elsevier.com/journals/safety-science/0925-7535",
+            "checked_on": "2026-11-16",
+            "note": "Official journal-specific page establishes identity, scope, formats, and subscription availability; it does not establish author fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://researcheracademy.elsevier.com/uploads/2024-09/4768%20Get%20published%20and%20noticed%20A5_WEB.pdf",
+            "checked_on": "2026-11-16",
+            "note": "The September 2024 publisher guide was directly retrieved in this audit; its printed page 18 says subscription publishing costs are covered by library subscriptions. This establishes the base subscription-publication fee, not journal-specific submission or page-charge exceptions.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Direct retrieval failed with HTTP 403; submission/page/publication-charge details were not inspected.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher FAQ also excludes publication fees for the subscription option when discussing hybrid special-issue articles; it does not independently resolve this title’s regular-article submission or page charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/about/open-access-options",
+            "checked_on": "2026-11-16",
+            "note": "Direct journal-specific publishing-options retrieval also returned HTTP 403; no complete fee schedule was inspected.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": []
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 6.2,
+          "year": null,
+          "population": null,
+          "source_url": "https://shop.elsevier.com/journals/safety-science/0925-7535",
+          "note": "Official current shop display; metric year is unstated."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 6.4,
+          "year": null,
+          "population": null,
+          "source_url": "https://shop.elsevier.com/journals/safety-science/0925-7535",
+          "note": "Official current shop display; metric year is unstated."
+        },
+        {
+          "name": "CiteScore",
+          "value": 13.7,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR",
+          "note": "Official indexed listing; metric year is unstated."
+        }
+      ],
+      "discovery_sources": [
+        "https://shop.elsevier.com/journals/safety-science/0925-7535",
+        "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/geography/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/systems-engineering.json"
+      ],
+      "audit_note": "Independently reopened the official journal shop and attempted title-specific instructions/options. Updated the base subscription publication fee to none from directly inspected publisher evidence, but kept needs_verification because compulsory submission and page/length costs remain unresolved. Scope, citation impact, and acceptance difficulty remain separate. No third-party competitiveness estimate was adopted. Review: removed 1 null-valued metric placeholder(s) (Acceptance rate (%)); no missing statistic is represented as a canonical observation. No official defined acceptance rate was verified; missing data does not imply easy acceptance. Review independently read the official shop identity/scope and undated JIF displays. The fees audit conservatively leaves submission/page exceptions unresolved. Retained unknown difficulty and needs_verification; did not infer peer-review status from a blocked journal author guide.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Geographic author eligibility could not be established from the accessible material.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "No geographic research restriction established in the inspected material; an unrestricted or international remit is not inferred from silence.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science",
+            "note": "Direct journal homepage returned HTTP 403; geographic location remains unestablished.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "note": "Instructions returned HTTP 403; geographic author eligibility remains unclear.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier explicitly permits AI support for drafting as well as formal research design, code development and data analysis. Its drafting language describes assistance rather than merely copyediting; authors must check outputs and retain their own intellectual contribution, interpretation and responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Describe research and AI-assisted code use reproducibly in Methods. Put a separate manuscript-preparation declaration immediately before references naming the tool and purpose and confirming review and author responsibility; basic spelling, grammar and punctuation checks need no declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "For authors / declaration of generative AI"
+        },
+        "restrictions": [
+          "AI cannot be an author; authors verify content and sources, and AI must not replace their intellectual contribution. Research images cannot be fabricated or altered with generative AI."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sciencedirect.com/journal/safety-science/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific guidance",
+            "note": "Journal author guide could not be retrieved; specific stricter terms cannot be excluded."
+          },
+          {
+            "url": "https://www.elsevier.com/en-in/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Publisher policy for journal authors expressly permits drafting support, research methods, analytical coding and data analysis, subject to human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "systems-engineering-safety-science"
+      ],
+      "subfields": [
+        "systems-engineering"
+      ],
+      "scope_by_subfield": {
+        "systems-engineering": "Human and industrial safety across technology, people, and organizations. Existing-data safety analyses, risk communication/management methods, computational studies, and state-of-the-art reviews can fit. Avoid conflating this Elsevier journal with the separate Safety.Science journal."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "technological-forecasting-and-social-change",
+      "name": "Technological Forecasting and Social Change",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+      "author_guidelines": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Technology forecasting, social change and technology innovation management; research synthesis and forecasting are potential fits. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 13.5,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 30.5,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/author/53464344800/nathalie-sick",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0040162519305220",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-technological-forecasting-and-social-change"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Technology forecasting, social change and technology innovation management; research synthesis and forecasting are potential fits. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "technology-in-society",
+      "name": "Technology in Society",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/technology-in-society",
+      "author_guidelines": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Technology and societal or organizational consequences, including digital economy and comparative existing-data analysis. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technology-in-society"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 12.9,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 25.4,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0160791X23001720",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0160791X20306357",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-technology-in-society"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Technology and societal or organizational consequences, including digital economy and comparative existing-data analysis. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "technovation",
+      "name": "Technovation",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/technovation",
+      "author_guidelines": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Innovation management and technology ecosystems, including digital platforms and business models. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technovation"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 12.0,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 23.4,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0166497226002208",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0166497221000845",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-technovation"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Innovation management and technology ecosystems, including digital platforms and business models. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "value-in-health",
+      "name": "Value in Health",
+      "kind": "journal",
+      "publisher": "Elsevier for ISPOR",
+      "homepage": "https://www.ispor.org/publications/journals/value-in-health",
+      "author_guidelines": "https://www.ispor.org/docs/default-source/publications/vih-instructions-for-authors.pdf",
+      "submission_url": null,
+      "subjects": [
+        "health-economics"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Economic evaluation, methods, health outcomes and health policy; existing-data and theoretical research.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Current society instructions provide a subscription option with no open access publication fee; optional gold OA incurs an APC. No general absence of all publication or submission charges is established.",
+        "other_mandatory_costs": "Unknown: verify submission, page, length, and membership charges. ISPOR membership provides an optional OA discount.",
+        "fee_evidence": [
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Society compares subscription with paid gold OA and says no OA publication fee applies to subscription.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Instructions state not all articles require a fee, and subscription articles become open archive after one year.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://www.ispor.org/docs/default-source/publications/vih-instructions-for-authors.pdf"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 6.2,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR describes as current but does not identify the metric year."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 6.5,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR describes as current but does not identify the metric year."
+        },
+        {
+          "name": "CiteScore",
+          "value": 8.4,
+          "year": null,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR describes as current but does not identify the metric year."
+        },
+        {
+          "name": "Overall rejection rate (%)",
+          "value": ">82%",
+          "year": 2025,
+          "population": null,
+          "source_url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/about-the-journal",
+          "note": "ISPOR reports overall rejection rate; denominator not further specified. Not converted to an acceptance rate."
+        }
+      ],
+      "discovery_sources": [
+        "https://www.ispor.org/publications/journals/value-in-health",
+        "https://www.ispor.org/docs/default-source/publications/vih-instructions-for-authors.pdf",
+        "https://www.ispor.org/docs/default-source/value-in-health/vih_open-access-policy.pdf"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/health-economics.json",
+        "research/campaigns/2026-11-16-expansion/fees/health-economics.json",
+        "research/campaigns/2026-11-16-expansion/geography/health-economics.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/health-economics.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/health-economics.json"
+      ],
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "ISPOR society office in Lawrenceville, New Jersey; society flagship journal",
+            "source_url": "https://www.ispor.org/about/contact-us"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The international journal description does not affirm author geographic eligibility.",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health",
+            "https://www.ispor.org/docs/default-source/publications/vih-instructions-for-authors.pdf"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Society describes an international journal advancing health economics and outcomes research.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health",
+            "note": "Identifies ISPOR flagship journal and international remit.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.ispor.org/about/contact-us",
+            "note": "ISPOR society address in the United States.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier headquarters is Amsterdam; not the journal location.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.ispor.org/docs/default-source/publications/vih-instructions-for-authors.pdf",
+            "note": "Instructions supplied by journal; geographic author eligibility not established.",
+            "access": "unavailable"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "The journal explicitly encourages responsible AI use and gives an example of AI-generated first drafts; applicable Elsevier policy permits research design, analysis and code development with human judgment and transparent methods. AI drafting is prohibited for Letters to the Editor, but the policy gives a first-draft example for other manuscripts.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Journal requires a use or no-use statement on the title page and immediately before references, identifying tool, purpose and human oversight; describe research methods and analysis reproducibly in Methods.",
+          "source_urls": [
+            "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Use of Artificial Intelligence"
+        },
+        "restrictions": [
+          "Authors retain scientific judgment and responsibility; AI cannot be an author; comply with applicable image restrictions.",
+          "AI use for drafting Letters to the Editor is prohibited; this article-type restriction overrides general drafting permission."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.ispor.org/publications/journals/value-in-health/for-authors/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific policy",
+            "note": "Journal-specific instructions give first-draft example, require declarations and refer authors to Elsevier policy."
+          },
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Elsevier policy linked by journal",
+            "note": "Publisher policy permits research design, code and analysis; requires reproducible methods and human oversight."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "health-economics-value-in-health"
+      ],
+      "subfields": [
+        "health-economics"
+      ],
+      "scope_by_subfield": {
+        "health-economics": "Economic evaluation, methods, health outcomes and health policy; existing-data and theoretical research."
+      },
+      "submission_status": "unknown"
+    }
+  ]
+}

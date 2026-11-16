@@ -1,0 +1,82 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/cost_springer_1",
+  "scope": "Focused publisher-wide policy pass; title-specific verification limited to the ten original springer-1 venues, not an independent re-audit of the remaining Springer assignments.",
+  "findings": [
+    {
+      "topic": "General subscription statement",
+      "finding": "Springer Nature author overview broadly says publishing in a subscription journal is free, while also stating each journal has its own publishing policies, options and fees. This is meaningful affirmative evidence about the standard publishing model, not merely an APC statement. However, the publisher support article specifically says only the majority of subscription journals have no charge and lists page, overlength and colour exceptions. Pricing FAQ also says hybrid journals vary by journal. Therefore the broad overview is not an unconditional assurance for each journal or every manuscript; reconcile against actual title-specific cost policies and an eligible article within any free length limit.",
+      "source_urls": [
+        "https://www.springernature.com/gp/authors/publish-an-article",
+        "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+        "https://www.springernature.com/gp/open-science/journals-books/journal-pricing-faqs"
+      ]
+    },
+    {
+      "topic": "Submission cost",
+      "finding": "Neither the broad subscription publishing statement nor the title-specific zero-APC language addresses the separate stage of submission. Search did not find a publisher-wide universal no-submission-fee policy. A 2022 Springer-hosted Annals of Surgical Oncology author instruction documented a submission processing fee, establishing this distinction historically, not that the fee still applies: a 2025 publisher PDF says it was removed in 2023. Do not apply those historical details to any assigned title.",
+      "source_urls": [
+        "https://media.springer.com/full/springer-instructions-for-authors-assets/pdf/10434_ASO_Instructions_Nov2022.pdf",
+        "https://media.springer.com/full/springer-instructions-for-authors-assets/pdf/10434_ASO%20Instructions%20to%20Authors_2025.pdf"
+      ]
+    },
+    {
+      "topic": "Title-specific evidence and reconciliation",
+      "finding": "The ten springer-1 journal publishing and submission pages were directly read. Nine offer a subscription route without an APC; the instructions do not provide explicit comprehensive no-submission or no-page-fee assurances. Under the campaign contract, silence alone cannot establish those missing costs, even combined with the general overview in light of Springer exceptions. Autonomous Intelligent Systems is fully OA and its journal-specific statement says no fee to publish because Tongji University covers the APC; this meaningfully establishes no publication fee but does not expressly address submission. It remains unresolved under the contract. No sponsor end date stated.",
+      "source_urls": [
+        "https://link.springer.com/journal/43684/how-to-publish-with-us",
+        "https://link.springer.com/journal/43684/submission-guidelines"
+      ]
+    },
+    {
+      "topic": "Limit of inference",
+      "finding": "No evidence found sufficient for promotion of the ten original assigned venues. This is not proof that they charge submission or page fees, nor proof all 50 other Springer records remain unverified: an independently located title-specific blanket no-author-charge statement, no-submission policy, or a free route within a stated page limit may support different outcomes. Reread each actual source before adjudication.",
+      "source_urls": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.springernature.com/gp/authors/publish-an-article",
+      "access": "page",
+      "checked_on": "2026-11-16",
+      "applicability": "General Springer Nature author overview",
+      "note": "Broad subscription-is-free statement is accompanied by journal-specific policies and fees language."
+    },
+    {
+      "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+      "access": "page",
+      "checked_on": "2026-11-16",
+      "applicability": "Springer Nature subscription journals",
+      "note": "Majority no charge; page, overlength and colour charges may apply; journal homepage should give costs."
+    },
+    {
+      "url": "https://www.springernature.com/gp/open-science/journals-books/journal-pricing-faqs",
+      "access": "page",
+      "checked_on": "2026-11-16",
+      "applicability": "Springer Nature hybrid and fully open access journals",
+      "note": "Page and colour fees vary by hybrid title; some society-owned OA titles have additional charges."
+    },
+    {
+      "url": "https://media.springer.com/full/springer-instructions-for-authors-assets/pdf/10434_ASO_Instructions_Nov2022.pdf",
+      "access": "search_snippet",
+      "checked_on": "2026-11-16",
+      "applicability": "Historical 2022 instructions for Annals of Surgical Oncology only",
+      "note": "Publisher PDF indexed text reports former submission processing fee. Web reader did not handle content-type; historical counterexample only, not a current fee claim."
+    },
+    {
+      "url": "https://media.springer.com/full/springer-instructions-for-authors-assets/pdf/10434_ASO%20Instructions%20to%20Authors_2025.pdf",
+      "access": "search_snippet",
+      "checked_on": "2026-11-16",
+      "applicability": "2025 Annals of Surgical Oncology instructions only",
+      "note": "Publisher PDF indexed text says the submission fee was removed in 2023. Do not treat historical fee as current; web search indexed PDF text."
+    },
+    {
+      "url": "https://link.springer.com/journal/43684/how-to-publish-with-us",
+      "access": "page",
+      "checked_on": "2026-11-16",
+      "applicability": "Autonomous Intelligent Systems",
+      "note": "Journal says no fee to publish because Tongji University covers APC; submission not specifically addressed."
+    }
+  ],
+  "proposed_corrections": []
+}

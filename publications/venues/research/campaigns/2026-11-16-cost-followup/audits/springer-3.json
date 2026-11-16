@@ -1,0 +1,845 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "springer-3",
+  "agent_task": "/root/cost_springer_3",
+  "notes": "Reviewed all ten journal-specific submission and publishing pages by direct HTTPS (HTTP 200). No comprehensive zero-cost assurance established. 2026 congress call encountered through search snippet, not treated as a general journal fee.",
+  "patches": [
+    {
+      "id": "international-archives-of-occupational-and-environmental-health",
+      "source_record_ids": [
+        "environmental-public-health-international-archives-of-occupational-and-environmental-health"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "The subscription route has no APC under Springer Nature policy. Optional open access carries an APC. Online color is free; print color incurs an author contribution. No explicit comprehensive submission-fee statement found; no APC does not rule out other mandatory charges. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/420",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage identifies hybrid publishing model.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/420/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Online color is free; print color incurs an author contribution. Submission fee and complete mandatory cost schedule not established from instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000257336-subscription-publishing",
+            "checked_on": "2026-11-16",
+            "note": "Publisher states subscription publication has no APC, while some journals may charge for pages and color.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/420/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/420/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/420/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/420/how-to-publish-with-us",
+            "https://link.springer.com/journal/420/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/420/submission-guidelines",
+            "https://link.springer.com/journal/420/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/420/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/420/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "international-journal-of-control-automation-and-systems",
+      "source_record_ids": [
+        "robotics-control-international-journal-control-automation-systems"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Subscription route has no APC; optional open access incurs an APC. Online color is free, while print color incurs an extra contribution. Submission, page/length and compulsory membership charges remain unverified. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/12555/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies a subscription route with no APC; this does not establish absence of submission, page or other charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12555/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions specify free online color and an extra author contribution for print color; submission, page/length and compulsory membership charges remain unverified.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12555/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12555/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/12555/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/12555/how-to-publish-with-us",
+            "https://link.springer.com/journal/12555/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/12555/submission-guidelines",
+            "https://link.springer.com/journal/12555/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/12555/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/12555/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "international-journal-of-dynamics-and-control",
+      "source_record_ids": [
+        "robotics-control-international-journal-dynamics-control"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Subscription route has no APC; optional open access incurs an APC. Online color is free, while print color incurs an extra contribution. Submission, page/length and compulsory membership charges remain unverified. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/40435/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies a subscription route with no APC; this does not establish absence of submission, page or other charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions specify free online color and an extra author contribution for print color; submission, page/length and compulsory membership charges remain unverified.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/40435/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/40435/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/40435/how-to-publish-with-us",
+            "https://link.springer.com/journal/40435/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/40435/submission-guidelines",
+            "https://link.springer.com/journal/40435/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/40435/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/40435/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "international-journal-of-intelligent-robotics-and-applications",
+      "source_record_ids": [
+        "robotics-control-international-journal-intelligent-robotics-applications"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Subscription route has no APC; optional open access incurs an APC. Online color is free, while print color incurs an extra contribution. Submission, page/length and compulsory membership charges remain unverified. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/41315/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies a subscription route with no APC; this does not establish absence of submission, page or other charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions specify free online color and an extra author contribution for print color; submission, page/length and compulsory membership charges remain unverified.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/41315/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/41315/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/41315/how-to-publish-with-us",
+            "https://link.springer.com/journal/41315/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/41315/submission-guidelines",
+            "https://link.springer.com/journal/41315/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/41315/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/41315/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "international-journal-of-social-robotics",
+      "source_record_ids": [
+        "robotics-control-international-journal-social-robotics"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Subscription route has no APC; optional open access incurs an APC. Online color is free, while print color incurs an extra contribution. Submission, page/length and compulsory membership charges remain unverified. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/12369/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal identifies a subscription route with no APC; this does not establish absence of submission, page or other charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Author instructions specify free online color and an extra author contribution for print color; submission, page/length and compulsory membership charges remain unverified.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/12369/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/12369/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/12369/how-to-publish-with-us",
+            "https://link.springer.com/journal/12369/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/12369/submission-guidelines",
+            "https://link.springer.com/journal/12369/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/12369/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/12369/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "international-journal-of-system-assurance-engineering-and-management",
+      "source_record_ids": [
+        "systems-engineering-international-journal-of-system-assurance-engineering-and-management"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "optional_open_access",
+        "conditions": "The official title-specific publishing page confirms no APC for subscription publication; optional open access has an APC. No conclusion about submission, page, overlength, membership, or other mandatory charges follows from the APC statement. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/13198/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal offers subscription publication without an APC and paid optional open access; this alone does not establish absence of all author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13198/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/13198/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13198/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13198/how-to-publish-with-us",
+            "https://link.springer.com/journal/13198/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/13198/submission-guidelines",
+            "https://link.springer.com/journal/13198/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/13198/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/13198/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "international-tax-and-public-finance",
+      "source_record_ids": [
+        "public-policy-international-tax-and-public-finance"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "hybrid",
+        "conditions": "Journal-specific publishing page explicitly offers a subscription route with no APC and an optional paid open-access route; institutional open-access agreements are conditional. No APC is not proof of no submission, page, overlength, or other required charges. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route. The separate 2026 IIPF congress has a nonmember submission charge; its call distinguishes the congress from journal submission and does not establish a general journal fee.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10797/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific page explicitly states subscription publication has no APC and open access has a paid APC; it does not establish no submission or other mandatory charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says subscription charges are absent in most cases, but page and overlength charges may apply; the journal page must be checked. This does not establish zero fees here.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10797/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10797/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10797/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10797/how-to-publish-with-us",
+            "https://link.springer.com/journal/10797/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10797/submission-guidelines",
+            "https://link.springer.com/journal/10797/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/10797/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/10797/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        },
+        {
+          "url": "https://www.iipf.org/papers/Call%20for%20Papers_IIPF%202026_print.pdf",
+          "checked_on": "2026-11-16",
+          "access": "search_snippet",
+          "applicability": "2026 congress, not general journal submissions",
+          "note": "Nonmember congress submission fee is separate from journal submission for the special issue; no general journal fee inferred."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-biological-physics",
+      "source_record_ids": [
+        "computational-biology-journal-of-biological-physics"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription",
+        "conditions": "Select the subscription route: its standard APC is explicitly zero. Optional open access is charged. Submission fees and complete page/excess-length or other compulsory-cost assurance remain unverified. Online colour is free; printed colour incurs an optional contribution. Check funder licensing compatibility. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10867/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200): the named hybrid journal explicitly offers subscription publication without an APC; paid OA is optional.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10867/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Independently read live (HTTP 200). Online colour is free; printed colour incurs an optional contribution. No explicit zero-submission/all-compulsory-cost policy found; silence does not prove absence.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Subscription journals may impose colour, page or excess-length charges; consult journal instructions.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10867/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10867/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10867/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10867/how-to-publish-with-us",
+            "https://link.springer.com/journal/10867/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10867/submission-guidelines",
+            "https://link.springer.com/journal/10867/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/10867/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/10867/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-combinatorial-optimization",
+      "source_record_ids": [
+        "operations-simulation-journal-of-combinatorial-optimization"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Subscription route has no APC; optional open access has an APC. Submission, compulsory page and membership costs remain unverified. Online color is free; confirm any print-color costs. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10878/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Subscription option has no APC; OA is a separately paid choice.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10878/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Submission instructions reviewed; absence of an explicit submission or page fee is not proof of no charge. Online color is free.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10878/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10878/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10878/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10878/how-to-publish-with-us",
+            "https://link.springer.com/journal/10878/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10878/submission-guidelines",
+            "https://link.springer.com/journal/10878/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/10878/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/10878/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    },
+    {
+      "id": "journal-of-intelligent-manufacturing",
+      "source_record_ids": [
+        "systems-engineering-journal-of-intelligent-manufacturing"
+      ],
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "optional_open_access",
+        "conditions": "The official title-specific publishing page confirms no APC for subscription publication; optional open access has an APC. No conclusion about submission, page, overlength, membership, or other mandatory charges follows from the APC statement. Current journal-specific publishing page confirms no subscription APC, but this does not establish a comprehensive zero-cost route.",
+        "other_mandatory_costs": "Page or excess-length, compulsory membership, submission and other mandatory costs remain unverified; online color is free and print color incurs an additional contribution.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10845/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal offers subscription publication without an APC and paid optional open access; this alone does not establish absence of all author charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10845/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific subscription publication has no APC; optional open access is charged. This is not an assurance against other fees.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10845/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Current author instructions read via ordinary HTTPS. Online color free and print color extra; no comprehensive exclusion of submission or other mandatory charges established.",
+            "access": "page"
+          }
+        ]
+      },
+      "audit_note": "Read current journal-specific author instructions and publishing options via direct HTTPS. No APC does not establish the absence of all author costs; retained as needs_verification.",
+      "cost_checks": {
+        "submission": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10845/submission-guidelines"
+          ],
+          "rationale": "Current journal instructions reviewed; no affirmative statement that submission is free identified."
+        },
+        "publication": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10845/how-to-publish-with-us",
+            "https://link.springer.com/journal/10845/submission-guidelines"
+          ],
+          "rationale": "Subscription has no APC, but this statement does not exclude mandatory page or other publication charges."
+        },
+        "mandatory_costs": {
+          "status": "unverified",
+          "source_urls": [
+            "https://link.springer.com/journal/10845/submission-guidelines",
+            "https://link.springer.com/journal/10845/how-to-publish-with-us"
+          ],
+          "rationale": "No comprehensive exclusion of mandatory page, length, membership, service or other charges established; optional online color is free and print color costs extra."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/journal/10845/how-to-publish-with-us",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Subscription route incurs no APC; optional OA incurs an APC."
+        },
+        {
+          "url": "https://link.springer.com/journal/10845/submission-guidelines",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "applicability": "Journal-specific",
+          "note": "Author instructions inspected. Online color free, print color contribution; no comprehensive no-fee assurance established."
+        }
+      ]
+    }
+  ]
+}
