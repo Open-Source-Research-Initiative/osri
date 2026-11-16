@@ -1,8 +1,8 @@
 # Research resource starter catalog
 
-[Browse the resource catalog](https://open-source-research-initiative.github.io/resources/) or [download the comma-separated values (CSV) table](resources.csv). It lists 28 starting points for literature discovery, existing-data research, analysis, simulation, and research practice. It supports the six [OSRI research areas](../areas/README.md) and the shared [Simulation Lab](../simulation-lab/README.md), which adds a dedicated tool catalog and literature walkthroughs. Healthcare use should follow OSRI's initial public health, health systems, and nonclinical scope. Operations Research and Decision Science sit within Engineering; Computational Natural Sciences sits within Informatics.
+[Browse the resource catalog](https://open-source-research-initiative.github.io/resources/) or [download the comma-separated values (CSV) table](resources.csv). It lists 33 starting points for literature discovery, existing-data research, analysis, simulation, research communication, and research practice. It supports the six [OSRI research areas](../areas/README.md) and the shared [Simulation Lab](../simulation-lab/README.md), which adds a dedicated tool catalog and literature walkthroughs. Healthcare use should follow OSRI's initial public health, health systems, and nonclinical scope. Operations Research and Decision Science sit within Engineering; Computational Natural Sciences sits within Informatics.
 
-This is a starter list, not an exhaustive inventory, endorsement, or qualification for a particular study. Official provider and maintainer documentation was reviewed on **2026-11-13**. No authenticated access, software installation, dataset download, or application programming interface (API) integration test was performed. A documentation check does not establish that an endpoint works or a dataset answers the question. It does not establish that a model predicts the system being studied.
+This is a starter list, not an exhaustive inventory, endorsement, or qualification for a particular study. Official provider and maintainer documentation was reviewed on the date recorded for each entry. No authenticated access, software installation, dataset download, or application programming interface (API) integration test was performed. A documentation check does not establish that an endpoint works or a dataset answers the question. It does not establish that a model predicts the system being studied.
 
 ## Choose a starting point
 
@@ -16,6 +16,7 @@ This is a starter list, not an exhaustive inventory, endorsement, or qualificati
 | Work with computational biology, chemical data, or ML benchmarks | GEO, ChEMBL, BioModels, OpenML |
 | Analyze data or optimize allocations, routes, and schedules | R, SciPy, OR-Tools |
 | Model queues, agents, dynamic systems, or biochemical networks | SimPy, Mesa, OpenModelica, COPASI; BioModels for existing published models |
+| Create animated explanations or research presentations | Manimble, Manim Community, Manim Slides, ManimML, Motion Canvas |
 | Plan reproducible work and find registered study plans | The Turing Way, OSF Registries |
 
 Start with the research question, population or system, unit of analysis, time period, and intended output. Check a candidate's definitions, provenance, coverage, missingness, revisions, and method documentation before committing to it. Survey microdata may require design weights and restrictions on pooling; aggregate indicators may not support individual-level conclusions. A benchmark or published simulation model still needs a fit assessment for the proposed study.
