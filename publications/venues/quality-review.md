@@ -1,0 +1,32 @@
+# Quality evidence review
+
+The November 16, 2026 campaign reviews the 146 AI-compatible venues for public evidence of editorial standards, peer review and indexing. Sixteen bounded agent audits and four fresh reviews are specified in the [campaign contract](research/campaigns/2026-11-16-quality/CONTRACT.md), with final records adjudicated by the primary agent. The directory and downloadable data show the resulting status, sources, access limitations and specific findings for each venue. The headline gives the current status counts, the cost-verified peer-reviewed route count, and the default recommendation count after the quality filter.
+
+## Findings
+
+As of November 16, 2026, all 146 included venues have an assessment: **118 have core standards documented, 27 have incomplete verification, and one has a documented medium concern**. These are evidence statuses, not quality scores. The 74 verified free peer-reviewed author routes remain cost-verified; **73 appear in the default recommendations** after the quality hold.
+
+| Venue | Finding | Directory treatment |
+| --- | --- | --- |
+| Avances en Interacción Humano-Computadora | Its [about page](https://revistaaihc.mx/index.php/aihc/about) specifies CC BY-ND, while its [copyright policy](https://revistaaihc.mx/index.php/aihc/copyright) specifies CC BY-NC-ND 4.0. The commercial-use restriction differs. | Medium concern: clarify the applicable license before submitting. Excluded from default recommendations; retained under the concerns filter. |
+| Review of Artificial Intelligence in Education | Its [guidelines](https://alumnijournals.org/raie/guidelines) identify e-ISSN 2965-4688, but the header of its [ethics policy](https://alumnijournals.org/raie/Publishing-Ethics) displays 2965-5080. The ISSN authority identifies [2965-4688](https://portal.issn.org/resource/ISSN/2965-4688) as this journal and [2965-5080](https://portal.issn.org/resource/ISSN/2965-5080) as Revista Brasileira Mãos Literárias. | Low-severity accuracy warning: identity is resolved; this isolated incorrect label does not establish misconduct or justify a quality hold. |
+
+No predatory-publishing designation is made. The 27 incomplete assessments identify specific unresolved policies, editorial leadership or publication-sample checks. Some source pages were blocked or unavailable. The directory displays those limits instead of treating access failure as an adverse finding.
+
+Independent registry checks confirm **130 venues in Scopus's October 2026 source list, 15 in DOAJ and 12 currently indexed in MEDLINE**. Counts overlap. The [official Scopus source list](https://www.elsevier.com/products/scopus/content) supplies exact source IDs, ISSNs, activity and coverage; all 130 matched records are active in that snapshot. The [workbook extract](research/campaigns/2026-11-16-quality/registry-scopus.json), [identity crosswalks](research/campaigns/2026-11-16-quality/registry-crosswalks.json) and [primary reparse](research/campaigns/2026-11-16-quality/registry-root-verification.json) retain the evidence and workbook hash. The [NLM check](research/campaigns/2026-11-16-quality/registry-medline.json) records current MEDLINE status separately from PubMed coverage. Historical title records do not automatically establish current coverage; Research Ethics's historical DOAJ title remains unverified for the current title. Web of Science claims remain publisher claims or unresolved where an authority record was not readable.
+
+## Method
+
+The review checks identity, peer-review policy and model, named editors, ownership, ethics, corrections and retractions, conflicts of interest, complaints and appeals, archiving, licensing and publication samples. It is informed by the [Principles of Transparency and Best Practice](https://doaj.org/apply/transparency/) but does not certify compliance. Public policies describe intended procedures; this review does not establish how every paper was handled or judge the scientific validity of whole papers.
+
+Thirty-one GPT-6.1 Terra research and review tasks contributed: 16 initial audits, four review partitions, nine targeted completion tasks, one registry cross-check task and one additional source challenge. The initial reviews covered every record structurally, with targeted source rereads; inaccessible checks remained unresolved. Supplemental passes resolved many gaps, and the primary agent reconciled the records and independently reparsed all 130 Scopus matches. The [build receipt](build-receipt.json) identifies each task and hashes the retained evidence. It does not imply every source received two independent substantive rereads.
+
+A publication sample may be a publisher article page, journal contents entry, accepted manuscript or exact-journal Crossref metadata. Metadata-only and accepted-manuscript checks are explicitly identified; they establish traceability within their limits, not full-text review or scientific validity. Named publishing responsibility does not imply a legal ownership audit. Where an editor's affiliation was unavailable, it remains missing or explicitly qualified.
+
+- **Core standards documented:** applicable evidence documents the core checks and a traceable sample, with no specific medium or high concern found. Other checks may remain unresolved.
+- **Verification incomplete:** at least one core check remains unresolved, without a specific evidenced medium or high concern.
+- **Concerns documented:** at least one specific medium or high concern has supporting evidence. Open the venue for the observation, rationale and sources.
+
+The default results exclude documented concerns but retain incomplete reviews. Select a quality status or all statuses to inspect other records. These categories are not a prestige score, certification or prediction of article quality. Agent evidence review is not independent human scientific review or endorsement.
+
+Index evidence distinguishes a readable exact-identity registry confirmation from a publisher claim and an unresolved check. Coverage and historical status are recorded when available. An absent index listing is not evidence of misconduct; blocked access or an unsuccessful search does not establish non-indexing. DOI registration and Google Scholar discovery do not establish selective citation-index inclusion, and [PubMed coverage is distinct from MEDLINE selection](https://www.nlm.nih.gov/bsd/serfile_addedinfo.html). Read the linked sources and access notes before drawing conclusions, and recheck current policies before submission.

@@ -1,6 +1,6 @@
 # Sociology, organizations and collaboration
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Current Sociology
 
@@ -15,6 +15,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in methods or acknowledgements. Suggestions for language, grammar or structure alone do not require disclosure under Sage policy.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/csi) · [Venue](https://journals.sagepub.com/home/csi)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 11342; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
 
 - Venue base: [Singapore](https://journals.sagepub.com/doi/pdf/10.1177/00113921241299510) — Editorial team based at National University of Singapore.
 - Author eligibility (not_stated): No affirmative author-location eligibility statement found in sources examined; no restriction inferred.
@@ -41,6 +45,12 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/org) · [Venue](https://journals.sagepub.com/home/org)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 36189; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion. [source](https://api.crossref.org/journals/1350-5084)
+- DOAJ: not verified — ISSN query returned no match; no claim of absence from a comprehensive list is made. [source](https://doaj.org/api/search/journals/issn%3A1350-5084?pageSize=2)
+
 - Author eligibility (not_stated): No affirmative author-location eligibility statement found in sources examined; no restriction inferred.
 - [Author eligibility source](https://journals.sagepub.com/doi/10.1177/13505084241310542)
 - [Fee evidence](https://journals.sagepub.com/author-instructions/org): Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.
@@ -64,6 +74,12 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/oss) · [Venue](https://journals.sagepub.com/home/oss)
 
+**Quality evidence (needs_verification):** Named editorial leadership, publisher identity, applicable ethics and corrections policies, and traceable article metadata documented. Details establishing independent external review remain to be checked.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 36194; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion. [source](https://api.crossref.org/journals/0170-8406)
+- DOAJ: not verified — ISSN query returned no match; no claim of absence from a comprehensive list is made. [source](https://doaj.org/api/search/journals/issn%3A0170-8406?pageSize=2)
+
 - Author eligibility (not_stated): No affirmative author-location eligibility statement found in sources examined; no restriction inferred.
 - [Author eligibility source](https://us2.sagepub.com/en-us/nam/journal/organization-studies)
 - [Fee evidence](https://journals.sagepub.com/author-instructions/oss): Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.
@@ -86,6 +102,12 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/orm) · [Venue](https://journals.sagepub.com/home/orm)
+
+**Quality evidence (needs_verification):** Named editorial leadership, publisher identity, applicable ethics and corrections policies, and traceable article metadata documented. Details establishing independent external review remain to be checked.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 36204; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion. [source](https://api.crossref.org/journals/1094-4281)
+- DOAJ: not verified — ISSN query returned no match; no claim of absence from a comprehensive list is made. [source](https://doaj.org/api/search/journals/issn%3A1094-4281?pageSize=2)
 
 - Author eligibility (international): The journal encourages submissions from authors across all countries.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/orm)
@@ -111,6 +133,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/rss) · [Venue](https://journals.sagepub.com/home/rss)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 39899, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+
 - Author eligibility (not_stated): No affirmative author-location eligibility statement found in sources examined; no restriction inferred.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/rss)
 - [Fee evidence](https://journals.sagepub.com/author-instructions/rss): Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.
@@ -134,6 +160,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/ssc) · [Venue](https://journals.sagepub.com/home/ssc)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 43591; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+
 - Author eligibility (not_stated): No affirmative author-location eligibility statement found in sources examined; no restriction inferred.
 - [Author eligibility source](https://journals.sagepub.com/pb-assets/PDF/SSCR%20editor%20call-1692179117.pdf)
 - [Fee evidence](https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-social-science-computer-review_-sage-journals.pdf): Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.
@@ -156,6 +186,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/sor) · [Venue](https://journals.sagepub.com/home/sor)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 43687, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
 
 - Venue base: [United Kingdom](https://journals.sagepub.com/editorial-board/sor) — Associated Sociological Review Foundation identified as UK on editorial board.
 - Author eligibility (not_stated): No affirmative author-location eligibility statement found in sources examined; no restriction inferred.

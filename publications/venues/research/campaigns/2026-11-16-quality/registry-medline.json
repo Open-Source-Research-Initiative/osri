@@ -1,0 +1,1052 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/quality_registry_crosscheck",
+  "notes": "Independent NLM Catalog efetch XML pass covering all MEDLINE registry-confirmed entries found in audits, completion replacements and reviewer replacements, plus the two publisher-only claims independently confirmed in registry-verification.json. Exact journal identity checked through title and valid ISSN; MEDLINE current status separately inspected.",
+  "records": [
+    {
+      "id": "current-environmental-health-reports",
+      "canonical_title": "Current Environmental Health Reports",
+      "audited_issns": [
+        "2196-5412"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "101629387",
+          "entrez_uid": "101629387",
+          "title": "Current environmental health reports.",
+          "valid_issns": [
+            "2196-5412"
+          ],
+          "matched_issns": [
+            "2196-5412"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v2n1, Mar. 2015-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Unknown",
+              "coverage": "v2n1, Mar. 2015- ; selected citations only before this date"
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "101629387",
+      "entrez_uid": "101629387",
+      "matched_title": "Current environmental health reports.",
+      "matched_issns": [
+        "2196-5412"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v2n1, Mar. 2015-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+        "registry_record_id": "101629387",
+        "publisher_url": null,
+        "matched_issns": [
+          "2196-5412"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 101629387 in batch; title Current environmental health reports., valid matched ISSN 2196-5412. MEDLINE status Currently-indexed; coverage v2n1, Mar. 2015-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 101629387; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "ecohealth",
+      "canonical_title": "EcoHealth",
+      "audited_issns": [
+        "1612-9210",
+        "1612-9202"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "101222144",
+          "entrez_uid": "101222144",
+          "title": "EcoHealth.",
+          "valid_issns": [
+            "1612-9202",
+            "1612-9210"
+          ],
+          "matched_issns": [
+            "1612-9202",
+            "1612-9210"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v5n1, Mar. 2008-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v5n1, Mar. 2008-"
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "101222144",
+      "entrez_uid": "101222144",
+      "matched_title": "EcoHealth.",
+      "matched_issns": [
+        "1612-9202",
+        "1612-9210"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v5n1, Mar. 2008-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+        "registry_record_id": "101222144",
+        "publisher_url": null,
+        "matched_issns": [
+          "1612-9202",
+          "1612-9210"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 101222144 in batch; title EcoHealth., valid matched ISSN 1612-9202, 1612-9210. MEDLINE status Currently-indexed; coverage v5n1, Mar. 2008-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 101222144; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "environmental-monitoring-and-assessment",
+      "canonical_title": "Environmental Monitoring and Assessment",
+      "audited_issns": [
+        "1573-2959"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "8508350",
+          "entrez_uid": "8508350",
+          "title": "Environmental monitoring and assessment.",
+          "valid_issns": [
+            "0167-6369",
+            "1573-2959"
+          ],
+          "matched_issns": [
+            "1573-2959"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v66n1, 2001-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v66n1, 2001-"
+            },
+            {
+              "name": "Index medicus",
+              "status": null,
+              "treatment": "Full",
+              "coverage": null
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "8508350",
+      "entrez_uid": "8508350",
+      "matched_title": "Environmental monitoring and assessment.",
+      "matched_issns": [
+        "1573-2959"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v66n1, 2001-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+        "registry_record_id": "8508350",
+        "publisher_url": null,
+        "matched_issns": [
+          "1573-2959"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 8508350 in batch; title Environmental monitoring and assessment., valid matched ISSN 1573-2959. MEDLINE status Currently-indexed; coverage v66n1, 2001-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 8508350; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "medical-care-research-and-review",
+      "canonical_title": "Medical Care Research and Review",
+      "audited_issns": [
+        "1077-5587",
+        "1552-6801"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "9506850",
+          "entrez_uid": "9506850",
+          "title": "Medical care research and review : MCRR.",
+          "valid_issns": [
+            "1077-5587",
+            "1552-6801"
+          ],
+          "matched_issns": [
+            "1077-5587",
+            "1552-6801"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v52n1, Mar. 1995-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v52n1, Mar. 1995-"
+            },
+            {
+              "name": "Hospital and health administration index",
+              "status": null,
+              "treatment": "Full",
+              "coverage": "v52n1, 1995-1999"
+            },
+            {
+              "name": "Index medicus",
+              "status": null,
+              "treatment": "Full",
+              "coverage": null
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9506850&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "9506850",
+      "entrez_uid": "9506850",
+      "matched_title": "Medical care research and review : MCRR.",
+      "matched_issns": [
+        "1077-5587",
+        "1552-6801"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v52n1, Mar. 1995-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9506850&retmode=xml",
+        "registry_record_id": "9506850",
+        "publisher_url": null,
+        "matched_issns": [
+          "1077-5587",
+          "1552-6801"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9506850&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 9506850 in batch; title Medical care research and review : MCRR., valid matched ISSN 1077-5587, 1552-6801. MEDLINE status Currently-indexed; coverage v52n1, Mar. 1995-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9506850&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 9506850; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "journal-of-biological-physics",
+      "canonical_title": "Journal of Biological Physics",
+      "audited_issns": [
+        "0092-0606",
+        "1573-0689"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "0417731",
+          "entrez_uid": "417731",
+          "title": "Journal of biological physics.",
+          "valid_issns": [
+            "0092-0606",
+            "1573-0689"
+          ],
+          "matched_issns": [
+            "0092-0606",
+            "1573-0689"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v39n1, Jan. 2013-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Unknown",
+              "coverage": "v32n2, 2006-"
+            },
+            {
+              "name": "PMC",
+              "status": null,
+              "treatment": "Unknown",
+              "coverage": null
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=417731&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "0417731",
+      "entrez_uid": "417731",
+      "matched_title": "Journal of biological physics.",
+      "matched_issns": [
+        "0092-0606",
+        "1573-0689"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v39n1, Jan. 2013-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=417731&retmode=xml",
+        "registry_record_id": "0417731",
+        "publisher_url": null,
+        "matched_issns": [
+          "0092-0606",
+          "1573-0689"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=417731&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 0417731 in batch; title Journal of biological physics., valid matched ISSN 0092-0606, 1573-0689. MEDLINE status Currently-indexed; coverage v39n1, Jan. 2013-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 0417731; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "journal-of-health-services-research-and-policy",
+      "canonical_title": "Journal of Health Services Research & Policy",
+      "audited_issns": [
+        "1355-8196",
+        "1758-1060"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "9604936",
+          "entrez_uid": "9604936",
+          "title": "Journal of health services research & policy.",
+          "valid_issns": [
+            "1355-8196",
+            "1758-1060"
+          ],
+          "matched_issns": [
+            "1355-8196",
+            "1758-1060"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v1n1, Jan. 1996-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v1n1, Jan. 1996-"
+            },
+            {
+              "name": "Hospital and health administration index",
+              "status": null,
+              "treatment": "Full",
+              "coverage": "v1n1,Jan. 1996-1999"
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9604936&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "9604936",
+      "entrez_uid": "9604936",
+      "matched_title": "Journal of health services research & policy.",
+      "matched_issns": [
+        "1355-8196",
+        "1758-1060"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v1n1, Jan. 1996-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9604936&retmode=xml",
+        "registry_record_id": "9604936",
+        "publisher_url": null,
+        "matched_issns": [
+          "1355-8196",
+          "1758-1060"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9604936&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 9604936 in batch; title Journal of health services research & policy., valid matched ISSN 1355-8196, 1758-1060. MEDLINE status Currently-indexed; coverage v1n1, Jan. 1996-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9604936&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 9604936; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "health-care-management-science",
+      "canonical_title": "Health Care Management Science",
+      "audited_issns": [
+        "1386-9620",
+        "1572-9389"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "9815649",
+          "entrez_uid": "9815649",
+          "title": "Health care management science.",
+          "valid_issns": [
+            "1386-9620",
+            "1572-9389"
+          ],
+          "matched_issns": [
+            "1386-9620",
+            "1572-9389"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v1n1, Sept. 1998-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v1n1, Sept. 1998-"
+            },
+            {
+              "name": "Index medicus",
+              "status": null,
+              "treatment": "Full",
+              "coverage": null
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9815649&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "9815649",
+      "entrez_uid": "9815649",
+      "matched_title": "Health care management science.",
+      "matched_issns": [
+        "1386-9620",
+        "1572-9389"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v1n1, Sept. 1998-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9815649&retmode=xml",
+        "registry_record_id": "9815649",
+        "publisher_url": null,
+        "matched_issns": [
+          "1386-9620",
+          "1572-9389"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9815649&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 9815649 in batch; title Health care management science., valid matched ISSN 1386-9620, 1572-9389. MEDLINE status Currently-indexed; coverage v1n1, Sept. 1998-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9815649&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 9815649; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "interdisciplinary-sciences-computational-life-sciences",
+      "canonical_title": "Interdisciplinary Sciences: Computational Life Sciences",
+      "audited_issns": [
+        "1913-2751",
+        "1867-1462"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "101515919",
+          "entrez_uid": "101515919",
+          "title": "Interdisciplinary sciences, computational life sciences.",
+          "valid_issns": [
+            "1913-2751",
+            "1867-1462"
+          ],
+          "matched_issns": [
+            "1913-2751",
+            "1867-1462"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v1n1, Mar. 2009-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Unknown",
+              "coverage": "v1n1, Mar. 2009-"
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101515919&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "101515919",
+      "entrez_uid": "101515919",
+      "matched_title": "Interdisciplinary sciences, computational life sciences.",
+      "matched_issns": [
+        "1913-2751",
+        "1867-1462"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v1n1, Mar. 2009-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101515919&retmode=xml",
+        "registry_record_id": "101515919",
+        "publisher_url": null,
+        "matched_issns": [
+          "1913-2751",
+          "1867-1462"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101515919&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 101515919 in batch; title Interdisciplinary sciences, computational life sciences., valid matched ISSN 1913-2751, 1867-1462. MEDLINE status Currently-indexed; coverage v1n1, Mar. 2009-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101515919&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 101515919; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "international-archives-of-occupational-and-environmental-health",
+      "canonical_title": "International Archives of Occupational and Environmental Health",
+      "audited_issns": [
+        "0340-0131",
+        "1432-1246"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "7512134",
+          "entrez_uid": "7512134",
+          "title": "International archives of occupational and environmental health.",
+          "valid_issns": [
+            "0340-0131",
+            "1432-1246"
+          ],
+          "matched_issns": [
+            "0340-0131",
+            "1432-1246"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v35n1, Jul. 11, 1975-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Unknown",
+              "coverage": "v35n1, Jul. 11, 1975-"
+            },
+            {
+              "name": "Index medicus",
+              "status": null,
+              "treatment": "Full",
+              "coverage": null
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=7512134&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "7512134",
+      "entrez_uid": "7512134",
+      "matched_title": "International archives of occupational and environmental health.",
+      "matched_issns": [
+        "0340-0131",
+        "1432-1246"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v35n1, Jul. 11, 1975-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=7512134&retmode=xml",
+        "registry_record_id": "7512134",
+        "publisher_url": null,
+        "matched_issns": [
+          "0340-0131",
+          "1432-1246"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=7512134&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 7512134 in batch; title International archives of occupational and environmental health., valid matched ISSN 0340-0131, 1432-1246. MEDLINE status Currently-indexed; coverage v35n1, Jul. 11, 1975-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=7512134&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 7512134; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "public-health-reports",
+      "canonical_title": "Public Health Reports",
+      "audited_issns": [
+        "0033-3549",
+        "1468-2877"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "9716844",
+          "entrez_uid": "9716844",
+          "title": "Public health reports.",
+          "valid_issns": [
+            "0033-3549",
+            "1468-2877"
+          ],
+          "matched_issns": [
+            "0033-3549",
+            "1468-2877"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v89n4, Jul./Aug. 1974-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Unknown",
+              "coverage": "v89n4, Jul./Aug. 1974-"
+            },
+            {
+              "name": "PMC",
+              "status": null,
+              "treatment": "Unknown",
+              "coverage": null
+            },
+            {
+              "name": "Abridged index medicus",
+              "status": null,
+              "treatment": "Full",
+              "coverage": null
+            },
+            {
+              "name": "Index medicus",
+              "status": null,
+              "treatment": "Full",
+              "coverage": null
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9716844&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "9716844",
+      "entrez_uid": "9716844",
+      "matched_title": "Public health reports.",
+      "matched_issns": [
+        "0033-3549",
+        "1468-2877"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v89n4, Jul./Aug. 1974-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9716844&retmode=xml",
+        "registry_record_id": "9716844",
+        "publisher_url": null,
+        "matched_issns": [
+          "0033-3549",
+          "1468-2877"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9716844&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 9716844 in batch; title Public health reports., valid matched ISSN 0033-3549, 1468-2877. MEDLINE status Currently-indexed; coverage v89n4, Jul./Aug. 1974-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9716844&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 9716844; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "the-european-journal-of-health-economics",
+      "canonical_title": "The European Journal of Health Economics",
+      "audited_issns": [
+        "1618-7598"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "101134867",
+          "entrez_uid": "101134867",
+          "title": "The European journal of health economics : HEPAC : health economics in prevention and care.",
+          "valid_issns": [
+            "1618-7598",
+            "1618-7601"
+          ],
+          "matched_issns": [
+            "1618-7598"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v5n1, 2004-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Unknown",
+              "coverage": "v5n1, 2004-"
+            },
+            {
+              "name": "Index medicus",
+              "status": null,
+              "treatment": "Full",
+              "coverage": null
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "101134867",
+      "entrez_uid": "101134867",
+      "matched_title": "The European journal of health economics : HEPAC : health economics in prevention and care.",
+      "matched_issns": [
+        "1618-7598"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v5n1, 2004-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml",
+        "registry_record_id": "101134867",
+        "publisher_url": null,
+        "matched_issns": [
+          "1618-7598"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 101134867 in batch; title The European journal of health economics : HEPAC : health economics in prevention and care., valid matched ISSN 1618-7598. MEDLINE status Currently-indexed; coverage v5n1, 2004-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101134867&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 101134867; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    },
+    {
+      "id": "theory-in-biosciences",
+      "canonical_title": "Theory in Biosciences",
+      "audited_issns": [
+        "1431-7613"
+      ],
+      "status": "confirmed_current",
+      "candidates": [
+        {
+          "nlm_unique_id": "9708216",
+          "entrez_uid": "9708216",
+          "title": "Theory in biosciences = Theorie in den Biowissenschaften.",
+          "valid_issns": [
+            "1431-7613",
+            "1611-7530"
+          ],
+          "matched_issns": [
+            "1431-7613"
+          ],
+          "indexing_sources": [
+            {
+              "name": "MEDLINE",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v124n1, Aug. 2005-"
+            },
+            {
+              "name": "PubMed",
+              "status": "Currently-indexed",
+              "treatment": "Full",
+              "coverage": "v124n1, Aug. 2005-"
+            }
+          ],
+          "record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml"
+        }
+      ],
+      "nlm_unique_id": "9708216",
+      "entrez_uid": "9708216",
+      "matched_title": "Theory in biosciences = Theorie in den Biowissenschaften.",
+      "matched_issns": [
+        "1431-7613"
+      ],
+      "proposed_indexing": {
+        "name": "MEDLINE",
+        "category": "bibliographic_database",
+        "verification": "registry_confirmed",
+        "coverage": "v124n1, Aug. 2005-",
+        "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml",
+        "registry_record_id": "9708216",
+        "publisher_url": null,
+        "matched_issns": [
+          "1431-7613"
+        ],
+        "checked_on": "2026-11-16",
+        "access": "page",
+        "source_urls": [
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml"
+        ],
+        "note": "NLM Catalog XML reports MEDLINE Currently-indexed with indexing treatment Full. Identity matched by valid ISSN and title, allowing punctuation, a subtitle, or a translated equivalent. PubMed coverage is recorded separately and is not MEDLINE evidence."
+      },
+      "evidence": [
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387%2C101515919%2C101222144%2C101134867%2C9815649%2C9708216%2C9604936%2C9506850%2C8508350%2C7512134%2C9716844%2C417731&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Read NLM Catalog XML record 9708216 in batch; title Theory in biosciences = Theorie in den Biowissenschaften., valid matched ISSN 1431-7613. MEDLINE status Currently-indexed; coverage v124n1, Aug. 2005-."
+        },
+        {
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=9708216&retmode=xml",
+          "checked_on": "2026-11-16",
+          "access": "page",
+          "source_type": "index_registry",
+          "note": "Individually fetched NLM Catalog XML record 9708216; verified journal identity and currently indexed MEDLINE status."
+        }
+      ],
+      "audit_limits": "Current status reflects the NLM record at retrieval; coverage is source-reported. PubMed coverage, when present, is distinct and does not establish MEDLINE selection."
+    }
+  ]
+}

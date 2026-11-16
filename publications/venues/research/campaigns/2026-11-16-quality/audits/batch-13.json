@@ -1,0 +1,1330 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-13",
+  "agent_task": "/root/quality_audit_13",
+  "notes": "Partial bounded audit. Index authority access remains unresolved; two Elsevier pages blocked or rate-limited. Do not treat incomplete records as complete research.",
+  "records": [
+    {
+      "id": "rationality-and-society",
+      "source_record_ids": [
+        "sociology-organizations-rationality-and-society"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal documents its review process and an article is traceable; named board and corrections policy remain to be verified.",
+        "identity": {
+          "issns": [],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/rss"
+          ],
+          "notes": "Journal homepage identified; exact ISSNs not independently resolved in this recheck."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent reviewers and editor decision after initial screening; two independent reviews are required for revise or accept; editorials may have an exception.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rss"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rss"
+            ],
+            "note": "Sage identified as journal publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal instructions link Sage publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal requires a conflict declaration."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal instructions describe publication agreement or applicable Creative Commons license."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Voluntary democratization",
+            "url": "https://journals.sagepub.com/doi/10.1177/10434631261498639",
+            "doi": "10.1177/10434631261498639",
+            "published_on": "2026-10-21",
+            "checked_on": "2026-11-16",
+            "observations": "Journal labels this a research article and records first publication date; public article does not establish actual peer-review conduct.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/10434631261498639"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/rss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific author instructions read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/10434631261498639",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "reliability-engineering-and-system-safety",
+      "source_record_ids": [
+        "systems-engineering-reliability-engineering-and-system-safety"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Core editorial evidence remains incomplete in this bounded review.",
+        "identity": {
+          "issns": [],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety"
+          ],
+          "notes": "Journal homepage identified; exact ISSNs not independently resolved in this recheck."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal-specific peer-review process not established in this recheck.",
+          "source_urls": [],
+          "notes": "Uncertainty is not evidence that review did not occur."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "requirements-engineering",
+      "source_record_ids": [
+        "systems-engineering-requirements-engineering"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Publisher research peer-review and corrections policies, named editor, publisher identity and a recent article are documented. Index entries are publisher claims only.",
+        "identity": {
+          "issns": [
+            "0947-3602",
+            "1432-010X"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/766"
+          ],
+          "notes": "Exact title and print/electronic ISSNs on Springer journal page."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/766",
+            "matched_issns": [
+              "0947-3602",
+              "1432-010X"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/766"
+            ],
+            "note": "Publisher states coverage; independent authoritative index record and current coverage not confirmed."
+          },
+          {
+            "name": "Web of Science SCIE",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/766",
+            "matched_issns": [
+              "0947-3602",
+              "1432-010X"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/766"
+            ],
+            "note": "Publisher states coverage; independent authoritative index record and current coverage not confirmed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Springer policy says research articles usually have at least two independent expert reviewers, with stated exceptions; editors decide. Journal-specific anonymity is unverified.",
+          "source_urls": [
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/766/editorial-board"
+            ],
+            "note": "Named editor and affiliation on journal board.",
+            "names": [
+              {
+                "name": "Fabiano Dalpiaz",
+                "role": "Editor-in-chief",
+                "affiliation": "Utrecht University"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/766"
+            ],
+            "note": "Springer-Verlag London Ltd., part of Springer Nature, on journal page."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher journal policies address integrity."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher policy provides linked correction and retraction notices."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher policy addresses competing interests."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher journal policies address appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/766"
+            ],
+            "note": "Journal identifies a hybrid publishing model; specific publication license requires article or agreement selection."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A systematic mapping of goal-oriented requirements engineering: reflections, impact, and the way forward",
+            "url": "https://link.springer.com/article/10.1007/s00766-026-00476-7",
+            "doi": "10.1007/s00766-026-00476-7",
+            "published_on": "2026-10-12",
+            "checked_on": "2026-11-16",
+            "observations": "Article has received and accepted dates; review reports not verified.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s00766-026-00476-7"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/766",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://link.springer.com/journal/766/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Policy page read."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal links directly to Springer policies covering research review and correction."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00766-026-00476-7",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "research-ethics",
+      "source_record_ids": [
+        "meta-research-research-ethics"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal documents its review process and an article is traceable; named board and corrections policy remain to be verified.",
+        "identity": {
+          "issns": [
+            "1747-0161",
+            "2047-6094"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/rea",
+            "https://api.crossref.org/journals/2047-6094"
+          ],
+          "notes": "Crossref journal record matches exact title and ISSNs."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent reviewers and editor decision after initial screening; two independent reviews are required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rea"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rea"
+            ],
+            "note": "Sage identified as journal publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal instructions link Sage publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal requires a conflict declaration."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal instructions describe publication agreement or applicable Creative Commons license."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Decolonizing ethics review in disability research: Reflexive insights from a study in rural Northern Ghana",
+            "url": "https://journals.sagepub.com/doi/10.1177/17470161261505139",
+            "doi": "10.1177/17470161261505139",
+            "published_on": "2026-11-06",
+            "checked_on": "2026-11-16",
+            "observations": "Journal labels this a research article and records first publication date; public article does not establish actual peer-review conduct.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/17470161261505139"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/rea",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rea",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific author instructions read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/17470161261505139",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          },
+          {
+            "url": "https://api.crossref.org/journals/2047-6094",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact-title identity data; DOI registry is not a selective citation index."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "research-evaluation",
+      "source_record_ids": [
+        "meta-research-research-evaluation"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editors and review process are documented; guidance describes an exception for discussion papers. Corrections policy and article sample remain to verify.",
+        "identity": {
+          "issns": [
+            "0958-2029",
+            "1471-5449"
+          ],
+          "publisher": "Oxford University Press",
+          "source_urls": [
+            "https://academic.oup.com/rev"
+          ],
+          "notes": "Exact title and print and electronic ISSNs on journal page."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://academic.oup.com/rev/pages/author-guidelines",
+            "matched_issns": [
+              "0958-2029",
+              "1471-5449"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/author-guidelines"
+            ],
+            "note": "Publisher states coverage; independent authoritative index record and current coverage not confirmed."
+          },
+          {
+            "name": "Web of Science SSCI",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://academic.oup.com/rev/pages/author-guidelines",
+            "matched_issns": [
+              "0958-2029",
+              "1471-5449"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/author-guidelines"
+            ],
+            "note": "Publisher states coverage; independent authoritative index record and current coverage not confirmed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes editor-managed double-anonymized external review. Its discussion paper section permits editorial consideration without external review, despite a general statement that all article types undergo review.",
+          "source_urls": [
+            "https://academic.oup.com/rev/pages/author-guidelines"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/editorial_board"
+            ],
+            "note": "Named editor and affiliation on journal board.",
+            "names": [
+              {
+                "name": "Julia Melkers",
+                "role": "Editor",
+                "affiliation": "Arizona State University"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/author-guidelines"
+            ],
+            "note": "Oxford University Press identified on journal site."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/author-guidelines"
+            ],
+            "note": "Journal describes misconduct screening."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/author-guidelines"
+            ],
+            "note": "Editor-authored submissions handled by an independent editor."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/author-guidelines"
+            ],
+            "note": "Guidelines provide separate appeal and complaint procedures."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://academic.oup.com/rev/pages/author-guidelines"
+            ],
+            "note": "Guidelines describe standard license and optional open access."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://academic.oup.com/rev",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://academic.oup.com/rev/pages/editorial_board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Policy page read."
+          },
+          {
+            "url": "https://academic.oup.com/rev/pages/author-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal guidelines read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "research-in-engineering-design",
+      "source_record_ids": [
+        "systems-engineering-research-in-engineering-design"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Publisher research peer-review and corrections policies, named editor, publisher identity and a recent article are documented. Index entries are publisher claims only.",
+        "identity": {
+          "issns": [
+            "0934-9839",
+            "1435-6066"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/163"
+          ],
+          "notes": "Exact title and print/electronic ISSNs on Springer journal page."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/163",
+            "matched_issns": [
+              "0934-9839",
+              "1435-6066"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/163"
+            ],
+            "note": "Publisher states coverage; independent authoritative index record and current coverage not confirmed."
+          },
+          {
+            "name": "Web of Science SCIE",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/163",
+            "matched_issns": [
+              "0934-9839",
+              "1435-6066"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/163"
+            ],
+            "note": "Publisher states coverage; independent authoritative index record and current coverage not confirmed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Springer policy says research articles usually have at least two independent expert reviewers, with stated exceptions; editors decide. Journal-specific anonymity is unverified.",
+          "source_urls": [
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/163/editorial-board"
+            ],
+            "note": "Named editor and affiliation on journal board.",
+            "names": [
+              {
+                "name": "Jianxi Luo",
+                "role": "Editor-in-chief",
+                "affiliation": "City University of Hong Kong"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/163"
+            ],
+            "note": "Springer-Verlag London Ltd., part of Springer Nature, on journal page."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher journal policies address integrity."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher policy provides linked correction and retraction notices."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher policy addresses competing interests."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Publisher journal policies address appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/163"
+            ],
+            "note": "Journal identifies a hybrid publishing model; specific publication license requires article or agreement selection."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Bridging design disciplines: a literature review of biologically-inspired design, human-centered design, and human-robot interaction",
+            "url": "https://link.springer.com/article/10.1007/s00163-026-00507-y",
+            "doi": "10.1007/s00163-026-00507-y",
+            "published_on": "2026-10-14",
+            "checked_on": "2026-11-16",
+            "observations": "Article records received, revised and accepted dates; review reports not verified.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s00163-026-00507-y"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/163",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://link.springer.com/journal/163/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Policy page read."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal links directly to Springer policies covering research review and correction."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00163-026-00507-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "research-methods-in-medicine-and-health-sciences",
+      "source_record_ids": [
+        "epidemiology-biostatistics-research-methods-medicine-health-sciences"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal documents its review process and an article is traceable; named board and corrections policy remain to be verified.",
+        "identity": {
+          "issns": [],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/rmm"
+          ],
+          "notes": "Journal homepage identified; exact ISSNs not independently resolved in this recheck."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal describes independent reviewers and editor decision after initial screening; two independent reviews are required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rmm"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rmm"
+            ],
+            "note": "Sage identified as journal publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal instructions link Sage publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal requires a conflict declaration."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal instructions describe publication agreement or applicable Creative Commons license."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Feasibility of large language Model–Generated thematic analysis in healthcare qualitative research: A comparative study",
+            "url": "https://journals.sagepub.com/doi/10.1177/26320843261504778",
+            "doi": "10.1177/26320843261504778",
+            "published_on": "2026-11-06",
+            "checked_on": "2026-11-16",
+            "observations": "Journal labels this a research article and records first publication date; public article does not establish actual peer-review conduct.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/26320843261504778"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/rmm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rmm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific author instructions read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/26320843261504778",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "research-policy",
+      "source_record_ids": [
+        "business-innovation-research-policy"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Core editorial evidence remains incomplete in this bounded review.",
+        "identity": {
+          "issns": [],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/research-policy"
+          ],
+          "notes": "Journal homepage identified; exact ISSNs not independently resolved in this recheck."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal-specific peer-review process not established in this recheck.",
+          "source_urls": [],
+          "notes": "Uncertainty is not evidence that review did not occur."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/research-policy",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "id": "review-of-artificial-intelligence-in-education",
+      "source_record_ids": [
+        "education-learning-sciences-review-artificial-intelligence-education"
+      ],
+      "audit_note": "Exact canonical ID and baseline membership retained; recorded evidence and unresolved gaps separately.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Journal documents named leadership, double-anonymous external review and core policies; one publication is traceable. A conflicting ISSN label needs correction or confirmation; index status remains unverified.",
+        "identity": {
+          "issns": [
+            "2965-4688"
+          ],
+          "publisher": "Editora Alumni IN",
+          "source_urls": [
+            "https://alumnijournals.org/raie/guidelines",
+            "https://alumnijournals.org/raie/Publishing-Ethics"
+          ],
+          "notes": "Guidelines use e-ISSN 2965-4688; ethics page instead displays 2965-5080. Resolve conflicting label before matching registry claims."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal states at least two external reviewers; editors make decisions. Publisher policy identifies editorial and invited content exceptions.",
+          "source_urls": [
+            "https://alumnijournals.org/raie/guidelines"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/about/editorialTeam"
+            ],
+            "note": "Named editor and affiliation on journal board.",
+            "names": [
+              {
+                "name": "Adriana Backx Noronha Viana",
+                "role": "Editor-in-chief",
+                "affiliation": "Universidade de São Paulo"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "note": "Editora Alumni IN identifies itself as publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "note": "Journal describes misconduct investigation and authorship responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "note": "Journal describes corrections, expressions of concern and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "note": "Journal requires disclosure and states conflict-handling procedures."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "note": "Journal describes submissions and editorial handling of appeals and complaints."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "note": "Journal describes backups and author repository deposits; independent preservation deposit not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "note": "Journal states CC BY 4.0 and author copyright."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Designing with Notebooklm: An Autoethnographic Discourse Analysis of Human-AI Curriculum Design",
+            "url": "https://alumnijournals.org/raie/article/view/1395",
+            "doi": "10.37497/rev.artif.intell.educ.v7ii.1395",
+            "published_on": "2026-08-20",
+            "checked_on": "2026-11-16",
+            "observations": "Article page and 2026 issue list identify title, DOI and publication date; review reports not checked.",
+            "source_urls": [
+              "https://alumnijournals.org/raie/article/view/1395"
+            ]
+          }
+        ],
+        "concerns": [
+          {
+            "code": "conflicting_issn_on_policy_page",
+            "severity": "low",
+            "summary": "Journal guidelines identify e-ISSN 2965-4688, but its ethics page labels the journal ISSN 2965-5080.",
+            "evidence_urls": [
+              "https://alumnijournals.org/raie/guidelines",
+              "https://alumnijournals.org/raie/Publishing-Ethics"
+            ],
+            "rationale": "Conflicting journal identifiers impede matching to registries; this alone does not establish misconduct."
+          }
+        ],
+        "evidence": [
+          {
+            "url": "https://alumnijournals.org/raie",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://alumnijournals.org/raie/about/editorialTeam",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Policy page read."
+          },
+          {
+            "url": "https://alumnijournals.org/raie/guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Guidelines read."
+          },
+          {
+            "url": "https://alumnijournals.org/raie/Publishing-Ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal ethics, corrections, ownership, archiving and complaints policy read."
+          },
+          {
+            "url": "https://alumnijournals.org/raie/article/view/1395",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Computer science, AI, data and research software
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Journal of Open Source Software
 
@@ -17,6 +17,11 @@ Journal states no fees for manuscript processing or publishing and zero publicat
 **Disclosure (required):** Include an AI usage disclosure statement identifying tools/models and versions, where used, nature and scope of assistance, and confirmation that humans reviewed, edited and validated outputs and made core design decisions.
 
 [Author guidance](https://joss.readthedocs.io/en/latest/submitting.html) · [Venue](https://joss.theoj.org/)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Crossref: not verified — Exact-title authority match not established; no conclusion about inclusion elsewhere. [source](https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20)
+- DOAJ: registry confirmed — Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable. [source](https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a), [source](https://joss.theoj.org/about)
 
 - Author eligibility (not_stated): No affirmative geographic author eligibility rule identified in inspected instructions. | Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred. | The reviewed instructions do not affirm a geographic author eligibility rule; unrestricted worldwide eligibility is not established.
 - [Author eligibility source](https://joss.readthedocs.io/en/latest/submitting.html)
@@ -40,6 +45,11 @@ Journal states no fees for manuscript processing or publishing and zero publicat
 **Disclosure (required):** Mention use of the LLM explicitly in a footnote on the first page of the submission, as required by the author FAQ. The editorial policy does not repeat this requirement; follow the more specific FAQ.
 
 [Author guidance](https://jmlr.org/tmlr/editorial-policies.html) · [Venue](https://jmlr.org/tmlr/)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 46681; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- DOAJ: registry confirmed — DOAJ record title: Transactions on Machine Learning Research; ISSNs: 2835-8856. Exact title and audited ISSN match. [source](https://doaj.org/api/journals/58beff6068ce48679722d20e5b288dfc)
 
 - Author eligibility (not_stated): No affirmative geographic author eligibility rule identified in inspected instructions.
 - [Author eligibility source](https://jmlr.org/tmlr/editorial-policies.html)

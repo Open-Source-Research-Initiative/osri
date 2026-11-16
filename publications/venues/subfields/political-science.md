@@ -1,6 +1,6 @@
 # Political science and international relations
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## AI, Law, Politics
 
@@ -15,6 +15,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose tool, provider, model/version where available, access dates, purpose, stage and extent, and human verification. Initial full statement goes on title page; include anonymized statement if needed for review; accepted manuscript has Declarations before references. If AI is a research instrument or study object, describe settings, prompts, dates and validation in methodology. Routine non-generative spelling, formatting and reference management are exempt.
 
 [Author guidance](https://alp-journal.com/index.php/journal/author-guidelines) · [Venue](https://alp-journal.com/index.php/journal/)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- OpenAlex: publisher claim only — Journal reports OpenAlex discoverability; independent source record not checked and this is not selective indexing. [source](https://alp-journal.com/index.php/journal/preservation-metadata-and-discoverability)
 
 - Venue base: [Poland](https://alp-journal.com/index.php/journal/about) — owning and publishing VIZJA University in Warsaw.
 - Publisher base: [Poland](https://alp-journal.com/index.php/journal/about) — VIZJA University publisher in Warsaw.
@@ -39,6 +43,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content impacting methodology, analysis, results or conclusions upon submission; the listed appropriate research uses require disclosure in methods or acknowledgements. Routine suggestions to improve authors’ own language, grammar or structure do not require disclosure. Verify outputs and original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/cps) · [Venue](https://journals.sagepub.com/home/cps)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 9907, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+- Web of Science: not verified — No readable exact-title authority record returned. [source](https://mjl.clarivate.com/search-results)
 
 - Venue base: [United States](https://journals.sagepub.com/author-instructions/cps) — editorial office at University of Minnesota, as indicated by editorial contact.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.
@@ -67,6 +76,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/eup) · [Venue](https://journals.sagepub.com/home/eup)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 14828; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.
 - Publisher base: [United Kingdom](https://www.sagepub.com/about/locations) — Sage explicitly identified London office; publisher is multinational.
 - Publisher base: [India](https://www.sagepub.com/about/locations) — Sage explicitly identified India office; publisher is multinational.
@@ -92,6 +105,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/ire) · [Venue](https://journals.sagepub.com/home/ire)
+
+**Quality evidence (needs_verification):** Verification incomplete: current named editorial leadership. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 22469, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
 
 - Venue base: [United Kingdom](https://journals.sagepub.com/author-instructions/ire) — editorial office at Aberystwyth University.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.
@@ -120,6 +137,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/isq) · [Venue](https://journals.sagepub.com/home/isq)
 
+**Quality evidence (needs_verification):** Verification incomplete: external peer-review details. See the sources and access limits; these gaps do not establish misconduct.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 22559; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+
 - Venue base: [India](https://jnu.ac.in/sis) — publishing School of International Studies, Jawaharlal Nehru University, New Delhi.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.
 - Publisher base: [United Kingdom](https://www.sagepub.com/about/locations) — Sage explicitly identified London office; publisher is multinational.
@@ -146,6 +167,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content impacting methodology, analysis, results or conclusions upon submission; the listed appropriate research uses require disclosure in methods or acknowledgements. Routine suggestions to improve authors’ own language, grammar or structure do not require disclosure. Verify outputs and original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/psx) · [Venue](https://journals.sagepub.com/home/psx)
+
+**Quality evidence (needs_verification):** Named editorial leadership, publisher identity, applicable ethics and corrections policies, and traceable article metadata documented. Details establishing independent external review remain to be checked.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 38047; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSN match; DOI registration is not selective citation indexing. [source](https://api.crossref.org/journals/1467-9248)
 
 - Venue base: [United Kingdom](https://www.psa.ac.uk/publications-resources/publications/political-studies/) — owning Political Studies Association and University of York editorial team.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.
@@ -176,6 +202,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/pol) · [Venue](https://journals.sagepub.com/home/pol)
 
+**Quality evidence (needs_verification):** Named editorial leadership, publisher identity, applicable ethics and corrections policies, and traceable article metadata documented. Details establishing independent external review remain to be checked.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 38055; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSN match; DOI registration is not selective citation indexing. [source](https://api.crossref.org/journals/1467-9256)
+
 - Venue base: [United Kingdom](https://www.psa.ac.uk/publications-resources/publications/politics/) — owning Political Studies Association.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.
 - Publisher base: [United Kingdom](https://www.sagepub.com/about/locations) — Sage explicitly identified London office; publisher is multinational.
@@ -204,6 +235,11 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/inp) · [Venue](https://journals.sagepub.com/home/inp)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 44839; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- DOAJ: not verified — Exact ISSN API attempt; no matching record established. This is not a finding of absence. [source](https://doaj.org/api/search/journals/issn%3A2321-0230?pageSize=2)
+
 - Venue base: [India](https://services.sagepub.com/journal/studies-in-indian-politics/) — affiliated Lokniti, Centre for the Study of Developing Societies, Delhi.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.
 - Publisher base: [United Kingdom](https://www.sagepub.com/about/locations) — Sage explicitly identified London office; publisher is multinational.
@@ -230,6 +266,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose primary or partial generated content impacting methodology, analysis, results or conclusions upon submission; the listed appropriate research uses require disclosure in methods or acknowledgements. Routine suggestions to improve authors’ own language, grammar or structure do not require disclosure. Verify outputs and original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/bpi) · [Venue](https://journals.sagepub.com/home/bpi)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 6807, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
 
 - Venue base: [United Kingdom](https://journals.sagepub.com/page/bpi/publish-with-bjpir) — owning Political Studies Association and editorial home University of Leeds.
 - Publisher base: [United States](https://www.sagepub.com/about/locations) — Sage explicitly identified Los Angeles office; publisher is multinational.

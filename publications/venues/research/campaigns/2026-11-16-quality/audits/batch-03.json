@@ -1,0 +1,1723 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-03",
+  "agent_task": "/root/quality_audit_03",
+  "notes": "Official journal and publisher pages plus readable NLM catalog records; bounded source audit. Sage direct HTTPS denied but web reader accessible.",
+  "records": [
+    {
+      "id": "culture-and-education",
+      "source_record_ids": [
+        "education-learning-sciences-culture-and-education"
+      ],
+      "audit_note": "Accessible publisher pages via browser and article sample read; incomplete checks remain verification tasks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal describes double-anonymous review and names editors; corrections policy and independent indexing require further confirmation.",
+        "identity": {
+          "issns": [
+            "1135-6405",
+            "1578-4118"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/cye",
+            "https://www.portico.org/publishers/sage/"
+          ],
+          "notes": "Portico matches both ISSNs to the bilingual exact journal title, and lists it under Sage."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/cye"
+            ],
+            "note": "No readable exact-identity independent Scopus registry record obtained; no conclusion about inclusion."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal states manuscripts may be desk rejected; eligible articles use double-anonymous review and editors make decisions. Two independent reviews are required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/cye"
+          ],
+          "notes": "Policy evidence does not independently establish the conduct of review of a particular paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Nikolai Veresov",
+                "role": "Editor",
+                "affiliation": "Monash University, Australia"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/cye"
+            ],
+            "note": "Named journal editor and affiliation."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/cye"
+            ],
+            "note": "Sage journal and foundation relationship is described historically; present legal ownership not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/cye"
+            ],
+            "note": "Instructions require research ethics approval where applicable and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/cye"
+            ],
+            "note": "Specific correction and retraction policy not independently read during this review."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/cye"
+            ],
+            "note": "Instructions require competing interest declarations."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/cye"
+            ],
+            "note": "Journal instructions link to the complaints and appeals procedure."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.portico.org/publishers/sage/"
+            ],
+            "note": "Portico lists this exact journal and ISSNs as preserved; coverage and completeness of holdings are not stated here."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/cye"
+            ],
+            "note": "Contributor publishing agreement and optional open access described in journal instructions."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Mapping the Opportunities and Challenges of Digital Technologies in Educational Contexts: Topics Addressed and Research Gaps / Análisis de las oportunidades y los desafíos de las tecnologías digitales en el contexto educativo: temas abordados y brechas de investigación",
+            "url": "https://journals.sagepub.com/doi/10.1177/11356405261467316",
+            "doi": "10.1177/11356405261467316",
+            "published_on": "2026-09-17",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page identifies title, authors, DOI, publication date and abstract; review reports not examined.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/11356405261467316"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/cye",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal and publisher identity; recent article list."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cye",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal submission, review, ethics, conflict and license instructions."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/cye",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Editorial board."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/11356405261467316",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article title, authors, DOI, date and abstract."
+          },
+          {
+            "url": "https://www.portico.org/publishers/sage/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "institution",
+            "note": "Portico lists exact journal title and ISSNs as preserved."
+          }
+        ],
+        "audit_limits": "Direct HTTPS returned 403; pages were read via web reader. Current independent index status, coverage of preserved holdings and applicable corrections policy require further verification. Current legal ownership remains unresolved."
+      }
+    },
+    {
+      "id": "current-environmental-health-reports",
+      "source_record_ids": [
+        "environmental-public-health-current-environmental-health-reports"
+      ],
+      "audit_note": "Core evidence and article samples checked; no inference of misconduct from unresolved checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publisher policies and article traceability documented; the full journal-specific external-review process remains to be verified.",
+        "identity": {
+          "issns": [
+            "2196-5412"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/40572"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v2n1, Mar. 2015-",
+            "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+            "registry_record_id": "101629387",
+            "publisher_url": "https://link.springer.com/journal/40572",
+            "matched_issns": [
+              "2196-5412"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+              "https://link.springer.com/journal/40572"
+            ],
+            "note": "NLM Catalog record explicitly identifies MEDLINE currently indexed with coverage shown. PubMed and MEDLINE are distinct."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal instructions and linked Springer policies describe peer review and reviewer/editor roles; external-review scope, model and content-type exceptions were not fully established in this check.",
+          "source_urls": [
+            "https://link.springer.com/journal/40572/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Documentation is not verification of review conduct for a specific paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Molly Kile",
+                "role": "Editor-in-Chief",
+                "affiliation": "Oregon State University, Corvallis, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/40572/editorial-board"
+            ],
+            "note": "Journal board identifies named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572"
+            ],
+            "note": "Journal page identifies Springer as publisher; society relationships, where shown, are distinct from ownership."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Instructions and linked Springer journal policies address research ethics and misconduct."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked journal policies address correction, retraction and matters arising."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author competing interest disclosures are required under linked guidance."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher policy provides process for appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/40572"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Dermal Exposure to Bisphenols and Their Analogs: A Systematic Review and Narrative Synthesis",
+            "url": "https://link.springer.com/article/10.1007/s40572-026-00574-2",
+            "doi": "10.1007/s40572-026-00574-2",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 13 November 2026; Received : 22 June 2026; Accepted : 05 November 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s40572-026-00574-2"
+            ]
+          },
+          {
+            "title": "Extracellular Vesicles at the Intersection of Environmental Exposure and Preterm Birth: A Research Agenda for an Emerging Field",
+            "url": "https://link.springer.com/article/10.1007/s40572-026-00573-3",
+            "doi": "10.1007/s40572-026-00573-3",
+            "published_on": "2026-11-10",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 10 November 2026; Received : 16 February 2026; Accepted : 03 November 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s40572-026-00573-3"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/40572",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/40572/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/40572/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s40572-026-00574-2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s40572-026-00573-3",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "NLM exact-title and electronic ISSN record: MEDLINE currently indexed, coverage v2n1, Mar. 2015-"
+          }
+        ],
+        "audit_limits": "Independent Scopus and Web of Science status not verified. Publisher policy is linked from the journal; journal-specific external reviewer requirements and exceptions need confirmation. Preservation holdings and specific licensing require further checking."
+      }
+    },
+    {
+      "id": "current-psychology",
+      "source_record_ids": [
+        "psychology-behavior-current-psychology"
+      ],
+      "audit_note": "Core evidence and article samples checked; no inference of misconduct from unresolved checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publisher policies and article traceability documented; the full journal-specific external-review process remains to be verified.",
+        "identity": {
+          "issns": [
+            "1936-4733",
+            "1046-1310"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/12144"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/12144",
+            "matched_issns": [
+              "1936-4733",
+              "1046-1310"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/12144"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "double_anonymous",
+          "summary": "Journal-specific instructions describe double-blind review; linked Springer policies describe reviewer and editor roles.",
+          "source_urls": [
+            "https://link.springer.com/journal/12144/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Documentation is not verification of review conduct for a specific paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "F. Richard Ferraro",
+                "role": "Co-Editor-in-Chief",
+                "affiliation": "University of North Dakota, Grand Forks, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/12144/editorial-board"
+            ],
+            "note": "Journal board identifies named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144"
+            ],
+            "note": "Journal page identifies Springer as publisher; society relationships, where shown, are distinct from ownership."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Instructions and linked Springer journal policies address research ethics and misconduct."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked journal policies address correction, retraction and matters arising."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author competing interest disclosures are required under linked guidance."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher policy provides process for appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/12144"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Cross-cultural adaptation and psychometric validation of the Chinese version of the music in aging wellness scale among university students",
+            "url": "https://link.springer.com/article/10.1007/s12144-026-10255-w",
+            "doi": "10.1007/s12144-026-10255-w",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 16 November 2026; Received : 27 June 2025; Accepted : 24 October 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s12144-026-10255-w"
+            ]
+          },
+          {
+            "title": "Patterns of textual self-presentation in tinder profiles: a relational script perspective",
+            "url": "https://link.springer.com/article/10.1007/s12144-026-10359-3",
+            "doi": "10.1007/s12144-026-10359-3",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 16 November 2026; Received : 27 July 2026; Accepted : 11 November 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s12144-026-10359-3"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/12144",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/12144/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/12144/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s12144-026-10255-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s12144-026-10359-3",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          }
+        ],
+        "audit_limits": "Independent Scopus and Web of Science status not verified. Publisher policy is linked from the journal; journal-specific external reviewer requirements and exceptions need confirmation. Preservation holdings and specific licensing require further checking."
+      }
+    },
+    {
+      "id": "current-sociology",
+      "source_record_ids": [
+        "sociology-organizations-current-sociology"
+      ],
+      "audit_note": "Accessible publisher pages via browser and article sample read; incomplete checks remain verification tasks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal describes double-anonymous review and names editors; corrections policy and independent indexing require further confirmation.",
+        "identity": {
+          "issns": [
+            "0011-3921",
+            "1461-7064"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/csi",
+            "https://journals.sagepub.com/cms/asset/cf535d22-8f08-4b4c-bde2-a84fc223bb0e/csia_72_5.ed_board.pdf"
+          ],
+          "notes": "Exact title matched; ISSNs from 2024 publisher masthead."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/csi"
+            ],
+            "note": "No readable exact-identity independent Scopus registry record obtained; no conclusion about inclusion."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal states manuscripts may be desk rejected; eligible articles use double-anonymous review and editors make decisions. Journal instructions state standard double-blind procedure; an editorial describes outside reviewers.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/csi",
+            "https://journals.sagepub.com/doi/10.1177/0011392116656711"
+          ],
+          "notes": "Policy evidence does not independently establish the conduct of review of a particular paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Qiushi Feng",
+                "role": "Editor",
+                "affiliation": "National University of Singapore"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/00113921241299510"
+            ],
+            "note": "Named journal editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/csi"
+            ],
+            "note": "Official journal of the International Sociological Association, published by Sage."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/csi"
+            ],
+            "note": "Instructions require research ethics approval where applicable and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/csi"
+            ],
+            "note": "Specific correction and retraction policy not independently read during this review."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/csi"
+            ],
+            "note": "Instructions require competing interest declarations."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/csi"
+            ],
+            "note": "Journal instructions link to the complaints and appeals procedure."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.portico.org/publishers/sage/"
+            ],
+            "note": "Portico lists this exact journal and ISSNs as preserved; coverage and completeness of holdings are not stated here."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/csi"
+            ],
+            "note": "Contributor publishing agreement and optional open access described in journal instructions."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Temporal world-building in populist politics",
+            "url": "https://journals.sagepub.com/doi/10.1177/00113921261502006",
+            "doi": "10.1177/00113921261502006",
+            "published_on": "2026-11-10",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page identifies title, authors, DOI, publication date and abstract; review reports not examined.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/00113921261502006"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/csi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal and publisher identity; recent article list."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/csi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal submission, review, ethics, conflict and license instructions."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/csi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Editorial board."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/00113921261502006",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article title, authors, DOI, date and abstract."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/00113921241299510",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal editorial identifies editor affiliation and appointment."
+          },
+          {
+            "url": "https://journals.sagepub.com/cms/asset/cf535d22-8f08-4b4c-bde2-a84fc223bb0e/csia_72_5.ed_board.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "2024 masthead identifies title and both ISSNs."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/0011392116656711",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal editorial describes outside review and editor decisions."
+          },
+          {
+            "url": "https://www.portico.org/publishers/sage/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "institution",
+            "note": "Portico lists exact journal title and ISSNs as preserved."
+          }
+        ],
+        "audit_limits": "Direct HTTPS returned 403; pages were read via web reader. Current independent index status, coverage of preserved holdings and applicable corrections policy require further verification."
+      }
+    },
+    {
+      "id": "discrete-event-dynamic-systems",
+      "source_record_ids": [
+        "operations-simulation-discrete-event-dynamic-systems",
+        "robotics-control-discrete-event-dynamic-systems"
+      ],
+      "audit_note": "Core evidence and article samples checked; no inference of misconduct from unresolved checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publisher policies and article traceability documented; the full journal-specific external-review process remains to be verified.",
+        "identity": {
+          "issns": [
+            "1573-7594",
+            "0924-6703"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10626"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10626",
+            "matched_issns": [
+              "1573-7594",
+              "0924-6703"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10626"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal instructions and linked Springer policies describe peer review and reviewer/editor roles; external-review scope, model and content-type exceptions were not fully established in this check.",
+          "source_urls": [
+            "https://link.springer.com/journal/10626/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Documentation is not verification of review conduct for a specific paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Christoforos Hadjicostis",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Cyprus, Nicosia, Cyprus"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10626/editorial-board"
+            ],
+            "note": "Journal board identifies named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626"
+            ],
+            "note": "Journal page identifies Springer as publisher; society relationships, where shown, are distinct from ownership."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Instructions and linked Springer journal policies address research ethics and misconduct."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked journal policies address correction, retraction and matters arising."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author competing interest disclosures are required under linked guidance."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher policy provides process for appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10626"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Structural analysis of Petri nets",
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00453-w",
+            "doi": "10.1007/s10626-026-00453-w",
+            "published_on": "2026-10-19",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 19 October 2026; Received : 22 September 2025; Accepted : 18 September 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10626-026-00453-w"
+            ]
+          },
+          {
+            "title": "DEDS along their life-cycle: interpreted extensions of Petri nets",
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00454-9",
+            "doi": "10.1007/s10626-026-00454-9",
+            "published_on": "2026-10-06",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 06 October 2026; Received : 08 July 2025; Accepted : 24 September 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10626-026-00454-9"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10626",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10626/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10626/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00453-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00454-9",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          }
+        ],
+        "audit_limits": "Independent Scopus and Web of Science status not verified. Publisher policy is linked from the journal; journal-specific external reviewer requirements and exceptions need confirmation. Preservation holdings and specific licensing require further checking."
+      }
+    },
+    {
+      "id": "ecohealth",
+      "source_record_ids": [
+        "environmental-public-health-ecohealth"
+      ],
+      "audit_note": "Core evidence and article samples checked; no inference of misconduct from unresolved checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publisher policies and article traceability documented; the full journal-specific external-review process remains to be verified.",
+        "identity": {
+          "issns": [
+            "1612-9210",
+            "1612-9202"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10393"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v5n1, Mar. 2008-",
+            "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+            "registry_record_id": "101222144",
+            "publisher_url": "https://link.springer.com/journal/10393",
+            "matched_issns": [
+              "1612-9210"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+              "https://link.springer.com/journal/10393"
+            ],
+            "note": "NLM Catalog record explicitly identifies MEDLINE currently indexed with coverage shown. PubMed and MEDLINE are distinct."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal instructions and linked Springer policies describe peer review and reviewer/editor roles; external-review scope, model and content-type exceptions were not fully established in this check.",
+          "source_urls": [
+            "https://link.springer.com/journal/10393/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Documentation is not verification of review conduct for a specific paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Peter Daszak",
+                "role": "Editor-in-Chief",
+                "affiliation": "Nature.Health.Global, New York, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10393/editorial-board"
+            ],
+            "note": "Journal board identifies named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393"
+            ],
+            "note": "Journal page identifies Springer as publisher; society relationships, where shown, are distinct from ownership."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Instructions and linked Springer journal policies address research ethics and misconduct."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked journal policies address correction, retraction and matters arising."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author competing interest disclosures are required under linked guidance."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher policy provides process for appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10393"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Acute Q Fever Without Recognized Exposure in Northeastern Italy Through a One Health Lens",
+            "url": "https://link.springer.com/article/10.1007/s10393-026-01863-w",
+            "doi": "10.1007/s10393-026-01863-w",
+            "published_on": "2026-11-11",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 11 November 2026; Received : 28 September 2026; Accepted : 16 October 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10393-026-01863-w"
+            ]
+          },
+          {
+            "title": "Global Mismatch in Human Exposure, Vulnerability, and Health Funding for Zoonotic Disease",
+            "url": "https://link.springer.com/article/10.1007/s10393-026-01855-w",
+            "doi": "10.1007/s10393-026-01855-w",
+            "published_on": "2026-11-10",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 10 November 2026; Received : 25 September 2025; Accepted : 16 September 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10393-026-01855-w"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10393",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10393/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10393/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10393-026-01863-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10393-026-01855-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "NLM exact-title and electronic ISSN record: MEDLINE currently indexed, coverage v5n1, Mar. 2008-"
+          }
+        ],
+        "audit_limits": "Independent Scopus and Web of Science status not verified. Publisher policy is linked from the journal; journal-specific external reviewer requirements and exceptions need confirmation. Preservation holdings and specific licensing require further checking."
+      }
+    },
+    {
+      "id": "engineering-with-computers",
+      "source_record_ids": [
+        "systems-engineering-engineering-with-computers"
+      ],
+      "audit_note": "Core evidence and article samples checked; no inference of misconduct from unresolved checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publisher policies and article traceability documented; the full journal-specific external-review process remains to be verified.",
+        "identity": {
+          "issns": [
+            "1435-5663",
+            "0177-0667"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/366"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/366",
+            "matched_issns": [
+              "1435-5663",
+              "0177-0667"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/366"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal instructions and linked Springer policies describe peer review and reviewer/editor roles; external-review scope, model and content-type exceptions were not fully established in this check.",
+          "source_urls": [
+            "https://link.springer.com/journal/366/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Documentation is not verification of review conduct for a specific paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Yongjie (Jessica) Zhang",
+                "role": "Editor-in-Chief",
+                "affiliation": "Carnegie Mellon University, Pittsburgh, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/366/editorial-board"
+            ],
+            "note": "Journal board identifies named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366"
+            ],
+            "note": "Journal page identifies Springer as publisher; society relationships, where shown, are distinct from ownership."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Instructions and linked Springer journal policies address research ethics and misconduct."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked journal policies address correction, retraction and matters arising."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author competing interest disclosures are required under linked guidance."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher policy provides process for appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/366"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/366/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A physics-augmented machine learning constitutive model for damage in solids",
+            "url": "https://link.springer.com/article/10.1007/s00366-026-02442-x",
+            "doi": "10.1007/s00366-026-02442-x",
+            "published_on": "2026-11-02",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 02 November 2026; Received : 28 April 2026; Accepted : 23 September 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s00366-026-02442-x"
+            ]
+          },
+          {
+            "title": "FLOWS: a model to simulate water and solutes fluxes in agricultural and environmental systems. 1. Theory and applications with intercode benchmarking",
+            "url": "https://link.springer.com/article/10.1007/s00366-026-02428-9",
+            "doi": "10.1007/s00366-026-02428-9",
+            "published_on": "2026-10-26",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 26 October 2026; Received : 13 March 2026; Accepted : 09 September 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s00366-026-02428-9"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/366",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/366/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/366/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00366-026-02442-x",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00366-026-02428-9",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          }
+        ],
+        "audit_limits": "Independent Scopus and Web of Science status not verified. Publisher policy is linked from the journal; journal-specific external reviewer requirements and exceptions need confirmation. Preservation holdings and specific licensing require further checking."
+      }
+    },
+    {
+      "id": "environmental-geochemistry-and-health",
+      "source_record_ids": [
+        "environmental-public-health-environmental-geochemistry-and-health"
+      ],
+      "audit_note": "Core evidence and article samples checked; no inference of misconduct from unresolved checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publisher policies and article traceability documented; the full journal-specific external-review process remains to be verified.",
+        "identity": {
+          "issns": [
+            "1573-2983",
+            "0269-4042"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10653"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10653",
+            "matched_issns": [
+              "1573-2983",
+              "0269-4042"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10653"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal instructions and linked Springer policies describe peer review and reviewer/editor roles; external-review scope, model and content-type exceptions were not fully established in this check.",
+          "source_urls": [
+            "https://link.springer.com/journal/10653/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Documentation is not verification of review conduct for a specific paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Michael Watts",
+                "role": "Editor-in-Chief",
+                "affiliation": "British Geological Survey, Nottingham, United Kingdom"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10653/editorial-board"
+            ],
+            "note": "Journal board identifies named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653"
+            ],
+            "note": "Journal page identifies Springer as publisher; society relationships, where shown, are distinct from ownership."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Instructions and linked Springer journal policies address research ethics and misconduct."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked journal policies address correction, retraction and matters arising."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author competing interest disclosures are required under linked guidance."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher policy provides process for appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10653"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Geospatial risk assessment and predictive modeling of radon exposure from granitic rocks for sustainable construction in the Northern Arabian Shield",
+            "url": "https://link.springer.com/article/10.1007/s10653-026-03609-7",
+            "doi": "10.1007/s10653-026-03609-7",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 16 November 2026; Received : 23 July 2026; Accepted : 09 November 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10653-026-03609-7"
+            ]
+          },
+          {
+            "title": "Source-oriented probabilistic attribution of trace element contamination and human health risks in fissure water of the Hanzhong–Shiyan segment, Hanjiang River Basin, China",
+            "url": "https://link.springer.com/article/10.1007/s10653-026-03612-y",
+            "doi": "10.1007/s10653-026-03612-y",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 16 November 2026; Received : 06 July 2026; Accepted : 10 November 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10653-026-03612-y"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10653",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10653/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10653/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10653-026-03609-7",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10653-026-03612-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          }
+        ],
+        "audit_limits": "Independent Scopus and Web of Science status not verified. Publisher policy is linked from the journal; journal-specific external reviewer requirements and exceptions need confirmation. Preservation holdings and specific licensing require further checking."
+      }
+    },
+    {
+      "id": "environmental-monitoring-and-assessment",
+      "source_record_ids": [
+        "environmental-public-health-environmental-monitoring-and-assessment"
+      ],
+      "audit_note": "Core evidence and article samples checked; no inference of misconduct from unresolved checks.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publisher policies and article traceability documented; the full journal-specific external-review process remains to be verified.",
+        "identity": {
+          "issns": [
+            "1573-2959"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10661"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v66n1, 2001-",
+            "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+            "registry_record_id": "8508350",
+            "publisher_url": "https://link.springer.com/journal/10661",
+            "matched_issns": [
+              "1573-2959"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+              "https://link.springer.com/journal/10661"
+            ],
+            "note": "NLM Catalog record explicitly identifies MEDLINE currently indexed with coverage shown. PubMed and MEDLINE are distinct."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal instructions and linked Springer policies describe peer review and reviewer/editor roles; external-review scope, model and content-type exceptions were not fully established in this check.",
+          "source_urls": [
+            "https://link.springer.com/journal/10661/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Documentation is not verification of review conduct for a specific paper."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "G. Bruce Wiersma",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Maine, Orono, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10661/editorial-board"
+            ],
+            "note": "Journal board identifies named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661"
+            ],
+            "note": "Journal page identifies Springer as publisher; society relationships, where shown, are distinct from ownership."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Instructions and linked Springer journal policies address research ethics and misconduct."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked journal policies address correction, retraction and matters arising."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Author competing interest disclosures are required under linked guidance."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher policy provides process for appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10661"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Assessing satellite and reanalysis PM2.5 datasets for air quality applications in India",
+            "url": "https://link.springer.com/article/10.1007/s10661-026-16161-9",
+            "doi": "10.1007/s10661-026-16161-9",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 16 November 2026; Received : 20 July 2026; Accepted : 07 November 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10661-026-16161-9"
+            ]
+          },
+          {
+            "title": "Molecular engineering of fluorescent dyes for microplastic screening and preliminary polymer discrimination",
+            "url": "https://link.springer.com/article/10.1007/s10661-026-16134-y",
+            "doi": "10.1007/s10661-026-16134-y",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article page provides title, authors, DOI and publication history: Published: 16 November 2026; Received : 26 March 2026; Accepted : 28 October 2026. These dates do not independently establish the conduct of review.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10661-026-16134-y"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10661",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10661/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10661/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10661-026-16161-9",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10661-026-16134-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "NLM exact-title and electronic ISSN record: MEDLINE currently indexed, coverage v66n1, 2001-"
+          }
+        ],
+        "audit_limits": "Independent Scopus and Web of Science status not verified. Publisher policy is linked from the journal; journal-specific external reviewer requirements and exceptions need confirmation. Preservation holdings and specific licensing require further checking."
+      }
+    }
+  ]
+}

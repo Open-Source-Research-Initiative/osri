@@ -1,6 +1,6 @@
 # Software engineering and formal methods
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Journal of Open Source Software
 
@@ -17,6 +17,11 @@ Journal states no fees for manuscript processing or publishing and zero publicat
 **Disclosure (required):** Include an AI usage disclosure statement identifying tools/models and versions, where used, nature and scope of assistance, and confirmation that humans reviewed, edited and validated outputs and made core design decisions.
 
 [Author guidance](https://joss.readthedocs.io/en/latest/submitting.html) · [Venue](https://joss.theoj.org/)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Crossref: not verified — Exact-title authority match not established; no conclusion about inclusion elsewhere. [source](https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20)
+- DOAJ: registry confirmed — Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable. [source](https://doaj.org/api/journals/543105344edb4e509ce7c54115efb88a), [source](https://joss.theoj.org/about)
 
 - Author eligibility (not_stated): No affirmative geographic author eligibility rule identified in inspected instructions. | Inspected author guidance does not affirm a specific geographic eligibility rule; worldwide eligibility is not inferred. | The reviewed instructions do not affirm a geographic author eligibility rule; unrestricted worldwide eligibility is not established.
 - [Author eligibility source](https://joss.readthedocs.io/en/latest/submitting.html)

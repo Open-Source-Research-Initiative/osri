@@ -1,0 +1,1802 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/quality_complete_other_1",
+  "batch": "other-1",
+  "records": [
+    {
+      "id": "afyon-kocatepe-university-journal-of-economics-and-administrative-sciences",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Review and named editorial leadership documented; one or more core checks remain unresolved.",
+        "identity": {
+          "issns": [
+            "1302-1966",
+            "2651-4117"
+          ],
+          "publisher": "Afyon Kocatepe University, Faculty of Economics and Administrative Sciences",
+          "source_urls": [
+            "https://dergipark.org.tr/en/pub/akuiibfd"
+          ],
+          "notes": "Journal title matched to the publisher page; publisher and underlying owner may differ."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://dergipark.org.tr/en/pub/akuiibfd/indexes",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/indexes"
+            ],
+            "note": "Journal platform lists DOAJ; authority record returned 403 and could not be read."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Manuscripts passing screening are double-blind reviewed; the editor decides. External reviewer count not established in reviewed policy.",
+          "source_urls": [
+            "https://dergipark.org.tr/en/pub/akuiibfd/policy"
+          ],
+          "notes": "Policy, not verification of review conduct."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Fatih Ecer",
+                "role": "Editor-in-Chief",
+                "affiliation": "Afyon Kocatepe University"
+              }
+            ],
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/board"
+            ],
+            "note": "Board names editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd"
+            ],
+            "note": "University and faculty identified as publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/policy"
+            ],
+            "note": "Editorial responsibilities, ethics and plagiarism screening described."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/policy"
+            ],
+            "note": "Specific correction and retraction procedure not established in inspected policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/policy"
+            ],
+            "note": "Policy addresses competing interests."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/policy"
+            ],
+            "note": "Procedure not established in this check."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/archive"
+            ],
+            "note": "Issue archive accessible; independent long-term preservation not established."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/indexes"
+            ],
+            "note": "Journal footer states CC BY-NC 4.0."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "From Connectivity to digital competitiveness: Comparative assessment of ICT performance in European countries using a hybrid MCDM framework",
+            "url": "https://dergipark.org.tr/en/pub/akuiibfd/article/1921151",
+            "doi": "10.33707/akuiibfd.1921151",
+            "published_on": "2026-10-21",
+            "checked_on": "2026-11-16",
+            "observations": "Article landing page records authors, abstract, DOI, submission and acceptance dates.",
+            "source_urls": [
+              "https://dergipark.org.tr/en/pub/akuiibfd/article/1921151"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://dergipark.org.tr/en/pub/akuiibfd",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Title, ISSNs and university publisher."
+          },
+          {
+            "url": "https://dergipark.org.tr/en/pub/akuiibfd/board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://dergipark.org.tr/en/pub/akuiibfd/policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Peer review and ethics policy."
+          },
+          {
+            "url": "https://dergipark.org.tr/en/pub/akuiibfd/indexes",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "DOAJ claim and journal licence."
+          },
+          {
+            "url": "https://doaj.org/toc/2651-4117",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN URL returned 403."
+          },
+          {
+            "url": "https://dergipark.org.tr/en/pub/akuiibfd/article/1921151",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article metadata and dates."
+          }
+        ],
+        "audit_limits": "Independent DOAJ record blocked; external review count and correction/retraction policy require further verification. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Prior assessment preserved; no additional core evidence established in this pass."
+    },
+    {
+      "id": "bulgarian-journal-of-public-health",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [
+            "1313-860X"
+          ],
+          "publisher": "National Center of Public Health and Analyses",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "CABI",
+            "category": "bibliographic_database",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Issue claims Web of Science (CABI); does not establish SCIE, SSCI or ESCI membership."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "External review process not resolved.",
+          "source_urls": [],
+          "notes": "Policy and actual conduct are distinct."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Petko Salchev",
+                "role": "Editor-in-Chief",
+                "affiliation": "National Center of Public Health and Analyses"
+              }
+            ],
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Issue masthead names editor and editorial office."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Issue identifies official journal of National Center."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Directions require committee approval for human studies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "institution",
+            "note": "2025 issue, masthead and author directions."
+          }
+        ],
+        "audit_limits": "External peer review and corrections policy unresolved; claim not independently checked. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Prior assessment preserved; no additional core evidence established in this pass."
+    },
+    {
+      "id": "classical-and-quantum-gravity",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [
+            "0264-9381",
+            "1361-6382"
+          ],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/0264-9381"
+          ],
+          "notes": "Crossref deposited article metadata matches exact title and both ISSNs."
+        },
+        "indexing": [
+          {
+            "name": "Web of Science",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://mjl.clarivate.com/search-results",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://mjl.clarivate.com/search-results"
+            ],
+            "note": "No readable exact-title authority record returned."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal offers single- or double-anonymous review by author choice; reviewers interact with the editor, who arbitrates scientific disputes. IOP says research papers and reviews passing screening in the majority of its journals are sent to two independent reviewers; non-paper types may differ.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/about-classical-quantum-gravity/",
+            "https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/editorial-board/",
+            "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/"
+          ],
+          "notes": "General IOP policy is qualified as applying to the majority of journals; article-specific review conduct and exceptions are not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Susan Scott",
+                "role": "Editor-in-Chief",
+                "affiliation": "Australian National University"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/editorial-board/"
+            ],
+            "note": "Journal board identifies editor and affiliation."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy addresses research integrity investigations and author responsibilities. Applicability list names this journal."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy provides investigation, correction and retraction procedures. Applicability list names this journal."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy requires disclosure of competing interests. Applicability list names this journal."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A proposal to test the distinguishability of singular and regular black holes using a GRIN lens analogue",
+            "url": "https://api.crossref.org/works/10.1088/1361-6382/aebd5c",
+            "doi": "10.1088/1361-6382/aebd5c",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited article metadata only; container title Classical and Quantum Gravity and ISSN 0264-9381 matched. Publication date reported 2026-11-16. Full article and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1088/1361-6382/aebd5c"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/0264-9381",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "publisher",
+            "note": "Journal site restricted."
+          },
+          {
+            "url": "https://mjl.clarivate.com/search-results",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1088/1361-6382/aebd5c",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref deposited work metadata identifies article, journal and matching ISSN; metadata only."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "IOP lists this exact journal among titles covered by its ethical policy."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Research integrity investigation, conflicts, correction and retraction policy."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Named editor, affiliation and arbitration responsibility."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/about-classical-quantum-gravity/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review model and applicable ethical policy."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher general procedure: majority of journals send research papers and reviews to two independent reviewers after screening; non-paper types may differ."
+          }
+        ],
+        "audit_limits": "IOP site restricted; identity, board, peer review, articles and policies need checking. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Crossref journal works response yielded exact-title and ISSN-matched article metadata; no full article or review-report assessment. IOP explicitly lists journal as subject to its ethics policy, including correction and retraction."
+    },
+    {
+      "id": "contextus-contemporary-journal-of-economics-and-management",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [
+            "1678-2089",
+            "2178-9258"
+          ],
+          "publisher": "Federal University of Ceará",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/about"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn:2178-9258",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn:2178-9258"
+            ],
+            "note": "No readable exact-title authority record returned."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Scientific article policy specifies double-blind review and names responsible editors in published papers.",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/politica"
+          ],
+          "notes": "Individual review conduct not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Diego de Queiroz Machado",
+                "role": "Editor-in-chief",
+                "affiliation": "Federal University of Ceará"
+              }
+            ],
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/about/editorialTeam"
+            ],
+            "note": "Named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/about"
+            ],
+            "note": "University journal identifies institutional host."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/etica"
+            ],
+            "note": "Journal code for authors, reviewers and editors."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/etica"
+            ],
+            "note": "Journal code addresses conflicts."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/article/view/96724"
+            ],
+            "note": "Article states CC BY-NC 4.0."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Identity on display: pop culture, belonging and purchase decisions",
+            "url": "https://periodicos.ufc.br/contextus/article/view/96724",
+            "doi": "10.36517/contextus.2026.96724",
+            "published_on": "2026-10-28",
+            "checked_on": "2026-11-16",
+            "observations": "Article page provides title, authors, date and DOI; review conduct is not independently established.",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/article/view/96724"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://periodicos.ufc.br/contextus/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity and ISSNs."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/about/editorialTeam",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named board."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/politica",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Peer review policy."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/etica",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Ethics code."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/article/view/96724",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article metadata and license."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn:2178-9258",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Corrections, preservation and independent index inclusion need checking. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Prior assessment preserved; no additional core evidence established in this pass."
+    },
+    {
+      "id": "epidemiologia-e-servi-os-de-sa-de-revista-do-sus",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some policies and named editorial oversight documented; article samples and independent indexing remain unverified.",
+        "identity": {
+          "issns": [
+            "1679-4974",
+            "2237-9622"
+          ],
+          "publisher": "Secretaria de Vigilância em Saúde e Ambiente, Ministério da Saúde do Brasil",
+          "source_urls": [
+            "https://www.scielo.br/journal/ress/about/?ilang=en"
+          ],
+          "notes": "ISSNs listed when retrieved from official publisher or SciELO pages; other identifiers remain unverified."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [],
+            "note": "Exact-title registry record not retrieved; no inference about inclusion."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "At least two external experts; double-anonymous by default and single-anonymous for preprints. Chief and scientific editors decide.",
+          "source_urls": [
+            "https://www.scielo.br/journal/ress/about/?ilang=en"
+          ],
+          "notes": "Policy does not prove review in a specific article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.scielo.br/journal/ress/about/?ilang=en"
+            ],
+            "note": "Named board.",
+            "names": [
+              {
+                "name": "Jorge Otávio Maia Barreto",
+                "role": "Editor-in-Chief",
+                "affiliation": "Fundação Oswaldo Cruz, Brazil"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.scielo.br/journal/ress/about/?ilang=en"
+            ],
+            "note": "Brazilian Ministry of Health health and environmental surveillance secretariat."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.scielo.br/journal/ress/about/?ilang=en"
+            ],
+            "note": "ICMJE and COPE-informed ethics and misconduct policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.scielo.br/journal/ress/about/?ilang=en"
+            ],
+            "note": "Errata and partial or full retractions described."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.scielo.br/journal/ress/about/?ilang=en"
+            ],
+            "note": "Reviewers and editors declare conflicts."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Formal appeals policy not located."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.scielo.br/journal/ress/about/?ilang=en"
+            ],
+            "note": "Author self-archiving encouraged; long-term preservation unverified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://www.scielo.br/journal/ress/about/?ilang=en"
+            ],
+            "note": "CC BY 4.0 except where otherwise specified; authors retain copyright."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Individual and contextual factors and professional qualification completion for obesity management: a cross-sectional study, Brazil, 2021–2022",
+            "url": "https://api.crossref.org/works/10.1590/s2237-96222026v35e20251154.en",
+            "doi": "10.1590/s2237-96222026v35e20251154.en",
+            "published_on": "2026-08-21",
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited article metadata only; container title Epidemiologia e Serviços de Saúde and ISSN 2237-9622 matched. Publication date reported 2026-08-21. Full article and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1590/s2237-96222026v35e20251154.en"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.scielo.br/journal/ress/about/?ilang=en",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Identity, board, publisher, review, ethics, correction and licensing."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1590/s2237-96222026v35e20251154.en",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref deposited work metadata identifies article, journal and matching ISSN; metadata only."
+          }
+        ],
+        "audit_limits": "No recent research article was independently read; sample check remains incomplete. Selective index authority records were not obtained. Other unclear policy dimensions are identified above. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Crossref journal works response yielded exact-title and ISSN-matched article metadata; no full article or review-report assessment."
+    },
+    {
+      "id": "european-management-journal",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some policies and named editorial oversight documented; article samples and independent indexing remain unverified.",
+        "identity": {
+          "issns": [
+            "0263-2373"
+          ],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/european-management-journal"
+          ],
+          "notes": "ISSNs listed when retrieved from official publisher or SciELO pages; other identifiers remain unverified."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [],
+            "note": "Exact-title registry record not retrieved; no inference about inclusion."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Publisher says double-blind review involves at least two reviewers.",
+          "source_urls": [
+            "https://shop.elsevier.com/journals/european-management-journal/0263-2373"
+          ],
+          "notes": "Reviewer independence, editor decision and exemptions not fully established."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check.",
+            "names": []
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Continent-based wage differentials in European football: Evidence from distributional decomposition",
+            "url": "https://api.crossref.org/works/10.1016/j.emj.2026.11.003",
+            "doi": "10.1016/j.emj.2026.11.003",
+            "published_on": null,
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited article metadata only; container title European Management Journal and ISSN 0263-2373 matched. Publication date reported 2026-11. Full article and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1016/j.emj.2026.11.003"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/european-management-journal/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Instructions returned 403; no inference about policy absence."
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0263237325001586",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal editorial discusses peer review; not a complete policy."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1016/j.emj.2026.11.003",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref deposited work metadata identifies article, journal and matching ISSN; metadata only."
+          },
+          {
+            "url": "https://shop.elsevier.com/journals/european-management-journal/0263-2373",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact journal and ISSN; describes double-blind review involving at least two reviewers."
+          }
+        ],
+        "audit_limits": "No recent research article was independently read; sample check remains incomplete. Selective index authority records were not obtained. Other unclear policy dimensions are identified above. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Crossref journal works response yielded exact-title and ISSN-matched article metadata; no full article or review-report assessment."
+    },
+    {
+      "id": "industrial-marketing-management",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Some editorial standards or traceable publication details require verification; missing evidence is not a finding of misconduct.",
+        "identity": {
+          "issns": [
+            "0019-8501"
+          ],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://shop.elsevier.com/journals/industrial-marketing-management/0019-8501"
+          ],
+          "notes": "Journal title and available ISSNs from official publisher sources."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [
+              "0019-8501"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [],
+            "note": "Authority record not inspected; no negative inference."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Specific external review procedure not established from accessible sources.",
+          "source_urls": [],
+          "notes": "A gap is not proof that peer review did not occur."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible applicable sources.",
+            "names": []
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://shop.elsevier.com/journals/industrial-marketing-management/0019-8501"
+            ],
+            "note": "Elsevier journal listing."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible applicable sources."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible applicable sources."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible applicable sources."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible applicable sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible applicable sources."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible applicable sources."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "How can generative AI's conversational affordances drive firm performance? A service-dominant logic perspective",
+            "url": "https://api.crossref.org/works/10.1016/j.indmarman.2026.11.002",
+            "doi": "10.1016/j.indmarman.2026.11.002",
+            "published_on": null,
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited article metadata only; container title Industrial Marketing Management and ISSN 0019-8501 matched. Publication date reported 2026-11. Full article and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1016/j.indmarman.2026.11.002"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://shop.elsevier.com/journals/industrial-marketing-management/0019-8501",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Exact title and print ISSN."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/industrial-marketing-management",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Publisher homepage blocked by access challenge."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1016/j.indmarman.2026.11.002",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref deposited work metadata identifies article, journal and matching ISSN; metadata only."
+          }
+        ],
+        "audit_limits": "Journal homepage and article pages blocked; cannot substantiate editor, applicable journal review policy, ethics or article sample. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Crossref journal works response yielded exact-title and ISSN-matched article metadata; no full article or review-report assessment."
+    },
+    {
+      "id": "journal-of-business-research",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal-specific homepage access was blocked; core checks remain incomplete. Accessible publisher materials support some identity and review details.",
+        "identity": {
+          "issns": [
+            "0148-2963"
+          ],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://shop.elsevier.com/journals/journal-of-business-research/0148-2963"
+          ],
+          "notes": "Publisher source identifies journal; exact ISSN details remain incomplete where omitted."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "No readable exact-title index authority record obtained; no inference about inclusion."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal-specific reviewer guidance exists but journal procedure and decision exceptions need checking.",
+          "source_urls": [
+            "https://shop.elsevier.com/journals/journal-of-business-research/0148-2963"
+          ],
+          "notes": "Policy does not prove review of any particular article."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Journal-specific evidence unavailable in this check."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Journal-specific evidence unavailable in this check."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Journal-specific evidence unavailable in this check."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Journal-specific evidence unavailable in this check."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Journal-specific evidence unavailable in this check."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Journal-specific evidence unavailable in this check."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Journal-specific evidence unavailable in this check."
+          },
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [
+              "https://www.sciencedirect.com/journal/journal-of-business-research"
+            ],
+            "note": "Board page was not directly read; further check required."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "An actor-centric lens on service ecosystem: value cocreation through a codification process",
+            "url": "https://api.crossref.org/works/10.1016/j.jbusres.2026.116647",
+            "doi": "10.1016/j.jbusres.2026.116647",
+            "published_on": null,
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited article metadata only; container title Journal of Business Research and ISSN 0148-2963 matched. Publication date reported 2027-02. Full article and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1016/j.jbusres.2026.116647"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-business-research",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Direct journal homepage returned access error."
+          },
+          {
+            "url": "https://shop.elsevier.com/journals/journal-of-business-research/0148-2963",
+            "checked_on": "2026-11-16",
+            "access": "search_snippet",
+            "source_type": "publisher",
+            "note": "Publisher indexed material; full direct page not independently retrieved in this audit."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1016/j.jbusres.2026.116647",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref deposited work metadata identifies article, journal and matching ISSN; metadata only."
+          }
+        ],
+        "audit_limits": "Accessible source excerpts are weaker than reading the full page. Board, applicable policies, independent index records and article samples require further verification. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Crossref journal works response yielded exact-title and ISSN-matched article metadata; no full article or review-report assessment."
+    },
+    {
+      "id": "journal-of-engineering-and-technology-management",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Core checks incomplete; no misconduct inferred.",
+        "identity": {
+          "issns": [],
+          "publisher": "Elsevier",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management"
+          ],
+          "notes": "Exact title identified; ISSN needs checking."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [],
+            "note": "Authority exact-title record not established; no inference of non-indexing."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Baseline review label retained; details need checking.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management"
+          ],
+          "notes": "Prior evidence preserved."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit.",
+            "names": []
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this audit."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/journal-of-engineering-and-technology-management",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "publisher",
+            "note": "Publisher page returned 403."
+          }
+        ],
+        "audit_limits": "Core checks, authority indexing and recent sample require further inspection. Supplemental pass: outstanding core policy, ownership or review details remain unresolved where marked unclear; article metadata does not establish review conduct."
+      },
+      "audit_note": "Prior assessment preserved; no additional core evidence established in this pass."
+    },
+    {
+      "id": "journal-of-micromechanics-and-microengineering",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Journal documents review, named editorial leadership, publisher ownership, applicable ethics and corrections, and a traceable publication sample.",
+        "identity": {
+          "issns": [
+            "0960-1317",
+            "1361-6439"
+          ],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/0960-1317",
+            "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20"
+          ],
+          "notes": "Exact title matched in Crossref journal metadata."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20",
+            "registry_record_id": "0960-1317",
+            "publisher_url": null,
+            "matched_issns": [
+              "0960-1317",
+              "1361-6439"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20"
+            ],
+            "note": "Exact-title identifier metadata; not selective index coverage."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal policy offers single- or double-anonymous review by author choice; reviewers interact with editor and reporting may be published by opt-in. IOP says research papers and reviews passing screening in the majority of its journals are sent to two independent reviewers; non-paper types may differ.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/",
+            "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/"
+          ],
+          "notes": "General IOP policy is qualified as applying to the majority of journals; article-specific review conduct and exceptions are not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Weileun Fang",
+                "role": "Editor-in-Chief",
+                "affiliation": "National Tsing Hua University"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/editorial-board/"
+            ],
+            "note": "Journal board names accountable editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/"
+            ],
+            "note": "IOP describes itself as society owned and its proceeds supporting Institute of Physics."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy addresses research integrity investigations and author responsibilities. Applicability list names this journal."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy provides investigation, correction and retraction procedures. Applicability list names this journal."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy requires disclosure of competing interests. Applicability list names this journal."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Microplasma glow discharge chip for open-air atomic emission spectroscopy",
+            "url": "https://doi.org/10.1088/1361-6439/aec1eb",
+            "doi": "10.1088/1361-6439/aec1eb",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "DOI and article landing page provide publication traceability; review reports and scientific validity were not independently examined.",
+            "source_urls": [
+              "https://doi.org/10.1088/1361-6439/aec1eb"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/0960-1317",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Micromechanics%20and%20Microengineering&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal editorial board and affiliations."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-micromechanics-and-microengineering/about-journal-micromechanics-microengineering/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review policy."
+          },
+          {
+            "url": "https://doi.org/10.1088/1361-6439/aec1eb",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page checked for traceability."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "IOP lists this exact journal among titles covered by its ethical policy."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Research integrity investigation, conflicts, correction and retraction policy."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher general procedure: majority of journals send research papers and reviews to two independent reviewers after screening; non-paper types may differ."
+          }
+        ],
+        "audit_limits": "Selective indexing, reviewer independence in each case, exceptions and remaining unclear editorial dimensions are not established; article traceability does not establish scientific validity."
+      },
+      "audit_note": "Prior assessment preserved; no additional core evidence established in this pass. IOP explicitly lists journal as subject to its ethics policy, including correction and retraction."
+    },
+    {
+      "id": "journal-of-open-source-software",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Journal documents open peer review, named leadership, ownership, ethics and corrections, and a traceable article with a public review link.",
+        "identity": {
+          "issns": [
+            "2475-9066"
+          ],
+          "publisher": "Open Journals",
+          "source_urls": [
+            "https://joss.theoj.org/",
+            "https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20"
+          ],
+          "notes": "Journal about page and article landing page both identify ISSN 2475-9066."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20"
+            ],
+            "note": "Exact-title authority match not established; no conclusion about inclusion elsewhere."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "open",
+          "summary": "External independent volunteer reviewers review software and paper through public GitHub issues.",
+          "source_urls": [
+            "https://joss.theoj.org/about"
+          ],
+          "notes": "Actual review conduct requires checking an individual review thread."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Daniel S. Katz",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Illinois at Urbana-Champaign"
+              }
+            ],
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Journal identifies editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Published by Open Journals."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Misconduct reports are handled by ethics team."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Correction and retraction process described."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Reviewers and editors disclose conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Complaints to governance team."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Portico archives articles, metadata and reviews."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://joss.theoj.org/about"
+            ],
+            "note": "Journal states copyright and licensing information."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "PPanGGOLiN V2: technical enhancement and extended functionalities for prokaryotic pangenome analysis",
+            "url": "https://joss.theoj.org/papers/10.21105/joss.11101",
+            "doi": "10.21105/joss.11101",
+            "published_on": "2026-11-14",
+            "checked_on": "2026-11-16",
+            "observations": "Journal landing page identifies publication, editor, three reviewers and public review link. Review thread and scientific validity not independently assessed.",
+            "source_urls": [
+              "https://joss.theoj.org/papers/10.21105/joss.11101"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://joss.theoj.org/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Open%20Source%20Software&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://joss.theoj.org/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Publisher, peer review, editorial policies, preservation."
+          },
+          {
+            "url": "https://joss.theoj.org/papers/10.21105/joss.11101",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal article landing page identifies ISSN, editor, reviewers and public review link."
+          }
+        ],
+        "audit_limits": "Selective index coverage remains unverified; review thread and scientific validity of sample not assessed."
+      },
+      "audit_note": "Read journal board and article landing page; named editor, affiliation, ISSN and publication sample resolve remaining core gaps."
+    },
+    {
+      "id": "journal-of-physics-a-mathematical-and-theoretical",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Journal documents review, named editorial leadership, publisher ownership, applicable ethics and corrections, and a traceable publication sample.",
+        "identity": {
+          "issns": [
+            "1751-8113",
+            "1751-8121"
+          ],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/1751-8121",
+            "https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20"
+          ],
+          "notes": "Crossref deposited work matches journal title and both ISSNs."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20"
+            ],
+            "note": "Exact-title authority match not established; no conclusion about inclusion elsewhere."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Journal policy offers single- or double-anonymous review by author choice; reviewers interact with editor and reporting may be published by opt-in. IOP says research papers and reviews passing screening in the majority of its journals are sent to two independent reviewers; non-paper types may differ.",
+          "source_urls": [
+            "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/",
+            "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/"
+          ],
+          "notes": "General IOP policy is qualified as applying to the majority of journals; article-specific review conduct and exceptions are not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Aditi Sen De",
+                "role": "Editor-in-Chief",
+                "affiliation": "Harish-Chandra Research Institute"
+              }
+            ],
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/editorial-board/"
+            ],
+            "note": "Journal board names accountable editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/"
+            ],
+            "note": "IOP describes itself as society owned and its proceeds supporting Institute of Physics."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy addresses research integrity investigations and author responsibilities. Applicability list names this journal."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy provides investigation, correction and retraction procedures. Applicability list names this journal."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+              "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
+            ],
+            "note": "IOP policy requires disclosure of competing interests. Applicability list names this journal."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Unified entropy entanglement",
+            "url": "https://api.crossref.org/works/10.1088/1751-8121/aec20c",
+            "doi": "10.1088/1751-8121/aec20c",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited article metadata only; container title Journal of Physics A: Mathematical and Theoretical and ISSN 1751-8121 matched. Publication date reported 2026-11-13. Full article and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1088/1751-8121/aec20c"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/1751-8121",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Physics%20A%3A%20Mathematical%20and%20Theoretical&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/editorial-board/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal editorial board and affiliations."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-a-mathematical-and-theoretical/about-journal-physics-mathematical-theoretical/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-specific review policy."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1088/1751-8121/aec20c",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref deposited work metadata identifies article, journal and matching ISSN; metadata only."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/journals-ethical-policy-applies/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "IOP lists this exact journal among titles covered by its ethical policy."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/ethical-policy-journals/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Research integrity investigation, conflicts, correction and retraction policy."
+          },
+          {
+            "url": "https://publishingsupport.iopscience.iop.org/questions/general-review-procedure-on-iop-journals/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher general procedure: majority of journals send research papers and reviews to two independent reviewers after screening; non-paper types may differ."
+          }
+        ],
+        "audit_limits": "Selective indexing, reviewer independence in each case, exceptions and remaining unclear editorial dimensions are not established; article traceability does not establish scientific validity."
+      },
+      "audit_note": "Crossref journal works response yielded exact-title and ISSN-matched article metadata; no full article or review-report assessment. IOP explicitly lists journal as subject to its ethics policy, including correction and retraction."
+    }
+  ]
+}

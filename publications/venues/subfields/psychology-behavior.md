@@ -1,6 +1,6 @@
 # Psychology, judgment and behavioral science
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Applied Psychological Measurement
 
@@ -15,6 +15,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/apm) · [Venue](https://journals.sagepub.com/home/apm)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 3711, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
 
 - Author eligibility (international): Journal page encourages submissions from authors across all countries and backgrounds.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/apm)
@@ -40,6 +44,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/cap) · [Venue](https://journals.sagepub.com/home/cap)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Web of Science: not verified — No readable exact-title authority record returned. [source](https://mjl.clarivate.com/search-results)
+
 - Author eligibility (international): Journal page encourages submissions from authors across all countries and backgrounds.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/cap)
 - [Fee evidence](https://journals.sagepub.com/author-instructions/cap): Independently checked the journal-specific fee section: submission and publication incur no fee; paid Sage Choice is optional. Author instructions state no compulsory membership or registration payment.
@@ -62,6 +70,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/erp) · [Venue](https://journals.sagepub.com/home/erp)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 14623; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
 
 - Author eligibility (international): Journal page encourages submissions from authors across all countries and backgrounds.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/erp)
@@ -87,6 +99,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 
 [Author guidance](https://journals.sagepub.com/author-instructions/fap) · [Venue](https://journals.sagepub.com/home/fap)
 
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Scopus Sources Oct. 2026 row 15245, Active; matched via NLM/Crossref identity crosswalk. Coverage is exactly as reported in workbook; no matching discontinuation-sheet source ID. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx), [source](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101728813%2C101317801%2C101596451%2C101248287%2C101134867%2C101681502%2C9604936%2C494312%2C9610926%2C9502924%2C101758974%2C101763959%2C9891787%2C9425963%2C9885136%2C101574574%2C101165248%2C266147%2C8901658%2C101725215%2C101747588%2C9878466%2C9440757%2C7905715%2C357443%2C333524%2C1256300%2C101085909%2C101774768%2C357344&retmode=xml)
+
 - Author eligibility (international): Journal page encourages submissions from authors across all countries and backgrounds.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/fap)
 - [Fee evidence](https://journals.sagepub.com/author-instructions/fap): Independently checked the journal-specific fee section: submission and publication incur no fee; paid Sage Choice is optional. Author instructions state no compulsory membership or registration payment.
@@ -109,6 +125,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in methods or acknowledgements. Suggestions for language, grammar or structure alone do not require disclosure under Sage policy.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/gpi) · [Venue](https://journals.sagepub.com/home/gpi)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: not verified — Exact-title registry record not retrieved; no inference about inclusion.
 
 - Author eligibility (international): Journal page encourages submissions from authors across all countries and backgrounds.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/gpi)
@@ -133,6 +153,12 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required_except_editing):** Disclose generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in methods or acknowledgements. Suggestions for language, grammar or structure alone do not require disclosure under Sage policy.
 
 [Author guidance](https://journals.sagepub.com/author-instructions/psp) · [Venue](https://journals.sagepub.com/home/psp)
+
+**Quality evidence (supported):** Applicable peer-review, editorial leadership, publisher responsibility, ethics and corrections policies documented, with a traceable publication sample. Remaining limits are listed below.
+
+- Scopus: registry confirmed — Elsevier October 2026 workbook, Scopus Sources row 37083; status Active; discontinuation column . No matching source-record ID found on discontinuation worksheet. Inactive status is preserved separately and does not itself mean discontinued by Scopus. [source](https://downloads.ctfassets.net/o78em1y1w4i4/7xtaTxNiNcWRTeZkV86eNy/a88a2798510dc7f7888e80dc03ec0779/ext_list_Oct_2026.xlsx)
+- Crossref: registry confirmed — Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion. [source](https://api.crossref.org/journals/0146-1672)
+- DOAJ: not verified — ISSN query returned no match; no claim of absence from a comprehensive list is made. [source](https://doaj.org/api/search/journals/issn%3A0146-1672?pageSize=2)
 
 - Author eligibility (international): Journal page encourages submissions from authors across all countries and backgrounds.
 - [Author eligibility source](https://journals.sagepub.com/author-instructions/psp)

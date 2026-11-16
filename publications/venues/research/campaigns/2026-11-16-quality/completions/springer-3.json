@@ -1,0 +1,218 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/quality_complete_springer_3",
+  "batch": "springer-3",
+  "records": [
+    {
+      "id": "software-and-systems-modeling",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core editorial evidence or a readable publication sample remains unresolved; this is not evidence of misconduct.",
+        "identity": {
+          "issns": [
+            "1619-1366",
+            "1619-1374"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10270"
+          ],
+          "notes": "Journal-specific title and ISSN matched where readable; identity from baseline and registry API where publisher access limited."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A1619-1366?pageSize=2"
+            ],
+            "note": "Exact ISSN API attempt; no matching record established. This is not a finding of absence."
+          },
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10270",
+            "matched_issns": [
+              "1619-1366",
+              "1619-1374"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10270"
+            ],
+            "note": "Springer lists Scopus; authoritative active coverage not checked."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal specifies single-blind review and adopts Springer standard review policy. An editor screens submissions and decides using reports; research articles usually receive at least two independent expert reviews, with exceptional single-report decisions. Editorials and other non-research types may be accepted without review.",
+          "source_urls": [
+            "https://link.springer.com/journal/10270/submission-guidelines",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Policy describes procedure, not independent confirmation of conduct for a particular article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Marsha Chechik",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Toronto"
+              },
+              {
+                "name": "Benoit Combemale",
+                "role": "Editor-in-Chief",
+                "affiliation": "Université de Rennes"
+              },
+              {
+                "name": "Bernhard Rumpe",
+                "role": "Editor-in-Chief",
+                "affiliation": "RWTH Aachen University"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10270/editorial-board"
+            ],
+            "note": "Named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10270"
+            ],
+            "note": "Springer-Verlag GmbH Germany identified as publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10270/ethics-and-disclosures",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal links Springer ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10270/submission-guidelines",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Journal instructions describe corrections, expressions of concern and retractions for published work, and corrections or retractions for significant errors; publisher policy describes bidirectionally linked notices."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10270/ethics-and-disclosures"
+            ],
+            "note": "Ethics and disclosure guidance is linked."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources read."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "BLAST: a tool for bidirectional logics to SQL translation",
+            "url": "https://link.springer.com/article/10.1007/s10270-026-01436-z",
+            "doi": "10.1007/s10270-026-01436-z",
+            "published_on": "2026-11-07",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article landing page identifies this journal, title, DOI, authors and publication date; received, revised and accepted dates are also shown. This is a traceability check and does not establish review conduct or scientific validity.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10270-026-01436-z"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A1619-1366?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ exact ISSN API checked; no match established."
+          },
+          {
+            "url": "https://link.springer.com/journal/10270",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal title, ISSNs, publisher and index claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked publisher journal policies."
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/ethics-and-disclosures",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal links ethics disclosures."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10270-026-01436-z",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Published article and metadata inspected."
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal specifies single-blind review and adopts Springer standard peer review policy; submission ethics and competing-interest instructions."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-adopted standard review policy describes independent expert reviewers, editorial decisions and exceptions; corrections and retractions section provides linked notices."
+          }
+        ],
+        "audit_limits": "Policies and traceable article metadata were read; actual peer-review conduct and scientific validity were not verified. Independent active indexing, complaints and appeals, archiving and journal-wide licensing remain unresolved. The DOAJ no-match attempt does not prove absence."
+      },
+      "audit_note": "Journal author instructions explicitly specify single-blind review and adopt the Springer standard peer-review policy; the publisher policy describes independent experts, editor decisions and exceptions. Journal instructions document correction and retraction procedures. Named board and article landing page independently checked. Core policy and publication traceability criteria are supported; this does not verify actual review or article validity. Existing indexing claims and uncertainty are retained."
+    }
+  ]
+}

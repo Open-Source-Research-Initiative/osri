@@ -1,0 +1,1551 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-02",
+  "agent_task": "/root/quality_audit_02",
+  "notes": "Registry and some journal pages inaccessible; no non-indexing inference.",
+  "records": [
+    {
+      "id": "avances-en-interacci-n-humano-computadora",
+      "source_record_ids": [
+        "human-computer-interaction-avances-en-interaccion-humano-computadora"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "concerns",
+        "summary": "Journal pages state inconsistent reuse licenses.",
+        "identity": {
+          "issns": [
+            "2594-2352"
+          ],
+          "publisher": "Mexican Association of Human-Computer Interaction (AMexIHC)",
+          "source_urls": [
+            "https://revistaaihc.mx/index.php/aihc/about"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Latindex",
+            "category": "bibliographic_database",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://revistaaihc.mx/index.php/aihc/abstracting-and-indexing",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/abstracting-and-indexing"
+            ],
+            "note": "Journal claims Latindex; exact registry record not read."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "At least two independent expert reviewers after screening; editor decides; desk rejection possible.",
+          "source_urls": [
+            "https://revistaaihc.mx/index.php/aihc/editorial-and-review"
+          ],
+          "notes": "Policy does not verify conduct in an article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Luis A. Castro",
+                "role": "Editor-in-Chief",
+                "affiliation": "Sonora Institute of Technology"
+              }
+            ],
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/about/editorialTeam"
+            ],
+            "note": "Named board and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/about"
+            ],
+            "note": "Association publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/etica"
+            ],
+            "note": "Author, editor and reviewer duties."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/corrections-and-retractions"
+            ],
+            "note": "Correction and retraction notices linked to original."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/etica",
+              "https://revistaaihc.mx/index.php/aihc/editorial-and-review"
+            ],
+            "note": "Disclosure and recusal."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/editorial-and-review"
+            ],
+            "note": "Written appeals reviewed independently."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/digital-preservation"
+            ],
+            "note": "Journal describes LOCKSS and backups; not independently verified."
+          },
+          "licensing": {
+            "status": "concern",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/about",
+              "https://revistaaihc.mx/index.php/aihc/copyright"
+            ],
+            "note": "About says CC BY-ND; licensing policy says CC BY-NC-ND 4.0."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Towards Human-Centered Assisted Mobility in Intelligent Road Environments",
+            "url": "https://revistaaihc.mx/index.php/aihc/article/view/205",
+            "doi": "10.47756/aihc.y10i1.205",
+            "published_on": "2025-11-30",
+            "checked_on": "2026-11-16",
+            "observations": "Article page provides title, authors, date and DOI; review conduct is not independently established.",
+            "source_urls": [
+              "https://revistaaihc.mx/index.php/aihc/article/view/205"
+            ]
+          }
+        ],
+        "concerns": [
+          {
+            "code": "inconsistent_license",
+            "severity": "medium",
+            "summary": "About page and licensing policy state different licenses.",
+            "evidence_urls": [
+              "https://revistaaihc.mx/index.php/aihc/about",
+              "https://revistaaihc.mx/index.php/aihc/copyright"
+            ],
+            "rationale": "The two licenses differ in commercial-use permission; the applicable rights need clarification. Intent is not established."
+          }
+        ],
+        "evidence": [
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "ISSN, publisher, CC BY-ND statement."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/about/editorialTeam",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial team."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/editorial-and-review",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Review and appeals policy."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/etica",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Ethical duties."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/corrections-and-retractions",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Corrections policy."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/copyright",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "All articles stated CC BY-NC-ND 4.0."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/digital-preservation",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Preservation policy."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/article/view/205",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata."
+          },
+          {
+            "url": "https://revistaaihc.mx/index.php/aihc/abstracting-and-indexing",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal index claims."
+          }
+        ],
+        "audit_limits": "License inconsistency needs resolution; registry and preservation participation not independently checked."
+      }
+    },
+    {
+      "id": "bulgarian-journal-of-public-health",
+      "source_record_ids": [
+        "public-health-bulgarian-journal"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [
+            "1313-860X"
+          ],
+          "publisher": "National Center of Public Health and Analyses",
+          "source_urls": [
+            "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "CABI",
+            "category": "bibliographic_database",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Issue claims Web of Science (CABI); does not establish SCIE, SSCI or ESCI membership."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "External review process not resolved.",
+          "source_urls": [],
+          "notes": "Policy and actual conduct are distinct."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Petko Salchev",
+                "role": "Editor-in-Chief",
+                "affiliation": "National Center of Public Health and Analyses"
+              }
+            ],
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Issue masthead names editor and editorial office."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Issue identifies official journal of National Center."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf"
+            ],
+            "note": "Directions require committee approval for human studies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://ncpha.government.bg/uploads/pages/3295/2-2025-BG-Journal-PH.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "institution",
+            "note": "2025 issue, masthead and author directions."
+          }
+        ],
+        "audit_limits": "External peer review and corrections policy unresolved; claim not independently checked."
+      }
+    },
+    {
+      "id": "bulletin-of-mathematical-biology",
+      "source_record_ids": [
+        "computational-biology-bulletin-of-mathematical-biology"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documentation and research sample found.",
+        "identity": {
+          "issns": [
+            "0092-8240",
+            "1522-9602"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/11538"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/11538",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://link.springer.com/journal/11538",
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Publisher claims Scopus; source list returned 403; coverage unverified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Linked Springer policy describes independent expert peer review, usually two reviewers; editors decide, and exceptional single-review and nonresearch exceptions are stated.",
+          "source_urls": [
+            "https://link.springer.com/journal/11538",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Journal-specific anonymity model not established; review conduct in sample not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Matthew Simpson",
+                "role": "Editor-in-Chief",
+                "affiliation": "Queensland University of Technology"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/11538/editorial-board"
+            ],
+            "note": "Publisher names editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11538"
+            ],
+            "note": "Publisher and any society rights holder identified."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11538",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher integrity policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11538",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11538",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses competing interests."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11538",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy discusses appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/11538"
+            ],
+            "note": "Homepage lists preservation services; title-specific participation not independently confirmed."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s11538-026-01789-y"
+            ],
+            "note": "Sample displays rights and permissions."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Recognizing Level-k-Based Phylogenetic Networks is NP-Complete",
+            "url": "https://link.springer.com/article/10.1007/s11538-026-01789-y",
+            "doi": "10.1007/s11538-026-01789-y",
+            "published_on": "2026-11-15",
+            "checked_on": "2026-11-16",
+            "observations": "Article page provides title, authors, date and DOI; review conduct is not independently established.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s11538-026-01789-y"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/11538",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, ISSNs, indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/11538/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Named board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked publisher journal policies."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11538-026-01789-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Research article metadata."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Registry coverage unverified. Article sample does not demonstrate individual peer review or scientific validity."
+      }
+    },
+    {
+      "id": "classical-and-quantum-gravity",
+      "source_record_ids": [
+        "computational-physical-sciences-classical-and-quantum-gravity"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [],
+          "publisher": "IOP Publishing",
+          "source_urls": [
+            "https://iopscience.iop.org/journal/0264-9381"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Web of Science",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://mjl.clarivate.com/search-results",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://mjl.clarivate.com/search-results"
+            ],
+            "note": "No readable exact-title authority record returned."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "External review process not resolved.",
+          "source_urls": [],
+          "notes": "Policy and actual conduct are distinct."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [],
+            "note": "Not resolved."
+          },
+          "ownership": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "ethics": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://iopscience.iop.org/journal/0264-9381",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "publisher",
+            "note": "Journal site restricted."
+          },
+          {
+            "url": "https://mjl.clarivate.com/search-results",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "IOP site restricted; identity, board, peer review, articles and policies need checking."
+      }
+    },
+    {
+      "id": "comparative-political-studies",
+      "source_record_ids": [
+        "political-science-comparative-political-studies"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/cps"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Web of Science",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://mjl.clarivate.com/search-results",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://mjl.clarivate.com/search-results"
+            ],
+            "note": "No readable exact-title authority record returned."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal author instructions specify the review model.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/cps"
+          ],
+          "notes": "Individual review conduct not established."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Benjamin W. Ansell",
+                "role": "Editor",
+                "affiliation": "University of Oxford"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/CPS"
+            ],
+            "note": "Board lists editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/cps"
+            ],
+            "note": "Published by Sage."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/cps"
+            ],
+            "note": "Journal instructions link publisher publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/cps",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cps",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Review and ethics guidance."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/CPS",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://mjl.clarivate.com/search-results",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Exact index coverage, recent article sample, correction policy and other standards require further checks."
+      }
+    },
+    {
+      "id": "computational-and-mathematical-organization-theory",
+      "source_record_ids": [
+        "sociology-organizations-computational-and-mathematical-organization-theory"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documentation and research sample found.",
+        "identity": {
+          "issns": [
+            "1381-298X",
+            "1572-9346"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10588"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10588",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://link.springer.com/journal/10588",
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Publisher claims Scopus; source list returned 403; coverage unverified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Linked Springer policy describes independent expert peer review, usually two reviewers; editors decide, and exceptional single-review and nonresearch exceptions are stated.",
+          "source_urls": [
+            "https://link.springer.com/journal/10588",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Journal-specific anonymity model not established; review conduct in sample not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Kathleen M. Carley",
+                "role": "Co-editor-in-chief",
+                "affiliation": "Carnegie Mellon University"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10588/editorial-board"
+            ],
+            "note": "Publisher names editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10588"
+            ],
+            "note": "Publisher and any society rights holder identified."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10588",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher integrity policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10588",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10588",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses competing interests."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10588",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy discusses appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10588"
+            ],
+            "note": "Homepage lists preservation services; title-specific participation not independently confirmed."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10588-026-09452-6"
+            ],
+            "note": "Sample displays rights and permissions."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Sustainable career in the age of artificial intelligence: an agent-based simulation from a complex adaptive systems perspective",
+            "url": "https://link.springer.com/article/10.1007/s10588-026-09452-6",
+            "doi": "10.1007/s10588-026-09452-6",
+            "published_on": "2026-10-25",
+            "checked_on": "2026-11-16",
+            "observations": "Article page provides title, authors, date and DOI; review conduct is not independently established.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10588-026-09452-6"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10588",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, ISSNs, indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10588/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Named board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked publisher journal policies."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10588-026-09452-6",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Research article metadata."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Registry coverage unverified. Article sample does not demonstrate individual peer review or scientific validity."
+      }
+    },
+    {
+      "id": "computational-brain-and-behavior",
+      "source_record_ids": [
+        "psychology-behavior-computational-brain-behavior"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documentation and research sample found.",
+        "identity": {
+          "issns": [
+            "2522-0861",
+            "2522-087X"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/42113"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/42113",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://link.springer.com/journal/42113",
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Publisher claims Scopus; source list returned 403; coverage unverified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Linked Springer policy describes independent expert peer review, usually two reviewers; editors decide, and exceptional single-review and nonresearch exceptions are stated.",
+          "source_urls": [
+            "https://link.springer.com/journal/42113",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Journal-specific anonymity model not established; review conduct in sample not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Christopher Donkin",
+                "role": "Editor-in-Chief",
+                "affiliation": "Ludwig-Maximilians-Universität München"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/42113/editorial-board"
+            ],
+            "note": "Publisher names editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/42113"
+            ],
+            "note": "Publisher and any society rights holder identified."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/42113",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher integrity policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/42113",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/42113",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses competing interests."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/42113",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy discusses appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/42113"
+            ],
+            "note": "Homepage lists preservation services; title-specific participation not independently confirmed."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s42113-026-00340-5"
+            ],
+            "note": "Sample displays rights and permissions."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Extending TVA With Trial-to-Trial Variability in Processing Speed: A Monte Carlo Simulation Study",
+            "url": "https://link.springer.com/article/10.1007/s42113-026-00340-5",
+            "doi": "10.1007/s42113-026-00340-5",
+            "published_on": "2026-10-09",
+            "checked_on": "2026-11-16",
+            "observations": "Article page provides title, authors, date and DOI; review conduct is not independently established.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s42113-026-00340-5"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/42113",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, ISSNs, indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/42113/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Named board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked publisher journal policies."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s42113-026-00340-5",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Research article metadata."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Registry coverage unverified. Article sample does not demonstrate individual peer review or scientific validity."
+      }
+    },
+    {
+      "id": "computational-optimization-and-applications",
+      "source_record_ids": [
+        "operations-simulation-computational-optimization-and-applications"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Core documentation and research sample found.",
+        "identity": {
+          "issns": [
+            "0926-6003",
+            "1573-2894"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10589"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10589",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://link.springer.com/journal/10589",
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Publisher claims Scopus; source list returned 403; coverage unverified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Linked Springer policy describes independent expert peer review, usually two reviewers; editors decide, and exceptional single-review and nonresearch exceptions are stated.",
+          "source_urls": [
+            "https://link.springer.com/journal/10589",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Journal-specific anonymity model not established; review conduct in sample not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "William W. Hager",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Florida"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10589/editorial-board"
+            ],
+            "note": "Publisher names editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10589"
+            ],
+            "note": "Publisher and any society rights holder identified."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10589",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked publisher integrity policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10589",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses corrections and retractions."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10589",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy addresses competing interests."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10589",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Linked policy discusses appeals and complaints."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10589"
+            ],
+            "note": "Homepage lists preservation services; title-specific participation not independently confirmed."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10589-026-00855-4"
+            ],
+            "note": "Sample displays rights and permissions."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Decentralized stochastic zeroth-order conjugate gradient algorithm for nonconvex optimization",
+            "url": "https://link.springer.com/article/10.1007/s10589-026-00855-4",
+            "doi": "10.1007/s10589-026-00855-4",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "Article page provides title, authors, date and DOI; review conduct is not independently established.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10589-026-00855-4"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10589",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, ISSNs, indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10589/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Named board and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked publisher journal policies."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10589-026-00855-4",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Research article metadata."
+          },
+          {
+            "url": "https://www.scopus.com/sources",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Registry coverage unverified. Article sample does not demonstrate individual peer review or scientific validity."
+      }
+    },
+    {
+      "id": "contextus-contemporary-journal-of-economics-and-management",
+      "source_record_ids": [
+        "economics-contextus"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [
+            "1678-2089",
+            "2178-9258"
+          ],
+          "publisher": "Federal University of Ceará",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/about"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn:2178-9258",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn:2178-9258"
+            ],
+            "note": "No readable exact-title authority record returned."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Scientific article policy specifies double-blind review and names responsible editors in published papers.",
+          "source_urls": [
+            "https://periodicos.ufc.br/contextus/politica"
+          ],
+          "notes": "Individual review conduct not verified."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Diego de Queiroz Machado",
+                "role": "Editor-in-chief",
+                "affiliation": "Federal University of Ceará"
+              }
+            ],
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/about/editorialTeam"
+            ],
+            "note": "Named editor and affiliation."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/about"
+            ],
+            "note": "University journal identifies institutional host."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/etica"
+            ],
+            "note": "Journal code for authors, reviewers and editors."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/etica"
+            ],
+            "note": "Journal code addresses conflicts."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/article/view/96724"
+            ],
+            "note": "Article states CC BY-NC 4.0."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Identity on display: pop culture, belonging and purchase decisions",
+            "url": "https://periodicos.ufc.br/contextus/article/view/96724",
+            "doi": "10.36517/contextus.2026.96724",
+            "published_on": "2026-10-28",
+            "checked_on": "2026-11-16",
+            "observations": "Article page provides title, authors, date and DOI; review conduct is not independently established.",
+            "source_urls": [
+              "https://periodicos.ufc.br/contextus/article/view/96724"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://periodicos.ufc.br/contextus/about",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity and ISSNs."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/about/editorialTeam",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named board."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/politica",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Peer review policy."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/etica",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Ethics code."
+          },
+          {
+            "url": "https://periodicos.ufc.br/contextus/article/view/96724",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article metadata and license."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn:2178-9258",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Corrections, preservation and independent index inclusion need checking."
+      }
+    },
+    {
+      "id": "culture-and-psychology",
+      "source_record_ids": [
+        "psychology-behavior-culture-psychology"
+      ],
+      "audit_note": "Bounded audit; evidence gaps do not imply misconduct.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Source evidence and unresolved checks are described below.",
+        "identity": {
+          "issns": [],
+          "publisher": "Sage Publishing",
+          "source_urls": [
+            "https://journals.sagepub.com/home/cap"
+          ],
+          "notes": "Journal title and identity checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Web of Science",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://mjl.clarivate.com/search-results",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://mjl.clarivate.com/search-results"
+            ],
+            "note": "No readable exact-title authority record returned."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "open",
+          "summary": "Journal author instructions specify the review model.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/cap"
+          ],
+          "notes": "Individual review conduct not established."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "names": [],
+            "source_urls": [],
+            "note": "Not resolved."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/cap"
+            ],
+            "note": "Published by Sage."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/cap"
+            ],
+            "note": "Journal instructions link publisher publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the inspected sources."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/cap",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/cap",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Review and ethics guidance."
+          },
+          {
+            "url": "https://mjl.clarivate.com/search-results",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "index_registry",
+            "note": "Authority lookup unavailable or blocked."
+          }
+        ],
+        "audit_limits": "Exact index coverage, recent article sample, correction policy and other standards require further checks."
+      }
+    }
+  ]
+}

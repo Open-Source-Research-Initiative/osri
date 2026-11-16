@@ -1,6 +1,6 @@
 # Economics, econometrics and research economics
 
-Verified free peer-reviewed routes with a compatible AI policy. Check current author instructions before submission.
+Default recommended free peer-reviewed routes with a compatible AI policy and no documented medium or high quality concerns. Check current author instructions before submission.
 
 ## Afyon Kocatepe University Journal of Economics and Administrative Sciences
 
@@ -15,6 +15,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required):** Submit the journal’s AI declaration form with the manuscript, specifying tool, purpose and manner of use.
 
 [Author guidance](https://dergipark.org.tr/en/pub/akuiibfd/issue/103540) · [Venue](https://dergipark.org.tr/en/pub/akuiibfd)
+
+**Quality evidence (needs_verification):** Verification incomplete: applicable corrections and retractions policy. See the sources and access limits; these gaps do not establish misconduct.
+
+- DOAJ: registry confirmed — Readable official journal page and DOAJ record match ISSN and title; DOAJ title uses translated title or acronym where applicable. [source](https://doaj.org/api/journals/378d019fa19e49a7a522d0c4def4a07d), [source](https://dergipark.org.tr/en/pub/akuiibfd)
 
 - Venue base: [Türkiye](https://dergipark.org.tr/en/pub/akuiibfd/contacts) — Faculty editorial office, Afyonkarahisar.
 - Author eligibility (unclear): Geographic author eligibility was not affirmatively established from the sources checked.
@@ -37,6 +41,10 @@ Verified free peer-reviewed routes with a compatible AI policy. Check current au
 **Disclosure (required):** Describe substantive use in the manuscript including tool name, version and purpose.
 
 [Author guidance](https://periodicos.ufc.br/contextus/about/submissions) · [Venue](https://periodicos.ufc.br/contextus/)
+
+**Quality evidence (needs_verification):** Verification incomplete: applicable corrections and retractions policy. See the sources and access limits; these gaps do not establish misconduct.
+
+- DOAJ: not verified — No readable exact-title authority record returned. [source](https://doaj.org/api/search/journals/issn:2178-9258)
 
 - Venue base: [Brazil](https://periodicos.ufc.br/contextus/contact) — Editorial address at Federal University of Ceará, Fortaleza.
 - Author eligibility (unclear): Geographic author eligibility was not affirmatively established from the sources checked.

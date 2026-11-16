@@ -1,0 +1,2328 @@
+{
+  "checked_on": "2026-11-16",
+  "agent_task": "/root/quality_complete_springer_1",
+  "batch": "springer-1",
+  "records": [
+    {
+      "id": "current-environmental-health-reports",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "2196-5412"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/40572"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v2n1, Mar. 2015-",
+            "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+            "registry_record_id": "101629387",
+            "publisher_url": "https://link.springer.com/journal/40572",
+            "matched_issns": [
+              "2196-5412"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+              "https://link.springer.com/journal/40572"
+            ],
+            "note": "NLM Catalog record explicitly identifies MEDLINE currently indexed with coverage shown. PubMed and MEDLINE are distinct."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/40572/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Molly Kile",
+                "role": "Editor-in-Chief",
+                "affiliation": "Oregon State University, Corvallis, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/40572/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/40572"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/40572/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Dermal Exposure to Bisphenols and Their Analogs: A Systematic Review and Narrative Synthesis",
+            "url": "https://link.springer.com/article/10.1007/s40572-026-00574-2",
+            "doi": "10.1007/s40572-026-00574-2",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited metadata matches exact journal title and ISSN. Metadata only; full text and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1007/s40572-026-00574-2"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/40572",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/40572/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/40572/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s40572-026-00574-2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s40572-026-00573-3",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101629387&retmode=xml",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "NLM exact-title and electronic ISSN record: MEDLINE currently indexed, coverage v2n1, Mar. 2015-"
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1007/s40572-026-00574-2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact DOI metadata and journal title/ISSN matched; metadata only."
+          },
+          {
+            "url": "https://link.springer.com/journal/40572/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "current-psychology",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1936-4733",
+            "1046-1310"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/12144"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/12144",
+            "matched_issns": [
+              "1936-4733",
+              "1046-1310"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/12144"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/12144/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "F. Richard Ferraro",
+                "role": "Co-Editor-in-Chief",
+                "affiliation": "University of North Dakota, Grand Forks, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/12144/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/12144"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Cross-cultural adaptation and psychometric validation of the Chinese version of the music in aging wellness scale among university students",
+            "url": "https://link.springer.com/journal/12144/articles",
+            "doi": null,
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher journal contents lists this title and date. Contents metadata only; article full text and review reports not assessed.",
+            "source_urls": [
+              "https://link.springer.com/journal/12144/articles"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/12144",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/12144/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/12144/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s12144-026-10255-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s12144-026-10359-3",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/journal/12144/articles",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact-title journal contents, title and publication date read; metadata-only sample."
+          },
+          {
+            "url": "https://link.springer.com/journal/12144/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "discrete-event-dynamic-systems",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1573-7594",
+            "0924-6703"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10626"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10626",
+            "matched_issns": [
+              "1573-7594",
+              "0924-6703"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10626"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/10626/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Christoforos Hadjicostis",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Cyprus, Nicosia, Cyprus"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10626/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10626"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10626/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Structural analysis of Petri nets",
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00453-w",
+            "doi": "10.1007/s10626-026-00453-w",
+            "published_on": "2026-10-19",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article landing page identifies title, journal and publication date; review reports and scientific validity were not assessed.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10626-026-00453-w"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10626",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10626/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10626/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00453-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00454-9",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10626-026-00453-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page read and journal identity matched."
+          },
+          {
+            "url": "https://link.springer.com/journal/10626/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "ecohealth",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1612-9210",
+            "1612-9202"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10393"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v5n1, Mar. 2008-",
+            "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+            "registry_record_id": "101222144",
+            "publisher_url": "https://link.springer.com/journal/10393",
+            "matched_issns": [
+              "1612-9210"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+              "https://link.springer.com/journal/10393"
+            ],
+            "note": "NLM Catalog record explicitly identifies MEDLINE currently indexed with coverage shown. PubMed and MEDLINE are distinct."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/10393/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Peter Daszak",
+                "role": "Editor-in-Chief",
+                "affiliation": "Nature.Health.Global, New York, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10393/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/editorial-board"
+            ],
+            "note": "Journal identifies Nature.Health.Global as its affiliated organization and Springer Nature as publisher; legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10393"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10393/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Acute Q Fever Without Recognized Exposure in Northeastern Italy Through a One Health Lens",
+            "url": "https://link.springer.com/article/10.1007/s10393-026-01863-w",
+            "doi": "10.1007/s10393-026-01863-w",
+            "published_on": "2026-11-11",
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited metadata matches exact journal title and ISSN. Metadata only; full text and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1007/s10393-026-01863-w"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10393",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10393/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10393/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10393-026-01863-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10393-026-01855-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=101222144&retmode=xml",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "NLM exact-title and electronic ISSN record: MEDLINE currently indexed, coverage v5n1, Mar. 2008-"
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1007/s10393-026-01863-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact DOI metadata and journal title/ISSN matched; metadata only."
+          },
+          {
+            "url": "https://link.springer.com/journal/10393/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "engineering-with-computers",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1435-5663",
+            "0177-0667"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/366"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/366",
+            "matched_issns": [
+              "1435-5663",
+              "0177-0667"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/366"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/366/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Yongjie (Jessica) Zhang",
+                "role": "Editor-in-Chief",
+                "affiliation": "Carnegie Mellon University, Pittsburgh, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/366/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/366/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/366"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/366/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "A physics-augmented machine learning constitutive model for damage in solids",
+            "url": "https://link.springer.com/journal/366/articles",
+            "doi": null,
+            "published_on": "2026-11-02",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher journal contents lists this title and date. Contents metadata only; article full text and review reports not assessed.",
+            "source_urls": [
+              "https://link.springer.com/journal/366/articles"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/366",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/366/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/366/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00366-026-02442-x",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00366-026-02428-9",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/journal/366/articles",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact-title journal contents, title and publication date read; metadata-only sample."
+          },
+          {
+            "url": "https://link.springer.com/journal/366/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "environmental-geochemistry-and-health",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1573-2983",
+            "0269-4042"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10653"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/10653",
+            "matched_issns": [
+              "1573-2983",
+              "0269-4042"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/10653"
+            ],
+            "note": "Journal publisher lists SCOPUS; exact independent registry coverage and status not established."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/10653/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Michael Watts",
+                "role": "Editor-in-Chief",
+                "affiliation": "British Geological Survey, Nottingham, United Kingdom"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10653/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/editorial-board"
+            ],
+            "note": "Journal identifies the Society for Environmental Geochemistry and Health and Springer Nature as publisher; legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10653"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Integrated assessment of water quality parameters and heavy metal pollution in Bhindawas wetland",
+            "url": "https://link.springer.com/journal/10653/articles",
+            "doi": null,
+            "published_on": "2026-11-07",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher journal contents lists this title and date. Contents metadata only; article full text and review reports not assessed.",
+            "source_urls": [
+              "https://link.springer.com/journal/10653/articles"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10653",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10653/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10653/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10653-026-03609-7",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10653-026-03612-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/journal/10653/articles",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact-title journal contents, title and publication date read; metadata-only sample."
+          },
+          {
+            "url": "https://link.springer.com/journal/10653/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "environmental-monitoring-and-assessment",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1573-2959"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10661"
+          ],
+          "notes": "ISSNs from current publisher journal information."
+        },
+        "indexing": [
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v66n1, 2001-",
+            "registry_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+            "registry_record_id": "8508350",
+            "publisher_url": "https://link.springer.com/journal/10661",
+            "matched_issns": [
+              "1573-2959"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+              "https://link.springer.com/journal/10661"
+            ],
+            "note": "NLM Catalog record explicitly identifies MEDLINE currently indexed with coverage shown. PubMed and MEDLINE are distinct."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/10661/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "G. Bruce Wiersma",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Maine, Orono, United States"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10661/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10661"
+            ],
+            "note": "Journal page lists CLOCKSS and Portico; independent preservation agreement and actual holdings were not checked."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/submission-guidelines"
+            ],
+            "note": "Journal has subscription and optional open access; article-specific rights were not fully checked."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Discrepancy strategies of abundant and rare bacterioplankton communities in response to reclaimed water replenishment",
+            "url": "https://link.springer.com/journal/10661/articles",
+            "doi": null,
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher journal contents lists this title and date. Contents metadata only; article full text and review reports not assessed.",
+            "source_urls": [
+              "https://link.springer.com/journal/10661/articles"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10661",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, ISSN, publisher, journal information and publisher indexing claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/10661/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editors and affiliations."
+          },
+          {
+            "url": "https://link.springer.com/journal/10661/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and journal-specific link to Springer policies."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Linked Springer policies covering peer review, ethics, corrections, competing interests and appeals."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10661-026-16161-9",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10661-026-16134-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Sample article title, DOI, authors and publication history."
+          },
+          {
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nlmcatalog&id=8508350&retmode=xml",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "NLM exact-title and electronic ISSN record: MEDLINE currently indexed, coverage v66n1, 2001-"
+          },
+          {
+            "url": "https://link.springer.com/journal/10661/articles",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact-title journal contents, title and publication date read; metadata-only sample."
+          },
+          {
+            "url": "https://link.springer.com/journal/10661/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "environmental-science-and-pollution-research",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1614-7499"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/11356"
+          ],
+          "notes": "ISSNs listed when retrieved from official publisher or SciELO pages; other identifiers remain unverified."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/11356",
+            "matched_issns": [
+              "1614-7499"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/11356"
+            ],
+            "note": "Publisher lists Scopus; registry and coverage not independently verified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/11356/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11356/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies.",
+            "names": [
+              {
+                "name": "Philippe Garrigues",
+                "role": "Editor-in-Chief",
+                "affiliation": "Institut des Sciences Moléculaires, France"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11356/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11356/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11356/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11356/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/11356/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Advances in the sample pretreatment for determination of microplastics in riverbed sediments by Raman spectroscopy",
+            "url": "https://link.springer.com/article/10.1007/s11356-026-38231-8",
+            "doi": "10.1007/s11356-026-38231-8",
+            "published_on": "2026-09-25",
+            "checked_on": "2026-11-16",
+            "observations": "Crossref deposited metadata matches exact journal title and ISSN. Metadata only; full text and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1007/s11356-026-38231-8"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/11356",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity and index claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/11356/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://link.springer.com/journal/11356/ethics-and-disclosures",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Ethics and competing interests."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked editorial policies."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11356-026-38231-8",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal article page identifies research article, authors, date and volume."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1007/s11356-026-38231-8",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact DOI metadata and journal title/ISSN matched; metadata only."
+          },
+          {
+            "url": "https://link.springer.com/journal/11356/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "exposure-and-health",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "2451-9685",
+            "2451-9766"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/12403"
+          ],
+          "notes": "ISSNs listed when retrieved from official publisher or SciELO pages; other identifiers remain unverified."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://link.springer.com/journal/12403",
+            "matched_issns": [
+              "2451-9685",
+              "2451-9766"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://link.springer.com/journal/12403"
+            ],
+            "note": "Publisher lists Scopus; registry and coverage not independently verified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/12403/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12403/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies.",
+            "names": [
+              {
+                "name": "Antonio Signes-Pastor",
+                "role": "Editor-in-Chief",
+                "affiliation": "Universitat de Miguel Hernández d’Elx, Spain"
+              }
+            ]
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12403/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12403/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12403/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12403/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/12403/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Applicable evidence not established in this check."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Lung Bioaccessibility of Metals from Lead Based-Painted Surfaces in Public Playgrounds at Vulnerable Areas in Northern Mexico",
+            "url": "https://link.springer.com/article/10.1007/s12403-026-00814-8",
+            "doi": "10.1007/s12403-026-00814-8",
+            "published_on": "2026-10-29",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article landing page identifies title, journal and publication date; review reports and scientific validity were not assessed.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s12403-026-00814-8"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/12403",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity and index claims."
+          },
+          {
+            "url": "https://link.springer.com/journal/12403/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation."
+          },
+          {
+            "url": "https://link.springer.com/journal/12403/ethics-and-disclosures",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Ethics and competing interests."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked editorial policies."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s12403-026-00814-8",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal article page identifies research article, authors and publication date."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s12403-026-00814-8",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page read and journal identity matched."
+          },
+          {
+            "url": "https://link.springer.com/journal/12403/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "journal-of-medical-systems",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "0148-5598",
+            "1573-689X"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10916",
+            "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20"
+          ],
+          "notes": "Exact title matched in Crossref journal metadata."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20",
+            "registry_record_id": "0148-5598",
+            "publisher_url": null,
+            "matched_issns": [
+              "0148-5598",
+              "1573-689X"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20"
+            ],
+            "note": "Exact-title identifier metadata; not selective index coverage."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/10916/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Allan F. Simpao",
+                "role": "Editor-in-Chief",
+                "affiliation": "Perelman School of Medicine and Children’s Hospital of Philadelphia, University of Pennsylvania"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10916/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10916/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10916/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10916/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10916/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10916/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Improving Data Collection and Abstraction to Assess Health Equity in Trauma Care",
+            "url": "https://api.crossref.org/works/10.1007/s10916-022-01804-4",
+            "doi": "10.1007/s10916-022-01804-4",
+            "published_on": "2022-03-09",
+            "checked_on": "2026-11-16",
+            "observations": "Crossref metadata matches journal title and both ISSNs. Metadata only; article full text and review reports not assessed.",
+            "source_urls": [
+              "https://api.crossref.org/works/10.1007/s10916-022-01804-4"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10916",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Medical%20Systems&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://api.crossref.org/works/10.1007/s10916-022-01804-4",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact Crossref deposited article, title, DOI, container and ISSNs read; metadata only."
+          },
+          {
+            "url": "https://link.springer.com/journal/10916/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "journal-of-molecular-modeling",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1610-2940",
+            "0948-5023",
+            "0949-183X"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/894",
+            "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20"
+          ],
+          "notes": "Exact title matched in Crossref journal metadata."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20",
+            "registry_record_id": "1610-2940",
+            "publisher_url": null,
+            "matched_issns": [
+              "1610-2940",
+              "0948-5023",
+              "0949-183X"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20"
+            ],
+            "note": "Exact-title identifier metadata; not selective index coverage."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/894/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Tim Clark",
+                "role": "Editor-in-Chief",
+                "affiliation": "Computer Chemistry Center, Friedrich-Alexander-Universität Erlangen-Nürnberg"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/894/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/894/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/894/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/894/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/894/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/894/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in accessible material inspected."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "First-principles exploration of 2D InP monolayer as a potential sensor for CO, CO2, SO, SO2, and NO2 gases",
+            "url": "https://link.springer.com/journal/894/articles",
+            "doi": null,
+            "published_on": "2026-11-04",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher journal contents lists this title and date. Contents metadata only; article full text and review reports not assessed.",
+            "source_urls": [
+              "https://link.springer.com/journal/894/articles"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/894",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage checked for identity."
+          },
+          {
+            "url": "https://api.crossref.org/journals?query=Journal%20of%20Molecular%20Modeling&rows=20",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title metadata query; this is not selective index inclusion."
+          },
+          {
+            "url": "https://doi.org/10.1007/s00894-026-07056-0",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page checked for traceability."
+          },
+          {
+            "url": "https://link.springer.com/journal/894/articles",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact-title journal contents, title and publication date read; metadata-only sample."
+          },
+          {
+            "url": "https://link.springer.com/journal/894/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    },
+    {
+      "id": "journal-of-scheduling",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "Named editorial leadership, publisher, applicable external peer review, ethics and correction policies are documented, with a traceable journal article. This is a bounded evidence review, not a certification.",
+        "identity": {
+          "issns": [
+            "1094-6136",
+            "1099-1425"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://link.springer.com/journal/10951"
+          ],
+          "notes": "Exact journal title and ISSNs matched to the cited journal or authority record."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://www.scopus.com/sources",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Authority exact-title record inaccessible; no inference of non-indexing."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "The journal directly links Springer journal policies. Research articles and most other types undergo peer review, usually by two independent experts; an editor screens and decides, with rare one-report exceptions. Some nonresearch types may be accepted without external review.",
+          "source_urls": [
+            "https://link.springer.com/journal/10951/editorial-board",
+            "https://link.springer.com/brands/springer/journal-policies"
+          ],
+          "notes": "Publisher-wide policy is linked by the journal; anonymity model and conduct for individual papers are not established by this policy."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Edmund K. Burke",
+                "role": "Editor-in-Chief",
+                "affiliation": "Bangor University"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/10951/editorial-board"
+            ],
+            "note": "Named editor and affiliation checked on the exact journal board; navigation links directly to Springer journal policies."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10951/editorial-board"
+            ],
+            "note": "Journal identifies Springer Nature as publisher; distinct legal ownership was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10951/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authorship, research ethics, consent and misconduct processes are described. Journal navigation links to this publisher policy."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10951/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Corrections and retractions are published as linked notices; editors consider reports. Journal navigation links to this publisher policy."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10951/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "Authors must disclose relevant interests; conflicts affecting editors require reassignment. Journal navigation links to this publisher policy."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/10951/editorial-board",
+              "https://link.springer.com/brands/springer/journal-policies"
+            ],
+            "note": "The policy provides editorial appeal and complaints routes and escalation.  Journal navigation links to this publisher policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in sources examined."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in sources examined."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Theoretical lower bounds for a parallel batch scheduling problem",
+            "url": "https://link.springer.com/article/10.1007/s10951-026-00887-y",
+            "doi": "10.1007/s10951-026-00887-y",
+            "published_on": "2026-10-31",
+            "checked_on": "2026-11-16",
+            "observations": "Publisher article landing page identifies title, journal and publication date; review reports and scientific validity were not assessed.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s10951-026-00887-y"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10951",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage or attempted access; identity source supplemented where indicated."
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation for exact journal."
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable author policies."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10951-026-00887-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page and bibliographic metadata read."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s10951-026-00887-y",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article landing page read and journal identity matched."
+          },
+          {
+            "url": "https://link.springer.com/journal/10951/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Exact journal board, named editor and publisher-policy navigation checked via readable web rendering."
+          },
+          {
+            "url": "https://link.springer.com/brands/springer/journal-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal-linked policy read: external peer review and exceptions, research ethics, competing interests, corrections, retractions and appeals."
+          }
+        ],
+        "audit_limits": "Independent selective indexing remains as recorded; publisher policies do not prove actual conduct for an individual article. Review reports and scientific validity were not assessed. Journal-specific anonymity model, archiving and licensing remain subject to the individual standard entries. Direct HTTP retrieval returned an automated access page; journal pages were read through the web rendering."
+      },
+      "audit_note": "Matched journal by exact title and identity, read named board and followed its Editorial policies link to the Springer policy; checked an exact-journal article or contents metadata. Preserved existing indexing assessment and any existing concerns."
+    }
+  ]
+}

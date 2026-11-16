@@ -1,0 +1,1546 @@
+{
+  "batch": "batch-15",
+  "venues": [
+    {
+      "id": "social-studies-of-science",
+      "name": "Social Studies of Science",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/sss",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/sss",
+      "submission_url": null,
+      "subjects": [
+        "meta-research"
+      ],
+      "formats": [
+        "original_research",
+        "review"
+      ],
+      "scope_notes": "Science and Technology Studies rather than a general methods journal. Social or institutional analyses of research practices, collaboration and knowledge production may fit when they make an STS contribution. Original research, discussion papers, short research notes and review essays are listed; existing literature or documents can support suitable studies. Research articles are normally limited to 12,000 words. Preprints are accepted; do not update the preprint during review and link the published version afterward. The linked Sage AI policy distinguishes assistive editing from generative research/content uses requiring disclosure and prohibits specified uses; it does not grant blanket permission for AI-authored submissions.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription",
+        "conditions": "Journal-specific instructions explicitly exclude fees for submission and publication on the subscription route. Optional Sage Choice OA is paid or separately agreement-funded. Online colour is free; specifically requested print colour can be charged. Research articles are normally limited to 12,000 words; follow editorial length requirements. No mandatory membership or affiliation is imposed in the inspected author route.",
+        "other_mandatory_costs": "None for the standard route within journal instructions; OA and requested print colour are optional.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sss",
+            "checked_on": "2026-11-16",
+            "note": "Current instructions explicitly exclude submission/publication fees, make online colour free and distinguish optional print colour and OA. They state the normal research-article length limit.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/sss"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "7.7%",
+          "year": 2025,
+          "population": "All journal submissions receiving a final accept/reject decision in the previous calendar year, including all article types; not the submission cohort and not only externally reviewed manuscripts.",
+          "source_url": "https://journals.sagepub.com/overview-metric/SSS",
+          "note": "The journal page reports this value without printing its year. The 2025 period is identified from Sage's previous-calendar-year definition at the live 2026-11-16 check; underlying decision counts are undisclosed. Definition: https://www.sagepub.com/journals/understanding-journal-metrics"
+        }
+      ],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/sss",
+        "https://sage.cnpereading.com/overview-metric/SSS?tabActive=description"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/meta-research.json",
+        "research/campaigns/2026-11-16-expansion/geography/meta-research.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/meta-research.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/meta-research.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Independently read current author instructions, homepage, journal metrics and Sage definitions. Confirmed free submission/standard publication, optional paid OA/print colour, 12,000-word ordinary research limit, two independent reviews, preprint rules and linked current AI policy. Independently reproduced 7.7% acceptance from the metric page after following the journal homepage link. Retained very_high as a labeled within-STS judgment supported by the aggregate rate; 2025 is inferred from the previous-calendar-year final-decision definition, not printed next to the rate.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sss"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "No geographic restriction on research focus established from the reviewed material.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/sss",
+            "note": "Journal identity and subject scope; a journal base is not established by publisher identity alone.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sss",
+            "note": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Human-led literature assistance and AI-generated or checked research code are appropriate with disclosure. Conditional partial drafting is inferred from Sage’s treatment of partial generated text and disclosed use, subject to editorial interpretation of its prohibition on generating a submission through prompts. Authors are responsible for accuracy and checking original sources.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in Methods or Acknowledgements. Suggestions to improve the author’s own language, grammar or structure do not require disclosure.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required)"
+        },
+        "restrictions": [
+          "Generating research data or a submission using a series of prompts is inappropriate; the application of the latter to human-led partial drafting is undefined.",
+          "AI analysis of experiences and themes, fabricated references or claims, incorrect content, plagiarism, simulated interview participants, and generated images presented as novel research images are inappropriate.",
+          "Authors must verify outputs and original sources; AI chatbots cannot be listed as authors."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Publisher policy linked by journal instructions",
+            "note": "Literature assistance and generated or checked research code are appropriate with disclosure; partial generated content affecting research is disclosed, and disclosed use alone does not lead to rejection. The prompt-generated submission restriction does not define partial drafting."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal-specific author instructions",
+            "note": "Instructions explicitly direct authors to Sage AI disclosure and prohibited uses; no stronger title-specific restriction found in inspected instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "meta-research-social-studies-of-science"
+      ],
+      "subfields": [
+        "meta-research"
+      ],
+      "scope_by_subfield": {
+        "meta-research": "Science and Technology Studies rather than a general methods journal. Social or institutional analyses of research practices, collaboration and knowledge production may fit when they make an STS contribution. Original research, discussion papers, short research notes and review essays are listed; existing literature or documents can support suitable studies. Research articles are normally limited to 12,000 words. Preprints are accepted; do not update the preprint during review and link the published version afterward. The linked Sage AI policy distinguishes assistive editing from generative research/content uses requiring disclosure and prohibits specified uses; it does not grant blanket permission for AI-authored submissions."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "software-and-systems-modeling",
+      "name": "Software and Systems Modeling",
+      "kind": "journal",
+      "publisher": "Springer Nature",
+      "homepage": "https://link.springer.com/journal/10270",
+      "author_guidelines": "https://link.springer.com/journal/10270/submission-guidelines",
+      "submission_url": null,
+      "subjects": [
+        "systems-engineering"
+      ],
+      "formats": [
+        "original_research",
+        "review",
+        "methods",
+        "software"
+      ],
+      "scope_notes": "Foundations and applications of modeling languages and techniques for software, engineered/natural systems, and processes. Computational work includes formal modeling, transformations, scalable techniques, and rigorous experience analyses. Survey/overview and tool papers are also accepted. Tool papers must demonstrate community importance, lessons learned, availability as open-source or freemium software, and application in relevant scenarios.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "Journal-specific publishing policy offers subscription publication without an APC; paid Open Choice is optional. Online color is free and print color can cost extra. The inspected instructions do not explicitly exclude submission or all page/overlength fees. LLM use requires disclosure beyond exempt human-text copy editing and authors retain accountability. Independent 2026-11-16 recheck: subscription has no APC; that statement does not exclude other author charges.",
+        "other_mandatory_costs": "Unverified: journal-specific evidence did not establish absence of submission, page/overlength or other mandatory costs. Publisher says some subscription journals charge for pages, excess length or colour. Select subscription and avoid optional paid services.",
+        "fee_evidence": [
+          {
+            "url": "https://link.springer.com/journal/10270/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific publishing policy explicitly offers subscription publication with no APC; OA APC is an optional alternative after acceptance.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Instructions establish free online color and optional paid print color. No explicit statement excluding every submission or page/length fee was found.",
+            "access": "page"
+          },
+          {
+            "url": "https://support.springernature.com/en/support/solutions/articles/6000084580-costs-of-publishing-in-springer-nature-journal",
+            "checked_on": "2026-11-16",
+            "note": "Publisher support, modified July 21, 2025, warns that subscription titles can have page or overlength charges; it gives no journal-specific exemption.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "note": "Independently read HTTP 200; checked author instructions and applicable limits. Absence of a fee statement is not proof of zero submission or page charges.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/how-to-publish-with-us",
+            "checked_on": "2026-11-16",
+            "note": "Independently read HTTP 200; journal subscription option explicitly has no APC, whereas open access has an APC. No broader no-fee assurance established.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://link.springer.com/journal/10270/submission-guidelines"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Submission to first decision (median days)",
+          "value": 4,
+          "year": null,
+          "population": null,
+          "source_url": "https://link.springer.com/journal/10270",
+          "note": "Homepage display; exact reporting period and eligible population unstated."
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "value": 23.96,
+          "year": 2025,
+          "population": null,
+          "source_url": "https://link.springer.com/article/10.1007/s10270-026-01361-1",
+          "note": "Editors report annual rate but do not define denominator or cohort; do not divide by submissions or compare directly with Wiley/T&F."
+        },
+        {
+          "name": "Submissions received",
+          "value": 466,
+          "year": 2025,
+          "population": "Submissions received during calendar 2025",
+          "source_url": "https://link.springer.com/article/10.1007/s10270-026-01361-1",
+          "note": "Editor-reported count, not a denominator established for acceptance rate."
+        },
+        {
+          "name": "Submission to final decision (mean days)",
+          "value": 114,
+          "year": 2025,
+          "population": "Papers receiving accept/reject decisions; inclusion rules unstated",
+          "source_url": "https://link.springer.com/article/10.1007/s10270-026-01361-1",
+          "note": "Editorial reports average; precise cohort definition is unavailable."
+        },
+        {
+          "name": "Journal Impact Factor",
+          "value": 3.0,
+          "year": 2025,
+          "population": "Journal citable items, 2023–2024",
+          "source_url": "https://link.springer.com/journal/10270",
+          "note": "Publisher homepage reports 2025 value; citation metric is not an acceptance rate."
+        },
+        {
+          "name": "5-year Journal Impact Factor",
+          "value": 2.9,
+          "year": 2025,
+          "population": "Journal citable items, 2020–2024",
+          "source_url": "https://link.springer.com/journal/10270",
+          "note": "Publisher homepage reports 2025 value; citation metric is not an acceptance rate."
+        }
+      ],
+      "discovery_sources": [
+        "https://link.springer.com/journal/10270/aims-and-scope",
+        "https://link.springer.com/journal/10270/submission-guidelines",
+        "https://link.springer.com/journal/10270/how-to-publish-with-us"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/geography/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/systems-engineering.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/systems-engineering.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/springer-5.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "audit_note": "Independently read the journal-specific instructions and no-APC subscription policy. Retained needs_verification because submission/page costs are not explicitly settled; publisher-wide majority-no-charge wording cannot certify this title. Optional color, OA, and editing services do not themselves disqualify a free route. The official homepage and 2025-summary editorial disagree: homepage JIF 3.0, five-year JIF 2.9, downloads 523.7k versus editorial 3.2, 2.7 and 534505 respectively. Both identify 2025; no reconciliation was invented. Sources: https://link.springer.com/journal/10270 ; https://link.springer.com/article/10.1007/s10270-026-01361-1 . Review: removed 3 null-valued metric placeholder(s) (Journal Impact Factor, 5-year Journal Impact Factor, Downloads); no missing statistic is represented as a canonical observation. The conflicting figures remain documented above. Review directly checked scope, homepage, 24 February 2026 editorial, submission/AI conditions and the official tool-paper call (https://www.sosym.org/tool_paper/). The 466 submissions are not an established acceptance-rate denominator. First-decision timing remains undated. Tool/survey formats added; no conference-registration requirement is inferred for the regular journal route.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "The inspected submission material does not affirm geographic eligibility; no worldwide eligibility is inferred.",
+          "source_urls": [
+            "https://link.springer.com/journal/10270/submission-guidelines"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "No geographic research restriction established in the inspected material; an unrestricted or international remit is not inferred from silence.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://link.springer.com/journal/10270",
+            "note": "Journal homepage inspected for journal identity and geographic remit.",
+            "access": "page"
+          },
+          {
+            "url": "https://link.springer.com/journal/10270/submission-guidelines",
+            "note": "Submission instructions inspected for geographic author restrictions.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Springer Nature explicitly permits supervised research assistance including exploratory data analysis and drafting explanatory summaries or literature reviews. These examples establish non-language research, analysis, and substantive drafting assistance; humans retain judgment, verify outputs, and take responsibility. The policy does not require permission to autonomously write an entire manuscript or make final interpretation.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "Describe AI research use in Methods; add an AI Use Declaration at the end directing readers to Methods and confirming accountability. Guidance requests tool versions, dates, prompts, and extent of contribution. Journal instructions say AI-assisted copy editing alone need not be declared, while current group guidance asks it be declared; follow the stricter disclosure.",
+          "source_urls": [
+            "https://link.springer.com/journal/10270/submission-guidelines",
+            "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers"
+          ],
+          "section": "AI authorship / guidance for researchers"
+        },
+        "restrictions": [
+          "AI cannot be an author, replace scholarly judgment or write the entire manuscript; do not fabricate data or expose sensitive material to insecure tools."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://link.springer.com/journal/10270/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal instructions",
+            "note": "Journal-specific submission guidelines give AI authorship and disclosure rules."
+          },
+          {
+            "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Applicable publisher policy",
+            "note": "Explicitly permits analysis and drafting under oversight and sets end-of-paper declaration; current copy-edit declaration differs from journal instructions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "systems-engineering-software-and-systems-modeling"
+      ],
+      "subfields": [
+        "systems-engineering"
+      ],
+      "scope_by_subfield": {
+        "systems-engineering": "Foundations and applications of modeling languages and techniques for software, engineered/natural systems, and processes. Computational work includes formal modeling, transformations, scalable techniques, and rigorous experience analyses. Survey/overview and tool papers are also accepted. Tool papers must demonstrate community importance, lessons learned, availability as open-source or freemium software, and application in relevant scenarios."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "statistical-methods-in-medical-research",
+      "name": "Statistical Methods in Medical Research",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/SMM",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/smm",
+      "submission_url": null,
+      "subjects": [
+        "epidemiology-biostatistics"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Statistical methods reviews and new methodological developments or applications relevant to medical research.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "hybrid",
+        "conditions": "No fee to submit or publish on the standard subscription route. OA via Sage Choice and specifically requested print colour are optional and paid.",
+        "other_mandatory_costs": "No mandatory charges stated; print colour is optional.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/smm",
+            "checked_on": "2026-11-16",
+            "note": "Journal instructions explicitly state no fees to submit or publish; optional OA and print colour carry charges.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/smm"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/home/SMM",
+        "https://journals.sagepub.com/author-instructions/smm",
+        "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-statistical-methods-in-medical-research_-sage-journals.pdf"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/epidemiology-biostatistics.json",
+        "research/campaigns/2026-11-16-expansion/fees/epidemiology-biostatistics.json",
+        "research/campaigns/2026-11-16-expansion/geography/epidemiology-biostatistics.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/epidemiology-biostatistics.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal encourages submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/smm"
+          ]
+        },
+        "research_focus_regions": [
+          "Unknown"
+        ],
+        "scope_notes": "Statistical methods for medical research; no geographic research limitation established.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/smm",
+            "note": "Statistical methods for medical research; no geographic research limitation established. Journal encourages submissions from authors across all countries and backgrounds.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+          "source_urls": [
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "https://journals.sagepub.com/author-instructions/smm"
+          ],
+          "section": "AI generated (disclosure required); Appropriate use of GenAI"
+        },
+        "restrictions": [
+          "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+          "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+          "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/smm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Current journal author instructions",
+            "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage journal publisher policy, referenced by journal guidance",
+            "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "epidemiology-biostatistics-statistical-methods-medical-research"
+      ],
+      "subfields": [
+        "epidemiology-biostatistics"
+      ],
+      "scope_by_subfield": {
+        "epidemiology-biostatistics": "Statistical methods reviews and new methodological developments or applications relevant to medical research."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "stochastic-systems",
+      "name": "Stochastic Systems",
+      "kind": "journal",
+      "publisher": "INFORMS",
+      "homepage": "https://pubsonline.informs.org/journal/stsy",
+      "author_guidelines": "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0",
+      "submission_url": "https://mc.manuscriptcentral.com/ssy",
+      "subjects": [
+        "operations-simulation"
+      ],
+      "formats": [
+        "original_research",
+        "methods"
+      ],
+      "scope_notes": "Applied probability, queues, stochastic models, computational methods and applications in service operations, logistics, computer systems and related OR domains. Regular manuscripts require a substantive contribution; short correspondences are also accepted. Computational health-system work fits without clinical practice.",
+      "route": {
+        "model": "diamond",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "open_access",
+        "conditions": "The current journal instructions explicitly exclude APCs and submission fees. Regular manuscripts are limited to 35 pages including references; short correspondences to eight pages. No author membership, registration payment or institutional agreement is required by the stated route.",
+        "other_mandatory_costs": "none stated in current submission and publication instructions",
+        "fee_evidence": [
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0",
+            "checked_on": "2026-11-16",
+            "note": "The Open Access section states that all content is open access under CC BY, authors retain copyright, and neither article processing charges nor submission fees apply.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/geography/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/operations-simulation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Independently read the current journal instructions: the explicit no-APC/no-submission-fee policy supports both fee fields. Checked length and submission steps; no required society membership, conference registration, page payment or selective waiver is identified. Retain verified_free.",
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "venue_regions": [
+          "North America"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "INFORMS society and publisher office in Catonsville",
+            "source_url": "https://www.informs.org/About-INFORMS/Privacy-Policy"
+          }
+        ],
+        "author_eligibility": {
+          "status": "not_stated",
+          "description": "Instructions inspected do not affirm worldwide author eligibility; absence of a geographic restriction is not proof of eligibility.",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Research remit is topical rather than limited to a named region; author-location eligibility is not established by international scope.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://pubsonline.informs.org/journal/stsy",
+            "note": "Journal identity and research remit reviewed.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0",
+            "note": "Submission instructions checked for geographic eligibility; no affirmative worldwide author eligibility established.",
+            "access": "page"
+          },
+          {
+            "url": "https://pubsonline.informs.org/authorportal",
+            "note": "INFORMS identifies these as its scholarly journals.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.informs.org/About-INFORMS/Privacy-Policy",
+            "note": "Society and publisher contact address in the United States.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "INFORMS permits generative AI in manuscript preparation and expressly describes data analysis, summarization and text drafting. Human authors remain responsible for accuracy, integrity and originality. Explicit permission for analysis covers analytical assistance under this contract.",
+        "disclosure": {
+          "status": "required",
+          "instructions": "In the acknowledgements identify the tool and the nature of its assistance for all generative AI use.",
+          "source_urls": [
+            "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf"
+          ],
+          "section": "Ethical violations: Authorship Misrepresentation"
+        },
+        "restrictions": [
+          "AI and machine learning tools cannot be authors.",
+          "Human authors retain full responsibility for the work."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://pubsonline.informs.org/authorportal/publication-ethics",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publisher-wide policy, reproduced in its official author portal",
+            "note": "Current publication ethics expressly permits generative AI in manuscript preparation, naming drafting, summarization and data analysis, and requires tool and assistance details in acknowledgements."
+          },
+          {
+            "url": "https://www.informs.org/content/download/425687/4763331/file/Section-13-%20Publications.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "INFORMS publication policy applies to INFORMS journals",
+            "note": "INFORMS publication policy expressly permits manuscript preparation and names drafting, summarization and data analysis; disclosure is mandatory."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/stsy/submission-guidelines?mobileUi=0",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific instructions",
+            "note": "Journal author instructions identify INFORMS and its publication policies."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "operations-simulation-stochastic-systems"
+      ],
+      "subfields": [
+        "operations-simulation"
+      ],
+      "scope_by_subfield": {
+        "operations-simulation": "Applied probability, queues, stochastic models, computational methods and applications in service operations, logistics, computer systems and related OR domains. Regular manuscripts require a substantive contribution; short correspondences are also accepted. Computational health-system work fits without clinical practice."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "studies-in-indian-politics",
+      "name": "Studies in Indian Politics",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/inp",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/inp",
+      "submission_url": null,
+      "subjects": [
+        "political-science"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Indian politics, institutions, political processes, and comparative political analysis.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "optional_open_access",
+        "conditions": "The journal instructions explicitly say there is no fee to submit or publish; optional open access carries a fee. Requested print colour may cost extra where offered.",
+        "other_mandatory_costs": "No mandatory membership or conference registration identified in the author instructions. Sage lists journals with known submission or page/publication charges; this title is absent.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/inp",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific instructions explicitly say no fees to submit or publish and describe optional open access.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Publisher lists active journals with submission, page, and publication charges; this title is not listed. Print-colour charges may apply to some journals.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/inp"
+        ]
+      },
+      "metrics": [],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/inp",
+        "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/political-science.json",
+        "research/campaigns/2026-11-16-expansion/fees/political-science.json",
+        "research/campaigns/2026-11-16-expansion/geography/political-science.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/political-science.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/political-science.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "geography": {
+        "venue_countries": [
+          {
+            "code": "IN",
+            "name": "India",
+            "basis": "affiliated Lokniti, Centre for the Study of Developing Societies, Delhi",
+            "source_url": "https://services.sagepub.com/journal/studies-in-indian-politics/"
+          }
+        ],
+        "venue_regions": [
+          "Asia"
+        ],
+        "publisher_countries": [
+          {
+            "code": "US",
+            "name": "United States",
+            "basis": "Sage explicitly identified Los Angeles office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "GB",
+            "name": "United Kingdom",
+            "basis": "Sage explicitly identified London office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          },
+          {
+            "code": "IN",
+            "name": "India",
+            "basis": "Sage explicitly identified India office; publisher is multinational",
+            "source_url": "https://www.sagepub.com/about/locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal instructions encourage submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/inp"
+          ]
+        },
+        "research_focus_regions": [
+          "Asia",
+          "International"
+        ],
+        "scope_notes": "Indian politics, with comparative emphasis on India and the global South.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://services.sagepub.com/journal/studies-in-indian-politics/",
+            "note": "affiliated Lokniti, Centre for the Study of Developing Societies, Delhi",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/inp",
+            "note": "Journal instructions encourage submissions from authors across all countries and backgrounds.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/about/locations",
+            "note": "Publisher offices identified separately from venue base.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Sage identifies literature assistance and generated or checked code for research as appropriate with disclosure and verification. Its discussion of primary or partial generated text, its statement that disclosed GenAI alone is not grounds for rejection, and non-exhaustive appropriate-use examples together support conditional human-led partial drafting by inference; the prompt-generated submission boundary remains ambiguous. Authors retain intellectual responsibility.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in methods or acknowledgements. Suggestions for language, grammar or structure alone do not require disclosure under Sage policy.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/inp",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); Prohibited use of AI"
+        },
+        "restrictions": [
+          "Sage lists generation of data or a submission using a series of prompts as inappropriate; exact boundary for human-led partial drafting is not defined.",
+          "Sage lists AI analysis of experiences and themes as inappropriate; use other analytical code within policy.",
+          "No fabricated references or claims, incorrect content, or GenAI interviews in lieu of participants; authors verify outputs and original sources.",
+          "AI cannot be an author; humans retain responsibility."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/inp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal author instructions",
+            "note": "Title instructions link Sage publication ethics and AI policy; no additional title-specific prohibition found."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage publisher policy referenced by title instructions",
+            "note": "Explicit research literature and code support, disclosure of partial generated research content, and inappropriate uses; partial drafting is a conditional inference from combined clauses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "political-science-studies-in-indian-politics"
+      ],
+      "subfields": [
+        "political-science"
+      ],
+      "scope_by_subfield": {
+        "political-science": "Indian politics, institutions, political processes, and comparative political analysis."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "technological-forecasting-and-social-change",
+      "name": "Technological Forecasting and Social Change",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+      "author_guidelines": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Technology forecasting, social change and technology innovation management; research synthesis and forecasting are potential fits. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 13.5,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 30.5,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/author/53464344800/nathalie-sick",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/elsevier.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0040162519305220",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-technological-forecasting-and-social-change"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Technology forecasting, social change and technology innovation management; research synthesis and forecasting are potential fits. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "technology-in-society",
+      "name": "Technology in Society",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/technology-in-society",
+      "author_guidelines": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Technology and societal or organizational consequences, including digital economy and comparative existing-data analysis. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technology-in-society"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 12.9,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 25.4,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0160791X23001720",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/elsevier.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. Research focus by region is unconfirmed.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0160791X20306357",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technology-in-society/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-technology-in-society"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Technology and societal or organizational consequences, including digital economy and comparative existing-data analysis. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "technovation",
+      "name": "Technovation",
+      "kind": "journal",
+      "publisher": "Elsevier",
+      "homepage": "https://www.sciencedirect.com/journal/technovation",
+      "author_guidelines": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+      "submission_url": null,
+      "subjects": [
+        "business-innovation"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Innovation management and technology ecosystems, including digital platforms and business models. Verify article type, current scope and journal-specific AI rules before submission.",
+      "route": {
+        "model": "unknown",
+        "submission_fee": "unknown",
+        "publication_fee": "unknown",
+        "eligibility": "needs_verification",
+        "oa_status": "unknown",
+        "conditions": "Potential subscription publication and optional open access require journal-specific confirmation; publisher general hybrid policy does not establish availability for this title. Confirm submission, standard publication, article-type and length/page charges before submission.",
+        "other_mandatory_costs": "unknown; compulsory membership and other charges not verified",
+        "fee_evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation",
+            "checked_on": "2026-11-16",
+            "note": "Journal homepage direct retrieval returned HTTP 403; its current route and charges could not be read.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Author guide direct retrieval returned HTTP 403; submission, length/page and other compulsory charges could not be checked.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees",
+            "checked_on": "2026-11-16",
+            "note": "Publisher says individual journals set submission fee policies and identify fees in author guides. This general policy does not establish this journal’s charge.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.elsevier.com/publishing/publish-in-a-journal/journal-selection/special-issues",
+            "checked_on": "2026-11-16",
+            "note": "Publisher describes no publication fee for the subscription option in hybrid journals; availability for this particular journal was not verified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "note": "Independent ordinary HTTPS recheck returned HTTP 403; journal-specific author fees and conditions remain unreadable.",
+            "access": "blocked"
+          }
+        ]
+      },
+      "review": {
+        "type": "unknown",
+        "source_urls": [
+          "https://www.sciencedirect.com/journal/technovation"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Journal Impact Factor",
+          "value": 12.0,
+          "year": null,
+          "population": "Citations in a given year to the journal’s previous two years of publications divided by citable publications in those two years",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.prod.webpresence.elsevier.com/researcher/author/tools-and-resources/measuring-a-journals-impact"
+        },
+        {
+          "name": "CiteScore",
+          "value": 23.4,
+          "year": null,
+          "population": "Citations to Scopus-indexed articles, reviews, conference papers, book chapters and data papers in a four-year window divided by the number of these documents published in that window",
+          "source_url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=social-sciences-and-humanities",
+          "note": "Publisher listing does not identify the metric year; snapshot read 2026-11-16. Journal-level citation indicator, not acceptance probability. Definition: https://www.elsevier.support/scopus/answer/what-is-citescore"
+        }
+      ],
+      "discovery_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0166497226002208",
+        "https://www.elsevier.com/en-au/about/policies-and-standards/generative-ai-policies-for-journals"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/discovery/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/fees/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/geography/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/business-innovation.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json",
+        "research/campaigns/2026-11-16-cost-followup/audits/elsevier.json",
+        "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+        "research/campaigns/2026-11-16-cost-followup/decisions.json"
+      ],
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [
+          "Unknown"
+        ],
+        "publisher_countries": [
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "basis": "Elsevier global headquarters in Amsterdam; not a journal office",
+            "source_url": "https://www.elsevier.com/about/global-locations"
+          }
+        ],
+        "author_eligibility": {
+          "status": "unclear",
+          "description": "Journal author instructions inaccessible; geographic eligibility could not be verified.",
+          "source_urls": [
+            "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors"
+          ]
+        },
+        "research_focus_regions": [
+          "International"
+        ],
+        "scope_notes": "Current geographic remit and any location restrictions require confirmation from accessible journal instructions. International journal coverage is described in journal-hosted historical literature, not proof of author eligibility.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/about/aims-and-scope",
+            "note": "Journal aims and scope page returned HTTP 403; current geographic remit and editorial host could not be confirmed there.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "note": "Author instructions returned HTTP 403; author location eligibility could not be assessed.",
+            "access": "blocked"
+          },
+          {
+            "url": "https://www.elsevier.com/about/global-locations",
+            "note": "Elsevier describes its global headquarters as Amsterdam; this is the publisher location, not the journal base.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0166497221000845",
+            "note": "Journal-hosted article or editorial describes its research area; it does not establish a current editorial office or author-location eligibility.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Elsevier policy explicitly addresses authors preparing manuscripts for an Elsevier journal and permits research support, data analysis and code, and AI-supported drafting with genuine human intellectual contribution, verification and responsibility. Journal-specific guide was blocked; an additional local rule has not been checked.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "For substantive manuscript preparation, include a separate declaration immediately before references identifying the tool and purpose and confirming review, editing and author responsibility. Describe research-methods uses including AI-assisted code and data analysis reproducibly in Methods. Basic spelling, grammar and punctuation checks do not require a declaration.",
+          "source_urls": [
+            "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+          ],
+          "section": "Authors: Disclosure and FAQ"
+        },
+        "restrictions": [
+          "Authors must verify and edit generated content and retain intellectual responsibility; AI is not an author.",
+          "Do not generate manuscript sections without genuine author intellectual contribution or fabricate data, results or references.",
+          "Protect confidentiality and data rights; AI-generated or altered primary research images are prohibited, subject to stated research-method exceptions.",
+          "Journal-specific requirements could not be checked because the author guide was blocked."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Policy explicitly addresses authors preparing a manuscript for an Elsevier journal; candidate identified as an Elsevier journal. Journal-specific guide was inaccessible.",
+            "note": "Explicitly permits supervised drafting, literature support, study design, data analysis and code; details disclosure and human accountability."
+          },
+          {
+            "url": "https://www.sciencedirect.com/journal/technovation/publish/guide-for-authors",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "applicability": "Journal-specific author guide",
+            "note": "HTTP 403; could not assess local additional AI restrictions."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "business-innovation-technovation"
+      ],
+      "subfields": [
+        "business-innovation"
+      ],
+      "scope_by_subfield": {
+        "business-innovation": "Innovation management and technology ecosystems, including digital platforms and business models. Verify article type, current scope and journal-specific AI rules before submission."
+      },
+      "submission_status": "unknown"
+    },
+    {
+      "id": "the-american-review-of-public-administration",
+      "name": "The American Review of Public Administration",
+      "kind": "journal",
+      "publisher": "Sage",
+      "homepage": "https://journals.sagepub.com/home/arp",
+      "author_guidelines": "https://journals.sagepub.com/author-instructions/arp",
+      "submission_url": null,
+      "subjects": [
+        "public-policy"
+      ],
+      "formats": [
+        "original_research"
+      ],
+      "scope_notes": "Public administration and public affairs research. Candidate route for existing-data analysis of public institutions, management and governance; manuscript-specific fit still requires consulting the journal scope.",
+      "route": {
+        "model": "subscription",
+        "submission_fee": "none",
+        "publication_fee": "none",
+        "eligibility": "verified_free",
+        "oa_status": "subscription_with_optional_open_access",
+        "conditions": "The journal-specific guide explicitly excludes submission and publication fees. Standard subscription publication is the verified free route; paid Sage Choice OA and institutional OA agreements are optional. Manuscripts of 20–30 pages are welcomed; this is a preference, not a fee threshold. Online colour is free; author-requested print colour is charged. The guide also contains generic wording that OA fees exclude page/colour charges. Sage’s current publisher policy lists active journals with submission, page or publication charges; this journal is absent, and its guide supplies no page-price or charge trigger. This supports the stated standard route; it does not establish a free overlength allowance or cover optional production requests.",
+        "other_mandatory_costs": "No compulsory cost established for the stated standard route. The generic OA warning is retained as a policy caveat; optional print colour where offered, paid author services and third-party permissions are separate.",
+        "fee_evidence": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/arp",
+            "checked_on": "2026-11-16",
+            "note": "Journal-specific no-submission/no-publication-fee statement inspected alongside artwork, manuscript requirements and generic separate-charge wording; no page amount or trigger is specified.",
+            "access": "page"
+          },
+          {
+            "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+            "checked_on": "2026-11-16",
+            "note": "Current publisher policy identifies active charging journals, requires transparent page pricing in author guides, and describes OA charges as additional only where journal charges apply. This journal is absent from the inspected list. The list corroborates, rather than replaces, the journal-specific no-fee statement.",
+            "access": "page"
+          }
+        ]
+      },
+      "review": {
+        "type": "peer_reviewed",
+        "source_urls": [
+          "https://journals.sagepub.com/author-instructions/arp"
+        ]
+      },
+      "metrics": [
+        {
+          "name": "Acceptance rate",
+          "value": "7.5%",
+          "year": 2025,
+          "population": "All article types with final accept/reject decisions in the previous calendar year.",
+          "source_url": "https://journals.sagepub.com/overview-metric/ARP",
+          "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+        }
+      ],
+      "discovery_sources": [
+        "https://journals.sagepub.com/author-instructions/arp"
+      ],
+      "source_files": [
+        "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+        "research/campaigns/2026-11-16-expansion/fees/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/geography/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/ai-policy/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/metrics-review/public-policy.json",
+        "research/campaigns/2026-11-16-expansion/adjudications.json"
+      ],
+      "audit_note": "Independent skeptical fee/review pass inspected the journal guide and Sage’s current active charge list. Restoration is a bounded reading of affirmative journal-specific evidence, corroborated by the list, rather than a conclusion from absence alone. Independently reproduced the reported acceptance value on the journal’s official metrics page and checked Sage’s previous-calendar-year/all-final-decisions definition.",
+      "geography": {
+        "venue_countries": [],
+        "venue_regions": [],
+        "publisher_countries": [],
+        "author_eligibility": {
+          "status": "international",
+          "description": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/arp"
+          ]
+        },
+        "research_focus_regions": [],
+        "scope_notes": "No geographical author restriction established by the scope examined; research focus and venue base are separate.",
+        "checked_on": "2026-11-16",
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/arp",
+            "note": "Journal-specific homepage and stated scope examined; research remit does not establish author eligibility or venue location.",
+            "access": "page"
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/arp",
+            "note": "Submission guidelines encourage submissions from authors across all countries.",
+            "access": "page"
+          }
+        ]
+      },
+      "ai_policy": {
+        "compatibility": "compatible",
+        "permissions": {
+          "research": "conditional",
+          "analysis_code": "conditional",
+          "manuscript_drafting": "conditional"
+        },
+        "summary": "Human-led literature assistance and generated or checked research code are expressly listed as appropriate subject to disclosure. Conditional partial substantive drafting is inferred from the treatment of primary or partial generated text, the statement that disclosed use alone is not grounds for rejection, and the non-exhaustive examples; the policy does not expressly list drafting as an appropriate example. Authors remain responsible for accuracy and original sources.",
+        "disclosure": {
+          "status": "required_except_editing",
+          "instructions": "Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/arp",
+            "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+          ],
+          "section": "AI generated (disclosure required); Prohibited use of AI"
+        },
+        "restrictions": [
+          "Sage lists generation of data or a submission using a series of prompts as inappropriate. Its wording does not define the boundary for partial human-led drafting; avoid an entirely prompt-generated submission and seek clarification for borderline uses.",
+          "No AI analysis of experiences and themes; no AI interviews in place of participants, fabricated references, incorrect content or falsified claims.",
+          "Do not list AI chatbots as authors."
+        ],
+        "policy_sources": [
+          {
+            "url": "https://journals.sagepub.com/author-instructions/arp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Journal-specific author instructions",
+            "note": "Journal author instructions expressly direct authors to Sage AI disclosure and prohibited-use policy."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "applicability": "Sage policy referenced in journal instructions",
+            "note": "Lists literature assistance and AI-generated or checked code as appropriate; requires disclosure of primary or partial generated research-affecting content; disclosed use alone does not cause rejection; lists prohibited uses."
+          }
+        ],
+        "checked_on": "2026-11-16"
+      },
+      "source_record_ids": [
+        "public-policy-american-review-of-public-administration"
+      ],
+      "subfields": [
+        "public-policy"
+      ],
+      "scope_by_subfield": {
+        "public-policy": "Public administration and public affairs research. Candidate route for existing-data analysis of public institutions, management and governance; manuscript-specific fit still requires consulting the journal scope."
+      },
+      "submission_status": "unknown"
+    }
+  ]
+}

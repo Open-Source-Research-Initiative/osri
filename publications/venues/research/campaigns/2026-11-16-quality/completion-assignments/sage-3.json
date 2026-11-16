@@ -1,0 +1,3708 @@
+{
+  "batch": "sage-3",
+  "records": [
+    {
+      "baseline": {
+        "id": "population-health-management",
+        "name": "Population Health Management",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/pop",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/pop",
+        "submission_url": null,
+        "subjects": [
+          "public-health"
+        ],
+        "formats": [
+          "original_research",
+          "review"
+        ],
+        "scope_notes": "Population health management, relevant nonclinical population-level research and reviews; disease-management relevance required.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription",
+          "conditions": "Standard subscription publication has no submission or publication fees. Optional immediate open access carries a fee or depends on an eligible institutional agreement. Online colour is free; requested print colour costs $800 for the first and $200 for subsequent images. Follow manuscript length rules.",
+          "other_mandatory_costs": "No mandatory membership or page charge identified under the journal no-fees-to-submit-or-publish statement; print colour is optional.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pop",
+              "checked_on": "2026-11-16",
+              "note": "Current full Sage journal instructions expressly state no fees to submit or publish, identify paid optional open access and separate optional print-colour prices.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pop"
+          ]
+        },
+        "metrics": [],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/pop",
+          "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/discovery/public-health.json",
+          "research/campaigns/2026-11-16-expansion/fees/public-health.json",
+          "research/campaigns/2026-11-16-expansion/geography/public-health.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/public-health.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/public-health.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "geography": {
+          "venue_countries": [],
+          "venue_regions": [
+            "Unknown"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "International description of the journal is not an explicit worldwide author eligibility rule.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pop"
+            ]
+          },
+          "research_focus_regions": [
+            "International"
+          ],
+          "scope_notes": "International publication covering population health management; publisher office is not proof of journal editorial base.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pop",
+              "note": "International publication covering population health management; publisher office is not proof of journal editorial base.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "https://journals.sagepub.com/author-instructions/pop"
+            ],
+            "section": "AI generated (disclosure required); Appropriate use of GenAI"
+          },
+          "restrictions": [
+            "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+            "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+            "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pop",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Current journal author instructions",
+              "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage journal publisher policy, referenced by journal guidance",
+              "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "public-health-population-health-management"
+        ],
+        "subfields": [
+          "public-health"
+        ],
+        "scope_by_subfield": {
+          "public-health": "Population health management, relevant nonclinical population-level research and reviews; disease-management relevance required."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and publisher identity were examined; core evidence gaps and index authority limits require follow-up.",
+        "identity": {
+          "issns": [
+            "1942-7891",
+            "1942-7905"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/pop",
+            "https://api.crossref.org/journals/1942-7905"
+          ],
+          "notes": "Exact Crossref title and ISSN match; distinct journal titles were matched by canonical ID."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/1942-7905",
+            "registry_record_id": "1942-7905",
+            "publisher_url": null,
+            "matched_issns": [
+              "1942-7891",
+              "1942-7905"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/1942-7905"
+            ],
+            "note": "Exact title and ISSN match; DOI registration is not selective citation indexing."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal describes editorial screening and peer review; article-type exemptions and external review specifics require further checking.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pop"
+          ],
+          "notes": "Policy description does not independently prove the review of any individual article."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pop"
+            ],
+            "note": "Journal publisher identified; formal legal ownership not separately established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pop"
+            ],
+            "note": "Journal submission guidance addresses this subject and refers to applicable Sage policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved during this bounded check."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pop"
+            ],
+            "note": "Journal submission guidance addresses this subject and refers to applicable Sage policies."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved during this bounded check."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved during this bounded check."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pop"
+            ],
+            "note": "Journal submission guidance addresses this subject and refers to applicable Sage policies."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Bettina M. Beech",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Houston"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/pop"
+            ],
+            "note": "Named editor and affiliation recorded."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/pop",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage reviewed for journal and publisher identity."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/pop",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Editorial board page reviewed."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1942-7905",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact journal title and ISSN record; identifier registry, not evidence of selective citation indexing."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pop",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Review and author guidance inspected."
+          }
+        ],
+        "audit_limits": "Scopus, Web of Science and MEDLINE exact coverage were not independently established. Other standard policies or a full research article sample may remain unresolved; missing information is not evidence of misconduct. Publisher and formal owner may differ."
+      }
+    },
+    {
+      "baseline": {
+        "id": "public-health-reports",
+        "name": "Public Health Reports",
+        "kind": "journal",
+        "publisher": "Sage for the Association of Schools and Programs of Public Health",
+        "homepage": "https://journals.sagepub.com/home/phr",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/phr",
+        "submission_url": "https://mc.manuscriptcentral.com/PHR",
+        "subjects": [
+          "public-health"
+        ],
+        "formats": [
+          "original_research",
+          "review",
+          "methods"
+        ],
+        "scope_notes": "Public-health practice, epidemiologic research, evaluation, methodology, meta-analysis and topical synthesis with practical implications. The methodology category asks for applications and examples using original data; a purely conceptual method description is not an established fit. For work involving human participants or human data, guidance requires an institutional IRB, nonresearch or exemption basis; authors should not independently declare themselves exempt. Original research, methodology and topical reviews are peer reviewed; some other categories are editor assessed or need prior agreement. Recent data, preferably under five years old, are favored.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription",
+          "conditions": "Standard subscription publication is free to submit and publish. Online colour is free; requested print colour and optional OA incur separate charges. Follow article-specific limits rather than assuming a paid excess-length option: the hosted instructions normally set 3000 words for original research and methodology. Some brief reports/commentaries require prior editorial agreement. No mandatory society membership is stated.",
+          "other_mandatory_costs": "None for standard publication without optional print colour or OA. Third-party material permissions are the authors responsibility.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/phr",
+              "checked_on": "2026-11-16",
+              "note": "Current official indexed policy explicitly excludes submitting and publishing fees and distinguishes optional print-colour/OA costs. Direct page fetch timed out; indexed content was available.",
+              "access": "search_snippet"
+            },
+            {
+              "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf",
+              "checked_on": "2026-11-16",
+              "note": "Directly read official hosted 32-page instructions, captured 25 June 2025: pages 1–3 exclude submission/publication charges, make online colour free and distinguish optional print colour and OA. Article limits are also specified.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/phr",
+              "checked_on": "2026-11-16",
+              "note": "Current full journal page expressly states no fees to submit or publish; optional open access and requested print colour cost extra.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/phr",
+            "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf"
+          ]
+        },
+        "metrics": [
+          {
+            "name": "Acceptance rate by final decisions",
+            "value": "15.2%",
+            "year": 2023,
+            "population": "100 acceptances among 656 final decisions on bimonthly peer/editor-reviewed content; excludes supplements and unreviewed content; includes letters and editor-reviewed departments.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+            "note": "Historical decision-year population, not 100 divided by new submissions."
+          },
+          {
+            "name": "New submissions received",
+            "value": 634,
+            "year": 2023,
+            "population": "614 regular-issue submissions plus 20 invited/sponsored supplement submissions.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+            "note": "Different population from acceptance-rate denominator."
+          },
+          {
+            "name": "Median days to first decision",
+            "value": 12,
+            "year": 2023,
+            "population": "617 first decisions in 2023 on bimonthly peer-reviewed content, including decisions on earlier submissions.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+            "note": "Interquartile range 7–25 days."
+          },
+          {
+            "name": "Median days from original submission to final acceptance",
+            "value": 229,
+            "year": 2023,
+            "population": "116 peer/editor-reviewed articles published in volume 138, January–December 2023; excludes unreviewed special material.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+            "note": "Interquartile range 193–289 days; accepted/published articles only."
+          },
+          {
+            "name": "Median days from final acceptance to online publication",
+            "value": 51,
+            "year": 2023,
+            "population": "123 full-content articles in volume 138, excluding reviewer acknowledgments and corrigenda.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/",
+            "note": "Interquartile range 39–60 days; publication cohort differs from decision cohort."
+          }
+        ],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/phr",
+          "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+          "research/campaigns/2026-11-16-expansion/fees/public-health.json",
+          "research/campaigns/2026-11-16-expansion/geography/public-health.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/public-health.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/public-health.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "audit_note": "Independent review read the official 32-page hosted instructions captured 25 June 2025 at https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-health-reports_-sage-journals.pdf and independently retrieved the current official indexed HTML fee and ethics text at https://journals.sagepub.com/author-instructions/phr ; direct HTML timed out. The scope replacement exposes consequential methodology and institutional-ethics conditions for OSRI's existing-data work. The fee route is retained. Independently retrieved the full editors' 2023 report at https://pmc.ncbi.nlm.nih.gov/articles/PMC11284977/ and confirmed that the 15.2% rate uses 656 final decisions, with mixed peer/editor-reviewed content; it is historical and not research-article-specific.",
+        "geography": {
+          "venue_countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "basis": "Official journal of US Surgeon General and US Public Health Service",
+              "source_url": "https://journals.sagepub.com/cms/asset/3ad57fbd-77e6-4c63-8475-4ef959e6b01a/phrg_137_2.ed_board.pdf"
+            }
+          ],
+          "venue_regions": [
+            "North America"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "No geographic restriction or express worldwide eligibility found in reviewed instructions.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr"
+            ]
+          },
+          "research_focus_regions": [
+            "North America",
+            "International"
+          ],
+          "scope_notes": "Public health practice and education; examples include United States and other countries.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/phr",
+              "note": "Public health practice and education; examples include United States and other countries.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/cms/asset/3ad57fbd-77e6-4c63-8475-4ef959e6b01a/phrg_137_2.ed_board.pdf",
+              "note": "Official journal of US Surgeon General and US Public Health Service",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Sage identifies literature assistance and generated or checked code for research as appropriate with disclosure and verification. Its discussion of primary or partial generated text, its statement that disclosed GenAI alone is not grounds for rejection, and non-exhaustive appropriate-use examples together support conditional human-led partial drafting by inference; the prompt-generated submission boundary remains ambiguous. Authors retain intellectual responsibility.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in methods or acknowledgements. Suggestions for language, grammar or structure alone do not require disclosure under Sage policy.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr",
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required); Prohibited use of AI"
+          },
+          "restrictions": [
+            "Sage lists generation of data or a submission using a series of prompts as inappropriate; exact boundary for human-led partial drafting is not defined.",
+            "Sage lists AI analysis of experiences and themes as inappropriate; use other analytical code within policy.",
+            "No fabricated references or claims, incorrect content, or GenAI interviews in lieu of participants; authors verify outputs and original sources.",
+            "AI cannot be an author; humans retain responsibility."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/phr",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal author instructions",
+              "note": "Title instructions link Sage publication ethics and AI policy; no additional title-specific prohibition found."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage publisher policy referenced by title instructions",
+              "note": "Explicit research literature and code support, disclosure of partial generated research content, and inappropriate uses; partial drafting is a conditional inference from combined clauses."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "public-health-public-health-reports"
+        ],
+        "subfields": [
+          "public-health"
+        ],
+        "scope_by_subfield": {
+          "public-health": "Public-health practice, epidemiologic research, evaluation, methodology, meta-analysis and topical synthesis with practical implications. The methodology category asks for applications and examples using original data; a purely conceptual method description is not an established fit. For work involving human participants or human data, guidance requires an institutional IRB, nonresearch or exemption basis; authors should not independently declare themselves exempt. Original research, methodology and topical reviews are peer reviewed; some other categories are editor assessed or need prior agreement. Recent data, preferably under five years old, are favored."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0033-3549",
+            "1468-2877"
+          ],
+          "publisher": "Sage for the Association of Schools and Programs of Public Health",
+          "source_urls": [
+            "https://journals.sagepub.com/home/phr",
+            "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844"
+          ],
+          "notes": "NLM catalog matches exact 1974 title, publisher, print and electronic ISSNs."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/phr"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          },
+          {
+            "name": "MEDLINE",
+            "category": "bibliographic_database",
+            "verification": "registry_confirmed",
+            "coverage": "v89n4, Jul./Aug. 1974–; currently indexed",
+            "registry_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844",
+            "registry_record_id": "9716844",
+            "publisher_url": null,
+            "matched_issns": [
+              "0033-3549",
+              "1468-2877"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844"
+            ],
+            "note": "NLM exact catalog record explicitly states currently indexed for MEDLINE; separate PubMed coverage also shown."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/phr"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Zygmunt F. Dembek",
+                "role": "Editor in Chief",
+                "affiliation": "Office of the Surgeon General, U.S. Department of Health and Human Services"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/phr"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/phr"
+            ],
+            "note": "Sage is identified as publisher; legal ownership beyond publisher was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/phr"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/phr"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/phr",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/phr",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/phr",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/00333549261497276",
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_type": "journal",
+            "note": "Article identity obtained from journal homepage or Crossref; article page not independently read."
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9716844",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact title, both ISSNs and current MEDLINE status and coverage verified."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. Sample article page not independently read, so sample omitted."
+      }
+    },
+    {
+      "baseline": {
+        "id": "public-policy-and-administration",
+        "name": "Public Policy and Administration",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/ppa",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/ppa",
+        "submission_url": null,
+        "subjects": [
+          "public-policy"
+        ],
+        "formats": [
+          "original_research"
+        ],
+        "scope_notes": "Public policy, government, public management, administrative theory, history and politics. Existing-data and comparative policy analyses can fit when they make an original contribution. The current limit is 8,000 words.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription_with_optional_open_access",
+          "conditions": "The journal-specific guide explicitly excludes submission and publication fees. Standard subscription publication is the verified free route; paid Sage Choice OA and institutional OA agreements are optional. Maximum manuscript length is 8,000 words. Online colour is free; author-requested print colour is charged. The guide also contains generic wording that OA fees exclude page/colour charges. Sage’s current publisher policy lists active journals with submission, page or publication charges; this journal is absent, and its guide supplies no page-price or charge trigger. This supports the stated standard route; it does not establish a free overlength allowance or cover optional production requests.",
+          "other_mandatory_costs": "No compulsory cost established for the stated standard route. The generic OA warning is retained as a policy caveat; optional print colour where offered, paid author services and third-party permissions are separate.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/ppa",
+              "checked_on": "2026-11-16",
+              "note": "Journal-specific no-submission/no-publication-fee statement inspected alongside artwork, manuscript requirements and generic separate-charge wording; no page amount or trigger is specified.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+              "checked_on": "2026-11-16",
+              "note": "Current publisher policy identifies active charging journals, requires transparent page pricing in author guides, and describes OA charges as additional only where journal charges apply. This journal is absent from the inspected list. The list corroborates, rather than replaces, the journal-specific no-fee statement.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/ppa"
+          ]
+        },
+        "metrics": [
+          {
+            "name": "Acceptance rate",
+            "value": "7.3%",
+            "year": 2025,
+            "population": "All article types with final accept/reject decisions in the previous calendar year.",
+            "source_url": "https://journals.sagepub.com/overview-metric/PPA",
+            "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+          }
+        ],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/ppa"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+          "research/campaigns/2026-11-16-expansion/fees/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/geography/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "audit_note": "Independent skeptical fee/review pass inspected the journal guide and Sage’s current active charge list. Restoration is a bounded reading of affirmative journal-specific evidence, corroborated by the list, rather than a conclusion from absence alone. Independently reproduced the reported acceptance value on the journal’s official metrics page and checked Sage’s previous-calendar-year/all-final-decisions definition.",
+        "geography": {
+          "venue_countries": [
+            {
+              "code": "GB",
+              "name": "United Kingdom",
+              "basis": "UK Association for Public Administration journal",
+              "source_url": "https://journals.sagepub.com/home/ppa"
+            }
+          ],
+          "venue_regions": [
+            "Europe"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "No affirmative author-location eligibility statement established in sources inspected.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa"
+            ]
+          },
+          "research_focus_regions": [],
+          "scope_notes": "No geographical author restriction established by the scope examined; research focus and venue base are separate.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/home/ppa",
+              "note": "Journal-specific homepage and stated scope examined; research remit does not establish author eligibility or venue location.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Human-led literature assistance and generated or checked research code are expressly listed as appropriate subject to disclosure. Conditional partial substantive drafting is inferred from the treatment of primary or partial generated text, the statement that disclosed use alone is not grounds for rejection, and the non-exhaustive examples; the policy does not expressly list drafting as an appropriate example. Authors remain responsible for accuracy and original sources.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.",
+            "source_urls": [
+              "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-policy-and-administration_-sage-journals.pdf",
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required); Prohibited use of AI"
+          },
+          "restrictions": [
+            "Sage lists generation of data or a submission using a series of prompts as inappropriate. Its wording does not define the boundary for partial human-led drafting; avoid an entirely prompt-generated submission and seek clarification for borderline uses.",
+            "No AI analysis of experiences and themes; no AI interviews in place of participants, fabricated references, incorrect content or falsified claims.",
+            "Do not list AI chatbots as authors."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/ppa",
+              "checked_on": "2026-11-16",
+              "access": "unavailable",
+              "applicability": "Current journal instructions",
+              "note": "Direct retrieval timed out twice; indexed search text contains the current policy referral. Official PDF used for readable journal-specific evidence."
+            },
+            {
+              "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-public-policy-and-administration_-sage-journals.pdf",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal-specific author instructions",
+              "note": "Sage-hosted journal instructions PDF, read directly, points to GenAI policy in authorship; live journal page timed out. Search-indexed live guide also points to AI policy, but PDF may lag live changes."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage policy referenced in journal instructions",
+              "note": "Lists literature assistance and AI-generated or checked code as appropriate; requires disclosure of primary or partial generated research-affecting content; disclosed use alone does not cause rejection; lists prohibited uses."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "public-policy-public-policy-and-administration"
+        ],
+        "subfields": [
+          "public-policy"
+        ],
+        "scope_by_subfield": {
+          "public-policy": "Public policy, government, public management, administrative theory, history and politics. Existing-data and comparative policy analyses can fit when they make an original contribution. The current limit is 8,000 words."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0952-0767",
+            "1749-4192"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/ppa",
+            "https://portal.issn.org/custom-search/print/1749-4192/public"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Web of Science SSCI",
+            "category": "citation_index",
+            "verification": "publisher_claim_only",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": "https://journals.sagepub.com/home/ppa",
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://journals.sagepub.com/home/ppa"
+            ],
+            "note": "Journal homepage claims SSCI; Clarivate authority record not independently verified."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment. Editorials may not require two reviews.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/ppa"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Francesca Calo",
+                "role": "Editor",
+                "affiliation": "The Open University"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/cms/asset/adf46c12-aff7-4e72-b577-876ce0c3fe04/ppaa_41_1.ed_board.pdf"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/ppa"
+            ],
+            "note": "Journal identifies itself as UK Association for Public Administration journal."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/ppa"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/ppa"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Under pressure: A systematic review of the pressures shaping street-level work",
+            "url": "https://journals.sagepub.com/doi/10.1177/09520767261499589",
+            "doi": "10.1177/09520767261499589",
+            "published_on": "2026-11-13",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/09520767261499589"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/ppa",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/cms/asset/adf46c12-aff7-4e72-b577-876ce0c3fe04/ppaa_41_1.ed_board.pdf",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/ppa",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/09520767261499589",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "baseline": {
+        "id": "public-understanding-of-science",
+        "name": "Public Understanding of Science",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/pus",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/pus",
+        "submission_url": null,
+        "subjects": [
+          "meta-research"
+        ],
+        "formats": [
+          "original_research"
+        ],
+        "scope_notes": "Research on public engagement with science, science communication, institutions and public knowledge; theoretical and existing-data studies may fit.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription",
+          "conditions": "Journal instructions state no submission or publication fees. Optional Sage Choice OA costs extra; requested print colour may cost extra.",
+          "other_mandatory_costs": "None stated for the standard route.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pus",
+              "checked_on": "2026-11-16",
+              "note": "Journal instructions say there are no fees payable to submit or publish; optional open access is separately priced.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pus"
+          ]
+        },
+        "metrics": [],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/pus",
+          "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/discovery/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/fees/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/geography/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "geography": {
+          "venue_countries": [],
+          "venue_regions": [],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "international",
+            "description": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus"
+            ]
+          },
+          "research_focus_regions": [
+            "International"
+          ],
+          "scope_notes": "No geographic restriction on research focus established from the reviewed material.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/home/pus",
+              "note": "Journal identity and subject scope; a journal base is not established by publisher identity alone.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pus",
+              "note": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Sage identifies literature assistance, generated research code and code checking as appropriate when disclosed and verified. Its current policy contemplates primary or partial generated text impacting research, says disclosed GenAI use alone does not cause rejection, and presents appropriate uses as examples. Together these support conditional human-led partial drafting by inference; the policy does not expressly authorize paragraphs or define the boundary with a submission generated through prompts. Authors retain responsibility for accuracy and original sources.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose primary or partial generated content impacting methodology, analysis, results or conclusions upon submission; the listed appropriate research uses require disclosure in methods or acknowledgements. Routine suggestions to improve authors’ own language, grammar or structure do not require disclosure. Verify outputs and original sources.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus",
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+          },
+          "restrictions": [
+            "Generation of data or a submission using a series of prompts is inappropriate; the scope of that submission prohibition versus partial human-led drafting is undefined.",
+            "AI analysis of experiences and themes is inappropriate; AI interviews cannot replace participants.",
+            "Do not use fabricated references, incorrect content, plagiarism or falsely present generated images as novel research images.",
+            "AI chatbots cannot be authors; human authors must verify output and original sources."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pus",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal author instructions",
+              "note": "Instructions directly link Sage AI disclosure and prohibited-use policy. No stronger title-specific AI restriction identified on this page."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Publisher policy linked by journal instructions",
+              "note": "Research and coding examples, generated-text disclosure, no rejection solely for disclosed use, and prohibited uses; partial drafting inference remains uncertain."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "meta-research-public-understanding-of-science"
+        ],
+        "subfields": [
+          "meta-research"
+        ],
+        "scope_by_subfield": {
+          "meta-research": "Research on public engagement with science, science communication, institutions and public knowledge; theoretical and existing-data studies may fit."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "0963-6625",
+            "1361-6609"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/pus"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pus"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pus"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Hans Peter Peters",
+                "role": "Editor",
+                "affiliation": "Free University of Berlin"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/pus"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pus"
+            ],
+            "note": "Sage is identified as publisher; legal ownership beyond publisher was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pus"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pus"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Discursive constructions of epistemic authority and boundary-work in a state-sponsored Turkish popular science magazine",
+            "url": "https://journals.sagepub.com/doi/10.1177/09636625261496488",
+            "doi": "10.1177/09636625261496488",
+            "published_on": "2026-11-04",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/09636625261496488"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/pus",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/pus",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pus",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/09636625261496488",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "baseline": {
+        "id": "public-works-management-and-policy",
+        "name": "Public Works Management & Policy",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/pwm",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/pwm",
+        "submission_url": null,
+        "subjects": [
+          "public-policy"
+        ],
+        "formats": [
+          "original_research"
+        ],
+        "scope_notes": "Empirical public works and infrastructure policy/management research with practical implications. Existing datasets, agency evaluations and computational policy analysis may fit if theoretically grounded. Research Articles are the primary route; Viewpoints have lighter review.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription_with_optional_open_access",
+          "conditions": "The journal-specific guide explicitly excludes submission and publication fees. Standard subscription publication is the verified free route; paid Sage Choice OA and institutional OA agreements are optional. The guide gives formatting requirements without a general research-article length ceiling. Online colour is free; author-requested print colour is charged. The guide also contains generic wording that OA fees exclude page/colour charges. Sage’s current publisher policy lists active journals with submission, page or publication charges; this journal is absent, and its guide supplies no page-price or charge trigger. This supports the stated standard route; it does not establish a free overlength allowance or cover optional production requests.",
+          "other_mandatory_costs": "No compulsory cost established for the stated standard route. The generic OA warning is retained as a policy caveat; optional print colour where offered, paid author services and third-party permissions are separate.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pwm",
+              "checked_on": "2026-11-16",
+              "note": "Journal-specific no-submission/no-publication-fee statement inspected alongside artwork, manuscript requirements and generic separate-charge wording; no page amount or trigger is specified.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+              "checked_on": "2026-11-16",
+              "note": "Current publisher policy identifies active charging journals, requires transparent page pricing in author guides, and describes OA charges as additional only where journal charges apply. This journal is absent from the inspected list. The list corroborates, rather than replaces, the journal-specific no-fee statement.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pwm"
+          ]
+        },
+        "metrics": [
+          {
+            "name": "Acceptance rate",
+            "value": "21.6%",
+            "year": 2025,
+            "population": "All article types with final accept/reject decisions in the previous calendar year.",
+            "source_url": "https://journals.sagepub.com/overview-metric/PWM",
+            "note": "Year follows previous-calendar-year definition, checked 2026-11-16: https://www.sagepub.com/journals/understanding-journal-metrics. Aggregate only."
+          }
+        ],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/pwm"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+          "research/campaigns/2026-11-16-expansion/fees/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/geography/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/public-policy.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "audit_note": "Independent skeptical fee/review pass inspected the journal guide and Sage’s current active charge list. Restoration is a bounded reading of affirmative journal-specific evidence, corroborated by the list, rather than a conclusion from absence alone. The ranking role’s 21.6% value is retained from its official-page inspection; this reviewer obtained metrics metadata but repeated body fetches timed out. Its previous-calendar-year definition was independently inspected.",
+        "geography": {
+          "venue_countries": [],
+          "venue_regions": [],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "international",
+            "description": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm"
+            ]
+          },
+          "research_focus_regions": [
+            "International"
+          ],
+          "scope_notes": "No geographical author restriction established by the scope examined; research focus and venue base are separate.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/home/pwm",
+              "note": "Journal-specific homepage and stated scope examined; research remit does not establish author eligibility or venue location.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pwm",
+              "note": "Submission guidelines encourage submissions from authors across all countries.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Human-led literature assistance and AI-generated or checked research code are appropriate with disclosure. Conditional partial drafting is inferred from Sage’s treatment of partial generated text and disclosed use, subject to editorial interpretation of its prohibition on generating a submission through prompts. Authors are responsible for accuracy and checking original sources.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in Methods or Acknowledgements. Suggestions to improve the author’s own language, grammar or structure do not require disclosure.",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required)"
+          },
+          "restrictions": [
+            "Generating research data or a submission using a series of prompts is inappropriate; the application of the latter to human-led partial drafting is undefined.",
+            "AI analysis of experiences and themes, fabricated references or claims, incorrect content, plagiarism, simulated interview participants, and generated images presented as novel research images are inappropriate.",
+            "Authors must verify outputs and original sources; AI chatbots cannot be listed as authors."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Publisher policy linked by journal instructions",
+              "note": "Literature assistance and generated or checked research code are appropriate with disclosure; partial generated content affecting research is disclosed, and disclosed use alone does not lead to rejection. The prompt-generated submission restriction does not define partial drafting."
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/pwm",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Current journal-specific author instructions",
+              "note": "Instructions explicitly direct authors to Sage AI disclosure and prohibited uses; no stronger title-specific restriction found in inspected instructions."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "public-policy-public-works-management-and-policy"
+        ],
+        "subfields": [
+          "public-policy"
+        ],
+        "scope_by_subfield": {
+          "public-policy": "Empirical public works and infrastructure policy/management research with practical implications. Existing datasets, agency evaluations and computational policy analysis may fit if theoretically grounded. Research Articles are the primary route; Viewpoints have lighter review."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Research peer-review process and named editor are documented. Index authority and some editorial standards require further verification; no concrete medium or high concern identified.",
+        "identity": {
+          "issns": [
+            "1087-724X",
+            "1552-7549"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/pwm",
+            "https://portal.issn.org/resource/ISSN/1552-7549"
+          ],
+          "notes": "Exact title matched to journal homepage; ISSNs checked against journal metadata or authoritative ISSN record. Public Health Reports ISSNs derived from Crossref title record; verify print/online distinction."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pwm"
+            ],
+            "note": "Exact identity and current coverage not independently checked in the authority registry; no inference of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent peer review after initial screening; editor decides. Editorials and other types may have different treatment. Viewpoints receive lighter review; research articles and viewpoints are distinguished.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/pwm"
+          ],
+          "notes": "Policy documentation does not establish review conduct for each individual article."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Jeremy Hall",
+                "role": "Editor",
+                "affiliation": "University of Central Florida"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/pwm"
+            ],
+            "note": "Named editor and affiliation from journal board; institutional identity not independently verified."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pwm"
+            ],
+            "note": "Sage is identified as publisher; legal ownership beyond publisher was not independently established."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Journal instructions link applicable publisher ethics policy addressing research and publication integrity."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Publisher ethics overview linked by journal; detailed correction procedure not independently resolved."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm",
+              "https://www.sagepub.com/journals/publication-ethics-policies"
+            ],
+            "note": "Author and reviewer competing interests addressed by applicable instructions and policies."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm"
+            ],
+            "note": "Applicable publisher policy addresses complaints and appeals."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/pwm"
+            ],
+            "note": "Long-term preservation arrangements not independently verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/pwm"
+            ],
+            "note": "Journal explains contributor publishing agreement and author rights; terms depend on article route."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Monitoring, Evaluation and Public Project Success: THE Role of Professional Ethics",
+            "url": "https://journals.sagepub.com/doi/10.1177/1087724X261494569",
+            "doi": "10.1177/1087724X261494569",
+            "published_on": "2026-10-15",
+            "checked_on": "2026-11-16",
+            "observations": "Journal article page identifies authors, publication date and article; review reports were not independently inspected.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/1087724X261494569"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/pwm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, publisher and journal-specific information."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/pwm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editorial board and affiliations."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/pwm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal instructions and applicable policies."
+          },
+          {
+            "url": "https://www.sagepub.com/journals/publication-ethics-policies",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Publisher editorial and ethics policy."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/1087724X261494569",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Research article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not independently confirmed. No inference of non-indexing. Preservation and legal ownership need additional evidence. One sample is traceable; this is not verification of the peer review conducted for it."
+      }
+    },
+    {
+      "baseline": {
+        "id": "rationality-and-society",
+        "name": "Rationality and Society",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/rss",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/rss",
+        "submission_url": null,
+        "subjects": [
+          "sociology-organizations"
+        ],
+        "formats": [
+          "original_research"
+        ],
+        "scope_notes": "Social theory and research grounded in or critically engaging rational action, including cooperation, collective action, organizational behavior, and formal models. Qualitative, quantitative, theoretical and empirical work are welcome; the rational-action connection is a scope constraint. Empirical papers require replication information subject to legal and ethical restrictions.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription",
+          "conditions": "Use subscription publication; avoid optional paid OA/print color. No formal word limit; 8,000–10,000 words is typical. Research articles are peer reviewed; editorials are an exception. Preprints accepted without updates during review. Disclose generative AI; prompt-generated submissions/data, synthetic interviews, and AI analysis of experiences/themes are prohibited. Independent authors permitted; extra integrity documentation may be requested.",
+          "other_mandatory_costs": "None stated for the compliant subscription route. Paid OA, requested print color and third-party permissions are separate choices.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rss",
+              "checked_on": "2026-11-16",
+              "note": "Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+              "checked_on": "2026-11-16",
+              "note": "Title absent from the active-charge list; no applicable page-fee schedule found.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rss"
+          ]
+        },
+        "metrics": [],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/rss"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+          "research/campaigns/2026-11-16-expansion/fees/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/geography/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "audit_note": "Reviewer rechecked fees, formats and research peer review. AI policy: https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy ; independent-author policy: https://www.sagepub.com/journals/publication-ethics-policies/policy-on-submissions-from-independent-researchers .",
+        "geography": {
+          "venue_countries": [],
+          "venue_regions": [
+            "Unknown"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "No affirmative author-location eligibility statement found in sources examined; no restriction inferred.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ]
+          },
+          "research_focus_regions": [
+            "Unknown"
+          ],
+          "scope_notes": "Rational action social theory and research.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rss",
+              "note": "Rational action social theory and research.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "section": "AI generated (disclosure required); Appropriate use of GenAI"
+          },
+          "restrictions": [
+            "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+            "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+            "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rss",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Current journal author instructions",
+              "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage journal publisher policy, referenced by journal guidance",
+              "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "sociology-organizations-rationality-and-society"
+        ],
+        "subfields": [
+          "sociology-organizations"
+        ],
+        "scope_by_subfield": {
+          "sociology-organizations": "Social theory and research grounded in or critically engaging rational action, including cooperation, collective action, organizational behavior, and formal models. Qualitative, quantitative, theoretical and empirical work are welcome; the rational-action connection is a scope constraint. Empirical papers require replication information subject to legal and ethical restrictions."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal documents its review process and an article is traceable; named board and corrections policy remain to be verified.",
+        "identity": {
+          "issns": [],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/rss"
+          ],
+          "notes": "Journal homepage identified; exact ISSNs not independently resolved in this recheck."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent reviewers and editor decision after initial screening; two independent reviews are required for revise or accept; editorials may have an exception.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rss"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rss"
+            ],
+            "note": "Sage identified as journal publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal instructions link Sage publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal requires a conflict declaration."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rss"
+            ],
+            "note": "Journal instructions describe publication agreement or applicable Creative Commons license."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Voluntary democratization",
+            "url": "https://journals.sagepub.com/doi/10.1177/10434631261498639",
+            "doi": "10.1177/10434631261498639",
+            "published_on": "2026-10-21",
+            "checked_on": "2026-11-16",
+            "observations": "Journal labels this a research article and records first publication date; public article does not establish actual peer-review conduct.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/10434631261498639"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/rss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific author instructions read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/10434631261498639",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "baseline": {
+        "id": "research-ethics",
+        "name": "Research Ethics",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/rea",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/rea",
+        "submission_url": null,
+        "subjects": [
+          "meta-research"
+        ],
+        "formats": [
+          "original_research",
+          "review"
+        ],
+        "scope_notes": "Research ethics, scientific integrity, research regulation and ethics-review processes. Theoretical original articles and critical reviews allow work based on existing evidence; new clinical studies are unnecessary. Original empirical articles normally have a 7,000-word limit, theoretical articles 5,000, and reviews 3,000–6,000. Letters receive editorial review and are not automatically peer-reviewed research articles. An AI statement is mandatory in every submission, including an explicit statement of no AI use where applicable. Preprints are accepted but must not be updated during review; accepted work requires a final-publication link. The journal-specific AI statement requirement is stricter than Sage's general assistive-editing disclosure exemption.",
+        "route": {
+          "model": "diamond",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "open_access",
+          "conditions": "The current journal-specific Community Open Access policy states no cost to authors or readers and no APC after acceptance, without an institutional-affiliation condition. The journal is online-only. Original empirical articles normally permit 7,000 words, theoretical articles 5,000, and reviews 3,000–6,000, excluding references; justify longer work to the editors. All submissions require an AI-use or no-use statement before references. An older official PDF still quotes an APC; the current named Community OA policy controls this recorded route. Recheck the current sponsorship/policy before submission.",
+          "other_mandatory_costs": "None for current Community OA under the broad no-author-cost statement; optional third-party permissions or services may cost extra.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/REA",
+              "checked_on": "2026-11-16",
+              "note": "Current journal-specific Community OA policy excludes author costs without an affiliation condition. Instructions establish online-only publication, article-specific length limits and a mandatory AI statement. Uppercase official URL was accessible after lowercase URL timed out.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf",
+              "checked_on": "2026-11-16",
+              "note": "Older publisher-hosted instructions describe an APC, conflicting with current Community OA wording; timing and current applicability are uncertain.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rea"
+          ]
+        },
+        "metrics": [
+          {
+            "name": "Acceptance rate",
+            "value": "21.9%",
+            "year": 2025,
+            "population": "All journal submissions receiving a final accept/reject decision in the previous calendar year, including all article types; not the submission cohort and not only externally reviewed manuscripts.",
+            "source_url": "https://journals.sagepub.com/overview-metric/REA",
+            "note": "The journal page reports this value without printing its year. The 2025 period is identified from Sage's previous-calendar-year definition at the live 2026-11-16 check; underlying decision counts are undisclosed. Definition: https://www.sagepub.com/journals/understanding-journal-metrics"
+          }
+        ],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/rea"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+          "research/campaigns/2026-11-16-expansion/fees/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/geography/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/meta-research.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json",
+          "research/campaigns/2026-11-16-cost-followup/audits/other-publishers.json",
+          "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+          "research/campaigns/2026-11-16-cost-followup/decisions.json"
+        ],
+        "audit_note": "Independently read the current uppercase REA author-instructions page, metric page and Sage definitions. Confirmed Community OA at no author cost without a required author-institution agreement; two independent reviews; article limits; mandatory AI statement including non-use; and preprint conditions. Confirmed 21.9% acceptance and retained high as a provisional within-field judgment. The 2025 period follows the previous-calendar-year final-decision definition. Generic where-applicable APC boilerplate does not override the journal-specific no-author-cost policy.",
+        "geography": {
+          "venue_countries": [],
+          "venue_regions": [],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "international",
+            "description": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ]
+          },
+          "research_focus_regions": [
+            "International"
+          ],
+          "scope_notes": "No geographic restriction on research focus established from the reviewed material.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/home/rea",
+              "note": "Journal identity and subject scope; a journal base is not established by publisher identity alone.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rea",
+              "note": "Journal submission guidelines encourage submissions from authors across all countries and backgrounds.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Sage identifies literature assistance and generated or checked code for research as appropriate with disclosure and verification. Its discussion of primary or partial generated text, its statement that disclosed GenAI alone is not grounds for rejection, and non-exhaustive appropriate-use examples together support conditional human-led partial drafting by inference; the prompt-generated submission boundary remains ambiguous. Authors retain intellectual responsibility.",
+          "disclosure": {
+            "status": "required",
+            "instructions": "Every submission must include an AI statement at the end of the manuscript before references: state no AI use or identify programs and their uses. Also disclose research-affecting generated content on submission and relevant research uses in methods or acknowledgements per Sage.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea",
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "Journal AI Statement; Sage AI generated (disclosure required)"
+          },
+          "restrictions": [
+            "Sage lists generation of data or a submission using a series of prompts as inappropriate; exact boundary for human-led partial drafting is not defined.",
+            "Sage lists AI analysis of experiences and themes as inappropriate; use other analytical code within policy.",
+            "No fabricated references or claims, incorrect content, or GenAI interviews in lieu of participants; authors verify outputs and original sources.",
+            "AI cannot be an author; humans retain responsibility."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rea",
+              "checked_on": "2026-11-16",
+              "access": "search_snippet",
+              "applicability": "Indexed current journal instructions; direct fetch timed out",
+              "note": "Indexed complete text includes Sage AI policy link and journal-specific AI statement required in every submission, placed before references."
+            },
+            {
+              "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-research-ethics_-sage-journals.pdf",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Official title-specific instructions, older snapshot",
+              "note": "Refers to publisher ethics and AI policy; predates indexed statement; current direct page could not be fetched."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage publisher policy referenced by title instructions",
+              "note": "Explicit research literature and code support, disclosure of partial generated research content, and inappropriate uses; partial drafting is a conditional inference from combined clauses."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "meta-research-research-ethics"
+        ],
+        "subfields": [
+          "meta-research"
+        ],
+        "scope_by_subfield": {
+          "meta-research": "Research ethics, scientific integrity, research regulation and ethics-review processes. Theoretical original articles and critical reviews allow work based on existing evidence; new clinical studies are unnecessary. Original empirical articles normally have a 7,000-word limit, theoretical articles 5,000, and reviews 3,000–6,000. Letters receive editorial review and are not automatically peer-reviewed research articles. An AI statement is mandatory in every submission, including an explicit statement of no AI use where applicable. Preprints are accepted but must not be updated during review; accepted work requires a final-publication link. The journal-specific AI statement requirement is stricter than Sage's general assistive-editing disclosure exemption."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal documents its review process and an article is traceable; named board and corrections policy remain to be verified.",
+        "identity": {
+          "issns": [
+            "1747-0161",
+            "2047-6094"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/rea",
+            "https://api.crossref.org/journals/2047-6094"
+          ],
+          "notes": "Crossref journal record matches exact title and ISSNs."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal describes independent reviewers and editor decision after initial screening; two independent reviews are required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rea"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rea"
+            ],
+            "note": "Sage identified as journal publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal instructions link Sage publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal requires a conflict declaration."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rea"
+            ],
+            "note": "Journal instructions describe publication agreement or applicable Creative Commons license."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Decolonizing ethics review in disability research: Reflexive insights from a study in rural Northern Ghana",
+            "url": "https://journals.sagepub.com/doi/10.1177/17470161261505139",
+            "doi": "10.1177/17470161261505139",
+            "published_on": "2026-11-06",
+            "checked_on": "2026-11-16",
+            "observations": "Journal labels this a research article and records first publication date; public article does not establish actual peer-review conduct.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/17470161261505139"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/rea",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rea",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific author instructions read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/17470161261505139",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          },
+          {
+            "url": "https://api.crossref.org/journals/2047-6094",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Crossref exact-title identity data; DOI registry is not a selective citation index."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "baseline": {
+        "id": "research-methods-in-medicine-and-health-sciences",
+        "name": "Research Methods in Medicine & Health Sciences",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/rmm",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/rmm",
+        "submission_url": null,
+        "subjects": [
+          "epidemiology-biostatistics"
+        ],
+        "formats": [
+          "original_research",
+          "methods"
+        ],
+        "scope_notes": "Epidemiologic and observational study design, data analysis, systematic reviews, methods and measurement.",
+        "route": {
+          "model": "unknown",
+          "submission_fee": "unknown",
+          "publication_fee": "none",
+          "eligibility": "needs_verification",
+          "oa_status": "unknown",
+          "conditions": "Journal says no article processing fees and content is free to view; same instructions label access subscription and describe optional paid OA. No explicit submission fee statement located.",
+          "other_mandatory_costs": "Page, membership and other mandatory costs not confirmed.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rmm",
+              "checked_on": "2026-11-16",
+              "note": "Journal author instructions state no APC; subscription label and optional OA description leave access model ambiguous.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/doi/pdf/10.1177/26320843241301608",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "note": "2025 editorial describes no publication fees and calls the journal open access."
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rmm"
+          ]
+        },
+        "metrics": [],
+        "discovery_sources": [
+          "https://journals.sagepub.com/home/rmm",
+          "https://journals.sagepub.com/author-instructions/rmm"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/discovery/epidemiology-biostatistics.json",
+          "research/campaigns/2026-11-16-expansion/fees/epidemiology-biostatistics.json",
+          "research/campaigns/2026-11-16-expansion/geography/epidemiology-biostatistics.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/epidemiology-biostatistics.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json",
+          "research/campaigns/2026-11-16-cost-followup/audits/other-publishers.json",
+          "research/campaigns/2026-11-16-cost-followup/reviews/second-half.json",
+          "research/campaigns/2026-11-16-cost-followup/decisions.json"
+        ],
+        "geography": {
+          "venue_countries": [],
+          "venue_regions": [
+            "Unknown"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "international",
+            "description": "Journal encourages submissions from authors across all countries and backgrounds.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ]
+          },
+          "research_focus_regions": [
+            "Unknown"
+          ],
+          "scope_notes": "Methods for medicine and health sciences; no geographic research limitation established.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rmm",
+              "note": "Methods for medicine and health sciences; no geographic research limitation established. Journal encourages submissions from authors across all countries and backgrounds.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Human-led literature assistance and generated or checked research code are expressly listed as appropriate subject to disclosure. Conditional partial substantive drafting is inferred from the treatment of primary or partial generated text, the statement that disclosed use alone is not grounds for rejection, and the non-exhaustive examples; the policy does not expressly list drafting as an appropriate example. Authors remain responsible for accuracy and original sources.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm",
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required); Prohibited use of AI"
+          },
+          "restrictions": [
+            "Sage lists generation of data or a submission using a series of prompts as inappropriate. Its wording does not define the boundary for partial human-led drafting; avoid an entirely prompt-generated submission and seek clarification for borderline uses.",
+            "No AI analysis of experiences and themes; no AI interviews in place of participants, fabricated references, incorrect content or falsified claims.",
+            "Do not list AI chatbots as authors."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/rmm",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal-specific author instructions",
+              "note": "Journal author instructions expressly direct authors to Sage AI disclosure and prohibited-use policy."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage policy referenced in journal instructions",
+              "note": "Lists literature assistance and AI-generated or checked code as appropriate; requires disclosure of primary or partial generated research-affecting content; disclosed use alone does not cause rejection; lists prohibited uses."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "epidemiology-biostatistics-research-methods-medicine-health-sciences"
+        ],
+        "subfields": [
+          "epidemiology-biostatistics"
+        ],
+        "scope_by_subfield": {
+          "epidemiology-biostatistics": "Epidemiologic and observational study design, data analysis, systematic reviews, methods and measurement."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Journal documents its review process and an article is traceable; named board and corrections policy remain to be verified.",
+        "identity": {
+          "issns": [],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://journals.sagepub.com/home/rmm"
+          ],
+          "notes": "Journal homepage identified; exact ISSNs not independently resolved in this recheck."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_urls": [
+              "https://www.scopus.com/sources"
+            ],
+            "note": "Index authority result not established; no conclusion of absence."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal describes independent reviewers and editor decision after initial screening; two independent reviews are required for revise or accept.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rmm"
+          ],
+          "notes": "Describes policy; does not independently verify individual review."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck.",
+            "names": []
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rmm"
+            ],
+            "note": "Sage identified as journal publisher."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal instructions link Sage publication ethics policies."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal requires a conflict declaration."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal instructions link publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not resolved in this bounded recheck."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rmm"
+            ],
+            "note": "Journal instructions describe publication agreement or applicable Creative Commons license."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Feasibility of large language Model–Generated thematic analysis in healthcare qualitative research: A comparative study",
+            "url": "https://journals.sagepub.com/doi/10.1177/26320843261504778",
+            "doi": "10.1177/26320843261504778",
+            "published_on": "2026-11-06",
+            "checked_on": "2026-11-16",
+            "observations": "Journal labels this a research article and records first publication date; public article does not establish actual peer-review conduct.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/26320843261504778"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/rmm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal homepage attempted."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rmm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal-specific author instructions read."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/26320843261504778",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Article record read."
+          }
+        ],
+        "audit_limits": "Index authority records and unresolved editorial policies need additional checking; inaccessible review reports do not show that peer review failed."
+      }
+    },
+    {
+      "baseline": {
+        "id": "the-british-journal-of-politics-and-international-relations",
+        "name": "The British Journal of Politics and International Relations",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/bpi",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/bpi",
+        "submission_url": null,
+        "subjects": [
+          "political-science"
+        ],
+        "formats": [
+          "original_research"
+        ],
+        "scope_notes": "Comparative politics, public policy, political theory, political economy, international relations and British politics.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "optional_open_access",
+          "conditions": "The journal instructions explicitly say there is no fee to submit or publish; optional open access carries a fee. Requested print colour may cost extra where offered.",
+          "other_mandatory_costs": "No mandatory membership or conference registration identified in the author instructions. Sage lists journals with known submission or page/publication charges; this title is absent.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/bpi",
+              "checked_on": "2026-11-16",
+              "note": "Journal-specific instructions explicitly say no fees to submit or publish and describe optional open access.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+              "checked_on": "2026-11-16",
+              "note": "Publisher lists active journals with submission, page, and publication charges; this title is not listed. Print-colour charges may apply to some journals.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/bpi"
+          ]
+        },
+        "metrics": [
+          {
+            "name": "Journal Impact Factor",
+            "value": 2.4,
+            "year": 2025,
+            "population": "Citations in 2025 to journal items from the preceding two years; Denominator not reported by society",
+            "source_url": "https://www.psa.ac.uk/news/psa-journal-impact-factors-for-2025-a-strong-year-across-the-board/",
+            "note": "Society-reported 2025 JCR figure; citation impact is not acceptance probability."
+          },
+          {
+            "name": "Acceptance rate (%)",
+            "value": 16,
+            "year": 2024,
+            "population": null,
+            "source_url": "https://www.psa.ac.uk/sites/default/files/PSA%20Trustee%20reports%20and%20Accounts-%20Draft%20for%20cirulation.pdf",
+            "note": "Society reports the annual rate but does not specify the manuscript denominator or cohort; historical and not an individual probability."
+          }
+        ],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/bpi",
+          "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/discovery/political-science.json",
+          "research/campaigns/2026-11-16-expansion/fees/political-science.json",
+          "research/campaigns/2026-11-16-expansion/geography/political-science.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/political-science.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/political-science.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "geography": {
+          "venue_countries": [
+            {
+              "code": "GB",
+              "name": "United Kingdom",
+              "basis": "owning Political Studies Association and editorial home University of Leeds",
+              "source_url": "https://journals.sagepub.com/page/bpi/publish-with-bjpir"
+            }
+          ],
+          "venue_regions": [
+            "Europe"
+          ],
+          "publisher_countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "basis": "Sage explicitly identified Los Angeles office; publisher is multinational",
+              "source_url": "https://www.sagepub.com/about/locations"
+            },
+            {
+              "code": "GB",
+              "name": "United Kingdom",
+              "basis": "Sage explicitly identified London office; publisher is multinational",
+              "source_url": "https://www.sagepub.com/about/locations"
+            },
+            {
+              "code": "IN",
+              "name": "India",
+              "basis": "Sage explicitly identified India office; publisher is multinational",
+              "source_url": "https://www.sagepub.com/about/locations"
+            }
+          ],
+          "author_eligibility": {
+            "status": "international",
+            "description": "Journal instructions encourage submissions from authors across all countries and backgrounds.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ]
+          },
+          "research_focus_regions": [
+            "International",
+            "Europe"
+          ],
+          "scope_notes": "International and comparative politics and UK politics and policy.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/page/bpi/publish-with-bjpir",
+              "note": "owning Political Studies Association and editorial home University of Leeds",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/bpi",
+              "note": "Journal instructions encourage submissions from authors across all countries and backgrounds.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/about/locations",
+              "note": "Publisher offices identified separately from venue base.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Sage identifies literature assistance, generated research code and code checking as appropriate when disclosed and verified. Its current policy contemplates primary or partial generated text impacting research, says disclosed GenAI use alone does not cause rejection, and presents appropriate uses as examples. Together these support conditional human-led partial drafting by inference; the policy does not expressly authorize paragraphs or define the boundary with a submission generated through prompts. Authors retain responsibility for accuracy and original sources.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose primary or partial generated content impacting methodology, analysis, results or conclusions upon submission; the listed appropriate research uses require disclosure in methods or acknowledgements. Routine suggestions to improve authors’ own language, grammar or structure do not require disclosure. Verify outputs and original sources.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi",
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required); AI assistance (no disclosure required)"
+          },
+          "restrictions": [
+            "Generation of data or a submission using a series of prompts is inappropriate; the scope of that submission prohibition versus partial human-led drafting is undefined.",
+            "AI analysis of experiences and themes is inappropriate; AI interviews cannot replace participants.",
+            "Do not use fabricated references, incorrect content, plagiarism or falsely present generated images as novel research images.",
+            "AI chatbots cannot be authors; human authors must verify output and original sources."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/bpi",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal author instructions",
+              "note": "Instructions directly link Sage AI disclosure and prohibited-use policy. No stronger title-specific AI restriction identified on this page."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Publisher policy linked by journal instructions",
+              "note": "Research and coding examples, generated-text disclosure, no rejection solely for disclosed use, and prohibited uses; partial drafting inference remains uncertain."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "political-science-the-british-journal-of-politics-and-international-relations"
+        ],
+        "subfields": [
+          "political-science"
+        ],
+        "scope_by_subfield": {
+          "political-science": "Comparative politics, public policy, political theory, political economy, international relations and British politics."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1369-1481",
+            "1467-856X"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/1369-1481",
+            "https://journals.sagepub.com/home/bpi"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/bpi"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/bpi"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/bpi"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/bpi"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Kingsley Edney",
+                "role": "Editor",
+                "affiliation": "University of Leeds"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/bpi"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "‘The party of workers’? The class politics of Reform UK candidates",
+            "url": "https://journals.sagepub.com/doi/10.1177/13691481261503443",
+            "doi": "10.1177/13691481261503443",
+            "published_on": "2026-11-09",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/10.1177/13691481261503443"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/bpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/bpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/bpi",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1369-1481",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/10.1177/13691481261503443",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "baseline": {
+        "id": "the-journal-of-defense-modeling-and-simulation-applications-methodology-technology",
+        "name": "The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology",
+        "kind": "journal",
+        "publisher": "Sage; The Society for Modeling and Simulation International",
+        "homepage": "https://journals.sagepub.com/home/dms",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/dms",
+        "submission_url": null,
+        "subjects": [
+          "operations-simulation"
+        ],
+        "formats": [
+          "original_research",
+          "methods"
+        ],
+        "scope_notes": "Specialist outlet for modeling and simulation related to defense, emphasizing practical technical lessons, methodology and applications. Relevant only when a computational engineering study has an explicit defense-domain connection; not a general venue for health-system or ordinary OR work. Inclusion is a venue lead, not adoption of defense research as an OSRI priority.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription_with_optional_open_access",
+          "conditions": "Current journal instructions explicitly exclude submission/publication fees; paid OA is optional and online color is free. Avoid requested print color. Papers are ideally 10-20 pages although the stated submission policy imposes no fixed length restriction. No compulsory membership is stated.",
+          "other_mandatory_costs": "none stated for standard subscription publication; optional print color is charged",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/dms",
+              "checked_on": "2026-11-16",
+              "note": "Current journal-specific instructions state no submit/publish fees, describe optional paid OA, and restrict color charges to requested print reproduction.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/dms"
+          ]
+        },
+        "metrics": [
+          {
+            "name": "Acceptance rate",
+            "value": "28.8%",
+            "year": null,
+            "population": "Unknown: the source does not state the denominator, counts, or treatment of pending submissions and revisions.",
+            "source_url": "https://journals.sagepub.com/overview-metric/DMS",
+            "note": "Live official overview read on 2026-11-16, also reachable through the journal description link. The visible page does not identify a reporting year, start/end date, or denominator. Access date is not a metric year; no annual period or acceptance probability for a new manuscript is inferred."
+          }
+        ],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/dms",
+          "https://uk.sagepub.com/sites/default/files/scs_publications_policy_002.pdf",
+          "https://journals.sagepub.com/overview-metric/DMS?tabActivePane=view-aims-scope&"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+          "research/campaigns/2026-11-16-expansion/fees/operations-simulation.json",
+          "research/campaigns/2026-11-16-expansion/geography/operations-simulation.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/operations-simulation.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/operations-simulation.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "audit_note": "Independently verified the journal-specific no-fees-to-submit-or-publish statement and production conditions. Requested print color and Sage Choice OA are optional; no mandatory page, membership or conference-registration charge is stated. The generic sentence separating OA from possible page/color charges does not itself impose a page fee. Retain verified_free for standard subscription publication.",
+        "geography": {
+          "venue_countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "basis": "Society for Modeling and Simulation International headquarters, San Diego",
+              "source_url": "https://scs.org/"
+            }
+          ],
+          "venue_regions": [
+            "North America"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "Instructions inspected do not affirm worldwide author eligibility; absence of a geographic restriction is not proof of eligibility.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ]
+          },
+          "research_focus_regions": [
+            "International"
+          ],
+          "scope_notes": "Research remit is topical rather than limited to a named region; author-location eligibility is not established by international scope.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/home/dms",
+              "note": "Journal identity and research remit reviewed.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/dms",
+              "note": "Submission instructions checked for geographic eligibility; no affirmative worldwide author eligibility established.",
+              "access": "page"
+            },
+            {
+              "url": "https://scs.org/",
+              "note": "Society publishes this journal and lists its San Diego address.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Human-led literature assistance and AI-generated or checked research code are appropriate with disclosure. Conditional partial drafting is inferred from Sage’s treatment of partial generated text and disclosed use, subject to editorial interpretation of its prohibition on generating a submission through prompts. Authors are responsible for accuracy and checking original sources.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; report appropriate research uses in Methods or Acknowledgements. Suggestions to improve the author’s own language, grammar or structure do not require disclosure.",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required)"
+          },
+          "restrictions": [
+            "Generating research data or a submission using a series of prompts is inappropriate; the application of the latter to human-led partial drafting is undefined.",
+            "AI analysis of experiences and themes, fabricated references or claims, incorrect content, plagiarism, simulated interview participants, and generated images presented as novel research images are inappropriate.",
+            "Authors must verify outputs and original sources; AI chatbots cannot be listed as authors."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Publisher policy linked by journal instructions",
+              "note": "Literature assistance and generated or checked research code are appropriate with disclosure; partial generated content affecting research is disclosed, and disclosed use alone does not lead to rejection. The prompt-generated submission restriction does not define partial drafting."
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/dms",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Current journal-specific author instructions",
+              "note": "Instructions explicitly direct authors to Sage AI disclosure and prohibited uses; no stronger title-specific restriction found in inspected instructions."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "operations-simulation-journal-of-defense-modeling-and-simulation"
+        ],
+        "subfields": [
+          "operations-simulation"
+        ],
+        "scope_by_subfield": {
+          "operations-simulation": "Specialist outlet for modeling and simulation related to defense, emphasizing practical technical lessons, methodology and applications. Relevant only when a computational engineering study has an explicit defense-domain connection; not a general venue for health-system or ordinary OR work. Inclusion is a venue lead, not adoption of defense research as an OSRI priority."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1548-5129",
+            "1557-380X"
+          ],
+          "publisher": "Sage; The Society for Modeling and Simulation International",
+          "source_urls": [
+            "https://api.crossref.org/journals/1548-5129",
+            "https://journals.sagepub.com/home/dms"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/dms"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/dms"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/dms"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage; The Society for Modeling and Simulation International by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/dms"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Tag Gon Kim",
+                "role": "Asia-Pacific Editor",
+                "affiliation": "KAIST"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/dms"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Variable-fidelity sensors and observer uncertainty using touring multi-body periodic orbits to conduct cislunar SSA: preliminary study",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15485129231225270",
+            "doi": "10.1177/15485129231225270",
+            "published_on": "2024-02-23",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history. Issue July 2026; first online 2024.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/abs/10.1177/15485129231225270"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/dms",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/dms",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/dms",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1548-5129",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15485129231225270",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "baseline": {
+        "id": "the-sociological-review",
+        "name": "The Sociological Review",
+        "kind": "journal",
+        "publisher": "Sage on behalf of The Sociological Review Foundation",
+        "homepage": "https://journals.sagepub.com/home/sor",
+        "author_guidelines": "https://journals.sagepub.com/author-instructions/sor",
+        "submission_url": "https://submissions.thesociologicalreview.com/",
+        "subjects": [
+          "sociology-organizations"
+        ],
+        "formats": [
+          "original_research"
+        ],
+        "scope_notes": "General sociology with theoretical, conceptual or empirical contributions advancing existing debates. Existing-data research can fit when it sustains a substantive sociological argument. The journal route accepts original articles; magazine pieces and other writing have separate routes.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription",
+          "conditions": "Use subscription publication; avoid optional paid OA/print color. Sage permits 8,000 essay words plus 1,000 references; foundation guidance differs. Posted preprints are barred. Only one manuscript per author may be under review. Disclose generative AI; prompt-generated submissions/data, synthetic interviews, and AI analysis of experiences/themes are prohibited. Independent authors permitted; extra integrity documentation may be requested.",
+          "other_mandatory_costs": "None stated for the compliant subscription route. Paid OA, requested print color and third-party permissions are separate choices.",
+          "fee_evidence": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/sor",
+              "checked_on": "2026-11-16",
+              "note": "Journal-specific instructions explicitly exclude submission and publication fees; optional OA/print color are separate. Reviewer reread the official policy.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/journals/editorial-policies/page-and-publication-charges",
+              "checked_on": "2026-11-16",
+              "note": "Title absent from the active-charge list; no applicable page-fee schedule found.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sor"
+          ]
+        },
+        "metrics": [
+          {
+            "name": "Acceptance rate (%)",
+            "value": 18.7,
+            "year": null,
+            "population": "All article types receiving a final accept/reject decision in the previous calendar year, regardless of initial submission date; actual calendar year and numerator/denominator counts are unstated.",
+            "source_url": "https://journals.sagepub.com/page/sor/peer_review_and_production",
+            "note": "Official page says metrics are updated yearly but gives no update date or named reporting year. Do not infer 2025 from a November 2026 check. This is a final-decision statistic, not a submitted-manuscript cohort or a research-article-only rate."
+          }
+        ],
+        "discovery_sources": [
+          "https://journals.sagepub.com/author-instructions/sor",
+          "https://thesociologicalreview.org/publish-with-us/journal/writing-for-the-sociological-review-journal/"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/baseline/memberships.json",
+          "research/campaigns/2026-11-16-expansion/fees/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/geography/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/sociology-organizations.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "audit_note": "Reviewer rechecked fees, formats and research peer review. AI policy: https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy ; independent-author policy: https://www.sagepub.com/journals/publication-ethics-policies/policy-on-submissions-from-independent-researchers . Rechecked 18.7% final-decision rate for all article types; the named reporting year remains absent. Preprint prohibition and one-manuscript rule are explicit.",
+        "geography": {
+          "venue_countries": [
+            {
+              "code": "GB",
+              "name": "United Kingdom",
+              "basis": "Associated Sociological Review Foundation identified as UK on editorial board",
+              "source_url": "https://journals.sagepub.com/editorial-board/sor"
+            }
+          ],
+          "venue_regions": [
+            "Europe"
+          ],
+          "publisher_countries": [],
+          "author_eligibility": {
+            "status": "not_stated",
+            "description": "No affirmative author-location eligibility statement found in sources examined; no restriction inferred.",
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/sor"
+            ]
+          },
+          "research_focus_regions": [
+            "Unknown"
+          ],
+          "scope_notes": "General sociological inquiry.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/editorial-board/sor",
+              "note": "General sociological inquiry.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Sage expressly lists literature-review support and generated or checked research code as appropriate, subject to disclosure and human verification. Conditional human-led partial drafting is inferred from its treatment of primary or partial generated text, statement that disclosed use alone is not grounds for rejection, and non-exhaustive examples; it is not an explicit permission for drafting paragraphs. The boundary with its ban on generating a submission through a series of prompts is undefined.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose primary or partial generated content affecting methodology, analysis, results or conclusions upon submission; Sage gives methods or acknowledgements as places for specified research uses. Language, grammar and structure suggestions improving an author’s own work need no disclosure. Verify output and cite original sources.",
+            "source_urls": [
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "section": "AI generated (disclosure required); Appropriate use of GenAI"
+          },
+          "restrictions": [
+            "Generating data or a submission using a series of prompts is prohibited; the boundary for human-led partial drafting is not defined.",
+            "AI analysis of experiences and themes and synthetic interviews in place of participants are inappropriate.",
+            "No fabricated citations or incorrect content; authors verify sources and outputs and retain responsibility; AI is not an author."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/sor",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Current journal author instructions",
+              "note": "Journal submission instructions directly refer to Sage generative AI policy and bar AI chatbot authorship; no more restrictive AI provision found in the inspected instructions."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage journal publisher policy, referenced by journal guidance",
+              "note": "Lists research and coding examples, generated content disclosure, and restrictions. Conditional partial-drafting interpretation combines clauses and remains ambiguous."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "sociology-organizations-the-sociological-review"
+        ],
+        "subfields": [
+          "sociology-organizations"
+        ],
+        "scope_by_subfield": {
+          "sociology-organizations": "General sociology with theoretical, conceptual or empirical contributions advancing existing debates. Existing-data research can fit when it sustains a substantive sociological argument. The journal route accepts original articles; magazine pieces and other writing have separate routes."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "0038-0261",
+            "1467-954X"
+          ],
+          "publisher": "Sage on behalf of The Sociological Review Foundation",
+          "source_urls": [
+            "https://api.crossref.org/journals/0038-0261",
+            "https://journals.sagepub.com/home/sor"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/sor"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/sor"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/sor"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage on behalf of The Sociological Review Foundation by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/sor"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Carin Runciman",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Edinburgh"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/sor"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Digital hate, health and safety, and the labour politics of public academia: ‘Universities don’t value this sort of work at all’",
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/00380261261420671",
+            "doi": "10.1177/00380261261420671",
+            "published_on": null,
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://journals.sagepub.com/doi/pdf/10.1177/00380261261420671"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/sor",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/sor",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/sor",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/0038-0261",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/00380261261420671",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    },
+    {
+      "baseline": {
+        "id": "theory-and-research-in-education",
+        "name": "Theory and Research in Education",
+        "kind": "journal",
+        "publisher": "Sage",
+        "homepage": "https://journals.sagepub.com/home/tre",
+        "author_guidelines": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-theory-and-research-in-education_-sage-journals.pdf",
+        "submission_url": null,
+        "subjects": [
+          "education-learning-sciences"
+        ],
+        "formats": [
+          "original_research",
+          "review"
+        ],
+        "scope_notes": "Educational theory, philosophy and research; theoretical and conceptual contributions.",
+        "route": {
+          "model": "subscription",
+          "submission_fee": "none",
+          "publication_fee": "none",
+          "eligibility": "verified_free",
+          "oa_status": "subscription_optional_open_access",
+          "conditions": "Standard subscription route has no submission or publication fee; optional open access may cost extra.",
+          "other_mandatory_costs": "No additional mandatory author charges stated in the journal submission guidelines.",
+          "fee_evidence": [
+            {
+              "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-theory-and-research-in-education_-sage-journals.pdf",
+              "checked_on": "2026-11-16",
+              "note": "Journal-specific submission guidelines say no fees to submit or publish; open access is optional.",
+              "access": "page"
+            }
+          ]
+        },
+        "review": {
+          "type": "peer_reviewed",
+          "source_urls": [
+            "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-theory-and-research-in-education_-sage-journals.pdf"
+          ]
+        },
+        "metrics": [],
+        "discovery_sources": [
+          "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-theory-and-research-in-education_-sage-journals.pdf"
+        ],
+        "source_files": [
+          "research/campaigns/2026-11-16-expansion/discovery/education-learning-sciences.json",
+          "research/campaigns/2026-11-16-expansion/fees/education-learning-sciences.json",
+          "research/campaigns/2026-11-16-expansion/geography/education-learning-sciences.json",
+          "research/campaigns/2026-11-16-expansion/ai-policy/education-learning-sciences.json",
+          "research/campaigns/2026-11-16-expansion/metrics-review/education-learning-sciences.json",
+          "research/campaigns/2026-11-16-expansion/adjudications.json"
+        ],
+        "geography": {
+          "venue_countries": [],
+          "venue_regions": [
+            "Unknown"
+          ],
+          "publisher_countries": [
+            {
+              "code": "US",
+              "name": "United States",
+              "basis": "Sage explicitly identified Thousand Oaks office",
+              "source_url": "https://www.sagepub.com/about/locations"
+            },
+            {
+              "code": "GB",
+              "name": "United Kingdom",
+              "basis": "Sage explicitly identified London office",
+              "source_url": "https://www.sagepub.com/about/locations"
+            }
+          ],
+          "author_eligibility": {
+            "status": "international",
+            "description": "Submission instructions encourage authors from across all countries and backgrounds.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ]
+          },
+          "research_focus_regions": [
+            "International"
+          ],
+          "scope_notes": "International journal covering educational theory, policy and practice.",
+          "checked_on": "2026-11-16",
+          "evidence": [
+            {
+              "url": "https://journals.sagepub.com/home/tre",
+              "note": "International journal scope.",
+              "access": "page"
+            },
+            {
+              "url": "https://journals.sagepub.com/author-instructions/tre",
+              "note": "Submission instructions encourage authors across countries.",
+              "access": "page"
+            },
+            {
+              "url": "https://www.sagepub.com/about/locations",
+              "note": "Sage offices do not establish a venue base.",
+              "access": "page"
+            }
+          ]
+        },
+        "ai_policy": {
+          "compatibility": "compatible",
+          "permissions": {
+            "research": "conditional",
+            "analysis_code": "conditional",
+            "manuscript_drafting": "conditional"
+          },
+          "summary": "Human-led literature assistance and generated or checked research code are expressly listed as appropriate subject to disclosure. Conditional partial substantive drafting is inferred from the treatment of primary or partial generated text, the statement that disclosed use alone is not grounds for rejection, and the non-exhaustive examples; the policy does not expressly list drafting as an appropriate example. Authors remain responsible for accuracy and original sources.",
+          "disclosure": {
+            "status": "required_except_editing",
+            "instructions": "Disclose generated content that directly affects methodology, analysis, results or conclusions upon submission for editorial evaluation; appropriate research uses are disclosed in methods or acknowledgements. Suggestions to improve the author’s language, grammar or structure need no disclosure. Verify outputs and original sources.",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre",
+              "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy"
+            ],
+            "section": "AI generated (disclosure required); Prohibited use of AI"
+          },
+          "restrictions": [
+            "Sage lists generation of data or a submission using a series of prompts as inappropriate. Its wording does not define the boundary for partial human-led drafting; avoid an entirely prompt-generated submission and seek clarification for borderline uses.",
+            "No AI analysis of experiences and themes; no AI interviews in place of participants, fabricated references, incorrect content or falsified claims.",
+            "Do not list AI chatbots as authors."
+          ],
+          "policy_sources": [
+            {
+              "url": "https://journals.sagepub.com/author-instructions/tre",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal-specific author instructions",
+              "note": "Journal author instructions expressly direct authors to Sage AI disclosure and prohibited-use policy. Current journal page read; the supplied Sage-hosted PDF also directs to the AI policy but is dated 2025."
+            },
+            {
+              "url": "https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-theory-and-research-in-education_-sage-journals.pdf",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Journal instructions PDF dated 2025",
+              "note": "Authorship section points to generative AI policy; current live instructions also inspected."
+            },
+            {
+              "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+              "checked_on": "2026-11-16",
+              "access": "page",
+              "applicability": "Sage policy referenced in journal instructions",
+              "note": "Lists literature assistance and AI-generated or checked code as appropriate; requires disclosure of primary or partial generated research-affecting content; disclosed use alone does not cause rejection; lists prohibited uses."
+            }
+          ],
+          "checked_on": "2026-11-16"
+        },
+        "source_record_ids": [
+          "education-learning-sciences-theory-research-education"
+        ],
+        "subfields": [
+          "education-learning-sciences"
+        ],
+        "scope_by_subfield": {
+          "education-learning-sciences": "Educational theory, philosophy and research; theoretical and conceptual contributions."
+        },
+        "submission_status": "unknown"
+      },
+      "assessment": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership, publication and policy evidence found; unresolved core checks and registry access prevent a supported classification.",
+        "identity": {
+          "issns": [
+            "1477-8785",
+            "1741-3192"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/1477-8785",
+            "https://journals.sagepub.com/home/tre"
+          ],
+          "notes": "Exact title and ISSN matched in Crossref journal record, or journal FAQ for TMLR; DOI registration is not selective-index inclusion."
+        },
+        "indexing": [
+          {
+            "name": "Scopus",
+            "category": "citation_index",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": null,
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "unavailable",
+            "source_urls": [
+              "https://journals.sagepub.com/home/tre"
+            ],
+            "note": "No exact readable Scopus authority record was established; this does not mean unindexed."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Journal policy describes screening, anonymized reviewer process, independent reviews and editor decision; desk rejection possible.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/tre"
+          ],
+          "notes": "Policy evidence does not verify conduct for individual papers."
+        },
+        "editorial_standards": {
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/tre"
+            ],
+            "note": "Publisher or sponsoring organization identified as Sage by the journal's source record."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Instructions explicitly direct authors to Sage publication ethics policies and address plagiarism."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Instructions require disclosure of conflicts and describe management of editorial conflicts."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Journal instructions link to the publisher complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [],
+            "note": "Not established in the sources inspected."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/tre"
+            ],
+            "note": "Instructions describe contributor publishing agreement and author copyright, subject to exceptions."
+          },
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Ben Kotzee",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Birmingham"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/tre"
+            ],
+            "note": "Journal board lists named editors and affiliations."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "In search of learning for all in Botswana: The role of conceptions of educational equity",
+            "url": "https://journals.sagepub.com/toc/tre/current",
+            "doi": "10.1177/14778785261492652",
+            "published_on": "2026-10-17",
+            "checked_on": "2026-11-16",
+            "observations": "Article title, authors, journal and abstract or text traceable in cited source; this does not independently establish the review history.",
+            "source_urls": [
+              "https://journals.sagepub.com/toc/tre/current"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://journals.sagepub.com/home/tre",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/tre",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "publisher",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/tre",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://api.crossref.org/journals/1477-8785",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          },
+          {
+            "url": "https://journals.sagepub.com/toc/tre/current",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity, policy, board or traceable publication as identified in the corresponding audit field."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science authority coverage not verified. Missing policy evidence is not evidence of misconduct. Review reports were not independently inspected. Fields marked unclear require follow-up."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1612 @@
+{
+  "checked_on": "2026-11-16",
+  "batch": "batch-10",
+  "agent_task": "/root/quality_audit_10",
+  "notes": "Official journal pages inspected; direct Sage and INFORMS HTTP 403, official pages retrieved through web tool where indicated. Crossref identifies journals but is not a selective index. Authority access and article sample gaps remain.",
+  "records": [
+    {
+      "id": "network-modeling-analysis-in-health-informatics-and-bioinformatics",
+      "source_record_ids": [
+        "computational-biology-network-modeling-analysis-health-informatics-bioinformatics"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "2192-6662",
+            "2192-6670"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://api.crossref.org/journals/2192-6662",
+            "https://link.springer.com/journal/13721"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/2192-6662",
+            "registry_record_id": "2192-6662",
+            "publisher_url": "https://link.springer.com/journal/13721",
+            "matched_issns": [
+              "2192-6662",
+              "2192-6670"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/2192-6662"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A2192-6662?pageSize=2",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A2192-6662?pageSize=2"
+            ],
+            "note": "ISSN query returned no match; no claim of absence from a comprehensive list is made."
+          }
+        ],
+        "peer_review": {
+          "verification": "unclear",
+          "model": "unknown",
+          "summary": "Journal guidance references peer review but its model and complete external review workflow were not resolved in this check.",
+          "source_urls": [
+            "https://link.springer.com/journal/13721/submission-guidelines"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Reda Alhajj",
+                "role": "Editor-in-Chief and Founder",
+                "affiliation": "University of Calgary"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/13721/editorial-board"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13721"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13721/submission-guidelines"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13721/submission-guidelines"
+            ],
+            "note": "Journal instructions describe corrections, expressions of concern and retraction following investigation."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/13721/submission-guidelines"
+            ],
+            "note": "Detailed applicable conflict procedure requires further inspection."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/13721/submission-guidelines"
+            ],
+            "note": "Specific complaint and appeal procedure requires further inspection."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/13721"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/13721/submission-guidelines"
+            ],
+            "note": "Instructions describe Creative Commons licences for open access; terms depend on route."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/2192-6662",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://link.springer.com/journal/13721",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://link.springer.com/journal/13721/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://link.springer.com/journal/13721/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A2192-6662?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "ISSN search returned no results; no absence inference."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Actual article sample could not be read in this pass. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "operations-research",
+      "source_record_ids": [
+        "operations-simulation-operations-research"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "0030-364X",
+            "1526-5463"
+          ],
+          "publisher": "INFORMS",
+          "source_urls": [
+            "https://api.crossref.org/journals/0030-364X",
+            "https://pubsonline.informs.org/journal/opre"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/0030-364X",
+            "registry_record_id": "0030-364X",
+            "publisher_url": "https://pubsonline.informs.org/journal/opre",
+            "matched_issns": [
+              "0030-364X",
+              "1526-5463"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/0030-364X"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A0030-364X?pageSize=2",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0030-364X?pageSize=2"
+            ],
+            "note": "ISSN query returned no match; no claim of absence from a comprehensive list is made."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "After initial screening, an associate editor sends suitable submissions to two reviewers and an area editor decides; editor-in-chief checks accepted papers. Soft double anonymous permits public preprints.",
+          "source_urls": [
+            "https://pubsonline.informs.org/page/opre/reviewer-guidelines"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Amy R. Ward",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Chicago Booth School of Business"
+              }
+            ],
+            "source_urls": [
+              "https://pubsonline.informs.org/doi/pdf/10.1287/opre.2026.eb.v7401"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/journal/opre"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/opre/submission-guidelines"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/opre/submission-guidelines"
+            ],
+            "note": "Specific applicable correction and retraction procedure requires further inspection."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/opre/OPRE_COI_policies"
+            ],
+            "note": "Specific conflict rules and alternative editor handling are documented."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/opre/appeals-process"
+            ],
+            "note": "Appeals are considered for specified technical errors or failure to follow editorial policies."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://pubsonline.informs.org/journal/opre"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://pubsonline.informs.org/page/opre/submission-guidelines"
+            ],
+            "note": "Specific applicable publication licence requires further inspection."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/0030-364X",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://pubsonline.informs.org/journal/opre",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://pubsonline.informs.org/doi/pdf/10.1287/opre.2026.eb.v7401",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/opre/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0030-364X?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "ISSN search returned no results; no absence inference."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/opre/reviewer-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read reviewer process via web retrieval."
+          },
+          {
+            "url": "https://pubsonline.informs.org/page/opre/appeals-process",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read appeals procedure."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Actual article sample could not be read in this pass. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "or-spectrum",
+      "source_record_ids": [
+        "operations-simulation-or-spectrum"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "0171-6468",
+            "1436-6304"
+          ],
+          "publisher": "Springer Nature",
+          "source_urls": [
+            "https://api.crossref.org/journals/0171-6468",
+            "https://link.springer.com/journal/291"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/0171-6468",
+            "registry_record_id": "0171-6468",
+            "publisher_url": "https://link.springer.com/journal/291",
+            "matched_issns": [
+              "0171-6468",
+              "1436-6304"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/0171-6468"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "single_anonymous",
+          "summary": "Journal instructions specify single-blind review, including the same process for guest-edited issues.",
+          "source_urls": [
+            "https://link.springer.com/journal/291/submission-guidelines"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Marie Schmidt",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Würzburg"
+              }
+            ],
+            "source_urls": [
+              "https://link.springer.com/journal/291/editorial-board"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/291"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/291/submission-guidelines"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/291/submission-guidelines"
+            ],
+            "note": "Journal instructions describe corrections, expressions of concern and retraction following investigation."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/291/submission-guidelines"
+            ],
+            "note": "Detailed applicable conflict procedure requires further inspection."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/291/submission-guidelines"
+            ],
+            "note": "Specific complaint and appeal procedure requires further inspection."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://link.springer.com/journal/291"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://link.springer.com/journal/291/submission-guidelines"
+            ],
+            "note": "Instructions describe Creative Commons licences for open access; terms depend on route."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "Solution methods for the dynamic and probabilistic profitable tour problem",
+            "url": "https://link.springer.com/article/10.1007/s00291-026-00875-w",
+            "doi": "10.1007/s00291-026-00875-w",
+            "published_on": "2026-09-30",
+            "checked_on": "2026-11-16",
+            "observations": "Research article has publication date, DOI, abstract and CC BY licence; review conduct is not independently established.",
+            "source_urls": [
+              "https://link.springer.com/article/10.1007/s00291-026-00875-w"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/0171-6468",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://link.springer.com/journal/291",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://link.springer.com/journal/291/editorial-board",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://link.springer.com/journal/291/submission-guidelines",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00291-026-00875-w",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read sample article metadata and abstract."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "organization",
+      "source_record_ids": [
+        "sociology-organizations-organization"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "1350-5084",
+            "1461-7323"
+          ],
+          "publisher": "Sage",
+          "source_urls": [
+            "https://api.crossref.org/journals/1350-5084",
+            "https://journals.sagepub.com/home/org"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/1350-5084",
+            "registry_record_id": "1350-5084",
+            "publisher_url": "https://journals.sagepub.com/home/org",
+            "matched_issns": [
+              "1350-5084",
+              "1461-7323"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/1350-5084"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A1350-5084?pageSize=2",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A1350-5084?pageSize=2"
+            ],
+            "note": "ISSN query returned no match; no claim of absence from a comprehensive list is made."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Journal author instructions describe peer review; manuscript handling and exemptions need further verification.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/org"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Marcos Barros",
+                "role": "Editor-in-Chief",
+                "affiliation": "Grenoble School of Management"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/org"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/org"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/org"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/org"
+            ],
+            "note": "Specific applicable correction and retraction procedure requires further inspection."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/org"
+            ],
+            "note": "Detailed applicable conflict procedure requires further inspection."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/org"
+            ],
+            "note": "Specific complaint and appeal procedure requires further inspection."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/org"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/org"
+            ],
+            "note": "Specific applicable publication licence requires further inspection."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/1350-5084",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/org",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/org",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/org",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A1350-5084?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "ISSN search returned no results; no absence inference."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Actual article sample could not be read in this pass. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "organization-studies",
+      "source_record_ids": [
+        "sociology-organizations-organization-studies"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "0170-8406",
+            "1741-3044"
+          ],
+          "publisher": "Sage on behalf of the European Group for Organizational Studies",
+          "source_urls": [
+            "https://api.crossref.org/journals/0170-8406",
+            "https://journals.sagepub.com/home/oss"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/0170-8406",
+            "registry_record_id": "0170-8406",
+            "publisher_url": "https://journals.sagepub.com/home/oss",
+            "matched_issns": [
+              "0170-8406",
+              "1741-3044"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/0170-8406"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A0170-8406?pageSize=2",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0170-8406?pageSize=2"
+            ],
+            "note": "ISSN query returned no match; no claim of absence from a comprehensive list is made."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Empirical research, X and Organization Studies, Perspectives and Method/ology articles are peer reviewed; opinion and media reviews are separate categories.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/oss"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "John Amis",
+                "role": "Editor-in-Chief",
+                "affiliation": "University of Edinburgh"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/oss"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/oss"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/oss"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/oss"
+            ],
+            "note": "Specific applicable correction and retraction procedure requires further inspection."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/oss"
+            ],
+            "note": "Detailed applicable conflict procedure requires further inspection."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/oss"
+            ],
+            "note": "Specific complaint and appeal procedure requires further inspection."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/oss"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/oss"
+            ],
+            "note": "Specific applicable publication licence requires further inspection."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/0170-8406",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/oss",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/oss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/oss",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0170-8406?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "ISSN search returned no results; no absence inference."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Actual article sample could not be read in this pass. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "organizational-research-methods",
+      "source_record_ids": [
+        "sociology-organizations-organizational-research-methods"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "1094-4281",
+            "1552-7425"
+          ],
+          "publisher": "Sage; sponsored by the Research Methods Division of the Academy of Management",
+          "source_urls": [
+            "https://api.crossref.org/journals/1094-4281",
+            "https://journals.sagepub.com/home/orm"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/1094-4281",
+            "registry_record_id": "1094-4281",
+            "publisher_url": "https://journals.sagepub.com/home/orm",
+            "matched_issns": [
+              "1094-4281",
+              "1552-7425"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/1094-4281"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A1094-4281?pageSize=2",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A1094-4281?pageSize=2"
+            ],
+            "note": "ISSN query returned no match; no claim of absence from a comprehensive list is made."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "unknown",
+          "summary": "Author instructions describe peer review and alternative handling for editors’ submissions; detailed model needs verification.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/orm"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Tine Köhler",
+                "role": "Editor",
+                "affiliation": "University of Melbourne"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/orm"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/orm"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/orm"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/orm"
+            ],
+            "note": "Specific applicable correction and retraction procedure requires further inspection."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/orm"
+            ],
+            "note": "Detailed applicable conflict procedure requires further inspection."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/orm"
+            ],
+            "note": "Specific complaint and appeal procedure requires further inspection."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/orm"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/orm"
+            ],
+            "note": "Specific applicable publication licence requires further inspection."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/1094-4281",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/orm",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/orm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/orm",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A1094-4281?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "ISSN search returned no results; no absence inference."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Actual article sample could not be read in this pass. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "peer-community-journal",
+      "source_record_ids": [
+        "computational-biology-peer-community-journal"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "supported",
+        "summary": "The journal documents thematic PCI peer review, named governance, ethics and correction processes; the checked article links its review history. DOAJ exact-title record is confirmed.",
+        "identity": {
+          "issns": [
+            "2804-3871"
+          ],
+          "publisher": "Peer Community In; science sections web-published by Centre Mersenne",
+          "source_urls": [
+            "https://api.crossref.org/journals/2804-3871",
+            "https://peercommunityjournal.org/"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/2804-3871",
+            "registry_record_id": "2804-3871",
+            "publisher_url": "https://peercommunityjournal.org/",
+            "matched_issns": [
+              "2804-3871"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/2804-3871"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A2804-3871?pageSize=2",
+            "registry_record_id": "798d4f21a22d43579cea322bed8a560e",
+            "publisher_url": "https://peercommunityjournal.org/",
+            "matched_issns": [
+              "2804-3871"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A2804-3871?pageSize=2"
+            ],
+            "note": "DOAJ public API returns exact title and eISSN; record reports open review and CLOCKSS."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "open",
+          "summary": "A thematic Peer Community In evaluates preprints using external reviewers and a recommender; recommended articles may be published by the journal without another peer-review round. Reports and recommendation are public.",
+          "source_urls": [
+            "https://peercommunityjournal.org/page/about/"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Denis Bourguet",
+                "role": "Executive board member",
+                "affiliation": "INRAE Montpellier"
+              }
+            ],
+            "source_urls": [
+              "https://peercommunityjournal.org/page/people/"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://peercommunityjournal.org/"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://peercommunityjournal.org/page/about/"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "documented",
+            "source_urls": [
+              "https://peercommunityjournal.org/page/about/"
+            ],
+            "note": "Executive board may issue a correction, expression of concern or retraction."
+          },
+          "conflicts_of_interest": {
+            "status": "documented",
+            "source_urls": [
+              "https://peercommunityjournal.org/page/about/"
+            ],
+            "note": "Thematic PCI asks recommenders and referees to avoid conflicts; authors disclose interests."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://peercommunityjournal.org/page/about/"
+            ],
+            "note": "Authors may appeal thematic PCI rejection within 30 days."
+          },
+          "archiving": {
+            "status": "documented",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A2804-3871?pageSize=2"
+            ],
+            "note": "DOAJ journal record reports CLOCKSS preservation."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://peercommunityjournal.org/page/about/"
+            ],
+            "note": "Articles use CC BY 4.0 and authors retain copyright."
+          }
+        },
+        "publication_checks": [
+          {
+            "title": "HiCDOC: chromatin compartment prediction and differential analysis from Hi-C data with replicates",
+            "url": "https://peercommunityjournal.org/articles/10.24072/pcjournal.836/",
+            "doi": "10.24072/pcjournal.836",
+            "published_on": "2026-11-16",
+            "checked_on": "2026-11-16",
+            "observations": "Research article identifies authors, affiliations and CC BY 4.0; links PCI review and recommendation 10.24072/pci.genomics.100594 and records reviewer conflict declarations.",
+            "source_urls": [
+              "https://peercommunityjournal.org/articles/10.24072/pcjournal.836/"
+            ]
+          }
+        ],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/2804-3871",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://peercommunityjournal.org/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://peercommunityjournal.org/page/people/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://peercommunityjournal.org/page/about/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A2804-3871?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "DOAJ API exact-title and ISSN match."
+          },
+          {
+            "url": "https://peercommunityjournal.org/articles/10.24072/pcjournal.836/",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read actual article and PCI review provenance."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "personality-and-social-psychology-bulletin",
+      "source_record_ids": [
+        "psychology-behavior-personality-social-psychology-bulletin"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "0146-1672",
+            "1552-7433"
+          ],
+          "publisher": "Sage Publishing",
+          "source_urls": [
+            "https://api.crossref.org/journals/0146-1672",
+            "https://journals.sagepub.com/home/psp"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/0146-1672",
+            "registry_record_id": "0146-1672",
+            "publisher_url": "https://journals.sagepub.com/home/psp",
+            "matched_issns": [
+              "0146-1672",
+              "1552-7433"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/0146-1672"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A0146-1672?pageSize=2",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A0146-1672?pageSize=2"
+            ],
+            "note": "ISSN query returned no match; no claim of absence from a comprehensive list is made."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "double_anonymous",
+          "summary": "Double-anonymized review, initial desk rejection possible; two independent reviews required for revise or accept, and editor decides.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/psp"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Yuen J. Huo",
+                "role": "Editor",
+                "affiliation": "University of California, Los Angeles"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/psp"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/psp"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/psp"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/psp"
+            ],
+            "note": "Specific applicable correction and retraction procedure requires further inspection."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/psp"
+            ],
+            "note": "Detailed applicable conflict procedure requires further inspection."
+          },
+          "complaints_appeals": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/psp"
+            ],
+            "note": "Journal instructions link Sage complaints and appeals policy."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/psp"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/psp"
+            ],
+            "note": "Contributor agreement normally retains author copyright and grants Sage an exclusive publication licence."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/0146-1672",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/psp",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/psp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/psp",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A0146-1672?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "ISSN search returned no results; no absence inference."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Actual article sample could not be read in this pass. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    },
+    {
+      "id": "perspectives-in-public-health",
+      "source_record_ids": [
+        "public-health-perspectives-in-public-health"
+      ],
+      "audit_note": "Exact title and ISSNs matched independently against Crossref; bounded check leaves unresolved items explicit.",
+      "quality": {
+        "checked_on": "2026-11-16",
+        "status": "needs_verification",
+        "summary": "Named editorial leadership and policy evidence were identified; outstanding checks are described in audit limits. This is not a prestige assessment.",
+        "identity": {
+          "issns": [
+            "1757-9139",
+            "1757-9147"
+          ],
+          "publisher": "Sage for the Royal Society for Public Health",
+          "source_urls": [
+            "https://api.crossref.org/journals/1757-9139",
+            "https://journals.sagepub.com/home/rsh"
+          ],
+          "notes": "Exact title matched to ISSN in Crossref journal metadata; publisher identity also checked where accessible."
+        },
+        "indexing": [
+          {
+            "name": "Crossref",
+            "category": "identifier_registry",
+            "verification": "registry_confirmed",
+            "coverage": null,
+            "registry_url": "https://api.crossref.org/journals/1757-9139",
+            "registry_record_id": "1757-9139",
+            "publisher_url": "https://journals.sagepub.com/home/rsh",
+            "matched_issns": [
+              "1757-9139",
+              "1757-9147"
+            ],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://api.crossref.org/journals/1757-9139"
+            ],
+            "note": "Exact title and ISSNs matched in Crossref journal metadata. DOI registration is not selective citation-index inclusion."
+          },
+          {
+            "name": "DOAJ",
+            "category": "open_access_directory",
+            "verification": "not_verified",
+            "coverage": null,
+            "registry_url": "https://doaj.org/api/search/journals/issn%3A1757-9139?pageSize=2",
+            "registry_record_id": null,
+            "publisher_url": null,
+            "matched_issns": [],
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_urls": [
+              "https://doaj.org/api/search/journals/issn%3A1757-9139?pageSize=2"
+            ],
+            "note": "ISSN query returned no match; no claim of absence from a comprehensive list is made."
+          }
+        ],
+        "peer_review": {
+          "verification": "documented",
+          "model": "mixed",
+          "summary": "Original research and short reports receive specialist peer review. Current Topics and Opinions, In Practice and Features are assessed by the editor without peer review.",
+          "source_urls": [
+            "https://journals.sagepub.com/author-instructions/rsh"
+          ],
+          "notes": "Policy evidence describes process, not proof that an individual article completed each step."
+        },
+        "editorial_standards": {
+          "board": {
+            "status": "documented",
+            "names": [
+              {
+                "name": "Jim McManus",
+                "role": "Editor",
+                "affiliation": "Public Health Wales"
+              }
+            ],
+            "source_urls": [
+              "https://journals.sagepub.com/editorial-board/rsh"
+            ],
+            "note": "Publisher or journal names accountable editors and affiliations."
+          },
+          "ownership": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rsh"
+            ],
+            "note": "Publisher identified by journal or publisher; ownership arrangements beyond the named publisher were not independently checked."
+          },
+          "ethics": {
+            "status": "documented",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rsh"
+            ],
+            "note": "Journal instructions reference publication ethics and author responsibilities."
+          },
+          "corrections_retractions": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rsh"
+            ],
+            "note": "Specific applicable correction and retraction procedure requires further inspection."
+          },
+          "conflicts_of_interest": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rsh"
+            ],
+            "note": "Detailed applicable conflict procedure requires further inspection."
+          },
+          "complaints_appeals": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rsh"
+            ],
+            "note": "Specific complaint and appeal procedure requires further inspection."
+          },
+          "archiving": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/home/rsh"
+            ],
+            "note": "Long-term preservation arrangement not verified."
+          },
+          "licensing": {
+            "status": "unclear",
+            "source_urls": [
+              "https://journals.sagepub.com/author-instructions/rsh"
+            ],
+            "note": "Specific applicable publication licence requires further inspection."
+          }
+        },
+        "publication_checks": [],
+        "concerns": [],
+        "evidence": [
+          {
+            "url": "https://api.crossref.org/journals/1757-9139",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "Exact journal title and ISSNs in Crossref metadata."
+          },
+          {
+            "url": "https://journals.sagepub.com/home/rsh",
+            "checked_on": "2026-11-16",
+            "access": "blocked",
+            "source_type": "journal",
+            "note": "Journal identity and publisher page; direct HTTP blocked where marked."
+          },
+          {
+            "url": "https://journals.sagepub.com/editorial-board/rsh",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Named editor and affiliation; official page or issue masthead."
+          },
+          {
+            "url": "https://journals.sagepub.com/author-instructions/rsh",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "journal",
+            "note": "Read official instructions; Sage and INFORMS pages accessed through web retrieval where direct HTTP was blocked."
+          },
+          {
+            "url": "https://doaj.org/api/search/journals/issn%3A1757-9139?pageSize=2",
+            "checked_on": "2026-11-16",
+            "access": "page",
+            "source_type": "index_registry",
+            "note": "ISSN search returned no results; no absence inference."
+          }
+        ],
+        "audit_limits": "Scopus and Web of Science exact authority records and coverage were not verified; DOI registration and DOAJ search are separate from selective citation indexing. Actual article sample could not be read in this pass. Items marked unclear require further policy inspection; missing information does not establish wrongdoing."
+      }
+    }
+  ]
+}
