@@ -72,5 +72,51 @@
       "on": "2026-11-16",
       "note": "The human lead confirmed that Medical XR is active and moving, and selected four broad public stages."
     }
+  },
+  {
+    "project_id": "OSRI-0002",
+    "short_title": "Public health data acquisition",
+    "question": "Can publicly inspectable workflows acquire intended U.S. health data and preserve selected source facts in their outputs?",
+    "summary": "Developing a feasibility study of public health-systems data acquisition and independent source checks.",
+    "status_detail": "Feasibility research and protocol preparation are in progress. The main evaluation is not approved; pilot execution, independent human scientific review and scientific acceptance remain pending.",
+    "methods": "A proposed bounded software map and exploratory pilot distinguish source acquisition, output fidelity and task fitness. Public non-patient provider and facility records are in scope. Methods and independent review remain to be confirmed before execution.",
+    "materials": [
+      {
+        "title": "Feasibility protocol",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/protocol.md"
+      },
+      {
+        "title": "Feasibility admission",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/governance/admission.md"
+      }
+    ],
+    "contribution": {
+      "title": "Review the feasibility protocol",
+      "summary": "Read the proposed protocol and discuss bounded contributions with Cole; independent human review remains pending.",
+      "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/protocol.md"
+    },
+    "outputs": [
+      "A proposed feasibility protocol and evidence map, subject to human review and source reuse terms."
+    ],
+    "verified_on": "2026-11-17",
+    "sources": [
+      {
+        "title": "Project README",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/README.md",
+        "checked_on": "2026-11-17"
+      },
+      {
+        "title": "Feasibility protocol",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/protocol.md",
+        "checked_on": "2026-11-17"
+      }
+    ],
+    "stage": "research",
+    "activity": "active",
+    "status_decision": {
+      "by": "Cole / @ajhcs",
+      "on": "2026-11-17",
+      "note": "The human lead admitted feasibility research; approval of the main evaluation remains withheld."
+    }
   }
 ]
