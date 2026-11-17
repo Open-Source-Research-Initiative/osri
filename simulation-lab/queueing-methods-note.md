@@ -2,6 +2,8 @@
 
 *Methods note. Human scientific review and an external rerun are pending.*
 
+[Download the independent rerun packet](../site/assets/downloads/queueing-rerun-packet.zip) · [Read the pinned setup and run instructions](reproductions/files/simmer/queueing-rerun-packet/README.md)
+
 OSRI’s Simulation Lab ran the published R code for a single-server queue with two workers and reproduced its mean of 0.4974943 and 95% confidence interval of [0.4868269, 0.5081617] to the printed precision. The 100 saved replication means formed 50 consecutive pairs, with two identical values in each pair. Using one mean from each pair gave the same estimate and an interval 44% wider. Section 4.2 gives the seed and parallel call. The worker count for the paper’s printed result is unconfirmed. [Ucar, Smeets, and Azcorra (2019), Section 4.2 and R supplement](https://www.jstatsoft.org/article/view/v090i02) · [OSRI run guide](reproductions/simmer.md)
 
 ## Where the pairs came from
