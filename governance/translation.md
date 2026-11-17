@@ -4,7 +4,7 @@ Contributors may use their preferred language. English is the initial reference 
 
 ## Languages
 
-Start with **Simplified Chinese (`zh-Hans`)**. [French and Spanish maintainers are wanted](https://github.com/Open-Source-Research-Initiative/.github/discussions/3). Other languages are welcome.
+Website drafts cover **Simplified Chinese (`zh-Hans`), Korean (`ko`), Spanish (`es`), French (`fr`), and Arabic (`ar`)**. [Translators, fluent reviewers, and maintainers are wanted](https://github.com/Open-Source-Research-Initiative/.github/discussions/3). Other languages are welcome.
 
 Find available pages and review status in the [translation directory](../translations/README.md).
 
@@ -12,7 +12,7 @@ Start with READMEs, the getting-started guide, contribution rules, resource requ
 
 ## Prepare a translation
 
-1. Use UTF-8 Markdown in `translations/<language-tag>/<source-path>`, such as `translations/es/START_HERE.md`.
+1. For the website, edit the UTF-8 JSON catalog in `translations/catalogs/<language-tag>.json`. English phrases are keys; translated phrases are values. The [translation directory](../translations/README.md) explains how to export one page for review. Separate repository documents may use UTF-8 Markdown in `translations/<language-tag>/<source-path>`.
 2. Record the source path, source commit, language tag, translator, reviewer, and review date.
 3. Preserve scientific meaning, uncertainty, values, units, identifiers, code, and file paths.
 4. Use natural technical language. Simplified Technical English (STE) guides English writing; other languages have their own conventions.

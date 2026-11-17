@@ -2,7 +2,7 @@
 
 # Open Source Research Initiative
 
-English | [简体中文（待审核）](translations/zh-Hans/README.md) | [Translation help](translations/README.md)
+English | [简体中文](https://open-source-research-initiative.github.io/zh-hans/) | [한국어](https://open-source-research-initiative.github.io/ko/) | [Español](https://open-source-research-initiative.github.io/es/) | [Français](https://open-source-research-initiative.github.io/fr/) | [العربية](https://open-source-research-initiative.github.io/ar/) | [Translation drafts and review](translations/README.md)
 
 OSRI brings people across fields together to conduct human-driven Agentic-Powered-Research. People choose the questions, check the evidence, and decide what is ready to share.
 
