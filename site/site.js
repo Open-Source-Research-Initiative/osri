@@ -52,3 +52,12 @@ if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: re
 if (document.querySelector('[data-site-search]')) import('./search.js').catch(() => {
   document.querySelector('#search-count').textContent = 'Interactive search unavailable. Browse all records below or use your browser’s Find command.';
 });
+// Keep a reader's filters, search query and section when changing language.
+document.querySelectorAll('a[data-language]').forEach(anchor => {
+  anchor.addEventListener('click', () => {
+    const url = new URL(anchor.href);
+    url.search = location.search;
+    url.hash = location.hash;
+    anchor.href = url.href;
+  });
+});

@@ -4,7 +4,7 @@
     "short_title": "Medical XR",
     "question": "Since 2020, has progress from commercial XR and AI capabilities to useful, sustainable medical applications accelerated—and what technical, staffing, financial and organizational conditions enable or constrain further acceleration?",
     "summary": "Mapping how extended reality, interactive 3D and AI capabilities become useful, sustainable medical applications, using published evidence and technology histories.",
-    "status_detail": "Provisional AI source adjudication resumed on 15 November 2026 with a documented reviewer handoff. The public archive and 43 tables retain the frozen 13 November snapshot. Adjudication, full-text selection and human verification remain unfinished. No acceleration finding has been established; no human-verified records are documented.",
+    "status_detail": "Provisional model screening is open to contributors. Final PI review follows the completed screening packet. The public archive and 43 tables preserve the frozen 13 November snapshot. Human verification is pending. The study has yet to establish whether progress accelerated.",
     "methods": "An inherited capability evidence map connects technologies, medical tasks, outcomes and adoption conditions. The evolving method and addenda, search-history gaps and proposed measures are public. The 18,976 provisional publication groups are not a count of independent studies; initial agent assessments do not establish final inclusion or accuracy. This is a nonclinical synthesis; it recruits no patients and delivers no care.",
     "materials": [
       {
@@ -16,8 +16,8 @@
         "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/blob/bc598e479e3db21c689c22f439b41b2ef3f7a1df/examples/README.md"
       },
       {
-        "title": "Resumed-run checkpoint (15 November)",
-        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/blob/bc598e479e3db21c689c22f439b41b2ef3f7a1df/docs/active-screening.md"
+        "title": "Current screening work map",
+        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/blob/aa1b805c89a0ae621a030924892c149f079e6869/data/runs/2026-11-17/README.md"
       },
       {
         "title": "Frozen checkpoint (13 November)",
@@ -29,25 +29,25 @@
       }
     ],
     "contribution": {
-      "title": "Inspect one source-to-decision trace",
-      "summary": "Read the human source-check procedure, disclose prior AI exposure and discuss the bounded P0000314 task with Cole. Cole coordinates further scientific assignments.",
-      "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/issues/1"
+      "title": "Choose a Medical XR screening task",
+      "summary": "Choose a screening or audit task in the tracker, then comment with the batch or IDs you can check.",
+      "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/issues/9"
     },
     "outputs": [
       "Proposed evidence-map or scoping-review article, subject to method reconciliation and completed human review.",
       "A public methods account and reproducible supporting materials where permissions allow. Final output type and venue require Cole’s selection."
     ],
-    "verified_on": "2026-11-15",
+    "verified_on": "2026-11-17",
     "sources": [
       {
         "title": "Medical XR public README",
-        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/blob/bc598e479e3db21c689c22f439b41b2ef3f7a1df/README.md",
-        "checked_on": "2026-11-15"
+        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/blob/aa1b805c89a0ae621a030924892c149f079e6869/README.md",
+        "checked_on": "2026-11-17"
       },
       {
-        "title": "Dated screening-resumption checkpoint",
-        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/blob/bc598e479e3db21c689c22f439b41b2ef3f7a1df/docs/active-screening.md",
-        "checked_on": "2026-11-15"
+        "title": "Current screening work map",
+        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/blob/aa1b805c89a0ae621a030924892c149f079e6869/data/runs/2026-11-17/README.md",
+        "checked_on": "2026-11-17"
       },
       {
         "title": "Frozen 13 November checkpoint",
@@ -60,9 +60,9 @@
         "checked_on": "2026-11-15"
       },
       {
-        "title": "Open human source-check task",
-        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/issues/1",
-        "checked_on": "2026-11-15"
+        "title": "Current screening tracker",
+        "url": "https://github.com/Open-Source-Research-Initiative/medical-xr-from-capabilities-to-sustainable-use/issues/9",
+        "checked_on": "2026-11-17"
       }
     ],
     "stage": "research",
@@ -78,22 +78,26 @@
     "short_title": "Public health data acquisition",
     "question": "Can publicly inspectable workflows acquire intended U.S. health data and preserve selected source facts in their outputs?",
     "summary": "Developing a feasibility study of public health-systems data acquisition and independent source checks.",
-    "status_detail": "Feasibility research and protocol preparation are in progress. The main evaluation is not approved; pilot execution, independent human scientific review and scientific acceptance remain pending.",
-    "methods": "A proposed bounded software map and exploratory pilot distinguish source acquisition, output fidelity and task fitness. Public non-patient provider and facility records are in scope. Methods and independent review remain to be confirmed before execution.",
+    "status_detail": "Eight exploratory pilot attempts are documented. The first screening packet awaits final PI review. The main evaluation remains unapproved.",
+    "methods": "The feasibility study separates workflow execution, retrieval scope, agreement with source records, and fitness for a research question. It uses public U.S. data without patient-level records.",
     "materials": [
       {
         "title": "Feasibility protocol",
-        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/protocol.md"
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/54c3ee6d0f50eb06e0bda1782d57e68555f44d07/protocol.md"
       },
       {
         "title": "Feasibility admission",
-        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/governance/admission.md"
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/54c3ee6d0f50eb06e0bda1782d57e68555f44d07/governance/admission.md"
+      },
+      {
+        "title": "Eight-case pilot findings",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/54c3ee6d0f50eb06e0bda1782d57e68555f44d07/research/pilot-findings/README.md"
       }
     ],
     "contribution": {
-      "title": "Review the feasibility protocol",
-      "summary": "Read the proposed protocol and discuss bounded contributions with Cole; independent human review remains pending.",
-      "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/protocol.md"
+      "title": "Choose a health-data screening task",
+      "summary": "Use the screening tracker to find a bounded source check and comment with the candidate IDs you can review.",
+      "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/issues/5"
     },
     "outputs": [
       "A proposed feasibility protocol and evidence map, subject to human review and source reuse terms."
@@ -102,12 +106,17 @@
     "sources": [
       {
         "title": "Project README",
-        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/README.md",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/54c3ee6d0f50eb06e0bda1782d57e68555f44d07/README.md",
         "checked_on": "2026-11-17"
       },
       {
-        "title": "Feasibility protocol",
-        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/2a95b2a961d16071d567e346a1cc40fa080c1b00/protocol.md",
+        "title": "Eight-case pilot findings",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/54c3ee6d0f50eb06e0bda1782d57e68555f44d07/research/pilot-findings/README.md",
+        "checked_on": "2026-11-17"
+      },
+      {
+        "title": "Contributor screening",
+        "url": "https://github.com/Open-Source-Research-Initiative/acquiring-public-data-for-us-health-systems-research/blob/54c3ee6d0f50eb06e0bda1782d57e68555f44d07/research/screening/README.md",
         "checked_on": "2026-11-17"
       }
     ],

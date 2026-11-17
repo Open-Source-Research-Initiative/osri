@@ -6,6 +6,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
+from i18n import LANGUAGES
 from urllib.parse import unquote, urlsplit
 
 
@@ -15,6 +16,7 @@ class Page(HTMLParser):
         self.links, self.ids = [], set()
         self.headings = 0
         self.language = None
+        self.direction = None
         self.missing_alt = False
         self.canonical = None
         self.description = None
@@ -24,6 +26,7 @@ class Page(HTMLParser):
         attrs = dict(attributes)
         if tag == 'html':
             self.language = attrs.get('lang')
+            self.direction = attrs.get('dir', 'ltr')
         if tag == 'h1':
             self.headings += 1
         if 'id' in attrs:
@@ -50,8 +53,10 @@ def check(root):
     for path in root.rglob('*.html'):
         page = Page()
         page.feed(path.read_text(encoding='utf-8'))
-        if page.headings != 1 or page.missing_alt or page.language not in {'en', 'zh-Hans'}:
+        if page.headings != 1 or page.missing_alt or page.language not in LANGUAGES:
             raise ValueError(f'{path.relative_to(root)}: check heading, language, or image alternatives')
+        if page.direction != LANGUAGES[page.language][1]:
+            raise ValueError(f'{path.relative_to(root)}: incorrect text direction')
         relative = path.relative_to(root).as_posix()
         url = '/' + (relative[:-10] if relative.endswith('index.html') else relative)
         if page.canonical != origin + url or not page.description or not page.source_commit:
@@ -85,9 +90,12 @@ def check(root):
     for vector in (root / 'assets/identity').glob('*.svg'):
         if '../fonts/' in vector.read_text():
             raise ValueError('Unresolved SVG font: ' + vector.name)
-    for page in root.glob('zh-hans/**/index.html'):
-        if '待审核译稿' not in page.read_text():
-            raise ValueError(f'{page}: translation draft notice missing')
+    for language in LANGUAGES:
+        if language == 'en':
+            continue
+        for page in root.glob(language.lower() + '/**/index.html'):
+            if not re.search(r'data-translation-status="(?:draft|reviewed|needs-update)"', page.read_text()):
+                raise ValueError(f'{page}: translation draft notice missing')
     if len(pages) != len(metadata['pages']):
         raise ValueError('Page count does not match the build record')
     records = json.loads((root / 'search-index.json').read_text())

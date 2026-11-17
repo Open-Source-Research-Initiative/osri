@@ -4,7 +4,7 @@ Counts cover the current registers. They do not include unregistered projects or
 
 | Recorded measure | Count |
 | --- | ---: |
-| Research projects | 0 |
+| Research projects | 2 |
 | Published outputs | 0 |
 | Distinct published works | 0 |
 | Accepted contribution tasks | 0 |

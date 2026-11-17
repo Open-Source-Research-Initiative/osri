@@ -5,9 +5,10 @@ const results = document.querySelector('#search-results');
 const count = document.querySelector('#search-count');
 const empty = document.querySelector('#search-empty');
 const normalize = text => text.normalize('NFKC').toLocaleLowerCase();
-const response = await fetch('/search-index.json');
+const languagePrefix = document.documentElement.lang === 'en' ? '' : '/' + document.documentElement.lang.toLowerCase();
+const response = await fetch(languagePrefix + '/search-index.json');
 if (!response.ok) throw new Error('Search index unavailable');
-const records = await response.json();
+const records = (await response.json()).filter(row => (row.language || 'en') === document.documentElement.lang);
 function readURL() {
   const params = new URLSearchParams(location.search);
   query.value = params.get('q') || '';
@@ -31,13 +32,15 @@ function update(save = true) {
     article.append(label, heading, snippet); fragment.append(article);
   });
   results.replaceChildren(fragment);
-  count.textContent = `${matches.length} ${matches.length === 1 ? 'result' : 'results'}${type.value ? ' · ' + type.options[type.selectedIndex].text : ' · all content'}`;
+  const message = matches.length === 1 ? '{count} result' : '{count} results';
+  const t = window.osriTranslate || (text => text);
+  count.textContent = t(message).replace('{count}', matches.length) + ' · ' + (type.value ? type.options[type.selectedIndex].text : t('all content'));
   empty.hidden = matches.length > 0;
   if (save) {
     const params = new URLSearchParams();
     if (query.value.trim()) params.set('q', query.value.trim());
     if (type.value) params.set('type', type.value);
-    history.replaceState(null, '', '/search/' + (params.size ? '?' + params.toString() : ''));
+    history.replaceState(null, '', languagePrefix + '/search/' + (params.size ? '?' + params.toString() : ''));
   }
 }
 form.addEventListener('submit', event => { event.preventDefault(); update(); });

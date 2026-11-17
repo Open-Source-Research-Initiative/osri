@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-17",
+  "status": "machine drafts; no human verification",
+  "providers": [
+    "Google Translate",
+    "Helsinki-NLP OPUS-MT via CTranslate2 4.9.0"
+  ],
+  "models": {
+    "zh-Hans": {
+      "repo": "Zoowr/opus-mt-en-zh-ct2-int8",
+      "revision": "ab1bacf09e2b2666025328d0dbf109503df2cf95",
+      "original_model": "Helsinki-NLP/opus-mt-en-zh"
+    },
+    "ko": {
+      "repo": "eeyzs1/opus-mt-tc-big-en-ko-ct2",
+      "revision": "1cbaafcfa170bf13c7e99acc761e74ba426fa1c2",
+      "tokenizers": {
+        "repo": "Helsinki-NLP/opus-mt-tc-big-en-ko",
+        "revision": "ae8606b7b29a495f31ce679cee2007f536a3a5ce"
+      },
+      "original_model": "Helsinki-NLP/opus-mt-tc-big-en-ko"
+    },
+    "es": {
+      "repo": "michaelfeil/ct2fast-opus-mt-en-es",
+      "revision": "76ec296588e2234f9b7dfad5254219a0f5ecb7af",
+      "original_model": "Helsinki-NLP/opus-mt-en-es"
+    },
+    "fr": {
+      "repo": "Sams200/opus-mt-en-fr",
+      "revision": "23ae42078709c9a6a98b06405872d09a96f721c7",
+      "original_model": "Helsinki-NLP/opus-mt-en-fr"
+    },
+    "ar": {
+      "repo": "ai-path/opus-mt-tc-big-en-ar-ct2",
+      "revision": "23362640d4d30b63f4a7c8ea6d403896b6c5c135",
+      "tokenizers": {
+        "repo": "Helsinki-NLP/opus-mt-tc-big-en-ar",
+        "revision": "ae9f1b2fd512000ca9440eb3b8ec9aa9acb298ac"
+      },
+      "original_model": "Helsinki-NLP/opus-mt-tc-big-en-ar"
+    }
+  },
+  "model_weights_in_repository": false,
+  "review_process": "reviews.json; source and translation hashes in the built translation-pages.json"
+}
