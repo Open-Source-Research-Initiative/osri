@@ -22,6 +22,7 @@ jobs:
         run: |
           python site/build.py --output "$RUNNER_TEMP/osri-site"
           python site/check.py "$RUNNER_TEMP/osri-site"
+          python site/translations.py "$RUNNER_TEMP/osri-site" --check
       - name: Check empty and multiple-project fixtures and counting rules
         run: python -m unittest discover -s site -p 'test_*.py' -v
       - name: Check catalog coverage, comparison evidence rules and output integrity

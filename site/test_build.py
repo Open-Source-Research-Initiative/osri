@@ -163,7 +163,7 @@ class Rendering(unittest.TestCase):
             self.assertIn('Second human', second)
             self.assertIn('No venue candidates', second)
             self.assertNotIn('Candidate—under review', second)
-            self.assertEqual(len([r for r in site.search_records.values() if r['type'] == 'project']), 2)
+            self.assertEqual(len([r for r in site.search_records.values() if r['type'] == 'project' and r['language'] == 'en']), 2)
             browser = (output / 'venues/index.html').read_text()
             self.assertIn('href="/data/publications-venues-venues.csv"', browser)
             self.assertIn('href="/data/publications-venues-venues.json"', browser)

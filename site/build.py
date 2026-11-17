@@ -12,6 +12,7 @@ from html.parser import HTMLParser
 from html_helpers import href, link
 from records import project_data
 import render
+import i18n
 import json
 from pathlib import Path, PurePosixPath
 import re
@@ -41,13 +42,14 @@ def read_csv(path):
 def route(path):
     if path in ALIASES:
         return ALIASES[path]
-    if path.startswith("translations/zh-Hans/"):
-        tail = path.removeprefix("translations/zh-Hans/")
+    if path.startswith("translations/") and path.split('/')[1] in i18n.LANGUAGES:
+        language = path.split('/')[1]
+        tail = path.split('/', 2)[2]
         if tail == "CONTRIBUTING.md":
-            return "/zh-hans/contribute/"
+            return i18n.prefix(language) + "/contribute/"
         if tail == "README.md":
-            return "/zh-hans/"
-        return "/zh-hans" + (ALIASES[tail] if tail in ALIASES else route(tail))
+            return i18n.prefix(language) + "/"
+        return i18n.prefix(language) + (ALIASES[tail] if tail in ALIASES else route(tail))
     parts = list(PurePosixPath(path).with_suffix("").parts)
     if parts[-1] == "README":
         parts.pop()
@@ -76,6 +78,7 @@ def plain(html):
 class Website:
     def __init__(self, output):
         self.output = output
+        self.hub = HUB
         self.commit = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=HUB, text=True).strip()
         self.snapshot = subprocess.check_output(["git", "show", "-s", "--format=%cI", "HEAD"], cwd=HUB, text=True).strip()
         candidates = []
@@ -159,53 +162,52 @@ class Website:
         rendered = re.sub(r'<h([2-6]) id="([^"]+)">(.*?)</h\1>', lambda match: '<h' + match[1] + ' id="' + match[2] + '">' + match[3] + '<a class="heading-link" href="#' + match[2] + '" aria-label="Link to ' + escape(plain(match[3]), quote=True) + '">#</a></h' + match[1] + '>', rendered)
         contents = [(token.attrGet('id'), tokens[i + 1].content) for i, token in enumerate(tokens) if token.type == 'heading_open' and token.tag == 'h2']
         if len(contents) >= 3:
-            label = '本页内容' if source.startswith('translations/') else 'On this page'
+            label = 'On this page'
             toc = '<details class="contents" open><summary>' + label + '</summary><nav aria-label="' + label + '"><ol>' + ''.join('<li>' + link(title, '#' + slug) + '</li>' for slug, title in contents) + '</ol></nav></details>'
             rendered = re.sub(r'(</h1>)', lambda match: match[1] + toc, rendered, count=1)
         return rendered
 
-    def layout(self, title, content, active="", source=None, chinese=False, document=False, home=False, description=None, extra_head=""):
+    def layout(self, title, content, active="", source=None, document=False, home=False, description=None, extra_head=""):
         navigation = ''.join(link(label, url, aria_current='page' if url == active else 'false') for label, url in NAV)
-        translated = 'translations/zh-Hans/' + source if source and not source.startswith('translations/') else None
-        other = self.docs.get(translated, '/zh-hans/') if not chinese else self.docs.get(source.removeprefix('translations/zh-Hans/'), '/')
-        if chinese and source == 'translations/zh-Hans/README.md':
-            other = '/'
-        language = link('简体中文 · 待审核' if not chinese else 'English', other, lang='zh-Hans' if not chinese else 'en')
-        source_note = link('View source on GitHub' if not chinese else '在 GitHub 查看原文', self.source_url(source)) if source else link('Source commit ' + self.commit[:7], f'{GITHUB}/osri/tree/{self.commit}')
+        language = '<!--LANGUAGES-->'
+        source_note = link('View source on GitHub', self.source_url(source)) if source else link('Source commit ' + self.commit[:7], f'{GITHUB}/osri/tree/{self.commit}')
         if document:
             items = [('Research guide', '/start/'), ('Collaborate', '/contribute/'), ('Browser setup', self.docs['docs/browser-setup.md']), ('Collaborators and review', self.docs['docs/find-help.md']), ('Research', '/research/'), ('Topics', '/topics/'), ('Resources', '/resources/'), ('Tools and skills', '/tools/'), ('Publish and record', self.docs['publications/publish.md']), ('Standards', self.docs['governance/contribution-standards.md'])]
-            if chinese:
-                items = [('中文首页', '/zh-hans/'), ('研究入门', '/zh-hans/start/'), ('参与方式', '/zh-hans/contribute/'), ('贡献规范', self.docs['translations/zh-Hans/governance/contribution-standards.md'])]
-            aside = '<aside class="guide-sidebar"><details open><summary>' + ('指南' if chinese else 'Guides') + '</summary><nav aria-label="Guide navigation">' + ''.join(link(label, url) for label, url in items) + '</nav></details></aside>'
+            aside = '<aside class="guide-sidebar"><details open><summary>' + 'Guides' + '</summary><nav aria-label="Guide navigation">' + ''.join(link(label, url) for label, url in items) + '</nav></details></aside>'
             content = f'<div class="document-layout">{aside}<article class="document">{content}<p class="source-note">{source_note}</p></article></div>'
         name = escape(title + ' · OSRI' if title != 'Open Source Research Initiative' else title)
         if description is None:
             first = re.search(r'<p(?: [^>]*)?>(.*?)</p>', content, re.S)
             description = title + ': ' + (plain(first[1]) if first else 'Research, collaboration and open methods from OSRI.')
         description = escape(description[:220], quote=True)
-        body_class = ('home' if home else 'content-page') + (' chinese' if chinese else '')
+        body_class = ('home' if home else 'content-page')
         return f'''<!doctype html>
-<html lang="{'zh-Hans' if chinese else 'en'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="{description}"><title>{name}</title><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"><link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/site.css"><meta property="og:title" content="{name}"><meta property="og:description" content="{description}"><meta property="og:type" content="website"><meta property="og:image" content="{ORIGIN}/assets/images/social-org.png"><meta name="twitter:card" content="summary_large_image"><script type="module" src="/site.js"></script>{extra_head}</head>
-<body class="{body_class}"><a class="skip-link" href="#main">{'跳到正文' if chinese else 'Skip to content'}</a>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="{description}"><title>{name}</title><link rel="icon" href="/assets/images/logo-symbol.svg" type="image/svg+xml"><link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/site.css"><meta property="og:title" content="{name}"><meta property="og:description" content="{description}"><meta property="og:type" content="website"><meta property="og:image" content="{ORIGIN}/assets/images/social-org.png"><meta name="twitter:card" content="summary_large_image"><script type="module" src="/site.js"></script>{extra_head}</head>
+<body class="{body_class}"><a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header wrap"><a class="brand" href="/" aria-label="OSRI home"><img src="/assets/images/logo-symbol.svg" alt="" width="36" height="40"><span><strong>OSRI</strong><span>Open Source Research Initiative</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" hidden>Menu <span aria-hidden="true">☰</span></button><div class="header-links" id="primary-menu"><nav class="site-nav" aria-label="Primary navigation">{navigation}</nav><div class="header-tools">{link('Search', '/search/')}<details class="language-control"><summary>Language</summary><div>{language}</div></details>{link('Collaborate ↗', '/contribute/', class_='button primary')}</div></div></header>
 <main id="main" class="wrap" tabindex="-1">{content}</main>
 <footer class="site-footer wrap"><div><strong>Open Source Research Initiative</strong><span>{source_note}</span></div><nav aria-label="Secondary navigation">{link('Publications', '/publications/')}{link('Activity', '/activity/')}{link('GitHub ↗', GITHUB)}{link('Discussions ↗', FORUM)}{link('Licensing', self.docs['LICENSE.md'])}{language}</nav></footer></body></html>'''
 
-    def write(self, url, text):
+    def write(self, url, text, translated=False):
         path = self.output / url.strip('/') / 'index.html' if url.endswith('/') else self.output / url.lstrip('/')
         path.parent.mkdir(parents=True, exist_ok=True)
         canonical = ORIGIN + ('/' + url.lstrip('/'))
-        text = text.replace('</head>', f'<link rel="canonical" href="{canonical}"><meta property="og:url" content="{canonical}"></head>')
+        if not translated:
+            text = text.replace('<!--LANGUAGES-->', i18n.language_links(url if url.endswith('/') else '/'))
+            alternates = ''.join(f'<link rel="alternate" hreflang="{language}" href="{ORIGIN}{i18n.prefix(language)}{url}">' for language in i18n.LANGUAGES) if url.endswith('/') else ''
+            text = text.replace('</head>', f'<link rel="canonical" href="{canonical}"><meta property="og:url" content="{canonical}">{alternates}</head>')
         path.write_text(text, encoding='utf-8')
         self.pages.add(url)
         if url not in {'/search/', '404.html'}:
             title = plain(re.search(r'<h1[^>]*>(.*?)</h1>', text, re.S)[1])
             main = re.search(r'<main[^>]*>(.*?)</main>', text, re.S)[1]
-            kind = 'project' if url.startswith('/research/') and url != '/research/' else 'publication' if url == '/publications/' else 'resource' if url in {'/resources/', '/tools/', '/simulation-lab/'} else 'topic' if url == '/topics/' else 'guide'
+            base_url = re.sub(r'^/(?:zh-hans|ko|es|fr|ar)(?=/)', '', url)
+            kind = 'project' if base_url.startswith('/research/') and base_url != '/research/' else 'publication' if base_url == '/publications/' else 'resource' if base_url in {'/resources/', '/tools/', '/simulation-lab/'} else 'topic' if base_url == '/topics/' else 'guide'
             self.add_search(url, title, kind, plain(main))
 
     def add_search(self, url, title, kind, text):
-        self.search_records[url] = {'url': url, 'title': title, 'type': kind, 'text': text}
+        language = next((tag for tag in i18n.LANGUAGES if tag != 'en' and url.startswith(i18n.prefix(tag) + '/')), 'en')
+        self.search_records[url] = {'url': url, 'title': title, 'type': kind, 'text': text, 'language': language}
 
     def heading(self, label, title, text):
         return f'<header class="page-intro"><p class="eyebrow">{escape(label)}</p><h1>{escape(title)}</h1><p>{escape(text)}</p></header>'
@@ -252,6 +254,14 @@ class Website:
             fragment = fragment.replace(old, new)
         for source, destination in [('directory.css','venue-directory.css'),('directory.js','venue-directory.js')]:
             shutil.copy2(directory / source, self.output / destination)
+        # The reviewed directory snapshot stays byte-identical. Its derived site
+        # script translates displayed evidence before truncating it for cards.
+        directory_script = self.output / 'venue-directory.js'
+        script = directory_script.read_text()
+        script = script.replace("const escapeText=s=>String(s??'')", "const escapeText=s=>String(window.osriTranslate?.(s??'')??(s??''))")
+        script = script.replace("const t=String(text||'');return escapeText", "const t=String(window.osriTranslate?.(text||'')??(text||''));return escapeText")
+        script = script.replace("JSON.stringify([v.name,v.subjects,v.scope_by_subfield,v.formats]).toLowerCase().includes(query)", "JSON.stringify([v.name,v.subjects,v.scope_by_subfield,v.formats],(key,value)=>typeof value==='string'?(value+' '+(window.osriTranslate?.(value)??value)):value).toLowerCase().includes(query)")
+        directory_script.write_text(script)
         help_links = '<nav class="text-actions" aria-label="Directory help">' + link('90-second walkthrough', self.docs['docs/venue-directory-demo.md']) + link('Report a source or correction ↗', 'https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/new?template=venue-evidence.yml') + link('Share your experience ↗', 'https://github.com/Open-Source-Research-Initiative/free-publication-directory/issues/new?template=directory-use.yml') + link('Choose a starter task', self.docs['community/venue-starter-tasks.md']) + '</nav>'
         fragment = help_links + fragment
         extra = '<link rel="stylesheet" href="/venue-directory.css"><script defer src="/venue-directory.js"></script>'
@@ -391,7 +401,7 @@ class Website:
 
     def assets(self):
         shutil.copytree(SITE / "assets", self.output / "assets", dirs_exist_ok=True)
-        for name in ["styles.css", "site.css", "site.js", "search.js"]:
+        for name in ["styles.css", "site.css", "site.js", "search.js", "i18n.js"]:
             shutil.copy2(SITE / name, self.output / name)
         shutil.copy2(HUB / "identity/prism/previews/social-org.png", self.output / "assets/images/social-org.png")
         data_paths = ["resources/resources.csv", "topics/example-topics.csv", "tooling/research-tools.csv", "projects/projects.csv", "publications/publications.csv", "community/contributions.csv", "translations/status.csv", "simulation-lab/tools.csv", "simulation-lab/papers.csv", "simulation-lab/examples.csv", "simulation-lab/research/routes.csv"]
@@ -404,11 +414,12 @@ class Website:
             shutil.copy2(HUB / path, destination)
         shutil.copytree(HUB / "LICENSES", self.output / "licenses", dirs_exist_ok=True)
         from fontTools.ttLib import TTFont
-        for filename in ['Inter-Regular', 'Inter-Bold', 'IBMPlexMono-Regular']:
+        for filename in ['Inter-Regular', 'Inter-Bold', 'IBMPlexMono-Regular', 'NotoSansArabic']:
             font = TTFont(SITE / 'assets/fonts' / (filename + '.ttf'), recalcTimestamp=False)
             font.flavor = 'woff2'
             font.save(self.output / 'assets/fonts' / (filename + '.woff2'))
         self.chinese_font()
+        self.korean_font()
         identity = self.output / 'assets/identity'
         identity.mkdir(exist_ok=True)
         for path in (HUB / 'identity/prism/sources').glob('*.svg'):
@@ -428,6 +439,8 @@ class Website:
         from fontTools.ttLib import TTFont
         characters = "本页内容指南开始参与研究英文资源记录讨论中文首页入门贡献规范申请写作翻译视觉识别跳到正文在查看原文简体待审核"
         characters += "".join((HUB / source).read_text() for source in self.docs if source.startswith("translations/zh-Hans/"))
+        characters += ''.join(i18n.catalog(HUB, 'zh-Hans')['messages'].values())
+        characters += i18n.LANGUAGES['zh-Hans'][2]
         options = subset.Options()
         options.flavor = "woff2"
         options.recalc_timestamp = False
@@ -448,18 +461,42 @@ class Website:
             raise ValueError("Chinese font is missing: " + "".join(sorted(missing)))
         shutil.copy2(HUB / "identity/shared-language/fonts/NOTO-CJK-SC-OFL.txt", self.output / "assets/fonts/NOTO-RESEARCH-CJK-OFL.txt")
 
+    def korean_font(self):
+        from fontTools import subset
+        from fontTools.ttLib import TTFont
+        text = ''.join(i18n.catalog(HUB, 'ko')['messages'].values()) + i18n.LANGUAGES['ko'][0] + i18n.LANGUAGES['ko'][2] + '번역 검토 참여'
+        options = subset.Options()
+        options.flavor = 'woff2'
+        options.recalc_timestamp = False
+        font = TTFont(HUB / 'identity/shared-language/fonts/NotoSansCJKSC-Regular.woff2', recalcTimestamp=False)
+        worker = subset.Subsetter(options=options)
+        worker.populate(text=text)
+        worker.subset(font)
+        names = {1: 'OSRI Research Korean', 2: 'Regular', 3: 'OSRI Research Korean 1', 4: 'OSRI Research Korean', 6: 'OSRIResearchKorean-Regular', 16: 'OSRI Research Korean', 17: 'Regular'}
+        for entry in font['name'].names:
+            if entry.nameID in names:
+                entry.string = names[entry.nameID].encode(entry.getEncoding())
+        font.flavor = 'woff2'
+        output = self.output / 'assets/fonts/OSRI-Research-Korean.woff2'
+        font.save(output)
+        coverage = TTFont(output).getBestCmap()
+        if any(ord(char) not in coverage for char in text if '\uac00' <= char <= '\ud7af'):
+            raise ValueError('Korean font has missing Hangul glyphs')
+
     def build(self):
         subprocess.run([sys.executable, str(HUB / "simulation-lab/catalog.py")], check=True)
         self.output.mkdir(parents=True, exist_ok=False)
         self.assets()
         activity = runpy.run_path(str(HUB / "community/update.py"), run_name="osri_activity")
         for path, url in self.docs.items():
+            if path.startswith('translations/') and path.split('/')[1] in i18n.LANGUAGES:
+                continue  # Legacy Markdown links resolve to the current catalog-backed pages.
             text = activity["build"](HUB) if path == "community/ACTIVITY.md" else (HUB / path).read_text()
             title = title_of(text, Path(path).stem)
             if not re.search(r"^# ", text, re.M):
                 text = f"# {title}\n\n{text}"
             body = render.venue_demo(self, title, text.partition('\n')[2]) if path == 'docs/venue-directory-demo.md' else self.markdown(text, path)
-            self.write(url, self.layout(title, body, active=url, source=path, chinese=path.startswith("translations/zh-Hans/"), document=True))
+            self.write(url, self.layout(title, body, active=url, source=path, document=True))
         original_contribution = self.markdown((HUB / 'CONTRIBUTING.md').read_text(), 'CONTRIBUTING.md')
         original_contribution = re.sub(r'<h1(.*?)>(.*?)</h1>', r'<h2\1>\2</h2>', original_contribution, count=1)
         collaboration = render.collaborate(self) + '<details class="contribution-details"><summary>Full contribution guide</summary><div class="document">' + original_contribution + '</div></details>'
@@ -477,6 +514,7 @@ class Website:
         self.render_guides()
         self.render_search()
         self.write("404.html", self.layout("Page not found", self.heading("404", "Page not found", "Use the guides or return to the home page.") + '<div class="text-actions">' + link("Home", "/") + link("Find a guide", "/guides/") + "</div>"))
+        i18n.build_translations(self)
         (self.output / ".nojekyll").write_text("")
         (self.output / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {ORIGIN}/sitemap.xml\n")
         (self.output / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{ORIGIN}{escape(url)}</loc></url>" for url in sorted(self.pages) if url.endswith("/")) + "</urlset>")
