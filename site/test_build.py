@@ -37,7 +37,7 @@ class Records(unittest.TestCase):
 
     def test_current_records(self):
         projects, summaries, targets = project_data(self.root)
-        self.assertEqual(len(projects), 1)
+        self.assertIn('OSRI-0002', {project['project_id'] for project in projects})
         self.assertEqual(len(targets), 3)
         self.assertEqual(project_status(summaries['OSRI-0001']), 'Active · Research')
 
@@ -145,9 +145,9 @@ class Rendering(unittest.TestCase):
                 (hub / 'publications/targets.json').write_text('[]')
             else:
                 with (hub / 'projects/projects.csv').open('a') as stream:
-                    stream.write('OSRI-0002,Second study,https://example.org/study,Engineering,Second human\n')
+                    stream.write('OSRI-9998,Second study,https://example.org/study,Engineering,Second human\n')
                 summaries = json.loads((hub / 'projects/summaries.json').read_text())
-                second = copy.deepcopy(summaries[0]); second['project_id'] = 'OSRI-0002'; second['short_title'] = 'Second study'; second['summary'] = 'Second question with a separate human lead.'; second['stage'] = 'planning'; second['status_decision']['by'] = 'Second human'
+                second = copy.deepcopy(summaries[0]); second['project_id'] = 'OSRI-9998'; second['short_title'] = 'Second study'; second['summary'] = 'Second question with a separate human lead.'; second['stage'] = 'planning'; second['status_decision']['by'] = 'Second human'
                 summaries.append(second)
                 (hub / 'projects/summaries.json').write_text(json.dumps(summaries))
             output = Path(temp) / 'built'
@@ -159,11 +159,15 @@ class Rendering(unittest.TestCase):
 
     def test_multiple_projects_end_to_end(self):
         with self.fixture() as (site, output):
-            second = (output / 'research/osri-0002/index.html').read_text()
+            second = (output / 'research/osri-9998/index.html').read_text()
             self.assertIn('Second human', second)
             self.assertIn('No venue candidates', second)
             self.assertNotIn('Candidate—under review', second)
-            self.assertEqual(len([r for r in site.search_records.values() if r['type'] == 'project' and r['language'] == 'en']), 2)
+            english_projects = [
+                record for record in site.search_records.values()
+                if record['type'] == 'project' and record['language'] == 'en'
+            ]
+            self.assertEqual(len(english_projects), len(site.summaries))
             browser = (output / 'venues/index.html').read_text()
             self.assertIn('href="/data/publications-venues-venues.csv"', browser)
             self.assertIn('href="/data/publications-venues-venues.json"', browser)

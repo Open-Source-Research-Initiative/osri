@@ -18,6 +18,8 @@ jobs:
           cache: pip
           cache-dependency-path: site/requirements.txt
       - run: python -m pip install --disable-pip-version-check -r site/requirements.txt
+      - name: Check that the activity board matches its registers
+        run: python community/update.py --check
       - name: Build and check routes, attribution and search coverage
         run: |
           python site/build.py --output "$RUNNER_TEMP/osri-site"
